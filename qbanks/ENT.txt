@@ -1,0 +1,4604 @@
+  {
+    "id": 333,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "The most common cause for blue ear drum is:",
+    "options": [
+      "a. Glomus Jugular tumor",
+      "b. High Jugular bulb",
+      "c. Cholesterol granuloma",
+      "d. Glue ear",
+      "e. Haemotympanum"
+    ],
+    "answer": "c. Cholesterol granuloma",
+    "explanation": "While Secretory Otitis Media (Glue Ear) can give a bluish tint, Cholesterol Granuloma is the classic pathological entity specifically described as 'Idiopathic Blue Ear Drum'. Haemotympanum causes a blue/black drum usually associated with trauma."
+  },
+  {
+    "id": 334,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Traumatic perforation of ear drum:",
+    "options": [
+      "a. Usually affects the pars tensa",
+      "b. Severe pain is the only symptom",
+      "c. Tinnitus and vertigo may persist for long Time",
+      "d. Myringoplasty is usually indicated to restore hearing"
+    ],
+    "answer": "a. Usually affects the pars tensa",
+    "explanation": "Traumatic perforations most commonly occur in the pars tensa. Pain is not the only symptom (hearing loss, tinnitus occur), and most heal spontaneously without surgery."
+  },
+  {
+    "id": 335,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "A 20 years old patient presented with decreased hearing in his left ear for the last 20 days. Ear examination shows dull tympanic membrane. Weber is lateralized towards left ear, Rinne is positive on right side and negative on left side. ABC tests are normal. What is the most likely diagnosis?",
+    "options": [
+      "a. Conductive deafness on left ear",
+      "b. Conductive deafness right ear",
+      "c. Sensoryneural deafness left ear",
+      "d. Sensoryneural deafness Right ear"
+    ],
+    "answer": "a. Conductive deafness on left ear",
+    "explanation": "Weber lateralizing to the affected (left) ear and a negative Rinne (Bone > Air) in that ear are the hallmarks of Conductive Hearing Loss."
+  },
+  {
+    "id": 336,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Treatment of small dry traumatic rupture of tympanic membrane is:",
+    "options": [
+      "a. Antibiotic ear drops",
+      "b. Myringoplasty",
+      "c. Protection of ear against water",
+      "d. Ear pack"
+    ],
+    "answer": "c. Protection of ear against water",
+    "explanation": "Most small traumatic perforations heal spontaneously. The main management is keeping the ear dry to prevent infection."
+  },
+  {
+    "id": 337,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "A 35 year old lady with bilateral asymmetrical conductive deafness, having one brother and one sister with same complaints. The tympanic membrane appears normal. Most likely diagnosis:",
+    "options": [
+      "a. Tympanosclerosis",
+      "b. Healed chronic SOM",
+      "c. Otosclerosis",
+      "d. Wax in ear",
+      "e. Congenital fixation of foot plate of stapes"
+    ],
+    "answer": "c. Otosclerosis",
+    "explanation": "Bilateral conductive deafness in a young/middle-aged female with a normal tympanic membrane and a positive family history is characteristic of Otosclerosis."
+  },
+  {
+    "id": 338,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "In 40 years female patient with left hearing loss. Rinne test is negative on the left side and tympanogram is type As, your diagnosis is:",
+    "options": [
+      "a. Left secretory otitis media",
+      "b. Left osteosclerosis",
+      "c. Left tympanosclerosis",
+      "d. All are true"
+    ],
+    "answer": "b. Left osteosclerosis",
+    "explanation": "A negative Rinne indicates conductive loss. A Type As tympanogram indicates reduced compliance (stiffness) of the ossicular chain, which matches Otosclerosis (fixation of stapes)."
+  },
+  {
+    "id": 339,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Osteosclerosis can be diagnosed by:",
+    "options": [
+      "a. Tuning fork test",
+      "b. Pure tone audiogram",
+      "c. Impedance audiometry",
+      "d. Speech audiometry",
+      "e. PTA and impedance audiometry"
+    ],
+    "answer": "e. PTA and impedance audiometry",
+    "explanation": "Diagnosis involves confirming conductive loss and Carhart's notch via Pure Tone Audiometry (PTA) and finding a specific tympanogram pattern (Type As) via Impedance Audiometry."
+  },
+  {
+    "id": 340,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Posterosuperior Perforation of Ear drum is usually seen on:",
+    "options": [
+      "a. Traumatic perforation",
+      "b. Tubotympanic disease (Mucosal type)",
+      "c. Acute SOM",
+      "d. Atticoantral disease (squamous type)",
+      "e. Following Myringotomy /grommet insertion"
+    ],
+    "answer": "d. Atticoantral disease (squamous type)",
+    "explanation": "Posterosuperior perforations (attic region) are associated with unsafe CSOM (Atticoantral/Squamous disease) and Cholesteatoma."
+  },
+  {
+    "id": 341,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "A 45 year old male has noticed difficulty hearing on phone. He is concerned because his father has moderately hard of hearing since middle age. BC is normal. An audiogram shows moderate hearing loss in both ears of almost all frequencies. What is the single most likely cause?",
+    "options": [
+      "a. Acoustic neuroma",
+      "b. Meniere's disease",
+      "c. Noise induced deafness",
+      "d. Otosclerosis",
+      "e. Presbycusis"
+    ],
+    "answer": "d. Otosclerosis",
+    "explanation": "Normal Bone Conduction (BC) with hearing loss implies an Air-Bone gap (Conductive Loss). Combined with a family history and middle age onset, Otosclerosis is the likely cause. Difficulty on the phone but potentially better hearing in noise (Paracusis Willisii) is common."
+  },
+  {
+    "id": 342,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Tympanic membrane functionally is part of:",
+    "options": [
+      "a. Middle ear",
+      "b. External ear",
+      "c. Both",
+      "d. Is a separate cavity",
+      "e. All of the above"
+    ],
+    "answer": "c. Both",
+    "explanation": "The tympanic membrane forms the partition between the external and middle ear, consisting of layers from both (ectoderm and endoderm). Functionally, it transmits sound to the middle ear ossicles."
+  },
+  {
+    "id": 343,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Rupture of tympanic membrane is suspected if during syringing there is:",
+    "options": [
+      "a. Excessive pain",
+      "b. Vertigo",
+      "c. Blood tinged returning fluid",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "d. All of the above",
+    "explanation": "Traumatic rupture during syringing causes acute pain, bleeding, and potentially vertigo if cold water enters the middle ear (caloric stimulation)."
+  },
+  {
+    "id": 344,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Very red tympanic membrane is diagnostic of:",
+    "options": [
+      "a. Secretory otitis media",
+      "b. Acute middle ear catarrh",
+      "c. Acute suppurative otitis media",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "c. Acute suppurative otitis media",
+    "explanation": "Intense hyperemia (redness) of the tympanic membrane ('cartwheel' appearance) is a sign of the stage of congestion in Acute Suppurative Otitis Media (ASOM)."
+  },
+  {
+    "id": 345,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Voice of otosclerosis is:",
+    "options": [
+      "a. Low, well modulated voice",
+      "b. High, well modulated voice",
+      "c. Loud harsh speech",
+      "d. Variable",
+      "e. None"
+    ],
+    "answer": "a. Low, well modulated voice",
+    "explanation": "Patients with conductive deafness (Otosclerosis) hear their own voice loudly via bone conduction, so they tend to speak softly (quietly)."
+  },
+  {
+    "id": 346,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS - Tympanic membrane/Ear drum",
+    "question": "Preferred treatment for otosclerosis is:",
+    "options": [
+      "a. Hearing aid",
+      "b. Stapes mobilization",
+      "c. Stapedectomy",
+      "d. Fenestration",
+      "e. Medicine"
+    ],
+    "answer": "c. Stapedectomy",
+    "explanation": "Stapedectomy (or Stapedotomy) is the surgical treatment of choice to restore hearing in otosclerosis."
+  },
+  {
+    "id": 347,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Inner ear malformation in fetus can occur when mother during pregnancy is exposed to:",
+    "options": [
+      "a. Radiations",
+      "b. German measles",
+      "c. Cytomegalovirus",
+      "d. Thalidomide",
+      "e. All of the above"
+    ],
+    "answer": "e. All of the above",
+    "explanation": "TORCH infections (like Rubella/CMV) and teratogenic agents (Thalidomide, Radiation) are known causes of congenital inner ear defects."
+  },
+  {
+    "id": 348,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "A 44 year old woman presents with rotational vertigo, nausea and vomiting specially on moving her head. She also had a similar episode 2 years back. These episodes typically follow an event of runny nose, cold, cough and what is the most probable diagnosis?",
+    "options": [
+      "a. Acoustic neuroma",
+      "b. Meniere's disease",
+      "c. Labyrinthitis",
+      "d. Benign paroxysmal positional vertigo",
+      "e. Vestibular neuritis"
+    ],
+    "answer": "e. Vestibular neuritis",
+    "explanation": "Severe vertigo following a viral upper respiratory infection is characteristic of Vestibular Neuritis. The absence of hearing loss distinguishes it from Labyrinthitis."
+  },
+  {
+    "id": 349,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "A 49 year old man complain of fullness in his left ear, recurrent vomiting and tinnitus. What is the most appreciated medication?",
+    "options": [
+      "a. Buccal prochlorperazine",
+      "b. Oral chlorpheniramine",
+      "c. Oral fluphenazine",
+      "d. Oral midazolam",
+      "e. I/V ranitidine"
+    ],
+    "answer": "a. Buccal prochlorperazine",
+    "explanation": "The symptoms suggest Meniere's Disease. Buccal prochlorperazine is effective for rapid relief of acute vertigo and vomiting."
+  },
+  {
+    "id": 350,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Endolymph is formed in:",
+    "options": [
+      "a. Utricle",
+      "b. Endolymphatic sac",
+      "c. Scala media",
+      "d. Scala tympani"
+    ],
+    "answer": "c. Scala media",
+    "explanation": "Endolymph is secreted by the Stria Vascularis located in the Scala Media (Cochlear Duct)."
+  },
+  {
+    "id": 351,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "All of the following drugs are mainly toxic to the vestibular system except:",
+    "options": [
+      "a. Streptomycin",
+      "b. Gentamicin",
+      "c. Kanamycin",
+      "d. Minocycline"
+    ],
+    "answer": "c. Kanamycin",
+    "explanation": "Streptomycin and Gentamicin are primarily Vestibulotoxic. Kanamycin, Amikacin, and Neomycin are primarily Cochleotoxic."
+  },
+  {
+    "id": 352,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Ototoxic effects are reversible in case of the following drugs if drug administration is stopped except:",
+    "options": [
+      "a. Quinine",
+      "b. Salicylates",
+      "c. Furosemide",
+      "d. Gentamicin"
+    ],
+    "answer": "d. Gentamicin",
+    "explanation": "Aminoglycoside (Gentamicin) ototoxicity involves hair cell destruction and is usually permanent. Toxicity from Aspirin (Salicylates) and Quinine is typically reversible."
+  },
+  {
+    "id": 353,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Following are causes of dizziness except:",
+    "options": [
+      "a. Meniere's Disease",
+      "b. Poorly controlled Diabetes",
+      "c. Migraine",
+      "d. Oral ulceritis"
+    ],
+    "answer": "d. Oral ulceritis",
+    "explanation": "Oral ulceritis (mouth ulcers) has no pathological connection to the vestibular system or dizziness."
+  },
+  {
+    "id": 354,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Regarding BPPV which statement is false:",
+    "options": [
+      "a. It may present with vertigo with change of head position",
+      "b. Symptoms may be elicited by doing Hallpike test",
+      "c. Treated by Epley's maneuver",
+      "d. It is caused by ototoxic drugs"
+    ],
+    "answer": "d. It is caused by ototoxic drugs",
+    "explanation": "BPPV is caused by dislodged otoconia (canalithiasis), often idiopathic or post-traumatic. It is not a result of ototoxicity."
+  },
+  {
+    "id": 355,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Reissner's membrane separate:",
+    "options": [
+      "a. Scala media and Scala vestibule",
+      "b. Scala media and tympani",
+      "c. Scala vestibule and tympani",
+      "d. None of the above",
+      "e. All of the above"
+    ],
+    "answer": "a. Scala media and Scala vestibule",
+    "explanation": "Reissner's membrane (Vestibular membrane) separates the Scala Vestibuli from the Scala Media."
+  },
+  {
+    "id": 356,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "The following has ototoxic effect except:",
+    "options": [
+      "a. Gentamicin",
+      "b. Furosemide",
+      "c. Streptomycin",
+      "d. Amoxicillin",
+      "e. Quinine"
+    ],
+    "answer": "d. Amoxicillin",
+    "explanation": "Amoxicillin is a penicillin antibiotic and does not have ototoxic side effects."
+  },
+  {
+    "id": 357,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "A patient with regular episodes of Sensorineural deafness, vertigo and tinnitus lasts greater than 30 mints. Neurological examination is normal. What is your diagnosis?",
+    "options": [
+      "a. Meniere's Disease",
+      "b. Acoustic neuroma",
+      "c. Otosclerosis",
+      "d. Benign positional vertigo",
+      "e. Labyrinthitis"
+    ],
+    "answer": "a. Meniere's Disease",
+    "explanation": "The classic tetrad of episodic vertigo (>20 mins), SNHL, tinnitus, and aural fullness defines Meniere's Disease."
+  },
+  {
+    "id": 358,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Three semicircular canals open in vestibule by:",
+    "options": [
+      "a. 3 openings",
+      "b. 4 openings",
+      "c. 5 openings",
+      "d. 6 openings",
+      "e. 10 openings"
+    ],
+    "answer": "c. 5 openings",
+    "explanation": "There are 3 canals (Anterior, Posterior, Lateral), but the Anterior and Posterior share a common crus, leading to a total of 5 openings into the vestibule."
+  },
+  {
+    "id": 359,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Balance of the body is maintained by:",
+    "options": [
+      "a. Vestibular system",
+      "b. Eyes",
+      "c. Proprioception",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "d. All of the above",
+    "explanation": "Balance relies on the integration of inputs from the vestibular system, visual system, and proprioceptive sensors."
+  },
+  {
+    "id": 360,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Frenzel glasses are used for:",
+    "options": [
+      "a. Squint",
+      "b. Diplopia",
+      "c. Minor degree of nystagmus",
+      "d. Presbyopia",
+      "e. All"
+    ],
+    "answer": "c. Minor degree of nystagmus",
+    "explanation": "Frenzel glasses magnify the eyes and remove visual fixation, facilitating the observation of nystagmus (especially peripheral nystagmus which is suppressed by fixation)."
+  },
+  {
+    "id": 361,
+    "subject": "ENT",
+    "topic": "Internal Ear",
+    "question": "Lermoyez syndrome is variant of:",
+    "options": [
+      "a. Otosclerosis",
+      "b. Osteogenesis imperfecta",
+      "c. Meniere's Disease",
+      "d. Vestibular neuritis",
+      "e. All"
+    ],
+    "answer": "c. Meniere's Disease",
+    "explanation": "Lermoyez syndrome is a rare variant of Meniere's disease where hearing improves during or before the vertigo attack (Reverse Meniere's)."
+  },
+  {
+    "id": 362,
+    "subject": "ENT",
+    "topic": "Facial Nerve",
+    "question": "During superficial Parotidectomy, Most reliable mark for facial nerve identification is:",
+    "options": [
+      "a. Mastoid tip",
+      "b. Styloid process",
+      "c. Tympanomastoid suture",
+      "d. Cartilage of external ear canal",
+      "e. All"
+    ],
+    "answer": "c. Tympanomastoid suture",
+    "explanation": "While all listed structures are guides, the Tympanomastoid Suture is often cited as the most consistent bony landmark for the main trunk of the facial nerve."
+  },
+  {
+    "id": 363,
+    "subject": "ENT",
+    "topic": "Facial Nerve",
+    "question": "After mastoidectomy operation, Facial nerve paralysis was observed after recovery from Anesthesia:",
+    "options": [
+      "a. Steroids and follow up are only required",
+      "b. Immediate surgical exploration is needed",
+      "c. Surgical exploration is made after electro diagnosis tests",
+      "d. Giving steroids and removing the ear pack is usually successful"
+    ],
+    "answer": "b. Immediate surgical exploration is needed",
+    "explanation": "Immediate paralysis upon waking suggests nerve transection or severe injury during surgery. Immediate exploration and repair are indicated."
+  },
+  {
+    "id": 364,
+    "subject": "ENT",
+    "topic": "Facial Nerve",
+    "question": "A preauricular swelling of 2 months duration and progressive course of facial paralysis is:",
+    "options": [
+      "a. Mumps",
+      "b. Malignant parotid tumor",
+      "c. Bell's palsy",
+      "d. Temporomandibular joint"
+    ],
+    "answer": "b. Malignant parotid tumor",
+    "explanation": "A parotid mass associated with facial nerve paralysis is highly suggestive of a malignancy invading the nerve."
+  },
+  {
+    "id": 365,
+    "subject": "ENT",
+    "topic": "Facial Nerve",
+    "question": "Facial paralysis may be seen in all diseases except:",
+    "options": [
+      "a. Sarcoidosis",
+      "b. Infectious Mononucleosis",
+      "c. Mumps",
+      "d. Acute otitis media",
+      "e. None"
+    ],
+    "answer": "e. None",
+    "explanation": "Facial paralysis can occur in all the listed conditions (Heerfordt's syndrome in Sarcoidosis, complications of Otitis Media, and rare neuritides in Mumps/Mono)."
+  },
+  {
+    "id": 366,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "What is the frequency range which is audible to a normal person:",
+    "options": [
+      "a. 10-1000Hz",
+      "b. 100-10000Hz",
+      "c. 20-2000Hz",
+      "d. 20-20000Hz",
+      "e. 20-8000Hz"
+    ],
+    "answer": "d. 20-20000Hz",
+    "explanation": "The standard range of human hearing is 20 Hz to 20,000 Hz (20 kHz)."
+  },
+  {
+    "id": 367,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "Webers test was performed on a patient, which showed that it is lateralized to his right ear. What is the likely possibility for this?",
+    "options": [
+      "a. There is conductive deafness in left ear",
+      "b. There is conductive deafness in right ear",
+      "c. There is sensorineural deafness in right ear",
+      "d. There is sensorineural deafness in both ears",
+      "e. Both ears are normal"
+    ],
+    "answer": "b. There is conductive deafness in right ear",
+    "explanation": "Weber lateralizes to the ear with Conductive loss or away from the ear with Sensorineural loss. Lateralization to the Right implies Right Conductive or Left Sensorineural loss."
+  },
+  {
+    "id": 368,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "The screening test to diagnose hearing problem in neonates is:",
+    "options": [
+      "a. Brain stem evoked response audiometry",
+      "b. Tympanometry",
+      "c. Pure tone audiogram",
+      "d. Behavioral audiometry",
+      "e. Otoacoustic emission"
+    ],
+    "answer": "e. Otoacoustic emission",
+    "explanation": "Otoacoustic Emissions (OAE) is the standard, rapid screening test for newborn hearing."
+  },
+  {
+    "id": 369,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 70 years old patient is suffering from sensoryneural hearing loss. The underlying condition is usually:",
+    "options": [
+      "a. Meniere's Disease",
+      "b. Acoustic neuroma",
+      "c. VIII cranial nerve shwanoma",
+      "d. Presbycusis",
+      "e. Chronic suppurative otitis media"
+    ],
+    "answer": "d. Presbycusis",
+    "explanation": "Age-related sensorineural hearing loss is known as Presbycusis."
+  },
+  {
+    "id": 370,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 27 year old male who had a road traffic accident 7 months back now complaints of attacks of sudden rotational vertigo which comes on with sharp movements of head and neck. Which of the following would be most useful?",
+    "options": [
+      "a. Caloric testing",
+      "b. Hallpike maneuver",
+      "c. Meniere's test",
+      "d. Otoscopy"
+    ],
+    "answer": "b. Hallpike maneuver",
+    "explanation": "The history suggests Post-Traumatic Benign Paroxysmal Positional Vertigo (BPPV). The Dix-Hallpike maneuver is diagnostic."
+  },
+  {
+    "id": 371,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 4 years old child was diagnosed with secretory otitis media. His tympanic membrane on both sides are dull looking and retracted. Baseline lab investigations are within normal limit. What is the standard investigation for confirmation of pathology?",
+    "options": [
+      "a. Evoked response audiometry",
+      "b. Pure tone audiometer",
+      "c. Speech audiometry",
+      "d. Tuning fork tests",
+      "e. Tympanometry"
+    ],
+    "answer": "e. Tympanometry",
+    "explanation": "Tympanometry is the objective test of choice to confirm middle ear fluid (showing a flat Type B curve) in children with OME."
+  },
+  {
+    "id": 372,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 25 years old patient presented with sudden hearing loss on his left examination if ear shows normal looking tympanic membrane, local and systemic examination is unremarkable. Weber is lateralized towards right ear, Rinne test having louder hearing on air conduction and ABC test is reduced on left ear..most likely diagnosis?",
+    "options": [
+      "a. Conductive deafness on left ear",
+      "b. Conductive deafness right ear",
+      "c. Sensoryneural hearing loss on Left ear",
+      "d. Mixed hearing loss both ears",
+      "e. Sensoryneural deafness Right ear"
+    ],
+    "answer": "c. Sensoryneural hearing loss on Left ear",
+    "explanation": "Loss in left ear + Weber to Right (better ear) + Rinne Positive (AC>BC) in left + Reduced Bone Conduction in left = Left Sensorineural Hearing Loss."
+  },
+  {
+    "id": 373,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 42 years old patient reported sudden hearing loss on left ear for the last one week. Ear, local and systemic examination is baseline lab in investigation are normal. What is the most reliable investigation to confirm The type of hearing loss?",
+    "options": [
+      "a. Pure tone audiometry",
+      "b. Rinne test",
+      "c. Speech audiometry",
+      "d. Tympanometry",
+      "e. Weber test"
+    ],
+    "answer": "a. Pure tone audiometry",
+    "explanation": "Pure Tone Audiometry (PTA) is the gold standard investigation to quantify and classify hearing loss."
+  },
+  {
+    "id": 374,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "In episodic positional vertigo which of the following test is used.",
+    "options": [
+      "a. Caloric test",
+      "b. Dix-Hallpike maneuver",
+      "c. Rotation test",
+      "d. Electronystagmography"
+    ],
+    "answer": "b. Dix-Hallpike maneuver",
+    "explanation": "The Dix-Hallpike maneuver triggers the positional nystagmus characteristic of BPPV."
+  },
+  {
+    "id": 375,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "Causes of conductive deafness include all of the following except:",
+    "options": [
+      "a. Acoustic neuroma",
+      "b. Otosclerosis",
+      "c. Otitis media with effusion",
+      "d. Acute otitis media"
+    ],
+    "answer": "a. Acoustic neuroma",
+    "explanation": "Acoustic Neuroma affects the auditory nerve (CN VIII), causing Sensorineural Hearing Loss. The others affect the middle ear mechanism (Conductive)."
+  },
+  {
+    "id": 376,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "Hearing loss is caused by the following drugs except:",
+    "options": [
+      "a. Streptomycin",
+      "b. Gentamicin",
+      "c. Tobramycin",
+      "d. Cephradine"
+    ],
+    "answer": "d. Cephradine",
+    "explanation": "Cephradine is a Cephalosporin antibiotic and is not ototoxic. Aminoglycosides (Strep, Gent, Tobra) are ototoxic."
+  },
+  {
+    "id": 377,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "An audiogram showing conductive deafness with a dip of 2000Hz in bone conduction (Carhart's notch) is suggestive of:",
+    "options": [
+      "a. Acoustic neuroma",
+      "b. Otosclerosis",
+      "c. Presbycusis",
+      "d. Meniere's disease",
+      "e. Noise induced hearing loss"
+    ],
+    "answer": "b. Otosclerosis",
+    "explanation": "A dip in the bone conduction threshold at 2000Hz (Carhart's Notch) is a specific audiological sign of Otosclerosis, caused by the fixation of the stapes footplate."
+  },
+  {
+    "id": 378,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "Preferred frequency of tuning fork for hearing loss test is:",
+    "options": [
+      "a. 256",
+      "b. 512",
+      "c. 128",
+      "d. 1024",
+      "e. 2048"
+    ],
+    "answer": "b. 512",
+    "explanation": "The 512 Hz tuning fork is preferred because it falls within the speech frequency range and provides a good balance between tone decay and vibration sensation."
+  },
+  {
+    "id": 379,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "Webers test compares:",
+    "options": [
+      "a. Air conduction in both ears",
+      "b. Bone conduction of both ears",
+      "c. Air conduction and Bone conduction in one ear",
+      "d. Bone conduction of patient and examiner"
+    ],
+    "answer": "b. Bone conduction of both ears",
+    "explanation": "The Weber test places the fork on the midline to compare bone conduction between the two ears to check for lateralization."
+  },
+  {
+    "id": 380,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "The objective method for diagnosis of conductive deafness is:",
+    "options": [
+      "a. Pure tone audiometry",
+      "b. Speech audiometry",
+      "c. Tympanometry",
+      "d. Auditory brain stem response",
+      "e. Tuning fork tests"
+    ],
+    "answer": "c. Tympanometry",
+    "explanation": "Tympanometry is an objective test of middle ear function (compliance/pressure) and is the primary objective tool for diagnosing conductive pathologies (fluid, ossicular issues)."
+  },
+  {
+    "id": 381,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "The test for hearing in infants is:",
+    "options": [
+      "a. Rinne test",
+      "b. Weber test",
+      "c. Pure tone audiometry",
+      "d. Auditory Brain stem response"
+    ],
+    "answer": "d. Auditory Brain stem response",
+    "explanation": "ABR (or BERA) and OAE are used for infants who cannot participate in subjective audiometry."
+  },
+  {
+    "id": 382,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "The reliable test for true positional vertigo is:",
+    "options": [
+      "a. Dix-Hallpik test",
+      "b. Fistula test",
+      "c. Romberg test",
+      "d. Gait test",
+      "e. Cerebellar function test"
+    ],
+    "answer": "a. Dix-Hallpik test",
+    "explanation": "Dix-Hallpike is the specific diagnostic maneuver for BPPV."
+  },
+  {
+    "id": 383,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "Posterosuperior Perforation of the drum is:",
+    "options": [
+      "a. Traumatic perforation",
+      "b. Tubotympanic disease",
+      "c. Acute SOM",
+      "d. Atticoantral disease (Squamous type)",
+      "e. Following Myringotomy /grommet insertion"
+    ],
+    "answer": "d. Atticoantral disease (Squamous type)",
+    "explanation": "Repetitive question; associated with unsafe/cholesteatoma disease."
+  },
+  {
+    "id": 384,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 27 year old male who had a road traffic accident 7 months back now complaints of hearing loss, Vertigo and tinnitus lasting longer than 30 minutes. Neurological examination is normal. What is the probable diagnosis?",
+    "options": [
+      "a. Meniere's Disease",
+      "b. Acoustic neuroma",
+      "c. Otosclerosis",
+      "d. Benign positional vertigo",
+      "e. Labyrinthitis"
+    ],
+    "answer": "a. Meniere's Disease",
+    "explanation": "Trauma can precipitate Endolymphatic Hydrops (Meniere's Syndrome). The clinical picture (Episodic vertigo >30 mins, Tinnitus, Hearing loss) fits Meniere's exactly."
+  },
+  {
+    "id": 385,
+    "subject": "ENT",
+    "topic": "Hearing loss, Tests for hearing and ear",
+    "question": "A 30 year old lady complaining of right ear deafness with corneal reflex decreased and past pointing. Acoustic analysis shows sensorineural hearing loss. What is the next most appropriate investigation to do?",
+    "options": [
+      "a. CT scan brain",
+      "b. CT acoustic canal",
+      "c. MRI Brain",
+      "d. MRI acoustic canal",
+      "e. PET brain"
+    ],
+    "answer": "d. MRI acoustic canal",
+    "explanation": "The signs (SNHL, CN V involvement, cerebellar signs) point to a Cerebellopontine Angle tumor (Acoustic Neuroma). MRI of the Internal Auditory Canal (IAC) is the gold standard imaging."
+  },
+  {
+    "id": 386,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "The Best treatment of hematomas auris is:",
+    "options": [
+      "a. Antibiotics",
+      "b. Antibiotics and analgesics",
+      "c. Aspiration",
+      "d. Aspiration followed by incision and drainage",
+      "e. Pressure bandage"
+    ],
+    "answer": "d. Aspiration followed by incision and drainage",
+    "explanation": "Simple aspiration often leads to recurrence. Incision, drainage, and pressure dressing (to close the dead space) is the standard treatment to prevent cauliflower ear."
+  },
+  {
+    "id": 387,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "The ideal method of removing a foreign body from external ear canal is:",
+    "options": [
+      "a. Syringing",
+      "b. Suction",
+      "c. Probing",
+      "d. Crocodile forceps",
+      "e. Instrumental removal with the help of operating microscope"
+    ],
+    "answer": "e. Instrumental removal with the help of operating microscope",
+    "explanation": "Removal under direct vision with a microscope is the safest method to avoid trauma."
+  },
+  {
+    "id": 388,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "The common tumor of external ear is:",
+    "options": [
+      "a. Adenocarcinoma",
+      "b. Squamous cell carcinoma",
+      "c. Chondroma",
+      "d. Keratosis obturans"
+    ],
+    "answer": "b. Squamous cell carcinoma",
+    "explanation": "Squamous Cell Carcinoma (SCC) is the most common malignant tumor of the external ear canal."
+  },
+  {
+    "id": 389,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A young boxer came with hematoma auris of right ear after a boxing fight. What is the likely complicated out of the following:",
+    "options": [
+      "a. Gradenigo's syndrome",
+      "b. Cavernous sinus thrombosis",
+      "c. Brain abscess",
+      "d. Bat ear",
+      "e. Cauliflower ear"
+    ],
+    "answer": "e. Cauliflower ear",
+    "explanation": "Untreated hematoma leads to necrosis of cartilage and fibrosis, resulting in the 'Cauliflower ear' deformity."
+  },
+  {
+    "id": 390,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "In a case of herpes zoster oticus:",
+    "options": [
+      "a. Multiple cranial nerves are involved",
+      "b. Eruption occur usually on the meatal skin, drum and conchal region",
+      "c. Sensoryneural hearing loss is Always a complaint",
+      "d. Severe pain indicates deep invasion of structures",
+      "e. Antiviral drugs cure the disease"
+    ],
+    "answer": "b. Eruption occur usually on the meatal skin, drum and conchal region",
+    "explanation": "The defining feature is the vesicular rash in the sensory distribution of the facial nerve (concha, canal, drum)."
+  },
+  {
+    "id": 391,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 60 year old known diabetic patient presented with 6 days history of severe pain around the left ear, discharge, facial weakness and high grade fever for 3 days. Ear examination shows swelling and discharge. What is the most likely diagnosis?",
+    "options": [
+      "a. Acute fungal infection",
+      "b. Acute mastoiditis",
+      "c. Chronic Otitis media(safe)",
+      "d. Chronic Otitis media with otogenic intracranial complications",
+      "e. Malignant otitis externa"
+    ],
+    "answer": "e. Malignant otitis externa",
+    "explanation": "The combination of Diabetes, severe otalgia, and cranial nerve involvement (Facial palsy) is diagnostic of Malignant (Necrotizing) Otitis Externa."
+  },
+  {
+    "id": 392,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 58 years old known uncontrolled diabetic patient reported with severe pain in and around his right ear. Examination shows swelling, purulent discharge, granulation tissue in the external meatus and Facial palsy. What is the most important investigation to confirm the diagnosis and extend of pathology?",
+    "options": [
+      "a. Biopsy",
+      "b. CT scan Temporal bone",
+      "c. Culture and sensitivity",
+      "d. MRI",
+      "e. Peripheral smear"
+    ],
+    "answer": "b. CT scan Temporal bone",
+    "explanation": "CT Scan of the temporal bone is crucial to assess bone erosion and the extent of the disease (skull base involvement)."
+  },
+  {
+    "id": 393,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A young healthy patient reported decreased hearing in his left ear after swimming. His left ear examination shows brownish material in external auditory meatus. Choose the most likely diagnosis?",
+    "options": [
+      "a. Foreign body",
+      "b. Otitis externa",
+      "c. Otitis media",
+      "d. Otomycosis",
+      "e. Wax"
+    ],
+    "answer": "e. Wax",
+    "explanation": "Water from swimming causes hygroscopic ear wax to swell, causing sudden impaction and hearing loss."
+  },
+  {
+    "id": 394,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 35 years old cold water swimmer presented to ENT OPD with bilateral hearing loss. Examination revealed multiple hard swelling in the deep part of external auditory. What is the most probable diagnosis:",
+    "options": [
+      "a. Osteomas",
+      "b. Hard wax",
+      "c. Otomycosis",
+      "d. Exostosis",
+      "e. Keratosis obturans"
+    ],
+    "answer": "d. Exostosis",
+    "explanation": "Exostoses (Surfer's Ear) are multiple, bilateral bony growths in the canal, typically caused by chronic cold water exposure."
+  },
+  {
+    "id": 395,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 30 year old male developed swelling of the pinna after a road traffic accident. He was diagnosed as a case of aural haematoma. Select one of the following:",
+    "options": [
+      "a. It is collection of blood between perichondrium and cartilage",
+      "b. It is collection of blood between perichondrium and skin",
+      "c. Conservative treatment is the treatment of choice to prevent perichondritis",
+      "d. Tight dressing should not be applied ad it causes necrosis of pinna",
+      "e. All of the above statements are correct"
+    ],
+    "answer": "a. It is collection of blood between perichondrium and cartilage",
+    "explanation": "This is the correct anatomical definition. Conservative treatment is insufficient, and pressure dressing is required."
+  },
+  {
+    "id": 396,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 16 years old boy developed severe pain in his Left ear, Left side of head and neck after an attempt to clean his ear with matchstick for two days. His left ear examination shows watery discharge and severe tenderness on touching pinna. What is the most likely diagnosis?",
+    "options": [
+      "a. Acute mastoiditis",
+      "b. Acute otitis externa",
+      "c. Acute Otitis media",
+      "d. Malignant otitis externa",
+      "e. Otomycosis"
+    ],
+    "answer": "b. Acute otitis externa",
+    "explanation": "Trauma (scratching) leading to severe pain, tenderness on pinna movement, and discharge is classic Acute Otitis Externa."
+  },
+  {
+    "id": 397,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "With regard to Ramsay Hunt syndrome, the following statements are true except:",
+    "options": [
+      "a. Caused by viral infection",
+      "b. Is treated by Acyclovir and Prednisolone",
+      "c. Can lead to brain abscess",
+      "d. May present with Facial palsy, Hearing loss and Vertigo"
+    ],
+    "answer": "c. Can lead to brain abscess",
+    "explanation": "Ramsay Hunt syndrome (Herpes Zoster Oticus) involves cranial nerves but does not typically lead to brain abscess."
+  },
+  {
+    "id": 398,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 12 year old boy develops acute tonsillitis. He starts to complain of pain in the left ear. What Nerve is likely to be involved?",
+    "options": [
+      "a. Superior laryngeal",
+      "b. Glossopharyngeal",
+      "c. Facial",
+      "d. Hypoglossal",
+      "e. Lesser palatine"
+    ],
+    "answer": "b. Glossopharyngeal",
+    "explanation": "Referred pain from the tonsil to the ear occurs via the Glossopharyngeal nerve (CN IX), which supplies both structures."
+  },
+  {
+    "id": 399,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 52 year old male with poorly controlled DM now presents with pain in the ear. Exam skin around the ear is black in colour and there was foul smelling discharge from the ear. Patient also had conductive hearing loss. What is the most probable diagnosis?",
+    "options": [
+      "a. Carbuncle",
+      "b. Folliculitis",
+      "c. Malignant otitis externa",
+      "d. Cholesteatoma",
+      "e. Furuncle"
+    ],
+    "answer": "c. Malignant otitis externa",
+    "explanation": "Black discoloration (necrosis) of the skin in a diabetic with otitis suggests Necrotizing (Malignant) Otitis Externa."
+  },
+  {
+    "id": 400,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "A 16 year old boy present with the pain in the right ear and little bleeding from the same ear. He had been in a boxing match and had sustained a blow to the ear. There is little amount of blood in the auditory canal and a small perforation of the ear drum. What is the most appropriate management?",
+    "options": [
+      "a. Admission for parenteral antibiotics",
+      "b. Nasal decongestant",
+      "c. Oral amoxicillin",
+      "d. OPD review",
+      "e. Packing of ear"
+    ],
+    "answer": "d. OPD review",
+    "explanation": "Traumatic perforations are generally managed conservatively (keeping ear dry/observation) in the outpatient setting. Antibiotics are controversial but often given; however, 'OPD review' captures the management setting."
+  },
+  {
+    "id": 401,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "External auditory canal receives blood supply from all the arteries except:",
+    "options": [
+      "a. Posterior auricular",
+      "b. Superficial temporal",
+      "c. Facial",
+      "d. Maxillary",
+      "e. None"
+    ],
+    "answer": "c. Facial",
+    "explanation": "The EAC is supplied by the Posterior Auricular, Superficial Temporal, and Deep Auricular (branch of Maxillary) arteries. The Facial artery does not supply it."
+  },
+  {
+    "id": 402,
+    "subject": "ENT",
+    "topic": "External Ear",
+    "question": "About hematoma auris:",
+    "options": [
+      "a. Perichondritis will Always follow",
+      "b. The usual end result is cauliflower deformity of the ear",
+      "c. It Always results from external trauma",
+      "d. It is the collection of blood between the auricular cartilage and its perichondrium",
+      "e. Incision and drainage is the only treatment of choice"
+    ],
+    "answer": "d. It is the collection of blood between the auricular cartilage and its perichondrium",
+    "explanation": "This is the correct definition. While trauma is the usual cause, spontaneous cases exist. Cauliflower ear is the result of *untreated* hematoma."
+  },
+  {
+    "id": 403,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Analyze the findings: Bilateral conductive deafness, PTA shows AB gap of 30 db, Tympanogram shows type B curve:",
+    "options": [
+      "a. Acute suppurative otitis media with perforation",
+      "b. Chronic suppurative otitis media",
+      "c. Secretory otitis media",
+      "d. Otosclerosis",
+      "e. Eustachian tube dysfunction"
+    ],
+    "answer": "c. Secretory otitis media",
+    "explanation": "A Type B (flat) tympanogram indicates middle ear fluid or fixation (less common). Combined with an Air-Bone gap in a child (implied context) or adult, it is diagnostic of Secretory Otitis Media (OME)."
+  },
+  {
+    "id": 404,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Malignant otitis externa is more common in:",
+    "options": [
+      "a. Hypertensive patients",
+      "b. Diabetes",
+      "c. Transplant patients",
+      "d. AIDS patients"
+    ],
+    "answer": "b. Diabetes",
+    "explanation": "Elderly diabetic patients are the classic risk group for Malignant Otitis Externa."
+  },
+  {
+    "id": 405,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "The most important nerve at risk during middle ear surgery:",
+    "options": [
+      "a. Jacobson Nerve",
+      "b. Chorda tympani",
+      "c. Facial nerve",
+      "d. Vagus nerve",
+      "e. Nerve to stapedius muscle"
+    ],
+    "answer": "c. Facial nerve",
+    "explanation": "The Facial Nerve runs through the middle ear/mastoid and is the most significant structure at risk of iatrogenic injury."
+  },
+  {
+    "id": 406,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Most common offending microbial agent in chronic SOM is:",
+    "options": [
+      "a. Pseudomonas aeruginosa",
+      "b. E.coli",
+      "c. Streptococcus pneumoniae",
+      "d. Hemophilus influenza",
+      "e. Anaerobes"
+    ],
+    "answer": "a. Pseudomonas aeruginosa",
+    "explanation": "Pseudomonas aeruginosa is the most frequently isolated organism in Chronic Suppurative Otitis Media."
+  },
+  {
+    "id": 407,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Malignant otitis externa:",
+    "options": [
+      "a. It is infective condition of the external ear",
+      "b. Facial nerve palsy is seen in every case",
+      "c. Patients usually presents with severe otalgia, Swelling of the meatus and granulation tissue",
+      "d. Tympanic membrane perforation may be seen",
+      "e. Conservative treatment is the only treatment of choice"
+    ],
+    "answer": "c. Patients usually presents with severe otalgia, Swelling of the meatus and granulation tissue",
+    "explanation": "Severe pain (otalgia) out of proportion to signs, along with granulation tissue at the bony-cartilaginous junction, is the hallmark presentation."
+  },
+  {
+    "id": 408,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Acute suppurative otitis media:",
+    "options": [
+      "a. Is seen in pediatric age group only",
+      "b. Infective sinusitis is the usual cause",
+      "c. Severe otalgia is the only presenting symptom",
+      "d. Acute mastoiditis is one of its commonest complication",
+      "e. Antibacterial therapy alone can cause the condition"
+    ],
+    "answer": "b. Infective sinusitis is the usual cause",
+    "explanation": "ASOM is typically caused by the spread of infection from the upper respiratory tract/sinuses via the Eustachian tube."
+  },
+  {
+    "id": 409,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Carcinoma of the middle ear:",
+    "options": [
+      "a. Can arise in any age group",
+      "b. Chronic suppurative otitis media is the main etiology factor",
+      "c. The tumor appears polypoidal on gross examination",
+      "d. Blood stained foul smelling discharge, Pain and Facial palsy are the usual complaints",
+      "e. Surgery is the treatment of choice"
+    ],
+    "answer": "b. Chronic suppurative otitis media is the main etiology factor",
+    "explanation": "Long-standing ear discharge (CSOM) is the most significant predisposing factor for malignancy of the middle ear."
+  },
+  {
+    "id": 410,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "About cholesteatoma:",
+    "options": [
+      "a. It is associated the CSOM",
+      "b. Has the property of enzymatic bone destruction",
+      "c. Congenital variety is confined to the middle ear cavity",
+      "d. Squamous metaplasia is the well accepted theory for its genesis",
+      "e. Causes conductive hearing loss"
+    ],
+    "answer": "b. Has the property of enzymatic bone destruction",
+    "explanation": "Cholesteatoma is dangerous because it produces enzymes (collagenases) that erode bone, leading to complications."
+  },
+  {
+    "id": 411,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "About atticoantral disease of the ear:",
+    "options": [
+      "a. It is associated with cholesteatoma most of the times",
+      "b. There is a tympanic membrane perforation",
+      "c. Polyp is the usual presentation",
+      "d. Hearing loss is of conductive type",
+      "e. The disease may have risk of complications"
+    ],
+    "answer": "a. It is associated with cholesteatoma most of the times",
+    "explanation": "Atticoantral (unsafe) disease is synonymous with the presence of Cholesteatoma."
+  },
+  {
+    "id": 412,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Brain abscess as a complication of CSOM is most commonly found in:",
+    "options": [
+      "a. Cerebellum",
+      "b. Occipital lobe",
+      "c. Parietal lobe",
+      "d. Frontal lobe",
+      "e. Temporal lobe"
+    ],
+    "answer": "e. Temporal lobe",
+    "explanation": "Otogenic brain abscesses most commonly occur in the Temporal lobe due to direct spread through the tegmen tympani."
+  },
+  {
+    "id": 413,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "A 25 years old patient presented with 10 years of scanty foul ear discharge. Now severe head ach, Vomiting and high grade fever for 5 days. Ear examination shows marginal perforation with cholesteatoma and neck rigidity. What is the most likely diagnosis:",
+    "options": [
+      "a. Chronic otitis media (safe)",
+      "b. Chronic otitis media with brain tumor",
+      "c. Chronic otitis media with otogenic intracranial complications",
+      "d. Ear discharge with malaria",
+      "e. Meningitis"
+    ],
+    "answer": "e. Meningitis",
+    "explanation": "The presence of neck rigidity, fever, and headache in a patient with unsafe CSOM indicates Meningitis, an intracranial complication."
+  },
+  {
+    "id": 414,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "A 19 year old girl reported severe pain in left ear after common cold for the last 3 days. Her Left ear examination shows reddish bulging tympanic membrane, Blood picture is suggestive of inflammatory pathology. What is your probable diagnosis?",
+    "options": [
+      "a. Acute Otitis externa",
+      "b. Acute Suppurative Otitis Media",
+      "c. Furunculosis/boil",
+      "d. Malignant otitis externa",
+      "e. Otitis media with effusion"
+    ],
+    "answer": "b. Acute Suppurative Otitis Media",
+    "explanation": "The history of a preceding cold, followed by severe pain and a red, bulging tympanic membrane, is the classic presentation of Acute Suppurative Otitis Media (ASOM)."
+  },
+  {
+    "id": 415,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "A School child was suffering upper respiratory tract infection and develop severe pain in left ear from the last 2 days. Ear examination shows red and bulging tympanic membrane, decreased hearing and raised total leukocyte count. What is the most likely diagnosis?",
+    "options": [
+      "a. Acute secretory otitis media",
+      "b. Acute suppurative otitis media",
+      "c. Myringitis bulla",
+      "d. Otitis externa",
+      "e. Otomycosis"
+    ],
+    "answer": "b. Acute suppurative otitis media",
+    "explanation": "Classic presentation of ASOM: Post-URI, severe pain, red bulging drum, and leukocytosis."
+  },
+  {
+    "id": 416,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "A child under treatment for acute suppurative otitis media left ear develop a painful, tender and fluctuant swelling in the post auricular area for the last two days. What is the most likely diagnosis?",
+    "options": [
+      "a. Acute lymphadenitis",
+      "b. Acute mastoid abscess",
+      "c. Boil",
+      "d. Neck abscess",
+      "e. Tubercular abscess"
+    ],
+    "answer": "b. Acute mastoid abscess",
+    "explanation": "Fluctuant post-auricular swelling complicating ASOM is a subperiosteal abscess secondary to Acute Mastoiditis."
+  },
+  {
+    "id": 417,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "A young patient developed severe pain in Left ear for the last 2 days. His clinical features are suggestive of acute suppurative otitis media left ear. Baseline laboratory investigation shows high total leukocyte. Choose the most likely organism?",
+    "options": [
+      "a. Streptococcus pyogenes",
+      "b. Staph. aureus",
+      "c. Streptococcus pneumoniae",
+      "d. Hemophilus influenza",
+      "e. Branhamella catarrhalis"
+    ],
+    "answer": "c. Streptococcus pneumoniae",
+    "explanation": "Streptococcus pneumoniae is the most common bacterial pathogen causing Acute Otitis Media."
+  },
+  {
+    "id": 418,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Stapes foot plate covers:",
+    "options": [
+      "a. Round Window",
+      "b. Oval window",
+      "c. Sinus tympani",
+      "d. Pyramid"
+    ],
+    "answer": "b. Oval window",
+    "explanation": "The footplate of the stapes sits in the Oval Window, transmitting vibrations to the inner ear."
+  },
+  {
+    "id": 419,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Sensor nerve supply for the middle ear comes from:",
+    "options": [
+      "a. Vagus nerve",
+      "b. Caroticotympanic nerve",
+      "c. Glossopharyngeal nerve",
+      "d. Chorda tympani"
+    ],
+    "answer": "c. Glossopharyngeal nerve",
+    "explanation": "The tympanic plexus, supplying sensation to the middle ear, is derived from the tympanic branch of the Glossopharyngeal Nerve (Jacobson's nerve)."
+  },
+  {
+    "id": 420,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Tensor tympani muscle is attached to:",
+    "options": [
+      "a. Neck of stapes",
+      "b. Neck of malleus",
+      "c. Head of malleus",
+      "d. Body if incus",
+      "e. Long process of incus"
+    ],
+    "answer": "b. Neck of malleus",
+    "explanation": "The Tensor Tympani tendon attaches to the upper part of the handle (neck) of the malleus."
+  },
+  {
+    "id": 421,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "An elderly man had long standing ear discharge and now presented with Facial palsy, pain in ear which is worse at night and a friable polyps in the ear with tendency to bleed. The likely diagnosis is:",
+    "options": [
+      "a. CSOM",
+      "b. Malignant otitis externa",
+      "c. Carcinoma of the middle ear",
+      "d. Glomus tumor"
+    ],
+    "answer": "c. Carcinoma of the middle ear",
+    "explanation": "Key features of Middle Ear Carcinoma: History of CSOM, bleeding polyp, facial palsy, and severe pain (worse at night)."
+  },
+  {
+    "id": 422,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Secretory otitis media:",
+    "options": [
+      "a. Has no medical treatment",
+      "b. Is treated by Myringotomy and grommet insertion",
+      "c. Is treated by antiviral drugs",
+      "d. Is not diagnosed by audiological tests"
+    ],
+    "answer": "b. Is treated by Myringotomy and grommet insertion",
+    "explanation": "Surgical treatment for persistent SOM involves Myringotomy with the insertion of ventilation tubes (grommets)."
+  },
+  {
+    "id": 423,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "A 40 year old female presented with head ach for the last 3 days. She had scanty foul smelling ear discharge for the last 10 days. She also has ipsilateral lower motor Facial paralysis. Select the best option:",
+    "options": [
+      "a. Right ear myringoplasty",
+      "b. Corticosteroid in tapering dose",
+      "c. Corticosteroid in tapering dose with antiviral drugs",
+      "d. CT scan with contrast",
+      "e. Mastoid exploration"
+    ],
+    "answer": "e. Mastoid exploration",
+    "explanation": "Unsafe CSOM (foul discharge) with complications (Facial palsy, headache) requires urgent surgical intervention (Mastoid Exploration/Mastoidectomy) to remove the disease."
+  },
+  {
+    "id": 424,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Most common cause for blue ear drum:",
+    "options": [
+      "a. Glomus jugulare tumor",
+      "b. High Jugular bulb",
+      "c. Cholesterol granuloma",
+      "d. Glue ear",
+      "e. Hemotympanum"
+    ],
+    "answer": "c. Cholesterol granuloma",
+    "explanation": "Repeated concept: Cholesterol Granuloma is the classic cause of 'Blue Ear'."
+  },
+  {
+    "id": 425,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Analyze findings in 7 year old child: Bilateral conductive deafness. Pure tone audiogram show air bone gap of 30db. Tympanogram shows type B curve. Choose one best option:",
+    "options": [
+      "a. Acute suppurative otitis media with perforation",
+      "b. Chronic suppurative otitis media",
+      "c. Secretory otitis media",
+      "d. Otosclerosis",
+      "e. Eustachian tube dysfunction"
+    ],
+    "answer": "c. Secretory otitis media",
+    "explanation": "Type B tympanogram + Conductive loss in a child = Secretory Otitis Media (Glue Ear)."
+  },
+  {
+    "id": 426,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "The stapes bone develop from:",
+    "options": [
+      "a. First Visceral arch",
+      "b. Second Visceral arch",
+      "c. Both B and C are right",
+      "d. Both A and B are right"
+    ],
+    "answer": "b. Second Visceral arch",
+    "explanation": "The Stapes superstructure develops from the Second Branchial Arch (Reichert's cartilage)."
+  },
+  {
+    "id": 427,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "On ear examination a red mass is seen behind the tympanic membrane which blanches on compression by pneumatic otoscope. This sign is called:",
+    "options": [
+      "a. Griesinger's sign",
+      "b. Schwartze sign",
+      "c. Browns sign",
+      "d. Moore's sign"
+    ],
+    "answer": "c. Browns sign",
+    "explanation": "Brown's sign is the blanching of a vascular mass (Glomus tumor) behind the TM when positive pressure is applied."
+  },
+  {
+    "id": 428,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "Which of the following is/are true about glomus tumor:",
+    "options": [
+      "a. It is a benign tumor",
+      "b. Metastasis of lymph nodes",
+      "c. Contains cholesterol",
+      "d. Erodes bone",
+      "e. Malignant potential"
+    ],
+    "answer": "d. Erodes bone",
+    "explanation": "Glomus tumors are typically benign but locally destructive, causing bone erosion (e.g., jugular foramen). 'Erodes bone' is a characteristic feature often tested."
+  },
+  {
+    "id": 429,
+    "subject": "ENT",
+    "topic": "Middle Ear",
+    "question": "The most common intracranial complication is:",
+    "options": [
+      "a. Brain Abscess",
+      "b. Subdural abscess",
+      "c. Meningitis",
+      "d. Lateral sinus thrombophlebitis"
+    ],
+    "answer": "c. Meningitis",
+    "explanation": "Meningitis is the most frequent intracranial complication of otitis media."
+  },
+  {
+    "id": 430,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "The discharge in case of cholesteatoma is:",
+    "options": [
+      "a. Copious purulent",
+      "b. Copious offensive",
+      "c. Scanty offensive",
+      "d. Thick scanty creamy"
+    ],
+    "answer": "c. Scanty offensive",
+    "explanation": "Cholesteatoma is associated with osteitis (bone destruction) and anaerobic infection, leading to a characteristic scanty, foul-smelling (offensive) discharge."
+  },
+  {
+    "id": 431,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "The commonly seen Abscess resulting from infective process of the middle ear cavity and mastoid is:",
+    "options": [
+      "a. Bezold abscess",
+      "b. Mastoid/Postaural abscess",
+      "c. Zygomatic abscess",
+      "d. Citelli's abscess",
+      "e. Luc's abscess"
+    ],
+    "answer": "b. Mastoid/Postaural abscess",
+    "explanation": "A subperiosteal abscess over the mastoid (Postaural abscess) is the most common extracranial complication of acute mastoiditis."
+  },
+  {
+    "id": 432,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "Regarding pathogenesis of cholesteatoma the most appropriate theory is:",
+    "options": [
+      "a. Basal cell hyperplasia",
+      "b. Epithelial invasion via pre existing perforation of drum",
+      "c. Retraction Pocket",
+      "d. Congenital cell rests",
+      "e. Metaplasia of middle ear mucosa"
+    ],
+    "answer": "c. Retraction Pocket",
+    "explanation": "The Retraction Pocket theory (invagination of the pars flaccida due to negative middle ear pressure) is the most widely accepted theory for the pathogenesis of Primary Acquired Cholesteatoma."
+  },
+  {
+    "id": 433,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "Posterosuperior Perforation of the drum is usually:",
+    "options": [
+      "a. Traumatic perforation",
+      "b. Tubotympanic disease (Mucosal type)",
+      "c. Acute SOM",
+      "d. Atticoantral disease (squamous type)",
+      "e. Following Myringotomy /grommet insertion"
+    ],
+    "answer": "d. Atticoantral disease (squamous type)",
+    "explanation": "Perforations in the pars tensa posterosuperior quadrant or the pars flaccida are associated with Atticoantral (unsafe) disease and cholesteatoma."
+  },
+  {
+    "id": 434,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "A 10 year old child has got progressive Bilateral hearing loss. He has started to increase the volume. All other examination is normal. What is the most likely diagnosis?",
+    "options": [
+      "a. Wax",
+      "b. Foreign body",
+      "c. Bilateral otitis media with effusion",
+      "d. Sensoryneural hearing loss",
+      "e. Meningitis due to meningococcus"
+    ],
+    "answer": "c. Bilateral otitis media with effusion",
+    "explanation": "Otitis Media with Effusion (Glue Ear) is the most common cause of progressive conductive hearing loss in children."
+  },
+  {
+    "id": 435,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "A 10 year old boy presents with irritability, sudden onset of pain and discharge from the right ear. Which antibiotic would be the first line if treatment?",
+    "options": [
+      "a. Amoxicillin",
+      "b. Ciprofloxacin",
+      "c. Flucloxacillin",
+      "d. Ceftriaxone",
+      "e. Benzyl penicillin"
+    ],
+    "answer": "a. Amoxicillin",
+    "explanation": "For Acute Suppurative Otitis Media (ASOM), Amoxicillin is the standard first-line antibiotic to cover Strep. pneumoniae and H. influenzae."
+  },
+  {
+    "id": 436,
+    "subject": "ENT",
+    "topic": "EAR / INTRACRANIAL COMPLICATIONS (Continued)",
+    "question": "Very red tympanic membrane is:",
+    "options": [
+      "a. Secretory otitis media",
+      "b. Acute middle ear catarrh",
+      "c. Acute suppurative otitis media",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "c. Acute suppurative otitis media",
+    "explanation": "A hyperemic, congested ('red') tympanic membrane is characteristic of the acute inflammatory stage of ASOM."
+  },
+  {
+    "id": 437,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "The most common Indication for Myringotomy is:",
+    "options": [
+      "a. Meniere's disease",
+      "b. Acute suppurative otitis media",
+      "c. Otitis media with effusion",
+      "d. Hemotympanum",
+      "e. Otosclerosis"
+    ],
+    "answer": "c. Otitis media with effusion",
+    "explanation": "Myringotomy (incision of the drum) is primarily performed to drain the fluid in Otitis Media with Effusion (Glue Ear) and insert grommets."
+  },
+  {
+    "id": 438,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Stapedectomy is indicated in:",
+    "options": [
+      "a. Tympanosclerosis",
+      "b. Chronic SOM",
+      "c. Sensorineural hearing loss",
+      "d. Meniere's disease",
+      "e. Otosclerosis"
+    ],
+    "answer": "e. Otosclerosis",
+    "explanation": "Stapedectomy involves removing the fixed stapes footplate (caused by Otosclerosis) and replacing it with a prosthesis to restore sound conduction."
+  },
+  {
+    "id": 439,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Mastoidectomy is a procedure to:",
+    "options": [
+      "a. Improve hearing",
+      "b. Make ear water proof",
+      "c. Minimize the risk of complications in CSOM",
+      "d. To close tympanic membrane perforation",
+      "e. Drain mastoid abscess"
+    ],
+    "answer": "c. Minimize the risk of complications in CSOM",
+    "explanation": "In unsafe CSOM (cholesteatoma), the primary goal of mastoidectomy is to render the ear 'safe' and prevent intracranial/extracranial complications."
+  },
+  {
+    "id": 440,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Graft taken for myringoplasty is usually from:",
+    "options": [
+      "a. Fascia lata",
+      "b. Tragal cartilage",
+      "c. Temporalis fascia",
+      "d. Conchal bowl",
+      "e. Rib cartilage perichondrium"
+    ],
+    "answer": "c. Temporalis fascia",
+    "explanation": "Temporalis fascia is the most commonly used graft material for tympanic membrane repair (myringoplasty) due to its proximity, low metabolic rate, and good survival."
+  },
+  {
+    "id": 441,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Regarding cochlear implants:",
+    "options": [
+      "a. A single or multiple channel device has equal outcome when implanted",
+      "b. Post lingual deaf patients have better overall outcome as compare to prelingually deaf patients",
+      "c. A deaf patient can be implanted at any age",
+      "d. Neural plasticity is not directly related with the age of the patient",
+      "e. Abnormalities of the cochlea are detected by CT scan done preoperatively"
+    ],
+    "answer": "b. Post lingual deaf patients have better overall outcome as compare to prelingually deaf patients",
+    "explanation": "Patients who have acquired speech and language before losing hearing (post-lingual) adapt much better to cochlear implants than adults who were born deaf (pre-lingual) due to established auditory pathways."
+  },
+  {
+    "id": 442,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "When a patient presents with acute post operative carotid artery rupture following head and neck Cancer surgery, the most common site of injury is:",
+    "options": [
+      "a. All sites are equally likely to rupture",
+      "b. Carotid bulb",
+      "c. Common carotid artery",
+      "d. External carotid artery",
+      "e. Internal carotid artery"
+    ],
+    "answer": "c. Common carotid artery",
+    "explanation": "Carotid blowout syndrome most commonly affects the Common Carotid Artery, often due to tissue necrosis, infection, or radiation effects post-surgery."
+  },
+  {
+    "id": 443,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "A 15 years old child reported discharge from the right ear for last 5 years. On complete work up patient was diagnosed as chronic otitis media with cholesteatoma occupying attic, mastoid antrum and ear cells. Choose best treatment option:",
+    "options": [
+      "a. Antibiotics",
+      "b. Mastoidectomy (Mastoid exploration)",
+      "c. Myringoplasty",
+      "d. Ossiculoplasty",
+      "e. Repeated suction clearance under microscope"
+    ],
+    "answer": "b. Mastoidectomy (Mastoid exploration)",
+    "explanation": "Cholesteatoma is a surgical disease requiring removal (Mastoidectomy) to prevent bone destruction and complications. Antibiotics or simple myringoplasty are ineffective."
+  },
+  {
+    "id": 444,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "A patient having chronic unsafe Otitis media for the last 4 years. Ear examination shows cholesteatoma. Mastoidectomy was advised to be a procedure appreciate for the treatment. Shows the most appropriate aim of mastoid surgery for this treatment:",
+    "options": [
+      "a. Drain mastoid abscess",
+      "b. Improve hearing",
+      "c. Make ear waterproof",
+      "d. Minimize the risk of complication of CSOM",
+      "e. To close tympanic membrane perforation"
+    ],
+    "answer": "d. Minimize the risk of complication of CSOM",
+    "explanation": "The priority in cholesteatoma surgery is a dry, safe ear. Hearing improvement is a secondary goal."
+  },
+  {
+    "id": 445,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Myringotomy is a procedure performed for the treatment of:",
+    "options": [
+      "a. Chronic otitis media",
+      "b. Glue ear",
+      "c. Presbycusis",
+      "d. Tympanic membrane perforation",
+      "e. None of the above"
+    ],
+    "answer": "b. Glue ear",
+    "explanation": "Myringotomy is the incision of the drum to treat Otitis Media with Effusion (Glue Ear)."
+  },
+  {
+    "id": 446,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Citelli's angle is:",
+    "options": [
+      "a. Solid angle",
+      "b. Cerebellopontine angle",
+      "c. Sinodural angle",
+      "d. Genu of Facial nerve"
+    ],
+    "answer": "c. Sinodural angle",
+    "explanation": "Citelli's angle (or the sinodural angle) is an anatomical landmark in the mastoid bone located between the sigmoid sinus and the middle fossa dura plate."
+  },
+  {
+    "id": 447,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "A 5 year old boy has been diagnosed to have posterosuperior retraction Pocket with cholesteatoma. All would constitute part of management except:",
+    "options": [
+      "a. Audiometry",
+      "b. Mastoid exploration",
+      "c. Tympanoplasty",
+      "d. Myringoplasty"
+    ],
+    "answer": "d. Myringoplasty",
+    "explanation": "Myringoplasty is simply grafting a perforation. It is contraindicated or insufficient for cholesteatoma, which requires excision (Mastoid exploration) and reconstruction (Tympanoplasty)."
+  },
+  {
+    "id": 448,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Macewen's triangle is the surface landmark of:",
+    "options": [
+      "a. The tympanic part of facial nerve",
+      "b. Mastoid antrum",
+      "c. Dome of the lateral semicircular canal",
+      "d. Incudostapedial joint"
+    ],
+    "answer": "b. Mastoid antrum",
+    "explanation": "Macewen's triangle (suprameatal triangle) is the surgical landmark used to locate the Mastoid Antrum."
+  },
+  {
+    "id": 449,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "The useful screening test in a neonate to assess the hearing level is:",
+    "options": [
+      "a. Distraction test",
+      "b. Evoked autoacoustic emission test (EOAE)",
+      "c. Pure tone audiometry",
+      "d. Impedance audiometry",
+      "e. Moro's reflex to a loud sound"
+    ],
+    "answer": "b. Evoked autoacoustic emission test (EOAE)",
+    "explanation": "OAE is the standard, non-invasive screening test for newborn hearing."
+  },
+  {
+    "id": 450,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "The following tests can better distinguish sensory neural hearing loss from other types of hearing defects:",
+    "options": [
+      "a. Voice tests",
+      "b. Tuning fork tests",
+      "c. Pure tone audiometry",
+      "d. Speech audiometry",
+      "e. PTA and speech audiometry"
+    ],
+    "answer": "c. Pure tone audiometry",
+    "explanation": "Pure Tone Audiometry (PTA) objectively measures air and bone conduction thresholds, clearly distinguishing between Conductive and Sensorineural hearing loss via the air-bone gap."
+  },
+  {
+    "id": 451,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "Before myringoplasty is undertaken:",
+    "options": [
+      "a. Ear should be dry",
+      "b. There should be airborne gap",
+      "c. Eustachian tube should be patent",
+      "d. Perforation is central",
+      "e. All of the above"
+    ],
+    "answer": "e. All of the above",
+    "explanation": "Successful myringoplasty requires a dry ear (no infection), a functioning Eustachian tube, and a conductive loss (air-bone gap) to justify the procedure. Central perforation is the typical indication."
+  },
+  {
+    "id": 452,
+    "subject": "ENT",
+    "topic": "Surgical procedures in ear /implants /Hearing aids",
+    "question": "During mastoid surgery lateral sinus thrombosis is suspected if:",
+    "options": [
+      "a. Perisinus cells are soft",
+      "b. Sinus plate have granulation over it",
+      "c. Perisinus abscess is present",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "d. All of the above",
+    "explanation": "Signs of perisinus spread (soft bone, granulations, abscess) during surgery are strong indicators of potential Lateral Sinus Thrombosis."
+  },
+  {
+    "id": 453,
+    "subject": "ENT",
+    "topic": "Acoustic neuroma/Vestibular schwannoma",
+    "question": "Acoustic neuroma arises from:",
+    "options": [
+      "a. Vestibular nerve",
+      "b. Facial nerve",
+      "c. Cochlear nerve",
+      "d. Abducens nerve",
+      "e. Trigeminal nerve"
+    ],
+    "answer": "a. Vestibular nerve",
+    "explanation": "Acoustic neuromas (Vestibular Schwannomas) most commonly arise from the inferior vestibular nerve."
+  },
+  {
+    "id": 454,
+    "subject": "ENT",
+    "topic": "Acoustic neuroma/Vestibular schwannoma",
+    "question": "With regard to acoustic neuroma the following statements are true except:",
+    "options": [
+      "a. It arises from Schwann cell",
+      "b. It may present with hearing loss and Vertigo",
+      "c. It is associated with Facial palsy",
+      "d. It is malignant disease"
+    ],
+    "answer": "d. It is malignant disease",
+    "explanation": "Acoustic Neuroma is a benign schwannoma, not a malignant tumor."
+  },
+  {
+    "id": 455,
+    "subject": "ENT",
+    "topic": "Acoustic neuroma/Vestibular schwannoma",
+    "question": "A 60 years old man presented with right sided hearing loss, Facial weakness with numbness on the same side. He also gives the history of dizziness. What is the most likely diagnosis?",
+    "options": [
+      "a. Meniere's disease",
+      "b. Acoustic neuroma",
+      "c. Otosclerosis",
+      "d. Adhesive otitis media",
+      "e. Otitis media with effusion"
+    ],
+    "answer": "b. Acoustic neuroma",
+    "explanation": "The combination of unilateral sensorineural hearing loss (CN VIII), facial nerve weakness (CN VII), and trigeminal numbness (CN V) indicates a space-occupying lesion in the Cerebellopontine Angle (CPA), most commonly an Acoustic Neuroma."
+  },
+  {
+    "id": 456,
+    "subject": "ENT",
+    "topic": "Acoustic neuroma/Vestibular schwannoma",
+    "question": "A 67 year old female presents with balance problem. Exam: nystagmus on left lateral gaze, a loss of the left corneal reflex and reduced hearing on the left ear. Most likely diagnosis?",
+    "options": [
+      "a. Meniere's disease",
+      "b. Acoustic neuroma",
+      "c. Cerebral abscess",
+      "d. Pituitary tumor",
+      "e. Gentamicin"
+    ],
+    "answer": "b. Acoustic neuroma",
+    "explanation": "Loss of corneal reflex (CN V) combined with hearing loss (CN VIII) and cerebellar signs is the classic presentation of a large Acoustic Neuroma."
+  },
+  {
+    "id": 457,
+    "subject": "ENT",
+    "topic": "Temporal bone fracture",
+    "question": "All are true about longitudinal fracture of Temporal bone except:",
+    "options": [
+      "a. Longitudinal fracture occurs less commonly the transverse fracture",
+      "b. Less chances of Facial palsy",
+      "c. Occurs due to blow from the side",
+      "d. Causes conductive hearing loss"
+    ],
+    "answer": "a. Longitudinal fracture occurs less commonly the transverse fracture",
+    "explanation": "Longitudinal fractures are actually much *more* common (approx. 80%) than transverse fractures (20%)."
+  },
+  {
+    "id": 458,
+    "subject": "ENT",
+    "topic": "Temporal bone fracture",
+    "question": "The Best imaging tool for the detection of extension of the disease of the temporal bone and associated region is:",
+    "options": [
+      "a. X-ray mastoid",
+      "b. CT scan",
+      "c. Conventional tomography",
+      "d. CT scan with contrast",
+      "e. MRI"
+    ],
+    "answer": "b. CT scan",
+    "explanation": "High Resolution CT (HRCT) is the gold standard for delineating the bony architecture and extent of disease in the temporal bone."
+  },
+  {
+    "id": 459,
+    "subject": "ENT",
+    "topic": "Eustachian tube",
+    "question": "Which is a feature of eustachian tube in a child:",
+    "options": [
+      "a. Extends from middle ear to oropharynx",
+      "b. Is at more of a horizontal angle than in an adult",
+      "c. Is longer in length than an adult",
+      "d. Is cartilaginous",
+      "e. Is derived from second pharyngeal pouch"
+    ],
+    "answer": "b. Is at more of a horizontal angle than in an adult",
+    "explanation": "In children, the Eustachian tube is shorter, wider, and straighter (more horizontal) than in adults, predisposing them to otitis media."
+  },
+  {
+    "id": 460,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "The space between bulla ethmoidalis & uncinate process is called:",
+    "options": [
+      "a. Agger nasi",
+      "b. Olfactory cleft",
+      "c. Frontalonasal duct",
+      "d. Hiatus semilunaris"
+    ],
+    "answer": "d. Hiatus semilunaris",
+    "explanation": "The Hiatus Semilunaris is the sickle-shaped gap between the ethmoid bulla and the uncinate process."
+  },
+  {
+    "id": 461,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "What is the structure which form the medial wall of piriform fossa?",
+    "options": [
+      "a. Aryepiglottic fold",
+      "b. Arytenoids cartilage",
+      "c. Glossoepiglottic fold",
+      "d. Lamina of thyroid cartilage"
+    ],
+    "answer": "a. Aryepiglottic fold",
+    "explanation": "The piriform fossa is bounded medially by the aryepiglottic fold and laterally by the thyroid cartilage."
+  },
+  {
+    "id": 462,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "Arteries Which Take Part In Kiesselbachs Plexus Include All Except:",
+    "options": [
+      "a. Anterior ethmoidal",
+      "b. Greater Palatine",
+      "c. Superior Labial",
+      "d. Inferior Labial"
+    ],
+    "answer": "d. Inferior Labial",
+    "explanation": "Kiesselbach's plexus (Little's area) is formed by the Anterior Ethmoidal, Sphenopalatine, Greater Palatine, and Superior Labial arteries. The Inferior Labial does not contribute."
+  },
+  {
+    "id": 463,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "All of the following arteries share in Kiesselbach's plexus EXCEPT:",
+    "options": [
+      "a. Anterior ethmoidal artery",
+      "b. Posterior ethmoidal artery",
+      "c. Greater palatine artery",
+      "e. Sphenopalatine artery",
+      "d. Superior labial artery"
+    ],
+    "answer": "b. Posterior ethmoidal artery",
+    "explanation": "The Posterior Ethmoidal artery supplies the posterior part of the nasal cavity (Woodruff's plexus area), not Kiesselbach's plexus which is anterior."
+  },
+  {
+    "id": 464,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "The external carotid artery gives blood supply to the nose through the following branches EXCEPT",
+    "options": [
+      "a. Sphenopalatine artery",
+      "b. Greater palatine artery",
+      "c. Superior labial artery",
+      "d. Anterior ethmoidal artery"
+    ],
+    "answer": "d. Anterior ethmoidal artery",
+    "explanation": "The Anterior Ethmoidal artery is a branch of the Ophthalmic artery, which arises from the *Internal* Carotid Artery."
+  },
+  {
+    "id": 465,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "Bulla ethmoidalis is produced by:",
+    "options": [
+      "a. Opening of the maxillary sinus",
+      "b. Opening of the frontal sinus",
+      "c. Opening of the anterior ethmoidal sinus",
+      "d. Anterior air cells of ethmoidal simis",
+      "e. Nasolacrimal duct"
+    ],
+    "answer": "d. Anterior air cells of ethmoidal simis",
+    "explanation": "The Bulla Ethmoidalis is a bulge in the middle meatus caused by the largest of the Anterior Ethmoid air cells."
+  },
+  {
+    "id": 466,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "Movements of the nasal cilia is called:",
+    "options": [
+      "a. Synchronus",
+      "b. Metachronous Combination",
+      "c. Dichtmus",
+      "d. Asynchronous"
+    ],
+    "answer": "b. Metachronous Combination",
+    "explanation": "Cilia beat in a sequential wave-like pattern known as metachronous rhythm."
+  },
+  {
+    "id": 467,
+    "subject": "ENT",
+    "topic": "Anatomy & Physiology of Nose",
+    "question": "Rhinomanometery is used in measurement of",
+    "options": [
+      "a. Nasal air flow",
+      "b. Nasal blood flow",
+      "c. Flow of mucus",
+      "d. All of the above.",
+      "e. None"
+    ],
+    "answer": "a. Nasal air flow",
+    "explanation": "Rhinomanometry objectively measures nasal airway resistance and airflow."
+  },
+  {
+    "id": 468,
+    "subject": "ENT",
+    "topic": "Diseases of External Nose and Nasal Vestibules",
+    "question": "Rheumatic heart disease is characterized by all of the following except:",
+    "options": [
+      "a. Aschoff bodies",
+      "b. Pancarditis",
+      "c. MacCallum plaque",
+      "d. King abcess",
+      "e. Verrucae"
+    ],
+    "answer": "d. King abcess",
+    "explanation": "Aschoff bodies, Pancarditis, MacCallum plaques, and Verrucae (vegetations) are classic features of Rheumatic Heart Disease. 'King abscess' is not a recognized feature (likely a distractor or typo for Ring abscess which is ocular/corneal)."
+  },
+  {
+    "id": 469,
+    "subject": "ENT",
+    "topic": "Diseases of External Nose and Nasal Vestibules",
+    "question": "Rhinophyma:",
+    "options": [
+      "a. Is caused by hypertrophy of sebaceous glands of external nose",
+      "b. Is a viral infection",
+      "c. Is a dermoid cyst",
+      "d. Is caused by trauma",
+      "e. None of them"
+    ],
+    "answer": "a. Is caused by hypertrophy of sebaceous glands of external nose",
+    "explanation": "Rhinophyma is a disfiguring condition of the nose caused by hyperplasia of sebaceous glands, connective tissue, and blood vessels, often associated with end-stage Rosacea."
+  },
+  {
+    "id": 470,
+    "subject": "ENT",
+    "topic": "Diseases of External Nose and Nasal Vestibules",
+    "question": "The fetal complication which can arise from boil nose is",
+    "options": [
+      "a. Septal abscess",
+      "b. Vestibular abscess",
+      "c. Blindness",
+      "d. Cavernous sinus thrombosis",
+      "e. Saddling of nose"
+    ],
+    "answer": "d. Cavernous sinus thrombosis",
+    "explanation": "Infection from a nasal boil (furuncle) in the 'danger area of the face' can spread via the valveless facial veins to the Cavernous Sinus, causing a potentially fatal thrombosis."
+  },
+  {
+    "id": 471,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "Indications of septoplasty include the following:",
+    "options": [
+      "a. Nasal obstruction by DNS",
+      "b. Epistaxis",
+      "c. Hypophysectomy",
+      "d. Cosmetic deformity",
+      "e. All of them"
+    ],
+    "answer": "e. All of them",
+    "explanation": "Septoplasty is performed for obstruction, to provide surgical access (e.g., hypophysectomy, FESS), to treat recurrent epistaxis (spur removal), and as part of cosmetic rhinoplasty."
+  },
+  {
+    "id": 472,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "A seven years old boy has severe deflection of nasal septum. He finds difficulty in breathing through nose and has recurrent episodes of acute sinusitis. What is the best treatment for him:",
+    "options": [
+      "a. Wait till age of 17 for SMR",
+      "b. SMR operation now",
+      "c. Maxillary sinus washout",
+      "d. Functional Endoscopic Sinus Surgery (FESS)",
+      "e. Septoplasty"
+    ],
+    "answer": "e. Septoplasty",
+    "explanation": "SMR (Submucous Resection) is contraindicated in children as it can affect facial growth. Conservative Septoplasty is the procedure of choice for severe, symptomatic septal deviation in children."
+  },
+  {
+    "id": 473,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "An elderly patient reported a non-healing, progressive, brown to blackish ulcerative lesion over the bridge of nose for the last 18 months. On examination 1x1 cm ulcer with granular base and well-defined margins seen. Rest of the local and systemic examination is unremarkable. What is the most relevant investigation confirm the diagnosis?",
+    "options": [
+      "a. CT Scan",
+      "b. Fine needle aspiration cytology",
+      "c. Histopathology (biopsy)",
+      "d. MRI",
+      "e. Ultrasonography"
+    ],
+    "answer": "c. Histopathology (biopsy)",
+    "explanation": "A non-healing pigmented ulcer suggests malignancy (e.g., Basal Cell Carcinoma or Melanoma). Biopsy is required for definitive diagnosis."
+  },
+  {
+    "id": 474,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "A 21 years old patient has right nasal obstruction for the several years, recurrent upper respiratory infections. Nasal examination shows gross Deflected Naval Septum. Radiological investigations are within normal limits. Choose the most appropriate treatment option?",
+    "options": [
+      "a. Submucous Resection (SMR)",
+      "b. Septoplasty",
+      "c. Turbinectomy",
+      "d. Polypectomy",
+      "e. Medical treatment"
+    ],
+    "answer": "b. Septoplasty",
+    "explanation": "For a 21-year-old with symptomatic Deflected Nasal Septum (DNS), Septoplasty is the standard conservative surgical treatment. While SMR is possible in adults, Septoplasty is generally preferred as it preserves cartilage."
+  },
+  {
+    "id": 475,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "A child of 5 years was operated for septal abscess 1 year back. Now he has presented with supratip depression. What is the most probable cause?",
+    "options": [
+      "a. Fault in the surgical technique",
+      "b. Necrosis of septal cartilage due to subperiosteal collection of abscess",
+      "c. Congenital nasal deformity",
+      "d. Improper use of antibiotics in the postoperative period",
+      "e. Nasal synechia"
+    ],
+    "answer": "b. Necrosis of septal cartilage due to subperiosteal collection of abscess",
+    "explanation": "Septal abscess leads to avascular necrosis of the septal cartilage (which receives its blood supply from the perichondrium). Loss of cartilage support results in saddle nose deformity (supratip depression)."
+  },
+  {
+    "id": 476,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "A 5 years old child was brought to the casualty department with history of nasal obstruction for the last 5 days. The mother also told that the child has received nasal trauma 5 days back. Examination revealed reddish swelling in either side of the nasal cavity, What is the most probable diagnosis?",
+    "options": [
+      "a. Bilateral enlarged turbinates.",
+      "b. Nasal polypi",
+      "c. Antrochoanal polyp",
+      "d. Septal haematoma",
+      "e. None of them"
+    ],
+    "answer": "d. Septal haematoma",
+    "explanation": "Bilateral nasal swelling following trauma is the classic presentation of a Septal Hematoma."
+  },
+  {
+    "id": 477,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "Usual indication of septoplasty is",
+    "options": [
+      "a. Recurrent sinusitis",
+      "b. Persistent post nasal drip",
+      "c. Symptomatic DNS",
+      "d. Recurrent epistaxis",
+      "e. To approach other adjacent areas"
+    ],
+    "answer": "c. Symptomatic DNS",
+    "explanation": "The most common and direct indication for septoplasty is nasal obstruction caused by a Deviated Nasal Septum (DNS)."
+  },
+  {
+    "id": 478,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "Septal hematoma is associated with",
+    "options": [
+      "a. Tenderness over the nose",
+      "b. Bilateral nasal swelling",
+      "c. Bilateral nasal obstruction",
+      "d. Both b & c",
+      "e. Epistaxis and fever"
+    ],
+    "answer": "d. Both b & c",
+    "explanation": "Septal hematoma typically presents with bilateral nasal obstruction and a boggy bilateral swelling of the septum."
+  },
+  {
+    "id": 479,
+    "subject": "ENT",
+    "topic": "Diseases of Nasal Septum.",
+    "question": "Symptoms of septal perforation include all except:",
+    "options": [
+      "a. Epistaxsis",
+      "b. Whistling sound",
+      "c. Flapping of septum",
+      "d. Crusting",
+      "e. None"
+    ],
+    "answer": "c. Flapping of septum",
+    "explanation": "Common symptoms of perforation are crusting, bleeding (epistaxis), and whistling (if small). Flapping is not a feature of perforation."
+  },
+  {
+    "id": 480,
+    "subject": "ENT",
+    "topic": "Acute And Chronic Rhinitis",
+    "question": "A rhinolith usually presents as",
+    "options": [
+      "a. A mass in the nose",
+      "b. Progressive unilateral nasal obstruction with discharge in an adult patients",
+      "c. Necrosis of the septal wall",
+      "d. Heavy epistaxis",
+      "e. Post nasal drip"
+    ],
+    "answer": "b. Progressive unilateral nasal obstruction with discharge in an adult patients",
+    "explanation": "Rhinoliths (stones in the nose formed around a nidus) present with long-standing unilateral obstruction and foul-smelling discharge."
+  },
+  {
+    "id": 481,
+    "subject": "ENT",
+    "topic": "Granulomatous Disease Of Nose",
+    "question": "Syphilis of the nose may cause",
+    "options": [
+      "a. Bony septal perforation",
+      "b. Palatal perforation",
+      "c. Saddle nose deformity",
+      "d. All of them"
+    ],
+    "answer": "d. All of them",
+    "explanation": "Tertiary syphilis (gumma) causes destruction of bone and cartilage, leading to bony septal perforation, saddle nose, and perforation of the hard palate."
+  },
+  {
+    "id": 482,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "A rhinolith usually presents as",
+    "options": [
+      "a. A mass in the nose",
+      "b. Progressive unilateral nasal obstruction with discharge in an adult patients",
+      "c. Necrosis of the septal wall",
+      "d. Heavy epistaxis",
+      "e. Post nasal drip"
+    ],
+    "answer": "b. Progressive unilateral nasal obstruction with discharge in an adult patients",
+    "explanation": "(Duplicate question) - Rhinoliths typically present with unilateral obstruction and discharge."
+  },
+  {
+    "id": 483,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "A 60 years old male presented with maggots in the nose. Following is the treatment of choice",
+    "options": [
+      "a. Instillation of turpentine oil and chloramphenicol with forcep removal",
+      "b. Instillation of turpentine oil and chloroform with forcep removal",
+      "c. Instillation of liquid paraffine with forcep removal",
+      "d. Instillation of xylometazoline with forcep removal",
+      "e. Instillation olive oil and forcep removal"
+    ],
+    "answer": "b. Instillation of turpentine oil and chloroform with forcep removal",
+    "explanation": "Nasal Myiasis (maggots) is treated by instilling Chloroform water and Turpentine oil to immobilize/suffocate the larvae, followed by manual removal."
+  },
+  {
+    "id": 484,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "A young boy operated for nasal polypi for the third time. He developed blood stained watery consistency fluid from his nose which is increased on bending. The most probable diagnosis is",
+    "options": [
+      "a. Infection",
+      "b. Recurrence of polyp",
+      "c. Fungal sinusitis",
+      "d. CSF leak",
+      "e. Hemorrhage"
+    ],
+    "answer": "d. CSF leak",
+    "explanation": "Watery discharge increasing on bending (tea-pot sign) after nasal surgery suggests Cerebrospinal Fluid (CSF) Rhinorrhea."
+  },
+  {
+    "id": 485,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "A 4 years old child presented with history of foul smell from the right nasal cavity which improves a little with the use of antibiotic. What is your most probable diagnosis?",
+    "options": [
+      "a. Antrochoanal polyp",
+      "b. Chronic sinusitis",
+      "c. Septal abscess",
+      "d. Setal haematoma",
+      "e. Foreign body nose"
+    ],
+    "answer": "e. Foreign body nose",
+    "explanation": "Unilateral foul-smelling nasal discharge in a child is the classic presentation of a neglected nasal Foreign Body."
+  },
+  {
+    "id": 486,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "An infant with bilateral choanal atresia presents with:",
+    "options": [
+      "a. Secretory otitis media",
+      "b. Respiratory distress",
+      "c. Epistaxis",
+      "d. Stridor"
+    ],
+    "answer": "b. Respiratory distress",
+    "explanation": "Neonates are obligate nasal breathers. Bilateral choanal atresia causes severe respiratory distress and cyclic cyanosis (relieved by crying)."
+  },
+  {
+    "id": 487,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "A four years old child presented with left offensive nasal discharge You should suspect",
+    "options": [
+      "a. Choanal atresia",
+      "b. Adenoid",
+      "c. Foreign body impaction",
+      "d. Rhinosinusitis"
+    ],
+    "answer": "c. Foreign body impaction",
+    "explanation": "Unilateral offensive discharge in a child = Foreign Body until proven otherwise."
+  },
+  {
+    "id": 488,
+    "subject": "ENT",
+    "topic": "Miscellaneous disease of nasal cavity.",
+    "question": "Which of the following Nasal foreign bodies irritating and cause inflammatory reaction.",
+    "options": [
+      "a. Bean",
+      "b. Button",
+      "c. Bead",
+      "d. A piece of plastic"
+    ],
+    "answer": "a. Bean",
+    "explanation": "Vegetable foreign bodies (like beans) swell and cause severe inflammation. Inorganic objects (plastic/beads) are generally inert (unless batteries)."
+  },
+  {
+    "id": 489,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "The best investigation to diagnose allergic rhinitis is:",
+    "options": [
+      "a. Total eosinophil count",
+      "b. IgE",
+      "c. Nasal smear",
+      "d. Skin prick test",
+      "e. Full blood count"
+    ],
+    "answer": "d. Skin prick test",
+    "explanation": "Skin prick testing is the specific confirmatory test to identify allergens in allergic rhinitis."
+  },
+  {
+    "id": 490,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "Treatment of allergic rhinitis include:",
+    "options": [
+      "a. Antihistamines",
+      "b. Corticosteroids",
+      "c. Decongestants",
+      "d. Sodium chromoglycate",
+      "e. All of the above"
+    ],
+    "answer": "e. All of the above",
+    "explanation": "The management of allergic rhinitis involves a combination of antihistamines, steroids, decongestants, and mast cell stabilizers depending on severity."
+  },
+  {
+    "id": 491,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "A middle aged man complains of anosmia for the last 6 months. Which of the following statements is the best answer.",
+    "options": [
+      "a. It is due to nasal diseases",
+      "b. It must be bilateral before it is diagnosed",
+      "c. Recovery after skull fracture does not take place",
+      "d. It is described as a loss of taste",
+      "e. All of them"
+    ],
+    "answer": "a. It is due to nasal diseases",
+    "explanation": "The most common causes of anosmia are obstructive nasal diseases (like polyps/rhinitis) and post-viral loss."
+  },
+  {
+    "id": 492,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "A young known patient of allergic rhinitis reported that on exposure to house dust mite, he experiences sneezing for a few minutes. Local examination shows congestion only. Systemic examination is unremarkable. Baseline lab investigations are within normal range. What is the most likely medication which may be helpful?",
+    "options": [
+      "a. Antibiotics",
+      "b. Antihistamines",
+      "c. Chromoglycate",
+      "d. Corticosteroids",
+      "e. Decongestants"
+    ],
+    "answer": "b. Antihistamines",
+    "explanation": "For acute, intermittent symptoms like sneezing, Antihistamines are the first-line treatment."
+  },
+  {
+    "id": 493,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "Common Cold Is Most Often Caused By:",
+    "options": [
+      "a. Influenza Virus",
+      "b. Rhinovirus",
+      "c. Adenovirus",
+      "d. Respiratory Syncytial Virus"
+    ],
+    "answer": "b. Rhinovirus",
+    "explanation": "Rhinoviruses are the most common etiological agents of the common cold."
+  },
+  {
+    "id": 494,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "Which one of the following drugs provide protection against nasal allergy when used just before exposure to allergen?",
+    "options": [
+      "a. Sodium Chromoglycate",
+      "b. Pseudoephedrine",
+      "c. Prednisolone orally",
+      "d. Budesonide nasal spray"
+    ],
+    "answer": "a. Sodium Chromoglycate",
+    "explanation": "Sodium Cromoglycate is a mast cell stabilizer that prevents degranulation if used prophylactically before exposure."
+  },
+  {
+    "id": 495,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "Regarding allergic rhinitis",
+    "options": [
+      "a. It is evoked by certain specific stimuli",
+      "b. Is associated with nasal obstruction and discharge",
+      "c. Is triggered by seasonal changes",
+      "d. It is IgE-mediated immunologic response",
+      "e. It is always genetic in nature"
+    ],
+    "answer": "d. It is IgE-mediated immunologic response",
+    "explanation": "The defining pathophysiological mechanism of Allergic Rhinitis is an IgE-mediated type I hypersensitivity reaction."
+  },
+  {
+    "id": 496,
+    "subject": "ENT",
+    "topic": "Allergic Rhinitis",
+    "question": "A 62-year-old man presents with cough, breathlessness and wheeze. 24% O2, salbutamol and hydrocortisone were given. The symptoms haven't improved, so nebulized bronchodilator was repeated and IV aminophylline was given. ABGs reveal pH=7.31, RR=32. What is the next appropriate management?",
+    "options": [
+      "a. Nasal intermittent positive pressure ventilation",
+      "b. Intubation and ventilation",
+      "c. Long Acting Beta Agonist",
+      "d. Toxapram",
+      "e. Amoxicillin PO"
+    ],
+    "answer": "a. Nasal intermittent positive pressure ventilation",
+    "explanation": "The patient is in respiratory acidosis (pH 7.31) due to COPD exacerbation/asthma. Non-Invasive Ventilation (NIPPV/BiPAP) is the next step to support ventilation before considering intubation."
+  },
+  {
+    "id": 497,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "Regarding vasomotor rhinitis",
+    "options": [
+      "a. Its symptoms are similar to those of allergic rhinitis",
+      "b. It is commonly associated with seasonal changes",
+      "c. It is triggered by exposure to specific stimuli",
+      "d. It is related with the intake of certain drugs",
+      "e. Surgery is the treatment of choice"
+    ],
+    "answer": "c. It is triggered by exposure to specific stimuli",
+    "explanation": "Vasomotor rhinitis is a diagnosis of exclusion (non-allergic) characterized by hyper-reactivity to non-specific stimuli like temperature changes, smoke, and spicy food (which the option refers to as 'specific stimuli' in the context of triggers)."
+  },
+  {
+    "id": 498,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "A 20 years old patient presented with facial & eyes pain, purulent nasal discharge and nasal obstruction for the last 3 days. Patient was already suffering from flu for the last one week. Nasal examination findings show yellowish pus in nasal cavity, middle meatus and postnasal drip. Rest of ENT and systemic examination is unremarkable. What is the most likely diagnosis?",
+    "options": [
+      "a. Acute Rhinosinusitis",
+      "b. Allergic Rhinitis",
+      "c. Boil/staphylococcal infection",
+      "d. Rhinitis",
+      "e. Vestibulitis"
+    ],
+    "answer": "a. Acute Rhinosinusitis",
+    "explanation": "Worsening symptoms after a viral URI ('double sickening') with purulent discharge and facial pain is diagnostic of Acute Bacterial Rhinosinusitis."
+  },
+  {
+    "id": 499,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "Which of the following drugs is linked with rhinitis medicamentosa?",
+    "options": [
+      "a. Intranasal steroid spray",
+      "b. Ipratropium bromide",
+      "c. Xylometazoline",
+      "d. Cocaine"
+    ],
+    "answer": "c. Xylometazoline",
+    "explanation": "Prolonged use of topical decongestants like Xylometazoline causes rebound congestion known as Rhinitis Medicamentosa."
+  },
+  {
+    "id": 500,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "In nasal smear number of eosinophils is increased in;",
+    "options": [
+      "a. Viral rhinitis",
+      "b. Rhinitis medicamentosa",
+      "c. Vasomotor rhinitis",
+      "d. Non allergic eosinophilic rhinitis"
+    ],
+    "answer": "d. Non allergic eosinophilic rhinitis",
+    "explanation": "NARES (Non-Allergic Rhinitis with Eosinophilia Syndrome) is defined by eosinophilia in nasal smears despite negative allergy tests."
+  },
+  {
+    "id": 501,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "Which of the following drugs is linked with rhinitis medicamentosa?",
+    "options": [
+      "a. Intranasal steroid spray",
+      "b. Ipratropium bromide",
+      "c. Xylometazoline",
+      "d. Cocaine"
+    ],
+    "answer": "c. Xylometazoline",
+    "explanation": "(Duplicate question) - Topical decongestants cause Rhinitis Medicamentosa."
+  },
+  {
+    "id": 502,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "Nasal polyps develop in patients with:",
+    "options": [
+      "a. Aspirin intolerance",
+      "b. Fungal Sinusitis",
+      "c. Chronic Rhinosinusitis of Non Allergic Origin",
+      "d. All of them"
+    ],
+    "answer": "d. All of them",
+    "explanation": "Nasal polyps are associated with chronic inflammation, Samter's triad (Aspirin intolerance + Asthma + Polyps), and Allergic Fungal Sinusitis."
+  },
+  {
+    "id": 503,
+    "subject": "ENT",
+    "topic": "Vasomotor and other forms of non allergic rhinitis",
+    "question": "Herpes zoster most commonly affects the:",
+    "options": [
+      "a. First division of trigeminal nerve",
+      "b. Second division of trigeminal nerve",
+      "c. Third division of trigeminal nerve",
+      "d. All of the above",
+      "e. none"
+    ],
+    "answer": "a. First division of trigeminal nerve",
+    "explanation": "The Ophthalmic division (V1) of the Trigeminal nerve is the most frequently involved site for Herpes Zoster (Shingles) in the head and neck."
+  },
+  {
+    "id": 504,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "Nasal polyps are:",
+    "options": [
+      "a. Pale, glistening and sensitive to touch",
+      "b. Pinkish, congested and insensitive to touch",
+      "c. Reddish, painful and bleed to touch",
+      "d. Pale, glistening and insensitive to touch",
+      "e. Pale, glistening and bleed to touch"
+    ],
+    "answer": "d. Pale, glistening and insensitive to touch",
+    "explanation": "Clinical features distinguishing polyps from turbinates: Polyps are pale/grey, insensitive to probing, and mobile."
+  },
+  {
+    "id": 505,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "Antrochoanal polyp usually arises from:",
+    "options": [
+      "a. Maxillary sinus",
+      "b. Frontal sinus",
+      "c. Ethmoid sinuses",
+      "d. Sphenoid sinus",
+      "e. Cavernous sinus"
+    ],
+    "answer": "a. Maxillary sinus",
+    "explanation": "Antrochoanal polyps arise from the mucosa of the maxillary antrum and extend into the choana/nasopharynx."
+  },
+  {
+    "id": 506,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 53-years-old science professor presents with left nasal obstruction for the last 27 months. Now he complains of mild nasal pain, discharge and mouth breathing at night. He underwent nasal surgery 3 times in the past for similar complaints. Detailed documents are not available. His left nasal examination and posterior rhinoscopy shows polypoidal swelling. Choose the most important investigantion to confirm the diagnosis.",
+    "options": [
+      "A. Biopsy",
+      "B. CT scan paranasal sinuses",
+      "C. MRI",
+      "D. Peripheral smear",
+      "E. X-ray paranasal sinuses"
+    ],
+    "answer": "A. Biopsy",
+    "explanation": "A unilateral nasal polyp with recurrence in an older adult raises suspicion of neoplasia (e.g., Inverted Papilloma or Malignancy). Biopsy is mandatory for confirmation."
+  },
+  {
+    "id": 507,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 19 years old engineering boy student presented to ENT clinic with right nasal obstruction for the last 12 months, mouth breathing for 6 months and now epistaxis for 2 months. Right nasal examination shows polypoidal/swelling, posterior rhinoscopy was difficult and plane radiograph shows haziness of the right maxillary sinus. What is your most probable diagnosis?",
+    "options": [
+      "A. Allergic fungal sinusitis",
+      "b. Angiofibroma",
+      "c. Antrochoanal polyp",
+      "d. Nasal polyposis",
+      "e. Sino-nasal tumour"
+    ],
+    "answer": "b. Angiofibroma",
+    "explanation": "The triad of young male + nasal mass + epistaxis is the classic presentation of Juvenile Nasopharyngeal Angiofibroma (JNA). (Note: The original question stated 'girl', which is clinically incorrect for JNA)."
+  },
+  {
+    "id": 508,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 50 years old patient reported nasal obstruction, whitish postnasal drip, mouth breathing at night, increasing off and on for the last 18 months. Examination of nose revealed congestion of nasal mucosa, presence of muciod secretion and polypoidal masses in the nasal cavity. Rest of the local and systemic examination is unremarkable. Nasal polyps are seen on radiological investigution. What is the most likely diagnosis?",
+    "options": [
+      "a. Antrochconal polyp",
+      "b. Deflected nasal septum (DNS)",
+      "c. Nasal polyp (Ethmoidal)",
+      "d. Rhinosinusitis",
+      "e. Neoplastic lesion (Tumor)"
+    ],
+    "answer": "c. Nasal polyp (Ethmoidal)",
+    "explanation": "Multiple, bilateral polypoidal masses in an adult associated with chronic symptoms are typical of Ethmoidal Polyposis."
+  },
+  {
+    "id": 509,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A young patient reported progressive nasal obstruction on left side for the last 3 months. Breathing and swallowing is normal. No nasal bleeding seen for the last 3 months. Examination revealed polypoidal mass in nasal cavity and nasopharynx. Rest of the local and systemic examination is unremarkable. Radiology shows left maxillary haziness. What is the most likely diagnosis?",
+    "options": [
+      "a. Angiofibroma",
+      "b. Antrochnoal polyp",
+      "c. Deflected nasal septum (DNS)",
+      "d. Malignant tumour",
+      "e. Nasal Polyp (Ethmoidal)"
+    ],
+    "answer": "b. Antrochnoal polyp",
+    "explanation": "A unilateral mass arising from the maxillary sinus (haziness) extending into the nasopharynx in a young patient, without bleeding (ruling out Angiofibroma), is classic for an Antrochoanal Polyp."
+  },
+  {
+    "id": 510,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 15 years old child has right nasal obstruction for the last 18 months; he became snorer for the last 2 months. Nasal & nasopharyngeal examination shows polypoidal swelling. Baseline laboratory investigations are within normal limits. What is the most relevant investigation to confirm the diagnosis?",
+    "options": [
+      "A. CT scan",
+      "B. Fine needle aspiration cytology",
+      "C. Hemotology (Biopsy)",
+      "D. Microscopy",
+      "E. Ultrasound"
+    ],
+    "answer": "A. CT scan",
+    "explanation": "In a young male with unilateral nasal obstruction and a nasopharyngeal mass, Juvenile Nasopharyngeal Angiofibroma (JNA) or an Antrochoanal polyp are top differentials. A CT scan is the most relevant initial investigation to delineate the extent and origin of the mass. Biopsy is contraindicated if JNA is suspected due to bleeding risk."
+  },
+  {
+    "id": 511,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 3 year old child presented with a unilateral single polyp. It doesn’t bleed. What will be your line of management?",
+    "options": [
+      "a. Give sedation under general anaesthesia",
+      "b. Perform a biopsy",
+      "c. Investigate for intracranial meningocele",
+      "d. Observe the child periodically"
+    ],
+    "answer": "c. Investigate for intracranial meningocele",
+    "explanation": "A unilateral polyp in a very young child (e.g., 3 years old) is a \"red flag\" for a congenital herniation of the brain/meninges (Meningocele/Encephalocele). It must be investigated (usually with CT/MRI) before any intervention to avoid CSF leak or meningitis."
+  },
+  {
+    "id": 512,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "The Most Common Medical Treatment Of Nasal Polyps is:",
+    "options": [
+      "a. Topical Decongestants",
+      "b. Antihistamines",
+      "c. Topical Steroids",
+      "d. Non Steroidal Anti Inflammatory Drugs"
+    ],
+    "answer": "c. Topical Steroids",
+    "explanation": "Topical corticosteroids are the mainstay of medical management for nasal polyps to reduce size and inflammation."
+  },
+  {
+    "id": 513,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "Nasal Polyps Develop In Patients With:",
+    "options": [
+      "a. Aspirin intolerance",
+      "b. Fungal Sinusitis",
+      "c. Chronic Rhinosinusitis of Non Allergic Origin",
+      "d. All of the above"
+    ],
+    "answer": "d. All of the above",
+    "explanation": "Nasal polyposis is associated with Samter's triad (Aspirin intolerance), Allergic Fungal Sinusitis, and Chronic inflammation."
+  },
+  {
+    "id": 514,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 35 year old man reported recurrent history of rhinorrhea, sneezing and nasal obstruction for several years. He developed difficulty of breathing through nose with nasal discharge at times and now snoring at night for the last one month. His examination of left nostril shows polypoidal swelling, posterior rhinoscopy reveals nasal mass near choana and plane X-rays nasal / paranasal sinus shows opacificans. What is the most likely diagnosis?",
+    "options": [
+      "a. Allergic fungal sinusitis",
+      "b. Antrochoanal polyp",
+      "c. Nasal polyposis",
+      "d. Nasopharyngeal angiofibroma",
+      "e. Sino-nasal malignancy"
+    ],
+    "answer": "b. Antrochoanal polyp",
+    "explanation": "A polyp arising in the maxillary antrum (suggested by unilateral opacification) and extending through the choana into the nasopharynx (causing snoring) is characteristic of an Antrochoanal Polyp."
+  },
+  {
+    "id": 515,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 19 years old engineering student presented to ENT clinic with right nasal obstruction for the last 17 months, mouth breathing for 6 months and now snoring for 2 months. Right nasal examination shows polypoidal swelling, posterior rhinoscopy was difficult and plane radiograph shows haziness of the right maxillary sinus. What is your most probable diagnosis?",
+    "options": [
+      "a. Allergic fungal sinusitis",
+      "b. Angiofibroma",
+      "c. Antrochoanal polyp",
+      "d. Nasal polyposis"
+    ],
+    "answer": "c. Antrochoanal polyp",
+    "explanation": "Unilateral polypoidal swelling extending posteriorly (causing snoring) with maxillary sinus haziness in a young adult is the classic presentation of an Antrochoanal Polyp."
+  },
+  {
+    "id": 516,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "The common presentation of antrochoanal (AC) polyps is:",
+    "options": [
+      "a. Unilateral nasal obstruction in a young patient",
+      "b. Recurrent epistaxis",
+      "c. Reduced smell (hyposmia)",
+      "d. Post nasal discharge",
+      "e. Persistent headache"
+    ],
+    "answer": "a. Unilateral nasal obstruction in a young patient",
+    "explanation": "Antrochoanal polyps typically present as unilateral obstruction, often with a valve-like effect (ball valve) in the nasopharynx."
+  },
+  {
+    "id": 517,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "Nasal polyps in a child should arise the suspicion of:",
+    "options": [
+      "a. Cystic fibrosis",
+      "b. Aspirin hypersensitivity",
+      "c. Celiac disease",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "a. Cystic fibrosis",
+    "explanation": "Any child presenting with nasal polyps must be screened for Cystic Fibrosis (mucoviscidosis), as polyps are rare in children otherwise."
+  },
+  {
+    "id": 518,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "Unilateral nasal polyp may be:",
+    "options": [
+      "a. Antrochoanal polyp",
+      "b. Neoplasia",
+      "c. Meningocele",
+      "d. All of the above",
+      "e. None"
+    ],
+    "answer": "d. All of the above",
+    "explanation": "A unilateral polypoid mass is a critical differential diagnosis that includes Antrochoanal polyp, Malignancy (Neoplasia), and Meningocele."
+  },
+  {
+    "id": 519,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "A 23-year-old man with history of asthma comes with post nasal discharge and bilateral painless nasal blockage. What is the most likely diagnosis?",
+    "options": [
+      "a. Nasal polyp",
+      "b. Septal hematoma",
+      "c. Septal abscess",
+      "d. Allergic rhinitis"
+    ],
+    "answer": "a. Nasal polyp",
+    "explanation": "Asthma is strongly associated with Ethmoidal Nasal Polyps (part of the 'asthma, aspirin sensitivity, nasal polyps' triad)."
+  },
+  {
+    "id": 520,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "A young woman was on contraceptive pills due to which she developed deep vein thrombosis. She was placed on warfarin. She started bleeding from nose. The best test to check her coagulation status is",
+    "options": [
+      "a. Bleeding time",
+      "b. Prothrombin time (PT/INR)",
+      "c. Platelet count",
+      "d. Activated partial thromboplastin time",
+      "e. Hess test"
+    ],
+    "answer": "b. Prothrombin time (PT/INR)",
+    "explanation": "Warfarin affects the extrinsic pathway and is monitored using Prothrombin Time (PT) and INR. (aPTT is used for Heparin)."
+  },
+  {
+    "id": 521,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "All of the following are treatment options for epistaxis except",
+    "options": [
+      "a. Anterior nasal packing",
+      "b. Cauterization",
+      "c. Elevation of mucoperi chondvial flap & SMR operation",
+      "d. Ligation of vessels",
+      "e. Middle meatus antrostomy"
+    ],
+    "answer": "e. Middle meatus antrostomy",
+    "explanation": "Middle meatus antrostomy is a surgery for maxillary sinusitis (FESS), not a treatment for epistaxis. The others are valid interventions."
+  },
+  {
+    "id": 522,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "What Is Most Common Site Of Nose Bleed:",
+    "options": [
+      "a. Floor of nose",
+      "b. Lateral wall of nose",
+      "c. Inferior turbinate",
+      "d. Little's area"
+    ],
+    "answer": "d. Little's area",
+    "explanation": "Little's area (Kiesselbach's plexus) on the anterior septum is the most common site of epistaxis."
+  },
+  {
+    "id": 523,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "Arteries which take part in kiesselbachs plexus Include all except:",
+    "options": [
+      "a. Anterior ethmoidal",
+      "b. Greater Palatine",
+      "c. Superior Labial",
+      "d. Inferior Labial"
+    ],
+    "answer": "d. Inferior Labial",
+    "explanation": "Kiesselbach's plexus is formed by the Anterior Ethmoidal, Sphenopalatine, Greater Palatine, and Superior Labial arteries. The Inferior Labial is not involved."
+  },
+  {
+    "id": 524,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "Commonest site of epistaxis in young patients is",
+    "options": [
+      "a. Middle turbinate",
+      "b. Retro-collulmellar vein",
+      "c. Woodruff's plexus",
+      "d. Little's area",
+      "e. Posterior part of nasal cavity"
+    ],
+    "answer": "d. Little's area",
+    "explanation": "In children and young adults, trauma (picking) to Little's area is the most common cause."
+  },
+  {
+    "id": 525,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "A patient with epistaxis showing a bleeding point In little's area is best managed by:",
+    "options": [
+      "a. Cautery",
+      "b. Anterior nasal pack",
+      "c. Posterior nasal pack",
+      "d. Coagulants"
+    ],
+    "answer": "a. Cautery",
+    "explanation": "If a visible bleeding point is identified in Little's area, direct Cautery (chemical or electrical) is the most effective immediate treatment."
+  },
+  {
+    "id": 526,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "Following is the common site for epistaxis:",
+    "options": [
+      "a. Posteriosuperior part of the nasal cavity",
+      "b. Above the level of the middle turbinate",
+      "c. Interior end of inferior turbinate",
+      "d. Below the level of the middle turbinate",
+      "e. Little's area"
+    ],
+    "answer": "e. Little's area",
+    "explanation": "Little's area is statistically the most common site."
+  },
+  {
+    "id": 527,
+    "subject": "ENT",
+    "topic": "Epistaxis",
+    "question": "A 10-year-old boy develops nasal bleeding. What is the best way to stop the bleeding from the nose",
+    "options": [
+      "a. Pressure over base of the nose",
+      "b. Ice packs",
+      "c. Pressure over the soft tissues",
+      "d. Nasal packing",
+      "e. Surgery"
+    ],
+    "answer": "c. Pressure over the soft tissues",
+    "explanation": "Trotter's method involves pinching the soft cartilaginous part of the nose (alae) against the septum to compress Little's area. Pressure over the bony base is ineffective."
+  },
+  {
+    "id": 528,
+    "subject": "ENT",
+    "topic": "TRAUMA TO THE FACE",
+    "question": "Manipulation of nasal bones (MNB) should be done:",
+    "options": [
+      "a. Within 02 weeks of nasal trauma",
+      "b. After 02 weeks of nasal trauma",
+      "c. Within 06 months of nasal trauma",
+      "d. 02 hours after nasal trauma",
+      "e. After 06 months of nasal trauma"
+    ],
+    "answer": "a. Within 02 weeks of nasal trauma",
+    "explanation": "Closed reduction of nasal fractures should be performed before the bones heal in malposition, typically within 2 weeks (14 days)."
+  },
+  {
+    "id": 529,
+    "subject": "ENT",
+    "topic": "TRAUMA TO THE FACE",
+    "question": "After a few days of sustaining injuries in a road traffic accident, a teenage motorcyclist presents with CSF rhinorrhea. Which of the following statements best suits the above mentioned scenario?",
+    "options": [
+      "a. It is always traumatic",
+      "b. The usual symptom is discharge from the nose",
+      "c. The patient complains of nasal obstruction and headache",
+      "d. It is diagnosed by detecting glucose in the fluid",
+      "e. Conservative treatment is the best mode of treatment"
+    ],
+    "answer": "e. Conservative treatment is the best mode of treatment",
+    "explanation": "Most cases of traumatic CSF rhinorrhea heal spontaneously with conservative measures (bed rest, head elevation, avoiding straining)."
+  },
+  {
+    "id": 530,
+    "subject": "ENT",
+    "topic": "TRAUMA TO THE FACE",
+    "question": "A 15 years old boy had trauma to his nose. His doctor diagnosed him to be having fractured nasal bone with deformity and advised manipulation of nasal bone. Baseline laboratory investigations are within normal limits. What is the most appropriate time for manipulation of nasal bones (MNB)?",
+    "options": [
+      "a. 02 hours after nasal trauma",
+      "b. After 02 weeks of nasal trauma",
+      "c. After 06 months of nasal trauma",
+      "d. Within 02 weeks of nasal trauma",
+      "e. Within 06 months of nasal trauma"
+    ],
+    "answer": "d. Within 02 weeks of nasal trauma",
+    "explanation": "The ideal window is after edema subsides (3-5 days) but before bony union (within 2 weeks)."
+  },
+  {
+    "id": 531,
+    "subject": "ENT",
+    "topic": "TRAUMA TO THE FACE",
+    "question": "In a patient presenting to the emergency room with a fractured nose associated with edema",
+    "options": [
+      "a. Postpone reduction for one week",
+      "b. Immediate reduction of the nasal fracture is needed",
+      "c. Patient should be prepared for immediate septorhinoplasty",
+      "d. postpone for one month before reduction"
+    ],
+    "answer": "a. Postpone reduction for one week",
+    "explanation": "Edema obscures the bony landmarks, making accurate reduction difficult. It is standard to wait 5-7 days for edema to resolve."
+  },
+  {
+    "id": 532,
+    "subject": "ENT",
+    "topic": "TRAUMA TO THE FACE",
+    "question": "Blow out fracture of the orbit",
+    "options": [
+      "a. Is caused by trauma",
+      "b. Diplopia is the presenting feature",
+      "c. Step deformity of the orbital floor is noticed",
+      "d. Exploration of the orbit is a recommended treatment",
+      "e. Tear drop sign is a diagnostic radiological sign"
+    ],
+    "answer": "e. Tear drop sign is a diagnostic radiological sign",
+    "explanation": "The 'Tear drop sign' (hanging drop opacity) on X-ray/CT is the pathognomonic radiological finding of an orbital floor blowout fracture (herniation of orbital contents into the maxillary sinus)."
+  },
+  {
+    "id": 533,
+    "subject": "ENT",
+    "topic": "TRAUMA TO THE FACE",
+    "question": "Fractures of the nasal bones are corrected with:",
+    "options": [
+      "a. Asche,s forceps",
+      "b. Walsham's forceps",
+      "c. Killian's forceps",
+      "d. Free's forceps",
+      "e. plain forceps"
+    ],
+    "answer": "b. Walsham's forceps",
+    "explanation": "Walsham's forceps are designed specifically to manipulate and disimpact the nasal bones. (Asch's forceps are used for the nasal septum)."
+  },
+  {
+    "id": 534,
+    "subject": "ENT",
+    "topic": "Anatomy And Physiology Of Paranasal Sinuses",
+    "question": "In paranasal sinuses,osteoma commonly involves;",
+    "options": [
+      "a. Frontal sinus",
+      "b. Maxillary sinus",
+      "c. Ethmoid sinus",
+      "d. Sphenoid sinus",
+      "e. None"
+    ],
+    "answer": "a. Frontal sinus",
+    "explanation": "The Frontal sinus is the most common site for osteomas of the paranasal sinuses."
+  },
+  {
+    "id": 535,
+    "subject": "ENT",
+    "topic": "Anatomy And Physiology Of Paranasal Sinuses",
+    "question": "The key area in the middle meatus for drainage of anterior group of paranasal sinuses is",
+    "options": [
+      "a. The ostiomeatal complex",
+      "b. The osteomeatal complex",
+      "c. The sphenoethmoidal recess",
+      "d. The superior meatus"
+    ],
+    "answer": "a. The ostiomeatal complex",
+    "explanation": "The Ostiomeatal Complex (OMC) is the functional unit where the frontal, maxillary, and anterior ethmoid sinuses drain."
+  },
+  {
+    "id": 536,
+    "subject": "ENT",
+    "topic": "Anatomy And Physiology Of Paranasal Sinuses",
+    "question": "Regarding the opening of the frontal sinus",
+    "options": [
+      "a. It opens in the superior meatus",
+      "b. Inferior meatus",
+      "c. Sphenoethmoidal recess",
+      "d. Anterior part of the hiatus semilunaris in the middle meatus",
+      "e. Posterior part of the hiatus smilunaris in the middle meatus"
+    ],
+    "answer": "d. Anterior part of the hiatus semilunaris in the middle meatus",
+    "explanation": "The Frontal sinus drains into the frontal recess, typically located in the anterior aspect of the middle meatus/hiatus semilunaris."
+  },
+  {
+    "id": 537,
+    "subject": "ENT",
+    "topic": "Anatomy And Physiology Of Paranasal Sinuses",
+    "question": "Which sinus is relatively larger at birth:",
+    "options": [
+      "a. Maxillay",
+      "b. Sphenoid",
+      "c. Ethmoidal",
+      "d. Frontal",
+      "e. Mastoid"
+    ],
+    "answer": "c. Ethmoidal",
+    "explanation": "The Ethmoid sinuses are the most developed and clinically significant sinuses at birth. (The Maxillary sinus is present but very small/rudimentary)."
+  },
+  {
+    "id": 538,
+    "subject": "ENT",
+    "topic": "Anatomy And Physiology Of Paranasal Sinuses",
+    "question": "Which sinus is not present at birth:",
+    "options": [
+      "a. Maxillary",
+      "b. Frontal",
+      "c. Ethmoid",
+      "d. Sphenoid",
+      "c. All"
+    ],
+    "answer": "b. Frontal",
+    "explanation": "The Frontal sinus is absent at birth and only begins to develop significantly around age 5-7."
+  },
+  {
+    "id": 539,
+    "subject": "ENT",
+    "topic": "Anatomy And Physiology Of Paranasal Sinuses",
+    "question": "Radiologically the maxillary sinus is best seen in:",
+    "options": [
+      "a. Oblique view",
+      "b. Lateral view",
+      "c. Occipitofrontal view",
+      "d. Occipitomental view",
+      "e. Anteroposterior"
+    ],
+    "answer": "d. Occipitomental view",
+    "explanation": "The Occipitomental view (Water's view) projects the petrous temporal bones below the maxillary antra, providing the best view of the maxillary sinuses."
+  },
+  {
+    "id": 540,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "Young's operation is performed in:",
+    "options": [
+      "a. Atrophic rhinitis",
+      "b. Allergic rhinitis",
+      "c. CSF thinorrhea",
+      "d. Rhinosinusitis",
+      "e. Epistaxis"
+    ],
+    "answer": "a. Atrophic rhinitis",
+    "explanation": "Young's operation involves surgical closure of the nostrils to prevent drying and crusting in Atrophic Rhinitis."
+  },
+  {
+    "id": 541,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "In a case of infective sinusitis:",
+    "options": [
+      "a. Is always complicated by acute local complication",
+      "b. Frontal sinus is the commonly involved sinus",
+      "c. Mucocele as a complication of sinusitis is a common entity",
+      "d. Orbital involvement in young children is due to ethmoidal sinusitis",
+      "e. Conservative treatment is the only treatment of choice"
+    ],
+    "answer": "d. Orbital involvement in young children is due to ethmoidal sinusitis",
+    "explanation": "In young children, the Lamina Papyracea (separating the ethmoid sinus from the orbit) is very thin or dehiscent, facilitating the spread of infection from Ethmoiditis to the orbit (Orbital Cellulitis)."
+  },
+  {
+    "id": 542,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "A 66‑year‑old man with uncontrolled diabetes mellitus developed right nasal obstruction, severe pain, epistaxis, right eye proptosis, high‑grade fever and facial swelling for the last 5 days. Examination shows inflammatory changes in the nose, blackening of the palate, ophthalmoplegia and vision loss in the right eye. Laboratory investigations show TLC 20,000/mm³, blood glucose 400 mg/dL. Imaging studies show haziness and bone erosion in the right maxillary sinus. What is the most likely diagnosis?",
+    "options": [
+      "a. Acute invasive fungal sinusitis",
+      "b. Allergic fungal sinusitis",
+      "c. Nasal polyposis",
+      "d. Nasopharyngeal carcinoma",
+      "e. Sino‑nasal malignancy"
+    ],
+    "answer": "a. Acute invasive fungal sinusitis",
+    "explanation": "The combination of uncontrolled diabetes, rapid progression (5 days), black eschar (blackening of palate), and orbital/cranial nerve involvement (ophthalmoplegia/vision loss) is diagnostic of Acute Invasive Fungal Sinusitis (Mucormycosis)."
+  },
+  {
+    "id": 543,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "A 24‑year‑old patient presented with 9 days history of nasal obstruction, severe facial pain and yellowish anterior and posterior nasal discharge. His TLC is 17,000; neutrophils 95%. What is the gold standard investigation for confirmation of the pathology and its extent?",
+    "options": [
+      "a. Plane radiographs of paranasal sinuses",
+      "b. CT scan of the paranasal sinuses",
+      "c. Endoscopic examination of nose",
+      "d. Pus for culture from middle meatus",
+      "e. MRI"
+    ],
+    "answer": "b. CT scan of the paranasal sinuses",
+    "explanation": "While the diagnosis of acute sinusitis is largely clinical, CT scan of the paranasal sinuses is the gold standard imaging modality to confirm the extent of the disease and anatomy, especially when complications are suspected or response to treatment is poor."
+  },
+  {
+    "id": 544,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "A young patient reported severe pain in the right forehead and eye with postnasal yellowish discharge. Clinical and radiological diagnosis was made as right acute frontal sinusitis which is not responding to medical treatment for the last two weeks. Which is the most likely surgical procedure that may be helpful?",
+    "options": [
+      "a. Antral washout (AWO)",
+      "b. Ethmoidectomy",
+      "c. Inferior meatal antrostomy",
+      "d. External fronto‑ethmoidectomy",
+      "e. Trephination"
+    ],
+    "answer": "e. Trephination",
+    "explanation": "Frontal sinus trephination is indicated for acute frontal sinusitis with severe pain that is unresponsive to medical therapy (antibiotics/decongestants) to drain pus and prevent intracranial complications."
+  },
+  {
+    "id": 545,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "The primary treatment of acute maxillary sinusitis includes:",
+    "options": [
+      "a. Puncture and lavage of the sinus",
+      "b. Inferior meatal antrostomy",
+      "c. Medical treatment",
+      "d. Functional endoscopic sinus surgery"
+    ],
+    "answer": "c. Medical treatment",
+    "explanation": "The first-line management for acute bacterial rhinosinusitis is medical, including antibiotics, analgesics, and decongestants. Surgical interventions like lavage or FESS are reserved for complications or chronic/recurrent cases."
+  },
+  {
+    "id": 546,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "An 84‑year‑old man has supra‑orbital pain and tenderness and developed tenderness over the maxilla. What is the single most likely cause of these symptoms?",
+    "options": [
+      "a. Acute sinusitis",
+      "b. Septal abscess",
+      "c. Allergic rhinitis",
+      "d. Trigeminal neuralgia",
+      "e. Maxillary carcinoma"
+    ],
+    "answer": "a. Acute sinusitis",
+    "explanation": "Tenderness over the maxillary and frontal (supra-orbital) sinuses is a classic sign of Acute Rhinosinusitis."
+  },
+  {
+    "id": 547,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "The most dangerous complication of chronic rhinosinusitis is:",
+    "options": [
+      "a. Orbital cellulitis",
+      "b. Subperiosteal abscess",
+      "c. Meningitis"
+    ],
+    "answer": "c. Meningitis",
+    "explanation": "Intracranial complications like Meningitis are the most dangerous and life-threatening consequences of rhinosinusitis."
+  },
+  {
+    "id": 548,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "Main indication of the procedure of antral washout (AWO/P) is:",
+    "options": [
+      "a. Diagnostic and therapeutic",
+      "b. Acute sinusitis",
+      "c. To collect aspirate for culture and sensitivity (C/S)",
+      "d. For cytological studies",
+      "e. Treatment of acute sinusitis"
+    ],
+    "answer": "a. Diagnostic and therapeutic",
+    "explanation": "Antral washout serves both diagnostic purposes (obtaining culture/proof of pus) and therapeutic purposes (flushing out purulent material) in cases of subacute or chronic maxillary sinusitis not responding to medication."
+  },
+  {
+    "id": 549,
+    "subject": "ENT",
+    "topic": "Nasal polyp",
+    "question": "The common presentation of antrochoanal (AC) polyp is:",
+    "options": [
+      "a. Unilateral nasal obstruction in a young patient",
+      "b. Unilateral anosmia (hyposmia)",
+      "c. Recurrent epistaxis",
+      "d. Persistent headache",
+      "e. Postnasal discharge"
+    ],
+    "answer": "a. Unilateral nasal obstruction in a young patient",
+    "explanation": "Antrochoanal polyps typically arise in children or young adults and present with unilateral nasal obstruction, often extending into the nasopharynx (causing snoring/sleep apnea)."
+  },
+  {
+    "id": 550,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Sinusitis",
+    "question": "Predisposing factors for chronic maxillary sinusitis include all except:",
+    "options": [
+      "a. Adenoid hypertrophy",
+      "b. Deviated nasal septum (DNS)",
+      "c. Rhinitis medicamentosa",
+      "d. Nasal polyp"
+    ],
+    "answer": "c. Rhinitis medicamentosa",
+    "explanation": "Deviated septum and polyps cause mechanical obstruction leading to sinusitis. Adenoids act as a bacterial reservoir (especially in kids). Rhinitis medicamentosa is drug-induced rebound congestion, not typically a primary structural cause of chronic infectious sinusitis compared to the others."
+  },
+  {
+    "id": 551,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Anatomy",
+    "question": "Which of the following nerves carries taste sensations from the anterior two thirds of the tongue?",
+    "options": [
+      "a. Facial nerve",
+      "b. Hypoglossal nerve",
+      "c. Lingual nerve",
+      "d. Vagus nerve",
+      "e. All of them"
+    ],
+    "answer": "a. Facial nerve",
+    "explanation": "Taste sensation from the anterior 2/3 of the tongue is carried by the Chorda Tympani nerve, a branch of the Facial nerve (CN VII). (Note: General sensation is carried by the Lingual nerve, V3)."
+  },
+  {
+    "id": 552,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Anatomy",
+    "question": "Taste buds are seen in all of the following papillae except:",
+    "options": [
+      "a. Circumvallate",
+      "b. Fungiform",
+      "c. Filiform",
+      "d. Foliate"
+    ],
+    "answer": "c. Filiform",
+    "explanation": "Filiform papillae are the most numerous but are mechanical in function and do not contain taste buds."
+  },
+  {
+    "id": 553,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Anatomy",
+    "question": "A 62‑year‑old man who recently had a flu‑like illness woke to find his speech slurred. Movement of his eyelids and lips is weak on the right side; the face is normal. Which anatomical site is most likely affected?",
+    "options": [
+      "a. Facial nerve",
+      "b. Hypoglossal nerve",
+      "c. Oculomotor nerve",
+      "d. Trigeminal nerve",
+      "e. Glossopharyngeal nerve"
+    ],
+    "answer": "a. Facial nerve",
+    "explanation": "Weakness of the eyelids (orbicularis oculi) and lips (orbicularis oris) indicates a lesion of the Facial Nerve (CN VII). The phrase \"face is normal\" in the stem is contradictory or poorly phrased (likely meaning sensation is normal), but the muscle weakness described is specific to CN VII."
+  },
+  {
+    "id": 554,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "A 35‑year‑old male presented with a bluish cystic swelling on the floor of the mouth which disappeared on puncture but reappeared later. The likely diagnosis is:",
+    "options": [
+      "a. Mucous retention cyst",
+      "b. Ranula",
+      "c. Submandibular gland duct stone",
+      "d. Sialadenitis",
+      "e. Sublingual gland tumor"
+    ],
+    "answer": "b. Ranula",
+    "explanation": "A Ranula is a mucous retention cyst of the sublingual gland, presenting as a translucent bluish swelling in the floor of the mouth resembling a frog's belly."
+  },
+  {
+    "id": 555,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "A 25‑year‑old woman developed fever, pain, trismus and swelling below the angle of the mandible after dental extraction. The most common organism involved is:",
+    "options": [
+      "a. Candida species",
+      "b. Diphtheria bacillus",
+      "c. Streptococcus pneumoniae",
+      "d. Streptococcus viridans",
+      "e. Staphylococcus aureus"
+    ],
+    "answer": "d. Streptococcus viridans",
+    "explanation": "Streptococcus viridans group bacteria are normal flora of the oral cavity and are the most common cause of odontogenic infections and abscesses following dental procedures."
+  },
+  {
+    "id": 556,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "A 48‑year‑old diabetic woman presented with fever and throat pain. Examination of the oral cavity revealed a foul‑smelling membrane in the interdental papilla. The most probable organism involved is:",
+    "options": [
+      "a. Diphtheria bacillus",
+      "b. Klebsiella",
+      "c. Fusobacterium and Spirochetes",
+      "d. Herpes simplex",
+      "e. Streptococcus species"
+    ],
+    "answer": "c. Fusobacterium and Spirochetes",
+    "explanation": "The clinical description of foul-smelling breath and necrosis of the interdental papilla is diagnostic of Vincent's Angina (Acute Necrotizing Ulcerative Gingivitis), caused by a symbiotic infection of Fusobacterium fusiforme and Borrelia vincentii (spirochete)."
+  },
+  {
+    "id": 557,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "A 51‑year‑old woman presents with a painful tongue and tiredness. She is pale, has angular stomatitis and a smooth red tongue. There is no koilonychia. Which single cell type will you find on the blood film?",
+    "options": [
+      "a. Numerous blast cells",
+      "b. Myelocytes",
+      "c. Spherocytes",
+      "d. Mexican hat cells",
+      "e. Erythrocytes"
+    ],
+    "answer": "d. Mexican hat cells",
+    "explanation": "The symptoms (smooth tongue, angular stomatitis, pallor) usually indicate Iron Deficiency Anemia (even without koilonychia) or B12 deficiency. 'Mexican hat cells' (Target cells) are seen in Iron Deficiency Anemia and Thalassemia. Given the stomatitis, IDA is a strong differential. (Note: If B12 deficiency was the intended diagnosis, 'Macrocytes' would be the answer, but it is not listed)."
+  },
+  {
+    "id": 558,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "What is the most common site of leukoplakia in the oral cavity?",
+    "options": [
+      "a. Buccal mucosa",
+      "b. Floor of the mouth",
+      "c. Hard palate",
+      "d. Tongue",
+      "e. None of them"
+    ],
+    "answer": "a. Buccal mucosa",
+    "explanation": "Leukoplakia (white patch) most frequently occurs on the buccal mucosa and oral commissures."
+  },
+  {
+    "id": 559,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "The commonest cause of oral ulceration is:",
+    "options": [
+      "a. Trauma",
+      "b. Aphthous ulceration",
+      "c. Viral infections",
+      "d. Malignant ulcers"
+    ],
+    "answer": "a. Trauma",
+    "explanation": "Traumatic ulcers (from biting, dentures, sharp teeth) are the most common cause of oral ulceration overall."
+  },
+  {
+    "id": 560,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "Which of the following lesions in the oral cavity has malignant potential?",
+    "options": [
+      "a. Hypertrophic candidiasis",
+      "b. Leukoplakia",
+      "c. Erythroplasia",
+      "d. White sponge nevus"
+    ],
+    "answer": "c. Erythroplasia",
+    "explanation": "Erythroplasia (Erythroplakia) has the highest rate of malignant transformation (>90%), far higher than leukoplakia."
+  },
+  {
+    "id": 561,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "Oral manifestations of HIV include all except:",
+    "options": [
+      "a. Hairy leukoplakia",
+      "b. Candidiasis",
+      "c. Basal striate forming a lacing pattern",
+      "d. Recurrent aphthous ulcers"
+    ],
+    "answer": "c. Basal striate forming a lacing pattern",
+    "explanation": "Basal striate forming a lacing pattern (Wickham's striae) describes Lichen Planus, which is an autoimmune condition not specifically defined as an HIV-associated lesion like the others."
+  },
+  {
+    "id": 562,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "A single painless, firm, indurated ulcerated swelling with punched‑out edge on the lip is most probably:",
+    "options": [
+      "a. Tuberculous",
+      "b. Syphilitic",
+      "c. Traumatic",
+      "d. Malignant"
+    ],
+    "answer": "b. Syphilitic",
+    "explanation": "This description matches the Primary Chancre of Syphilis."
+  },
+  {
+    "id": 563,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "Infection of the floor of the mouth usually originating from infected molars is known as:",
+    "options": [
+      "a. Trench mouth",
+      "b. Ludwig’s angina",
+      "c. Vincent’s angina"
+    ],
+    "answer": "b. Ludwig’s angina",
+    "explanation": "Ludwig's Angina is a potentially life-threatening cellulitis of the floor of the mouth (submandibular/sublingual spaces), typically arising from a dental infection (2nd/3rd molars)."
+  },
+  {
+    "id": 564,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "A 3‑year‑old child had high temperature for 4 days and later developed rashes on the buccal mucosa and around the mouth. The most appropriate diagnosis is:",
+    "options": [
+      "a. Rubella",
+      "b. Chickenpox",
+      "c. Roseola infantum",
+      "d. Impetigo"
+    ],
+    "answer": "b. Chickenpox",
+    "explanation": "Chickenpox (Varicella) presents with fever followed by a rash that affects the skin and mucous membranes (including the mouth). Hand, Foot, and Mouth disease is another possibility but not listed."
+  },
+  {
+    "id": 565,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "Tumors of the oral cavity:",
+    "options": [
+      "a. 3.0",
+      "b. 5.0",
+      "c. 1.8",
+      "d. 6.2",
+      "e. 7.0"
+    ],
+    "answer": "a. 3.0",
+    "explanation": "Oral cavity cancer comprises approximately 3% of all malignancies."
+  },
+  {
+    "id": 566,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "The most common tumor of the oral cavity is:",
+    "options": [
+      "a. Squamous cell carcinoma",
+      "b. Adenocarcinoma",
+      "c. Adenoid cystic carcinoma",
+      "d. Basal cell carcinoma",
+      "e. Lymphoma"
+    ],
+    "answer": "a. Squamous cell carcinoma",
+    "explanation": "Squamous Cell Carcinoma (SCC) accounts for over 90% of oral cavity malignancies."
+  },
+  {
+    "id": 567,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "Verrucous carcinoma of the buccal mucosa is identified by which characteristic?",
+    "options": [
+      "a. It is faster growing than the epidermoid form",
+      "b. It is not associated with tobacco chewing",
+      "c. It has predilection for the gingivobuccal gutter",
+      "d. It rarely extends to the mandible",
+      "e. It has a dark‑brown flat, smooth border on mucosa"
+    ],
+    "answer": "c. It has predilection for the gingivobuccal gutter",
+    "explanation": "Verrucous carcinoma is a low-grade, slow-growing variant of SCC, strongly associated with chewing tobacco, and frequently arises in the gingivobuccal gutter."
+  },
+  {
+    "id": 568,
+    "subject": "ENT",
+    "topic": "ORAL CAVITY — Common disorders",
+    "question": "An elderly patient reported a painful ulcer on the right lateral border of the tongue for 12 months. Local examination shows an aggressive ulcer‑like lesion <2 cm. What is the most likely investigation to confirm the type of ulcer?",
+    "options": [
+      "a. CT scan",
+      "b. Excisional biopsy",
+      "c. Fine needle aspiration cytology (FNAC)",
+      "d. Incisional biopsy",
+      "e. MRI"
+    ],
+    "answer": "d. Incisional biopsy",
+    "explanation": "For a suspected malignant ulcer of the tongue, an incisional biopsy is the standard diagnostic procedure to confirm histopathology before definitive treatment."
+  },
+  {
+    "id": 569,
+    "subject": "ENT",
+    "topic": "Non‑Neoplastic disorders of salivary glands",
+    "question": "A woman with pleomorphic adenoma is undergoing total parotidectomy. Which important vascular structure should the surgeon be most aware of?",
+    "options": [
+      "a. Facial artery",
+      "b. Facial vein",
+      "c. External carotid artery",
+      "d. Retromandibular vein"
+    ],
+    "answer": "d. Retromandibular vein",
+    "explanation": "The Retromandibular vein runs through the parotid gland deep to the facial nerve and is a critical landmark for nerve identification and surgical plane dissection."
+  },
+  {
+    "id": 570,
+    "subject": "ENT",
+    "topic": "Non‑Neoplastic disorders of salivary glands",
+    "question": "The most common site of origin of pleomorphic adenoma is:",
+    "options": [
+      "a. Parotid gland",
+      "b. Submandibular salivary gland",
+      "c. Minor salivary gland of the hard palate",
+      "d. Minor salivary gland of the lip"
+    ],
+    "answer": "a. Parotid gland",
+    "explanation": "Pleomorphic adenomas (Benign Mixed Tumors) most commonly affect the Parotid gland (80%)."
+  },
+  {
+    "id": 571,
+    "subject": "ENT",
+    "topic": "Non‑Neoplastic disorders of salivary glands",
+    "question": "Pleomorphic adenomas (mixed tumors) of the salivary glands are characterized by which of the following?",
+    "options": [
+      "a. They occur most commonly on the lips, tongue, and palate",
+      "b. They grow rapidly",
+      "c. They rarely recur if simply enucleated",
+      "d. They present as non‑tender masses",
+      "e. They have low malignant potential"
+    ],
+    "answer": "d. They present as non‑tender masses",
+    "explanation": "Pleomorphic adenomas typically present as slow-growing, painless (non-tender), firm masses. Recurrence is high if enucleated (due to pseudocapsule extensions)."
+  },
+  {
+    "id": 572,
+    "subject": "ENT",
+    "topic": "Non‑Neoplastic disorders of salivary glands",
+    "question": "A 68‑year‑old male presented with swelling in the lower pole of the parotid gland for 10 years. Examination shows a firm lesion in the lower pole. The most probable diagnosis is:",
+    "options": [
+      "a. Pleomorphic adenoma",
+      "b. Adenolymphoma",
+      "c. Mikulicz’s disease",
+      "d. Parotiditis",
+      "e. Frey’s syndrome"
+    ],
+    "answer": "b. Adenolymphoma",
+    "explanation": "Adenolymphoma (Warthin's Tumor) is classically found in the tail (lower pole) of the parotid gland in elderly males."
+  },
+  {
+    "id": 573,
+    "subject": "ENT",
+    "topic": "Non‑Neoplastic disorders of salivary glands",
+    "question": "A patient presented with swelling in the submandibular region that becomes more prominent on eating and is tender on palpation. The most probable diagnosis is:",
+    "options": [
+      "a. Chronic recurrent sialadenitis",
+      "b. Adenolymphoma",
+      "c. Mikulicz’s disease",
+      "d. Acute sialadenitis",
+      "e. Submandibular abscess"
+    ],
+    "answer": "a. Chronic recurrent sialadenitis",
+    "explanation": "Swelling related to meals (Mealtime Syndrome) is characteristic of obstructive sialadenitis (usually due to calculi/stones)."
+  },
+  {
+    "id": 574,
+    "subject": "ENT",
+    "topic": "Neoplasms of oral cavity",
+    "question": "During superficial parotidectomy, the most reliable landmark to identify the main trunk of the facial nerve is:",
+    "options": [
+      "a. Mastoid tip",
+      "b. Styloid process",
+      "c. Tympanomastoid suture",
+      "d. Cartilage of external auditory canal",
+      "e. All of them"
+    ],
+    "answer": "c. Tympanomastoid suture",
+    "explanation": "The Tympanomastoid suture is the most consistent bony landmark for the main trunk of the facial nerve."
+  },
+  {
+    "id": 575,
+    "subject": "ENT",
+    "topic": "Neoplasms of oral cavity",
+    "question": "The most common site of melanoma in the oral cavity is:",
+    "options": [
+      "a. Buccal and labial mucosa",
+      "b. Base of the tongue",
+      "c. Oral tongue and floor of mouth",
+      "d. Hard palate and maxillary gingiva"
+    ],
+    "answer": "d. Hard palate and maxillary gingiva",
+    "explanation": "Mucosal melanoma most frequently occurs on the Hard Palate and Maxillary Gingiva."
+  },
+  {
+    "id": 576,
+    "subject": "ENT",
+    "topic": "Neoplasms of oral cavity",
+    "question": "Which of the following statements regarding cancer of the tongue is true?",
+    "options": [
+      "a. Carcinomas of the base of the tongue are best treated by irradiation alone rather than surgery",
+      "b. Stage I and II cancers of the mobile tongue are treated more effectively by irradiation than by surgery",
+      "c. Cancer of the tongue is usually advanced to stage III by the time it is diagnosed",
+      "d. Prophylactic irradiation of the neck nodes is indicated in patients whose primary cancer of the tongue is treated by irradiation",
+      "e. Cancer of the tongue is the third most common malignancy of the oral cavity"
+    ],
+    "answer": "a. Carcinomas of the base of the tongue are best treated by irradiation alone rather than surgery",
+    "explanation": "Primary radiation (or chemoradiation) is generally preferred for Base of Tongue carcinoma to preserve function, whereas surgery is preferred for the Oral (mobile) tongue."
+  },
+  {
+    "id": 577,
+    "subject": "ENT",
+    "topic": "PHARYNX — Anatomy and related questions",
+    "question": "What is the corresponding level of vertebrae where the hypopharynx lies in a normal adult?",
+    "options": [
+      "a. C2–C3",
+      "b. C3–C4",
+      "c. C4–C5",
+      "d. C5–C6",
+      "e. C4–C6"
+    ],
+    "answer": "e. C4–C6",
+    "explanation": "The hypopharynx extends from the level of the hyoid bone to the cricoid cartilage, corresponding to C4 to C6 vertebrae."
+  },
+  {
+    "id": 578,
+    "subject": "ENT",
+    "topic": "PHARYNX — Anatomy and related questions",
+    "question": "The Eustachian tube is opened by contraction of:",
+    "options": [
+      "a. Tensor tympani muscle",
+      "b. Levator palati muscle",
+      "c. Tensor palati muscle",
+      "d. Salpingopharyngeus muscle",
+      "e. None of them"
+    ],
+    "answer": "c. Tensor palati muscle",
+    "explanation": "The Tensor Veli Palatini (Tensor Palati) is the primary dilator of the Eustachian tube."
+  },
+  {
+    "id": 579,
+    "subject": "ENT",
+    "topic": "PHARYNX — Anatomy and related questions",
+    "question": "Regarding the Eustachian tube:",
+    "options": [
+      "a. It opens in the lateral wall of the oropharynx",
+      "b. It is opened by the levator palati muscle",
+      "c. It is wider in the adult than in infants",
+      "d. None of them",
+      "e. All of them"
+    ],
+    "answer": "d. None of them",
+    "explanation": "A is false (Nasopharynx). B is false (Tensor palati). C is false (Infant tube is relatively wider/flaccid but functionally the isthmus is narrower; usually described as shorter, wider, horizontal). Hence 'None of them' is the best fit."
+  },
+  {
+    "id": 580,
+    "subject": "ENT",
+    "topic": "PHARYNX — Anatomy and related questions",
+    "question": "The part of the pharynx that lies in front of the 3rd to 6th cervical vertebrae is:",
+    "options": [
+      "a. Oropharynx",
+      "b. Nasopharynx",
+      "c. Hypopharynx",
+      "d. The whole pharynx"
+    ],
+    "answer": "c. Hypopharynx",
+    "explanation": "The Hypopharynx (Laryngopharynx) lies behind the larynx and corresponds to C3-C6."
+  },
+  {
+    "id": 581,
+    "subject": "ENT",
+    "topic": "PHARYNX — Anatomy and related questions",
+    "question": "The inferior constrictor muscle of the pharynx takes origin from:",
+    "options": [
+      "a. Hyoid bone",
+      "b. Mandible",
+      "c. Maxilla",
+      "d. Thyroid and cricoid cartilage"
+    ],
+    "answer": "d. Thyroid and cricoid cartilage",
+    "explanation": "The inferior constrictor has two parts: Thyropharyngeus (from Thyroid cartilage) and Cricopharyngeus (from Cricoid cartilage)."
+  },
+  {
+    "id": 582,
+    "subject": "ENT",
+    "topic": "Inflammation / Tumors of Nasopharynx",
+    "question": "Which of the following may cause Eustachian tube blockage?",
+    "options": [
+      "a. Adenoid hypertrophy",
+      "b. Chronic tonsillitis",
+      "c. Hypertrophy of lingual tonsil",
+      "d. Enlarged tongue"
+    ],
+    "answer": "a. Adenoid hypertrophy",
+    "explanation": "Adenoids are located in the nasopharynx close to the Eustachian tube opening; their hypertrophy is a common cause of obstruction."
+  },
+  {
+    "id": 583,
+    "subject": "ENT",
+    "topic": "Inflammation / Tumors of Nasopharynx",
+    "question": "Nasopharyngeal obstruction due to adenoids can lead to all except:",
+    "options": [
+      "a. Sinusitis",
+      "b. Serous otitis media",
+      "c. Cor pulmonale",
+      "d. Proptosis"
+    ],
+    "answer": "d. Proptosis",
+    "explanation": "Adenoids can cause Sinusitis (stasis), OME (ET block), and Cor Pulmonale (Pulmonary hypertension due to sleep apnea). Proptosis is not a feature (it is seen in Angiofibroma/Tumors)."
+  },
+  {
+    "id": 584,
+    "subject": "ENT",
+    "topic": "Inflammation / Tumors of Nasopharynx",
+    "question": "All of the following are true about cleft palate except:",
+    "options": [
+      "a. Patient has hypernasality",
+      "b. Adenoidectomy can be done safely",
+      "c. Otitis media may be a complication",
+      "d. Sucking is difficult"
+    ],
+    "answer": "b. Adenoidectomy can be done safely",
+    "explanation": "Adenoidectomy is contraindicated or done with extreme caution in cleft palate because the adenoid pad helps close the gap during speech; removal worsens velopharyngeal insufficiency (hypernasality)."
+  },
+  {
+    "id": 585,
+    "subject": "ENT",
+    "topic": "Inflammation / Tumors of Nasopharynx",
+    "question": "The most common malignancy seen in AIDS patients is:",
+    "options": [
+      "a. Hodgkin’s lymphoma",
+      "b. Kaposi’s sarcoma",
+      "c. Cancer of the nasopharynx",
+      "d. Hairy leukoplakia"
+    ],
+    "answer": "b. Kaposi’s sarcoma",
+    "explanation": "Kaposi's sarcoma is the most common malignancy associated with HIV/AIDS."
+  },
+  {
+    "id": 586,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Pharyngitis",
+    "question": "A 30‑year‑old female presented with dysphagia and low‑grade fever for 2 months. There is swelling of the posterior pharyngeal wall; needle aspiration revealed pus and X‑ray cervical spine shows changes in C5–C6. The most appropriate treatment is:",
+    "options": [
+      "a. Cephradine 1 g IV TDS following per‑oral incision and drainage",
+      "b. Ceftriaxone 1 g IV BD following per‑oral incision and drainage",
+      "c. Metronidazole 100 mg TDS following per‑oral incision and drainage",
+      "d. Antibiotics covering gram‑negative and gram‑positive anaerobes",
+      "e. Antitubercular treatment with incision & drainage through external approach"
+    ],
+    "answer": "e. Antitubercular treatment with incision & drainage through external approach",
+    "explanation": "Chronic retropharyngeal abscess with spinal X-ray changes (Pott's disease/Caries spine) indicates Tuberculosis. It requires ATT and external drainage (to prevent fistula formation associated with oral drainage)."
+  },
+  {
+    "id": 587,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Pharyngitis",
+    "question": "A 10‑year‑old child from a remote area presents with fever and respiratory difficulty; examination reveals a dirty membrane on the tonsils and pharynx with cervical lymphadenopathy. The most important investigation to reach a definitive diagnosis is:",
+    "options": [
+      "a. Indirect laryngeal biopsy",
+      "b. Peripheral smear",
+      "c. Chest and bone X‑ray",
+      "d. MRI",
+      "e. Throat smear and culture of the organism"
+    ],
+    "answer": "e. Throat smear and culture of the organism",
+    "explanation": "The clinical picture (dirty membrane, lymphadenopathy/bull neck, remote area) suggests Diphtheria. Throat swab for Gram/Albert's stain and culture is diagnostic."
+  },
+  {
+    "id": 588,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A 20‑year‑old presents with high fever and severe throat pain for 6 days, unresponsive to antibiotics. Labs show TLC 11,000/mm³, Neutrophils 30%, Lymphocytes 60% (with atypical cells). What is the likely diagnosis?",
+    "options": [
+      "a. Acute follicular tonsillitis",
+      "b. Acute pharyngitis",
+      "c. Infectious mononucleosis",
+      "d. Leukemia",
+      "e. Peritonsillar abscess (Quinsy)"
+    ],
+    "answer": "c. Infectious mononucleosis",
+    "explanation": "Failure to respond to antibiotics, significant lymphadenopathy, and relative lymphocytosis with atypical cells are classic findings for Infectious Mononucleosis."
+  },
+  {
+    "id": 589,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A 12‑year‑old boy with acute tonsillitis complains of ear pain. Which nerve is likely involved?",
+    "options": [
+      "a. Superior laryngeal",
+      "b. Glossopharyngeal",
+      "c. Facial",
+      "d. Lesser palatine"
+    ],
+    "answer": "b. Glossopharyngeal",
+    "explanation": "Referred otalgia from the tonsil occurs via the Glossopharyngeal nerve (CN IX), which supplies sensation to both the tonsil and the middle ear (Jacobson's nerve)."
+  },
+  {
+    "id": 590,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A 7‑year‑old child has had 5 episodes of acute tonsillitis over 2 years, with poor health and school performance; Hb 10 g/dL and TLC 7,000. The most appropriate treatment is:",
+    "options": [
+      "a. Deworming",
+      "b. Frequent courses of antibiotics",
+      "c. Multivitamin with iron",
+      "d. Pus for culture from the tonsil crypts",
+      "e. Tonsillectomy"
+    ],
+    "answer": "e. Tonsillectomy",
+    "explanation": "Recurrent tonsillitis affecting health and school performance is an indication for Tonsillectomy."
+  },
+  {
+    "id": 591,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A 14‑year‑old boy presented with high fever (104°F), severe throat pain and odynophagia for 5 hours. Both tonsils are swollen with pus in the crypts; TLC 23,000/mm³, neutrophils 90%, lymphocytes 9%. The most appropriate antibiotic is:",
+    "options": [
+      "a. 4th generation cephalosporin",
+      "b. Amoxicillin + clavulanic acid",
+      "c. Benzylpenicillin",
+      "d. Ciprofloxacin",
+      "e. Gentamicin injections"
+    ],
+    "answer": "c. Benzylpenicillin",
+    "explanation": "Acute bacterial tonsillitis (Strep. pyogenes) with such high grade symptoms is best treated with parenteral Penicillin (Benzylpenicillin)."
+  },
+  {
+    "id": 592,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A 20‑year‑old Irish woman presented with high fever, severe throat pain, membranous slough on tonsils and enlarged level‑I lymph nodes; TLC 9,000/mm³, lymphocytes 80%. The most likely diagnosis is:",
+    "options": [
+      "a. Acute follicular tonsillitis",
+      "b. Acute pharyngitis",
+      "c. Diphtheria",
+      "d. Infectious mononucleosis",
+      "e. Peritonsillar abscess (Quinsy)"
+    ],
+    "answer": "d. Infectious mononucleosis",
+    "explanation": "Marked Lymphocytosis (80%) with membranous tonsillitis and adenopathy is diagnostic of Infectious Mononucleosis."
+  },
+  {
+    "id": 593,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A young healthy patient reported severe throat pain, odynophagia and high fever for 2 days. Tonsils are swollen and congested with pus in the crypts; baseline labs show very high total leukocyte count. The most likely organism is:",
+    "options": [
+      "a. Streptococcus pyogenes",
+      "b. Staphylococcus aureus",
+      "c. Streptococcus viridans",
+      "d. Haemophilus influenzae",
+      "e. Branhamella catarrhalis"
+    ],
+    "answer": "a. Streptococcus pyogenes",
+    "explanation": "Streptococcus pyogenes (Group A Beta-Hemolytic Strep) is the most common bacterial cause of acute follicular tonsillitis."
+  },
+  {
+    "id": 594,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "Which tonsils are located between the palatoglossal and palatopharyngeal arches?",
+    "options": [
+      "a. Pharyngeal tonsils",
+      "b. Lingual tonsils",
+      "c. Tubal tonsils",
+      "d. Palatine tonsils",
+      "e. Adenoids"
+    ],
+    "answer": "d. Palatine tonsils",
+    "explanation": "The Palatine tonsils sit in the tonsillar fossa between the anterior (palatoglossal) and posterior (palatopharyngeal) pillars."
+  },
+  {
+    "id": 595,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "With enlarged inflamed tonsils, multiple palpable neck lymph nodes, palpable liver and spleen, TLC 12,000/mm³, neutrophils 33%, lymphocytes 56%, atypical cells 8% — the most likely diagnosis is:",
+    "options": [
+      "a. Lymphocytic leukemia",
+      "b. Streptococcal tonsillitis",
+      "c. Infectious mononucleosis",
+      "d. Diphtheria",
+      "e. Agranulocytosis"
+    ],
+    "answer": "c. Infectious mononucleosis",
+    "explanation": "The triad of Tonsillitis, Lymphadenopathy, and Hepatosplenomegaly, along with Atypical Lymphocytes, is classical for Infectious Mononucleosis."
+  },
+  {
+    "id": 596,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "A 24‑year‑old patient presented with fever 101°F, throat pain and odynophagia for 5 days; pale, ill‑looking, both tonsils swollen and congested, TLC 63,000/mm³, neutrophils 70%, monocytes 19%, Hb 7 g/dL. The most probable diagnosis is:",
+    "options": [
+      "a. Acute follicular tonsillitis",
+      "b. Acute pharyngitis",
+      "c. Infectious mononucleosis",
+      "d. Leukemia",
+      "e. Peritonsillar abscess (Quinsy)"
+    ],
+    "answer": "d. Leukemia",
+    "explanation": "Extremely high TLC (63,000) combined with severe Anemia (Hb 7 g/dL) and throat symptoms suggests Acute Leukemia (angina presentation)."
+  },
+  {
+    "id": 597,
+    "subject": "ENT",
+    "topic": "Acute and Chronic Tonsillitis",
+    "question": "The earliest and commonest complication of acute diphtheri is:",
+    "options": [
+      "a. Heart failure",
+      "b. Palatal paralysis",
+      "c. Laryngeal obstruction",
+      "d. Acute nephritis"
+    ],
+    "answer": "a. Heart failure",
+    "explanation": "Toxic myocarditis (Heart failure) is the most common cause of death and a major systemic complication of diphtheria."
+  },
+  {
+    "id": 598,
+    "subject": "ENT",
+    "topic": "LARYNGEAL TRAUMA",
+    "question": "Respiratory distress may follow all of the following except:",
+    "options": [
+      "a. Compression trauma of the larynx",
+      "b. penetration trauma of larynx",
+      "c. inhalation of irritant gases",
+      "d. cavernous sinus thrombosis"
+    ],
+    "answer": "d. cavernous sinus thrombosis",
+    "explanation": "Compression, penetration, and inhalation of irritant gases can all cause direct laryngeal injury or edema leading to airway obstruction and respiratory distress. Cavernous sinus thrombosis is a vascular/intracranial complication that affects cranial nerves and the eye, but does not typically cause direct respiratory distress."
+  },
+  {
+    "id": 599,
+    "subject": "ENT",
+    "topic": "ACUTE AND CHRONIC INFLAMMATION OF LARYNX",
+    "question": "A 3‑year‑old boy has fever, difficulty breathing and a “bull’s neck” appearance. He was not properly vaccinated. Which test will confirm the diagnosis?",
+    "options": [
+      "a. Schick test",
+      "b. Paul‑Bunnell test",
+      "c. Throat swab for culture",
+      "d. X‑ray chest",
+      "e. Lateral soft tissue X‑ray of the neck"
+    ],
+    "answer": "c. Throat swab for culture",
+    "explanation": "The clinical presentation of 'bull's neck', fever, and respiratory difficulty in an unvaccinated child suggests Diphtheria. The definitive diagnosis is made by isolating *Corynebacterium diphtheriae* from a throat swab culture."
+  },
+  {
+    "id": 600,
+    "subject": "ENT",
+    "topic": "ACUTE AND CHRONIC INFLAMMATION OF LARYNX",
+    "question": "In an adult with signs and symptoms consistent with acute epiglottitis, the best clinical assessment tool is:",
+    "options": [
+      "a. Blood culture",
+      "b. Fiber‑optic laryngoscopy",
+      "c. General anesthesia with direct laryngoscopy and possible tracheostomy",
+      "d. IV antibiotics and observation",
+      "e. Lateral soft tissue X‑ray of the neck"
+    ],
+    "answer": "b. Fiber‑optic laryngoscopy",
+    "explanation": "In adults, the airway is larger and less prone to sudden catastrophic obstruction compared to children. Fiber-optic laryngoscopy is a safe and effective method to visualize the epiglottis and confirm the diagnosis."
+  },
+  {
+    "id": 601,
+    "subject": "ENT",
+    "topic": "ACUTE AND CHRONIC INFLAMMATION OF LARYNX",
+    "question": "A 20‑year‑old Irish girl presents with high fever, severe throat pain and odynophagia for 4 days. Both tonsils are swollen with membranous slough and level‑I lymphadenopathy; TLC 9,000/mm³, lymphocytes 80%. The most likely diagnosis is:",
+    "options": [
+      "a. Acute follicular tonsillitis",
+      "b. Acute pharyngitis",
+      "c. Diphtheria",
+      "d. Infectious mononucleosis",
+      "e. Peritonsillar abscess (Quinsy)"
+    ],
+    "answer": "d. Infectious mononucleosis",
+    "explanation": "The combination of membranous tonsillitis, significant lymphadenopathy, and a marked relative lymphocytosis (80%) is characteristic of Infectious Mononucleosis."
+  },
+  {
+    "id": 602,
+    "subject": "ENT",
+    "topic": "ACUTE AND CHRONIC INFLAMMATION OF LARYNX",
+    "question": "A 5‑year‑old child presents with fever, severe respiratory distress, drooling of saliva and resists lying down. The most probable diagnosis is:",
+    "options": [
+      "a. Foreign body inhalation",
+      "b. Diphtheria",
+      "c. Acute epiglottitis",
+      "d. Retropharyngeal abscess"
+    ],
+    "answer": "c. Acute epiglottitis",
+    "explanation": "The triad of fever, drooling (due to dysphagia), and the tripod position (resisting lying down) is pathognomonic for Acute Epiglottitis, a medical emergency."
+  },
+  {
+    "id": 603,
+    "subject": "ENT",
+    "topic": "ACUTE AND CHRONIC INFLAMMATION OF LARYNX",
+    "question": "A 30‑year‑old man presents with difficulty breathing; throat exam shows erythema of tonsils and uvula with mild pyrexia. The single most relevant diagnosis is:",
+    "options": [
+      "a. Infectious mononucleosis",
+      "b. Acute follicular tonsillitis",
+      "c. Scarlet fever",
+      "d. Agranulocytosis"
+    ],
+    "answer": "a. Infectious mononucleosis",
+    "explanation": "Infectious mononucleosis can cause significant lymphoid hyperplasia (kissing tonsils) and edema of the uvula/pharynx, leading to upper airway obstruction (difficulty breathing) in adults."
+  },
+  {
+    "id": 604,
+    "subject": "ENT",
+    "topic": "ACUTE AND CHRONIC INFLAMMATION OF LARYNX",
+    "question": "A child presents with high fever, respiratory distress, dysphagia, and drooling. The most appropriate immediate treatment is:",
+    "options": [
+      "a. Corticosteroids",
+      "b. Paracetamol",
+      "c. Adrenaline nebulizer",
+      "d. IV antibiotics",
+      "e. Intubation under general anesthesia"
+    ],
+    "answer": "e. Intubation under general anesthesia",
+    "explanation": "The clinical picture of drooling, dysphagia, and high fever suggests Acute Epiglottitis or severe airway compromise. Securing the airway (Intubation) is the priority management."
+  },
+  {
+    "id": 605,
+    "subject": "ENT",
+    "topic": "CONGENITAL LESIONS OF LARYNX AND STRIDOR",
+    "question": "An 18‑year‑old with supraglottic hematoma after a road traffic accident has noisy breathing (stridor). The key characteristic of stridor in this patient is:",
+    "options": [
+      "a. On inspiration only",
+      "b. On expiration only",
+      "c. Sometimes on inspiration and sometimes on expiration",
+      "d. On deep expiration only"
+    ],
+    "answer": "a. On inspiration only",
+    "explanation": "Stridor caused by supraglottic lesions (like a hematoma) is typically inspiratory in nature."
+  },
+  {
+    "id": 606,
+    "subject": "ENT",
+    "topic": "CONGENITAL LESIONS OF LARYNX AND STRIDOR",
+    "question": "A 6‑month‑old diagnosed with laryngomalacia — the main presenting symptom is:",
+    "options": [
+      "a. Dyspnea on sleeping",
+      "b. Expiratory stridor",
+      "c. Hoarseness of voice",
+      "d. Inspiratory stridor"
+    ],
+    "answer": "d. Inspiratory stridor",
+    "explanation": "Laryngomalacia presents with high-pitched inspiratory stridor that typically worsens with crying, feeding, or lying supine."
+  },
+  {
+    "id": 607,
+    "subject": "ENT",
+    "topic": "CONGENITAL LESIONS OF LARYNX AND STRIDOR",
+    "question": "A neonate is depressed at birth but improves with crying. The most probable diagnosis is:",
+    "options": [
+      "a. Esophageal atresia with tetralogy of Fallot",
+      "b. Tracheo‑esophageal fistula",
+      "c. Laryngomalacia",
+      "d. Bilateral Choanal Atresia"
+    ],
+    "answer": "d. Bilateral Choanal Atresia",
+    "explanation": "Bilateral Choanal Atresia causes cyclic cyanosis: the infant is cyanotic at rest (when trying to breathe through the blocked nose) but turns pink/improves when crying (breathing through the mouth)."
+  },
+  {
+    "id": 608,
+    "subject": "ENT",
+    "topic": "LARYNGEAL PARALYSIS",
+    "question": "A 20‑year‑old singer cannot raise the pitch of her voice after thyroid surgery. The most likely diagnosis is:",
+    "options": [
+      "a. Thyroid storm",
+      "b. Bilateral recurrent laryngeal nerve injury",
+      "c. Unilateral recurrent laryngeal nerve injury",
+      "d. External laryngeal nerve injury",
+      "e. Thyroid cyst"
+    ],
+    "answer": "d. External laryngeal nerve injury",
+    "explanation": "The External Laryngeal Nerve innervates the Cricothyroid muscle, which tensors the vocal cords to produce high-pitched sounds. Injury results in a loss of high range and vocal fatigue."
+  },
+  {
+    "id": 609,
+    "subject": "ENT",
+    "topic": "BENIGN TUMORS OF LARYNX",
+    "question": "The most appropriate first‑line treatment for early laryngeal papillomatosis in a child is:",
+    "options": [
+      "a. Acyclovir",
+      "b. CO₂ laser excision",
+      "c. Interferon",
+      "d. Tracheostomy",
+      "e. Photodynamic therapy"
+    ],
+    "answer": "b. CO₂ laser excision",
+    "explanation": "Surgical debulking, typically using a CO2 laser, is the standard first-line treatment for Juvenile Onset Recurrent Respiratory Papillomatosis (JORRP) to maintain the airway."
+  },
+  {
+    "id": 610,
+    "subject": "ENT",
+    "topic": "BENIGN TUMORS OF LARYNX",
+    "question": "The most likely diagnosis in a 4‑year‑old with persistent hoarseness is:",
+    "options": [
+      "a. Gastroesophageal reflux",
+      "b. Laryngitis",
+      "c. Vocal cord nodule",
+      "d. Vocal cord papillomas",
+      "e. Vocal cord paralysis"
+    ],
+    "answer": "c. Vocal cord nodule",
+    "explanation": "Vocal cord nodules (Screamer's nodules) are the most common cause of chronic hoarseness in children, often due to vocal abuse."
+  },
+  {
+    "id": 611,
+    "subject": "ENT",
+    "topic": "BENIGN TUMORS OF LARYNX",
+    "question": "A 58‑year‑old smoker with a polypoidal laryngeal swelling — the most important investigation to confirm the diagnosis is:",
+    "options": [
+      "a. Biopsy",
+      "b. CT scan",
+      "c. MRI",
+      "d. Peripheral smear",
+      "e. Ultrasonography"
+    ],
+    "answer": "a. Biopsy",
+    "explanation": "In an older smoker, laryngeal lesions are highly suspicious for malignancy. Histopathological confirmation via biopsy is mandatory."
+  },
+  {
+    "id": 612,
+    "subject": "ENT",
+    "topic": "BENIGN TUMORS OF LARYNX",
+    "question": "The best method to assess vocal cord movement among available tools is:",
+    "options": [
+      "a. Flexible laryngoscopy",
+      "b. Indirect laryngoscopy",
+      "c. Laryngoscopy with anterior commissure view",
+      "d. Microlaryngoscopy"
+    ],
+    "answer": "a. Flexible laryngoscopy",
+    "explanation": "Flexible fiberoptic laryngoscopy allows for the assessment of laryngeal function and vocal cord mobility in a physiological state (while speaking/breathing)."
+  },
+  {
+    "id": 613,
+    "subject": "ENT",
+    "topic": "BENIGN TUMORS OF LARYNX",
+    "question": "A 5‑year‑old with hoarseness and stridor and multiple warty lesions on vocal cords and epiglottis — the most probable diagnosis is:",
+    "options": [
+      "a. Tuberculosis of the larynx",
+      "b. Multiple laryngeal papillomatosis",
+      "c. Fungal infection of the larynx",
+      "d. Laryngeal diphtheria",
+      "e. None of the above"
+    ],
+    "answer": "b. Multiple laryngeal papillomatosis",
+    "explanation": "Multiple warty growths in the larynx of a child are characteristic of Recurrent Respiratory Papillomatosis caused by HPV."
+  },
+  {
+    "id": 614,
+    "subject": "ENT",
+    "topic": "BENIGN TUMORS OF LARYNX",
+    "question": "Vocal cord nodules occur at:",
+    "options": [
+      "a. Anterior commissure of the larynx",
+      "b. Junction of anterior half and posterior half of the vocal cord",
+      "c. Junction of anterior one‑third and posterior two‑thirds of the vocal cord",
+      "d. Junction of anterior two‑thirds with posterior one‑third of the vocal cord",
+      "e. Posterior commissure of the glottis"
+    ],
+    "answer": "c. Junction of anterior one‑third and posterior two‑thirds of the vocal cord",
+    "explanation": "Nodules typically form at the junction of the anterior 1/3 and posterior 2/3 of the vocal cord, which is the point of maximum vibration and amplitude."
+  },
+  {
+    "id": 615,
+    "subject": "ENT",
+    "topic": "LARYNGEAL CANCER",
+    "question": "Treatment of choice for T1 glottic carcinoma limited to one vocal cord is:",
+    "options": [
+      "a. Partial cordectomy via laryngofissure",
+      "b. Complete cordectomy",
+      "c. Laser excision",
+      "d. Radiotherapy"
+    ],
+    "answer": "d. Radiotherapy",
+    "explanation": "Radiotherapy is often considered the treatment of choice for T1 glottic carcinoma to preserve the best voice quality, although transoral laser microsurgery is also an excellent option."
+  },
+  {
+    "id": 616,
+    "subject": "ENT",
+    "topic": "LARYNGEAL CANCER",
+    "question": "The most important diagnostic test in suspected post‑radiation chondronecrosis of the larynx is:",
+    "options": [
+      "a. Barium swallow",
+      "b. Laryngeal biopsy",
+      "c. CT or MRI scan of the larynx",
+      "d. Chest X‑ray",
+      "e. Pulmonary function tests"
+    ],
+    "answer": "b. Laryngeal biopsy",
+    "explanation": "Differentiating between radiation necrosis and recurrent tumor is challenging. A deep biopsy is the only definitive way to rule out recurrence, although it carries a risk of worsening the necrosis."
+  },
+  {
+    "id": 617,
+    "subject": "ENT",
+    "topic": "LARYNGEAL CANCER",
+    "question": "Squamous cell carcinoma spreads to regional lymph nodes; in which carcinoma is nodal metastasis usually late?",
+    "options": [
+      "a. Glottic carcinoma",
+      "b. Subglottic carcinoma",
+      "c. Supraglottic carcinoma",
+      "d. Transglottic carcinoma"
+    ],
+    "answer": "a. Glottic carcinoma",
+    "explanation": "The glottis (vocal cords) has very sparse lymphatic drainage (Reinke's space), so metastasis to lymph nodes occurs very late compared to other laryngeal subsites."
+  },
+  {
+    "id": 618,
+    "subject": "ENT",
+    "topic": "TRACHEOSTOMY",
+    "question": "During tracheostomy one should not injure which tracheal ring?",
+    "options": [
+      "a. First tracheal ring",
+      "b. Second tracheal ring",
+      "c. Third tracheal ring",
+      "d. Fourth tracheal ring",
+      "e. Fifth tracheal ring"
+    ],
+    "answer": "a. First tracheal ring",
+    "explanation": "Injury to the first tracheal ring (or cricoid cartilage) can lead to perichondritis and severe subglottic stenosis."
+  },
+  {
+    "id": 619,
+    "subject": "ENT",
+    "topic": "TRACHEOSTOMY",
+    "question": "A double‑lumen tracheostomy tube (outer and inner tube) advantage is:",
+    "options": [
+      "a. Change of tracheostomy tube is not required",
+      "b. Cleaning of retained secretions is easier",
+      "c. Its insertion is easier during surgery",
+      "d. Patient’s speech is not affected"
+    ],
+    "answer": "b. Cleaning of retained secretions is easier",
+    "explanation": "The inner cannula can be removed and cleaned if blocked by secretions, leaving the outer tube in place to maintain the airway."
+  },
+  {
+    "id": 620,
+    "subject": "ENT",
+    "topic": "TRACHEOSTOMY",
+    "question": "Perichondritis of the cricoid cartilage after tracheostomy is most commonly due to:",
+    "options": [
+      "a. Antibiotics and anti‑inflammatory drugs not prescribed post‑op",
+      "b. High tracheostomy",
+      "c. Irregular suction/cleaning of the tube",
+      "d. Accidental displacement of the tracheostomy tube"
+    ],
+    "answer": "b. High tracheostomy",
+    "explanation": "Performing a tracheostomy too high (involving the 1st ring) risks injury to the cricoid cartilage, leading to perichondritis and stenosis."
+  },
+  {
+    "id": 621,
+    "subject": "ENT",
+    "topic": "TRACHEOSTOMY",
+    "question": "Usually which tracheal rings are incised in tracheostomy?",
+    "options": [
+      "a. 2nd & 3rd",
+      "b. 3rd & 4th",
+      "c. 4th & 5th",
+      "d. 5th & 6th",
+      "e. 1st & 2nd"
+    ],
+    "answer": "a. 2nd & 3rd",
+    "explanation": "The standard site for tracheostomy is through the 2nd and 3rd (or 3rd and 4th) tracheal rings."
+  },
+  {
+    "id": 622,
+    "subject": "ENT",
+    "topic": "TRACHEOSTOMY",
+    "question": "Tracheostomy is performed in the following conditions except:",
+    "options": [
+      "a. Relief of upper airway obstruction",
+      "b. Bronchial toilet",
+      "c. To reduce dead space",
+      "d. To improve nasal breathing",
+      "e. Assisted ventilation"
+    ],
+    "answer": "d. To improve nasal breathing",
+    "explanation": "Tracheostomy bypasses the upper airway (nose/pharynx), so it does not improve nasal breathing; in fact, it eliminates airflow through the nose."
+  },
+  {
+    "id": 623,
+    "subject": "ENT",
+    "topic": "TRACHEOSTOMY",
+    "question": "The ideal site of tracheostomy is at:",
+    "options": [
+      "a. 1st and 2nd tracheal rings",
+      "b. 2nd and 3rd tracheal rings",
+      "c. 3rd and 4th tracheal rings"
+    ],
+    "answer": "b. 2nd and 3rd tracheal rings",
+    "explanation": "The 2nd and 3rd tracheal rings are the preferred site to avoid subglottic stenosis (too high) or vessel injury (too low)."
+  },
+  {
+    "id": 624,
+    "subject": "ENT",
+    "topic": "FOREIGN BODY OF AIR PASSAGES",
+    "question": "A 2‑year‑old with sudden respiratory distress — the possibility to consider is:",
+    "options": [
+      "a. Acute epiglottitis",
+      "b. Acute laryngotracheobronchitis (croup)",
+      "c. Acute bronchitis",
+      "d. Foreign body airway"
+    ],
+    "answer": "d. Foreign body airway",
+    "explanation": "Sudden onset of respiratory distress in a toddler without a preceding illness is highly suggestive of Foreign Body Aspiration."
+  },
+  {
+    "id": 625,
+    "subject": "ENT",
+    "topic": "FOREIGN BODY OF AIR PASSAGES",
+    "question": "If a 2‑year‑old aspirates a foreign object at home, what would you advise caregivers to do?",
+    "options": [
+      "a. Heimlich maneuver",
+      "b. Bring the child to hospital",
+      "c. Turn the child on his back and give back blows (thumps)",
+      "d. Attempt manual removal with fingers"
+    ],
+    "answer": "a. Heimlich maneuver",
+    "explanation": "For a conscious choking child over 1 year of age, the Heimlich maneuver (abdominal thrusts) is the recommended first aid intervention. (Blind finger sweeps are contraindicated)."
+  },
+  {
+    "id": 626,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "The most definitive test to identify a foreign body in the upper aerodigestive tract is:",
+    "options": [
+      "a. Direct endoscopy",
+      "b. Fluoroscopy",
+      "c. Lateral decubitus X‑ray",
+      "d. PA and lateral chest X‑ray",
+      "e. PA and lateral neck X‑ray"
+    ],
+    "answer": "a. Direct endoscopy",
+    "explanation": "Direct endoscopy is both diagnostic and therapeutic, allowing visualization and removal of the foreign body."
+  },
+  {
+    "id": 627,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "Gold standard for diagnosing an esophageal foreign body in a child with dysphagia to solids is:",
+    "options": [
+      "a. Barium swallow",
+      "b. CT scan of the neck",
+      "c. Esophagoscopy (endoscopy)",
+      "d. X‑ray neck all views",
+      "e. X‑ray neck lateral view"
+    ],
+    "answer": "c. Esophagoscopy (endoscopy)",
+    "explanation": "Rigid esophagoscopy is the gold standard as it confirms the diagnosis and allows for immediate removal."
+  },
+  {
+    "id": 628,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "The most common benign tumor of the esophagus is:",
+    "options": [
+      "a. Leiomyoma",
+      "b. Lipoma",
+      "c. Fibroma",
+      "d. Papilloma"
+    ],
+    "answer": "a. Leiomyoma",
+    "explanation": "Leiomyoma is the most frequently occurring benign tumor of the esophagus."
+  },
+  {
+    "id": 629,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "The most common type of esophageal cancer is:",
+    "options": [
+      "a. Squamous cell carcinoma",
+      "b. Adenoid cystic carcinoma",
+      "c. Mucoepidermoid carcinoma",
+      "d. Adenocarcinoma"
+    ],
+    "answer": "a. Squamous cell carcinoma",
+    "explanation": "Globally, Squamous Cell Carcinoma remains the most common histologic type of esophageal cancer."
+  },
+  {
+    "id": 630,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "Radiographic findings of achalasia of the cardia include all except:",
+    "options": [
+      "a. Esophageal dilatation",
+      "b. Rat‑tail appearance",
+      "c. Failure of lower esophageal sphincter to relax",
+      "d. Diffuse esophageal spasm"
+    ],
+    "answer": "d. Diffuse esophageal spasm",
+    "explanation": "Achalasia shows dilatation and a 'rat-tail' or 'bird-beak' appearance due to the non-relaxing sphincter. Diffuse esophageal spasm is a separate motility disorder with a 'corkscrew' appearance."
+  },
+  {
+    "id": 631,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "In progressive dysphagia (solids then fluids), suspect all of the following except:",
+    "options": [
+      "a. Pyloric carcinoma",
+      "b. Carcinoma of the pyriform fossa",
+      "c. Esophageal carcinoma",
+      "d. Achalasia of the cardia"
+    ],
+    "answer": "d. Achalasia of the cardia",
+    "explanation": "Progressive dysphagia (solids first, then liquids) is classic for mechanical obstruction like cancer. Achalasia typically presents with dysphagia to both solids and liquids from the onset (non-progressive pattern)."
+  },
+  {
+    "id": 632,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "A 65‑year‑old with cancer of the middle third of the esophagus and dysphagia — the most immediate management is:",
+    "options": [
+      "a. Chemotherapy",
+      "b. Radiotherapy",
+      "c. Stenting",
+      "d. Gastrostomy",
+      "e. Total parenteral nutrition"
+    ],
+    "answer": "c. Stenting",
+    "explanation": "For immediate relief of dysphagia in advanced esophageal cancer, stenting helps restore the lumen and allows swallowing."
+  },
+  {
+    "id": 633,
+    "subject": "ENT",
+    "topic": "DISEASES OF ESOPHAGUS",
+    "question": "A 54‑year‑old with progressive dysphagia and weight loss for 3 months — the single investigation most likely to give a definitive diagnosis is:",
+    "options": [
+      "a. Barium swallow",
+      "b. Chest X‑ray",
+      "c. CT scan neck",
+      "d. Esophagoscopy",
+      "e. Video‑fluoroscopy"
+    ],
+    "answer": "d. Esophagoscopy",
+    "explanation": "Esophagoscopy allows direct visualization of the lesion and biopsy, which is required for a definitive tissue diagnosis of cancer."
+  },
+  {
+    "id": 634,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "The most common neck swelling is:",
+    "options": [
+      "a. Enlarged thyroid",
+      "b. Enlarged submandibular salivary gland",
+      "c. Thyroglossal cyst",
+      "d. Enlarged lymph nodes",
+      "e. Lipoma"
+    ],
+    "answer": "d. Enlarged lymph nodes",
+    "explanation": "Lymphadenopathy (reactive or infective) is the most common cause of a neck mass."
+  },
+  {
+    "id": 635,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "Glomus jugulare arises from:",
+    "options": [
+      "a. Vagus nerve",
+      "b. Jugular bulb",
+      "c. Vessels over the promontory",
+      "d. Attic area",
+      "e. Labyrinthine artery"
+    ],
+    "answer": "b. Jugular bulb",
+    "explanation": "Glomus jugulare tumors arise from paraganglia (glomus bodies) located in the adventitia of the jugular bulb."
+  },
+  {
+    "id": 636,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "A 25‑year‑old with recurrent upper‑neck swelling that becomes painful during eating — the investigation that will clinch the diagnosis is:",
+    "options": [
+      "a. Blood complete picture",
+      "b. Orthopantomogram (OPG)",
+      "c. Occlusal X‑ray of oral cavity",
+      "d. Fine needle aspiration cytology (FNAC)",
+      "e. Incisional biopsy of salivary gland"
+    ],
+    "answer": "c. Occlusal X‑ray of oral cavity",
+    "explanation": "The history suggests sialolithiasis (salivary stone), likely in the submandibular duct. An occlusal radiograph is diagnostic for identifying radio-opaque stones."
+  },
+  {
+    "id": 637,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "A 50‑year‑old with upper cervical lymph node mass and no primary found on ENT exam; next diagnostic step is:",
+    "options": [
+      "a. Excision of cervical nodes",
+      "b. Incisional biopsy of one cervical node",
+      "c. Fine needle aspiration cytology (FNAC)",
+      "d. CT scan of the neck"
+    ],
+    "answer": "c. Fine needle aspiration cytology (FNAC)",
+    "explanation": "FNAC is the standard initial investigation for an unknown neck mass. Open biopsy is contraindicated as it can violate tissue planes and compromise future neck dissection."
+  },
+  {
+    "id": 638,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "In papillary carcinoma of the thyroid with tumor >1.5 cm, the best therapy is:",
+    "options": [
+      "a. Hemithyroidectomy with close follow‑up",
+      "b. Iodine‑131 therapy",
+      "c. Total thyroidectomy followed by iodine‑131 therapy",
+      "d. Total thyroidectomy with bilateral anterior neck dissection",
+      "e. Total thyroidectomy followed by external beam radiotherapy"
+    ],
+    "answer": "c. Total thyroidectomy followed by iodine‑131 therapy",
+    "explanation": "For papillary thyroid carcinoma >1 cm (especially with risk factors), total thyroidectomy followed by radioiodine ablation is the standard treatment."
+  },
+  {
+    "id": 639,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "An 11‑year‑old with a midline, fluctuant, non‑tender mobile swelling that moves with swallowing and tongue protrusion — the most probable diagnosis is:",
+    "options": [
+      "a. Abscess",
+      "b. Enlarged lymph node",
+      "c. Thyroglossal cyst",
+      "d. Branchial cyst"
+    ],
+    "answer": "c. Thyroglossal cyst",
+    "explanation": "Movement with tongue protrusion (due to attachment to the foramen cecum) is the pathognomonic sign of a Thyroglossal Duct Cyst."
+  },
+  {
+    "id": 640,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "Ramsay Hunt syndrome (herpes zoster) involves which ganglion?",
+    "options": [
+      "a. Scarpa’s ganglion",
+      "b. Spiral ganglion",
+      "c. Geniculate ganglion",
+      "d. Sphenopalatine ganglion",
+      "e. All of them"
+    ],
+    "answer": "c. Geniculate ganglion",
+    "explanation": "Ramsay Hunt Syndrome is caused by the reactivation of the Varicella Zoster Virus in the Geniculate Ganglion of the Facial Nerve."
+  },
+  {
+    "id": 641,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "A 6‑year‑old with a painless midline neck swelling that moves with swallowing and tongue protrusion — the most probable diagnosis is:",
+    "options": [
+      "a. Branchial fistula",
+      "b. Branchial cyst",
+      "c. Thyroglossal cyst",
+      "d. Dermoid cyst"
+    ],
+    "answer": "c. Thyroglossal cyst",
+    "explanation": "Repeated concept: Midline neck mass moving with tongue protrusion is a Thyroglossal cyst."
+  },
+  {
+    "id": 642,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "A 43‑year‑old with 2 months of right upper neck swelling and right ear hearing loss — the most likely diagnosis is:",
+    "options": [
+      "a. Nasopharyngeal carcinoma",
+      "b. Nasal polyp"
+    ],
+    "answer": "a. Nasopharyngeal carcinoma",
+    "explanation": "The combination of a neck mass (cervical lymphadenopathy) and ipsilateral hearing loss (secretory otitis media due to Eustachian tube blockage) is classic for Nasopharyngeal Carcinoma."
+  },
+{
+    "id": 643,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "Thyroglossal duct cyst is most common in the area of:",
+    "options": [
+      "a. Base of tongue",
+      "b. Suprahyoid area",
+      "c. Subhyoid area",
+      "d. In front of thyroid cartilage",
+      "e. In front of cricoid cartilage"
+    ],
+    "answer": "c. Subhyoid area",
+    "explanation": "While thyroglossal duct cysts can occur anywhere along the descent of the thyroid, statistical analysis shows the majority (approx. 60-65%) occur in the infrahyoid (subhyoid) region, usually at the thyrohyoid membrane."
+  },
+  {
+    "id": 644,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "A bluish pulsatile, compressible mass that increases with straining is most probably:",
+    "options": [
+      "a. Glioma",
+      "b. Encephalocele",
+      "c. Dermoid",
+      "d. Lipoma"
+    ],
+    "answer": "b. Encephalocele",
+    "explanation": "The increase in size with straining (Furstenberg sign) due to raised intracranial pressure is pathognomonic for an Encephalocele (herniation of intracranial contents). Pulsatility is transmitted from the brain."
+  },
+  {
+    "id": 645,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "A patient has a midline neck cyst moving with tongue protrusion. Before excision, what is the most critical investigation to rule out ectopic thyroid?",
+    "options": [
+      "a. Fine needle aspiration cytology (FNAC)",
+      "b. Punch biopsy",
+      "c. Core biopsy",
+      "d. MRI neck",
+      "e. Radioactive thyroid scan / Ultrasound"
+    ],
+    "answer": "e. Radioactive thyroid scan / Ultrasound",
+    "explanation": "It is critical to confirm the presence of a normal functioning thyroid gland in the proper location before surgery, as the cyst could be the only thyroid tissue present (ectopic thyroid)."
+  },
+  {
+    "id": 646,
+    "subject": "ENT",
+    "topic": "NECK MASSES",
+    "question": "Which of the following statements regarding symptomatic thyroglossal duct cysts is true?",
+    "options": [
+      "a. Over 90% manifest before age 12",
+      "b. Treatment includes resection of the hyoid bone",
+      "c. They usually present as a painful lateral neck swelling",
+      "d. Approximately 10–15% contain malignant elements",
+      "e. They rarely become infected"
+    ],
+    "answer": "b. Treatment includes resection of the hyoid bone",
+    "explanation": "The standard of care is the Sistrunk procedure, which involves excising the cyst, the track, and the central body of the hyoid bone to minimize the high risk of recurrence."
+  }
+]

@@ -1,0 +1,275 @@
+
+User
+next batch of psych questions:
+[
+{
+"id": 1185,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "Which one of the following indicates lithium toxicity?",
+"options": [
+"a. Coarse tremor",
+"b. Polyuria",
+"c. Vomiting",
+"d. T-wave inversion on the ECG",
+"e. Hypothyroidism"
+],
+"answer": "a. Coarse tremor",
+"explanation": "A coarse tremor (distinct from the fine tremor seen as a common side effect) is a reliable sign of Lithium toxicity (>1.5-2.0 mEq/L). Vomiting is also an early sign, but coarse tremor is the classic neurological discriminator in exams. T-wave inversion, Polyuria, and Hypothyroidism are side effects of long-term use, not necessarily acute toxicity signs."
+},
+{
+"id": 1186,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A 19-year-old boy presents to the psychiatrist for the 1st time with a firm and unshakable belief that he is being followed by terrorists who are plotting against him. What is the single best term for this man's condition?",
+"options": [
+"a. Delusion of persecution",
+"b. Delusion of grandeur",
+"c. Delusion of control",
+"d. Delusion of reference",
+"e. Delusion of nihilism"
+],
+"answer": "a. Delusion of persecution",
+"explanation": "A fixed false belief that one is being targeted, followed, or conspired against is a Delusion of Persecution (Paranoid delusion)."
+},
+{
+"id": 1187,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A 65 years old woman says she died 3 months ago and is very distressed that nobody has buried her. When she is outdoors, she hears people say that she is evil and needs to be punished. What is the most likely explanation for her symptoms?",
+"options": [
+"a. Schizophrenia",
+"b. Mania",
+"c. Psychotic depression",
+"d. Hysteria",
+"e. Toxic confusional state"
+],
+"answer": "c. Psychotic depression",
+"explanation": "The presence of Nihilistic delusions (Cotard's syndrome - believing she is dead) combined with mood-congruent auditory hallucinations (voices saying she is evil/needs punishment) is characteristic of Severe Depressive Episode with Psychotic Symptoms (Psychotic Depression)."
+},
+{
+"id": 1188,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A 32 years old man has obsessive compulsive disorder. What is the best treatment option for him?",
+"options": [
+"a. CBT",
+"b. SSRI",
+"c. TCA",
+"d. MAO inhibitors",
+"e. Reassure"
+],
+"answer": "a. CBT",
+"explanation": "Cognitive Behavioral Therapy (specifically Exposure and Response Prevention - ERP) is often considered the most effective first-line treatment for OCD, with lower relapse rates than medication alone. SSRIs are also first-line pharmacotherapy."
+},
+{
+"id": 1189,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "You are asked to see a 48-years-old obese lady in the outpatient department. She has a recent diagnosis of type 2 diabetes as well a long standing diagnosis of schizoaffective disorder. Which one of the following medications is most likely to be significantly contributing to her weight gain?",
+"options": [
+"a. Haloperidol",
+"b. Olanzapine",
+"c. Fluoxetine",
+"d. Zopiclone",
+"e. Carbamazepine"
+],
+"answer": "b. Olanzapine",
+"explanation": "Olanzapine (an atypical antipsychotic) has the highest risk of metabolic side effects, including significant weight gain, dyslipidemia, and diabetes mellitus."
+},
+{
+"id": 1190,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "Which of the following is more likely to indicate depression in older people compared with a younger age group?",
+"options": [
+"a. Suicidal thoughts",
+"b. Hypochondriasis",
+"c. Loss of Interest or pleasure in things",
+"d. Poor self-care",
+"e. Insomnia"
+],
+"answer": "b. Hypochondriasis",
+"explanation": "Depression in the elderly often presents atypically ('masked depression'), with prominent somatic complaints and hypochondriasis rather than overt sadness."
+},
+{
+"id": 1191,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "The drug of choice for obsessive compulsive disorder is:",
+"options": [
+"a. Benzodiazepine",
+"b. Tricyclic Anti-depressants",
+"c. Selective serotonin reuptake inhibitors (SSRI)",
+"d. Quinolones",
+"e. Penicillin"
+],
+"answer": "c. Selective serotonin reuptake inhibitors (SSRI)",
+"explanation": "SSRIs (e.g., Fluoxetine, Fluvoxamine, Sertraline) are the first-line pharmacological treatment for OCD. Clomipramine (TCA) is second-line."
+},
+{
+"id": 1192,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "Drug of choice for bipolar disorder is:",
+"options": [
+"a. Lithium",
+"b. Amiodarone",
+"c. Tri cyclic anti depressive",
+"d. Anticonvulsants",
+"e. Benzodiazepines"
+],
+"answer": "a. Lithium",
+"explanation": "Lithium Carbonate is the classic mood stabilizer and drug of choice for Bipolar Disorder maintenance and acute mania."
+},
+{
+"id": 1193,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A young student is seen by dermatologist with severe dermatitis of his hands. He has been frequently washing his hands with strong antiseptic solutions 10 times a day. He believes they are not clean. This is compatible with diagnosis of:",
+"options": [
+"a. Depression",
+"b. Bipolar disorder",
+"c. Mania",
+"d. Obsessive compulsive behavior",
+"e. Schizophrenia"
+],
+"answer": "d. Obsessive compulsive behavior",
+"explanation": "Excessive washing driven by an obsession with cleanliness/contamination is a hallmark compulsion in OCD."
+},
+{
+"id": 1194,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "The following conditions can mimic anxiety disorder:",
+"options": [
+"a. Hyperthyroidism",
+"b. Pheochromocytoma",
+"c. Paroxysmal arrythmia",
+"d. Hypoglycemia",
+"e. All of them"
+],
+"answer": "e. All of them",
+"explanation": "Medical conditions that cause sympathetic overdrive (Hyperthyroidism, Pheochromocytoma, Hypoglycemia, Arrhythmias) present with symptoms like tachycardia, tremors, and sweating, which mimic anxiety/panic attacks."
+},
+{
+"id": 1195,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A patient is brought with a history of disorganized behavior, running away from home, burning things and trying to undress herself. On examination, you find that her limbs can be moved in awkward position very easily and that position is maintained. This sign is called:",
+"options": [
+"a. Negativism",
+"b. Automatic obedience",
+"c. Echolalia",
+"d. Echopraxia",
+"e. Waxy flexibility"
+],
+"answer": "e. Waxy flexibility",
+"explanation": "Waxy flexibility (Cerea flexibilitas) is a catatonic symptom where the patient's limbs retain any position they are placed in by the examiner, like a wax figure."
+},
+{
+"id": 1196,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "In clinical practice it is often difficult to differentiate between obsession and delusion. Which of the following indicates that the patient suffers from obsessive-compulsive disorder rather than delusional disorder?",
+"options": [
+"a. Better occupational functioning",
+"b. The thought content is less bizarre",
+"c. No other psychotic phenomenon as hallucinations",
+"d. The patient believes that the origin of thoughts is from outside his/her own mind",
+"e. The patient tries to resist his thoughts"
+],
+"answer": "e. The patient tries to resist his thoughts",
+"explanation": "A key distinction is insight and resistance. In OCD, thoughts are recognized as one's own (internal) but intrusive, and the patient typically tries to resist them (ego-dystonic). Delusions are fixed false beliefs often attributed to external sources (ego-syntonic) and not resisted."
+},
+{
+"id": 1197,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "Which of the following electrolyte abnormalities is associated with bulimic patients?",
+"options": [
+"a. Metabolic acidosis",
+"b. Metabolic alkalosis",
+"c. Respiratory acidosis",
+"d. Respiratory alkalosis",
+"e. Normal electrolytes"
+],
+"answer": "b. Metabolic alkalosis",
+"explanation": "Recurrent vomiting leads to the loss of gastric acid (HCl), resulting in Hypochloremic Metabolic Alkalosis and Hypokalemia."
+},
+{
+"id": 1198,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A 33-years-old female returned to work after having second child. She is having difficult in concentrating because she keeps wondering if her child is okay and whether or not he is adjusting well to her. At night, she has difficult time falling asleep and constantly worries about everything. What is the condition she suffering from?",
+"options": [
+"a. Acute stress disorder",
+"b. Adjustment disorder with anxiety",
+"c. Post traumatic stress disorder",
+"d. Generalized anxiety disorder",
+"e. Obsessive compulsive disorder"
+],
+"answer": "d. Generalized anxiety disorder",
+"explanation": "The key features are excessive, uncontrollable worry about multiple things ('constantly worries about everything') and somatic symptoms like insomnia and concentration difficulties, characteristic of Generalized Anxiety Disorder (GAD)."
+},
+{
+"id": 1199,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A 45-years-old man with a 20-year history of drinking about 15 units of alcohol every day decides to stop drinking. He makes a clean break and stops suddenly. Three days later his wife brings him to the emergency department because he is agitated and disoriented, he says that he can see small animals and Insects coming menacingly towards him. He has marked tremors, sweating, tachycardia and pyrexia. What is the diagnosis?",
+"options": [
+"a. Meningitis",
+"b. Catatonic schizophrenia",
+"c. Delirium tremens",
+"d. Drug abuse in addition to alcohol",
+"e. Derealization"
+],
+"answer": "c. Delirium tremens",
+"explanation": "Delirium Tremens is the most severe form of alcohol withdrawal, appearing 2-3 days after cessation. It presents with clouding of consciousness (disorientation), autonomic hyperactivity (tachycardia, fever, sweating), and vivid hallucinations (often visual/tactile - small animals/Lilliputian)."
+},
+{
+"id": 1200,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "Which of the following is more likely to indicate depression in older people compared with a younger age group?",
+"options": [
+"a. Suicidal thoughts",
+"b. Hypochondriasis",
+"c. Loss of Interest or pleasure in things",
+"d. Poor self-care",
+"e. Insomnia"
+],
+"answer": "b. Hypochondriasis",
+"explanation": "Duplicate of ID 1190."
+},
+{
+"id": 1201,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "You are asked to see a 48-years-old obese lady in the outpatient department. She has a recent diagnosis of type 2 diabetes as well a long standing diagnosis of schizoaffective disorder. Which one of the following medications is most likely to be significantly contributing to her weight gain?",
+"options": [
+"a. Haloperidol",
+"b. Olanzapine",
+"c. Fluoxetine",
+"d. Zopiclone",
+"e. Carbamazepine"
+],
+"answer": "b. Olanzapine",
+"explanation": "Duplicate of ID 1189."
+},
+{
+"id": 1202,
+"subject": "Psychiatry",
+"topic": "PSYCHIATRY/GENERAL MEDICINE",
+"question": "A thin 18-years-old girl has bilateral parotid swelling with thickened calluses on the dorsum of her hand. What is the single most likely diagnosis?",
+"options": [
+"a. Bulimia nervosa",
+"b. C1 esterase deficiency",
+"c. Crohn's disease",
+"d. Mumps",
+"e. Sarcoidosis"
+],
+"answer": "a. Bulimia nervosa",
+"explanation": "Bilateral parotid swelling (sialadenosis) and calluses on the knuckles (Russell's sign) are physical stigmas of self-induced vomiting seen in Bulimia Nervosa."
+}
+]
