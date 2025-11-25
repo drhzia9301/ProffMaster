@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.supersix.mbbsprep',
-  appName: 'SuperSix MBBS Prep',
+  appName: 'ProffMaster',
   webDir: 'dist'
 };
 

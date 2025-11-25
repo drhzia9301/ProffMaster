@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">SuperSix MBBS Prep</string>
-    <string name="title_activity_main">SuperSix MBBS Prep</string>
+    <string name="app_name">ProffMaster</string>
+    <string name="title_activity_main">ProffMaster</string>
     <string name="package_name">com.supersix.mbbsprep</string>
     <string name="custom_url_scheme">com.supersix.mbbsprep</string>
 </resources>
