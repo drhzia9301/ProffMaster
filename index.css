@@ -21,25 +21,36 @@
   /* Slate 900 */
 }
 
-[data-theme='dark'] .bg-gray-100 {
+[data-theme='dark'] .bg-gray-100,
+[data-theме='dark'] .bg-gray-200 {
   background-color: #334155 !important;
   /* Slate 700 */
   color: #f1f5f9 !important;
 }
 
-[data-theme='dark'] .text-gray-900 {
+[data-theme='dark'] .text-gray-900,
+[data-theme='dark'] .text-gray-800,
+[data-theme='dark'] .text-gray-700 {
   color: #f8fafc !important;
   /* Slate 50 */
 }
 
 [data-theme='dark'] .text-gray-600,
-[data-theme='dark'] .text-gray-500 {
+[data-theme='dark'] .text-gray-500,
+[data-theme='dark'] .text-gray-400 {
   color: #94a3b8 !important;
   /* Slate 400 */
 }
 
+[data-theme='dark'] .text-slate-900,
+[data-theme='dark'] .text-slate-700 {
+  color: #f1f5f9 !important;
+  /* Slate 100 - Light text for dark mode */
+}
+
 [data-theme='dark'] .border-gray-100,
-[data-theme='dark'] .border-gray-200 {
+[data-theme='dark'] .border-gray-200,
+[data-theme='dark'] .border-gray-700 {
   border-color: #334155 !important;
   /* Slate 700 */
 }
@@ -97,6 +108,36 @@
   /* Purple 300 */
 }
 
+[data-theme='dark'] .bg-yellow-50 {
+  background-color: #fef08a !important;
+  /* Yellow 200 - Keep bright for highlighting */
+  color: #713f12 !important;
+  /* Yellow 900 - Dark text for contrast */
+  border-color: #fde047 !important;
+  /* Yellow 300 */
+}
+
+[data-theme='dark'] .border-yellow-100,
+[data-theme='dark'] .border-yellow-200 {
+  border-color: #fde047 !important;
+  /* Yellow 300 */
+}
+
+[data-theme='dark'] .bg-indigo-50 {
+  background-color: #312e81 !important;
+  /* Indigo 900 */
+}
+
+[data-theme='dark'] .bg-indigo-900\/20 {
+  background-color: rgba(49, 46, 129, 0.2) !important;
+}
+
+[data-theme='dark'] .text-indigo-900,
+[data-theme='dark'] .text-indigo-700 {
+  color: #e0e7ff !important;
+  /* Indigo 100 - Light text for dark mode */
+}
+
 /* Medical Theme Overrides in Dark Mode */
 [data-theme='dark'] .bg-medical-50 {
   background-color: #0c4a6e !important;
@@ -149,4 +190,10 @@ select,
 textarea {
   transition-property: background-color, border-color, color;
   transition-duration: 300ms;
+}
+
+/* Hide native password reveal button in Edge/IE */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
 }

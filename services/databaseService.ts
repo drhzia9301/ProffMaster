@@ -246,6 +246,25 @@ export class DatabaseService {
         return this.transformResults(result);
     }
 
+    private async fetchAndDecrypt(url: string): Promise<string> {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch file: ${response.statusText}`);
+        }
+
+        const encryptedBuffer = await response.arrayBuffer();
+        const encryptedBytes = new Uint8Array(encryptedBuffer);
+        const key = "SUPERSIX_SECURE_KEY_2025";
+        const keyBytes = new TextEncoder().encode(key);
+        const decryptedBytes = new Uint8Array(encryptedBytes.length);
+
+        for (let i = 0; i < encryptedBytes.length; i++) {
+            decryptedBytes[i] = encryptedBytes[i] ^ keyBytes[i % keyBytes.length];
+        }
+
+        return new TextDecoder().decode(decryptedBytes);
+    }
+
     public async getPreproffQuestions(block: string, college: string, year: string): Promise<any[]> {
         if (!this.db) {
             await this.initialize();
@@ -262,35 +281,49 @@ export class DatabaseService {
 
         // Always fetch the file to check for updates
         try {
-            const filename = `${college.toLowerCase()} ${block.replace('Block ', '')}.txt`;
-            const response = await fetch(`/qbanks/${filename}`);
-            if (response.ok) {
-                const text = await response.text();
-                let rawQuestions = JSON.parse(text);
-                if (Array.isArray(rawQuestions)) rawQuestions = rawQuestions.flat();
-                rawQuestions = rawQuestions.filter((q: any) => q && q.options && Array.isArray(q.options));
+            const filename = `${college.toLowerCase()} ${block.replace('Block ', '')}.enc`;
+            const text = await this.fetchAndDecrypt(`/qbanks/${filename}`);
 
-                if (count !== rawQuestions.length) {
-                    console.log(`Local count (${count}) differs from file count (${rawQuestions.length}). Re-importing...`);
-                    // Delete existing for this block to ensure clean state
-                    this.db.run(`DELETE FROM preproff_questions WHERE block = ? AND college = ? AND year = ?`, [block, college, year]);
-                    await this.importPreproffQuestions(block, college, year);
+            let rawQuestions: any[] = [];
+            try {
+                // Try parsing as JSON first
+                let parsed = JSON.parse(text);
+                if (Array.isArray(parsed)) rawQuestions = parsed.flat();
+            } catch (jsonError) {
+                // Fallback to text parsing if JSON fails
+                console.log("JSON parse failed, attempting text parsing...");
+                const questionRegex = /Question:\s*(.*?)\s*Options:\s*(.*?)(?=\nQuestion:|$)/gs;
+                let match;
+                while ((match = questionRegex.exec(text)) !== null) {
+                    const questionText = match[1].trim();
+                    const optionsText = match[2].trim();
+                    // Split options by comma, but handle cases where commas are inside options?
+                    // Simple split for now, assuming comma separated
+                    const options = optionsText.split(',').map(o => o.trim());
+
+                    if (questionText && options.length > 1) {
+                        rawQuestions.push({
+                            text: questionText,
+                            options: options,
+                            // We don't have correct index or explanation in this simple text format
+                            // Defaulting to 0 and empty explanation
+                            correctIndex: 0,
+                            explanation: ""
+                        });
+                    }
                 }
+            }
+
+            rawQuestions = rawQuestions.filter((q: any) => q && q.options && Array.isArray(q.options));
+
+            if (count !== rawQuestions.length) {
+                console.log(`Local count (${count}) differs from file count (${rawQuestions.length}). Re-importing...`);
+                // Delete existing for this block to ensure clean state
+                this.db.run(`DELETE FROM preproff_questions WHERE block = ? AND college = ? AND year = ?`, [block, college, year]);
+                await this.importPreproffQuestions(block, college, year);
             }
         } catch (e) {
             console.error("Error checking for updates:", e);
-        }
-
-        if (count === 0) {
-            // Fallback if the update check failed or didn't run (e.g. file fetch error but we want to try import anyway?)
-            // Actually importPreproffQuestions fetches the file again.
-            // But if we already did it above, we might have already imported.
-            // Let's simplify: just call import if count is 0, OR if we detected a mismatch above.
-            // The above block already calls importPreproffQuestions if mismatch.
-            // So here we only need to handle the case where count is 0 and we didn't successfully import above (e.g. fetch failed? but if fetch failed, import will also fail).
-            // But let's keep the count === 0 check for safety if the above try/catch caught something but we still want to try.
-            // Actually, if count is 0, the above mismatch check (0 !== length) would have triggered import.
-            // So we can remove this block or keep it as a fallback.
         }
 
         const result = this.db.exec(
@@ -304,20 +337,37 @@ export class DatabaseService {
         if (!this.db) return;
 
         try {
-            // Construct filename e.g., "kmc J.txt"
-            // Note: User provided files like "kmc J.txt"
-            const filename = `${college.toLowerCase()} ${block.replace('Block ', '')}.txt`;
+            // Construct filename e.g., "kmc J.enc"
+            const filename = `${college.toLowerCase()} ${block.replace('Block ', '')}.enc`;
             console.log(`Fetching ${filename}...`);
 
-            const response = await fetch(`/qbanks/${filename}`);
-            if (!response.ok) {
-                throw new Error(`Failed to fetch file: ${response.statusText}`);
+            const text = await this.fetchAndDecrypt(`/qbanks/${filename}`);
+
+            let rawQuestions: any[] = [];
+            try {
+                let parsed = JSON.parse(text);
+                if (Array.isArray(parsed)) rawQuestions = parsed.flat();
+            } catch (jsonError) {
+                console.log("JSON parse failed during import, attempting text parsing...");
+                const questionRegex = /Question:\s*(.*?)\s*Options:\s*(.*?)(?=\nQuestion:|$)/gs;
+                let match;
+                while ((match = questionRegex.exec(text)) !== null) {
+                    const questionText = match[1].trim();
+                    const optionsText = match[2].trim();
+                    const options = optionsText.split(',').map(o => o.trim());
+
+                    if (questionText && options.length > 1) {
+                        rawQuestions.push({
+                            text: questionText,
+                            options: options,
+                            correctIndex: 0,
+                            explanation: ""
+                        });
+                    }
+                }
             }
 
-            const text = await response.text();
-            let rawQuestions = JSON.parse(text);
-
-            // Handle nested arrays (flatten)
+            // Handle nested arrays (flatten) - redundant if we init rawQuestions as [] but keeping for safety if logic changes
             if (Array.isArray(rawQuestions)) {
                 rawQuestions = rawQuestions.flat();
             }

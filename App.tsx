@@ -12,7 +12,7 @@ import { SUBJECT_COLORS } from './constants.ts';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Subject, Question, Attempt } from './types';
 import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedQuestionCount, getCachedSubjectCounts, saveAIAttempt, getAIAttempts, toggleAIBookmark, getAIBookmarks, getPreproffAttempts, savePreproffAttempt, getPreproffBookmarks, togglePreproffBookmark, saveCurrentSession, getCurrentSession, clearCurrentSession } from './services/storageService';
-import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart, BookOpen } from 'lucide-react';
+import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart, BookOpen, Shield } from 'lucide-react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Login from './components/Login';
 import SelectionPage from './components/SelectionPage';
@@ -31,6 +31,7 @@ import { VersionManager } from './components/VersionManager';
 import NotesPage from './components/NotesPage';
 import { notesService } from './services/notesService';
 import NoteGenerationModal from './components/NoteGenerationModal';
+import { WhatsNewModal } from './components/WhatsNewModal';
 
 const SUBJECT_ICONS: Record<string, React.ElementType> = {
   [Subject.ENT]: Ear,
@@ -328,7 +329,7 @@ const QuizSetup = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-2 gap-2 max-h-48 overflow-y-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-64 overflow-y-auto">
             {availableTopics.map(topic => (
               <button
                 key={topic}
@@ -376,15 +377,15 @@ const QuizSetup = () => {
         </div>
 
         {/* Question Count */}
-        <div className="p-6 border-b border-gray-100">
-          <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-            <Sliders size={20} className="text-medical-500" /> Question Count
+        <div className="p-6 border-b border-gray-100 dark:border-slate-700">
+          <h3 className="font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+            <Sliders size={20} className="text-medical-500 dark:text-medical-400" /> Question Count
           </h3>
           <div className="space-y-4">
             <div className="flex justify-between text-sm font-medium">
-              <span>1</span>
-              <span className="text-medical-600 font-bold">{count} Selected</span>
-              <span>{filteredQuestionCount} Max</span>
+              <span className="text-gray-600 dark:text-gray-400">1</span>
+              <span className="text-medical-600 dark:text-medical-400 font-bold">{count} Selected</span>
+              <span className="text-gray-600 dark:text-gray-400">{filteredQuestionCount} Max</span>
             </div>
             <input
               type="range"
@@ -394,10 +395,10 @@ const QuizSetup = () => {
               value={count}
               disabled={filteredQuestionCount < 1}
               onChange={(e) => setCount(parseInt(e.target.value))}
-              className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-medical-600"
+              className="w-full h-2 bg-gray-200 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-medical-600"
             />
             {filteredQuestionCount < 1 && (
-              <p className="text-xs text-orange-500">Not enough questions in selected topics.</p>
+              <p className="text-xs text-orange-500 dark:text-orange-400">Not enough questions in selected topics.</p>
             )}
           </div>
         </div>
@@ -646,27 +647,9 @@ const QuizSession = () => {
   // Determine the type of quiz for storage keys
   const type = location.state?.type || (aiConfig ? 'ai_generated' : (block ? 'preproff' : 'main'));
 
-  // --- Session Persistence Logic ---
+  // --- Session Cleanup Logic ---
 
-  // 1. Save Session on State Change
-  useEffect(() => {
-    if (questions.length > 0 && !isFinished && !loading) {
-      const sessionState = {
-        questions,
-        currentIndex,
-        score,
-        mistakes,
-        sessionAttempts,
-        timeLimit,
-        startTime: Date.now(), // Ideally track actual start time
-        type,
-        config: location.state
-      };
-      saveCurrentSession(sessionState);
-    }
-  }, [questions, currentIndex, score, mistakes, sessionAttempts, isFinished, loading, type, location.state]);
-
-  // 2. Clear Session on Finish
+  // Clear Session on Finish
   useEffect(() => {
     if (isFinished) {
       clearCurrentSession();
@@ -677,32 +660,13 @@ const QuizSession = () => {
     const loadQuizQuestions = async () => {
       setLoading(true);
 
-      // Check for saved session FIRST
-      const savedSession = getCurrentSession();
-      if (savedSession && !location.state?.forceNew) {
-        // If we have a saved session, ask user or auto-resume?
-        // For now, auto-resume if it matches the "intent" or if we are just reloading (no specific state)
-        // If user navigated from menu (has location.state), we might want to start fresh?
-        // BUT user asked for "minimize and open again", which usually reloads the page.
-        // In that case, location.state might be lost or empty.
-
-        if (!location.state || (location.state.type === savedSession.type)) {
-          console.log("Resuming saved session");
-          setQuestions(savedSession.questions);
-          setCurrentIndex(savedSession.currentIndex);
-          setScore(savedSession.score);
-          setMistakes(savedSession.mistakes);
-          setSessionAttempts(savedSession.sessionAttempts);
-          setTimeLimit(savedSession.timeLimit);
-          setLoading(false);
-          return;
-        }
-      }
-
       let loadedQuestions: Question[] = [];
 
-      // 1. Review Mode
-      if (mode === 'review' && reviewQuestions) {
+      console.log("Loading Quiz Questions...", { type, mode, hasReviewQuestions: !!reviewQuestions, aiConfig });
+
+      // 1. Review Mode or Pre-loaded Questions (e.g. Saved AI Paper)
+      if (reviewQuestions && reviewQuestions.length > 0) {
+        console.log("Using pre-loaded questions:", reviewQuestions.length);
         loadedQuestions = reviewQuestions;
       }
       // 2. Single Question Mode (from Search)
@@ -716,7 +680,7 @@ const QuizSession = () => {
         try {
           setLoadingMessage('Initializing AI...');
           loadedQuestions = await generateQuiz(
-            aiConfig.block,
+            block || aiConfig.block,
             aiConfig.type,
             aiConfig.topic,
             aiConfig.count,
@@ -725,6 +689,21 @@ const QuizSession = () => {
 
           if (aiConfig.timed) {
             setTimeLimit(aiConfig.timeLimit);
+          }
+
+          // Save the generated paper automatically
+          if (loadedQuestions.length > 0 && !hasSavedPaper.current) {
+            const paperBlock = block || aiConfig.block;
+            const newPaper = {
+              id: crypto.randomUUID(),
+              name: `${paperBlock} ${aiConfig.type === 'full' ? 'Full Paper' : (aiConfig.topic || 'Custom Quiz')}`,
+              block: paperBlock,
+              date: Date.now(),
+              questions: loadedQuestions,
+              type: aiConfig.type
+            };
+            savePaper(newPaper);
+            hasSavedPaper.current = true;
           }
 
         } catch (err: any) {
@@ -1108,6 +1087,8 @@ const BackButtonHandler = () => {
   return null;
 };
 
+
+
 const App: React.FC = () => {
   const [questionsLoaded, setQuestionsLoaded] = useState(false);
   const [loadingError, setLoadingError] = useState<string | null>(null);
@@ -1157,6 +1138,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider>
       <VersionManager />
+      <WhatsNewModal />
       <Router>
         <AuthProvider>
           <AuthWrapper>

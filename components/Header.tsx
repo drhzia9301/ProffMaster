@@ -12,33 +12,33 @@ const Header: React.FC = () => {
   if (location.pathname === '/login') return null;
 
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-30">
+    <header className="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-30 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
           <div className="bg-medical-600 p-1.5 rounded-lg text-white">
             <Stethoscope size={24} />
           </div>
           <div className="flex flex-col">
-            <h1 className="text-xl font-bold text-gray-900 tracking-tight leading-none">
-              Proff<span className="text-medical-600">Master</span>
+            <h1 className="text-xl font-bold text-gray-900 dark:text-white tracking-tight leading-none">
+              Proff<span className="text-medical-600 dark:text-medical-500">Master</span>
             </h1>
-            <p className="text-[10px] text-gray-500 font-medium leading-tight">Made by Muhammad Haroon, MS4, SMC</p>
+            <p className="text-[10px] text-gray-500 dark:text-gray-400 font-medium leading-tight">Made by Muhammad Haroon, MS4, SMC</p>
           </div>
         </div>
         <div className="flex items-center gap-4">
 
 
-          <div className="h-6 w-px bg-gray-200 mx-1"></div>
+          <div className="h-6 w-px bg-gray-200 dark:bg-slate-700 mx-1"></div>
 
           {user ? (
             <div className="flex items-center gap-3">
               <div className="hidden sm:block text-right">
-                <p className="text-sm font-bold text-gray-900 leading-none">{user.email?.split('@')[0]}</p>
-                <p className="text-[10px] text-gray-500">Sync Active</p>
+                <p className="text-sm font-bold text-gray-900 dark:text-white leading-none">{user.email?.split('@')[0]}</p>
+                <p className="text-[10px] text-gray-500 dark:text-gray-400">Sync Active</p>
               </div>
               <button
                 onClick={() => signOut()}
-                className="p-2 text-gray-500 hover:bg-red-50 hover:text-red-600 rounded-full transition-colors"
+                className="p-2 text-gray-500 dark:text-gray-400 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 dark:hover:text-red-400 rounded-full transition-colors active:scale-95"
                 title="Sign Out"
               >
                 <LogOut size={20} />
@@ -47,7 +47,7 @@ const Header: React.FC = () => {
           ) : (
             <button
               onClick={() => navigate('/login')}
-              className="flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-gray-800 transition-colors shadow-sm"
+              className="flex items-center gap-2 bg-gray-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2 rounded-lg font-bold text-sm hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors shadow-sm"
             >
               <LogIn size={16} />
               <span>Login</span>

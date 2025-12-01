@@ -100,7 +100,9 @@ const AIConfigModal: React.FC<AIConfigModalProps> = ({ block, onClose, onStart }
                     ) : (
                         <div className="text-center py-4">
                             <p className="text-gray-600">Ready to generate Full Paper for <b>{block}</b>?</p>
-                            <p className="text-sm text-gray-500 mt-2">120 Questions • 120 Minutes</p>
+                            <p className="text-sm text-gray-500 mt-2">
+                                {(block === 'Block M1' || block === 'Block M2') ? '90 Questions • 90 Minutes' : '120 Questions • 120 Minutes'}
+                            </p>
                             <button
                                 onClick={() => setMode(null)}
                                 className="text-sm text-gray-500 hover:text-gray-700 underline mt-4 block"

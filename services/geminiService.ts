@@ -216,18 +216,47 @@ export const generateStudyNotes = async (
 };
 
 
-const BLOCK_J_DISTRIBUTION = {
-  'Pharmacology': 20,
-  'Pathology': 22,
-  'Forensic Medicine': 18,
-  'Community Medicine': 27,
-  'PRIME': 2,
-  'Medicine': 11,
-  'Psychiatry': 9,
-  'Neurosurgery': 2,
-  'Pediatrics': 5,
-  'Anesthesia': 3,
-  'Family Medicine': 1
+const BLOCK_DISTRIBUTIONS: Record<string, Record<string, number>> = {
+  'Block J': {
+    'Pharmacology': 20,
+    'Pathology': 22,
+    'Forensic Medicine': 18,
+    'Community Medicine': 27,
+    'PRIME': 2,
+    'Medicine': 11,
+    'Psychiatry': 9
+  },
+  'Block K': {
+    'Pathology': 41,
+    'Community Medicine': 18,
+    'Pharmacology': 16,
+    'Forensic Medicine': 16,
+    'Surgery': 12,
+    'Medicine': 11
+  },
+  'Block L': {
+    'Gynecology': 40,
+    'Pathology': 23,
+    'Community Medicine': 17,
+    'Medicine': 10,
+    'Pharmacology': 9,
+    'Surgery': 9,
+    'Forensic Medicine': 7
+  },
+  'Block M1': {
+    'ENT': 90
+  },
+  'Block M2': {
+    'Ophthalmology': 90 // Mapped 'Eye' to 'Ophthalmology' for consistency with Subject enum
+  }
+};
+
+const BLOCK_SYLLABUS_FILES: Record<string, string> = {
+  'Block J': 'Block_J_syllabus.txt',
+  'Block K': 'Block_K_syllabus.txt',
+  'Block L': 'Block_L_syllabus.txt',
+  'Block M1': 'Block_M1_syllabus.txt',
+  'Block M2': 'Block_M2_syllabus.txt'
 };
 
 export const generateQuiz = async (
@@ -310,14 +339,22 @@ export const generateQuiz = async (
     }
 
     // 2. Handle Full Paper (Complex Path)
-    if (type === 'full' && block === 'Block J') {
-      console.log('Starting Full Paper Generation for Block J...');
+    if (type === 'full') {
+      console.log(`Starting Full Paper Generation for ${block}...`);
       onProgress?.('Loading syllabus...');
+
+      const syllabusFile = BLOCK_SYLLABUS_FILES[block];
+      const distribution = BLOCK_DISTRIBUTIONS[block];
+
+      if (!syllabusFile || !distribution) {
+        console.error(`Configuration missing for ${block}`);
+        return [];
+      }
 
       // Fetch Syllabus
       let syllabusText = '';
       try {
-        const response = await fetch('/assets/Block_J_syllabus.txt');
+        const response = await fetch(`/assets/${syllabusFile}`);
         if (response.ok) {
           syllabusText = await response.text();
           console.log('Syllabus loaded, length:', syllabusText.length);
@@ -329,13 +366,9 @@ export const generateQuiz = async (
       }
 
       const allQuestions: Question[] = [];
-      const distribution = BLOCK_J_DISTRIBUTION;
-
-      // We need to batch calls because 120 questions is too many for one prompt
-      // We'll loop through subjects
 
       let totalGenerated = 0;
-      const totalTarget = 120;
+      const totalTarget = Object.values(distribution).reduce((a, b) => a + b, 0);
 
       for (const [subject, qCount] of Object.entries(distribution)) {
         console.log(`Generating ${qCount} questions for ${subject}...`);
@@ -346,7 +379,7 @@ export const generateQuiz = async (
         // but let's be efficient. We'll pass the whole thing as "Reference Material".
 
         const prompt = `
-          Context: Medical Student Exam Preparation (MBBS) - Block J.
+          Context: Medical Student Exam Preparation (MBBS) - ${block}.
           Reference Syllabus:
           ${syllabusText.slice(0, 30000)} ... (truncated if too long)
           
@@ -402,7 +435,6 @@ export const generateQuiz = async (
       }));
     }
 
-    // Fallback for other blocks (not implemented yet)
     return [];
 
   } catch (error) {

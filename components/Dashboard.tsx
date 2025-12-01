@@ -1,13 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { getUserStats, getAttempts, getAllQuestions } from '../services/storageService';
+import { getUserStats, getAttempts, getAllQuestions, clearCurrentSession } from '../services/storageService';
 import { UserStats, Attempt, Question } from '../types';
 import { SUBJECT_COLORS } from '../constants.ts';
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import { Trophy, Target, Zap, Clock, BookOpen } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
 
 const Dashboard: React.FC = () => {
+  const { user } = useAuth();
   const navigate = useNavigate();
+
+  // Clear any active quiz session when landing on dashboard
+  React.useEffect(() => {
+    clearCurrentSession();
+  }, []);
   const [attempts, setAttempts] = useState<Record<string, Attempt[]>>({});
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
@@ -132,22 +139,14 @@ const Dashboard: React.FC = () => {
   return (
     <div className="space-y-6 pb-24">
       <div className="flex justify-between items-end">
-        <h1 className="text-2xl font-bold text-gray-900">Performance</h1>
-        <button
-          onClick={() => navigate('/notes')}
-          className="flex items-center gap-2 text-sm font-medium text-indigo-600 hover:text-indigo-700 bg-indigo-50 px-3 py-1.5 rounded-lg transition-colors"
-        >
-          <BookOpen size={16} />
-          My Notes
-        </button>
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Performance</h1>
       </div>
 
       {/* Key Metrics */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <StatCard icon={Trophy} label="Total Questions" value={stats.totalQuestionsAttempted} color="bg-blue-500" />
         <StatCard icon={Target} label="Accuracy" value={`${stats.accuracy}%`} color="bg-green-500" />
         <StatCard icon={Zap} label="Day Streak" value={stats.streak} color="bg-orange-500" />
-        <StatCard icon={Clock} label="Time Spent" value={formatTime(stats.totalTimeSeconds)} color="bg-purple-500" />
       </div>
 
       {/* Charts Area */}

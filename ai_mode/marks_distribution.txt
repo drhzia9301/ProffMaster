@@ -1,0 +1,83 @@
+Based on the Assessment Plan provided, here is the MCQs marks distribution per subject for each block/paper:
+
+Block 1: Paper J (Neurosciences-II Module)
+
+Community Medicine: 27 MCQs
+
+Pathology: 22 MCQs
+
+Pharmacology: 20 MCQs
+
+Forensic Medicine: 18 MCQs
+
+Medicine: 11 MCQs
+
+Psychiatry: 09 MCQs
+
+Pediatrics: 05 MCQs
+
+Anaesthesia: 03 MCQs
+
+PRIME: 02 MCQs
+
+Neurosurgery: 02 MCQs
+
+Family Medicine: 01 MCQ
+
+Total: 120 MCQs
+
+Block 2: Paper K (GIT & Hepatobiliary-II Module)
+
+Pathology: 41 MCQs
+
+Community Medicine: 18 MCQs
+
+Pharmacology: 16 MCQs
+
+Forensic Medicine: 16 MCQs
+
+Surgery: 12 MCQs
+
+Medicine: 11 MCQs
+
+Pediatrics: 03 MCQs
+
+Family Medicine: 02 MCQs
+
+PRIME: 01 MCQ
+
+Total: 120 MCQs
+
+Block 3: Paper L (Renal-II, Endocrine & Reproduction-II Module)
+
+Gynaecology: 40 MCQs
+
+Pathology: 23 MCQs
+
+Community Medicine: 17 MCQs
+
+Medicine: 10 MCQs
+
+Pharmacology: 09 MCQs
+
+Surgery: 09 MCQs
+
+Forensic Medicine: 07 MCQs
+
+Pediatrics: 03 MCQs
+
+Family Medicine: 02 MCQs
+
+Total: 120 MCQs
+
+Block 4: Paper M-1 (ENT Module)
+
+ENT: 90 MCQs
+
+Total: 90 MCQs
+
+Block 5: Paper M-2 (Eye Module)
+
+Eye: 90 MCQs
+
+Total: 90 MCQs

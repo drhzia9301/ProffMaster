@@ -34,6 +34,13 @@ const AIBlockPage = () => {
     const handleStartSaved = (filter: 'all' | 'incorrect' | 'favorites') => {
         if (!selectedPaper) return;
 
+        console.log("Starting Saved Paper:", {
+            id: selectedPaper.id,
+            name: selectedPaper.name,
+            questionCount: selectedPaper.questions?.length,
+            type: selectedPaper.type
+        });
+
         navigate('/quiz', {
             state: {
                 mode: selectedPaper.type === 'full' ? 'exam' : 'practice',
@@ -51,14 +58,17 @@ const AIBlockPage = () => {
     const handleStart = (config: { type: 'full' | 'custom'; topic?: string; count?: number }) => {
         // Navigate to quiz with AI config
         // We'll pass a special 'ai_generated' type to the quiz session
+        const isShortBlock = selectedBlock === 'Block M1' || selectedBlock === 'Block M2';
+        const fullCount = isShortBlock ? 90 : 120;
+
         navigate('/quiz', {
             state: {
                 mode: config.type === 'full' ? 'exam' : 'practice',
                 type: 'ai_generated',
                 block: selectedBlock,
                 aiConfig: config,
-                timeLimit: config.type === 'full' ? 120 : undefined, // 2 hours for full paper
-                questionCount: config.type === 'full' ? 120 : config.count
+                timeLimit: config.type === 'full' ? fullCount : undefined,
+                questionCount: config.type === 'full' ? fullCount : config.count
             }
         });
     };
