@@ -68,6 +68,28 @@ export class DatabaseService {
                 await this.saveDatabase();
             }
 
+            // Ensure preproff table exists (migration)
+            try {
+                this.db?.run(`
+                    CREATE TABLE IF NOT EXISTS preproff_questions (
+                        id TEXT PRIMARY KEY,
+                        text TEXT,
+                        options TEXT,
+                        correct_index INTEGER,
+                        explanation TEXT,
+                        subject TEXT,
+                        topic TEXT,
+                        difficulty TEXT,
+                        block TEXT,
+                        college TEXT,
+                        year TEXT
+                    )
+                `);
+                console.log('✓ Preproff table verified');
+            } catch (e) {
+                console.error('Error creating preproff table:', e);
+            }
+
             console.log('✓ Database initialization complete!');
         } catch (error) {
             console.error('❌ Database initialization failed:', error);
@@ -224,6 +246,135 @@ export class DatabaseService {
         return this.transformResults(result);
     }
 
+    public async getPreproffQuestions(block: string, college: string, year: string): Promise<any[]> {
+        if (!this.db) {
+            await this.initialize();
+            if (!this.db) throw new Error('Database not initialized');
+        }
+
+        // Check if we have data for this combination
+        const check = this.db.exec(
+            `SELECT count(*) as count FROM preproff_questions WHERE block = ? AND college = ? AND year = ?`,
+            [block, college, year]
+        );
+
+        const count = check[0]?.values[0][0] as number;
+
+        // Always fetch the file to check for updates
+        try {
+            const filename = `${college.toLowerCase()} ${block.replace('Block ', '')}.txt`;
+            const response = await fetch(`/qbanks/${filename}`);
+            if (response.ok) {
+                const text = await response.text();
+                let rawQuestions = JSON.parse(text);
+                if (Array.isArray(rawQuestions)) rawQuestions = rawQuestions.flat();
+                rawQuestions = rawQuestions.filter((q: any) => q && q.options && Array.isArray(q.options));
+
+                if (count !== rawQuestions.length) {
+                    console.log(`Local count (${count}) differs from file count (${rawQuestions.length}). Re-importing...`);
+                    // Delete existing for this block to ensure clean state
+                    this.db.run(`DELETE FROM preproff_questions WHERE block = ? AND college = ? AND year = ?`, [block, college, year]);
+                    await this.importPreproffQuestions(block, college, year);
+                }
+            }
+        } catch (e) {
+            console.error("Error checking for updates:", e);
+        }
+
+        if (count === 0) {
+            // Fallback if the update check failed or didn't run (e.g. file fetch error but we want to try import anyway?)
+            // Actually importPreproffQuestions fetches the file again.
+            // But if we already did it above, we might have already imported.
+            // Let's simplify: just call import if count is 0, OR if we detected a mismatch above.
+            // The above block already calls importPreproffQuestions if mismatch.
+            // So here we only need to handle the case where count is 0 and we didn't successfully import above (e.g. fetch failed? but if fetch failed, import will also fail).
+            // But let's keep the count === 0 check for safety if the above try/catch caught something but we still want to try.
+            // Actually, if count is 0, the above mismatch check (0 !== length) would have triggered import.
+            // So we can remove this block or keep it as a fallback.
+        }
+
+        const result = this.db.exec(
+            `SELECT * FROM preproff_questions WHERE block = ? AND college = ? AND year = ?`,
+            [block, college, year]
+        );
+        return this.transformResults(result);
+    }
+
+    private async importPreproffQuestions(block: string, college: string, year: string): Promise<void> {
+        if (!this.db) return;
+
+        try {
+            // Construct filename e.g., "kmc J.txt"
+            // Note: User provided files like "kmc J.txt"
+            const filename = `${college.toLowerCase()} ${block.replace('Block ', '')}.txt`;
+            console.log(`Fetching ${filename}...`);
+
+            const response = await fetch(`/qbanks/${filename}`);
+            if (!response.ok) {
+                throw new Error(`Failed to fetch file: ${response.statusText}`);
+            }
+
+            const text = await response.text();
+            let rawQuestions = JSON.parse(text);
+
+            // Handle nested arrays (flatten)
+            if (Array.isArray(rawQuestions)) {
+                rawQuestions = rawQuestions.flat();
+            }
+
+            // Filter out invalid questions
+            rawQuestions = rawQuestions.filter((q: any) => q && q.options && Array.isArray(q.options));
+
+            console.log(`Importing ${rawQuestions.length} questions...`);
+
+            const stmt = this.db.prepare(`
+                INSERT OR REPLACE INTO preproff_questions 
+                (id, text, options, correct_index, explanation, subject, topic, difficulty, block, college, year)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            `);
+
+            this.db.exec('BEGIN TRANSACTION');
+
+            for (const q of rawQuestions) {
+                // Transform Data
+                // 1. Options: Remove "A. ", "B. " etc.
+                const cleanOptions = q.options.map((opt: string) => opt.replace(/^[A-E]\.\s*/, ''));
+
+                // 2. Answer: Convert "A", "B" to index 0, 1
+                const answerMap: Record<string, number> = { 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4 };
+                const correctIndex = answerMap[q.answer] ?? 0;
+
+                stmt.run([
+                    `${college}_${year}_${q.id}`, // Unique ID
+                    q.question,
+                    JSON.stringify(cleanOptions),
+                    correctIndex,
+                    q.explanation,
+                    block, // Subject = Block for now
+                    block, // Topic
+                    'Medium',
+                    block,
+                    college,
+                    year
+                ]);
+            }
+
+            this.db.exec('COMMIT');
+            stmt.free();
+            await this.saveDatabase();
+            console.log('✓ Import complete');
+
+        } catch (error) {
+            console.error('Error importing preproff questions:', error);
+            try {
+                this.db.exec('ROLLBACK');
+            } catch (e) {
+                // Ignore rollback error if no transaction was active
+            }
+            throw error;
+        }
+    }
+
     public async getAllQuestions(): Promise<any[]> {
         if (!this.db) {
             await this.initialize();
@@ -299,7 +450,7 @@ export class DatabaseService {
                 ...obj,
                 options: JSON.parse(obj.options || '[]'),
                 tags: obj.topic ? [obj.topic] : [],
-                text: obj.question,
+                text: obj.question || obj.text,
                 correctIndex: obj.correct_index,
             };
         });

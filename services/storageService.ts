@@ -6,7 +6,11 @@ const STORAGE_KEYS = {
   STATS: 'supersix_stats',
   BOOKMARKS: 'supersix_bookmarks',
   QUESTIONS: 'questions_cache', // Use cache from JSON loading
-  COUNTS: 'supersix_counts'
+  COUNTS: 'supersix_counts',
+  AI_ATTEMPTS: 'supersix_ai_attempts',
+  AI_BOOKMARKS: 'supersix_ai_bookmarks',
+  PREPROFF_ATTEMPTS: 'supersix_preproff_attempts',
+  PREPROFF_BOOKMARKS: 'supersix_preproff_bookmarks'
 };
 
 // --- Question Bank Management ---
@@ -167,12 +171,18 @@ export const syncAttempts = async () => {
       }
 
       // Check if already exists (by timestamp)
-      const exists = localAttempts[attempt.questionId].some(a => a.timestamp === attempt.timestamp);
+      const exists = localAttempts[attempt.questionId]?.some(a => a.timestamp === attempt.timestamp);
       if (!exists) {
+        if (!localAttempts[attempt.questionId]) {
+          localAttempts[attempt.questionId] = [];
+        }
         localAttempts[attempt.questionId].push(attempt);
         hasChanges = true;
         // Also update stats for this new attempt
         updateStats(attempt);
+
+        // CRITICAL FIX: Also save to SQLite so it appears in "Weak Areas"
+        dbService.saveAttempt(attempt).catch(e => console.error('Failed to sync attempt to SQLite:', e));
       }
     });
 
@@ -308,4 +318,108 @@ export const getUserStats = (): UserStats => {
     lastActiveDate: new Date().toISOString().split('T')[0],
     subjectAccuracy: {}
   };
+};
+
+
+// --- AI Specific Storage ---
+
+export const getAIAttempts = (): Record<string, Attempt[]> => {
+  const data = localStorage.getItem(STORAGE_KEYS.AI_ATTEMPTS);
+  return data ? JSON.parse(data) : {};
+};
+
+export const saveAIAttempt = (attempt: Attempt) => {
+  const attempts = getAIAttempts();
+  if (!attempts[attempt.questionId]) {
+    attempts[attempt.questionId] = [];
+  }
+  attempts[attempt.questionId].push(attempt);
+  localStorage.setItem(STORAGE_KEYS.AI_ATTEMPTS, JSON.stringify(attempts));
+  // Note: We do NOT update global stats for AI attempts
+};
+
+export const getAIBookmarks = (): string[] => {
+  const data = localStorage.getItem(STORAGE_KEYS.AI_BOOKMARKS);
+  return data ? JSON.parse(data) : [];
+};
+
+export const toggleAIBookmark = (questionId: string) => {
+  const bookmarks = getAIBookmarks();
+  const index = bookmarks.indexOf(questionId);
+  if (index > -1) {
+    bookmarks.splice(index, 1);
+  } else {
+    bookmarks.push(questionId);
+  }
+  localStorage.setItem(STORAGE_KEYS.AI_BOOKMARKS, JSON.stringify(bookmarks));
+  return bookmarks;
+};
+
+// --- Preproff Specific Storage ---
+
+export const getPreproffAttempts = (): Record<string, Attempt[]> => {
+  const data = localStorage.getItem(STORAGE_KEYS.PREPROFF_ATTEMPTS);
+  return data ? JSON.parse(data) : {};
+};
+
+export const savePreproffAttempt = (attempt: Attempt) => {
+  const attempts = getPreproffAttempts();
+  if (!attempts[attempt.questionId]) {
+    attempts[attempt.questionId] = [];
+  }
+  attempts[attempt.questionId].push(attempt);
+  localStorage.setItem(STORAGE_KEYS.PREPROFF_ATTEMPTS, JSON.stringify(attempts));
+};
+
+export const getPreproffBookmarks = (): string[] => {
+  const data = localStorage.getItem(STORAGE_KEYS.PREPROFF_BOOKMARKS);
+  return data ? JSON.parse(data) : [];
+};
+
+export const togglePreproffBookmark = (questionId: string) => {
+  const bookmarks = getPreproffBookmarks();
+  const index = bookmarks.indexOf(questionId);
+  if (index > -1) {
+    bookmarks.splice(index, 1);
+  } else {
+    bookmarks.push(questionId);
+  }
+  localStorage.setItem(STORAGE_KEYS.PREPROFF_BOOKMARKS, JSON.stringify(bookmarks));
+  return bookmarks;
+};
+
+// --- Session Persistence ---
+
+export interface QuizSessionState {
+  questions: Question[];
+  currentIndex: number;
+  score: number;
+  mistakes: { question: string; selected: string; correct: string }[];
+  sessionAttempts: Record<string, Attempt>;
+  timeLimit?: number;
+  startTime: number;
+  type: string; // 'main' | 'ai_generated' | 'preproff'
+  config?: any; // To store aiConfig or other setup params
+}
+
+export const saveCurrentSession = (state: QuizSessionState) => {
+  try {
+    localStorage.setItem('supersix_current_session', JSON.stringify(state));
+  } catch (e) {
+    console.error('Failed to save session:', e);
+  }
+};
+
+export const getCurrentSession = (): QuizSessionState | null => {
+  try {
+    const data = localStorage.getItem('supersix_current_session');
+    return data ? JSON.parse(data) : null;
+  } catch (e) {
+    console.error('Failed to load session:', e);
+    return null;
+  }
+};
+
+export const clearCurrentSession = () => {
+  localStorage.removeItem('supersix_current_session');
 };

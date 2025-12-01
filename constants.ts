@@ -1,5 +1,7 @@
 import { Question, Subject } from './types';
 
+export const APP_VERSION = '1.0.1'; // Increment this to force cache clear on update
+
 export const SUBJECT_COLORS: Record<Subject, string> = {
   [Subject.ENT]: '#ef4444', // Red
   [Subject.Ophthalmology]: '#f97316', // Orange

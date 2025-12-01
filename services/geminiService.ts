@@ -1,6 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { Question } from '../types';
 import { getApiKey } from './apiKeyService';
+import { dbService } from './databaseService';
 
 const getAIClient = () => {
   // Try to get API key from localStorage first, then fallback to environment variable
@@ -147,5 +148,265 @@ export const getSessionAnalysisFromAI = async (data: {
   } catch (error) {
     console.error("Gemini Error:", error);
     return "Failed to analyze session.";
+  }
+};
+
+export const generateStudyNotes = async (
+  questions: Question[],
+  mode: 'concise' | 'detailed' = 'concise',
+  customTitle?: string
+): Promise<string> => {
+  const ai = getAIClient();
+  if (!ai) return "AI Configuration missing.";
+
+  try {
+    // Limit context to avoid token limits (e.g., first 50 questions)
+    const contextQuestions = questions.slice(0, 50).map(q =>
+      `- Topic: ${q.tags.join(', ')}\n  Question: ${q.text}\n  Correct Answer: ${q.options[q.correctIndex]}`
+    ).join('\n');
+
+    let taskDescription = '';
+    if (mode === 'concise') {
+      taskDescription = `
+      Task: Create "High Yield Concise Study Notes".
+      1. Group by major topics.
+      2. For each topic, provide a BIG HEADING (## Topic Name).
+      3. Under each heading, list HIGH-YIELD POINTERS and CLINICAL PEARLS.
+      4. Format:
+         - Use **Bold** for key terms.
+         - Use bullet points (-) for facts.
+      5. Keep it very concise, like "Rapid Review" notes.
+      `;
+    } else {
+      taskDescription = `
+      Task: Create "Detailed Study Notes" with in-depth explanations.
+      1. Group by major topics.
+      2. For each topic, provide a BIG HEADING (## Topic Name).
+      3. Under each heading, provide a COMPREHENSIVE EXPLANATION of the concepts tested.
+      4. Explain the "Why" and "How" (pathophysiology, mechanism of action, etc.).
+      5. Format:
+         - Use **Bold** for key terms.
+         - Use *Italics* for emphasis.
+         - Use paragraphs for explanations.
+      `;
+    }
+
+    const prompt = `
+      Context: Medical Student Exam Preparation (MBBS).
+      Source Material: The following questions were just attempted by the student.
+      
+      ${contextQuestions}
+
+      ${taskDescription}
+
+      Structure the notes beautifully using Markdown.
+      Do not just list the questions. Synthesize the knowledge.
+    `;
+
+    const response = await ai.models.generateContent({
+      model: 'gemini-2.5-flash',
+      contents: prompt,
+    });
+
+    return response.text || "Failed to generate notes.";
+  } catch (error) {
+    console.error("Gemini Error:", error);
+    return "Failed to generate notes due to an error.";
+  }
+};
+
+
+const BLOCK_J_DISTRIBUTION = {
+  'Pharmacology': 20,
+  'Pathology': 22,
+  'Forensic Medicine': 18,
+  'Community Medicine': 27,
+  'PRIME': 2,
+  'Medicine': 11,
+  'Psychiatry': 9,
+  'Neurosurgery': 2,
+  'Pediatrics': 5,
+  'Anesthesia': 3,
+  'Family Medicine': 1
+};
+
+export const generateQuiz = async (
+  block: string,
+  type: 'full' | 'custom',
+  topic?: string,
+  count?: number,
+  onProgress?: (message: string) => void
+): Promise<Question[]> => {
+  const ai = getAIClient();
+
+  if (!ai) {
+    console.error("AI Configuration missing.");
+    throw new Error("API_KEY_MISSING");
+  }
+
+  try {
+    // 1. Handle Custom Quiz (Simple Path)
+    if (type === 'custom') {
+      onProgress?.('Fetching style examples...');
+
+      // Fetch random questions from DB for style mimicry
+      let styleExamples = '';
+      try {
+        const allLocalQuestions = await dbService.getAllQuestions();
+        if (allLocalQuestions.length > 0) {
+          // Pick 3 random questions
+          const examples = allLocalQuestions
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 3)
+            .map(q => `- Question: ${q.text}\n  Options: ${q.options.join(', ')}`);
+
+          styleExamples = `
+          Here are examples of the style, difficulty, and formatting of questions I want you to mimic:
+          ${examples.join('\n\n')}
+          
+          Please ensure the new questions match this clinical vignette style and difficulty level.
+          `;
+        }
+      } catch (e) {
+        console.warn('Failed to fetch local questions for style mimicry:', e);
+      }
+
+      onProgress?.('Generating custom quiz...');
+      const questionCount = count || 10;
+      const prompt = `
+        Context: Medical Student Exam Preparation (MBBS).
+        Task: Generate a custom quiz for MBBS Block: ${block}. Focus specifically on the topic: "${topic}".
+        Requirement: Generate ${questionCount} multiple choice questions.
+        
+        ${styleExamples}
+
+        Format: JSON Array of objects with the following structure:
+        [
+          {
+            "id": "unique_id",
+            "text": "Question text here",
+            "options": ["Option A", "Option B", "Option C", "Option D"],
+            "correctIndex": 0, // 0-3
+            "subject": "${block}", 
+            "tags": ["${topic || block}"],
+            "difficulty": "Medium",
+            "explanation": "Brief explanation of why the correct answer is right and others are wrong."
+          }
+        ]
+        Ensure questions are high-quality, clinically relevant, and accurate.
+        Do not include any markdown formatting (like \`\`\`json), just the raw JSON array.
+      `;
+
+      const response = await ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: prompt,
+        config: { responseMimeType: 'application/json' }
+      });
+
+      const text = response.text;
+      if (!text) return [];
+      const questions = JSON.parse(text) as Question[];
+      return questions.map((q, i) => ({ ...q, id: `ai_${Date.now()}_${i}`, subject: block as any }));
+    }
+
+    // 2. Handle Full Paper (Complex Path)
+    if (type === 'full' && block === 'Block J') {
+      console.log('Starting Full Paper Generation for Block J...');
+      onProgress?.('Loading syllabus...');
+
+      // Fetch Syllabus
+      let syllabusText = '';
+      try {
+        const response = await fetch('/assets/Block_J_syllabus.txt');
+        if (response.ok) {
+          syllabusText = await response.text();
+          console.log('Syllabus loaded, length:', syllabusText.length);
+        } else {
+          console.warn('Failed to load syllabus file');
+        }
+      } catch (e) {
+        console.error('Error loading syllabus:', e);
+      }
+
+      const allQuestions: Question[] = [];
+      const distribution = BLOCK_J_DISTRIBUTION;
+
+      // We need to batch calls because 120 questions is too many for one prompt
+      // We'll loop through subjects
+
+      let totalGenerated = 0;
+      const totalTarget = 120;
+
+      for (const [subject, qCount] of Object.entries(distribution)) {
+        console.log(`Generating ${qCount} questions for ${subject}...`);
+        onProgress?.(`Generating ${subject} (${qCount} questions)... ${Math.round((totalGenerated / totalTarget) * 100)}%`);
+
+        // Extract relevant syllabus part (naive approach: pass whole syllabus or rely on AI to pick)
+        // Passing 40KB syllabus in every prompt might be okay for Gemini 1.5 Flash (1M context), 
+        // but let's be efficient. We'll pass the whole thing as "Reference Material".
+
+        const prompt = `
+          Context: Medical Student Exam Preparation (MBBS) - Block J.
+          Reference Syllabus:
+          ${syllabusText.slice(0, 30000)} ... (truncated if too long)
+          
+          Task: Generate ${qCount} multiple choice questions for the subject: "${subject}".
+          Strictly follow the syllabus content for this subject.
+          
+          Format: JSON Array of objects with the following structure:
+          [
+            {
+              "id": "unique_id",
+              "text": "Question text here",
+              "options": ["Option A", "Option B", "Option C", "Option D"],
+              "correctIndex": 0, // 0-3
+              "subject": "${subject}", 
+              "tags": ["${block}", "${subject}"],
+              "difficulty": "Medium"
+            }
+          ]
+          
+          Ensure questions are high-quality, clinically relevant, and accurate.
+          Do not include any markdown formatting.
+        `;
+
+        try {
+          const response = await ai.models.generateContent({
+            model: 'gemini-2.5-flash', // Using 2.5-flash as requested for consistency and advanced features
+            contents: prompt,
+            config: { responseMimeType: 'application/json' }
+          });
+
+          const text = response.text;
+          if (text) {
+            const batch = JSON.parse(text) as Question[];
+            allQuestions.push(...batch);
+            totalGenerated += batch.length;
+          }
+        } catch (err) {
+          console.error(`Failed to generate for ${subject}:`, err);
+          // Continue to next subject even if one fails
+        }
+
+        // Add a small delay to avoid rate limits
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+
+      onProgress?.('Finalizing paper...');
+
+      // Post-process
+      return allQuestions.map((q, i) => ({
+        ...q,
+        id: `ai_full_${Date.now()}_${i}`,
+        subject: q.subject as any // Keep the specific subject (e.g. Pharmacology)
+      }));
+    }
+
+    // Fallback for other blocks (not implemented yet)
+    return [];
+
+  } catch (error) {
+    console.error("Gemini Quiz Generation Error:", error);
+    return [];
   }
 };

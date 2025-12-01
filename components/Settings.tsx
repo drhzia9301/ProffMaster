@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2 } from 'lucide-react';
 import { getApiKey, setApiKey, removeApiKey, hasApiKey } from '../services/apiKeyService';
 import { resetProgress } from '../services/storageService';
+import { useTheme } from '../contexts/ThemeContext';
+import { hapticsService } from '../services/hapticsService';
+import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Coffee, Palette, Smartphone } from 'lucide-react';
 
 const Settings: React.FC = () => {
+    const { theme, setTheme } = useTheme();
     const [apiKey, setApiKeyInput] = useState('');
     const [isConfigured, setIsConfigured] = useState(false);
     const [showKey, setShowKey] = useState(false);
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
     const [showConfirmDelete, setShowConfirmDelete] = useState(false);
     const [showConfirmReset, setShowConfirmReset] = useState(false);
+    const [hapticsEnabled, setHapticsEnabled] = useState(true);
 
     useEffect(() => {
         const configured = hasApiKey();
@@ -18,7 +22,14 @@ const Settings: React.FC = () => {
             const key = getApiKey();
             setApiKeyInput(key || '');
         }
+        setHapticsEnabled(hapticsService.getEnabled());
     }, []);
+
+    const toggleHaptics = () => {
+        const newState = !hapticsEnabled;
+        setHapticsEnabled(newState);
+        hapticsService.toggle(newState);
+    };
 
     const handleSave = () => {
         if (!apiKey.trim()) {
@@ -54,6 +65,73 @@ const Settings: React.FC = () => {
             <div>
                 <h2 className="text-2xl font-bold text-gray-900">Settings</h2>
                 <p className="text-gray-500 text-sm mt-1">Configure your AI features and preferences</p>
+            </div>
+
+            {/* Appearance Settings */}
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                <div className="p-6">
+                    <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+                            <Palette size={20} />
+                        </div>
+                        <div>
+                            <h3 className="font-bold text-gray-900">Appearance</h3>
+                            <p className="text-xs text-gray-500">Customize your reading experience</p>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                        <button
+                            onClick={() => setTheme('light')}
+                            className={`p-4 rounded-xl border-2 transition-all flex flex-col items-center gap-2 ${theme === 'light'
+                                ? 'border-blue-500 bg-blue-50 text-blue-700'
+                                : 'border-gray-100 hover:border-gray-200 text-gray-600'
+                                }`}
+                        >
+                            <Sun size={24} />
+                            <span className="font-semibold text-sm">Light</span>
+                        </button>
+
+                        <button
+                            onClick={() => setTheme('dark')}
+                            className={`p-4 rounded-xl border-2 transition-all flex flex-col items-center gap-2 ${theme === 'dark'
+                                ? 'border-slate-500 bg-slate-800 text-white'
+                                : 'border-gray-100 hover:border-gray-200 text-gray-600'
+                                }`}
+                        >
+                            <Moon size={24} />
+                            <span className="font-semibold text-sm">Dark</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Haptics Settings */}
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                <div className="p-6">
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600">
+                                <Smartphone size={20} />
+                            </div>
+                            <div>
+                                <h3 className="font-bold text-gray-900">Haptics</h3>
+                                <p className="text-xs text-gray-500">Vibration feedback</p>
+                            </div>
+                        </div>
+                        <button
+                            onClick={toggleHaptics}
+                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${hapticsEnabled ? 'bg-indigo-600' : 'bg-gray-200'}`}
+                        >
+                            <span
+                                className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${hapticsEnabled ? 'translate-x-6' : 'translate-x-1'}`}
+                            />
+                        </button>
+                    </div>
+                    <p className="text-sm text-gray-600">
+                        Enable premium haptic feedback for interactions, correct answers, and mistakes.
+                    </p>
+                </div>
             </div>
 
             {/* API Key Configuration */}
@@ -176,50 +254,54 @@ const Settings: React.FC = () => {
             </div>
 
             {/* Success/Error Messages */}
-            {message && (
-                <div className={`fixed bottom-24 left-4 right-4 p-4 rounded-xl shadow-lg animate-fade-in ${message.type === 'success' ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
-                    }`}>
-                    <div className="flex items-center gap-3">
-                        {message.type === 'success' ? (
-                            <CheckCircle2 size={20} className="text-green-600" />
-                        ) : (
-                            <AlertCircle size={20} className="text-red-600" />
-                        )}
-                        <p className={`font-medium text-sm ${message.type === 'success' ? 'text-green-900' : 'text-red-900'}`}>
-                            {message.text}
-                        </p>
+            {
+                message && (
+                    <div className={`fixed bottom-24 left-4 right-4 p-4 rounded-xl shadow-lg animate-fade-in ${message.type === 'success' ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
+                        }`}>
+                        <div className="flex items-center gap-3">
+                            {message.type === 'success' ? (
+                                <CheckCircle2 size={20} className="text-green-600" />
+                            ) : (
+                                <AlertCircle size={20} className="text-red-600" />
+                            )}
+                            <p className={`font-medium text-sm ${message.type === 'success' ? 'text-green-900' : 'text-red-900'}`}>
+                                {message.text}
+                            </p>
+                        </div>
                     </div>
-                </div>
-            )}
+                )
+            }
 
             {/* Confirm Delete Modal */}
-            {showConfirmDelete && (
-                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-                    <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
-                        <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <AlertCircle size={24} className="text-red-600" />
-                        </div>
-                        <h3 className="text-lg font-bold text-gray-900 text-center mb-2">Remove API Key?</h3>
-                        <p className="text-sm text-gray-600 text-center mb-6">
-                            This will disable all AI features. You can add it back anytime.
-                        </p>
-                        <div className="flex gap-3">
-                            <button
-                                onClick={() => setShowConfirmDelete(false)}
-                                className="flex-1 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 font-semibold hover:bg-gray-50 transition-colors"
-                            >
-                                Cancel
-                            </button>
-                            <button
-                                onClick={handleRemove}
-                                className="flex-1 px-4 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
-                            >
-                                Remove
-                            </button>
+            {
+                showConfirmDelete && (
+                    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+                        <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
+                            <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <AlertCircle size={24} className="text-red-600" />
+                            </div>
+                            <h3 className="text-lg font-bold text-gray-900 text-center mb-2">Remove API Key?</h3>
+                            <p className="text-sm text-gray-600 text-center mb-6">
+                                This will disable all AI features. You can add it back anytime.
+                            </p>
+                            <div className="flex gap-3">
+                                <button
+                                    onClick={() => setShowConfirmDelete(false)}
+                                    className="flex-1 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 font-semibold hover:bg-gray-50 transition-colors"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    onClick={handleRemove}
+                                    className="flex-1 px-4 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
+                                >
+                                    Remove
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            )}
+                )
+            }
             {/* Reset Progress */}
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                 <div className="p-6">
@@ -239,43 +321,45 @@ const Settings: React.FC = () => {
             </div>
 
             {/* Confirm Reset Modal */}
-            {showConfirmReset && (
-                <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-                    <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
-                        <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <AlertCircle size={24} className="text-red-600" />
-                        </div>
-                        <h3 className="text-lg font-bold text-gray-900 text-center mb-2">Reset All Progress?</h3>
-                        <p className="text-sm text-gray-600 text-center mb-6">
-                            Are you sure? This will permanently delete all your quiz history and stats from this device and the cloud.
-                        </p>
-                        <div className="flex gap-3">
-                            <button
-                                onClick={() => setShowConfirmReset(false)}
-                                className="flex-1 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 font-semibold hover:bg-gray-50 transition-colors"
-                            >
-                                Cancel
-                            </button>
-                            <button
-                                onClick={async () => {
-                                    const success = await resetProgress();
-                                    if (success) {
-                                        setMessage({ type: 'success', text: 'Progress reset successfully' });
-                                        setShowConfirmReset(false);
-                                        setTimeout(() => window.location.reload(), 1500);
-                                    } else {
-                                        setMessage({ type: 'error', text: 'Failed to reset progress' });
-                                    }
-                                }}
-                                className="flex-1 px-4 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
-                            >
-                                Yes, Reset
-                            </button>
+            {
+                showConfirmReset && (
+                    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+                        <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
+                            <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <AlertCircle size={24} className="text-red-600" />
+                            </div>
+                            <h3 className="text-lg font-bold text-gray-900 text-center mb-2">Reset All Progress?</h3>
+                            <p className="text-sm text-gray-600 text-center mb-6">
+                                Are you sure? This will permanently delete all your quiz history and stats from this device and the cloud.
+                            </p>
+                            <div className="flex gap-3">
+                                <button
+                                    onClick={() => setShowConfirmReset(false)}
+                                    className="flex-1 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 font-semibold hover:bg-gray-50 transition-colors"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    onClick={async () => {
+                                        const success = await resetProgress();
+                                        if (success) {
+                                            setMessage({ type: 'success', text: 'Progress reset successfully' });
+                                            setShowConfirmReset(false);
+                                            setTimeout(() => window.location.reload(), 1500);
+                                        } else {
+                                            setMessage({ type: 'error', text: 'Failed to reset progress' });
+                                        }
+                                    }}
+                                    className="flex-1 px-4 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
+                                >
+                                    Yes, Reset
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            )}
-        </div>
+                )
+            }
+        </div >
     );
 };
 

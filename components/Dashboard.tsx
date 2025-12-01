@@ -3,9 +3,11 @@ import { getUserStats, getAttempts, getAllQuestions } from '../services/storageS
 import { UserStats, Attempt, Question } from '../types';
 import { SUBJECT_COLORS } from '../constants.ts';
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
-import { Trophy, Target, Zap, Clock } from 'lucide-react';
+import { Trophy, Target, Zap, Clock, BookOpen } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard: React.FC = () => {
+  const navigate = useNavigate();
   const [attempts, setAttempts] = useState<Record<string, Attempt[]>>({});
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
@@ -131,7 +133,13 @@ const Dashboard: React.FC = () => {
     <div className="space-y-6 pb-24">
       <div className="flex justify-between items-end">
         <h1 className="text-2xl font-bold text-gray-900">Performance</h1>
-        <span className="text-sm text-gray-500">Last updated: Today</span>
+        <button
+          onClick={() => navigate('/notes')}
+          className="flex items-center gap-2 text-sm font-medium text-indigo-600 hover:text-indigo-700 bg-indigo-50 px-3 py-1.5 rounded-lg transition-colors"
+        >
+          <BookOpen size={16} />
+          My Notes
+        </button>
       </div>
 
       {/* Key Metrics */}

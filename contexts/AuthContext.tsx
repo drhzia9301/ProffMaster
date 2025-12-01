@@ -7,6 +7,7 @@ interface AuthContextType {
     session: Session | null;
     user: User | null;
     loading: boolean;
+    connectionError: boolean;
     signOut: () => Promise<void>;
 }
 
@@ -16,27 +17,55 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const [session, setSession] = useState<Session | null>(null);
     const [user, setUser] = useState<User | null>(null);
     const [loading, setLoading] = useState(true);
+    const [connectionError, setConnectionError] = useState(false);
 
     useEffect(() => {
+        let mounted = true;
+
+        // Timeout to detect offline/blocking
+        const timeoutId = setTimeout(() => {
+            if (mounted && loading) {
+                console.warn('Supabase connection timed out - assuming offline');
+                setConnectionError(true);
+                setLoading(false);
+            }
+        }, 5000); // 5 seconds timeout
+
         // Check active sessions and sets the user
         supabase.auth.getSession().then(({ data: { session } }) => {
+            if (!mounted) return;
+            clearTimeout(timeoutId);
+
             setSession(session);
             setUser(session?.user ?? null);
+            setConnectionError(false); // Connection successful
+
             if (session?.user) {
-                syncAttempts().then(() => setLoading(false));
+                syncAttempts().then(() => {
+                    if (mounted) setLoading(false);
+                });
             } else {
+                setLoading(false);
+            }
+        }).catch(err => {
+            console.error('Supabase session check failed:', err);
+            if (mounted) {
+                setConnectionError(true);
                 setLoading(false);
             }
         });
 
         // Listen for changes on auth state (sign in, sign out, etc.)
         const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+            if (!mounted) return;
             setSession(session);
             setUser(session?.user ?? null);
 
             if (event === 'SIGNED_IN' && session) {
                 setLoading(true);
-                syncAttempts().then(() => setLoading(false));
+                syncAttempts().then(() => {
+                    if (mounted) setLoading(false);
+                });
             } else if (event === 'SIGNED_OUT') {
                 setLoading(false);
             } else {
@@ -44,7 +73,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             }
         });
 
-        return () => subscription.unsubscribe();
+        return () => {
+            mounted = false;
+            clearTimeout(timeoutId);
+            subscription.unsubscribe();
+        };
     }, []);
 
     const signOut = async () => {
@@ -55,6 +88,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         session,
         user,
         loading,
+        connectionError,
         signOut,
     };
 

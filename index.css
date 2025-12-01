@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Theme Overrides */
+[data-theme='dark'] body {
+  background-color: #0f172a !important;
+  /* Slate 900 */
+  color: #e2e8f0 !important;
+  /* Slate 200 */
+}
+
+[data-theme='dark'] .bg-white {
+  background-color: #1e293b !important;
+  /* Slate 800 */
+  color: #e2e8f0 !important;
+}
+
+[data-theme='dark'] .bg-gray-50 {
+  background-color: #0f172a !important;
+  /* Slate 900 */
+}
+
+[data-theme='dark'] .bg-gray-100 {
+  background-color: #334155 !important;
+  /* Slate 700 */
+  color: #f1f5f9 !important;
+}
+
+[data-theme='dark'] .text-gray-900 {
+  color: #f8fafc !important;
+  /* Slate 50 */
+}
+
+[data-theme='dark'] .text-gray-600,
+[data-theme='dark'] .text-gray-500 {
+  color: #94a3b8 !important;
+  /* Slate 400 */
+}
+
+[data-theme='dark'] .border-gray-100,
+[data-theme='dark'] .border-gray-200 {
+  border-color: #334155 !important;
+  /* Slate 700 */
+}
+
+/* Colored Backgrounds in Dark Mode */
+[data-theme='dark'] .bg-amber-50 {
+  background-color: #78350f !important;
+  /* Amber 900 */
+  color: #fef3c7 !important;
+  /* Amber 100 */
+  border-color: #92400e !important;
+  /* Amber 800 */
+}
+
+[data-theme='dark'] .bg-amber-50 .text-amber-900,
+[data-theme='dark'] .bg-amber-50 .text-amber-800,
+[data-theme='dark'] .bg-amber-50 .text-amber-600 {
+  color: #fef3c7 !important;
+}
+
+[data-theme='dark'] .bg-red-50 {
+  background-color: #7f1d1d !important;
+  /* Red 900 */
+  color: #fee2e2 !important;
+  /* Red 100 */
+  border-color: #991b1b !important;
+  /* Red 800 */
+}
+
+[data-theme='dark'] .bg-red-50 .text-gray-800,
+[data-theme='dark'] .bg-red-50 .text-gray-900,
+[data-theme='dark'] .bg-red-50 .text-red-900,
+[data-theme='dark'] .bg-red-50 .text-red-600 {
+  color: #fee2e2 !important;
+}
+
+[data-theme='dark'] .bg-green-50 {
+  background-color: #052e16 !important;
+  /* Green 950 */
+  color: #86efac !important;
+  /* Green 300 */
+}
+
+[data-theme='dark'] .bg-blue-50 {
+  background-color: #172554 !important;
+  /* Blue 950 */
+  color: #93c5fd !important;
+  /* Blue 300 */
+}
+
+[data-theme='dark'] .bg-purple-50 {
+  background-color: #3b0764 !important;
+  /* Purple 950 */
+  color: #d8b4fe !important;
+  /* Purple 300 */
+}
+
+/* Medical Theme Overrides in Dark Mode */
+[data-theme='dark'] .bg-medical-50 {
+  background-color: #0c4a6e !important;
+  /* Medical 900 (Dark Blue) */
+  color: #e0f2fe !important;
+  /* Medical 100 (Light Blue) */
+  border-color: #0369a1 !important;
+  /* Medical 700 */
+}
+
+[data-theme='dark'] .text-medical-900,
+[data-theme='dark'] .text-medical-700,
+[data-theme='dark'] .text-medical-600 {
+  color: #e0f2fe !important;
+  /* Force light text */
+}
+
+[data-theme='dark'] .border-medical-200,
+[data-theme='dark'] .border-medical-500 {
+  border-color: #0369a1 !important;
+  /* Medical 700 */
+}
+
+/* Input Fields in Dark Mode */
+[data-theme='dark'] input,
+[data-theme='dark'] select,
+[data-theme='dark'] textarea {
+  background-color: #1e293b !important;
+  /* Slate 800 */
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+  /* Slate 600 */
+}
+
+[data-theme='dark'] input::placeholder,
+[data-theme='dark'] select::placeholder,
+[data-theme='dark'] textarea::placeholder {
+  color: #64748b !important;
+  /* Slate 500 */
+}
+
+/* Common Transitions */
+body,
+div,
+span,
+p,
+button,
+input,
+select,
+textarea {
+  transition-property: background-color, border-color, color;
+  transition-duration: 300ms;
+}

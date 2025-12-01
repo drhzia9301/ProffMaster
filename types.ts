@@ -45,3 +45,12 @@ export interface QuizConfig {
   timed: boolean;
   timeLimitMinutes?: number;
 }
+
+export interface Note {
+  id: string;
+  title: string;
+  content: string; // Markdown
+  date: string; // ISO Date
+  tags: string[];
+  relatedQuestions?: string[]; // IDs of questions used to generate this
+}

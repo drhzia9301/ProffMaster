@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import BottomNav from './components/BottomNav';
@@ -7,30 +7,15 @@ import QuizCard from './components/QuizCard';
 import SettingsPage from './components/Settings';
 import QuestionsBrowser from './components/QuestionsBrowser';
 import QuestionViewer from './components/QuestionViewer';
-
 import { SUBJECT_COLORS } from './constants.ts';
-import { ThemeProvider } from './contexts/ThemeContext';
 import { Subject, Question, Attempt } from './types';
-import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedQuestionCount, getCachedSubjectCounts, saveAIAttempt, getAIAttempts, toggleAIBookmark, getAIBookmarks, getPreproffAttempts, savePreproffAttempt, getPreproffBookmarks, togglePreproffBookmark, saveCurrentSession, getCurrentSession, clearCurrentSession } from './services/storageService';
-import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart, BookOpen } from 'lucide-react';
+import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedQuestionCount, getCachedSubjectCounts } from './services/storageService';
+import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart } from 'lucide-react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Login from './components/Login';
-import SelectionPage from './components/SelectionPage';
-import PreproffBlocksPage from './components/PreproffBlocksPage';
-import PreproffCollegesPage from './components/PreproffCollegesPage';
-import PreproffYearsPage from './components/PreproffYearsPage';
-import AIBlockPage from './components/AIBlockPage';
 import { getSessionAnalysisFromAI } from './services/geminiService';
 import { hasApiKey } from './services/apiKeyService';
 import { dbService } from './services/databaseService';
-import { generateQuiz, generateStudyNotes } from './services/geminiService';
-import { savePaper } from './services/savedPapersService';
-import { App as CapacitorApp } from '@capacitor/app';
-import { hapticsService, NotificationType, ImpactStyle } from './services/hapticsService';
-import { VersionManager } from './components/VersionManager';
-import NotesPage from './components/NotesPage';
-import { notesService } from './services/notesService';
-import NoteGenerationModal from './components/NoteGenerationModal';
 
 const SUBJECT_ICONS: Record<string, React.ElementType> = {
   [Subject.ENT]: Ear,
@@ -60,6 +45,34 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   return <>{children}</>;
 };
 
+// --- Helper Components ---
+
+const Timer: React.FC<{ durationSeconds: number; onTimeUp: () => void }> = ({ durationSeconds, onTimeUp }) => {
+  const [timeLeft, setTimeLeft] = useState(durationSeconds);
+
+  useEffect(() => {
+    if (timeLeft <= 0) {
+      onTimeUp();
+      return;
+    }
+    const timerId = setInterval(() => {
+      setTimeLeft(p => p - 1);
+    }, 1000);
+    return () => clearInterval(timerId);
+  }, [timeLeft, onTimeUp]);
+
+  const minutes = Math.floor(timeLeft / 60);
+  const seconds = timeLeft % 60;
+
+  return (
+    <div className={`flex items-center gap-2 font-mono font-bold text-sm px-3 py-1.5 rounded-lg ${timeLeft < 60 ? 'bg-red-100 text-red-600' : 'bg-gray-100 text-gray-700'}`}>
+      <Clock size={16} />
+      {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
+    </div>
+  );
+};
+
+// --- Page Components ---
 
 const Home = () => {
   const navigate = useNavigate();
@@ -79,13 +92,20 @@ const Home = () => {
           <h2 className="text-2xl font-bold mb-2">KMU Prep Dashboard</h2>
           <p className="text-medical-100 mb-6">You have {questionsCount} high-yield questions available.</p>
 
+          <button
+            onClick={() => navigate('/subjects')}
+            className="bg-white text-medical-600 px-6 py-3 rounded-xl font-bold shadow-sm flex items-center gap-2 hover:bg-gray-50 transition-colors"
+          >
+            <Play size={18} fill="currentColor" />
+            Start Practicing
+          </button>
         </div>
       </div>
 
       {/* Quick Actions */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <button
-          onClick={() => navigate('/selection')}
+          onClick={() => navigate('/subjects')}
           className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:border-medical-200 text-left group transition-all"
         >
           <div className="bg-purple-100 w-10 h-10 rounded-lg flex items-center justify-center text-purple-600 mb-3 group-hover:scale-110 transition-transform">
@@ -105,28 +125,6 @@ const Home = () => {
           <h3 className="font-bold text-gray-900">Smart Review</h3>
           <p className="text-xs text-gray-500 mt-1">Revise weak areas</p>
         </button>
-
-        <button
-          onClick={() => navigate('/ai-questions')}
-          className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:border-medical-200 text-left group transition-all"
-        >
-          <div className="bg-indigo-100 w-10 h-10 rounded-lg flex items-center justify-center text-indigo-600 mb-3 group-hover:scale-110 transition-transform">
-            <Sparkles size={20} />
-          </div>
-          <h3 className="font-bold text-gray-900">AI Questions</h3>
-          <p className="text-xs text-gray-500 mt-1">Generate custom quizzes</p>
-        </button>
-
-        <button
-          onClick={() => navigate('/notes')}
-          className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:border-medical-200 text-left group transition-all"
-        >
-          <div className="bg-emerald-100 w-10 h-10 rounded-lg flex items-center justify-center text-emerald-600 mb-3 group-hover:scale-110 transition-transform">
-            <BookOpen size={20} />
-          </div>
-          <h3 className="font-bold text-gray-900">AI Study Notes</h3>
-          <p className="text-xs text-gray-500 mt-1">View your saved notes</p>
-        </button>
       </div>
 
       <button
@@ -145,31 +143,47 @@ const Home = () => {
     </div>
   );
 };
-
 const SubjectsPage = () => {
   const navigate = useNavigate();
   const subjects = Object.values(Subject);
+  const [allQuestions, setAllQuestions] = useState<Question[]>([]);
+  const [subjectCounts, setSubjectCounts] = useState<Record<string, number>>(getCachedSubjectCounts());
+
+  useEffect(() => {
+    getAllQuestions().then(questions => {
+      setAllQuestions(questions);
+      setSubjectCounts(getCachedSubjectCounts());
+    });
+  }, []);
 
   return (
     <div className="pb-24 space-y-6">
-      <h2 className="text-2xl font-bold text-gray-900">Subjects</h2>
-      <div className="grid grid-cols-1 gap-4">
+      <h2 className="text-2xl font-bold text-gray-900">Browse by Subject</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {subjects.map((subject) => {
+          const count = subjectCounts[subject] || 0;
           const Icon = SUBJECT_ICONS[subject] || Book;
+          const color = SUBJECT_COLORS[subject];
+
           return (
             <button
               key={subject}
               onClick={() => navigate('/setup', { state: { subject } })}
-              className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:border-medical-200 text-left flex items-center gap-4 group transition-all"
+              className="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:border-medical-200 transition-all text-left flex items-center justify-between group"
             >
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:scale-105 transition-transform" style={{ backgroundColor: SUBJECT_COLORS[subject] }}>
-                <Icon size={24} />
+              <div className="flex items-center gap-4">
+                <div
+                  className="w-12 h-12 rounded-xl flex items-center justify-center transition-transform group-hover:scale-110"
+                  style={{ backgroundColor: `${color}20`, color: color }}
+                >
+                  <Icon size={24} />
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900">{subject}</h3>
+                  <p className="text-xs text-gray-500">{count} Questions</p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-lg">{subject}</h3>
-                <p className="text-xs text-gray-500">Practice questions</p>
-              </div>
-              <ArrowRight className="ml-auto text-gray-300 group-hover:text-medical-600" size={20} />
+              <ArrowRight size={20} className="text-gray-300 group-hover:text-medical-600 transition-colors" />
             </button>
           );
         })}
@@ -576,249 +590,131 @@ const ReviewPage = () => {
   );
 };
 
-const Timer = ({ durationSeconds, onTimeUp }: { durationSeconds: number, onTimeUp: () => void }) => {
-  const [timeLeft, setTimeLeft] = useState(durationSeconds);
+const SearchPage = () => {
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState('');
+  const [results, setResults] = useState<Question[]>([]);
+  const [allQuestions, setAllQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
-    if (timeLeft <= 0) {
-      onTimeUp();
+    getAllQuestions().then(setAllQuestions);
+  }, []);
+
+  useEffect(() => {
+    if (searchTerm.trim() === '') {
+      setResults([]);
       return;
     }
-
-    const timer = setInterval(() => {
-      setTimeLeft(prev => prev - 1);
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [timeLeft, onTimeUp]);
-
-  const minutes = Math.floor(timeLeft / 60);
-  const seconds = timeLeft % 60;
+    const lower = searchTerm.toLowerCase();
+    const filtered = allQuestions.filter(q =>
+      q.text.toLowerCase().includes(lower) ||
+      q.tags.some(t => t.toLowerCase().includes(lower)) ||
+      q.subject.toLowerCase().includes(lower)
+    );
+    setResults(filtered);
+  }, [searchTerm, allQuestions]);
 
   return (
-    <div className={`flex items-center gap-2 font-mono font-bold ${timeLeft < 60 ? 'text-red-600 animate-pulse' : 'text-medical-600'}`}>
-      <Clock size={18} />
-      {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
+    <div className="pb-24 space-y-6">
+      <h2 className="text-2xl font-bold text-gray-900">Search Bank</h2>
+
+      <div className="relative">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
+        <input
+          type="text"
+          placeholder="Search topics, keywords, or questions..."
+          className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:border-medical-500 focus:ring-2 focus:ring-medical-100 outline-none transition-all"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
+
+      <div className="space-y-3">
+        {results.map(q => (
+          <div key={q.id} className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-medical-200 cursor-pointer"
+            onClick={() => navigate('/quiz', { state: { mode: 'practice', type: 'single', questionId: q.id } })}>
+            <div className="flex gap-2 mb-1">
+              <span className="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600 font-bold">{q.subject}</span>
+              <span className="text-[10px] px-2 py-0.5 rounded bg-gray-100 text-gray-600">{q.difficulty}</span>
+            </div>
+            <p className="text-sm font-medium text-gray-900 line-clamp-2">{q.text}</p>
+          </div>
+        ))}
+        {searchTerm && results.length === 0 && (
+          <div className="text-center text-gray-400 py-8">No questions found.</div>
+        )}
+        {!searchTerm && (
+          <div className="text-center text-gray-400 py-8 text-sm">Type to search across {allQuestions.length} questions.</div>
+        )}
+      </div>
     </div>
   );
 };
 
 const QuizSession = () => {
-  const location = useLocation();
   const navigate = useNavigate();
-  const {
-    mode,
-    subject,
-    questionCount,
-    topics,
-    questions: reviewQuestions,
-    questionId,
-    statusFilter,
-    block,
-    aiConfig,
-    filter // 'all' | 'incorrect' | 'favorites'
-  } = location.state || {};
-
+  const location = useLocation();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [loadingMessage, setLoadingMessage] = useState('Loading Questions...');
   const [mistakes, setMistakes] = useState<{ question: string; selected: string; correct: string }[]>([]);
-  const [aiAnalysis, setAiAnalysis] = useState<string | null>(null);
-  const [analyzing, setAnalyzing] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [timeLimit, setTimeLimit] = useState<number | undefined>(location.state?.timeLimit);
 
-  // New State for Session Persistence
+  // New state for session-based tracking
   const [attempts, setAttempts] = useState<Record<string, Attempt[]>>({});
-  const [sessionAttempts, setSessionAttempts] = useState<Record<string, Attempt>>({});
   const [bookmarks, setBookmarks] = useState<string[]>([]);
-  const [isGeneratingNotes, setIsGeneratingNotes] = useState(false);
-  const [showNotesModal, setShowNotesModal] = useState(false);
 
-  // Track if we've already saved this session's paper to prevent duplicates
-  const hasSavedPaper = useRef(false);
-
-
-
-  // Determine the type of quiz for storage keys
-  const type = location.state?.type || (aiConfig ? 'ai_generated' : (block ? 'preproff' : 'main'));
-
-  // --- Session Persistence Logic ---
-
-  // 1. Save Session on State Change
-  useEffect(() => {
-    if (questions.length > 0 && !isFinished && !loading) {
-      const sessionState = {
-        questions,
-        currentIndex,
-        score,
-        mistakes,
-        sessionAttempts,
-        timeLimit,
-        startTime: Date.now(), // Ideally track actual start time
-        type,
-        config: location.state
-      };
-      saveCurrentSession(sessionState);
-    }
-  }, [questions, currentIndex, score, mistakes, sessionAttempts, isFinished, loading, type, location.state]);
-
-  // 2. Clear Session on Finish
-  useEffect(() => {
-    if (isFinished) {
-      clearCurrentSession();
-    }
-  }, [isFinished]);
+  const state = location.state as any || {};
+  const { mode, type, subject, questionId, timeLimit, questionCount, topics, statusFilter } = state;
 
   useEffect(() => {
     const loadQuizQuestions = async () => {
-      setLoading(true);
-
-      // Check for saved session FIRST
-      const savedSession = getCurrentSession();
-      if (savedSession && !location.state?.forceNew) {
-        // If we have a saved session, ask user or auto-resume?
-        // For now, auto-resume if it matches the "intent" or if we are just reloading (no specific state)
-        // If user navigated from menu (has location.state), we might want to start fresh?
-        // BUT user asked for "minimize and open again", which usually reloads the page.
-        // In that case, location.state might be lost or empty.
-
-        if (!location.state || (location.state.type === savedSession.type)) {
-          console.log("Resuming saved session");
-          setQuestions(savedSession.questions);
-          setCurrentIndex(savedSession.currentIndex);
-          setScore(savedSession.score);
-          setMistakes(savedSession.mistakes);
-          setSessionAttempts(savedSession.sessionAttempts);
-          setTimeLimit(savedSession.timeLimit);
-          setLoading(false);
-          return;
-        }
-      }
+      // Load user progress
+      setAttempts(getAttempts());
+      setBookmarks(getBookmarks());
 
       let loadedQuestions: Question[] = [];
 
-      // 1. Review Mode
-      if (mode === 'review' && reviewQuestions) {
-        loadedQuestions = reviewQuestions;
-      }
-      // 2. Single Question Mode (from Search)
-      else if (questionId) {
-        const all = await getAllQuestions();
-        const q = all.find(q => q.id === questionId);
-        if (q) loadedQuestions = [q];
-      }
-      // 3. AI Generated Quiz
-      else if (type === 'ai_generated' && aiConfig) {
-        try {
-          setLoadingMessage('Initializing AI...');
-          loadedQuestions = await generateQuiz(
-            aiConfig.block,
-            aiConfig.type,
-            aiConfig.topic,
-            aiConfig.count,
-            (msg) => setLoadingMessage(msg)
-          );
+      if (type === 'subject') {
+        loadedQuestions = await getQuestionsBySubject(subject);
 
-          if (aiConfig.timed) {
-            setTimeLimit(aiConfig.timeLimit);
-          }
-
-        } catch (err: any) {
-          if (err.message === 'API_KEY_MISSING') {
-            setError('API_KEY_MISSING');
-            setLoading(false);
-            return;
-          }
-          console.error("AI Quiz Error:", err);
-          // Fallback?
-        }
-      }
-      // 4. Preproff Mode
-      else if (type === 'preproff' && block) {
-        setLoadingMessage(`Loading ${block} questions...`);
-        const { college, year } = location.state;
-        loadedQuestions = await dbService.getPreproffQuestions(block, college, year);
-
-        // Apply Filters
-        if (filter === 'incorrect') {
-          const attempts = getPreproffAttempts();
-          loadedQuestions = loadedQuestions.filter(q => {
-            const qAttempts = attempts[q.id];
-            // Check if the LAST attempt was incorrect
-            return qAttempts && qAttempts.length > 0 && !qAttempts[qAttempts.length - 1].isCorrect;
-          });
-        } else if (filter === 'favorites') {
-          const bookmarks = getPreproffBookmarks();
-          loadedQuestions = loadedQuestions.filter(q => bookmarks.includes(q.id));
-        }
-
-      }
-      // 5. Standard Practice Mode
-      else if (subject) {
-        const subjectQuestions = await getQuestionsBySubject(subject);
-        let filtered = subjectQuestions;
-
+        // Filter by topics
         if (topics && topics.length > 0) {
-          filtered = filtered.filter(q => q.tags.some(t => topics.includes(t)));
+          loadedQuestions = loadedQuestions.filter(q =>
+            q.tags.some(t => topics.includes(t))
+          );
         }
 
-        // Randomize and slice
-        loadedQuestions = filtered
-          .sort(() => 0.5 - Math.random())
-          .slice(0, questionCount || 10);
-      }
-      // 6. Fallback (shouldn't happen often)
-      else {
-        // Maybe load all?
-      }
+        // Filter by Status (Redundant if filtered in Setup, but good for safety)
+        if (statusFilter && statusFilter !== 'all') {
+          const currentAttempts = getAttempts();
+          const currentBookmarks = getBookmarks();
 
-      // Load initial state for these questions
-      if (loadedQuestions.length > 0) {
-        if (type === 'ai_generated') {
-          setAttempts(getAIAttempts());
-          setBookmarks(getAIBookmarks());
-        } else if (type === 'preproff') {
-          setAttempts(getPreproffAttempts());
-          setBookmarks(getPreproffBookmarks());
-        } else {
-          setAttempts(getAttempts());
-          setBookmarks(getBookmarks());
-        }
-      }
+          loadedQuestions = loadedQuestions.filter(q => {
+            const isSolved = currentAttempts[q.id]?.some(a => a.isCorrect);
+            const isBookmarked = currentBookmarks.includes(q.id);
 
-      // If AI failed to generate questions (empty array), try fallback
-      if (type === 'ai_generated' && loadedQuestions.length === 0 && !error) {
-        // Retry once or show error?
-        // For now, let's show error if it's truly empty
-        if (!loadingMessage.includes('Generating')) {
-          // It finished but empty
+            if (statusFilter === 'solved') return isSolved;
+            if (statusFilter === 'unsolved') return !isSolved;
+            if (statusFilter === 'bookmarked') return isBookmarked;
+            return true;
+          });
         }
-      }
 
-      // Special handling for Custom AI Quiz if it returns empty (simulated delay/error)
-      if (type === 'ai_generated' && loadedQuestions.length === 0 && !error) {
-        // If we are here, generateQuiz returned []
-        // We might want to try again or check if it was a "Custom" request that failed
-        if (aiConfig?.type === 'custom') {
-          // Try one more time with a simpler prompt?
-          // Or just notify user
-          try {
-            console.log('Retrying custom quiz generation...');
-            loadedQuestions = await generateQuiz(aiConfig.block, 'custom', aiConfig.topic, aiConfig.count);
-          } catch (err: any) {
-            if (err.message === 'API_KEY_MISSING') {
-              setError('API_KEY_MISSING');
-              setLoading(false);
-              return;
-            }
-            console.error("Quiz Generation Error:", err);
-            // Fallback or show generic error
-          }
+        // Shuffle
+        loadedQuestions = [...loadedQuestions].sort(() => Math.random() - 0.5);
+        // Limit count
+        if (questionCount) {
+          loadedQuestions = loadedQuestions.slice(0, questionCount);
+        } else if (loadedQuestions.length > 10) {
+          loadedQuestions = loadedQuestions.slice(0, 10);
         }
+      } else if (type === 'custom_list') {
+        loadedQuestions = state.questions || [];
+      } else if (type === 'single') {
+        const all = await getAllQuestions();
+        loadedQuestions = all.filter(q => q.id === questionId);
       }
 
       setQuestions(loadedQuestions);
@@ -826,76 +722,40 @@ const QuizSession = () => {
     };
 
     loadQuizQuestions();
-    // Removed duplicate call
-  }, [type, subject, questionId, questionCount, topics, statusFilter, block, aiConfig, filter]);
+  }, [type, subject, questionId, questionCount, topics, statusFilter]);
 
   const handleAnswer = (index: number, isCorrect: boolean) => {
-    if (isCorrect) {
-      setScore(s => s + 1);
-      hapticsService.notification(NotificationType.Success);
-    } else {
-      hapticsService.notification(NotificationType.Error);
-    }
-    const currentQuestion = questions[currentIndex];
-    if (!currentQuestion) return;
-
-    if (!isCorrect) {
+    if (isCorrect) setScore(s => s + 1);
+    else {
       setMistakes(prev => [...prev, {
-        question: currentQuestion.text,
-        selected: currentQuestion.options[index],
-        correct: currentQuestion.options[currentQuestion.correctIndex]
+        question: questions[currentIndex].text,
+        selected: questions[currentIndex].options[index],
+        correct: questions[currentIndex].options[questions[currentIndex].correctIndex]
       }]);
     }
 
-    // Save Attempt
     const attempt: Attempt = {
-      questionId: currentQuestion.id,
+      questionId: questions[currentIndex].id,
       selectedOptionIndex: index,
       isCorrect,
       timestamp: Date.now(),
-      timeSpentSeconds: 0 // TODO: Track time per question
+      timeSpentSeconds: 0
     };
 
-    if (type === 'ai_generated') {
-      saveAIAttempt(attempt);
-      // Update local state for immediate feedback
-      setAttempts(prev => ({
-        ...prev,
-        [currentQuestion.id]: [...(prev[currentQuestion.id] || []), attempt]
-      }));
-    } else if (type === 'preproff') { // Handle preproff attempts
-      savePreproffAttempt(attempt);
-      setAttempts(prev => ({
-        ...prev,
-        [currentQuestion.id]: [...(prev[currentQuestion.id] || []), attempt]
-      }));
-    } else {
-      saveAttempt(attempt);
-      setAttempts(prev => ({
-        ...prev,
-        [currentQuestion.id]: [...(prev[currentQuestion.id] || []), attempt]
-      }));
-    }
+    saveAttempt(attempt);
 
-    // Update session attempts for navigation persistence
-    setSessionAttempts(prev => ({
-      ...prev,
-      [attempt.questionId]: attempt
-    }));
+    // Update local attempts state immediately to reflect changes
+    setAttempts(prev => {
+      const newAttempts = { ...prev };
+      if (!newAttempts[attempt.questionId]) newAttempts[attempt.questionId] = [];
+      newAttempts[attempt.questionId].push(attempt);
+      return newAttempts;
+    });
   };
 
-  const toggleQuestionBookmark = () => {
-    if (!questions[currentIndex]) return;
-    const qId = questions[currentIndex].id;
-
-    let newBookmarks: string[];
-    if (type === 'ai_generated') {
-      newBookmarks = toggleAIBookmark(qId);
-    } else if (type === 'preproff') { // Handle preproff bookmarks
-      newBookmarks = togglePreproffBookmark(qId);
-    } else {
-      newBookmarks = toggleBookmark(qId);
-    }
+  const handleToggleBookmark = () => {
+    const currentQ = questions[currentIndex];
+    const newBookmarks = toggleBookmark(currentQ.id);
     setBookmarks(newBookmarks);
   };
 
@@ -907,79 +767,11 @@ const QuizSession = () => {
     }
   };
 
-  const handlePrevious = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(prev => prev - 1);
-    }
-  };
-
   const handleTimeUp = () => {
     setIsFinished(true);
   };
 
-  const handleGenerateNotes = async (title: string, mode: 'concise' | 'detailed') => {
-    setShowNotesModal(false);
-    setIsGeneratingNotes(true);
-
-    // Pass mode and title to service
-    const notes = await generateStudyNotes(questions, mode, title);
-
-    if (notes && !notes.startsWith('Failed')) {
-      notesService.saveNote({
-        id: Date.now().toString(),
-        title: title,
-        content: notes,
-        date: new Date().toISOString(),
-        tags: [subject || 'General', mode], // Add mode as tag
-        relatedQuestions: questions.map(q => q.id)
-      });
-      alert('Notes generated and saved successfully!');
-    } else {
-      alert('Failed to generate notes. Please try again.');
-    }
-    setIsGeneratingNotes(false);
-  };
-
-  if (loading) return (
-    <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center space-y-6">
-      <div className="relative">
-        <div className="w-20 h-20 border-4 border-medical-100 border-t-medical-600 rounded-full animate-spin"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Sparkles size={24} className="text-medical-600 animate-pulse" />
-        </div>
-      </div>
-      <div className="max-w-md space-y-2">
-        <h2 className="text-xl font-bold text-gray-900 animate-pulse">
-          {loadingMessage}
-        </h2>
-        {type === 'ai_generated' && aiConfig?.type === 'full' && (
-          <p className="text-sm text-gray-500">
-            Please be patient. We are crafting a comprehensive exam based on the official syllabus.
-          </p>
-        )}
-      </div>
-    </div>
-  );
-
-  if (error === 'API_KEY_MISSING') return (
-    <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center space-y-6">
-      <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center text-red-600">
-        <Settings size={32} />
-      </div>
-      <div className="max-w-md space-y-2">
-        <h2 className="text-xl font-bold text-gray-900">API Key Missing</h2>
-        <p className="text-gray-500">
-          To generate AI questions, you need to configure your Gemini API Key in Settings.
-        </p>
-      </div>
-      <button
-        onClick={() => navigate('/settings')}
-        className="bg-medical-600 text-white px-6 py-3 rounded-xl font-bold shadow-lg shadow-medical-500/20 hover:bg-medical-700 transition-colors"
-      >
-        Go to Settings
-      </button>
-    </div>
-  );
+  if (loading) return <div className="p-8 text-center">Loading Quiz...</div>;
 
   if (questions.length === 0) return (
     <div className="p-8 text-center">
@@ -1003,33 +795,7 @@ const QuizSession = () => {
         </div>
         <div className="w-full max-w-md space-y-4">
           {/* AI Analysis Section */}
-          <div className="w-full">
-            <button
-              onClick={() => setShowNotesModal(true)}
-              disabled={isGeneratingNotes}
-              className="w-full bg-indigo-600 text-white px-4 py-3 rounded-xl font-bold shadow-lg shadow-indigo-500/20 hover:bg-indigo-700 disabled:opacity-50 flex items-center justify-center gap-2"
-            >
-              {isGeneratingNotes ? (
-                <>
-                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  Generating Notes...
-                </>
-              ) : (
-                <>
-                  <Sparkles size={20} />
-                  Generate AI Study Notes
-                </>
-              )}
-            </button>
-          </div>
         </div>
-
-        <NoteGenerationModal
-          isOpen={showNotesModal}
-          onClose={() => setShowNotesModal(false)}
-          onGenerate={handleGenerateNotes}
-          defaultTitle={`Study Notes: ${subject || 'Session'}`}
-        />
 
         <div className="grid grid-cols-2 gap-3">
           <button
@@ -1072,40 +838,13 @@ const QuizSession = () => {
 
       <QuizCard
         question={questions[currentIndex]}
-        currentQuestionIndex={currentIndex}
-        totalQuestions={questions.length}
         onAnswer={handleAnswer}
         onNext={handleNext}
-        onPrevious={handlePrevious}
-        isLastQuestion={currentIndex === questions.length - 1}
-        attempts={sessionAttempts[questions[currentIndex].id] ? [sessionAttempts[questions[currentIndex].id]] : []}
-        isBookmarked={bookmarks.includes(questions[currentIndex].id)}
-        onToggleBookmark={toggleQuestionBookmark}
+        isLast={currentIndex === questions.length - 1}
+        isSolved={attempts[questions[currentIndex].id]?.some(a => a.isCorrect)}
       />
     </div>
   );
-};
-
-// BackButtonHandler Component
-const BackButtonHandler = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-
-  useEffect(() => {
-    CapacitorApp.addListener('backButton', ({ canGoBack }) => {
-      if (location.pathname === '/' || location.pathname === '/login') {
-        CapacitorApp.exitApp();
-      } else {
-        navigate(-1);
-      }
-    });
-
-    return () => {
-      CapacitorApp.removeAllListeners();
-    };
-  }, [navigate, location]);
-
-  return null;
 };
 
 const App: React.FC = () => {
@@ -1155,120 +894,72 @@ const App: React.FC = () => {
   }
 
   return (
-    <ThemeProvider>
-      <VersionManager />
-      <Router>
-        <AuthProvider>
-          <AuthWrapper>
-            <div className="min-h-screen bg-gray-50 text-gray-900 font-sans transition-colors duration-300">
-              <Header />
+    <Router>
+      <AuthProvider>
+        <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
+          <Header />
 
-              <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-                <Routes>
-                  <Route path="/login" element={<Login />} />
-                  <Route path="/" element={
-                    <ProtectedRoute>
-                      <Home />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/subjects" element={
-                    <ProtectedRoute>
-                      <SubjectsPage />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/selection" element={<ProtectedRoute><SelectionPage /></ProtectedRoute>} />
-                  <Route path="/preproff-blocks" element={<ProtectedRoute><PreproffBlocksPage /></ProtectedRoute>} />
-                  <Route path="/preproff-colleges" element={<ProtectedRoute><PreproffCollegesPage /></ProtectedRoute>} />
-                  <Route path="/preproff-years" element={<ProtectedRoute><PreproffYearsPage /></ProtectedRoute>} />
-                  <Route path="/ai-questions" element={<ProtectedRoute><AIBlockPage /></ProtectedRoute>} />
-                  <Route path="/setup" element={
-                    <ProtectedRoute>
-                      <QuizSetup />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/quiz" element={
-                    <ProtectedRoute>
-                      <QuizSession />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/review" element={
-                    <ProtectedRoute>
-                      <ReviewPage />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/analytics" element={
-                    <ProtectedRoute>
-                      <Dashboard />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/search" element={
-                    <ProtectedRoute>
-                      <QuestionsBrowser />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/question/:id" element={
-                    <ProtectedRoute>
-                      <QuestionViewer />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/settings" element={
-                    <ProtectedRoute>
-                      <SettingsPage />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/notes" element={
-                    <ProtectedRoute>
-                      <NotesPage />
-                    </ProtectedRoute>
-                  } />
+          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <Routes>
+              <Route path="/login" element={<Login />} />
+              <Route path="/" element={
+                <ProtectedRoute>
+                  <Home />
+                </ProtectedRoute>
+              } />
+              <Route path="/subjects" element={
+                <ProtectedRoute>
+                  <SubjectsPage />
+                </ProtectedRoute>
+              } />
+              <Route path="/setup" element={
+                <ProtectedRoute>
+                  <QuizSetup />
+                </ProtectedRoute>
+              } />
+              <Route path="/quiz" element={
+                <ProtectedRoute>
+                  <QuizSession />
+                </ProtectedRoute>
+              } />
+              <Route path="/review" element={
+                <ProtectedRoute>
+                  <ReviewPage />
+                </ProtectedRoute>
+              } />
+              <Route path="/questions" element={
+                <ProtectedRoute>
+                  <QuestionsBrowser />
+                </ProtectedRoute>
+              } />
+              <Route path="/questions/view" element={
+                <ProtectedRoute>
+                  <QuestionViewer />
+                </ProtectedRoute>
+              } />
+              <Route path="/analytics" element={
+                <ProtectedRoute>
+                  <Dashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/search" element={
+                <ProtectedRoute>
+                  <SearchPage />
+                </ProtectedRoute>
+              } />
+              <Route path="/settings" element={
+                <ProtectedRoute>
+                  <SettingsPage />
+                </ProtectedRoute>
+              } />
+            </Routes>
+          </main>
 
-                </Routes>
-              </main>
-
-              <BottomNav />
-            </div>
-            <BackButtonHandler />
-          </AuthWrapper>
-        </AuthProvider>
-      </Router>
-    </ThemeProvider>
-  );
-};
-
-// Wrapper to handle connection error inside AuthProvider context
-const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { connectionError } = useAuth();
-
-  if (connectionError) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-        <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full text-center animate-fade-in">
-          <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <div className="relative">
-              <Users size={40} className="text-red-500 opacity-50" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-12 h-1 bg-red-600 rotate-45 rounded-full absolute" />
-              </div>
-            </div>
-          </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">No Internet Connection</h2>
-          <p className="text-gray-500 mb-8">
-            This app requires an active internet connection to verify your license and sync your progress.
-            <br /><br />
-            Please check your Wi-Fi or mobile data and try again.
-          </p>
-          <button
-            onClick={() => window.location.reload()}
-            className="w-full bg-medical-600 text-white py-3 rounded-xl font-bold shadow-lg shadow-medical-500/20 hover:bg-medical-700 transition-all active:scale-95"
-          >
-            Retry Connection
-          </button>
+          <BottomNav />
         </div>
-      </div>
-    );
-  }
-
-  return <>{children}</>;
+      </AuthProvider>
+    </Router>
+  );
 };
 
 export default App;
