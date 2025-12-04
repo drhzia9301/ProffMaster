@@ -1342,6 +1342,11 @@ const App: React.FC = () => {
                       <QuestionViewer />
                     </ProtectedRoute>
                   } />
+                  <Route path="/questions/view" element={
+                    <ProtectedRoute>
+                      <QuestionViewer />
+                    </ProtectedRoute>
+                  } />
                   <Route path="/settings" element={
                     <ProtectedRoute>
                       <SettingsPage />
