@@ -249,14 +249,18 @@ export class DatabaseService {
     private parseSqlInserts(sqlText: string): any[] {
         const questions: any[] = [];
         
-        // Match INSERT statements
-        // Format: INSERT INTO preproff (text, options, correct_index, explanation, subject, topic, difficulty, block, college, year) VALUES ('...', '...', ...);
-        const insertRegex = /INSERT INTO preproff[^(]*\([^)]+\)\s*VALUES\s*\(([^;]+)\);/gi;
+        // Match INSERT statements - handle both with and without semicolons
+        // Format: INSERT INTO preproff (text, options, correct_index, explanation, subject, topic, difficulty, block, college, year) VALUES ('...', '...', ...)
+        // Split by INSERT INTO to handle concatenated statements
+        const statements = sqlText.split(/(?=INSERT INTO preproff)/gi).filter(s => s.trim());
         
-        let match;
-        while ((match = insertRegex.exec(sqlText)) !== null) {
+        for (const statement of statements) {
             try {
-                const valuesStr = match[1];
+                // Extract VALUES portion
+                const valuesMatch = statement.match(/VALUES\s*\((.+)\)\s*;?\s*$/is);
+                if (!valuesMatch) continue;
+                
+                const valuesStr = valuesMatch[1];
                 
                 // Parse the values - handle escaped quotes
                 const values: string[] = [];

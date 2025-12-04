@@ -1,0 +1,1738 @@
+
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A patient with a previously undiagnosed thyroid cancer presents with thyrotoxicosis (thyroid storm). One drug that is administered as part of early management, and may be lifesaving, is propranolol. Which of the following best summarizes why we give this drug, or what we want it to do?",
+    "options": [
+      "a. Block parenchymal cell receptors for thyroid hormones",
+      "b. Block thyroid hormone release by a direct effect on the gland",
+      "c. Inhibit thyroid hormone synthesis",
+      "d. Lessen dangerous cardiovascular signs and symptoms of thyroid hormone excess",
+      "e. Lower TSH levels"
+    ],
+    "answer": "d",
+    "explanation": "Propranolol is a non-selective beta-blocker used in thyroid storm primarily to control the life-threatening cardiovascular manifestations (tachycardia, arrhythmias) caused by the increased adrenergic tone. While it also blocks the peripheral conversion of T4 to T3, its immediate lifesaving role is cardiovascular stabilization."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 70-year-old man with a history of Schistosoma haematobium infection presents with hematuria. CT scan shows an infiltrative mass involving the bladder wall. Histology reveals keratin pearls and intercellular bridges. Which of the following is the most likely diagnosis?",
+    "options": [
+      "a. Urothelial carcinoma",
+      "b. Adenocarcinoma of bladder",
+      "c. Squamous cell carcinoma of bladder",
+      "d. Small cell carcinoma",
+      "e. Sarcomatoid carcinoma"
+    ],
+    "answer": "c",
+    "explanation": "Schistosoma haematobium infection is a classic risk factor for Squamous Cell Carcinoma (SCC) of the bladder. The histological findings of keratin pearls and intercellular bridges are pathognomonic for squamous cell carcinoma."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 24 year old obese woman in her 26th week of pregnancy was diagnosed with gestational diabetes mellitus after a positive glucose tolerance test. She was otherwise healthy, and her past medical history was unremarkable. Dietary management failed to control the blood glucose, and her physician decided to prescribe antidiabetic therapy. Which of the following drugs would be most appropriate for the patient at this time?",
+    "options": [
+      "a. Glyburide",
+      "b. Insulin",
+      "c. Metformin",
+      "d. Repaglinide",
+      "e. Sitagliptin"
+    ],
+    "answer": "b",
+    "explanation": "Insulin is the gold standard first-line pharmacologic therapy for Gestational Diabetes Mellitus (GDM) when medical nutrition therapy fails. It does not cross the placenta to a significant degree and allows for tight glucose control."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "27 yrs old nulligravida married fr 4 yrs with bmi of 34 kg/ m2 presents with history of subfertality .she explains that she gets her periods every 3/ 4 month with scanty flow on examination she has acne and excessive hair growth over her face ..her ultrsound showes multiple pheripheraly arranged small cystic structures...what could be the cause of her this condition..",
+    "options": [
+      "a. Idiopsthic hairsutisim",
+      "b. Cushing syndrome",
+      "c. Polycystic ovarian syndrome",
+      "d. Secondry Ammenorhea",
+      "e. Acne vulgaris"
+    ],
+    "answer": "c",
+    "explanation": "The patient meets the Rotterdam criteria for Polycystic Ovarian Syndrome (PCOS): Oligo/anovulation (infrequent periods), clinical signs of hyperandrogenism (acne, hirsutism), and polycystic ovaries on ultrasound. Obesity is also a common associated finding."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 38 years old lady married for 5 years visit to opd for conception past significant medical and surgical history,non smoker,female partner FSH 6.5 ,LH 5,scan shows dominant follicle in right ovary ,normal left ovary .MaIe partner sperm count 2 million /ml,motility 10 percent with low progression , morphology 85 percent abnormality.what method of treatment will you prescribe ?",
+    "options": [
+      "a. Intra cytoplasmic sperm injection",
+      "b. Ovulation induction",
+      "c. Wait and see",
+      "d. IUI / Injectables"
+    ],
+    "answer": "a",
+    "explanation": "The male partner has severe oligo-astheno-teratozoospermia (OATS) with a very low sperm count (2 million/ml). For severe male factor infertility, Intracytoplasmic Sperm Injection (ICSI) is the treatment of choice, as natural conception or IUI has a very low success rate."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A woman 32 years old presented to gynaecologist for infrequent cycles since menarche.She is married since 3 months and want conception.Her BMI is 29.Her husband will be leaving in 2 months for abroad and she want to conceive. The best option for her is",
+    "options": [
+      "a. folic acid",
+      "b. injectable ovulatory drugs",
+      "c. oral ovulatory drugs",
+      "d. Progesterone"
+    ],
+    "answer": "c",
+    "explanation": "The patient has infrequent cycles (likely anovulation) and a very short timeframe to conceive. Ovulation induction is required. Oral ovulatory drugs (like Clomiphene Citrate or Letrozole) are the standard first-line treatment for WHO Type 2 anovulation (often PCOS-related) to induce ovulation promptly."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 62 year old male presents with urinary retention and perirectal pain. He has had recent low grade fever ,urinary urgency, and increasing difficulty voiding until he was unable to void at all this morning. Digital rectal exam reveals a swollen,boggy prostate that is tender on examination. what is the likely diagnosis?",
+    "options": [
+      "a. Benign prostatic hyperplasia(BPH)",
+      "b. Urinary tract infection",
+      "c. Bacterial prostatitis",
+      "d. Prostatic abscess",
+      "e. Acute renal injury"
+    ],
+    "answer": "c",
+    "explanation": "The clinical triad of fever, pelvic/perineal pain, and urinary retention, combined with the finding of a tender, boggy prostate on DRE, is classic for Acute Bacterial Prostatitis. BPH is typically non-tender."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 22-year-old woman with type-I diabetes was brought unconscious to the emergency department. Her blood glucose level was 395 mg/dL(normal 70-110 mg/dL). An intravenous infusion of insulin was started, and 6 hours later the patient's blood glucose decreased to a normal level. Which of the following molecular actions most likely contributed to the therapeutic effect of the drug in the patient's disorder?",
+    "options": [
+      "a. Activation of adenosine triphosphate (ATP) -sensitive K+ channels in target cells",
+      "b. Inhibition of glucose transporters in pancreas cell membranes",
+      "c. Inhibition of liver glucokinase",
+      "d. Phosphorylation of a tyrosine kinase-linked receptor",
+      "e. Stimulation of hormone-sensitive lipase"
+    ],
+    "answer": "d",
+    "explanation": "Insulin acts by binding to the insulin receptor, which is a tyrosine kinase receptor. Upon binding, the receptor undergoes autophosphorylation, initiating a signaling cascade (PI3K/Akt pathway) that leads to the translocation of GLUT4 transporters to the cell membrane in muscle and adipose tissue, promoting glucose uptake."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 60-year-old lady with a history of breast lump now diagnosed with liver metastasis. Trucut biopsy of breast shows invasive ductal carcinoma. What should be the management plan for this patient?",
+    "options": [
+      "a. Curative breast surgery",
+      "b. Palliative/ symptomatic treatment",
+      "c. Regular surveillance for other metastasis",
+      "d. Resection of liver metastasis",
+      "e. Hormonal therapy"
+    ],
+    "answer": "b",
+    "explanation": "The patient has Stage IV breast cancer (distant metastasis to the liver). The primary goal of treatment in metastatic disease is palliative/systemic control to prolong life and maintain quality of life, rather than curative surgery."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#10 A 26 years old patient with 35BMl presented to gynae opd with complaining of left flank pain,fever temp 39.9C ,chills since 3 days.She is having chronic history of recurrent urinary tract infection in present and previous pregnancies .On examination she is pale looking her HB on investigation 8.8mg/dl.what is your diagnosis?",
+    "options": [
+      "a. Chronic kidney disease",
+      "b. Pyelonephritis",
+      "c. Cystitis",
+      "d. Asymptomatic bacteriuria",
+      "e. Acute urinary tract infection"
+    ],
+    "answer": "b",
+    "explanation": "The presence of high grade fever (39.9C), chills, and flank pain differentiates Acute Pyelonephritis from lower urinary tract infections (Cystitis). The history of recurrent UTIs is a risk factor."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#11 In a rural area, a wastewater treatment plant primarily treats sewage from households. The plant uses natural processes to break down organic materials. What type of water pollution is primarily being addressed here?",
+    "options": [
+      "a. Complex Nondegradable",
+      "b. Simple Biodegradable",
+      "c. Simple Nondegradable",
+      "d. Complex biodegradable",
+      "e. Compound biodegradable"
+    ],
+    "answer": "b",
+    "explanation": "Household sewage consists mainly of organic matter and nutrients which can be broken down by bacteria and other natural processes. This is classified as simple biodegradable pollution."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#12 A 28 year old female presents to the medical OPD during the 2nd trimester of her pregnancy with burning micturition. On investigations she is found to have urinary tract infection. Which of the following would be most likely prescribed to this patient?",
+    "options": [
+      "a. Amoxicillin",
+      "b. Aztreonam",
+      "c. Benzyl Penicillin",
+      "d. Ciprofloxacin",
+      "e. Doxycycline"
+    ],
+    "answer": "a",
+    "explanation": "Amoxicillin (and other beta-lactams like cephalosporins) are considered safe for treating UTIs in pregnancy. Doxycycline (tetracycline) is contraindicated due to effects on fetal bone/teeth. Ciprofloxacin (fluoroquinolone) is generally avoided due to potential cartilage toxicity."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#13 The three delays model proposes that pregnancy related mortality is overwhelming due to various reasons of delay in seeking appropriate medical intervention for an obstetric emergency. Which of the following is the most common cause of maternal death in developing nations",
+    "options": [
+      "a. Getting adequate nutrition",
+      "b. Receiving health education",
+      "c. Getting appropriate transport",
+      "d. Getting adequate food supplements",
+      "e. Receiving adequate & timely health care at health facility"
+    ],
+    "answer": "e",
+    "explanation": "Based on the Three Delays Model, Delay 3 (receiving adequate and appropriate care once at the facility) is a critical determinant of survival, alongside delays in seeking care and transport. The option effectively describes the failure of the health system to provide timely care."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#14 A 16 years Old, male patient presented With periorbital puffiness, pedal edema and generalized body swelling. on examination he was found out to have marked edema and pleural effusion. his urine analysis showed ++++ albumin. What does it specify?",
+    "options": [
+      "a. Acute interstitial nephritis",
+      "b. Nephritic syndrome",
+      "c. Nephrotic syndrome",
+      "d. Acute tubular necrosis",
+      "e. acute kidney injury"
+    ],
+    "answer": "c",
+    "explanation": "The clinical picture of generalized edema (anasarca), pleural effusion, and massive proteinuria (++++) is the hallmark of Nephrotic Syndrome. Nephritic syndrome typically involves hematuria and hypertension."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#15 . A 75-year-old woman being investigated for recurrent urinary tract infections has a stag horn calculus on CT. Urine culture report shows growth of Proteus. What is the most likely stone composition?",
+    "options": [
+      "a. Struvite/Triple phosphate",
+      "b. Uric acid",
+      "c. Calcium Oxalate",
+      "d. Cystiene",
+      "e. None of the above"
+    ],
+    "answer": "a",
+    "explanation": "Proteus species are urease-producing bacteria. Urease splits urea into ammonia, alkalinizing the urine and precipitating magnesium ammonium phosphate (Struvite) stones, which often form staghorn calculi."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A woman 62 years old presented to gynae Outpatient department with the complaint of post menopausal spotting.She has BMI of 37 and has only two daughters.Her ultrasound report shows endometrial thickness of 8 mm.Uterus is bulky and adenexa is normal.The next step to confirm her diagnosis is",
+    "options": [
+      "a. CT abdomen",
+      "b. dil station and curretage",
+      "c. hysteriosalpingogram",
+      "d. Hysteroscopic biopsy",
+      "e. MRI pelvis"
+    ],
+    "answer": "d",
+    "explanation": "In a postmenopausal woman with bleeding and thickened endometrium (>4mm), malignancy must be ruled out. Hysteroscopic guided biopsy is the gold standard as it allows visualization of the cavity and targeted biopsy of the lesion, offering higher sensitivity than blind D&C."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#17 A hunter's body is found with multiple small circular wounds over a wide area of the chest, with no burning or tattooing. The pellets are superficially embedded. What type of firearm and range are most likely?",
+    "options": [
+      "a. Shotgun, close range",
+      "b. Shotgun, distant range",
+      "c. Rifle, short range",
+      "d. Pistol, intermediate range",
+      "e. Revolver, near-contact"
+    ],
+    "answer": "b",
+    "explanation": "Multiple small circular wounds (pellets) indicate a shotgun. The absence of burning, tattooing, or soot, and the dispersion of pellets over a wide area, indicates that the shot was fired from a distant range (usually >1-2 meters)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 50 year old male presents to ER with 5 days history of severe diarrhea and vomiting. He has had multiple episodes of watery diarrhea since this morning. He hasnt passed any urine since morning. On examination his pulse is 1201m, BP is 110/80 mmHg, temperature is 100'F, respiratory rate is 201m and pulse oximetry is normal. He is drowsy with no focal signs. On auscultation there are normal breath sounds over chest but cardiac auscultation reveals pericardial rub sound. Abdomen is scaphoid with no tenderness and normal bowel sounds. Investigations show a normal CBC, urea 240, creatinine 8, GFR 15, potassium 7, HC03 8 and severe metabolic acidosis on ABGs. ECG shows tall tented T waves and Echo shows a thin rim of pericardial effusion. You pass a large bore IV cannula, start administering fluid boluses and give potassium lowering therapy. What is the next step in management of this patient?",
+    "options": [
+      "a. Oral vancomycin",
+      "b. Order CT abdomen and pelvis",
+      "c. Arrange dialysis",
+      "d. Lumber puncture",
+      "e. Pericardiocentesis"
+    ],
+    "answer": "c",
+    "explanation": "The patient has severe Acute Kidney Injury (Creatinine 8, Urea 240), severe metabolic acidosis (HCO3 8), and life-threatening hyperkalemia (K+ 7) with ECG changes (Tall T waves). This is an indication for urgent dialysis, as medical management is a temporizing measure and the patient is uremic (drowsy, pericardial rub)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#19 A 31 yrs old G2 pl presents to delivery suiet with history of 6 weeks ammenorhea and sever abdominal paim along with nsuse n vomiting and pv spotting..her bhcg is 7000 iu/ml snd ultrsoud scan shows anbout 5* 5 cm complex mass in left tubr ampulary region with moderate amout of free fluids her bp is 90/60 pulse 100/ min R/R id 32 / min what will n managment plan",
+    "options": [
+      "a. Inj Methotraxate 50 mg/ kg m2",
+      "b. Laproscopic salpingostomy",
+      "c. Laprotomy and salpingectomy",
+      "d. Laproscopic salpingectomy",
+      "e. Total abdominal hysteroctomy"
+    ],
+    "answer": "c",
+    "explanation": "The patient has a ruptured ectopic pregnancy with hemodynamic instability (BP 90/60, Pulse 100, free fluid). Laparotomy is the safest approach for unstable patients to quickly control bleeding. Methotrexate is contraindicated in unstable patients and large masses. Salpingectomy is preferred over salpingostomy in ruptured tubes."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#20 A 28 years old woman complains of regular but heavy menstrual cycles and abdominal discomfort. Her abdominal examination reveals 14 weeks size irregular uterus. Her pap smear is normal. The best next step in her management would be:",
+    "options": [
+      "a. Continued observation.",
+      "b. Endometrial biopsy.",
+      "c. Hysterectomy.",
+      "d. Laparoscopy.",
+      "e. Pelvic ultrasonograpty"
+    ],
+    "answer": "e",
+    "explanation": "The clinical findings of a 14-week irregular uterus with heavy bleeding strongly suggest uterine fibroids. Pelvic ultrasonography is the standard first-line imaging modality to confirm the diagnosis, map the fibroids, and exclude other pathology."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#21 A 37 yrs old nulligravida presents with her 39 yrs old partner with subfertality of 7 yrs..during history the femal partenr complains of sever pain during menstural cycles which is not relievrd by oral painkilles and she has statrd using injectabled paimkillers she also complains of heay flow..she alsi complains of dysmenorhea..on examination retroveted ueryrus with resteicted mobility and tender on examibatiom...ultrasound scam shows bilateral adnexal masses with small fundal intramural fibroid...what could be the cause of her subfertality",
+    "options": [
+      "a. Adenomyosis",
+      "b. Fintoid uterus",
+      "c. Endometriosis",
+      "d. Ovarain masses",
+      "e. Pelvic adhesions"
+    ],
+    "answer": "c",
+    "explanation": "The constellation of severe secondary dysmenorrhea, fixed retroverted uterus, tenderness, and bilateral adnexal masses (likely endometriomas/chocolate cysts) is highly suggestive of Endometriosis."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#22 A25 years teacher had an recent abortion conceived following a burst condom.She tried the combined pill few years ago but kept forgetting to take it.Her past medical history includes migraine and severe premenstrual syndrome and chronic vaginal discharge.Her mother had a deep vein thrombosis history .Best method for contraception?",
+    "options": [
+      "a. Depo provera",
+      "b. Cocp",
+      "c. Copper T",
+      "d. Mirena",
+      "e. Condoms"
+    ],
+    "answer": "c",
+    "explanation": "Copper T (IUCD) is the best option. COCPs are relatively contraindicated due to migraine and family history of DVT. She is forgetful, making daily methods (pills) unreliable. Copper T is non-hormonal, long-acting, and does not carry thromboembolic risks."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#23 A 28 year P3 came to antenatal OPD her LMP was 10 days back ,she is taking Cocp for contraception ,she has missed her yesterday pill ,now she is worried not prepared for further pregnancies ,you advised her to take the most recently delayed pill .You prescribed her extra precautions for how many days?",
+    "options": [
+      "a. 2days",
+      "b. 5days",
+      "c. 6 days",
+      "d. 7 days",
+      "e. 8days"
+    ],
+    "answer": "d",
+    "explanation": "Standard advice for missed pills involves using backup contraception (barrier method) for 7 days, particularly if more than one pill is missed or if the user is unsure. While a single missed pill usually doesn't require backup if taken immediately, '7 days' is the standard duration for 'extra precautions' in contraceptive guidelines."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#24 Counting of respiratory rate is an important step for clinical diagnosis of pneumonia among neonates and children. The cut-off value for fast breathing in children in the age group of 2 months to 12 months is",
+    "options": [
+      "a. 30-34 breaths per minute",
+      "b. 35-39 breaths per minute",
+      "c. 40-44 breaths per minute",
+      "d. 45-49 breaths per minute",
+      "e. >50 breaths per minute"
+    ],
+    "answer": "e",
+    "explanation": "According to IMCI guidelines, fast breathing is defined as: >60/min for <2 months, >50/min for 2-12 months, and >40/min for 12 months to 5 years."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#25 A 45-year-old woman reports a feeling of fullness in her neck, but has no other concerns. The enlargement has been gradual and painless for more than I year. Physical examination confirms diffuse enlargement of the thyroid gland without any apparent masses or lymphadenopathy. Laboratory studies of thyroid function show a normal free T4 level and a slightly increased TSH level. What is the most likely cause of these findings?",
+    "options": [
+      "a. Diffuse nontoxic goiter",
+      "b. Follicular adenoma",
+      "c. Hashimoto thyroiditis",
+      "d. Papillary carcinoma",
+      "e. Subacute granulomatous thyroiditis"
+    ],
+    "answer": "c",
+    "explanation": "Hashimoto thyroiditis is the most common cause of hypothyroidism in iodine-sufficient areas. It typically presents as a diffuse, painless goiter with subclinical (high TSH, normal T4) or overt hypothyroidism."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#26 A 58-year-old man comes to the clinic for evaluation of hematuria. He also reports experiencing intermittent right-sided flank pain and recent unexplained weight loss. On physical examination, a palpable mass is noted in the right flank. He has no fever or dysuria. A CT scan of the abdomen reveals a solid enhancing mass in the upper pole of the right kidney Which of the following is the most likely diagnosis?",
+    "options": [
+      "a. Acute pyelonephritis",
+      "b. Hydronephrosis",
+      "c. Renal cell carcinoma",
+      "d. Transitional cell carcinoma",
+      "e. Ureteral stone"
+    ],
+    "answer": "c",
+    "explanation": "The classic triad of Renal Cell Carcinoma (RCC) is hematuria, flank pain, and a palpable abdominal mass. While the full triad is rare, the combination of these symptoms with weight loss and a solid enhancing renal mass on CT is diagnostic for RCC."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#27 A female of 30 years presented to the medical OPD for a routine checkup during the 2nd trimester of pregnancy. On investigation the patient was noted to have hypernatremia and edema. Which of the following factors most probably lead to the patient's condition?",
+    "options": [
+      "a. Activation of aldosterone",
+      "b. Gestational diabetes",
+      "c. Increased levels of insulin",
+      "d. Ketogenesis",
+      "e. Physiologic volume overload"
+    ],
+    "answer": "a",
+    "explanation": "Pregnancy is characterized by a physiologic hyperaldosteronism, which promotes sodium and water retention (leading to edema). While sodium levels usually remain normal due to water retention, aldosterone is the specific hormonal driver for sodium retention listed."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#28 In a given industry WHO recommends a normal range of noise level (dBA) because long term exposure to noise pollution can cause auditory fatigue and loss of hearing in workers. An expert in ergonomics monitored the 8 hour average sound pressure level in a factory by using a sound level meter . The result was 40 decibels (dBA). What is the most appropriate conclusion drawn from this observation?",
+    "options": [
+      "a. The result is inconclusive",
+      "b. this sound may cause auditory fatigue",
+      "c. The sound level is higher than accepted range",
+      "d. The sound level is within accepted range",
+      "e. There is a risk of permanent loss of hearing"
+    ],
+    "answer": "d",
+    "explanation": "The occupational exposure limit for noise is typically 85 dBA for an 8-hour shift. 40 dBA is a low noise level (comparable to a quiet library or office), well within the safe/accepted range."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#29 A 35-year-old man sustains a deep laceration. After 2 days, the wound becomes red, hot, and painful with purulent discharge. This is an example of:",
+    "options": [
+      "a. Aseptic inflammation",
+      "b. Suppuration",
+      "c. Hemorrhagic inflammation",
+      "d. Fibroblastic proliferation",
+      "e. Serous inflammation"
+    ],
+    "answer": "b",
+    "explanation": "Suppuration refers to the formation of pus (purulent discharge), which is composed of neutrophils, necrotic cells, and edema fluid, typically in response to bacterial infection."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#30 A 65-year-old woman being investigated for recurrent urinary tract infections presented with increase frequency of micturation, dysuria and urgency. Urine culture and sensitivety shows growth of Proteus vulgaris .while CT Scan shows a staghorn calculus on both side of renal pelvis. What is the most likely stone composition?",
+    "options": [
+      "a. Cysteine",
+      "b. Calcium oxalate",
+      "c. stones formed in Hydrogen ion secretion",
+      "d. Struvite",
+      "e. Uric acid"
+    ],
+    "answer": "d",
+    "explanation": "Staghorn calculi associated with Proteus infections are composed of Struvite (Magnesium Ammonium Phosphate). Proteus produces urease, which alkalinizes urine and favors the precipitation of these stones."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#31 A 32 years old lady presented to OPD with the complaint of chronic vaginal discharge.Her pap smear was taken and the result came out to be inadequate cervical cytology.what is the further management of this patient.",
+    "options": [
+      "a. Repeat cervical cytology in 3 months",
+      "b. Repeat cervical cytology in 6 months",
+      "c. Repeat cervical cytology in 1 year",
+      "d. No action needed",
+      "e. Cervical biopsy"
+    ],
+    "answer": "a",
+    "explanation": "If a cervical screening sample is reported as inadequate, the standard management is to repeat the sample after a short interval, typically 3 months, to allow for epithelial regeneration and ensure a valid sample."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#32 a 32 years old patient with body swelling, malar rash, arthalgia, photo-sensitivity and alopecia. she on examination has a malar rash, small joint tenderness, pedal edema. on urine-analysis she has +2 albumin and +3 RBC-casts. the diagnosis of SLE with renal involvement. which of the following is not a hallmark of nephritic syndrome?",
+    "options": [
+      "a. hematuria",
+      "b. hypertension",
+      "c. impaired renal functions",
+      "d. nephrotic-range proteinuria",
+      "e. proteinuria"
+    ],
+    "answer": "d",
+    "explanation": "Nephritic syndrome is characterized by hematuria (RBC casts), hypertension, and mild-to-moderate proteinuria. Nephrotic-range proteinuria (>3.5g/day) is the defining hallmark of Nephrotic syndrome, not Nephritic syndrome."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#33 A 35-year-old woman with a 5-year history of type 2 diabetes mellitus presents for a routine follow- up. She reports feeling well and has no complaints. Her HbA1c is 7.4%, and she has no known diabetic complications. Spot urine test for albumin creatinine ratio shows microalbuminuria (albumin excretion of 50 mg/g creatinine). Serum creatinine and electrolytes are within normal limits. What is next best step in her management",
+    "options": [
+      "a. Begin corticosteroids",
+      "b. Check for Bence Jones proteins",
+      "c. Start ACE inhibitor therapy",
+      "d. Stop metformin",
+      "e. Urgent renal biopsy"
+    ],
+    "answer": "c",
+    "explanation": "The presence of microalbuminuria in a diabetic patient is an early sign of diabetic nephropathy. Treatment with an ACE inhibitor (or ARB) is indicated to reduce intraglomerular pressure and slow the progression of renal disease, even if blood pressure is normal."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#34 A 29-year-old woman who has never been pregnant presents after 2 years of inability to conceive. She has a history of asthma, frequent urinary tract infections and an appendectomy for a ruptured appendix. Her cycles are regular every 30 days. Her husband has two children from first wife. What is the most likely cause of their infertility?",
+    "options": [
+      "a. Anovulation",
+      "b. Endometriosis",
+      "c. Fallopian tubal occlusion",
+      "d. Fibroid uterus",
+      "e. Male factor infertility"
+    ],
+    "answer": "c",
+    "explanation": "The patient has a history of a ruptured appendix. This can lead to pelvic peritonitis and the formation of adhesions, which can cause tubal blockage (tubal factor infertility). Her regular cycles suggest ovulation is occurring."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#35 A woman 47 years old ,para 5,complains of hot flashes.She has undergone total abdominal hystrectomy and bilateral salpingo ophrectomy .She want treatment for this symptoms.The best option for her is",
+    "options": [
+      "a. serotonin",
+      "b. solifenacin",
+      "c. oxybutinin",
+      "d. terbutaline",
+      "e. tibolone"
+    ],
+    "answer": "e",
+    "explanation": "Tibolone is a synthetic steroid with estrogenic, progestogenic, and weak androgenic activity. It is used for the treatment of vasomotor symptoms (hot flashes) in postmenopausal women, particularly those who have had surgical menopause."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#36 A man was found dead in his home with a gunshot wound on the right temple, burning around the wound, and soot deposition inside the wound track. The weapon was found in his right hand. What does this suggest?",
+    "options": [
+      "a. Homicidal firearm injury",
+      "b. Accidental discharge",
+      "c. Suicidal firearm injury",
+      "d. Ricochet injury",
+      "e. Distant firing"
+    ],
+    "answer": "c",
+    "explanation": "The location of the wound (temple), the evidence of a contact/close-range shot (burning, soot inside track), and the weapon being found in the deceased's hand (suggesting cadaveric spasm) are characteristic features of a suicidal firearm injury."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#37 A woman 32 years old comes to the OPD with the complaints of frequent heavy menstrual cycle.She is PARA 2 and her last baby is 3 years old.She has this problem 4 years ago which resolved spontaneously. You examine her with speculum and find some growth protruding from the cervix with an average size of I cm diameter. The probable cause of this bleeding is",
+    "options": [
+      "a. cervical cancer",
+      "b. endometrial cancer",
+      "c. cervical erosion",
+      "d. nabothian follicle",
+      "e. polp"
+    ],
+    "answer": "e",
+    "explanation": "A growth protruding from the cervix is most likely a cervical polyp (endocervical polyp). These are common benign growths that can cause intermenstrual or heavy bleeding."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#38 A man dies after a road accident. The autopsy shows a lacerated wound on the scalp with clotted blood adherent to the margins and inflammatory cell infiltration at the edges microscopically. What does this indicate?",
+    "options": [
+      "a. Postmortem wound",
+      "b. Antemortem wound",
+      "c. Postmortem artifact",
+      "d. Putrefactive change",
+      "e. Heat rupture"
+    ],
+    "answer": "b",
+    "explanation": "The presence of clotted blood adherent to margins and, crucially, microscopic evidence of inflammation (infiltration of inflammatory cells) are vital reactions that only occur if the injury was sustained while the person was alive (antemortem)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#39 Which of the following conditions is a known risk factor for developing tubal blockage and subsequent infertility?",
+    "options": [
+      "a. History of previous pelvic inflammatory disease such as chlamydia infection",
+      "b. History of an uncomplicated C-section",
+      "c. Polycystic Ovary Syndrome (PCOS)",
+      "d. Use of hormonal contraception",
+      "e. Uterine fibroids"
+    ],
+    "answer": "a",
+    "explanation": "Pelvic Inflammatory Disease (PID), particularly caused by Chlamydia trachomatis or Neisseria gonorrhoeae, is the leading cause of tubal factor infertility due to scarring, adhesions, and occlusion of the fallopian tubes."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A five year boy presents to you with history of swelling around the eyes that spread to the rest of the body over I week. On examination there is generalized body oedema, vitals including blood pressure are normal, no jaundice and no visceromegaly, Chest clear, CVS Sl, S2, O. Investigations show 3+ proteins, RBCs nil on Urine R/E, serum Albumin 2g/dI, serum cholesterol 350mg/dl, LFTs are normal.What is the most likely diagnosis?",
+    "options": [
+      "a. Acute glomerulonephritis",
+      "b. Nephrotic syndrome",
+      "c. Chronic liver disease",
+      "d. Congestive cardiac failure",
+      "e. Protein energy malnutrition"
+    ],
+    "answer": "b",
+    "explanation": "The classic tetrad of Nephrotic Syndrome includes: 1) Heavy proteinuria (3+), 2) Hypoalbuminemia (2g/dL), 3) Generalized edema, and 4) Hyperlipidemia (Cholesterol 350mg/dL)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#41 A 8-year-boy develops secondary sex characteristics, like pubic hair development and enlargement of the penis. Which of the following morphologic features is most likely to be seen in his adrenal glands",
+    "options": [
+      "a. A nodule in the adrenal medulla",
+      "b. A nodule in the adrenal cortex composed of zona glomerulosa cells",
+      "c. Bilateral adrenal cortical hyperplasia",
+      "d. Bilateral adrenal cortical atrophy",
+      "e. Normal size and architecture"
+    ],
+    "answer": "c",
+    "explanation": "Precocious puberty in an 8-year-old boy can be caused by Congenital Adrenal Hyperplasia (CAH). CAH leads to excess androgen production due to enzyme defects (like 21-hydroxylase deficiency), causing bilateral adrenal cortical hyperplasia driven by high ACTH."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#42 A thyroid ultrasound performed on a 65-year-old euthyroid woman reveals a solitary, 2.5 cm nodule in the right lobe. One year later, she returns with symptoms of hyperthyroidism. TSH is suppressed, and the nodule has grown to 3.5 cm. A technetium-99m pertechnetate scan shows intense radiotracer uptake in the nodule with suppressed uptake in the rest of the gland. What is the most likely histopathological finding on a biopsy of this nodule?",
+    "options": [
+      "a. Dense fibrous bands dividing the gland into lobules",
+      "b. \"Ground-glass\" nuclei and nuclear grooves",
+      "c. \"Orphan Annie\" eye nuclei and psammoma bodies",
+      "d. Uniform follicles lined by cuboidal cells with minimal pleomorphism",
+      "e. Sheets of atypical cells with abundant amyloid in the stroma"
+    ],
+    "answer": "d",
+    "explanation": "The clinical picture is of a Toxic Adenoma (Plummer's disease). Histologically, these are follicular adenomas, characterized by uniform follicles lined by cuboidal cells. The other options correspond to Papillary Carcinoma (b, c), Medullary Carcinoma (e), or Riedel's thyroiditis (a)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#43 A member of EPA Environmental Protection Agency was planning to monitor the air pollution in a cosmopolitan city. The most appropriate indictors for this purpose are:",
+    "options": [
+      "a. Carbon dioxide and carbon monoxide",
+      "b. Hydrocarbon, Ozone & Smoke",
+      "c. Lead Oxide & Ammonia",
+      "d. Poly nuclear Aromatic Hydrocarbon (PAH)",
+      "e. Sulfur dioxide, Nitrogen Dioxide, Ozone, Carbon monoxide and particulate matter"
+    ],
+    "answer": "e",
+    "explanation": "The 'Criteria Air Pollutants' monitored by agencies like the EPA for air quality indices typically include: Sulfur Dioxide (SO2), Nitrogen Dioxide (NO2), Ozone (O3), Carbon Monoxide (CO), and Particulate Matter (PM10 and PM2.5)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#44 A P2 37 years old patient visit to gynae opd with complaining of scanty menses ,hot flushes body aches and she also wants conception,her last baby born is 10 years and she is trying for conception since 7years.On ultrasound uterus is normal ,both tubes and ovaries normal .You advised hormone profile FSH 35 IU /L,LH IOIU/L.TSH is normal range .What is your diagnosis?",
+    "options": [
+      "a. Premature ovarian failure",
+      "b. Polycystic ovarian syndrome",
+      "c. Menopause",
+      "d. Osteoporosis",
+      "e. Hypo gonadotrophic Hypogonadism"
+    ],
+    "answer": "a",
+    "explanation": "The patient is under 40 years old and presents with menopausal symptoms (hot flushes) and elevated FSH (>25-30 IU/L). This confirms the diagnosis of Premature Ovarian Failure (or Primary Ovarian Insufficiency)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#45 A lady 50 year old complaining of right breast painless lump, no history of breast cancer in the family. On examination an irregular shaped lump in the upper outer quadrant of right breast with few axillary lymph nodes. What should be the management plan for this patient?",
+    "options": [
+      "a. Triple assessment",
+      "b. Oncologist review",
+      "c. Excisional biopsy",
+      "d. FNAC",
+      "e. 3 monthly FOLLOW UP"
+    ],
+    "answer": "a",
+    "explanation": "The standard of care for any breast lump is the 'Triple Assessment': 1) Clinical examination, 2) Imaging (Mammography/Ultrasound), and 3) Histopathology (Core biopsy or FNAC). All three are required to establish a diagnosis."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 18 years nulliparous obese girl came to Gynae OPD With complaining of oligomenorrhea,scanty flow ,you advise utrasound,on ultrasound multiple cyst present in right ovary,she is also complaining of hirsutism.What would be the cause of oligomenorrhea in this patient",
+    "options": [
+      "a. Polycystic ovarian syndrome",
+      "b. Adrenarche",
+      "c. Physiological cause",
+      "d. Obesity",
+      "e. Hirsitism"
+    ],
+    "answer": "a",
+    "explanation": "The patient presents with the triad of obesity, hirsutism, and polycystic ovaries on ultrasound. The oligomenorrhea is due to anovulation secondary to Polycystic Ovarian Syndrome (PCOS)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#47 A 72 years old lady present with postmenopausal bleeding lasting for 3 months, she also complains of vaginal bleeding and itching. She had a hysterectomy for some benign condition 20 years ago. On clinical examination, there is excessive vaginal dryness what is next appropriate step?",
+    "options": [
+      "a. Do Nothing",
+      "b. Examination under anesthesia",
+      "c. tibolone",
+      "d. topical estrogen",
+      "e. ultrasound pelvis"
+    ],
+    "answer": "d",
+    "explanation": "Since the patient has had a hysterectomy, uterine causes of bleeding are excluded. The symptoms of itching, excessive dryness, and spotting are characteristic of Atrophic Vaginitis. Topical estrogen is the treatment of choice for symptomatic vaginal atrophy."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 45-year-old man presents to the clinic with a 3- month history of frequent headaches and muscle weakness. He also reports increased urination and excessive thirst. On examination, his blood pressure is 165/105 mmHg, and he has bilateral lower limb muscle cramps. Blood tests reveal the following:• Serum sodium: 145 mmol/L (Normal: 135-145 mmoI/L) Serum potassium: 2.8 mmoI/L (Normal: 3.5-5.0 mmol/L) Plasma aldosterone: Elevated Plasma renin activity: Low An abdominal CT scan shows a 2 cm adrenal mass. What is the most likely diagnosis?",
+    "options": [
+      "a. Cushing's syndrome",
+      "b. Primary hyperaldosteronism (Conn's syndrome)",
+      "c. Pheochromocytoma",
+      "d. Secondary hyperaldosteronism",
+      "e. Syndrome of inappropriate antidiuretic hormone secretion (SIADH)"
+    ],
+    "answer": "b",
+    "explanation": "The combination of hypertension, hypokalemia (muscle weakness/cramps), hypernatremia, elevated aldosterone, and suppressed (low) renin is diagnostic for Primary Hyperaldosteronism (Conn's syndrome), typically caused by an aldosterone-secreting adrenal adenoma."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#49 Sexually transmitted diseases are common problems and the prevalence is increasing. Which of the following conditions is caused by bacteria?",
+    "options": [
+      "a. Genital warts",
+      "b. HIV/AIDS",
+      "c. Chlamydia",
+      "d. Herpes",
+      "e. Scabies"
+    ],
+    "answer": "c",
+    "explanation": "Chlamydia is caused by the bacterium *Chlamydia trachomatis*. Genital warts (HPV), HIV, and Herpes are viral infections. Scabies is parasitic."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#50 A 23 yrs old lady presented to you in the gynae clinic with the complaints of burning micturation and increased urinary frequency. What is the most common organism causing urinary tract infection.",
+    "options": [
+      "a. Proteus mirabilus",
+      "b. Pseudomonas",
+      "c. E.coli",
+      "d. Klebsiella",
+      "e. Streptococcus"
+    ],
+    "answer": "c",
+    "explanation": "Escherichia coli (E. coli) is the causative pathogen in the vast majority (80-90%) of uncomplicated community-acquired urinary tract infections."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#51 A 28-year-old woman has had difficulty concentrating at work for the past month. She is constantly getting up and walking around to visit co-workers. She complains that the work area is too hot. She seems nervous and often spills her coffee. She has been eating more but has lost 5 kg in the past 2 months. On physical examination her temperature is 37.50C, pulse 101/minute, respiratory rate 22/minute, and blood pressure 145/85 mm Hg. Which of the following laboratory findings is most likely to be present in this woman?",
+    "options": [
+      "a. Decreased catecholamines",
+      "b. Decreased iodine uptake",
+      "c. Decreased plasma insulin",
+      "d. Decreased TSH",
+      "e. Increased ACTH"
+    ],
+    "answer": "d",
+    "explanation": "The patient exhibits classic signs of thyrotoxicosis/hyperthyroidism: heat intolerance, weight loss despite increased appetite, tachycardia, nervousness, and tremor. In primary hyperthyroidism (e.g., Graves' disease), TSH levels are suppressed (decreased) due to negative feedback."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#52 Medical examination of the worker is recommended to assess whether the person is medically and mentally fit for that particular job in the context of occupational health. What is the most appropriate time for that medical checkup?",
+    "options": [
+      "a. At weekly intervals",
+      "b. After recovery form an injury",
+      "c. Daily at the beginning of a new shift",
+      "d. At the time Of recruitment for a new job",
+      "e. When the workers complains of some illness"
+    ],
+    "answer": "d",
+    "explanation": "A pre-placement or pre-employment medical examination is conducted at the time of recruitment to ensure the worker is physically and mentally fit for the specific requirements of the job."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#53 Renal trauma A patient with blunt abdominal trauma presents with haematuria. Ct with intravenous contrast shows laceration in parenchyma with contrast extravesation. What is the grade of renal trauma?",
+    "options": [
+      "a. Gradel",
+      "b. Grade2",
+      "c. Grade3",
+      "d. Grade4",
+      "e. Grades"
+    ],
+    "answer": "d",
+    "explanation": "According to the AAST renal injury grading scale, a renal laceration extending into the collecting system, indicated by urinary extravasation (contrast extravasation), is classified as a Grade IV injury."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#54 A 60 year old male having history of Right loin pain and dysuria on and off, was diagnosed with a mass in the right kidney. On tissue biopsy it was found hypernephroma of Right kidney. What should be the management plan?",
+    "options": [
+      "a. Rt Radical Nephrectomy",
+      "b. Partial nephrectomy",
+      "c. Adjuvant chemotherapy",
+      "d. Follow up and monitoring",
+      "e. Monoclonal antibodies"
+    ],
+    "answer": "a",
+    "explanation": "Hypernephroma is an older term for Renal Cell Carcinoma. The standard treatment for a large or centrally located renal mass (implied by the general diagnosis in an older patient) is Radical Nephrectomy. Partial nephrectomy is preferred for smaller tumors (<4-7cm) to preserve renal function, but Radical is the classic answer for 'Hypernephroma'."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#56 A patient presents in the emergency department with a massive overdose of a drug. The most worrisome signs and symptoms include excessive cardiac stimulation (severe tachycardia, palpitations, angina, etc.). The ED physician orders IV administration a ß-adrenergic blocker, saying (correctly) it is the only drug likely to normalize cardiac function quickly and save the patient's life. Which of the following was the most likely drug the patient overdosed on?",
+    "options": [
+      "a. Glyburide",
+      "b. Insulin",
+      "c. Levothyroxine",
+      "d. Prednisone",
+      "e. Propylthiouracil"
+    ],
+    "answer": "c",
+    "explanation": "Severe overdose of Levothyroxine leads to Thyrotoxicosis Factitia, resulting in excessive beta-adrenergic stimulation (tachycardia, arrhythmias). Beta-blockers (like Propranolol) are the specific treatment to block these adrenergic effects."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#57 A 24 year old woman married for 2 years has not conceived yet. Her height is 1.5 m and weight 80 kg with BMI of 35.2 . She menstruates every 40 - 45 days , the meses last for 2-3 days with mild flow. She denies dysmenorrhea or dyspareunia. Bimanual pelvic examination reveals normal sized , anteverted mobile ,non-tender uterus Her husband ' s semen analysis reports within normal limits. The most likely cause of her subfertility is :",
+    "options": [
+      "a. Anovulation",
+      "b. Endometriosis",
+      "c. Tubal blockage",
+      "d. Fibroid uterus",
+      "e. Pelvic inflammatory disease"
+    ],
+    "answer": "a",
+    "explanation": "The patient is obese (BMI 35.2) and has oligomenorrhea (cycles every 40-45 days), strongly suggesting anovulation, likely due to PCOS. Anovulation is the most common cause of infertility in this clinical profile."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#59 A 65-year-old man presents with persistent fatigue, high blood pressure, and recent onset of polycythemia. He denies smoking or alcohol use. On examination, he has mild right flank tenderness. Labs show elevated hemoglobin and erythropoietin levels. Urinalysis shows microscopic hematuria. Ultrasound reveals a mass in the right kidney. Which of the following is the most likely diagnosis?",
+    "options": [
+      "a. Chronic kidney disease",
+      "b. Glomerulonephritis",
+      "c. Renal cell carcinoma",
+      "d. Renal infarction",
+      "e. Wilms tumor"
+    ],
+    "answer": "c",
+    "explanation": "Renal Cell Carcinoma is associated with paraneoplastic syndromes, including polycythemia due to ectopic Erythropoietin (EPO) production. The combination of a renal mass, hematuria, and polycythemia is highly suggestive of RCC."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#60 A 45-year-old male patient with type 2 diabetes presents to the emergency department with fever, chills, and flank pain on the right side. He appears acutely ill and has tenderness over the right costovertebral angle. Urinalysis reveals pyuria, bacteriuria, and leukocyte casts. Blood cultures are drawn, and he is started on intravenous antibiotics. Which intravenous antibiotic is the most appropriate initial choice for empiric treatment of his acute complicated urinary tract infection (UTI)?",
+    "options": [
+      "a. Ampicillin-Sulbactam",
+      "b. Azithromycin",
+      "c. Ciprofloxacin",
+      "d. Gentamicin",
+      "e. Moxifloxacin"
+    ],
+    "answer": "c",
+    "explanation": "Ciprofloxacin (a fluoroquinolone) is a standard empiric choice for complicated UTIs or Pyelonephritis due to its broad coverage of gram-negative organisms (like E. coli) and excellent tissue penetration. Gentamicin is nephrotoxic and risky in diabetics."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#61 A 28 years old having two children complaining of postcoital bleeding ,this is her second marriage having no children from ist marriage ,on per speculum inflammatory cervical margins present,what is your next step?",
+    "options": [
+      "a. Colposcopy",
+      "b. Pap smear",
+      "c. Biopsy",
+      "d. Transvaginal ultrasound",
+      "e. Base line investigations"
+    ],
+    "answer": "b",
+    "explanation": "For postcoital bleeding, the first priority is to exclude cervical cancer or pre-cancer. A Pap smear is the appropriate initial screening test."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#62 A surgeon performed an incision and drainage procedure for an abscess. The abscess was drained, and the drained fluid is sent for disposal. According to WHO classification of hospital waste, under which category does this drained fluid fall?",
+    "options": [
+      "a. Infectious",
+      "b. Chemical",
+      "c. Pharmaceutical",
+      "d. Animal waste",
+      "e. Radioactive waste"
+    ],
+    "answer": "a",
+    "explanation": "Pus and body fluids from a wound infection contain pathogens and are classified as Infectious Waste."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 34-year-old woman is found to have heavy menstrual bleeding along with inter menstrual bleeding for last I year. Which type of uterine fibroid is most likely to cause these symptoms and potentially distort the uterine cavity in this woman?",
+    "options": [
+      "a. Cervical fibroid",
+      "b. Intramural fibroid",
+      "c. Submucosal fibroid",
+      "d. Subserosal fibroid",
+      "e. Pedunculated subserosal fibroid"
+    ],
+    "answer": "c",
+    "explanation": "Submucosal fibroids project into the uterine cavity, distorting it and increasing the endometrial surface area. They are the type most strongly associated with heavy menstrual bleeding (menorrhagia) and intermenstrual bleeding."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#65 A female of 35 years was receiving somatotropin for adiposity, asthenia and reduced muscle mass. A few weeks later she presented to the medical emergency anxiety and ovarian dysfunction. On examination her prolactin levels were low. Which of the following drugs is most likely responsible for the patient's condition?",
+    "options": [
+      "a. Bromocriptine",
+      "b. Mecasermin",
+      "c. Prolactin",
+      "d. Somatostatin",
+      "e. Somatotropin"
+    ],
+    "answer": "a",
+    "explanation": "The clinical scenario (low prolactin, psych side effects like anxiety) suggests the use of a Dopamine Agonist like Bromocriptine. While the question mentions 'receiving somatotropin', the symptoms and lab finding (low prolactin) are characteristic effects of Bromocriptine."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#66 A 7-year-old boy was brought to the emergency department by his parents because of nausea, vomiting, and persistent abdominal pain secondary to the flu. Medical history of the patient was unremarkable. Pertinent serum values on admission were fasting blood glucose 300 mg/dL (70-110 mg/dL), glycosuria 3+. Which of the following drugs would be appropriate for this patient?",
+    "options": [
+      "a. Metformin",
+      "b. Miglitol",
+      "c. Pioglitazone",
+      "d. Regular insulin",
+      "e. Repaglinide"
+    ],
+    "answer": "d",
+    "explanation": "The child presents with new-onset Type 1 Diabetes Mellitus, likely in Diabetic Ketoacidosis (DKA) triggered by illness (flu). The treatment for Type 1 DM and DKA is Insulin (Regular insulin for acute management)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "a 36 years old with history of head trauma secondary to road traffic accident presents to ER with polydypsia, polyuria. he denies extra medications and other comorbids. his workup shows sodium of 174, and normal osmolality. whats the probable diagnosis?",
+    "options": [
+      "a. central diabetes insipidus",
+      "b. nephrogenic diabetes inspidus",
+      "c. partial diabetes inspidus",
+      "d. psychogenic polydypsia",
+      "e. SIADH"
+    ],
+    "answer": "a",
+    "explanation": "Head trauma can damage the posterior pituitary or hypothalamus, leading to a deficiency of ADH (Central Diabetes Insipidus). This results in massive polyuria and severe hypernatremia (Na 174) due to free water loss."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 35 yrs old p1 with last child born 7 yrs back presents to fertality clinc along with 40 yrs partner with history of heavt menstural bleeding and regular cycle and no dysmenorrhea who has visited multiple local clinic fr her conception..she was examined and about 16 weeks mobile n non tender mass found in the pelvic region...on her ultrasound scan there wss 10 * 10 cm intramural fibroid..what could be the approapriate trearmrnt to overcome her concerns",
+    "options": [
+      "a. Conservative treatment with regular followups",
+      "b. Medical treatment with tranaxamic n mefenamic acids",
+      "c. Myomectomy",
+      "d. Hysteroctomy",
+      "e. GNRH analogue"
+    ],
+    "answer": "c",
+    "explanation": "For a patient with a large (10cm) fibroid causing symptoms (heavy bleeding) and subfertility, who wishes to conceive, Myomectomy is the surgical treatment of choice to remove the fibroid and preserve/improve fertility. Hysterectomy is contraindicated as she wants to conceive."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#69 A 25-year-old man presents with cola-colored urine and decreased urine output 2 days after a viral upper respiratory tract infection. He has no significant past medical history. Vitals: BP 140/90 mmHg Creatinine: 3.5 mg/dL (baseline I. l) Urinalysis: Hematuria, RBC casts, mild proteinuria Complement levels: Normal ANA, ANCA, Anti- GBM: Negative Renal biopsy: Crescents in 40% of glomeruli, mesangial IgA deposition What is the most likely diagnosis?",
+    "options": [
+      "a. Alport syndrome",
+      "b. Anti-GBM disease",
+      "c. IgA nephropathy with crescent formation",
+      "d. Lupus nephritis",
+      "e. Post-streptococcal glomerulonephritis"
+    ],
+    "answer": "c",
+    "explanation": "The presentation of gross hematuria (cola-colored urine) shortly (1-2 days) after a URI (synpharyngitic hematuria) combined with biopsy findings of Mesangial IgA deposition is diagnostic for IgA Nephropathy. The presence of crescents indicates a severe, rapidly progressive course."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#71 A 47-year-old woman with a 6-year history of Stage 4 chronic kidney disease presents to the outpatient clinic with progressive fatigue, shortness of breath on exertion, and lightheadedness. She denies any blood loss, melena, or heavy menstruation. Her lab results show: Hemoglobin: 8.4 g/dL (12-16) Mean Corpuscular Volume (MCV): 87 fL(80-100) Reticulocyte count: 0.4% (0.5 to 2.5%) Serum ferritin: 130 ng/mL (30-300) Serum iron and transferrin saturation: normal Creatinine: 4.2 mg/dL (0.6-1.1) What is the most likely cause of her anemia",
+    "options": [
+      "a. Acute blood loss",
+      "b. Chronic hemolysis",
+      "c. Decreased erythropoietin production",
+      "d. Folic acid deficiency",
+      "e. Iron deficiency anemia"
+    ],
+    "answer": "c",
+    "explanation": "Anemia is a common complication of Chronic Kidney Disease (CKD), primarily due to the failure of the renal peritubular interstitial cells to produce sufficient Erythropoietin (EPO). The normal iron studies and normocytic picture support this etiology."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#72 A 23-year-old young girl presents to you at emergency department with vomiting abdominal pain disoriented and profuse sweating. Her bp is low, heart rate is high and you notice fruity smell coming from her mouth. On history taking you get to know that she is diabetic since she was 8 years old. She is regularly on insulin. Mother gave history of urinary tract infection from past week Her labs reveal Plasma glucose 380mg/dI(<200) Urine output 250ml Ketones in blood positive HYPERKALEMIA Arterial blood gas analysis shows acidosis What is your differential diagnosis?",
+    "options": [
+      "a. acute pancreatitis",
+      "b. Diabetic ketoacidosis",
+      "c. Drug induced ketosis",
+      "d. Hyperglycemic hyperosmolar non ketotic coma",
+      "e. starvation"
+    ],
+    "answer": "b",
+    "explanation": "The patient has classic signs of Diabetic Ketoacidosis (DKA): History of Type 1 DM, precipitating infection (UTI), Hyperglycemia, Ketonemia/Ketonuria (fruity breath), and Metabolic Acidosis."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#73 A 30 years old patient came to gynae opd ,she is complaining of dysmenorrhea,deep pain at intercourse and pelvic pain throughout cycle .What is the gold standard investigation for diagnosis this condition?",
+    "options": [
+      "a. Laparoscopy",
+      "b. Ultrasound",
+      "c. CA125",
+      "d. Mri",
+      "e. CT scan"
+    ],
+    "answer": "a",
+    "explanation": "The symptoms (dysmenorrhea, deep dyspareunia, chronic pelvic pain) are characteristic of Endometriosis. The gold standard for diagnosis is diagnostic Laparoscopy with visualization (and biopsy) of the lesions."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 13-year-old female collapses while playing basketball. When brought to the emergency room, she is obtunded. She has hypotension, tachycardia, and deep, rapid labored respirations. She has a serum sodium level of 151 mmoI/L, potassium level of 4.6 mmoI/L, chloride level of 98 mmoI/L, bicarbonate level of 7 mmoI/L, and glucose level of 521 mg/dL A urinalysis reveals no protein, blood, or nitrite, but there are 4+ glucose and 4+ ketone levels. What is the most probable pathologic finding in the pancreas at the time of her collapse?",
+    "options": [
+      "a. Amyloid replacement of islets",
+      "b. Chronic pancreatitis",
+      "c. Eosinophil infiltration of islets",
+      "d. Loss of islets of Langerhans",
+      "e. Pancreatic duct obstruction"
+    ],
+    "answer": "d",
+    "explanation": "The patient has Type 1 Diabetes presenting with DKA. The pathology of Type 1 DM involves autoimmune destruction of pancreatic beta cells, leading to a loss of the Islets of Langerhans (insulitis leads to atrophy/loss)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#75 A 55-year-old male patient with a history of hypertension and diabetes presents to a primary health clinic with complaints of anuria (complete absence of urine output) and severe fatigue. He reports a gradual decrease in urine output over the past 24 hours. On examination, you note bilateral lower limb swelling and elevated blood pressure. Which of the following actions is most appropriate?",
+    "options": [
+      "a. Initiate treatment for urinary tract infection",
+      "b. Urgently refer the patient to a nephrologist",
+      "c. Start the patient on over-the-counter diuretics",
+      "d. Order a renal ultrasound for outpatient evaluation",
+      "e. Schedule a follow-up appointment for a comprehensive assessment"
+    ],
+    "answer": "b",
+    "explanation": "Anuria is a medical emergency indicating acute renal failure or obstruction. Immediate referral to a specialist/hospital is required for urgent workup (ultrasound, labs) and management (potentially dialysis)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "There are five main killer diseases of neonates and children in Pakistan i.e. Diarrhea, Acute Respiratory Infection, Malnutrition, Measles Malaria and vaccination related diseases. Control of these diseases will reduce the mortality in the neonates and children up-to",
+    "options": [
+      "a. 10-20%",
+      "b. 20-30%",
+      "c. 30-40 %",
+      "d. 40-50%",
+      "e. 50-60%"
+    ],
+    "answer": "e",
+    "explanation": "Common infectious diseases and malnutrition account for a significant portion of under-5 mortality in developing countries. Integrated management strategies target these 'top killers', which are estimated to contribute to 50-60% of child mortality."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#77 A women 65 years old presented to the hospital with the complaint of post menopausal bleeding,She is para 6 last baby 18 years old.Her BMI is 33.0n examination, she has non tender abdomen with no visceromegaly .On bimanual examination ,her uterus is bulky. The next step in her management will be",
+    "options": [
+      "a. abdominal ultrasound",
+      "b. CT pelvis",
+      "c. Pap smear",
+      "d. transvaginal ultrasound",
+      "e. cystoscopy"
+    ],
+    "answer": "d",
+    "explanation": "For Postmenopausal Bleeding, the first-line investigation is Transvaginal Ultrasound (TVS) to assess endometrial thickness. Thickness >4mm usually warrants tissue sampling."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#78 Sarah, a 30-year-old woman, is concerned about her risk of HPV-reIated issues. She wants to know which medical test is an effective method for screening and early detection of HPV-reIated issues. What test should she consider?",
+    "options": [
+      "a. Pap smear (Pap test)",
+      "b. Mammography",
+      "c. Blood test",
+      "d. X-ray",
+      "e. Urine analysis"
+    ],
+    "answer": "a",
+    "explanation": "The Pap smear (and HPV DNA testing) is the standard screening tool for detecting cervical cell changes caused by HPV, allowing for early detection of cervical dysplasia/cancer."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A woman 29 years old, school teacher by profession has 3 kids, with last baby born 6 months ago.She feels that her family is complete. She want birth spacing for at least 8 years.Of different option, she chooses copper containing intrauterine contraceptive device . The mechanism of action of IUCD is",
+    "options": [
+      "a. aseptic endometritis",
+      "b. anovulation",
+      "c. endometrial atrophy",
+      "d. barrier for fertilisation",
+      "e. septic induced miscarriage"
+    ],
+    "answer": "a",
+    "explanation": "The primary mechanism of action of Copper IUCDs is causing a sterile (aseptic) inflammatory reaction in the uterus (endometritis) and releasing copper ions, which are toxic to sperm, preventing fertilization."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#80 A 15 month old child presented to OPD with right sided empty scrotum. There is bulge in right inguinal region. What is the initial investigation of choice to diagnose undescended testis?",
+    "options": [
+      "a. Physical examination/palpation of inguinal region",
+      "b. Ultrasound abdomen",
+      "c. Laparoscopy",
+      "d. MRI"
+    ],
+    "answer": "a",
+    "explanation": "In most cases of undescended testis, the testis is palpable in the inguinal canal. Careful physical examination (palpation) is the primary method of diagnosis. Imaging is generally not recommended for palpable testes."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A young unmarried girl of 23 years age, presented to the outpatient department, with a painless mobile lump in left breast. There is no family history of breast cancer. On examination the lump is rounded mobile and there is no axillary lymphadenopathy. What should next be done for this patient?",
+    "options": [
+      "a. Breast mammogram",
+      "b. Ultrasound breast",
+      "c. Incisional biopsy",
+      "d. FNAC",
+      "e. Excisional biopsy"
+    ],
+    "answer": "b",
+    "explanation": "In young women (<30-35 years), breast tissue is dense, making mammography less effective. Ultrasound is the imaging modality of choice for evaluating a palpable breast lump (likely fibroadenoma) in this age group."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 40-year-old male is found dead in a locked car with all windows closed and engine running. Postmortem shows cherry-red discoloration of the skin and organs. What is the mechanism of asphyxia?",
+    "options": [
+      "a. Carbon monoxide poisoning",
+      "b. Cyanide poisoning",
+      "c. Simple asphyxia",
+      "d. Nitrogen asphyxia",
+      "e. Smothering"
+    ],
+    "answer": "a",
+    "explanation": "Inhalation of exhaust fumes (containing Carbon Monoxide) in a closed space causes CO poisoning. CO binds to hemoglobin forming Carboxyhemoglobin, which has a characteristic cherry-red color."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#83 A 70-year-old man is brought to the emergency department due to decreased urine output over the past two days. She reports that he has been feeling lightheaded and weak, with poor oral intake due to a recent bout of viral gastroenteritis. On physical examination, he appears lethargic. His blood pressure is 88/56 mmHg, pulse is 102/min, and mucous membranes are dry. There is no peripheral edema. Lung and heart sounds are normal. Bladder scan shows no significant post- void residual volume. Laboratory studies reveal: • BUN: 68 mg/dL (7-20) • Creatinine: 3.2 mg/dL (baseline I .O mg/dL) • Urinalysis: no proteinuria, no hematuria, bland sediment • Urine sodium: 8 mEq/L(20-40) • Urine osmolality: 520 mOsm/kg (300-900) • Fractional excretion of sodium (FeNa): 0.4% what is the most probable diagnosis?",
+    "options": [
+      "a. Acute tubular necrosis",
+      "b. Chronic glomerulonephritis",
+      "c. Post-renal obstruction",
+      "d. Prerenal azotemia",
+      "e. Tubulointerstitial nephritis"
+    ],
+    "answer": "d",
+    "explanation": "The patient has signs of volume depletion (hypotension, dry mucous membranes) and laboratory findings consistent with Prerenal Azotemia: BUN/Cr ratio > 20:1, Urine Na < 10-20, and FeNa < 1% (indicating the kidneys are avidly retaining sodium to preserve volume)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#84 There are several methods of hospital waste disposal. The method in which waste can be disposed of by burning/ combustion is called",
+    "options": [
+      "a. Incineration",
+      "b. Inertization",
+      "c. Chemical treatment",
+      "d. Microwave radiation",
+      "e. Burial method"
+    ],
+    "answer": "a",
+    "explanation": "Incineration is the controlled burning of waste at high temperatures, reducing it to ash, gas, and heat. It is commonly used for infectious/medical waste."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#85 In the context of efficient hospital waste management and environmental responsibility, which practice plays a crucial role in ensuring proper waste handling, reducing risks, and promoting sustainability within healthcare facilities?",
+    "options": [
+      "a. Segregating all waste together",
+      "b. Mixing recyclables with hazardous waste",
+      "c. Using non-biodegradable containers",
+      "d. Incinerating all waste without sorting",
+      "e. Training staff on proper waste disposal"
+    ],
+    "answer": "e",
+    "explanation": "Proper education and training of staff is essential for effective waste segregation, handling, and disposal, which minimizes risk and environmental impact."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 25-year-old woman presents with complaints of irregular periods (oligomenorrhea), increased facial hair, and weight gain. An ultrasound reveals polycystic ovaries. Which of the following ultrasound findings is consistent with diagnosis PCOS?",
+    "options": [
+      "a. Eight or more subcapsular follicular cysts",
+      "b. Follicles are arranged in the center of the ovary.",
+      "c. No evidence of ovarian follicular cysts on Ultrasound",
+      "d. Ovarian volume less then 10 ml",
+      "e. Size of follicular cysts greater then 10 mm"
+    ],
+    "answer": "a",
+    "explanation": "Classic ultrasound features of Polycystic Ovaries (Rotterdam criteria) include the presence of 12 or more follicles (older texts often used >8 or >10) measuring 2-9 mm in diameter, often arranged peripherally (necklace sign), and/or increased ovarian volume (>10 ml)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#87 A 72 year old male presents to you with a complaint of mild right lower back pain and one episode of blood in urine 2 weeks ago. He denies voiding symptoms. He quit smoking 5 years ago.His creatinine is 0.8. what are the next step(s) in management?",
+    "options": [
+      "a. urine culture, noncontrast(stone protocol) CT abd/pelvis.",
+      "b. urine culture, urine cytology„ renal/bladder USG",
+      "c. Renal/bladder USG, cystoscopy with bilateral retrograde pyelograms",
+      "d. urine culture, urine cytology, CT urogram,cystoscopy",
+      "e. No workup needed unless he has another episode of hematuria"
+    ],
+    "answer": "d",
+    "explanation": "In an elderly patient (especially a smoker) with painless hematuria, the priority is to rule out urothelial malignancy (bladder/upper tract cancer). The standard workup is CT Urogram (to evaluate upper tracts) and Cystoscopy (to evaluate bladder)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#88 What is a reversible contraceptive method that involves injecting hormones every three months to prevent pregnancy?",
+    "options": [
+      "a. Depo-Provera shot",
+      "b. IUD",
+      "c. Vasectomy",
+      "d. Female condom"
+    ],
+    "answer": "a",
+    "explanation": "Depo-Provera (Depot Medroxyprogesterone Acetate) is an injectable contraceptive given every 3 months (12 weeks)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#89 A 68-year-old man presents with a chief complaint of \"always feeling like I have to go, especially at night.\" He describes urinary frequency, nocturia (4 times per night), and urgency, but his urinary stream is only slightly weakened. A digital rectal exam (DRE) confirms a symmetrically enlarged, smooth prostate. His post-void residual (PVR) ultrasound is 30 mL. Which of the following is the most likely primary pathophysiological mechanism responsible for this patient's predominant storage symptoms (frequency, urgency, nocturia)?",
+    "options": [
+      "a. Detrusor muscle instability and overactivity secondary to outflow obstruction.",
+      "b. Decreased bladder compliance due to collagen deposition from chronic overdistension.",
+      "c. Increased alpha-adrenergic tone in the bladder neck and prostatic stroma.",
+      "d. Static obstruction from the enlarged prostate lobes physically compressing the urethra.",
+      "e. Secondary polyuria from impaired renal concentrating ability"
+    ],
+    "answer": "a",
+    "explanation": "BPH causes both voiding (obstructive) and storage (irritative) symptoms. Storage symptoms like urgency and frequency are often due to detrusor instability/overactivity, which develops as the bladder muscle hypertrophies in response to obstruction."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#90 In a region with limited healthcare resources, medical volunteers set up a mobile clinic in a remote village. They provide iodine supplements to pregnant women to prevent iodine deficiency in their babies. What level of prevention is this initiative addressing?",
+    "options": [
+      "a. Palliative care",
+      "b. Primary prevention",
+      "c. Tertiary prevention",
+      "d. Secondary prevention",
+      "e. Quaternary prevention"
+    ],
+    "answer": "b",
+    "explanation": "Primary prevention aims to prevent the onset of disease (e.g., congenital hypothyroidism/cretinism) before it occurs by controlling risk factors (iodine deficiency)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 37 year old lady with a history of increasingly heavy regular painful periods .She is also complaining of increased urinary frequency especially on standing ,no irregular bleeding and smear history is normal .she has two children but still wishes to retain her fertility as she is planning a third.On examination the abdomen is distended and there is pelvic mass consistent with that of 20 week size pregnancy , ultrasound shows two large fibroids which are subserous.What is the management plan for this patient?",
+    "options": [
+      "a. Myomectomy",
+      "b. Hysterectomy",
+      "c. Dilatation and curretage",
+      "d. Uterine artery embolization",
+      "e. Progesterone pills"
+    ],
+    "answer": "a",
+    "explanation": "The patient has large symptomatic fibroids (pressure symptoms, 20 weeks size) and wishes to retain fertility. Myomectomy is the surgical removal of fibroids that preserves the uterus and fertility. Hysterectomy would end fertility."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#92 In a suburban neighborhood, a lake has been a popular spot for fishing for decades. However, in recent years, the water quality of the lake has deteriorated significantly. Several nearby factories discharge wastewater into a river that eventually flows into the lake which contains complex synthetic chemicals used in various industrial processes. What could be the cause of the declining water quality in the lake?",
+    "options": [
+      "a. Simple degradable pollution",
+      "b. Simple biodegradable pollution",
+      "c. Simple Nondegradable pollution",
+      "d. Complex biodegradable pollution",
+      "e. Complex Nondegradable pollution"
+    ],
+    "answer": "e",
+    "explanation": "Synthetic industrial chemicals (like plastics, heavy metals, persistent organic pollutants) are often difficult to break down by natural processes. These are classified as complex non-degradable pollutants."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#93 A girl 16 years old present with frequent menstrual cycle of 15 days duration .1t is not associated with dysmenorrhea.Her quality of life is disturbed with this complaint.She has dropped her hemoglobin from II gm to 8 gm %.The next step to investigate will be",
+    "options": [
+      "a. Ultrasound pelvis",
+      "b. Thyroid function test",
+      "c. thrombophilic screening",
+      "d. high vaginal swab culture",
+      "e. Pap smear"
+    ],
+    "answer": "b",
+    "explanation": "In a teenager with abnormal uterine bleeding, anovulation is the most common cause. However, Thyroid Function Tests are a standard, non-invasive initial screening as thyroid dysfunction is a common reversible cause of menstrual irregularities."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#94 A 32 years old Para 5 obese having type 2 diabetes ,having history of induced abortion 2 times ,she is having regular menstrual cycle no history of any discharge .Now wants contraception. Best contraception for this patient?",
+    "options": [
+      "a. Mirena",
+      "b. Cocp",
+      "c. Iucd",
+      "d. Implant",
+      "e. pop"
+    ],
+    "answer": "a",
+    "explanation": "Mirena (Levonorgestrel-IUS) is ideal here. It provides highly effective contraception, is safe in obesity and diabetes (low systemic hormone), and offers endometrial protection (reducing cancer risk associated with obesity/anovulation if present, though she has regular cycles). COCPs are less ideal due to metabolic/thrombotic risks in an obese diabetic."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#95 A 6 year old child presents to you with 10 days history of generalized body swelling which first started around the eyes then spread to the rest of the body. On examination the child is vitally stable, generalized body oedema present, no jaundice, no visceromegaly, CVS SI , S2, O. Investigations show 4+ proteins, RBCs nil on Urine RE, serum Albumin 2g/dl, serum Cholesterol 300mg/dl, Liver function tests are normal. What is the most likely diagnosis?",
+    "options": [
+      "a. Congestive Cardiac Failure",
+      "b. Nephrotic Syndrome",
+      "c. Acute Post streptococcal glomerulonephritis",
+      "d. Protein Losing Enteropathy",
+      "e. Chronic Liver Disease"
+    ],
+    "answer": "b",
+    "explanation": "The clinical presentation is classic for Nephrotic Syndrome: Generalized edema, massive proteinuria (4+), hypoalbuminemia, and hypercholesterolemia, without hematuria or hypertension (vital stable)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "A 32 year's old lady para I present to the gynaecologist with the complaint of increased vaginal discharge which is foul smelling and often blood tinged.U perform speculum examination and notice flesh like growth on cervical margin. Your next step will be",
+    "options": [
+      "a. cervical biopsy",
+      "b. Dilation and curettage",
+      "c. hysteroscopy",
+      "d. vaginal fluid culture",
+      "e. trachechelectomy"
+    ],
+    "answer": "a",
+    "explanation": "A suspicious, fleshy growth on the cervix with foul discharge and contact bleeding is highly suggestive of cervical malignancy. A biopsy is mandatory to confirm the diagnosis."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#97 A 27-year-old man presents with fatigue, facial puffiness, hematuria, and shortness of breath for the past 5 days. He reports decreased urine output and dark-colored urine. BP: 160/100 mmHg HR: 92 bpm Sp02: 96% on room air Physical exam reveals periorbital edema and bilateral basal crackles. Urinalysis: RBC casts, mild proteinuria Serum creatinine: 4.2 mg/dL (baseline I .O mg/dL one month ago) C3, C4: Low ANA: Positive Anti- dsDNA: Positive ANCA: Negative Anti-GBM: Negative Renal biopsy shows crescent formation in >50% of glomeruli, with immune complex deposition on immunofluorescence. Which of the following is the most likely subtype of rapidly progressive glomerulonephritis in this patient?",
+    "options": [
+      "a. Anti-GBM (Goodpasture's) disease",
+      "b. Immune complex—mediated RPGN",
+      "c. IgA nephropathy with crescent formation",
+      "d. Pauci-immune (ANCA-associated) RPGN",
+      "e. Post-infectious glomerulonephritis"
+    ],
+    "answer": "b",
+    "explanation": "The patient has systemic lupus erythematosus (SLE) indicated by Positive ANA and Anti-dsDNA, and low complement (C3/C4). Lupus Nephritis causing crescentic GN is a form of Immune Complex-mediated RPGN (Type II RPGN)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#98 A 38-year-old woman felt a small bump on the right side of her neck 1 month ago, and it has not changed since then. Physical examination shows a I-cm painless nodule palpable in the right lower pole of the thyroid gland. There is no lymphadenopathy.Radionuclide scanning shows that the nodule does not absorb radioactive iodine, and no other nodules are present. A fine-needle aspiration biopsy Of the nodule is done, and the cytologic features are those of a follicular neoplasm. Which of the following laboratory findings is most likely to be present in this patient?",
+    "options": [
+      "a. Anti—TSH receptor immunoglobulins",
+      "b. Anti—thyroid peroxidase antibodies",
+      "c. High free T 4",
+      "d. low T3",
+      "e. Normal TSH"
+    ],
+    "answer": "e",
+    "explanation": "Most thyroid nodules, including follicular adenomas/neoplasms, are non-functioning (cold on scan) and occur in euthyroid patients. Therefore, TSH and T4 levels are typically normal."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#99 A P5 patient with 38 years age came to OPD with complaining of heavy menstrual bleeding from last one year,on ultrasound her uterus is normal in size and shape no pathology present ,endometrial thickness is 5mm ,patient wants treatment for heavy menstrual bleeding also wants contraception. Her last baby born is 2years.What is the most suitable option for this patient?",
+    "options": [
+      "a. Cu T intrauterine device",
+      "b. Mirena",
+      "c. OCPs",
+      "d. Implant",
+      "e. Emergency contraceptive pills"
+    ],
+    "answer": "b",
+    "explanation": "Mirena (Levonorgestrel-IUS) is the most suitable option as it serves a dual purpose: it is an effective contraceptive and is a first-line treatment for Heavy Menstrual Bleeding (HMB) by causing endometrial atrophy/thinning."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#100 An engineer working in a factory took into consideration the four factors i.e air temperature, velocity, humidity, and mean radiant heat. The resulting indicator is known as:",
+    "options": [
+      "a. Comfort zone",
+      "b. Cooling power",
+      "c. Corrected effective temperature",
+      "d. Effective temperature",
+      "e. Maximum allowable sweat rate"
+    ],
+    "answer": "c",
+    "explanation": "'Effective Temperature' considers air temperature, humidity, and velocity. When 'Mean Radiant Heat' is also included in the calculation (using a Globe Thermometer), the index is called the Corrected Effective Temperature (CET)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#101 A 28-year-old woman is found hanging from a ceiling fan with her feet touching the ground. The ligature mark is oblique, non-continuous, and runs upward toward the occiput. What is the most likely cause of death?",
+    "options": [
+      "a. Strangulation",
+      "b. Ligature compression",
+      "c. Hanging",
+      "d. Throttling",
+      "e. Postural asphyxia"
+    ],
+    "answer": "c",
+    "explanation": "The ligature mark described (oblique, non-continuous/incomplete, rising to the knot at the occiput) is characteristic of Hanging. In strangulation, the mark is typically horizontal and continuous."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#102 A 16 years old girls presents to gynaecologists with the complaint of increased weight,infrequent cycles and increased facial hairs.Her BMI currently is 37. Keeps in view her risk factors,She has risk of",
+    "options": [
+      "a. Breast Cancer",
+      "b. cervical cancer",
+      "c. endometrial cancer",
+      "d. ovarian cancer",
+      "e. vulval cancer"
+    ],
+    "answer": "c",
+    "explanation": "The patient likely has PCOS (Obesity, Anovulation, Hirsutism). Chronic anovulation leads to unopposed estrogen exposure (without the protective effect of progesterone), which significantly increases the risk of Endometrial Hyperplasia and Endometrial Cancer."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#103 A 32 year old pregnant woman with no comorbids presents to clinic for her regular prenatal visit. She is 34 weeks pregnant and does not have any symptoms. Examination is normal. Routine labs are normal except for Urine RE that shows + Albumin, 4-5 RBCs and numerous pus cells. What is the next best step in management?",
+    "options": [
+      "a. Repeat urine RE in 1 week",
+      "b. Give antibiotics",
+      "c. Send blood cultures",
+      "d. 24 hour urine collection for protein",
+      "e. Serum Albumin level"
+    ],
+    "answer": "b",
+    "explanation": "The patient has Asymptomatic Bacteriuria (implied by numerous pus cells/bacteria on RE). In pregnancy, this must be treated to prevent pyelonephritis and preterm labor. While a culture is the gold standard for confirmation, initiating antibiotics (or at least treating based on pyuria in this context) is the clinical priority."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#104 A 35 yeras old presented to the OPD with a history of subfertility of 5 years and heavy menstrual bleeding for the past 1 year.ultrasound shows a 5x5 cm hypoechoic mass distorting the uterine cavity.what is the most probable diagnosis",
+    "options": [
+      "a. Adenomyosis",
+      "b. Fibroid",
+      "c. cyst",
+      "d. Endometrial carcinoma",
+      "e. Endometrioma"
+    ],
+    "answer": "b",
+    "explanation": "Hypoechoic masses in the uterus are typical of fibroids (Leiomyomas). The distortion of the uterine cavity (Submucosal/Intramural) explains the subfertility and heavy menstrual bleeding."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#105 A 4 years old girl, presented with 2 days history of fever and burning micturition. Past history is unremarkable. On examination, patient is febrile with 101*F, HR: 110/min. Systemic examination is unremarkable. Which of the following investigation will help in giving the definitive diagnosis?",
+    "options": [
+      "a. Ultrasound Abdomen & Pelvis",
+      "b. Urine Culture and sensitivity",
+      "c. X-ray Abdomen",
+      "d. Renal Function Test",
+      "e. MCUG"
+    ],
+    "answer": "b",
+    "explanation": "Urine Culture is the gold standard for definitively diagnosing a Urinary Tract Infection (UTI)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#106 a 65 years old male patient under treatment from a hematologist for lymphoma, presented to medical OPD with complaints of anasarca. pedal edema and body swelling. he reports shortness of breath and abdominal pain. on examination there is pedal edema and bilateral pleural effusion. the physician orders urine analysis which shows +4 proteinuria and suspects Nephrotic syndrome. which of the following is gold-standard of diagnosis of nephrotic syndrome?",
+    "options": [
+      "a. urine analysis",
+      "b. urine PCR",
+      "c. renal biopsy",
+      "d. ultrasound KUB",
+      "e. 24 hours urinary protein"
+    ],
+    "answer": "c",
+    "explanation": "While urine studies confirm proteinuria, the 'Gold Standard' for diagnosing the underlying cause (histopathology) of Nephrotic Syndrome, especially in adults or those with complications/systemic disease (like Lymphoma), is a Renal Biopsy."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#107 A 28 year old woman presents with 6 weeks amenorrhea,mild lower abdominal pain and spotting per vaginum .Her BHCG is 18001U/L and trans vaginal ultrasound shows empty uterus .Next step?",
+    "options": [
+      "a. Laprotomy",
+      "b. Laparoscopy",
+      "c. Methotrexate",
+      "d. Dilatation and curretage",
+      "e. Repeat BHCG in 48 hours"
+    ],
+    "answer": "b",
+    "explanation": "A BHCG of 1800 IU/L is near or above the discriminatory zone (typically 1500-2000 IU/L). If the uterus is empty at this level, it is highly suggestive of an ectopic pregnancy. Diagnostic Laparoscopy is the standard next step to visualize and treat the ectopic, especially if the diagnosis is highly probable or the patient needs definitive management."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#108 A previously healthy, 36-year-old female has had several '\"fainting spells\" in the past month. During these episodes, she becomes light-headed and then collapses, recovering in a few minutes, but experiencing diaphoresis and tachycardia. Which of the following laboratory results is most likely to be found during one of these episodes?",
+    "options": [
+      "a. Hypocalcemia",
+      "b. Hypoglycemia",
+      "c. Hypercarbia",
+      "d. Hyperglycemia",
+      "e. Ketonuria"
+    ],
+    "answer": "b",
+    "explanation": "The symptoms (fainting, diaphoresis, tachycardia, rapid recovery) are suggestive of Whipple's triad, indicating Hypoglycemia (likely from an Insulinoma)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#109 Optimum number of visits is recommended antenatal clinic if everything is normal. However, if it is difficult for pregnant women to attend antenatal clinic regularly, the minimum number of visits target covering the entire period of pregnancy should be",
+    "options": [
+      "a. 3 visits",
+      "b. 4 visits",
+      "c. 2 visits",
+      "d. 6 visits",
+      "e. 5 Visits"
+    ],
+    "answer": "b",
+    "explanation": "The classic WHO Focused Antenatal Care (FANC) model recommended a minimum of 4 visits for a low-risk pregnancy. (Note: Newer 2016 guidelines recommend 8 contacts, but 4 is the standard answer in the context of 'minimum' historically)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#110 A P4 patient came to Gynae OPD with complaining of irregular heavy vaginal bleeding ,she is having miscarriage 2 months back ,after miscarriage complaining of irregular per vaginum bleeding.On per abdominal examination uterus is about 16 weeks size ,on ultrasound grapes like structure mass is present inside uterus.You advise beta HCG , What would be the diagnosis in this patient?",
+    "options": [
+      "a. Molar pregnancy",
+      "b. Choriocarcinoma",
+      "c. Fibroid uterus",
+      "d. Placental site trophoblastic tumor",
+      "e. Retained products of conception"
+    ],
+    "answer": "a",
+    "explanation": "The classic 'snowstorm' or 'grape-like' appearance on ultrasound, combined with a uterus larger than dates (16 weeks vs 2 months post-miscarriage?), is diagnostic for a Molar Pregnancy (Hydatidiform Mole)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#111 A 68 year old lady with uncontrolled diabetes presents to ER with altered mental status and high grade fever associated with rigors and chills for the past 3 days. She also complains of left sided flank pain and burning micturation. On examination pulse is 11 Olm, BP 90/60 mmHg, temperature 103'F, oxygen saturation 97% and respiratory rate of 221m. Her GCS is 13/15, chest is clear to auscultation and her left flank is tender on deep palpation. Investigations show Hb 12 mg/dl, TLC 25, platelets 155, Urea 50, creatinine 1.2 and urine R/E +++ albumin, 10 RBC and 10 - 15 pus cells. You have sent her blood for culture. What investigation will you do for diagnosis?",
+    "options": [
+      "a. CT abdomen",
+      "b. CT brain",
+      "c. Lumber puncture",
+      "d. Echo",
+      "e. Arterial blood gases"
+    ],
+    "answer": "a",
+    "explanation": "The patient has sepsis secondary to acute pyelonephritis (diabetic, flank pain, fever). CT Abdomen is the imaging modality of choice to rule out complications like renal abscess, emphysematous pyelonephritis, or obstruction, which are common in diabetics with severe presentation."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#112 A 75 year old gentleman was referred to neurology clinic yesterday morning for slow movements and resting tremors. Based on history and examination he was diagnosed as Parkinson's disease and started on levodopa and amantadine. His symptoms improved but he developed hypogastric pain later in evening that has progressively increased and he has come to ER now. He hasn't passed any urine since yesterday. On examination pulse is 1001m, BP 150/80 mmHg, afebrile and normal respiratory rate and pulse oxygen saturations. A tender mass can be felt in hypogastrium upto umblicus. Labs show normal CBC, Urea 150, creatinine 2.3, potassium 5 and sodium 145. What is the next best step in management?",
+    "options": [
+      "a. CT abdomen",
+      "b. Dialysis",
+      "c. Give opioids for pain",
+      "d. Pass folleyis catheter",
+      "e. Surgical review"
+    ],
+    "answer": "d",
+    "explanation": "The patient has Acute Urinary Retention (likely drug-induced by Amantadine's anticholinergic effects). The immediate management for acute retention with a palpable bladder is decompression via catheterization."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#113 a 76 years old female, known case of small cell carcinoma lung. undertreatment from oncologist. presented to ER with fits, he denies extra medications and other symptoms emergency investigations are ordered. serum sodium is 101 other labs are normal. what is the most probable diagnosis?",
+    "options": [
+      "a. SIADH",
+      "b. psychogenic polydypsia",
+      "c. thiazide induced hyponatremia",
+      "d. hypovolemic hyponatremia",
+      "e. hypervolemic hyponatremia"
+    ],
+    "answer": "a",
+    "explanation": "Small Cell Lung Carcinoma is a common cause of paraneoplastic SIADH (Syndrome of Inappropriate ADH Secretion), leading to euvolemic hyponatremia. A sodium level of 101 is severe and explains the seizures."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#114 A 50-year-old woman presents with mild symptoms of hyperthyroidism, including anxiety and palpitations. Her thyroid gland is diffusely enlarged, non-tender, and has a rubbery consistency. Thyroid ultrasound shows a diffusely heterogeneous and hypovascular gland. Her TSH is suppressed, and Free T4 is elevated. TSH Receptor Antibodies (TRAb) are negative, but Thyroid Peroxidase (TPO) antibodies are strongly positive A fine-needle aspiration (FNA) biopsy of the gland is most likely to reveal which of the following pathological findings?",
+    "options": [
+      "a. GRANULOMATOUS INFLAMMATION WITH GIANT CELLS",
+      "b. LYMPHOCYTIC INFILTRATION WITH GERMINAL CENTER FORMATION",
+      "c. NODULES OF FOLLICULAR CELLS WITH VARIABLE NUCLEAR ATYPIA",
+      "d. PAPILLARY STRUCTURES WITH PSAMMOMA BODIES",
+      "e. SCATTERED C-CELLS WITH AMYLOID STROMA"
+    ],
+    "answer": "b",
+    "explanation": "The clinical picture (TPO antibodies, rubbery goiter, transient hyperthyroidism/Hashitoxicosis) is classic for Hashimoto Thyroiditis. The hallmark histology is intense lymphocytic infiltration with germinal center formation and Hurthle cells."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#115 a 66 years old patient with gastroenteritis presents to medical emergency with decreased urine output and AKI, His workup shows hyperkalemia and AKI. ECG shows tall-t waves , which of the following is the immediate treatment of hyperkalemia?",
+    "options": [
+      "a. insulin with dexrtrose",
+      "b. hemodialysis",
+      "c. peritoneal dialysis",
+      "d. inj calcium gluconate",
+      "e. ventoline nebulizations"
+    ],
+    "answer": "d",
+    "explanation": "In the presence of ECG changes (Tall T waves) indicating cardiac toxicity from hyperkalemia, the immediate first step is to stabilize the cardiac membrane using IV Calcium Gluconate (or Calcium Chloride)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#116 A P4 55 years old all normal deliveries except ist was forcep vaginal delivery ,non smoker,with a long history of stress incontinence since the birth Of her ist child,which has worsened recently,there is also urgency and urge incontinence but not severe as stress incontinence,there is daytime frequency and nocturia but no history of voiding difficulty,hx of hysterectomy . Examination reveals normal vaginal capacity and motility ,bladder neck can be elevated and there is no sign of any major prolapse . Diagnosis?",
+    "options": [
+      "a. Urge incontinence",
+      "b. Urinary tract infection",
+      "c. Cervical prolapse",
+      "d. Genuine stress incontinence",
+      "e. Detrusor instability"
+    ],
+    "answer": "d",
+    "explanation": "While the patient has mixed symptoms, the predominant complaint and history (stress incontinence since forceps delivery) combined with the physical finding of a mobile bladder neck (which can be elevated) supports the diagnosis of Genuine Stress Incontinence (anatomical stress incontinence)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#117 A decomposed body shows a wound with dry, parchment-like edges without surrounding hemorrhage. What does this finding suggest?",
+    "options": [
+      "a. Antemortem injury",
+      "b. Postmortem injury",
+      "c. Heat rupture",
+      "d. Self-inflicted wound",
+      "e. Putrefactive slippage"
+    ],
+    "answer": "b",
+    "explanation": "Wounds inflicted after death (postmortem) lack vital reactions. They do not bleed or show inflammation, resulting in dry, parchment-like edges."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#118 A 66-year-old female has had diabetes mellitus for more than 30 years. She now has decreasing visual acuity. There is no eye pain. Her intraocular pressure is measured as normal. Which of the following lesions is most likely to account for her visual problems?",
+    "options": [
+      "a. Cytomegalovirus retinitis",
+      "b. Glaucoma",
+      "c. Keratomalacia",
+      "d. Optic neuritis",
+      "e. Proliferative retinopathy"
+    ],
+    "answer": "e",
+    "explanation": "In a patient with a long-standing history of diabetes (>30 years), the most common cause of painless vision loss is Diabetic Retinopathy (specifically Proliferative Diabetic Retinopathy in advanced stages)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#119 A 62-year-old postmenopausal woman presents with vaginal bleeding. Endometrial biopsy shows a tumor composed of well-differentiated glands resembling normal endometrium. There is no evidence of myometrial invasion. Which of the following is the most likely underlying mechanism for this carcinoma?",
+    "options": [
+      "a. Mutation in TP53 gene",
+      "b. Loss of P TEN tumor suppressor gene",
+      "c. Microsatellite instability in MSH2 gene",
+      "d. Activation of ß-catenin pathway",
+      "e. Overexpression Of HER2/NElJ"
+    ],
+    "answer": "b",
+    "explanation": "Type 1 Endometrial Carcinoma (Endometrioid type) is the most common type, often associated with unopposed estrogen and hyperplasia. The most frequent genetic alteration in Type 1 cancers is the loss of function of the PTEN tumor suppressor gene (found in up to 50-80% of cases)."
+  },
+  {
+    "id": "NWSM",
+    "block": "block l",
+    "year": "2025",
+    "question": "Q#120 A 3-year-old boy is brought to the clinic for a well- child visit. The parents have no specific concerns. The child has been afebrile and growing well. Physical examination is normal except for a palpable, smooth, non-tender mass in the right flank. The child voids without difficulty. A renal ultrasound is ordered and reveals severe hydronephrosis of the right kidney with significant cortical thinning. The left kidney and bladder are normal. What is the most likely diagnosis?",
+    "options": [
+      "a. Posterior Urethral Valves (PUV)",
+      "b. Urolithiasis (Kidney stone)",
+      "c. Ureteropelvic Junction (UPJ) Obstruction",
+      "d. Vesicoureteral Reflux (VUR)",
+      "e. Wilms Tumor (Nephroblastoma)"
+    ],
+    "answer": "c",
+    "explanation": "Ureteropelvic Junction (UPJ) Obstruction is the most common cause of significant congenital hydronephrosis that can present as a palpable abdominal mass (due to the enlarged kidney) in a child. PUV would affect the bladder and both kidneys. Wilms tumor is a solid mass, not hydronephrosis."
+  }
+]

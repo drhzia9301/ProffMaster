@@ -1,59 +1,71 @@
-import os
+import json
 import re
+import os
 
-def xor_encrypt_decrypt(data, key):
-    key_bytes = key.encode('utf-8')
-    key_len = len(key_bytes)
-    result = bytearray(len(data))
-    for i in range(len(data)):
-        result[i] = data[i] ^ key_bytes[i % key_len]
-    return result
+SOURCE = r'c:\Users\haroo\Desktop\ProffMaster\2023_preproffs\2024-25\nwsm2025'
+QBANKS = r'c:\Users\haroo\Desktop\ProffMaster\public\qbanks'
+KEY = 'SUPERSIX_SECURE_KEY_2025'
 
-key = 'SUPERSIX_SECURE_KEY_2025'
-output_dir = 'public/qbanks'
+def xor_cipher(text, key):
+    return ''.join(chr(ord(c) ^ ord(key[i % len(key)])) for i, c in enumerate(text))
 
-# Check all encrypted files
-files = [f for f in os.listdir(output_dir) if f.endswith('.enc')]
+def get_questions_from_json(filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    pattern = r'\{\s*"id"\s*:\s*"[^"]*"[^{}]*(?:\{[^{}]*\}[^{}]*)*\}'
+    questions = []
+    for m in re.findall(pattern, content, re.DOTALL):
+        try:
+            obj = json.loads(m)
+            q = obj.get('question', '')[:100].lower().strip()
+            questions.append(q)
+        except:
+            pass
+    return questions
 
-print("=" * 60)
-print("CHECKING FOR DUPLICATE QUESTIONS")
-print("=" * 60)
-
-total_duplicates = 0
-
-for filename in sorted(files):
-    filepath = os.path.join(output_dir, filename)
+def get_questions_from_enc(filepath, year_filter=None):
     with open(filepath, 'rb') as f:
-        encrypted = f.read()
-    decrypted = xor_encrypt_decrypt(encrypted, key).decode('utf-8')
+        encrypted = f.read().decode('latin-1')
+    decrypted = xor_cipher(encrypted, KEY)
     
-    # Extract question texts
-    questions = re.findall(r"VALUES \('([^']+)'", decrypted)
-    
-    # Find duplicates
-    seen = {}
-    duplicates = []
-    for i, q in enumerate(questions, 1):
-        # Normalize: lowercase, remove extra spaces
-        q_normalized = ' '.join(q.lower().split())[:150]  # First 150 chars
-        
-        if q_normalized in seen:
-            duplicates.append((i, seen[q_normalized], q[:80]))
-        else:
-            seen[q_normalized] = i
-    
-    unique_count = len(questions) - len(duplicates)
-    
-    if duplicates:
-        print(f"\n❌ {filename}: {len(questions)} total, {len(duplicates)} duplicates found")
-        for dup_num, orig_num, q_text in duplicates[:5]:  # Show first 5
-            print(f"   Q{dup_num} duplicates Q{orig_num}: {q_text}...")
-        if len(duplicates) > 5:
-            print(f"   ... and {len(duplicates) - 5} more duplicates")
-        total_duplicates += len(duplicates)
-    else:
-        print(f"✅ {filename}: {len(questions)} questions, all unique")
+    questions = []
+    for m in re.finditer(r"VALUES \('([^']*)'.*?'(\d{4})'\)", decrypted):
+        q = m.group(1)[:100].lower().strip()
+        year = m.group(2)
+        if year_filter is None or year == year_filter:
+            questions.append((q, year))
+    return questions
 
-print("\n" + "=" * 60)
-print(f"TOTAL DUPLICATES FOUND: {total_duplicates}")
-print("=" * 60)
+files = [
+    ('jnwsm2025.txt', 'nwsm J.enc', 'J'),
+    ('knwsm2025.txt', 'nwsm K.enc', 'K'),
+    ('lnwsm2025.txt', 'nwsm L.enc', 'L'),
+    ('m1nwsm2025.txt', 'nwsm M1.enc', 'M1'),
+    ('m2nwsm2025.txt', 'nwsm M2.enc', 'M2'),
+]
+
+from collections import Counter
+
+print("Duplicate Analysis by Block:")
+print("=" * 70)
+
+for json_file, enc_file, block in files:
+    json_questions = get_questions_from_json(os.path.join(SOURCE, json_file))
+    enc_questions = get_questions_from_enc(os.path.join(QBANKS, enc_file))
+    
+    q_2023 = set(q for q, y in enc_questions if y == '2023')
+    
+    # Check duplicates with 2023
+    dups_2023 = sum(1 for q in json_questions if q in q_2023)
+    
+    # Check self-duplicates
+    counter = Counter(json_questions)
+    self_dups = sum(c - 1 for q, c in counter.items() if c > 1)
+    
+    total_skipped = dups_2023 + self_dups
+    
+    print(f"\nBlock {block}:")
+    print(f"  JSON questions: {len(json_questions)}")
+    print(f"  Duplicates with 2023: {dups_2023}")
+    print(f"  Self-duplicates in JSON: {self_dups}")
+    print(f"  Expected to add: {len(json_questions) - total_skipped}")
