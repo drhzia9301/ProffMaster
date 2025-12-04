@@ -312,7 +312,7 @@ class DeviceSessionService {
 
       if (error) {
         if (error.code === 'PGRST116') {
-          // No session exists - this is a new device login
+          // No session exists in database - this is truly a new device/first login
           return {
             isValid: false,
             isNewDevice: true
@@ -328,6 +328,7 @@ class DeviceSessionService {
         };
       }
 
+      // An active session exists in the database
       // Check if the stored token matches the active session
       if (storedToken && activeSession.session_token === storedToken) {
         // Valid session - update last active timestamp
@@ -342,7 +343,18 @@ class DeviceSessionService {
         };
       }
 
-      // Token doesn't match - user logged in from another device
+      // Check if this is the same device (by device_id) but different token
+      // This can happen if app was reinstalled or local storage was cleared
+      if (activeSession.device_id === deviceInfo.deviceId) {
+        // Same device, just needs token refresh - allow it
+        return {
+          isValid: false,
+          isNewDevice: true // Treat as new to allow re-registration
+        };
+      }
+
+      // Different device AND session exists - THIS IS A CONFLICT!
+      // User is trying to log in from a different device while another device has an active session
       return {
         isValid: false,
         isNewDevice: false,
