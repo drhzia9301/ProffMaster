@@ -35,8 +35,13 @@ export interface AccessGrant {
 class SubscriptionService {
   /**
    * Check if the current user has preproff access
+   * NOTE: Currently providing FREE ACCESS to all users
    */
   async hasPreproffAccess(): Promise<boolean> {
+    // FREE ACCESS FOR ALL USERS - return true always
+    return true;
+    
+    /* Original code - uncomment to restore paid access:
     try {
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) return false;
@@ -53,6 +58,7 @@ class SubscriptionService {
       console.error('Failed to check preproff access:', e);
       return false;
     }
+    */
   }
 
   /**
