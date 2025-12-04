@@ -24,7 +24,8 @@ html, body {
 }
 
 .pt-safe {
-  padding-top: env(safe-area-inset-top, 0px);
+  /* 28px fallback for Android status bar when safe-area-inset is not available */
+  padding-top: max(1.75rem, env(safe-area-inset-top, 28px));
 }
 
 .mb-safe {

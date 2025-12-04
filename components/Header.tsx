@@ -8,11 +8,25 @@ const Header: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { user, signOut } = useAuth();
+  const [isLoggingOut, setIsLoggingOut] = React.useState(false);
+
+  const handleSignOut = async () => {
+    if (isLoggingOut) return; // Prevent double-clicks
+    setIsLoggingOut(true);
+    try {
+      await signOut();
+      navigate('/', { replace: true });
+    } catch (error) {
+      console.error('Sign out error:', error);
+    } finally {
+      setIsLoggingOut(false);
+    }
+  };
 
   if (location.pathname === '/login') return null;
 
   return (
-    <header className="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-30 transition-colors">
+    <header className="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-30 transition-colors pt-safe">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer min-w-0 flex-shrink-0" onClick={() => navigate('/')}>
           <div className="bg-medical-600 p-1.5 rounded-lg text-white flex-shrink-0">
@@ -35,11 +49,16 @@ const Header: React.FC = () => {
                 <p className="text-[10px] text-gray-500 dark:text-gray-400">Sync Active</p>
               </div>
               <button
-                onClick={() => signOut()}
-                className="p-2 text-gray-500 dark:text-gray-400 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 dark:hover:text-red-400 rounded-full transition-colors active:scale-95"
+                onClick={handleSignOut}
+                disabled={isLoggingOut}
+                className={`p-2 rounded-full transition-colors active:scale-95 ${
+                  isLoggingOut 
+                    ? 'text-gray-300 dark:text-gray-600 cursor-not-allowed' 
+                    : 'text-gray-500 dark:text-gray-400 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 dark:hover:text-red-400'
+                }`}
                 title="Sign Out"
               >
-                <LogOut size={20} />
+                <LogOut size={20} className={isLoggingOut ? 'animate-pulse' : ''} />
               </button>
             </div>
           ) : (
