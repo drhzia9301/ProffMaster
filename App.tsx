@@ -11,7 +11,7 @@ import QuestionViewer from './components/QuestionViewer';
 import { SUBJECT_COLORS } from './constants.ts';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Subject, Question, Attempt } from './types';
-import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedQuestionCount, getCachedSubjectCounts, saveAIAttempt, getAIAttempts, toggleAIBookmark, getAIBookmarks, getPreproffAttempts, savePreproffAttempt, getPreproffBookmarks, togglePreproffBookmark, saveCurrentSession, getCurrentSession, clearCurrentSession, generateSessionId, sessionMatchesState, QuizSessionState } from './services/storageService';
+import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedSubjectCounts, saveAIAttempt, getAIAttempts, toggleAIBookmark, getAIBookmarks, getPreproffAttempts, savePreproffAttempt, getPreproffBookmarks, togglePreproffBookmark, saveCurrentSession, getCurrentSession, clearCurrentSession, generateSessionId, sessionMatchesState, QuizSessionState } from './services/storageService';
 import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart, BookOpen, Shield, X, LogOut } from 'lucide-react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Login from './components/Login';
@@ -67,13 +67,6 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 
 const Home = () => {
   const navigate = useNavigate();
-  const [questionsCount, setQuestionsCount] = useState(getCachedQuestionCount());
-
-  useEffect(() => {
-    getAllQuestions().then(questions => {
-      setQuestionsCount(questions.length);
-    });
-  }, []);
 
   return (
     <div className="pb-24 space-y-6">
@@ -81,7 +74,7 @@ const Home = () => {
       <div className="relative bg-gradient-to-r from-medical-600 to-medical-500 rounded-2xl p-6 text-white shadow-lg shadow-medical-500/20 overflow-hidden">
         <div className="relative z-10">
           <h2 className="text-2xl font-bold mb-2">KMU Prep Dashboard</h2>
-          <p className="text-medical-100 mb-6">You have {questionsCount} high-yield questions available.</p>
+          <p className="text-medical-100 mb-6">Every question you practice brings you closer to your goal. Keep going!</p>
 
         </div>
       </div>
