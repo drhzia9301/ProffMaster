@@ -27,8 +27,9 @@ const AdminDashboard: React.FC = () => {
     const [searchResults, setSearchResults] = useState<UserProfile[]>([]);
     const [searching, setSearching] = useState(false);
     const [usersWithAccess, setUsersWithAccess] = useState<UserProfile[]>([]);
+    const [bannedUsers, setBannedUsers] = useState<UserProfile[]>([]);
     const [stats, setStats] = useState({ totalUsers: 0, usersWithAccess: 0, bannedUsers: 0 });
-    const [activeTab, setActiveTab] = useState<'search' | 'subscribers'>('search');
+    const [activeTab, setActiveTab] = useState<'search' | 'subscribers' | 'banned'>('search');
     const [actionLoading, setActionLoading] = useState<string | null>(null);
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
@@ -41,12 +42,14 @@ const AdminDashboard: React.FC = () => {
             
             if (admin) {
                 // Load initial data
-                const [statsData, subscribers] = await Promise.all([
+                const [statsData, subscribers, banned] = await Promise.all([
                     subscriptionService.getStats(),
-                    subscriptionService.getUsersWithAccess()
+                    subscriptionService.getUsersWithAccess(),
+                    subscriptionService.getBannedUsers()
                 ]);
                 setStats(statsData);
                 setUsersWithAccess(subscribers);
+                setBannedUsers(banned);
             }
             setLoading(false);
         };
@@ -123,6 +126,69 @@ const AdminDashboard: React.FC = () => {
             setStats(newStats);
         } else {
             setMessage({ type: 'error', text: result.error || 'Failed to revoke access' });
+        }
+        
+        setActionLoading(null);
+    };
+
+    // Ban user
+    const handleBanUser = async (userId: string, email: string) => {
+        const reason = prompt(`Enter ban reason for ${email}:`, 'Violation of terms');
+        if (reason === null) return; // User cancelled
+        
+        setActionLoading(userId);
+        setMessage(null);
+        
+        const result = await subscriptionService.banUser(userId, reason);
+        
+        if (result.success) {
+            setMessage({ type: 'success', text: `${email} has been banned` });
+            // Refresh the lists
+            if (searchResults.length > 0) {
+                const updated = searchResults.map(u => 
+                    u.id === userId ? { ...u, is_banned: true, ban_reason: reason } : u
+                );
+                setSearchResults(updated);
+            }
+            // Refresh banned users and stats
+            const [newStats, banned] = await Promise.all([
+                subscriptionService.getStats(),
+                subscriptionService.getBannedUsers()
+            ]);
+            setStats(newStats);
+            setBannedUsers(banned);
+        } else {
+            setMessage({ type: 'error', text: result.error || 'Failed to ban user' });
+        }
+        
+        setActionLoading(null);
+    };
+
+    // Unban user
+    const handleUnbanUser = async (userId: string, email: string) => {
+        if (!confirm(`Are you sure you want to unban ${email}? Their violation count will be reset.`)) return;
+        
+        setActionLoading(userId);
+        setMessage(null);
+        
+        const result = await subscriptionService.unbanUser(userId);
+        
+        if (result.success) {
+            setMessage({ type: 'success', text: `${email} has been unbanned` });
+            // Refresh the lists
+            if (searchResults.length > 0) {
+                const updated = searchResults.map(u => 
+                    u.id === userId ? { ...u, is_banned: false, violation_count: 0, ban_reason: undefined } : u
+                );
+                setSearchResults(updated);
+            }
+            // Remove from banned list
+            setBannedUsers(prev => prev.filter(u => u.id !== userId));
+            // Update stats
+            const newStats = await subscriptionService.getStats();
+            setStats(newStats);
+        } else {
+            setMessage({ type: 'error', text: result.error || 'Failed to unban user' });
         }
         
         setActionLoading(null);
@@ -247,7 +313,7 @@ const AdminDashboard: React.FC = () => {
                         }`}
                     >
                         <Search size={16} className="inline mr-2" />
-                        Search Users
+                        Search
                     </button>
                     <button
                         onClick={() => setActiveTab('subscribers')}
@@ -258,7 +324,18 @@ const AdminDashboard: React.FC = () => {
                         }`}
                     >
                         <UserCheck size={16} className="inline mr-2" />
-                        Subscribers ({usersWithAccess.length})
+                        Paid ({usersWithAccess.length})
+                    </button>
+                    <button
+                        onClick={() => setActiveTab('banned')}
+                        className={`flex-1 py-2.5 px-4 rounded-lg font-medium text-sm transition-colors ${
+                            activeTab === 'banned'
+                                ? 'bg-red-600 text-white'
+                                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
+                        }`}
+                    >
+                        <Ban size={16} className="inline mr-2" />
+                        Banned ({bannedUsers.length})
                     </button>
                 </div>
             </div>
@@ -307,6 +384,8 @@ const AdminDashboard: React.FC = () => {
                                         actionLoading={actionLoading}
                                         onGrant={handleGrantAccess}
                                         onRevoke={handleRevokeAccess}
+                                        onBan={handleBanUser}
+                                        onUnban={handleUnbanUser}
                                     />
                                 ))}
                             </div>
@@ -349,6 +428,8 @@ const AdminDashboard: React.FC = () => {
                                         actionLoading={actionLoading}
                                         onGrant={handleGrantAccess}
                                         onRevoke={handleRevokeAccess}
+                                        onBan={handleBanUser}
+                                        onUnban={handleUnbanUser}
                                     />
                                 ))}
                             </div>
@@ -356,6 +437,49 @@ const AdminDashboard: React.FC = () => {
                             <div className="p-8 text-center">
                                 <UserX size={40} className="text-gray-300 dark:text-gray-600 mx-auto mb-3" />
                                 <p className="text-gray-500 dark:text-gray-400">No subscribers yet</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
+
+            {/* Banned Users Tab */}
+            {activeTab === 'banned' && (
+                <div className="max-w-4xl mx-auto px-4 mt-6">
+                    <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700 overflow-hidden">
+                        <div className="p-4 border-b border-gray-100 dark:border-slate-700 flex items-center justify-between">
+                            <h3 className="font-bold text-gray-900 dark:text-white flex items-center gap-2">
+                                <Ban size={18} className="text-red-500" />
+                                Banned Users
+                            </h3>
+                            <button
+                                onClick={async () => {
+                                    const banned = await subscriptionService.getBannedUsers();
+                                    setBannedUsers(banned);
+                                }}
+                                className="text-medical-600 hover:text-medical-700 transition-colors"
+                            >
+                                <RefreshCw size={18} />
+                            </button>
+                        </div>
+                        {bannedUsers.length > 0 ? (
+                            <div className="divide-y divide-gray-100 dark:divide-slate-700">
+                                {bannedUsers.map((user) => (
+                                    <UserRow 
+                                        key={user.id} 
+                                        user={user}
+                                        actionLoading={actionLoading}
+                                        onGrant={handleGrantAccess}
+                                        onRevoke={handleRevokeAccess}
+                                        onBan={handleBanUser}
+                                        onUnban={handleUnbanUser}
+                                    />
+                                ))}
+                            </div>
+                        ) : (
+                            <div className="p-8 text-center">
+                                <CheckCircle size={40} className="text-green-300 dark:text-green-600 mx-auto mb-3" />
+                                <p className="text-gray-500 dark:text-gray-400">No banned users</p>
                             </div>
                         )}
                     </div>
@@ -371,13 +495,15 @@ interface UserRowProps {
     actionLoading: string | null;
     onGrant: (userId: string, email: string) => void;
     onRevoke: (userId: string, email: string) => void;
+    onBan: (userId: string, email: string) => void;
+    onUnban: (userId: string, email: string) => void;
 }
 
-const UserRow: React.FC<UserRowProps> = ({ user, actionLoading, onGrant, onRevoke }) => {
+const UserRow: React.FC<UserRowProps> = ({ user, actionLoading, onGrant, onRevoke, onBan, onUnban }) => {
     return (
         <div className="p-4 flex items-center justify-between hover:bg-gray-50 dark:hover:bg-slate-700/50 transition-colors">
-            <div className="flex items-center gap-3">
-                <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
+            <div className="flex items-center gap-3 flex-1 min-w-0">
+                <div className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
                     user.is_banned 
                         ? 'bg-red-100 dark:bg-red-900/20' 
                         : user.has_preproff_access 
@@ -392,62 +518,86 @@ const UserRow: React.FC<UserRowProps> = ({ user, actionLoading, onGrant, onRevok
                         <Users size={18} className="text-gray-500 dark:text-gray-400" />
                     )}
                 </div>
-                <div>
-                    <div className="font-medium text-gray-900 dark:text-white text-sm">
+                <div className="min-w-0 flex-1">
+                    <div className="font-medium text-gray-900 dark:text-white text-sm truncate">
                         {user.email}
                     </div>
-                    <div className="flex items-center gap-2 text-xs">
+                    <div className="flex flex-wrap items-center gap-2 text-xs">
                         {user.is_banned && (
                             <span className="text-red-600 dark:text-red-400 flex items-center gap-1">
                                 <AlertTriangle size={12} />
-                                Banned
+                                Banned{user.ban_reason ? `: ${user.ban_reason}` : ''}
                             </span>
                         )}
-                        {user.has_preproff_access && (
+                        {user.has_preproff_access && !user.is_banned && (
                             <span className="text-green-600 dark:text-green-400">
                                 ✓ Has Access
                             </span>
                         )}
-                        {user.violation_count > 0 && (
+                        {user.violation_count > 0 && !user.is_banned && (
                             <span className="text-amber-600 dark:text-amber-400">
-                                {user.violation_count} violations
-                            </span>
-                        )}
-                        {user.preproff_access_granted_at && (
-                            <span className="text-gray-400">
-                                Since {new Date(user.preproff_access_granted_at).toLocaleDateString()}
+                                ⚠ {user.violation_count} violations
                             </span>
                         )}
                     </div>
                 </div>
             </div>
-            <div className="flex items-center gap-2">
-                {user.has_preproff_access ? (
+            <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                {/* Ban/Unban Button */}
+                {user.is_banned ? (
                     <button
-                        onClick={() => onRevoke(user.id, user.email)}
+                        onClick={() => onUnban(user.id, user.email)}
                         disabled={actionLoading === user.id}
-                        className="px-3 py-1.5 bg-red-100 dark:bg-red-900/20 text-red-600 dark:text-red-400 rounded-lg text-sm font-medium hover:bg-red-200 dark:hover:bg-red-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                        className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                        title="Unban user"
                     >
                         {actionLoading === user.id ? (
                             <Loader2 size={14} className="animate-spin" />
                         ) : (
-                            <XCircle size={14} />
+                            <UserCheck size={14} />
                         )}
-                        Revoke
+                        Unban
                     </button>
                 ) : (
-                    <button
-                        onClick={() => onGrant(user.id, user.email)}
-                        disabled={actionLoading === user.id || user.is_banned}
-                        className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
-                    >
-                        {actionLoading === user.id ? (
-                            <Loader2 size={14} className="animate-spin" />
+                    <>
+                        {/* Access Grant/Revoke */}
+                        {user.has_preproff_access ? (
+                            <button
+                                onClick={() => onRevoke(user.id, user.email)}
+                                disabled={actionLoading === user.id}
+                                className="px-3 py-1.5 bg-amber-100 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 rounded-lg text-sm font-medium hover:bg-amber-200 dark:hover:bg-amber-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                            >
+                                {actionLoading === user.id ? (
+                                    <Loader2 size={14} className="animate-spin" />
+                                ) : (
+                                    <XCircle size={14} />
+                                )}
+                                Revoke
+                            </button>
                         ) : (
-                            <CheckCircle size={14} />
+                            <button
+                                onClick={() => onGrant(user.id, user.email)}
+                                disabled={actionLoading === user.id}
+                                className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                            >
+                                {actionLoading === user.id ? (
+                                    <Loader2 size={14} className="animate-spin" />
+                                ) : (
+                                    <CheckCircle size={14} />
+                                )}
+                                Grant
+                            </button>
                         )}
-                        Grant Access
-                    </button>
+                        {/* Ban Button */}
+                        <button
+                            onClick={() => onBan(user.id, user.email)}
+                            disabled={actionLoading === user.id}
+                            className="px-3 py-1.5 bg-red-100 dark:bg-red-900/20 text-red-600 dark:text-red-400 rounded-lg text-sm font-medium hover:bg-red-200 dark:hover:bg-red-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                            title="Ban user"
+                        >
+                            <Ban size={14} />
+                        </button>
+                    </>
                 )}
             </div>
         </div>

@@ -16,6 +16,8 @@ export interface UserProfile {
   is_admin: boolean;
   is_banned: boolean;
   violation_count: number;
+  ban_reason?: string;
+  banned_at?: string;
   created_at?: string;
 }
 
@@ -287,6 +289,106 @@ class SubscriptionService {
     } catch (e) {
       console.error('Failed to get stats:', e);
       return { totalUsers: 0, usersWithAccess: 0, bannedUsers: 0 };
+    }
+  }
+
+  /**
+   * Unban a user (admin only)
+   */
+  async unbanUser(userId: string): Promise<{ success: boolean; error?: string }> {
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) {
+        return { success: false, error: 'Not authenticated' };
+      }
+
+      const isAdmin = await this.isAdmin();
+      if (!isAdmin) {
+        return { success: false, error: 'Only admins can unban users' };
+      }
+
+      // Update profile to unban
+      const { error: updateError } = await supabase
+        .from('profiles')
+        .update({
+          is_banned: false,
+          ban_reason: null,
+          banned_at: null,
+          violation_count: 0 // Reset violation count
+        })
+        .eq('id', userId);
+
+      if (updateError) throw updateError;
+
+      // Also clear their device session to force re-login
+      await supabase
+        .from('device_sessions')
+        .delete()
+        .eq('user_id', userId);
+
+      return { success: true };
+    } catch (e: any) {
+      console.error('Failed to unban user:', e);
+      return { success: false, error: e.message };
+    }
+  }
+
+  /**
+   * Ban a user (admin only)
+   */
+  async banUser(userId: string, reason?: string): Promise<{ success: boolean; error?: string }> {
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) {
+        return { success: false, error: 'Not authenticated' };
+      }
+
+      const isAdmin = await this.isAdmin();
+      if (!isAdmin) {
+        return { success: false, error: 'Only admins can ban users' };
+      }
+
+      // Update profile to ban
+      const { error: updateError } = await supabase
+        .from('profiles')
+        .update({
+          is_banned: true,
+          ban_reason: reason || 'Banned by admin',
+          banned_at: new Date().toISOString()
+        })
+        .eq('id', userId);
+
+      if (updateError) throw updateError;
+
+      // Clear their device session to force logout
+      await supabase
+        .from('device_sessions')
+        .delete()
+        .eq('user_id', userId);
+
+      return { success: true };
+    } catch (e: any) {
+      console.error('Failed to ban user:', e);
+      return { success: false, error: e.message };
+    }
+  }
+
+  /**
+   * Get all banned users (admin only)
+   */
+  async getBannedUsers(): Promise<UserProfile[]> {
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('id, email, full_name, has_preproff_access, preproff_access_granted_at, is_admin, is_banned, violation_count, ban_reason, banned_at')
+        .eq('is_banned', true)
+        .order('banned_at', { ascending: false });
+
+      if (error) throw error;
+      return (data || []) as UserProfile[];
+    } catch (e) {
+      console.error('Failed to get banned users:', e);
+      return [];
     }
   }
 }
