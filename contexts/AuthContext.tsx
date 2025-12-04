@@ -244,11 +244,41 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, [initialLoadComplete]);
 
     const signOut = async () => {
-        // Clear device session before signing out
-        if (user) {
-            await deviceSessionService.clearSession(user.id);
+        try {
+            // Clear the periodic session check interval first
+            if ((window as any).__sessionCheckInterval) {
+                clearInterval((window as any).__sessionCheckInterval);
+                (window as any).__sessionCheckInterval = null;
+            }
+            
+            // Clear device session before signing out (don't await to avoid blocking)
+            if (user) {
+                deviceSessionService.clearSession(user.id).catch(err => {
+                    console.warn('Failed to clear device session:', err);
+                });
+            }
+            
+            // Clear local session token immediately
+            deviceSessionService.clearSessionToken();
+            
+            // Clear local state immediately for faster UI response
+            setUser(null);
+            setSession(null);
+            setIsSessionValid(true);
+            setIsBanned(false);
+            setBanReason(undefined);
+            setSessionInvalidated(false);
+            setInitialLoadComplete(false);
+            
+            // Sign out from Supabase
+            await supabase.auth.signOut();
+        } catch (error) {
+            console.error('Sign out error:', error);
+            // Even if there's an error, clear local state
+            setUser(null);
+            setSession(null);
+            deviceSessionService.clearSessionToken();
         }
-        await supabase.auth.signOut();
     };
 
     const value = {

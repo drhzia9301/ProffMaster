@@ -15,9 +15,15 @@ const Header: React.FC = () => {
     setIsLoggingOut(true);
     try {
       await signOut();
-      navigate('/', { replace: true });
+      // Navigate to login page after logout
+      // Use setTimeout to ensure state is cleared first
+      setTimeout(() => {
+        navigate('/login', { replace: true });
+      }, 100);
     } catch (error) {
       console.error('Sign out error:', error);
+      // Still try to navigate even if there's an error
+      navigate('/login', { replace: true });
     } finally {
       setIsLoggingOut(false);
     }
