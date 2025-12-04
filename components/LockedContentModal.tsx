@@ -53,6 +53,13 @@ const LockedContentModal: React.FC<LockedContentModalProps> = ({
             </p>
           </div>
 
+          {/* Why this fee */}
+          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-3 border border-blue-200 dark:border-blue-800">
+            <p className="text-sm text-blue-700 dark:text-blue-300">
+              <span className="font-semibold">💙 Why this fee?</span> We've tried to keep most of the app free, but with a growing number of users, it's become difficult to maintain the app and databases alone. This is a small maintenance charge to keep ProffMaster running smoothly for everyone.
+            </p>
+          </div>
+
           {/* Price */}
           <div className="text-center py-2">
             <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">One-time Payment</div>

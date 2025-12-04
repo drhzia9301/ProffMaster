@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { APP_VERSION } from '../constants';
-import { X, Sparkles, Zap, BookOpen, Moon, Smartphone, Bug } from 'lucide-react';
+import { X, Sparkles, Zap, BookOpen, Bug } from 'lucide-react';
 
 const STORAGE_KEY_WHATS_NEW = 'last_seen_whats_new_version';
 
@@ -46,6 +46,24 @@ export const WhatsNewModal: React.FC = () => {
                 {/* Content */}
                 <div className="p-6 space-y-4 max-h-[60vh] overflow-y-auto">
 
+                    {/* Highlight - Preproff Papers */}
+                    <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-xl p-4 border border-amber-200 dark:border-amber-700">
+                        <div className="flex gap-4 items-start">
+                            <div className="bg-gradient-to-br from-amber-500 to-orange-500 p-2 rounded-lg text-white shrink-0 shadow-lg">
+                                <Zap size={24} />
+                            </div>
+                            <div>
+                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 38 Preproff Papers Added!</h3>
+                                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                                    Access preproff papers from <span className="font-semibold">2023, 2024 & 2025</span> across all blocks (J, K, L, M1, M2) from KMC, KGMC, WMC, GMC, and NWSM.
+                                </p>
+                                <p className="text-xs text-amber-600 dark:text-amber-400 mt-2 font-medium">
+                                    📚 3,500+ questions with detailed explanations!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="flex gap-4 items-start">
                         <div className="bg-indigo-100 dark:bg-indigo-900/30 p-2 rounded-lg text-indigo-600 dark:text-indigo-400 shrink-0">
                             <Sparkles size={20} />
@@ -67,42 +85,12 @@ export const WhatsNewModal: React.FC = () => {
                     </div>
 
                     <div className="flex gap-4 items-start">
-                        <div className="bg-orange-100 dark:bg-orange-900/30 p-2 rounded-lg text-orange-600 dark:text-orange-400 shrink-0">
-                            <Zap size={20} />
-                        </div>
-                        <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">KMC Pre-Proffs</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Access past papers and pre-proff questions from KMC.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex gap-4 items-start">
-                        <div className="bg-slate-100 dark:bg-slate-700 p-2 rounded-lg text-slate-600 dark:text-slate-300 shrink-0">
-                            <Moon size={20} />
-                        </div>
-                        <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">Dark Mode</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Easy on the eyes. Toggle it in Settings.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex gap-4 items-start">
-                        <div className="bg-purple-100 dark:bg-purple-900/30 p-2 rounded-lg text-purple-600 dark:text-purple-400 shrink-0">
-                            <Smartphone size={20} />
-                        </div>
-                        <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">Haptics</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Feel the app respond to your interactions. Configurable in Settings.</p>
-                        </div>
-                    </div>
-
-                    <div className="flex gap-4 items-start">
                         <div className="bg-red-100 dark:bg-red-900/30 p-2 rounded-lg text-red-600 dark:text-red-400 shrink-0">
                             <Bug size={20} />
                         </div>
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">Bug Fixes</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Smoother performance and UI improvements.</p>
+                            <h3 className="font-bold text-gray-900 dark:text-white">Bug Fixes & Improvements</h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">Fixed header display on mobile, spelling corrections, and UI improvements.</p>
                         </div>
                     </div>
 

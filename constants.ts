@@ -1,6 +1,6 @@
 import { Question, Subject } from './types';
 
-export const APP_VERSION = '1.1.0'; // Increment this to force cache clear on update
+export const APP_VERSION = '1.2.1'; // Increment this to force cache clear on update
 
 // =====================================================
 // App Configuration
