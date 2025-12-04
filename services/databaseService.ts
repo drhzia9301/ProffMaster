@@ -246,6 +246,107 @@ export class DatabaseService {
         return this.transformResults(result);
     }
 
+    private parseSqlInserts(sqlText: string): any[] {
+        const questions: any[] = [];
+        
+        // Match INSERT statements
+        // Format: INSERT INTO preproff (text, options, correct_index, explanation, subject, topic, difficulty, block, college, year) VALUES ('...', '...', ...);
+        const insertRegex = /INSERT INTO preproff[^(]*\([^)]+\)\s*VALUES\s*\(([^;]+)\);/gi;
+        
+        let match;
+        while ((match = insertRegex.exec(sqlText)) !== null) {
+            try {
+                const valuesStr = match[1];
+                
+                // Parse the values - handle escaped quotes
+                const values: string[] = [];
+                let current = '';
+                let inQuote = false;
+                let i = 0;
+                
+                while (i < valuesStr.length) {
+                    const char = valuesStr[i];
+                    
+                    if (char === "'" && !inQuote) {
+                        inQuote = true;
+                        i++;
+                        continue;
+                    }
+                    
+                    if (char === "'" && inQuote) {
+                        // Check for escaped quote ('')
+                        if (valuesStr[i + 1] === "'") {
+                            current += "'";
+                            i += 2;
+                            continue;
+                        }
+                        // End of quoted value
+                        inQuote = false;
+                        values.push(current);
+                        current = '';
+                        i++;
+                        continue;
+                    }
+                    
+                    if (char === ',' && !inQuote) {
+                        // If we have unquoted content, it's a number
+                        const trimmed = current.trim();
+                        if (trimmed) {
+                            values.push(trimmed);
+                        }
+                        current = '';
+                        i++;
+                        continue;
+                    }
+                    
+                    if (inQuote || (char !== ' ' && char !== '\n' && char !== '\r')) {
+                        current += char;
+                    }
+                    i++;
+                }
+                
+                // Don't forget last value
+                if (current.trim()) {
+                    values.push(current.trim());
+                }
+                
+                // Values order: text, options, correct_index, explanation, subject, topic, difficulty, block, college, year
+                if (values.length >= 4) {
+                    const text = values[0];
+                    let options: string[] = [];
+                    
+                    try {
+                        // Options are stored as JSON string
+                        options = JSON.parse(values[1].replace(/''/g, "'"));
+                    } catch (e) {
+                        // Try parsing as simple array
+                        options = values[1].replace(/^\[|\]$/g, '').split(',').map(s => s.trim().replace(/^"|"$/g, ''));
+                    }
+                    
+                    const correctIndex = parseInt(values[2], 10) || 0;
+                    const explanation = values[3] || '';
+                    
+                    // Extract year from the 10th value (index 9) if available
+                    const questionYear = values.length >= 10 ? values[9] : '';
+                    
+                    questions.push({
+                        question: text,
+                        text: text,
+                        options: options,
+                        answer: String.fromCharCode(97 + correctIndex), // Convert 0 -> 'a', 1 -> 'b', etc.
+                        correctIndex: correctIndex,
+                        explanation: explanation,
+                        year: questionYear
+                    });
+                }
+            } catch (e) {
+                console.error('Error parsing SQL INSERT:', e);
+            }
+        }
+        
+        return questions;
+    }
+
     private async fetchAndDecrypt(url: string): Promise<string> {
         const response = await fetch(url);
         if (!response.ok) {
@@ -290,34 +391,42 @@ export class DatabaseService {
                 let parsed = JSON.parse(text);
                 if (Array.isArray(parsed)) rawQuestions = parsed.flat();
             } catch (jsonError) {
-                // Fallback to text parsing if JSON fails
-                console.log("JSON parse failed, attempting text parsing...");
-                const questionRegex = /Question:\s*(.*?)\s*Options:\s*(.*?)(?=\nQuestion:|$)/gs;
-                let match;
-                while ((match = questionRegex.exec(text)) !== null) {
-                    const questionText = match[1].trim();
-                    const optionsText = match[2].trim();
-                    // Split options by comma, but handle cases where commas are inside options?
-                    // Simple split for now, assuming comma separated
-                    const options = optionsText.split(',').map(o => o.trim());
+                // Check if it's SQL INSERT statements
+                if (text.includes('INSERT INTO preproff')) {
+                    console.log("Detected SQL format, parsing INSERT statements...");
+                    rawQuestions = this.parseSqlInserts(text);
+                } else {
+                    // Fallback to text parsing if JSON fails
+                    console.log("JSON parse failed, attempting text parsing...");
+                    const questionRegex = /Question:\s*(.*?)\s*Options:\s*(.*?)(?=\nQuestion:|$)/gs;
+                    let match;
+                    while ((match = questionRegex.exec(text)) !== null) {
+                        const questionText = match[1].trim();
+                        const optionsText = match[2].trim();
+                        const options = optionsText.split(',').map(o => o.trim());
 
-                    if (questionText && options.length > 1) {
-                        rawQuestions.push({
-                            text: questionText,
-                            options: options,
-                            // We don't have correct index or explanation in this simple text format
-                            // Defaulting to 0 and empty explanation
-                            correctIndex: 0,
-                            explanation: ""
-                        });
+                        if (questionText && options.length > 1) {
+                            rawQuestions.push({
+                                text: questionText,
+                                options: options,
+                                correctIndex: 0,
+                                explanation: "",
+                                year: year
+                            });
+                        }
                     }
                 }
             }
 
             rawQuestions = rawQuestions.filter((q: any) => q && q.options && Array.isArray(q.options));
+            
+            // Filter by year - each question now has a year property from parseSqlInserts
+            const questionsForYear = rawQuestions.filter((q: any) => q.year === year || !q.year);
+            
+            console.log(`Total questions in file: ${rawQuestions.length}, for year ${year}: ${questionsForYear.length}`);
 
-            if (count !== rawQuestions.length) {
-                console.log(`Local count (${count}) differs from file count (${rawQuestions.length}). Re-importing...`);
+            if (count !== questionsForYear.length) {
+                console.log(`Local count (${count}) differs from file count for year ${year} (${questionsForYear.length}). Re-importing...`);
                 // Delete existing for this block to ensure clean state
                 this.db.run(`DELETE FROM preproff_questions WHERE block = ? AND college = ? AND year = ?`, [block, college, year]);
                 await this.importPreproffQuestions(block, college, year);
@@ -348,21 +457,28 @@ export class DatabaseService {
                 let parsed = JSON.parse(text);
                 if (Array.isArray(parsed)) rawQuestions = parsed.flat();
             } catch (jsonError) {
-                console.log("JSON parse failed during import, attempting text parsing...");
-                const questionRegex = /Question:\s*(.*?)\s*Options:\s*(.*?)(?=\nQuestion:|$)/gs;
-                let match;
-                while ((match = questionRegex.exec(text)) !== null) {
-                    const questionText = match[1].trim();
-                    const optionsText = match[2].trim();
-                    const options = optionsText.split(',').map(o => o.trim());
+                // Check if it's SQL INSERT statements
+                if (text.includes('INSERT INTO preproff')) {
+                    console.log("Detected SQL format during import, parsing INSERT statements...");
+                    rawQuestions = this.parseSqlInserts(text);
+                } else {
+                    console.log("JSON parse failed during import, attempting text parsing...");
+                    const questionRegex = /Question:\s*(.*?)\s*Options:\s*(.*?)(?=\nQuestion:|$)/gs;
+                    let match;
+                    while ((match = questionRegex.exec(text)) !== null) {
+                        const questionText = match[1].trim();
+                        const optionsText = match[2].trim();
+                        const options = optionsText.split(',').map(o => o.trim());
 
-                    if (questionText && options.length > 1) {
-                        rawQuestions.push({
-                            text: questionText,
-                            options: options,
-                            correctIndex: 0,
-                            explanation: ""
-                        });
+                        if (questionText && options.length > 1) {
+                            rawQuestions.push({
+                                text: questionText,
+                                options: options,
+                                correctIndex: 0,
+                                explanation: "",
+                                year: year
+                            });
+                        }
                     }
                 }
             }
@@ -374,8 +490,11 @@ export class DatabaseService {
 
             // Filter out invalid questions
             rawQuestions = rawQuestions.filter((q: any) => q && q.options && Array.isArray(q.options));
+            
+            // Filter by the requested year
+            const questionsForYear = rawQuestions.filter((q: any) => q.year === year || !q.year);
 
-            console.log(`Importing ${rawQuestions.length} questions...`);
+            console.log(`Total in file: ${rawQuestions.length}, for year ${year}: ${questionsForYear.length}. Importing...`);
 
             const stmt = this.db.prepare(`
                 INSERT OR REPLACE INTO preproff_questions 
@@ -385,27 +504,36 @@ export class DatabaseService {
 
             this.db.exec('BEGIN TRANSACTION');
 
-            for (const q of rawQuestions) {
+            let idx = 0;
+            for (const q of questionsForYear) {
                 // Transform Data
                 // 1. Options: Remove "A. ", "B. " etc.
                 const cleanOptions = q.options.map((opt: string) => opt.replace(/^[A-E]\.\s*/, ''));
 
-                // 2. Answer: Convert "A", "B" to index 0, 1
-                const answerMap: Record<string, number> = { 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4 };
-                const correctIndex = answerMap[q.answer] ?? 0;
+                // 2. Get correct index - either from pre-parsed correctIndex or from answer letter
+                const answerMap: Record<string, number> = { 'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4 };
+                const correctIndex = q.correctIndex ?? answerMap[q.answer] ?? 0;
+
+                // Use text or question field
+                const questionText = q.text || q.question || '';
+
+                // Generate unique ID using the question's year
+                const questionYear = q.year || year;
+                const uniqueId = `${college}_${questionYear}_${idx}`;
+                idx++;
 
                 stmt.run([
-                    `${college}_${year}_${q.id}`, // Unique ID
-                    q.question,
+                    uniqueId,
+                    questionText,
                     JSON.stringify(cleanOptions),
                     correctIndex,
-                    q.explanation,
-                    block, // Subject = Block for now
-                    block, // Topic
+                    q.explanation || '',
+                    block,
+                    block,
                     'Medium',
                     block,
                     college,
-                    year
+                    questionYear
                 ]);
             }
 

@@ -14,21 +14,19 @@ const Header: React.FC = () => {
   return (
     <header className="bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-slate-800 sticky top-0 z-30 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate('/')}>
-          <div className="bg-medical-600 p-1.5 rounded-lg text-white">
+        <div className="flex items-center gap-2 cursor-pointer min-w-0 flex-shrink-0" onClick={() => navigate('/')}>
+          <div className="bg-medical-600 p-1.5 rounded-lg text-white flex-shrink-0">
             <Stethoscope size={24} />
           </div>
-          <div className="flex flex-col">
-            <h1 className="text-xl font-bold text-gray-900 dark:text-white tracking-tight leading-none">
+          <div className="flex flex-col min-w-0">
+            <h1 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white tracking-tight leading-none whitespace-nowrap">
               Proff<span className="text-medical-600 dark:text-medical-500">Master</span>
             </h1>
-            <p className="text-[10px] text-gray-500 dark:text-gray-400 font-medium leading-tight">Made by Muhammad Haroon, MS4, SMC</p>
+            <p className="text-[9px] sm:text-[10px] text-gray-500 dark:text-gray-400 font-medium leading-tight truncate">Made by Muhammad Haroon, MS4, SMC</p>
           </div>
         </div>
-        <div className="flex items-center gap-4">
-
-
-          <div className="h-6 w-px bg-gray-200 dark:bg-slate-700 mx-1"></div>
+        <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
+          <div className="h-6 w-px bg-gray-200 dark:bg-slate-700 hidden sm:block"></div>
 
           {user ? (
             <div className="flex items-center gap-3">

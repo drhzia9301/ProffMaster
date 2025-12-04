@@ -11,8 +11,8 @@ import QuestionViewer from './components/QuestionViewer';
 import { SUBJECT_COLORS } from './constants.ts';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Subject, Question, Attempt } from './types';
-import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedQuestionCount, getCachedSubjectCounts, saveAIAttempt, getAIAttempts, toggleAIBookmark, getAIBookmarks, getPreproffAttempts, savePreproffAttempt, getPreproffBookmarks, togglePreproffBookmark, saveCurrentSession, getCurrentSession, clearCurrentSession } from './services/storageService';
-import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart, BookOpen, Shield } from 'lucide-react';
+import { saveAttempt, getAllQuestions, getQuestionsBySubject, getWeakQuestions, getAttempts, getBookmarks, toggleBookmark, getCachedQuestionCount, getCachedSubjectCounts, saveAIAttempt, getAIAttempts, toggleAIBookmark, getAIBookmarks, getPreproffAttempts, savePreproffAttempt, getPreproffBookmarks, togglePreproffBookmark, saveCurrentSession, getCurrentSession, clearCurrentSession, generateSessionId, sessionMatchesState, QuizSessionState } from './services/storageService';
+import { ArrowRight, Play, Book, Clock, Search, AlertTriangle, BrainCircuit, CheckCircle2, Trophy, Settings, Sliders, Filter, CheckSquare, Square, LogIn, Sparkles, Skull, Activity, FlaskConical, Microscope, Pill, Stethoscope, Scissors, Eye, Ear, Users, Scale, Baby, Brain, Heart, BookOpen, Shield, X, LogOut } from 'lucide-react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Login from './components/Login';
 import SelectionPage from './components/SelectionPage';
@@ -32,6 +32,9 @@ import NotesPage from './components/NotesPage';
 import { notesService } from './services/notesService';
 import NoteGenerationModal from './components/NoteGenerationModal';
 import { WhatsNewModal } from './components/WhatsNewModal';
+import SessionInvalidatedModal from './components/SessionInvalidatedModal';
+import BannedUserModal from './components/BannedUserModal';
+import AdminDashboard from './components/AdminDashboard';
 
 const SUBJECT_ICONS: Record<string, React.ElementType> = {
   [Subject.ENT]: Ear,
@@ -642,7 +645,11 @@ const QuizSession = () => {
   // Track if we've already saved this session's paper to prevent duplicates
   const hasSavedPaper = useRef(false);
 
-
+  // Session persistence state
+  const [sessionId, setSessionId] = useState<string>('');
+  const [isRestoringSession, setIsRestoringSession] = useState(false);
+  const [showEndSessionConfirm, setShowEndSessionConfirm] = useState(false);
+  const sessionInitialized = useRef(false);
 
   // Determine the type of quiz for storage keys
   const type = location.state?.type || (aiConfig ? 'ai_generated' : (block ? 'preproff' : 'main'));
@@ -656,18 +663,126 @@ const QuizSession = () => {
     }
   }, [isFinished]);
 
+  // --- Session Persistence Logic ---
+  
+  // Save session on every meaningful state change
+  useEffect(() => {
+    // Don't save if session isn't initialized, or if finished, or still loading, or restoring
+    if (!sessionId || !sessionInitialized.current || isFinished || loading || isRestoringSession) {
+      return;
+    }
+    
+    // Don't save empty sessions
+    if (questions.length === 0) {
+      return;
+    }
+
+    const sessionState: QuizSessionState = {
+      sessionId,
+      questions,
+      currentIndex,
+      score,
+      mistakes,
+      sessionAttempts,
+      timeLimit,
+      startTime: Date.now(), // Will be used for elapsed time calculation
+      type,
+      config: {
+        subject,
+        block,
+        college: location.state?.college,
+        year: location.state?.year,
+        aiConfig,
+        filter,
+        mode,
+        questionCount
+      }
+    };
+
+    saveCurrentSession(sessionState);
+  }, [sessionId, questions, currentIndex, score, mistakes, sessionAttempts, isFinished, loading, isRestoringSession]);
+
+  // End session handler
+  const handleEndSession = () => {
+    clearCurrentSession();
+    navigate('/');
+  };
+
   useEffect(() => {
     const loadQuizQuestions = async () => {
+      // Check for saved session first
+      const savedSession = getCurrentSession();
+      
+      // If we have a saved session that matches current navigation state, restore it
+      if (savedSession && sessionMatchesState(savedSession, location.state) && !sessionInitialized.current) {
+        console.log('Restoring saved session:', savedSession.sessionId);
+        setIsRestoringSession(true);
+        
+        setQuestions(savedSession.questions);
+        setCurrentIndex(savedSession.currentIndex);
+        setScore(savedSession.score);
+        setMistakes(savedSession.mistakes);
+        setSessionAttempts(savedSession.sessionAttempts);
+        if (savedSession.timeLimit) {
+          setTimeLimit(savedSession.timeLimit);
+        }
+        setSessionId(savedSession.sessionId);
+        
+        // Load bookmarks/attempts for the restored session
+        if (savedSession.type === 'ai_generated') {
+          setAttempts(getAIAttempts());
+          setBookmarks(getAIBookmarks());
+        } else if (savedSession.type === 'preproff') {
+          setAttempts(getPreproffAttempts());
+          setBookmarks(getPreproffBookmarks());
+        } else {
+          setAttempts(getAttempts());
+          setBookmarks(getBookmarks());
+        }
+        
+        sessionInitialized.current = true;
+        setIsRestoringSession(false);
+        setLoading(false);
+        return;
+      }
+      
+      // Clear any old session that doesn't match
+      if (savedSession && !sessionMatchesState(savedSession, location.state)) {
+        console.log('Clearing old non-matching session');
+        clearCurrentSession();
+      }
+      
+      // Generate new session ID for new sessions
+      const newSessionId = generateSessionId(location.state);
+      setSessionId(newSessionId);
+      
       setLoading(true);
 
       let loadedQuestions: Question[] = [];
 
-      console.log("Loading Quiz Questions...", { type, mode, hasReviewQuestions: !!reviewQuestions, aiConfig });
+      console.log("Loading Quiz Questions...", { type, mode, hasReviewQuestions: !!reviewQuestions, aiConfig, filter });
 
       // 1. Review Mode or Pre-loaded Questions (e.g. Saved AI Paper)
       if (reviewQuestions && reviewQuestions.length > 0) {
         console.log("Using pre-loaded questions:", reviewQuestions.length);
         loadedQuestions = reviewQuestions;
+
+        // Apply filters for AI generated saved papers
+        if (type === 'ai_generated' && filter && filter !== 'all') {
+          if (filter === 'incorrect') {
+            const aiAttempts = getAIAttempts();
+            loadedQuestions = loadedQuestions.filter(q => {
+              const qAttempts = aiAttempts[q.id];
+              // Check if the LAST attempt was incorrect
+              return qAttempts && qAttempts.length > 0 && !qAttempts[qAttempts.length - 1].isCorrect;
+            });
+            console.log("Filtered to incorrect questions:", loadedQuestions.length);
+          } else if (filter === 'favorites') {
+            const aiBookmarks = getAIBookmarks();
+            loadedQuestions = loadedQuestions.filter(q => aiBookmarks.includes(q.id));
+            console.log("Filtered to favorite questions:", loadedQuestions.length);
+          }
+        }
       }
       // 2. Single Question Mode (from Search)
       else if (questionId) {
@@ -801,6 +916,7 @@ const QuizSession = () => {
       }
 
       setQuestions(loadedQuestions);
+      sessionInitialized.current = true;
       setLoading(false);
     };
 
@@ -1031,10 +1147,50 @@ const QuizSession = () => {
 
   return (
     <div className="pb-24">
+      {/* End Session Confirmation Modal */}
+      {showEndSessionConfirm && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+                <LogOut size={24} className="text-red-600" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900">End Session?</h3>
+            </div>
+            <p className="text-gray-600 mb-6">
+              Your progress will be saved. You can continue this session later if you come back to the same quiz.
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowEndSessionConfirm(false)}
+                className="flex-1 px-4 py-3 border border-gray-200 rounded-xl font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Continue Quiz
+              </button>
+              <button
+                onClick={handleEndSession}
+                className="flex-1 px-4 py-3 bg-red-600 text-white rounded-xl font-medium hover:bg-red-700"
+              >
+                End Session
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Top Bar */}
       <div className="flex items-center justify-between mb-6">
-        <div className="text-xs font-medium text-gray-500">
-          Question {currentIndex + 1} / {questions.length}
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setShowEndSessionConfirm(true)}
+            className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600"
+            title="End Session"
+          >
+            <X size={18} />
+          </button>
+          <div className="text-xs font-medium text-gray-500">
+            Question {currentIndex + 1} / {questions.length}
+          </div>
         </div>
 
         {mode === 'exam' && timeLimit && (
@@ -1203,6 +1359,11 @@ const App: React.FC = () => {
                       <NotesPage />
                     </ProtectedRoute>
                   } />
+                  <Route path="/admin" element={
+                    <ProtectedRoute>
+                      <AdminDashboard />
+                    </ProtectedRoute>
+                  } />
 
                 </Routes>
               </main>
@@ -1217,9 +1378,20 @@ const App: React.FC = () => {
   );
 };
 
-// Wrapper to handle connection error inside AuthProvider context
+// Wrapper to handle connection error, banned users, and session invalidation inside AuthProvider context
 const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { connectionError } = useAuth();
+  const { connectionError, isBanned, banReason, sessionInvalidated, setSessionInvalidated, signOut } = useAuth();
+  const navigate = useNavigate();
+
+  const handleContactSupport = () => {
+    window.location.href = 'mailto:support@proffmaster.com?subject=Account%20Ban%20Appeal';
+  };
+
+  const handleRelogin = async () => {
+    setSessionInvalidated(false);
+    await signOut();
+    navigate('/login');
+  };
 
   if (connectionError) {
     return (
@@ -1250,7 +1422,24 @@ const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     );
   }
 
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      
+      {/* Banned User Modal */}
+      <BannedUserModal
+        isOpen={isBanned}
+        reason={banReason}
+        onContactSupport={handleContactSupport}
+      />
+
+      {/* Session Invalidated Modal (logged out because of login on another device) */}
+      <SessionInvalidatedModal
+        isOpen={sessionInvalidated}
+        onRelogin={handleRelogin}
+      />
+    </>
+  );
 };
 
 export default App;

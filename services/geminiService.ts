@@ -283,17 +283,21 @@ export const generateQuiz = async (
       try {
         const allLocalQuestions = await dbService.getAllQuestions();
         if (allLocalQuestions.length > 0) {
-          // Pick 3 random questions
+          // Pick 5 random questions for better style training
           const examples = allLocalQuestions
             .sort(() => 0.5 - Math.random())
-            .slice(0, 3)
-            .map(q => `- Question: ${q.text}\n  Options: ${q.options.join(', ')}`);
+            .slice(0, 5)
+            .map(q => `Question: ${q.text}\nOptions:\nA. ${q.options[0]}\nB. ${q.options[1]}\nC. ${q.options[2]}\nD. ${q.options[3]}`);
 
           styleExamples = `
-          Here are examples of the style, difficulty, and formatting of questions I want you to mimic:
-          ${examples.join('\n\n')}
+          STYLE REFERENCE - These are REAL KMU Prof exam questions. Match this EXACT style, difficulty, and format:
           
-          Please ensure the new questions match this clinical vignette style and difficulty level.
+          ${examples.join('\n\n---\n\n')}
+          
+          KEY STYLE POINTS:
+          - Match the clinical vignette style and length
+          - Use similar medical terminology level
+          - Match the difficulty (Prof exam level)
           `;
         }
       } catch (e) {
@@ -303,9 +307,9 @@ export const generateQuiz = async (
       onProgress?.('Generating custom quiz...');
       const questionCount = count || 10;
       const prompt = `
-        Context: Medical Student Exam Preparation (MBBS).
+        Context: Medical Student Exam Preparation (MBBS) - KMU Prof Exam Style.
         Task: Generate a custom quiz for MBBS Block: ${block}. Focus specifically on the topic: "${topic}".
-        Requirement: Generate ${questionCount} multiple choice questions.
+        Requirement: Generate EXACTLY ${questionCount} multiple choice questions.
         
         ${styleExamples}
 
@@ -365,6 +369,10 @@ export const generateQuiz = async (
         console.error('Error loading syllabus:', e);
       }
 
+      // Fetch style examples from KMU question bank for each subject
+      onProgress?.('Loading KMU style examples...');
+      const allLocalQuestions = await dbService.getAllQuestions();
+      
       const allQuestions: Question[] = [];
 
       let totalGenerated = 0;
@@ -374,64 +382,146 @@ export const generateQuiz = async (
         console.log(`Generating ${qCount} questions for ${subject}...`);
         onProgress?.(`Generating ${subject} (${qCount} questions)... ${Math.round((totalGenerated / totalTarget) * 100)}%`);
 
-        // Extract relevant syllabus part (naive approach: pass whole syllabus or rely on AI to pick)
-        // Passing 40KB syllabus in every prompt might be okay for Gemini 1.5 Flash (1M context), 
-        // but let's be efficient. We'll pass the whole thing as "Reference Material".
-
-        const prompt = `
-          Context: Medical Student Exam Preparation (MBBS) - ${block}.
-          Reference Syllabus:
-          ${syllabusText.slice(0, 30000)} ... (truncated if too long)
-          
-          Task: Generate ${qCount} multiple choice questions for the subject: "${subject}".
-          Strictly follow the syllabus content for this subject.
-          
-          Format: JSON Array of objects with the following structure:
-          [
-            {
-              "id": "unique_id",
-              "text": "Question text here",
-              "options": ["Option A", "Option B", "Option C", "Option D"],
-              "correctIndex": 0, // 0-3
-              "subject": "${subject}", 
-              "tags": ["${block}", "${subject}"],
-              "difficulty": "Medium"
-            }
-          ]
-          
-          Ensure questions are high-quality, clinically relevant, and accurate.
-          Do not include any markdown formatting.
-        `;
-
+        // Get subject-specific style examples from the KMU question bank
+        let styleExamples = '';
         try {
-          const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash', // Using 2.5-flash as requested for consistency and advanced features
-            contents: prompt,
-            config: { responseMimeType: 'application/json' }
-          });
+          const subjectQuestions = allLocalQuestions.filter(q => 
+            q.subject?.toLowerCase() === subject.toLowerCase() ||
+            q.subject?.toLowerCase().includes(subject.toLowerCase()) ||
+            subject.toLowerCase().includes(q.subject?.toLowerCase() || '')
+          );
+          
+          if (subjectQuestions.length > 0) {
+            // Pick 5 random questions from this subject for style training
+            const examples = subjectQuestions
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 5)
+              .map(q => `Question: ${q.text}\nOptions:\nA. ${q.options[0]}\nB. ${q.options[1]}\nC. ${q.options[2]}\nD. ${q.options[3]}\nCorrect: ${String.fromCharCode(65 + q.correctIndex)}`);
 
-          const text = response.text;
-          if (text) {
-            const batch = JSON.parse(text) as Question[];
-            allQuestions.push(...batch);
-            totalGenerated += batch.length;
+            styleExamples = `
+            STYLE REFERENCE - These are REAL KMU Prof exam questions. Match this EXACT style, difficulty, and clinical vignette format:
+            
+            ${examples.join('\n\n---\n\n')}
+            
+            KEY STYLE POINTS TO MATCH:
+            - Use similar clinical scenario/vignette length
+            - Match the medical terminology level
+            - Use similar option formatting and length
+            - Match the difficulty level (these are Prof exam level)
+            `;
+          } else {
+            // Fallback to any subject questions if specific subject not found
+            const examples = allLocalQuestions
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 3)
+              .map(q => `Question: ${q.text}\nOptions: ${q.options.join(' | ')}`);
+            
+            styleExamples = `
+            Match this KMU Prof exam question style:
+            ${examples.join('\n\n')}
+            `;
           }
-        } catch (err) {
-          console.error(`Failed to generate for ${subject}:`, err);
-          // Continue to next subject even if one fails
+        } catch (e) {
+          console.warn('Failed to fetch style examples:', e);
         }
 
-        // Add a small delay to avoid rate limits
+        let subjectQuestions: Question[] = [];
+        let remainingCount = qCount;
+        let attempts = 0;
+        const maxAttempts = 3;
+
+        // Retry loop to ensure we get the exact number of questions
+        while (remainingCount > 0 && attempts < maxAttempts) {
+          attempts++;
+          
+          const prompt = `
+            Context: Medical Student Exam Preparation (MBBS) - ${block} - KMU Prof Exam Style.
+            
+            ${styleExamples}
+            
+            Reference Syllabus:
+            ${syllabusText.slice(0, 25000)}
+            
+            Task: Generate EXACTLY ${remainingCount} multiple choice questions for the subject: "${subject}".
+            ${attempts > 1 ? `IMPORTANT: You previously generated fewer questions than requested. You MUST generate exactly ${remainingCount} questions this time.` : ''}
+            Strictly follow the syllabus content for this subject.
+            
+            CRITICAL REQUIREMENTS:
+            1. Generate EXACTLY ${remainingCount} questions - no more, no less.
+            2. Each question MUST have an "explanation" field with a clear, educational explanation.
+            3. All questions must be unique and not duplicates.
+            4. MATCH THE KMU STYLE shown in the examples above - same difficulty, vignette style, and option formatting.
+            
+            Format: JSON Array of objects with the following structure:
+            [
+              {
+                "id": "unique_id",
+                "text": "Question text here (clinical vignette style matching KMU pattern)",
+                "options": ["Option A", "Option B", "Option C", "Option D"],
+                "correctIndex": 0,
+                "subject": "${subject}", 
+                "tags": ["${block}", "${subject}"],
+                "difficulty": "Medium",
+                "explanation": "Clear explanation of why the correct answer is right. Include the key concept, mechanism, or clinical pearl that makes this answer correct."
+              }
+            ]
+            
+            Ensure questions are high-quality, clinically relevant, and accurate.
+            Do not include any markdown formatting.
+          `;
+
+          try {
+            const response = await ai.models.generateContent({
+              model: 'gemini-2.5-flash',
+              contents: prompt,
+              config: { responseMimeType: 'application/json' }
+            });
+
+            const text = response.text;
+            if (text) {
+              const batch = JSON.parse(text) as Question[];
+              
+              // Ensure all questions have explanations
+              const validBatch = batch.map(q => ({
+                ...q,
+                explanation: q.explanation || `The correct answer is ${q.options[q.correctIndex]}. This is a key concept in ${subject}.`
+              }));
+              
+              subjectQuestions.push(...validBatch);
+              remainingCount -= validBatch.length;
+              console.log(`Got ${validBatch.length} questions for ${subject}, remaining: ${remainingCount}`);
+            }
+          } catch (err) {
+            console.error(`Attempt ${attempts} failed for ${subject}:`, err);
+          }
+
+          // Small delay between attempts
+          if (remainingCount > 0 && attempts < maxAttempts) {
+            await new Promise(resolve => setTimeout(resolve, 500));
+          }
+        }
+
+        // If we still don't have enough after max attempts, log a warning
+        if (remainingCount > 0) {
+          console.warn(`Could only generate ${subjectQuestions.length}/${qCount} questions for ${subject} after ${maxAttempts} attempts`);
+        }
+
+        allQuestions.push(...subjectQuestions);
+        totalGenerated += subjectQuestions.length;
+
+        // Add a small delay to avoid rate limits between subjects
         await new Promise(resolve => setTimeout(resolve, 1000));
       }
 
       onProgress?.('Finalizing paper...');
+      
+      console.log(`Full paper generation complete: ${allQuestions.length}/${totalTarget} questions`);
 
       // Post-process
       return allQuestions.map((q, i) => ({
         ...q,
         id: `ai_full_${Date.now()}_${i}`,
-        subject: q.subject as any // Keep the specific subject (e.g. Pharmacology)
+        subject: q.subject as any
       }));
     }
 

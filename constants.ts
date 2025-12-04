@@ -2,6 +2,20 @@ import { Question, Subject } from './types';
 
 export const APP_VERSION = '1.1.0'; // Increment this to force cache clear on update
 
+// =====================================================
+// App Configuration
+// =====================================================
+export const APP_CONFIG = {
+  // WhatsApp number for payment inquiries (format: country code + number, no +)
+  WHATSAPP_NUMBER: '923169694543',
+  
+  // Support email
+  SUPPORT_EMAIL: 'support@proffmaster.com',
+  
+  // Subscription prices
+  PREPROFF_PRICE: 300, // in PKR
+};
+
 export const SUBJECT_COLORS: Record<Subject, string> = {
   [Subject.ENT]: '#ef4444', // Red
   [Subject.Ophthalmology]: '#f97316', // Orange

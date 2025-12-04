@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 03 months old baby was referred to ENT OPD from Paediatric department with rounded mass over the root of the nose. Mother has noticed that the size of the mass increases while crying. Rest of ENT examination is normal. What is the most probable diagnosis?",
+    "options": [
+      "a) Intra Nasal Glioma",
+      "b) Intra Nasal Teratoma",
+      "c) Meningoencephalocele",
+      "d) Septal Papilloma",
+      "e) Septal Haemangioma"
+    ],
+    "answer": "c",
+    "explanation": "A congenital midline nasal mass that increases in size with crying or straining (Furstenberg's sign) is highly suggestive of a meningoencephalocele, which communicates with the intracranial cavity."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 7 years old child referred from a paediatric unit with swelling and edema of the left eyelid with congestion and redness of the conjunctiva on the same side for the last 3 days. It was diagnosed as cavernous sinus thrombosis due to acute sinusitis. Which type of sinusitis is common in paediatric age?",
+    "options": [
+      "a) Ethmoiditis",
+      "b) Frontal sinus sinusitis",
+      "c) Maxillary sinusitis",
+      "d) Palpebraitis",
+      "e) Sphenoiditis"
+    ],
+    "answer": "a",
+    "explanation": "In children, the ethmoid sinuses are the most developed at birth and are the most common site of acute sinusitis, which can lead to orbital complications like cavernous sinus thrombosis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 45 years old female Type II Diabetic patient presented with left side nasal obstruction, facial and orbital swelling for the last one week. Patient gives history of admission in ICU for COVID 19 one month back. On clinical examination a black necrotic mass covered with thick mucus in the left nasal cavity. Most likely diagnosis in this patient is?",
+    "options": [
+      "a) Atrophic Rhinitis",
+      "b) Bacterial Sinusitis",
+      "c) Fungal Sinusitis",
+      "d) Foreign Body",
+      "e) SinoNasal Carcinoma"
+    ],
+    "answer": "c",
+    "explanation": "The clinical picture of a diabetic patient, post-COVID-19, presenting with facial/orbital swelling and a black necrotic nasal mass is classic for invasive fungal sinusitis, specifically Mucormycosis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "28 years old male presented with history of paroxysmal attacks of sneezing and rhinorrhoea for the last 5 years. He is diagnosed as a case of allergic rhinitis. Which of the following blood tests can be helpful in the diagnosis of the disease?",
+    "options": [
+      "a) Blood Eosinophil Count",
+      "b) Blood Neutrophil Count",
+      "c) Blood Platelet Count",
+      "d) Blood Red cell Count",
+      "e) Total Blood Cells Count"
+    ],
+    "answer": "a",
+    "explanation": "Eosinophilia in the blood is a supportive finding for allergic rhinitis, reflecting the systemic allergic response."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 8 years old girl presented with history of unilateral nasal obstruction for the last one year. According to the patient she has been operated 2 times in the past for the same condition. On nasal examination an Antrochoanal polyp was seen on left side. Best treatment option in this patient is:",
+    "options": [
+      "a) Caldwell luc's operation",
+      "b) Functional Endoscopic Sinus Surgery",
+      "c) External Ethmoidectomy",
+      "d) Intra nasal polypectomy",
+      "e) Intra Nasal Ethmoidectomy"
+    ],
+    "answer": "b",
+    "explanation": "For recurrent antrochoanal polyps, Functional Endoscopic Sinus Surgery (FESS) is the standard of care to completely remove the polyp and its origin in the maxillary sinus, preventing recurrence."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 30-year old taxi driver who is known snuff addicted comes to your clinic with history of watery discharge from the nose and sneezing especially early in the morning for the last few years. He is also having itching in the nose and eyes. On examination there is watery discharge from nose and bluish nasal mucosa. Rest of the ENT is normal. His complete blood count is normal. What could be the most appropriate diagnosis?",
+    "options": [
+      "a) Allergic Rhinitis",
+      "b) Atrophic Rhinitis",
+      "c) Occupational Rhinitis",
+      "d) Rhinitis medicamentosa",
+      "e) Vasomotor Rhinitis"
+    ],
+    "answer": "a",
+    "explanation": "The symptoms of sneezing, rhinorrhea, itching (nose and eyes), and the finding of pale/bluish nasal mucosa are classic for Allergic Rhinitis. While snuff use is mentioned, the specific symptom complex strongly points to allergy."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 65-year old carpenter presented with nasal obstruction and nasal bleeding on right side for the last 3 months. He also complains of weight loss. Findings on endoscopic nasal examination shows polypoidal mass in both nasal cavities surrounded by grayish slough. What could be the best investigation of choice to reach definitive diagnosis?",
+    "options": [
+      "a) X-Ray para-nasal sinuses",
+      "b) CT-Scan nose para nasal sinuses",
+      "c) MRI nose para nasal sinuses",
+      "d) Endoscopic nasal biopsy from the mass",
+      "e) MR Angiography"
+    ],
+    "answer": "d",
+    "explanation": "In a patient with unilateral symptoms, bleeding, and a suspicious mass, a biopsy is the definitive diagnostic step to confirm malignancy or other pathology."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 7-years old female baby brought by her mother to emergency department with history of nasal obstruction and snoring at night time for the last two days. According to the mother she also noticed some blood in left nostril of the baby two days ago while playing in the lawn with her elder brother. On nasal examination there are smooth swellings in both nasal cavities with hyperemic caudal septal mucosa. Her Hb is 11 gm/dl and CBC is normal. What is the best treatment option for this clinical condition?",
+    "options": [
+      "a) Incision drainage and Nasal Packing",
+      "b) Surgical drainage and systemic steroids",
+      "c) Surgical drainage and systemic + topical vasoconstricter",
+      "d) Surgical drainage and systemic vasodilatator",
+      "e) Surgical drainage and systemic vasoconstrictors"
+    ],
+    "answer": "a",
+    "explanation": "The history of trauma and bilateral smooth septal swelling causing obstruction suggests a septal hematoma. The immediate and best treatment is incision and drainage to prevent cartilage necrosis and abscess formation, followed by nasal packing to prevent reaccumulation."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 19-year old boy comes to your clinic with history of assault on face while playing football 2 days ago. According to his father he admitted in hospital emergency immediately after trauma. On local examination of the nose there is free airway on both sides but there is asymmetry on the external nasal contour. His BP is 135/75 and Hb 11 gm/dl. What is best treatment option for this condition?",
+    "options": [
+      "a) Augmentation rhinoplasty",
+      "b) Corrective rhinoplasty",
+      "c) Manipulation and fixation",
+      "d) Septoplasty",
+      "e) Septorhinoplasty"
+    ],
+    "answer": "c",
+    "explanation": "For a recent nasal fracture (2 days old) with external deformity but no significant airway obstruction or septal hematoma, closed reduction (manipulation and fixation) is the standard initial treatment to restore nasal contour."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 25-year old female presented to ENT OPD with nasal obstruction and loss of sense of smell for the last 2 years. On examination the nose is full of dry crusts and shrivelled turbinates. She further narrated that she had admitted for nasal complaints 5 years ago in the local hospital. Her RBS is 105mg/dl and ESR is 40 mm in 1st hour. What is appropriate diagnosis?",
+    "options": [
+      "a) Atrophic rhinitis",
+      "b) Median lethal granuloma",
+      "c) Stewart's granuloma",
+      "d) Sarcoidosis",
+      "e) Wegener's granulomatosis"
+    ],
+    "answer": "a",
+    "explanation": "The classic triad of nasal obstruction (often paradoxical due to lack of sensation), anosmia, and crusting with atrophy of turbinates is diagnostic of Atrophic Rhinitis (Ozena)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 17-year old boy presented to ENT OPD with progressive unilateral nasal obstruction and profuse epistaxis for the last 5 months. According to patient the last bleeding episode 1 week ago lasted for 15 minutes for which nasal packing was done in a practitioner. Endoscopic examination of nose reveals a reddish mass filling left nasal cavity and nasopharynx on the same side. His HB is 8.5 gm/dl. X-Ray PNS shows haziness on right side. What is appropriate diagnosis?",
+    "options": [
+      "a) Allergic nasal polyps",
+      "b) Angiofibroma",
+      "c) Antrochoanal polyp",
+      "d) Fungal rhinosinusitis",
+      "e) Chronic granulomatous disease"
+    ],
+    "answer": "b",
+    "explanation": "The demographics (adolescent male), symptoms (unilateral obstruction, profuse epistaxis), and findings (reddish vascular mass in nasopharynx) are pathognomonic for Juvenile Nasopharyngeal Angiofibroma (JNA)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A school teacher aged 30-years presented to ENT doctor, with a three years history of foul smelling from nose and nasal obstruction. She further narrated that the fetid odour is noticed by the students when she is in the class room. Diagnostic nasal endoscopy reveals grey-yellow crusts in the nasal cavities and thin nasal innates. systemic examination is unremarkable. Her blood chemistry is normal. This condition is diagnosed as:",
+    "options": [
+      "a) Atrophic rhinitis",
+      "b) Lupas Vulgaris",
+      "c) Rhinosporidiomentosa",
+      "d) Rhinitis sicca",
+      "e) Rhinitis caseosa"
+    ],
+    "answer": "a",
+    "explanation": "The presence of foul-smelling crusts (foetor), nasal obstruction, and mucosal atrophy (thin turbinates) in a young female is classic for Primary Atrophic Rhinitis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A school teacher aged 30-years presented to ENT doctor, with a history of rhinorrhoea and sneezing for the 3 years especially early in the morning. On local examination of the nose there are glistening masses in both nasal cavities. Rest of ENT examination is unremarkable. This condition is diagnosed as:",
+    "options": [
+      "a) Atrophic rhinitis",
+      "b) Allergic nasal polyps",
+      "c) Bilateral antrochoanal polyps",
+      "d) Rhinitis sicca",
+      "e) Rhinitis caseosa"
+    ],
+    "answer": "b",
+    "explanation": "Chronic symptoms of sneezing and rhinorrhea, especially in the morning, suggest allergic rhinitis. The presence of glistening, bilateral masses confirms the diagnosis of allergic nasal polyps."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A Young boy of 17 years presented to ENT OPD with unilateral nasal obstruction, recurrent, profuse epistaxis for the last 4 months. Local examination revealed a mass in the nasopharynx which bleeds on gentle touching. Histological diagnosis of angiofibroma was made. What is the best treatment option for this disease?",
+    "options": [
+      "a) Chemotherapy",
+      "b) Chemical radiation",
+      "c) Radiotherapy",
+      "d) Hormonal therapy",
+      "e) Surgery"
+    ],
+    "answer": "e",
+    "explanation": "The definitive treatment for Juvenile Nasopharyngeal Angiofibroma is surgical excision."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 30 years old female presented to ENT OPD with nasal obstruction, foul smell from the nose and nasal lining. On examination nose is roomy and full of greenish crust. Which type of operation will be performed for this type of disease?",
+    "options": [
+      "a) Antral wash out",
+      "b) Caldwell luc operation",
+      "c) Septoplasty",
+      "d) S.M.R.",
+      "e) Young's operation"
+    ],
+    "answer": "e",
+    "explanation": "For atrophic rhinitis (roomy nose with crusts), Young's operation (closure of the nasal cavity) is a surgical option aimed at resting the mucosa to allow regeneration."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 5 years old child presented to ENT OPD with complete bilateral nasal obstruction and snoring for the last 2 years. Local examination shows smooth rounded swelling of the septum in both nasal cavities. On palpation mass fluctuant and soft. According to the parents the child had a history of fall few days back. A diagnosis of septal abscess was made. Which type of specific nasal deformity can occur if the treatment is delayed?",
+    "options": [
+      "a) Columella retraction",
+      "b) Deviated nasal septum",
+      "c) Nasal ala retraction",
+      "d) Supratip depression",
+      "e) Septal perforation"
+    ],
+    "answer": "d",
+    "explanation": "A septal abscess destroys the septal cartilage due to avascular necrosis. The loss of cartilaginous support leads to the collapse of the nasal dorsum, resulting in a supratip depression or 'saddle nose' deformity."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A new born baby shifted to ENT ward from NURSERY unit having history of severe bilateral nasal obstruction, feeding difficulty and cyclical cyanosis that improves while crying and worsens with feeding. What is most probable diagnosis?",
+    "options": [
+      "a) Choanal atresia",
+      "b) Congenital vocal cord paralysis",
+      "c) Laryngomalacia",
+      "d) Laryngeal web",
+      "e) Meconium aspiration"
+    ],
+    "answer": "a",
+    "explanation": "Cyclical cyanosis that improves with crying (when the baby breathes through the mouth) and worsens with feeding (when the mouth is closed) is the hallmark of bilateral choanal atresia in a newborn."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 10 years old boy presented with unilateral nasal obstruction on the left side for the last 10 month s. Local examination shows a smooth rounded and a grayish mass which does not bleed on palpation. What is the most probable diagnosis?",
+    "options": [
+      "a) Allergic nasal polyps",
+      "b) Angiofibroma",
+      "c) Antrochoanal polyp",
+      "d) Enlarged turbinate",
+      "e) Rhinolith"
+    ],
+    "answer": "c",
+    "explanation": "A unilateral, smooth, grayish, non-bleeding nasal mass in a child is most likely an antrochoanal polyp. Angiofibromas are red and bleed easily. Allergic polyps are usually bilateral."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 20 years old man presented with severe pain over the tip of the nose. On examination tip of the nose is swollen, reddish in color and severely tender. According to the patient he had the same problem 2 months back after visiting a barber shop. What is the most probable diagnosis?",
+    "options": [
+      "a) Acute sinusitis",
+      "b) Allergic rhinitis",
+      "c) Nasal vestibulitis",
+      "d) Rhinitis sicca",
+      "e) Septal abscess"
+    ],
+    "answer": "c",
+    "explanation": "Localized pain, redness, swelling, and tenderness at the nasal tip (vestibule), often associated with hair follicle infection (furunculosis) after trauma (like trimming nose hairs), is diagnostic of nasal vestibulitis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 4 years old girl brought to ENT OPD with history of on off bleeding from left side of the nose. His mother so complains of foul smell from the nose for the last 3 weeks. Local examination shows a rounded swelling covered by bloody stained greenish secretions. What is the most probable diagnosis?",
+    "options": [
+      "a) Acute rhinitis",
+      "b) Atrophic rhinitis",
+      "c) Fungal sinusitis",
+      "d) Foreign body nose",
+      "e) Rhinitis sicca"
+    ],
+    "answer": "d",
+    "explanation": "Unilateral foul-smelling nasal discharge, often bloody, in a young child is the classic presentation of a retained nasal foreign body."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 25 years old male presented to ENT OPD with history of recurrent bleeding from the nose on left side for the last few months. He also further narrated that he also appreciates a foul smell from the nose on the same side. Local examination of the nose shows a rounded blackish swelling covered by mucus. Palpation of the swelling reveals a cracking sound. What is the most probable diagnosis?",
+    "options": [
+      "a) Allergic nasal polyp",
+      "b) Antro-choanal polyp",
+      "c) Nasopharyngeal carcinoma",
+      "d) Foreign body nose",
+      "e) Rhinolith"
+    ],
+    "answer": "e",
+    "explanation": "A unilateral, foul-smelling nasal mass that is hard, blackish (due to oxidation), and produces a 'cracking' or stony sensation on probing is characteristic of a rhinolith (stone formation around a nidus)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 50 yrs old female presented to ENT OPD with nasal obstruction, foul smell from the nose for the last 2 years. On examination the inferior turbinates are shrunken and the nose is roomy and full of greenish crusts. She further narrated that few years back she had some sort of nasal surgery from the local ENT specialist. What is your most probable diagnose?",
+    "options": [
+      "a) Atrophic rhinitis",
+      "b) Allergic nasal polyp",
+      "c) Rhinitis sicca",
+      "d) Rhinitis caseosa",
+      "e) Rhinolith"
+    ],
+    "answer": "a",
+    "explanation": "The clinical findings of roomy nose, crusting, foul smell, and turbinate atrophy, especially following nasal surgery (secondary atrophic rhinitis, likely due to excessive turbinate resection), confirm the diagnosis of Atrophic Rhinitis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A Young boy of seventeen Years presented with nasal obstruction, recurrent, profuse epistaxis on left side of the nose for the last 6 months. On examination there is a mass in the left nasal cavity which bleeds on gentle touch. On MR angiogram the mass receives a feeding vessel from the maxillary artery. What is your most probable diagnosis?",
+    "options": [
+      "a) Allergic nasal polyp",
+      "b) Antrochoanal polyp",
+      "c) Angiofibroma",
+      "d) Mucocele",
+      "e) Nasopharyngeal carcinoma"
+    ],
+    "answer": "c",
+    "explanation": "Recurrent profuse epistaxis, unilateral obstruction, a bleeding mass in an adolescent male, and vascular supply from the maxillary artery are diagnostic features of Juvenile Nasopharyngeal Angiofibroma."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "During tracheostomy surgeon usually avoids incision at first tracheal ring to prevent post-operative complication of:",
+    "options": [
+      "a) Aspiration",
+      "b) Hematoma",
+      "c) Pneumonia",
+      "d) Subglottic stenosis",
+      "e) Vocal cord paralysis"
+    ],
+    "answer": "d",
+    "explanation": "Incising the first tracheal ring can damage the cricoid cartilage or cause inflammation in the subglottic region, leading to the serious complication of subglottic stenosis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "During post-operative care of tracheostomy in first 2 days the cuff of tracheostomy tube is deflated for few minutes after every few hours to avoid:",
+    "options": [
+      "a) Aspiration",
+      "b) Hematoma",
+      "c) Ischemic necrosis of trachea",
+      "d) Subglottic stenosis",
+      "e) Vocal cord paralysis"
+    ],
+    "answer": "c",
+    "explanation": "Continuous pressure from the tracheostomy cuff on the tracheal wall can exceed capillary perfusion pressure, leading to ischemic necrosis. Periodic deflation helps prevent this."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A middle-aged male comes to the OPD with the only complaint of hoarseness for the last 2 years. He has been a chronic smoker for 30 years. On examination, a reddish area of mucosal irregularity overlying a portion of his cords was seen. Management would include all except:",
+    "options": [
+      "a) General endoscopy",
+      "b) Cessation of smoking",
+      "c) Micro laryngeal surgery for biopsy",
+      "d) Regular follow-up",
+      "e) Tracheostomy"
+    ],
+    "answer": "e",
+    "explanation": "For a suspicious laryngeal lesion in a smoker, biopsy and evaluation are crucial. Tracheostomy is indicated only for airway obstruction, which is not mentioned here; therefore, it is not part of the immediate management plan."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A case of carcinoma larynx with the involvement of anterior commisure and right vocal cord developed perichondritis of thyroid cartilage. Which one of the following statement is true for the management of this case?",
+    "options": [
+      "a) He should first receive radiotherapy and if residual tumor is present then should undergo laryngectomy",
+      "b) He should be given chemotherapy and then radiotherapy",
+      "c) He should be given radical radiotherapy as this can cure early tumors",
+      "d) He should be treated with combination of chemotherapy and radiotherapy",
+      "e) He should first undergo laryngectomy and then postoperative radiotherapy"
+    ],
+    "answer": "e",
+    "explanation": "Involvement of the thyroid cartilage (perichondritis/invasion) typically upstages laryngeal cancer to T4. Radiotherapy is generally less effective when there is cartilage involvement or perichondritis. Total laryngectomy followed by postoperative radiotherapy is the standard curative approach for such advanced disease."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 20-year-old male presents with throat pain and easy fatigability of his voice. Indirect laryngeal examination revealed both cords approximately well but leaving a triangular gap in the inter-arytenoid. He getting relief from treatment. Your diagnosis is:",
+    "options": [
+      "a) Functional aphonia",
+      "b) Mogiphonia",
+      "c) Mutational falsetto voice",
+      "d) Phonousthenia",
+      "e) Ventricular dysphonia"
+    ],
+    "answer": "d",
+    "explanation": "The symptoms of voice fatigue (phonasthenia) and throat pain, along with the finding of a posterior glottic chink (triangular gap) due to weak adduction (often associated with muscle tension dysphonia or weakness), are consistent with Phonasthenia."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 4-year-old male child presents with multiple laryngeal papillomas with hoarse voice and slight airway distress. Papillomas are involving the glottis. The best treatment is:",
+    "options": [
+      "a) Examination under 0/L",
+      "b) Antibiotics & IV fluid",
+      "c) Microlaryngoscopy and excision",
+      "d) Steroids",
+      "e) Tracheostomy and observation"
+    ],
+    "answer": "c",
+    "explanation": "The treatment of choice for Juvenile Laryngeal Papillomatosis is surgical removal to maintain the airway. Microlaryngoscopy with excision (e.g., CO2 laser or microdebrider) is the standard method."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A tracheostomised patient, with Portex tracheostomy tube, in the ward, developed sudden complete blockage of the tube. Which of the following is the best next step in management?",
+    "options": [
+      "a) Oral antibiotics",
+      "b) IV corticosteroids",
+      "c) Immediate removal of the tracheostomy tube",
+      "d) Suction of tube with saline",
+      "e) Suction of tube with sodium bicarbonate"
+    ],
+    "answer": "c",
+    "explanation": "A completely blocked tracheostomy tube is a life-threatening emergency. The immediate step is to remove the blocked tube to allow the patient to breathe through the stoma or to facilitate replacement."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The preferred surgical procedure for prevention of aspiration is:",
+    "options": [
+      "a) Feeding gastrostomy/jejunostomy",
+      "b) Nasogastric tube",
+      "c) Thyroplasty",
+      "d) Tracheal division and permanent tracheostom",
+      "e) Cricothyrodotomy"
+    ],
+    "answer": "d",
+    "explanation": "For intractable aspiration, separation of the airway from the digestive tract is required. Laryngotracheal separation (tracheal division) with permanent tracheostomy is a definitive surgical method to prevent aspiration."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Vocal cords nodules arise from which part of the larynx?",
+    "options": [
+      "a) Anterior commissure",
+      "b) Anterior 1/3 rd of vocal cords",
+      "c) At the junction of anterior 1/3 rd and posterior 2/3rd of vocal cords",
+      "d) At the junction of anterior 1/3 rd and posterior 2/3rd of vocal cords",
+      "e) Posterior 1/3rd of vocal cords"
+    ],
+    "answer": "c",
+    "explanation": "Vocal nodules characteristically develop at the junction of the anterior one-third and posterior two-thirds of the vocal cords, which is the point of maximal vibration and impact."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 50-year-old man presents with a mass of lymph nodes in the upper cervical region. Complete physical examination of the upper aerodigestive tract did not reveal any primary tumor. He is a smoker and also drinks three times per week. Our next diagnostic step should be:",
+    "options": [
+      "a) CT scan neck",
+      "b) Excision Biopsy of cervical nodes",
+      "c) Fine needle aspiration cytology (FNAC) of the mass",
+      "d) Lymph nodes",
+      "e) Incisional biopsy of node of lymph nodes"
+    ],
+    "answer": "c",
+    "explanation": "In an adult with a neck mass, especially with risk factors, metastatic malignancy must be ruled out. FNAC is the standard initial diagnostic procedure. Open biopsy is contraindicated as it can disrupt tissue planes and compromise future neck dissection."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A parapharyngeal mass displacing the tonsil and tonsillar fossa medially with pulsations on Intralpation is mainly due to:",
+    "options": [
+      "a) Carotid body tumor",
+      "b) Hodgkin's lymphoma",
+      "c) Internal carotid artery aneurysm",
+      "d) Non-Hodgkin's lymphoma",
+      "e) Schwannoma of parapharyngeal space"
+    ],
+    "answer": "c",
+    "explanation": "A pulsatile mass in the parapharyngeal space displacing the tonsil medially is strongly suggestive of a vascular lesion, such as an internal carotid artery aneurysm or a highly vascular tumor like a glomus tumor."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 30-year-old male presented with trismus, fever, swelling pushing the tonsils medially and spreading laterally to the neck posterior to sternocleidomastoid muscle. He gives a history of extraction of third molar 3 days back for dental caries. The diagnosis is:",
+    "options": [
+      "a) Ludwig's angina",
+      "b) Parapharyngeal abscess",
+      "c) Peritonsillar abscess",
+      "d) Retropharyngeal abscess",
+      "e) Submental abscess"
+    ],
+    "answer": "b",
+    "explanation": "Infection from a third molar can spread to the parapharyngeal space. The clinical signs of trismus, medial displacement of the tonsil, and lateral neck swelling are classic for a parapharyngeal abscess."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Most common type of esophageal cancer is:",
+    "options": [
+      "a) Adenocarcinoma",
+      "b) Adenoid cystic carcinoma",
+      "c) Mucoepidermoid carcinoma",
+      "d) Squamous cell carcinoma",
+      "e) Zenker diverticulum"
+    ],
+    "answer": "d",
+    "explanation": "Worldwide, squamous cell carcinoma remains the most common type of esophageal cancer, particularly in the upper and middle esophagus."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Radiographic findings of cardiac achalasia include all except:",
+    "options": [
+      "a) Gross opacity covering mediastinum",
+      "b) Diffuse esophageal spasms",
+      "c) Esophageal dilatation",
+      "d) Failure of lower esophageal sphincter to relax",
+      "e) Rat-tail appearance"
+    ],
+    "answer": "e",
+    "explanation": "Achalasia is characterized by a 'bird-beak' appearance on barium swallow due to tapering. 'Rat-tail' appearance is typically associated with esophageal carcinoma."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 45-year-old patient complains of pain in throat which is aggravated while taking meals and radiates to ipsilateral ear and posterior part of tongue. The likely diagnosis is:",
+    "options": [
+      "a) Bell's palsy",
+      "b) Sluder's neuralgia",
+      "c) Disorder of temporomandibular joint",
+      "d) Trigeminal neuralgia",
+      "e) Glossopharyngeal neuralgia"
+    ],
+    "answer": "e",
+    "explanation": "Glossopharyngeal neuralgia causes severe pain in the throat/tonsillar fossa, radiating to the ear and posterior tongue, often triggered by swallowing."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Elective neck dissection pertains to:",
+    "options": [
+      "a) Radical neck dissection with preservation of spinal accessory nerve",
+      "b) Radical neck dissection for N neck",
+      "c) Radical neck dissection where nodes are palpable",
+      "d) Radical neck dissection with preservation of internal jugular vein",
+      "e) Removal of some lymph node groups while sparing the others"
+    ],
+    "answer": "e",
+    "explanation": "Elective neck dissection (usually a selective neck dissection) involves removing lymph nodes from the neck in a patient with no clinical evidence of metastasis (N0 neck) to treat occult disease. It typically spares non-lymphatic structures and some node levels."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Which of the following structures are preserved in a radical neck dissection?",
+    "options": [
+      "a) Hypoglossal, vagus and spinal accessory",
+      "b) External jugular vein and external laryngeal nerve",
+      "c) Sternocleidomastoid & glossopharyngeal nerve",
+      "d) Sternocleidomastoid, spinal accessory and vagus nerve"
+    ],
+    "answer": "d",
+    "explanation": "A classic radical neck dissection removes the SCM, IJV, and spinal accessory nerve. However, the question asks what is *preserved*. The vagus nerve is preserved. The options are confusing or contain errors (e.g., option d lists SCM and accessory nerve which are *removed*). Assuming the question implies a *modified* radical or is testing knowledge of what is *not* taken, Vagus is the key structure preserved. But standard RND sacrifices XI. The vagus is preserved."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Extranodal lymphoma is commonly a manifestation of:",
+    "options": [
+      "a) Hodgkin's disease",
+      "b) Tuberculosis",
+      "c) Both (a) and (b)",
+      "d) Burkitt's lymphoma",
+      "e) Squamous cell carcinoma"
+    ],
+    "answer": "d",
+    "explanation": "Non-Hodgkin lymphomas, such as Burkitt's lymphoma, frequently present with extranodal involvement (e.g., jaw, abdomen), unlike Hodgkin's disease which is typically nodal."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "All are true about thyroglossal duct cyst except:",
+    "options": [
+      "a) Arises from remnants of second branchial cleft",
+      "b) Cyst may contain thyroid tissue",
+      "c) Excision of body of Hyoid bone is necessary to prevent recurrence",
+      "d) It is mobile",
+      "e) Presents as a midline swelling near the hyoid bone"
+    ],
+    "answer": "a",
+    "explanation": "Thyroglossal duct cysts arise from the remnants of the thyroglossal duct (developmental tract of the thyroid gland), not the second branchial cleft. Branchial cysts arise from branchial clefts."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A neck mass suspicious of malignancy but with no clue from history and physical examination about the primary site, what should be the next step in management?",
+    "options": [
+      "a) Chemotherapy and radiotherapy",
+      "b) Excisional biopsy",
+      "c) Incisional biopsy",
+      "d) Open biopsy/frozen section-neck dissection",
+      "e) Fine needle aspiration cytology"
+    ],
+    "answer": "e",
+    "explanation": "FNAC is the investigation of choice for a neck mass of unknown origin. It helps confirm malignancy and type without disrupting the tumor field."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A condition of chronic inflammation of the thyroid, which lead to under activity?",
+    "options": [
+      "a) Goitre",
+      "b) Grave disease",
+      "c) Hashimoto thyroiditis",
+      "d) Hyperthyroidism",
+      "e) Thyroiditis"
+    ],
+    "answer": "c",
+    "explanation": "Hashimoto's thyroiditis is the most common cause of hypothyroidism (underactivity) and is a chronic autoimmune inflammatory condition."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Regarding autoimmune thyroiditis (Hashimoto) select the right statement:",
+    "options": [
+      "a) Almost always lead to hyperthyroidism",
+      "b) Autoimmune virus leads to hypothyroidism",
+      "c) Due to viral infection",
+      "d) The pathology may extend outside the thyroid capsule",
+      "e) Subtotal thyroidectomy is the treatment of"
+    ],
+    "answer": "b",
+    "explanation": "Hashimoto's leads to hypothyroidism. While the option says 'virus', Hashimoto's is autoimmune. However, B correctly identifies the outcome (hypothyroidism) compared to other options."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 30-year-old female present to the hospital with peritonsillar abscess. What will be best treatment option?",
+    "options": [
+      "a) I.V antibiotics only",
+      "b) I.V antibiotics + I.V fluids",
+      "c) I.D + I.V antibiotics",
+      "d) I.D + I.V antibiotics + I.V fluids",
+      "e) Tonsillectomy"
+    ],
+    "answer": "c",
+    "explanation": "The definitive treatment for peritonsillar abscess is drainage (Incision & Drainage or aspiration) combined with antibiotics."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Which of the following is the most beneficial technique of using chemotherapy with a course of radiotherapy in head and neck malignancies?",
+    "options": [
+      "a) Neo adjuvant chemotherapy",
+      "b) Adjuvant chemotherapy",
+      "c) Concurrent chemotherapy",
+      "d) Alternating chemotherapy and radiotherapy",
+      "e) None of the above"
+    ],
+    "answer": "c",
+    "explanation": "Concurrent chemoradiotherapy (giving both simultaneously) provides the best locoregional control and survival benefit for advanced head and neck cancers compared to sequential methods."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "During total thyroidectomy, a set of nerves supplying the larynx is damaged. Which of the following manifestation would most likely be seen in the patient?",
+    "options": [
+      "a) Horner syndrome",
+      "b) Transient hypoparathyroidism",
+      "c) Bronchospasm",
+      "d) Vocal cord paralysis",
+      "e) Dysphonia"
+    ],
+    "answer": "d",
+    "explanation": "Damage to the Recurrent Laryngeal Nerves (RLN) during thyroidectomy leads to vocal cord paralysis (unilateral or bilateral)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Peritonsillar abscess can extend posteriorly into:",
+    "options": [
+      "a) Anterior triangle of neck",
+      "b) Submandibular space",
+      "c) Parapharyngeal space",
+      "d) Submaxillary space",
+      "e) Posterior triangle on neck"
+    ],
+    "answer": "c",
+    "explanation": "The peritonsillar space is adjacent to the parapharyngeal space. Infection can spread posteriorly from the peritonsillar space into the parapharyngeal space."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Abscess between tonsillar capsule and superior constrictor muscle is known as:",
+    "options": [
+      "a) Dental abscess",
+      "b) Peritonsillar abscess",
+      "c) Retropharyngeal abscess",
+      "d) Parapharyngeal abscess",
+      "e) Submandibular abscess"
+    ],
+    "answer": "b",
+    "explanation": "Peritonsillar abscess (Quinsy) forms in the potential space between the tonsillar capsule and the superior constrictor muscle."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "28 years old female patient seen in ENT OPD complaining of deafness in her left ear. She had a discharge from her left ear in the past. On otoscopic examination she was found to have medium size dry central perforation of left tympanic membrane. Pure Tone Audiometry shows conductive hearing loss on left side. The surgical treatment of choice to close the perforation is:",
+    "options": [
+      "a) Canal wall up mastoidectomy",
+      "b) Canal wall down mastoidectomy",
+      "c) Grommet insertion",
+      "d) Myringotomy",
+      "e) Tympanoplasty"
+    ],
+    "answer": "e",
+    "explanation": "For a dry central perforation with conductive loss (CSOM tubotympanic type), the surgery to repair the drum and improve hearing is Tympanoplasty (or Myringoplasty)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "45 years old diabetic lady Complaining of severe otalgia on left side. On otoscopic examination there is scanty discharge with granulation tissue in the external auditory canal near tympanic membrane. Her blood sugar level is poorly controlled. Culture from ear swab revealed Pseudomonas aeruginosa. What is your diagnosis?",
+    "options": [
+      "a) Cholesteatoma",
+      "b) Chronic external auditory canal",
+      "c) CSOM",
+      "d) Otomycosis",
+      "e) Malignant otitis externa"
+    ],
+    "answer": "e",
+    "explanation": "Severe otalgia, granulations, and Pseudomonas infection in a diabetic patient are hallmark signs of Malignant Otitis Externa."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "45 years old male developed severe otalgiaand facial nerve weakness grade 4 on left side and attacks of vertigo for the last 3 to 4 days. Microscopic examination of ear revealed vesicles in external auditory canal and choncha. Tympanic membrane shows some vesicles over it too. PTA showing mild SNHL on affected side. Most probable cause for her symptoms is?",
+    "options": [
+      "a) Chronic otitis media",
+      "b) Herpes zoster oticus",
+      "c) Malignant otitis externa",
+      "d) Secretory otitis media",
+      "e) Serous otitis media"
+    ],
+    "answer": "b",
+    "explanation": "Vesicles in the ear canal/concha combined with facial nerve palsy and vertigo constitutes Ramsay Hunt Syndrome (Herpes Zoster Oticus)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A newborn is admitted to neonatal ICU with sever sepsis. He received aggressive treatment from neonatologist. After one week the neonate was found not responding to loud sound. The treating doctor ordered hearing screening. What tool is used to screen the newborn hearing?",
+    "options": [
+      "a) Audiogram",
+      "b) ABR",
+      "c) Otoacoustic emissions",
+      "d) Tuning for test",
+      "e) Tympanogram"
+    ],
+    "answer": "c",
+    "explanation": "Otoacoustic emissions (OAE) are the standard initial screening tool for newborn hearing. ABR is often used for follow-up or high-risk cases."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "6 years old boy presented with decreased hearing for the last 10 month. He also has nasal obstruction and intermittent rhinorrhea. Otoscopic examination revealed dull retracted tympanic membrane with prominent lateral process along handle of malleus. X-ray neck views done showing small adenoids shadow with good airway PTA shows mild conductive hearing loss, tympanogram was flat type B. Appropriate surgical step to treat this condition is...",
+    "options": [
+      "a) Myringotomy and grommet tube insertion",
+      "b) Mastoidectomy",
+      "c) Myringoplasty",
+      "d) Suction clearance",
+      "e) Tympanotomy"
+    ],
+    "answer": "a",
+    "explanation": "The diagnosis is Otitis Media with Effusion (OME/Glue ear). For persistent OME causing hearing loss, Myringotomy with Grommet insertion is the standard treatment."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "38 years old male underwent canal wall down mastoidectomy for extensive cholesteatoma on left side. After recovery the patient was noted to have facial palsy on same side. Next appropriate step to address the situation would be?",
+    "options": [
+      "a) Steroids and tonics",
+      "b) Wound dressing",
+      "c) Reassurance",
+      "d) Re explore the facial nerve and repair",
+      "e) Wait and see"
+    ],
+    "answer": "d",
+    "explanation": "Immediate post-operative facial palsy following mastoid surgery warrants urgent re-exploration to identify and repair any nerve injury or decompression."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A female patient of 26 years old presented with sensory neural hearing loss and vertigo after stapedectomy. The above signs and symptoms are pointed toward which one of the following condition.",
+    "options": [
+      "a) Benign positional vertigo",
+      "b) Labyrinthitis",
+      "c) Ossicular dehiscence",
+      "d) Perilymph fistula",
+      "e) Neuronitis"
+    ],
+    "answer": "b",
+    "explanation": "Severe SNHL and vertigo after stapedectomy suggest inner ear damage or inflammation, commonly referred to as 'dead ear' or labyrinthitis/perilymph fistula."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A patient presented to you with bleeding from ear, earache, progressive tinnitus, and deafness. On examination the tympanic membrane there is a red mass behind the tympanic membrane which blanches on pressure. A diagnosis of Glomus tumor was made. Management included all of the following except",
+    "options": [
+      "a) Feeding vessel ligation",
+      "b) Radiotherapy",
+      "c) Interfearance",
+      "d) Surgery",
+      "e) Pre operative embolization"
+    ],
+    "answer": "c",
+    "explanation": "Management of glomus tumors includes surgery, embolization, and radiotherapy. 'Interfearance' is not a standard term or management."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A patient with bilateral acoustic neuroma with profound bilateral sensorineural hearing loss after surgery. Which of the following is the most suitable treatment for rehabilitation of bilateral SNHL in above case",
+    "options": [
+      "a) Bilateral high power digital hearing aid",
+      "b) Cochlear implants",
+      "c) Brain stem implants",
+      "d) Conventional hearing aid",
+      "e) Bone anchored hearing aid"
+    ],
+    "answer": "c",
+    "explanation": "With bilateral acoustic neuromas (NF2) and surgery removing the cochlear nerves, cochlear implants won't work. Auditory Brainstem Implants (ABI) stimulate the cochlear nucleus directly."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 30 years old male presented with attic cholesteatoma of left ear with lateral sinus thrombophlebitis. Which of the following will be the operation of choice?",
+    "options": [
+      "a) Canal wall up mastoidectomy",
+      "b) Radical mastoidectomy",
+      "c) Mastoidectomy with obliteration",
+      "d) Posterior tympanotomy",
+      "e) Simple mastoidectomy"
+    ],
+    "answer": "b",
+    "explanation": "For complications like sinus thrombosis, extensive disease clearance is priority. Radical or Modified Radical Mastoidectomy (Canal Wall Down) is typically performed to access and clear the disease."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "35 years old lady complaining of Fluctuating hearing loss, tinnitus on left side and episodic vertigo. Examination of ears shows normal tympanic membrane. PTA shows SNHL involving lower frequency on the affected side. The likely cause is",
+    "options": [
+      "a) Acoustic neuroma",
+      "b) Benign positional vertigo",
+      "c) Labyrinthitis",
+      "d) Meniere's disease",
+      "e) Vestibular neuronitis"
+    ],
+    "answer": "d",
+    "explanation": "Fluctuating low-frequency SNHL, tinnitus, and episodic vertigo are the classic triad of Meniere's disease."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "27 years old male with CSOM tubotympanic type was prepared for surgery. The patient has medium sized dry central perforation. PTA showing mild conductive hearing loss. Post aural approach was adopted to proceed for the repair of tympanic membrane. The most commonly used graft for repair of tympanic membrane is:",
+    "options": [
+      "a) Choanal cartilage",
+      "b) Perichondrium",
+      "c) Periosteum",
+      "d) Tragal cartilage",
+      "e) Temporalis fascia"
+    ],
+    "answer": "e",
+    "explanation": "Temporalis fascia is the most common graft material used for tympanoplasty."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "58 years old diabetic patient with a long standing h/o of excessive sweating in hot humid environment presented with intractable ear itching, tinnitus, aural fullness and dull pain on examination there is thick discharge with hyphae like wet filter paper. Tympanic membrane is normal. Appropriate approach will be",
+    "options": [
+      "a) Debridement",
+      "b) Injectable antibiotics",
+      "c) Oral antibiotic",
+      "d) Pain killers",
+      "e) Suction clearance with topical antifungal drops"
+    ],
+    "answer": "e",
+    "explanation": "The history and 'wet filter paper' appearance suggest Otomycosis. Treatment involves suction clearance and antifungal drops."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "30 years old female complaining of severe otalgia and fever. On examination pinna is tender. Otoscopic examination revealed small tender swelling. TM is intact. TLC is raised. Patient admits frequent ear manipulation by sticks. Causative organism for this condition seems to be...?",
+    "options": [
+      "a) H.Influenza",
+      "b) Pseudomonas",
+      "c) Proteus",
+      "d) Staph aureus",
+      "e) Pneumococcus"
+    ],
+    "answer": "d",
+    "explanation": "A tender boil (furuncle) in the ear canal is characteristic of localized otitis externa (furunculosis), most commonly caused by *Staphylococcus aureus*."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "5 years old child was brought by his parents to ENT OPD complaining that the child is unable to talk. On further enquiry it was found that child is not responding to any voice. Otoscopic examination was unremarkable. Child was otherwise normal. Auditory brain stem response (ABR) was performed showing profound degree of sensori-neural hearing loss. The best surgical treatment option in modern era is?",
+    "options": [
+      "a) Cochlear implant surgery",
+      "b) Hearing aid",
+      "c) Myringotomy and grommet insertion",
+      "d) Myringoplasty",
+      "e) Reassurance"
+    ],
+    "answer": "a",
+    "explanation": "For profound SNHL in children where hearing aids are insufficient, Cochlear Implantation is the standard treatment for auditory rehabilitation."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "35 years old pregnant female c/o deafness in both ears since long time which is worsened recently during pregnancy. R/E tympanic membrane is normal bilaterally. Pure Tone Audiometry showing moderate conductive hearing loss with dip at 2000 kH. Stapedial reflex is absent. The likely diagnosis.",
+    "options": [
+      "a) Eustachian tube dysfunction",
+      "b) Meniere's disease",
+      "c) Noise induce hearing loss",
+      "d) Otosclerosis",
+      "e) Presbyacusis"
+    ],
+    "answer": "d",
+    "explanation": "Worsening conductive hearing loss in pregnancy with Carhart's notch (dip at 2000 Hz) and absent reflexes is classic for Otosclerosis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "30 years old pregnant female c/o bilateral hearing loss. PTA showing moderate conductive hearing loss with dip at 2000 kH. Stapedial reflex is absent. The surgical option to treat this condition is...",
+    "options": [
+      "a) Facial nerve decompression",
+      "b) Labyrinthectomy",
+      "c) Ossiculoplasty",
+      "d) Myringoplasty",
+      "e) Stapedotomy with teflon piston"
+    ],
+    "answer": "e",
+    "explanation": "Stapedotomy (stapedectomy) is the surgical treatment for otosclerosis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The boxer developed a swelling of the pinna following a hit on his ear oblitrating all contour. The pinna is red swollen and tender. Diagnosis of aural hematoma is made. What complication can arise if not treated timely?",
+    "options": [
+      "a) Abscessa",
+      "b) Cellulitis",
+      "c) Cauliflower ear",
+      "d) Labyrinthitis",
+      "e) Perforation"
+    ],
+    "answer": "c",
+    "explanation": "Untreated auricular hematoma leads to cartilage necrosis and fibrosis, resulting in a permanent deformity known as 'Cauliflower ear'."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "You received call from neurosurgery department for a 35 years old male, who had a motor bike accident with head injury. His GCS 14/15. ENT examination revealed a black post auricular area on left side. There is bloody otorrhoea with decreased hearing on same side. The most likely diagnosis is?",
+    "options": [
+      "a) External auditory canal laceration",
+      "b) Foreign body ear",
+      "c) Temporal bone",
+      "d) Hematoma auricle",
+      "e) Otitis externa"
+    ],
+    "answer": "c",
+    "explanation": "Head injury, bloody otorrhea, hearing loss, and Battle's sign (post-auricular bruising/black area) are indicative of a Temporal Bone Fracture."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 65 years old male patient had polypoid swelling in left nasal cavity. He also complains of decreased hearing left side and tinnitus. Patient had cervical lymphadenopathy on both sides. What could be the best probable diagnosis?",
+    "options": [
+      "a) Nasopharyngeal carcinoma",
+      "b) Sino nasopharyngeal carcinoma",
+      "c) nasal polyp",
+      "d) d)oesophageal carcinoma",
+      "e) oropharyngeal carcinoma"
+    ],
+    "answer": "a",
+    "explanation": "A nasal mass with unilateral ear symptoms (due to ET obstruction) and cervical lymphadenopathy in an older male is classic for Nasopharyngeal Carcinoma."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 25 year old male complained of sore throat, fever and bilateral earache of 3 days duration. He developed high grade fever 104 degree F, severe earache, inability to open mouth, drooling of saliva. What could be best probable diagnosis?",
+    "options": [
+      "a) Eagles syndrome",
+      "b) Ludwig's angina",
+      "c) Peritonsillar abscess",
+      "d) retropharyngeal abscess",
+      "e) Thornwald's abscess"
+    ],
+    "answer": "c",
+    "explanation": "Severe sore throat, trismus (inability to open mouth), drooling, and fever are hallmarks of Peritonsillar Abscess (Quinsy)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Third molar caries with extension of the lesion towards tonsillar fossa and shift of tonsil reveals which of the following complication?",
+    "options": [
+      "a) Parapharyngeal abscess",
+      "b) Retropharyngeal abscess",
+      "c) Tonsillar abscess",
+      "d) Dental abscess",
+      "e) Ludwig's angina"
+    ],
+    "answer": "a",
+    "explanation": "Infection spreading from a molar to displace the tonsil medially suggests a Parapharyngeal Abscess."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 7 year old boy was seen by an opthalomologist for headache that has been present for few months. There was no ocular cause for such a headache. The child was referred to an ENT specialist who noticed nasal intonation of voice and bilateral nasal obstruction. The mother noticed that her child snores during sleep and has repeated attacks of chest infection. What could be best initial investigation for treatment?",
+    "options": [
+      "a) Chest X-ray",
+      "b) Complete Blood count",
+      "c) Pure tone audiometry",
+      "d) Tympanometry",
+      "e) X-ray lateral view nose, nasopharynx"
+    ],
+    "answer": "e",
+    "explanation": "The symptoms (nasal obstruction, snoring, infections) suggest Adenoid Hypertrophy. A lateral neck X-ray is a standard initial investigation to visualize adenoid size."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 20 years old female complained of sore throat of 20 days. On examination she showed presence of ulcers and dirty membranous lesions in oropharynx and oral cavity. She gave history of having typhoid fever 2 weeks prior to present condition for which she received antibiotic therapy. What could be the best probable diagnosis?",
+    "options": [
+      "a) Actinomycosis",
+      "b) Aphthous ulcer",
+      "c) herpangina infection",
+      "d) d)systemic lupus erythematosus",
+      "e) v.incents infection"
+    ],
+    "answer": "e",
+    "explanation": "Vincent's angina (acute necrotizing ulcerative gingivitis/stomatitis) typically presents with painful ulcers and a gray pseudomembrane, often in patients with poor hygiene or systemic illness."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 17 year old male complained of severe epistaxis and was packed to control bleeding. He also complained of nasal obstruction. more on right side together with decreased hearing in right ear. What could be best investigation to diagnose the cause?",
+    "options": [
+      "a) CT scan with contrast",
+      "b) Tympanometry",
+      "c) X-ray PNS",
+      "d) Complete blood count",
+      "e) X-ray chest"
+    ],
+    "answer": "a",
+    "explanation": "Adolescent male with epistaxis and obstruction suggests Juvenile Nasopharyngeal Angiofibroma. CT with contrast is the imaging of choice to define extent."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Following a meal a female patient aged 31 years complaining of severe pain in right side neck. She has developed absolute dysphagia. What could be next best possible step in this case?",
+    "options": [
+      "a) Esophagoscopy and removal of foreign body",
+      "b) Laryngoscopy",
+      "c) Incision drainage and pressure dressing",
+      "d) Systemic antibiotics",
+      "e) Flexible endoscopy"
+    ],
+    "answer": "a",
+    "explanation": "Sudden absolute dysphagia after eating suggests an impacted foreign body. Esophagoscopy is indicated for removal."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Indications for tracheostomy are all EXCEPT:",
+    "options": [
+      "a) Acute epiglottitis",
+      "b) Maxillofacial trauma",
+      "c) Laryngeal malignancy",
+      "d) Respiratory obstruction",
+      "e) Extensive consolidation of lung"
+    ],
+    "answer": "e",
+    "explanation": "Lung consolidation is not a primary indication for tracheostomy unless prolonged ventilation is required."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Most common complication of Tracheostomy is:",
+    "options": [
+      "a) Stenosis",
+      "b) Vocal cord paralysis",
+      "c) Pneumonia",
+      "d) Respiratory failure",
+      "e) respiratory obstruction"
+    ],
+    "answer": "a",
+    "explanation": "Tracheal stenosis is a significant late complication."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 4 year old child experienced marked loss of weight due to dysphagia together with choking during feeding after house incident that occurred 18 months ago. What could be the best possible diagnosis in this case?",
+    "options": [
+      "a) Parapharyngeal abscess",
+      "b) Peritonsillar abscess",
+      "c) Parapharyngeal space",
+      "d) Retropharyngeal abscess",
+      "e) Post corrosive esophageal stricture"
+    ],
+    "answer": "e",
+    "explanation": "Dysphagia and weight loss months after a 'house incident' (likely ingestion of corrosive) suggests a stricture."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A tracheostomised patient, with portex tracheostomy tube, in the ward is having frequent blockage of the tube. Which of the following is best next step in the management?",
+    "options": [
+      "a) Frequent removal of the tracheostomy tube",
+      "b) And clean it",
+      "c) Suction of tube with normal saline",
+      "d) Suction of tube with normal saline and put wetted gauze over tube",
+      "e) Jet ventilation"
+    ],
+    "answer": "c",
+    "explanation": "Frequent suctioning and humidification are key to preventing blockage."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "After a long-standing tracheostomy patient developed almost complete stenosis of trachea, treatment is:",
+    "options": [
+      "a) Bronchoscopy",
+      "b) Tracheal dilatation",
+      "c) Laser with stent",
+      "d) Surgery",
+      "e) Removal of stenosed part with anastomosis"
+    ],
+    "answer": "e",
+    "explanation": "Resection and anastomosis is the definitive treatment for severe stenosis."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "White oral lesions are seen in all EXCEPT:",
+    "options": [
+      "a) Addison's disease",
+      "b) Leukoplakia",
+      "c) Candidiasis",
+      "d) E) V.incents infection",
+      "e) Keratosis"
+    ],
+    "answer": "a",
+    "explanation": "Addison's disease causes hyperpigmentation, not white lesions."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "All of the following cause a grey-white membrane in the throat EXCEPT",
+    "options": [
+      "a) Agranulocytosis",
+      "b) Diphtheria",
+      "c) Ludwig's angina",
+      "d) Infectious mononucleosis",
+      "e) Streptococcal tonsillitis"
+    ],
+    "answer": "c",
+    "explanation": "Ludwig's angina is a cellulitis, not typically membranous."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 2 year old male child suffered from marked difficulty in swallowing, drooling of saliva for last 48 hours duration. On examination he was very toxic, feverish with flexed neck. Oropharyngeal examination showed congested large swelling behind the tonsil. What could be the best probable diagnosis in this case",
+    "options": [
+      "a) Acute retropharyngeal abscess",
+      "b) Acute follicular tonsillitis",
+      "c) Parapharyngeal abscess",
+      "d) Peritonsillar abscess",
+      "e) Ludwig's angina"
+    ],
+    "answer": "a",
+    "explanation": "Retropharyngeal abscess is common in young children and presents with neck stiffness, drooling, and posterior pharyngeal swelling."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 50 years old female complains of dysphagia while taking solid foods. On examination she was anemic. What could be the best initial screening test to diagnose :",
+    "options": [
+      "a) Chest x-ray",
+      "b) CT scan",
+      "c) MRI scan",
+      "d) X-ray lateral view neck",
+      "e) MRI scan with contrast"
+    ],
+    "answer": "a",
+    "explanation": "A Barium Swallow (often implied as initial X-ray study for dysphagia, though Chest X-ray is listed) or Chest X-ray can screen for structural causes, but Barium is specific. Given options, Chest X-ray is a basic screen, but Barium is better."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Which of the following statement is true for Ludwig's angina?",
+    "options": [
+      "a) It is an ischemic, painful condition of Pectoralis minor muscle",
+      "b) It is diffuse cellulitis affecting the floor of the mouth",
+      "c) Glycerin nitrate, local application is quite helpful",
+      "d) None of the above",
+      "e) Cervical lymphadenopathy"
+    ],
+    "answer": "b",
+    "explanation": "Ludwig's angina is a diffuse cellulitis of the floor of the mouth."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A 5 year old male underwent tonsillectomy operation. Four hours later, nurse reported to resident the pulse rate become 140per minute, and child vomited 150 cc of blood. What is this complication:",
+    "options": [
+      "a) Aspiration of blood",
+      "b) Reactionary haemorrhage",
+      "c) Secondary haemorrhage",
+      "d) Surgical emphysema",
+      "e) Lung complications"
+    ],
+    "answer": "b",
+    "explanation": "Bleeding within 24 hours is Reactionary Hemorrhage."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Which of the following structures are preserved in radical neck dissection?",
+    "options": [
+      "a) Accessory Nerve",
+      "b) Internal jugular vein",
+      "c) Spinal accessory nerve",
+      "d) Sternocleidomastoid muscle",
+      "e) Vagus nerve"
+    ],
+    "answer": "e",
+    "explanation": "Radical neck dissection removes SCM, IJV, and Accessory nerve. The Vagus is preserved."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "What is the correct sequence of the following while resuscitating an infant with Foreign Body Airway Obstruction? 1. Chest thrust, 2. Tongue-jaw lift, 3. Back blows. Select the correct sequence form the codes given below:",
+    "options": [
+      "a) 1,3,2",
+      "b) 3,2,1",
+      "c) 3,1,2",
+      "d) 2,1,3",
+      "e) 2,1,2,1"
+    ],
+    "answer": "b",
+    "explanation": "Sequence: Back blows -> Chest thrusts -> Tongue-jaw lift (check)."
+  },
+  {
+    "id": "gmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A patient presented with a 3.5 cms size lymph node enlargement, which was hard and presented in submandibular region. Examination of the head and neck did not yield any lesion. The next investigation to be done:",
+    "options": [
+      "a) CXR",
+      "b) Laryngoscopy",
+      "c) Triple endoscopy or panendoscopy",
+      "d) Supravital staining of oral mucosa",
+      "e) None of above"
+    ],
+    "answer": "c",
+    "explanation": "For unknown primary with neck node, Panendoscopy is essential."
+  }
+]

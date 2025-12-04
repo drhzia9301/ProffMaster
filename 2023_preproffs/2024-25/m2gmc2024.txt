@@ -1,0 +1,573 @@
+Based on the final new batch of images (Ophthalmology section), here are the extracted questions and options. The selected/highlighted answers are marked in bold or with a red circle.
+
+Ophthalmology Section
+
+1. Eyelid margin anatomy distortion and loss of eyelashes should alert one to the possibility of why following?
+a) Facial nerve (VII) palsy
+b) Chronic eyelid webbing
+c) Involuntional ectropion
+d) Malignancy
+e) Senile changes
+
+2. A 2 years old male child is brought to you with complaint of drooping of right eyelid since birth that his eye is half open during sleep as well there is absent lid crease amblyopia and poor elevator further what is the most likely diagnoses.
+a) Congenital Ptosis
+b) Jaw winking ptosis
+c) Aponeurotic Ptosis
+d) Traumatic Ptosis
+e) Myasthenia Gravis
+
+3. In Dacryocystorhinostomy (DCR) operation the window is made in the lateral nasal wall is at the
+a) Ethmoidal sinus
+b) Middle meatus
+c) Superior meatus
+d) Inferior meatus
+e) Lacrimal fossa
+
+4. A young lady with blepharitis presents with a swelling on the right upper lid for the last one month commonest painless lid swelling is:
+a) Chalazion
+b) Stye
+c) Cellulitis
+d) Zeiss Cyst
+e) Moll Cyst
+
+5. 70 Years old lady has an ulcerated nodular mass on her right medial lower eyelid for the last 4 years. The central ulceration has raised rolled edges with dilated blood vessels over the lateral margins preauricular are submandibulat lymph nodes are not palpable. The most likely diagnosis is
+a) Basal Cell Carcinoma
+b) Cicatricial ectropion
+c) Paralytic ectropion
+d) Sebaceous Gland Carcinoma
+e) Squamous Cell Carcinoma
+
+6. 25 years old female had a trauma to the right lower lid. Now she is unable to close the right eye fully the lower eyelid margin is rotated outward and there is scar mark 2mm below the lower eyelid. What's the likely diagnosis?
+a) Congenital ectropion
+b) Cicatricial ectropion
+c) Paralytic ectropion
+d) Senile ectropion
+e) Traumatic entropion
+
+7. A 2 years old female child is brough to you with complaint of white pupil and decrease of vision. You examine her and diagnose her as a case of congenital cataract which one is the most common presentation.
+a) Blue Dot
+b) Lamellar
+c) Nuclear
+d) Polar
+e) Sutural
+
+8. A 60 Years old man presented with right eye cataract you performed his biometry and calculated his 10 number. Which is the most important factor in 1OL Calculation.
+a) A Constant
+b) Axial Length
+c) B Scan
+d) Keratometory
+e) Tonometory
+
+9. A patient presented with recurrent pterygium which of the following is the best management plan
+a) Bare Sclera technique
+c) Excision with Conjunctival autograft
+e) Excision with MMC
+
+10. A patient presented with photophobia and decreased vision in left eye. On examination there is conjunctival circumferential congestion and constricted pupil. The likely diagnosis is?
+a) Acute congestive glaucoma
+c) Anterior uveitis
+e) Conjunctivitis
+
+11. All can be the possible complication of CRVO except:
+a) Glaucoma
+c) Macular edema
+e) Intraocular hemorrhage
+b) Rubeosis iridis
+d) Neovascularization
+
+12. All are risk factors for CRVO except:
+a) Oral Contraceptives
+c) Macroglobulinemia
+e) Diabetes mellitus
+b) Myopia
+d) Hypermetropia
+
+13. All can be the causes of an exudative retinal detachment except:
+a) Malignant melanoma
+c) Diabetic retinopathy
+e) Posterior uveitis
+b) High Myopia
+d) Trauma
+
+14. All can be the signs of a rhegmatogenous retinal detachment except:
+a) Raised IOP
+c) Mobile retina
+e) Retinal break
+d) Visual field defect
+
+15. All can be the causes of macular edema except:
+a) Cataract surgery
+c) Diabetes
+e) Trauma
+b) High Myopia
+d) Hypotension
+
+16. All may be considered as treatment options for retinoblastoma except:
+a) Enucleation
+c) Laser Photocoagulation
+e) Brachytherapy
+b) Cryotherapy
+d) Radiotherapy
+
+17. All are the tests for pre-perimetric glaucoma except:
+a) Visual Fields and Optic disc
+b) OCT optic disc and HRT
+c) Visual Fields and HRT
+d) OCT and Gonio
+e) Visual Fields and CCT
+
+21. A 6-year-old male child is brought to the outdoor with complaints of decrease of vision while from white board in school. Parents also noticed that child stands very close to the television while cartoons. You perform retinoscopy and there is streak moving in opposite direction. What is the diagnosis?
+a) Astigmatism
+b) Hyperopia
+c) Emmetropia
+d) Myopia
+e) Strab
+
+22. You perform a retinoscopy of a patient complaining of decrease of vision. On retinoscopy the moves with the movement which of the following is most likely false:
+a) Antigmatism
+b) Myopia
+c) Emmetropia
+d) Myopia greater than working distance
+e) Hyperopia
+
+23. A 4 year old child is brought to you with the complaints of deviation of eyes On the extra ocular movements the eyes are moving fine. What is the next most important step in the management?
+a) Cycloplegic refraction
+b) Fundus examination
+c) Autorefraction
+d) Pupil reaction
+e) Manual refraction
+
+24. A patient presents with right ptosis and the condition is painful. He is recently diagnosed as OM 1.0/E there is right exotropia in primary position, pupil is dilated and not responding to light VA 6/6 BE and fun are grossly normal. There is no past history of trauma. What is the most likely diagnosis?
+a) Aneurysm of posterior cerebral artery
+b) Aneurysm of middle cerebral artery.
+c) Aneurysm of anterior communicating artery
+d) Aneurysm of posterior communicating artery
+e) Aneurysm of superior cerebellar artery.
+
+25. All are the signs of acute iridocyclitis except:
+a) Aqueous flare
+b) Small pupil
+c) Limbal congestion
+d) Patch of iris atrophy
+e) Fresh KPs
+
+26. Anterior chamber is shallow in
+a) Open angle glaucoma
+c) Aphakia
+e) Myopia
+b) Mature cataract
+d) Angel closure (Note: Should be 'Angle closure glaucoma')
+
+27. A 55-year old hypertensive lady develops sudden loss of vision in left eye. She has widespread flame shaped hemorrhages in retina. The most likely diagnosis is
+a) Central retinal artery occlusion
+b) Diabetic retinopathy
+c) Central retinal vein occlusion
+d) Coat's disease
+e) Eagle's disease
+
+28. Unequal size of two pupils is called as:
+a) Anisocoria
+b) Anisometropia
+c) Aniridia
+d) Heterochromia
+e) Anisokonia
+
+29. Yellowish color of the macula is because of the presence of:
+a) Hemoglobin
+b) Fluorescein
+c) Melanin
+d) None of the above
+e) Lutein
+
+30. A patient of 45 years old presented with facial palsy the epiphora in this patient was due to
+a) Ectropion
+b) Lacrimal pump failure
+c) Entropion
+d) Lagophthalmos
+
+31. A 70 year old lady has a shiny nodular mass uis her right lower eyelid for the last 4 months. The lesion is growing rapidly Preauricular and submandibular lymph nodes are palpa Histopathology shows keratin pearis the most likely diagnosis is
+a) Basal cell carcinoma.
+b) Sebaceous gland carcinoma
+c) Kaposi Sarcoma
+d) Squamous cell carcinoma
+e) Meride cel tumori
+
+32. A 25 years old male comes to the clinic with a 3 days history of painful swelling on his right upper lid margin. On examination there is blepharitis red tender upper eyelid with an infected eyelash. What is your mos probable diagnosis?
+a) Chalazion
+b) Haemangioma
+c) Dermoid Cyst
+d) Papilloma
+e) Stye
+
+33. A three years old child is presented with bilateral sub conjunctival haemorrhgies he has been suffering from fever, severe cough and chest infection commonest cause of subconjunctival haemorrhgies in this case be.
+a) Fever
+b) Chest infection
+c) Side effect of antibiotics
+d) Trauma to the eye
+e) Cough
+
+34. 8 year old child brought by his parents with chief complaints of mucopurulent discharge redness a swelling of both eyes for the last two months on examination there are follicles on the upper tarsal conjunctio and superior corneal pannus which is the most probable diagnosis?
+a) Allergic conjunctivitis
+b) Trachoma
+c) Chronic bacterial conjunctivitis
+d) Ligneous conjunctivitis
+e) Viral conjunctivitis
+
+35. A house officer was asked about the causes of a dilated pupil the most common cause of dilated pupil.
+a) Trauma
+b) Third cranial nerve palsy
+c) Pharmacological dilatation
+d) Acute angle closure glaucoma
+e) Tonic pupil.
+
+36. A 7 year old child presents in every spring season for the last 4 year with itching redness and watering there in no follicles but papillae both upper tarsal conjunctivae there are no pre auricular lymph nodes. What is the most likely diagnosis?
+a) Adenoviral conjunctivitis
+b) Bacterial conjunctivitis
+c) Chemical conjunctivitis
+d) Trachoma
+e) Vernal conjunctivitis.
+
+37. A patient presented with photophobia and watering in left eye for last one week. On examination with fluorescein revealed dendritic ulcer which is caused by.
+a) Fungus
+b) Herpes zoster virus
+c) Herpes simplex virus
+d) Mycobacterium
+e) Staphylococci
+
+38. A young boy presented in emergency with watering and photophobia in right eye after a trauma which test is most appropriate?
+a) Applanation tonometry
+b) Fluorescein staining
+c) Rose Bengal staining
+d) Schirmer's test
+e) Tear break up time.
+
+39. An infant presented with hyper purulent sticky discharge both eyes and extreme congestion of conjunctio provisional diagnosis is the ophthalmia neonatorum which is caused by.
+a) Diphtheria
+b) E coli
+c) Gonococcus
+d) Staph aureus
+e) Streptococcus.
+
+40. A 15 year old boy presents with progressive decrease in vision. He suffers from vernal... (rest of question cut off)
+
+41. A young boy of 30 year age while working in the factory suffered and electric shock to his survived what could be the most possible effect on his eye.
+a) Bilateral cataracts
+b) Bilateral dry eyes
+c) Bilateral macular edema
+d) Bilateral open angle glaucoma
+e) Bilateral retinal detachment.
+
+42. The test used to calculate the power of intraocular lens prior to cataract surgery.
+a) B/Scan
+b) Biometry
+c) FFA
+d) HRT
+e) Oct.
+
+43. A 55 year old lady suffers from rheumatoid arthritis. She has developed intensely painful red level acuities are 6/12 with pin hole. In here left eye she has red nodular swelling approximately 2 monaural limbus. The swelling is tender and fixed it does blanch with the use of phenylephrine is.
+a) Scleritis
+b) Keratitis
+c) Episcleritis
+d) Conjunctivitis
+e) C
+
+44. In non-healing sloughing where the perforation of cornea is expected the best:
+a) Scrapping of the conceal
+b) Conjunctival flap
+c) Subconjunctival antibiotics
+d) Cauterization of the ulcer bed
+e) Evisceration
+
+45. A female of 40 years presents with painless decrease of vision for four years. The partient has myopia with irregular astigmatism there is thinning of the central cornea the most sensitive investigation for the patient is:
+a) Refractions
+b) Ocular biometry
+c) Keratometry
+d) Anterior segment OCT
+e) Corneal topography
+
+46. A 4 year old child is brought by her mother with bilateral white pupils. Anterior segment and pupilla reactions are normal Ultrasound B- scan was performed and was found to be normal. Most probable diagnosis is?
+a) Bilateral congenital cataracts
+b) Corneal dystrophies
+c) Bilateral retinoblastoma
+d) Primary hyperplastic vitreous
+e) Congenital glaucoma
+
+47. A patient who was operated for cataract four months back comes to you with foggy vision. On examination there was posterior capsular thickening. Which mode of treatment is most useful.
+a) Argon laser
+b) Eximer laser
+c) Diode laser
+d) Krypton laser
+e) YAG-laser
+
+48. Best option for treating a unilateral cataract in a young adult with unaided visual acuity of 6/6 in the other eye.
+a) Cataract surgery and correction with glasses
+b) Cataract surgery and correction with contact
+c) Phacoemulsification and IOL implantation lens
+d) Epikeratophakia
+e) Cataract surgery as such
+
+49. A child is hit in the eye by a used disposable syringe by his younger brother 2 days back. He is brought by his parents to the OPD with painful red eye. His eyelids are swollen there is ciliary congestion. Hazy cornea and hypopyon. Pupil is yellowish white and there is no fundus reflex what is your diagnosis?
+a) Orbital cellulitis
+b) Corneal ulcer
+c) Traumatic uveitis
+d) Endophthalmitis
+e) Posterior uveitis
+
+50. A 35 years female present to the OPD with dimness of vision to the right eye for one year. She gives history of right cataract extraction but record is not available clinically visual acuity in right eye is CF 2m & 6/6 in left eye. There is now right aphakia with intact posterior capsule. What is the most appropriate method for restoration of vision in right eye?
+a) Contact lenses
+b) Spectacles
+c) Refractive surgery
+d) Secondary anterior chamber IOL implantation
+e) Right secondary posterior chamber IOL implantation
+
+55. A 32 year male presents with a red eye. He was referred to the opthalmologist with a suspicition of uveitis. The most reliable sign for diagnosing acute anterior:
+a) Moderate to severe pain
+b) Mild to moderate deterioration of vision
+c) Cells in anterior chamber
+d) Flare anterior chamber
+e) K.P on Endothelium
+
+56. The treatment of intraocular malignant melanoma of the uveal:
+a) Enucleation
+b) Chemotherapy
+c) Evisceration
+d) Radiotherapy
+e) Exenteration
+
+57. Hirschberg test is used to detect:
+a) Squint
+b) Optic atrophy
+c) Field defect
+d) Cataract
+e) Glaucoma
+
+58. Trichiasis is:
+a) An extra row of eyelid
+b) Absence of lashes
+c) Central fusion of eyelid
+d) Distorted lid margin
+e) White coloured lashes
+
+59. Commonest feature of the open angle glaucoma is:
+a) Headache
+b) Gradual painful loss of vision
+c) Eye ache
+d) Asymptomatic
+e) Corneal halos
+
+60. Treatment of choice in recently diagnosed early open angle glaucoma is:
+a) Atropine
+b) Beta blockers
+c) Prostaglandins analogs
+d) Adrenaline
+e) Alpha agonist
+
+61. Most common indication for cataract surgery is:
+a) Phacolytic glaucoma
+b) For management of diabetic retinopathy
+c) Posterior subcapsular cataract
+d) Patient unable to perform daily activity
+e) Cosmetic indication
+
+62. Which of the following is the best management of congenital glaucoma:
+a) Brimonidine
+b) Beta blockers
+c) Latanoprost
+d) Atropine
+e) Surgery
+
+63. A patient undergoes a combined cataract and filtering procedure. On the first postoperative patient has an intraocular (IOP) of 43 with a chamber that is flat peripherally and very shallow with no lens-corneal touch. What is the most like diagnosis?
+a) Angle closure
+b) Wound leak
+c) Aqueous Misdirection
+d) Bleb infection
+e) Choroidal effusion
+
+64. What is one of the factors minimize surgically induced astigmatism when performing surgery?
+a) Size and direction of the wound
+b) Chopping versus Divide & Conqu technique
+c) Bi-manual versus Coaxial Irrigation & Aspiration
+d) Incision on steep meridian
+e) Scleral tunnel
+
+65. A patient with pseudo exfoliation syndrome is at increased risk for which of the following compli:
+a) Zonular damage during cataract surgery
+b) Cystoid macular edema following surgery
+c) Corneal edema following cataract surgery
+d) Iris
+e) Myopic refractive surprise after cataract surgery
+
+66. A patient with pseudo exfoliation and a very large, hard, brunescent nuclear sclerotic cataract has mark pseudodonesis and more than 180 degrees zonular dehiscence. What is the best surgical approach?
+a) Phacoemulsification with FIOL implant
+b) Intracapsular cataract extraction with marks fixation IOL
+c) Extracapsular cataract extraction with rigid IOL implant
+d) Flare anterior chamber
+e) Phacoemulsification employing an endocapsular ring
+
+67. What is the best management for phacolytic glaucoma?
+a) Glaucoma implant (tube-shunt)
+b) Cataract extraction
+c) Trabeculectomy
+d) Cataract extraction with IOL implant
+e) Intensive topical corticosteroid therapy
+
+68. For any given diopter power, the higher the refractive index, the thinner the intraocular lens optic of the following currently available intraocular lens optic materials possesses the highest refractive index.
+a) Polymethylmethacrylate (PMMA)
+b) Silicone
+c) Acrylic
+d) Hydrogel
+e) Prolent
+
+69. Which of the following sequelae of a carotid cavernous sinus fistula is ask the most common cause of vi disability
+a) Strabismus
+b) Proptosis with corneal exposure
+c) Orbital compression
+d) Spontaneous choroidal detachment
+e) Elevated intraocular pressure with progressive optic nerve damage
+
+70. During a consultation in the emergency room, you are asked to see a patient with non-infected 2nd degree burns to the eyelids. The emergency room physicians ask what topical medicine should be placed c the burns to prevent scarring. What would be the most appropriate response be?
+a) Gentamicin in a water-miscible base
+b) Hydrocortisone 1% ointment
+c) Silver sulfadiazine 1% cream
+d) None of the above
+e) No topical medications
+
+77. A 56-year-old man complains of pain around his left eye that has lasted for 2weeks. The aiss increases on extra ocular movement. One week ago, he noted blurred vision in the left eye and a it fever. His visual acuity is 20/40 OD and 20/40 OS. The patient has a 5 mm of proptosis in the left eye erythema and tenderness around the left eyelid. Results of bioopscroscopy and dilated fundus exami normal. What is the most helpful diagnostic test for this patient?
+a) CT scan of the orbits
+b) Skull films
+c) Complete blood count
+d) MR scan of brain orbits
+e) Thyroid function tests
+
+72. What is the best way to distinguish a restrictive motility disorder from a paretic disorder after fracture?
+a) Alternate prism cover testing
+b) Forced-duction testing
+c) Comparing single binocular visual fields
+d) Synoptophore
+e) Motility examination of the cardinal positions of gaze
+
+73. What are the 2 most commonly affected rectus muscles in thyroid eye disease?
+a) Superior and inferior
+b) Medial and lateral
+c) Superior and medial
+d) Inferior and medial
+e) Both
+
+74. What is the most common organism implicated in dacryocystitis?
+a) Non-septate fungi
+b) Gram-negative bacteria
+c) Gram-positive bacteria
+d) Anaerobes
+e) Septate fungi
+
+75. Diabetic retinopathy, the most important feature of pre-proliferative stage include:
+a) Flame shape haemorrhages
+b) Cotton wool spots
+c) Dot-blot haemorrhages
+d) Retinal edema
+e) Hard exudates
+
+76. Regarding hypertensive retinopathy which of the following is least likely the sign of stage in changes:
+a) Retinal edema
+b) Optic disc edema
+c) Cotton wool spots
+d) Hard exudates
+e) Retinal haemorrhages
+
+77. The earliest symptoms of nuclear sclerosis after middle age may be:
+a) Improved far vision without glasses
+b) Diplopia
+c) Improved near vision without glasses
+d) Improved night vision
+e) Photosynthesis
+
+78. Being able to see only Schwalbe's line on gonioscopy means that the angle is
+a) Narrow
+b) Open
+c) Closed
+d) Wide
+e) None of these
+
+79. Following visual field defects are seen in optic neuritis
+a) Nasal step
+b) Hemianopic field defect
+c) Central scotoma
+d) Tunnel vision
+e) Bitemporal scotoma
+
+80. All of the following are types of amblyopia except
+a) Strabismic
+b) Deprivational
+c) Anisometropic
+d) Ammetropic
+e) Surgical
+
+81. Direct ophthalmoscopy following structures are seen:
+a) Angle
+b) Ciliary body
+c) Optic chiasm
+d) Retina
+e) Choroid
+
+82. Neurogenic cause of ptosis is:
+a) Myasthenia gravis
+b) Blepharopthimosis
+c) Third nerve palsy
+d) Fourth nerve palsy
+e) Sixth nerve palsy
+
+83. Which of the following surgical instrument is used in Chalazion surgery
+a) Scoop
+b) Wire vectus
+c) Vanna scissor
+d) Artery force
+e) Punch
+
+84. Which of the following sutures is not routinely used in ophthalmology:
+a) Vicryl
+b) Catgut
+c) Silk
+d) Nylon
+e) Punch
+
+85. As a fourth year student ophthalmology and ophthalmologists inspired you a lot due to elective. They sur clean bloodless surgical field good income and higher number of patients. Still you opted for a general sure profession due to
+a) Microsurgery is difficult to master
+b) Clearing eye part 1 is very difficult
+c) Supervisors are not teaching surgical skills
+d) Too much saturation
+e) Instruments are very costly
+
+86. The most common cause of gradual decrease of vision in old age is:
+a) Retinal detachment
+b) Central serous chorioretinopathy
+c) Age related macular degeneration
+d) Cataract
+e) Ischemic optic neuropathy
+
+87. Insufficiency of accommodation that lead to decrease near vision after 40 year age is called
+a) Astigmatism
+b) Presbyopia
+c) Isometropia
+d) Anisometropia
+e) Amblyopia
+
+88. Lesion in the optic tract results in:
+a) Homonymous hemianopia
+b) Bitemporal hemianopia
+c) Binasal hemianopia
+d) Inferior quadrant anopia
+e) superior quadrant anopia
+
+89. Current epidemic in which eyes are swollen red congested and watery and all family memi due to:
+a) Herpes virus
+b) Adenovirus
+c) Picro rna virus
+d) Bacteria
+e) Fungus
+
+90. All of the following are the complications of vernal keratoconjunctivitis except:
+a) Cataract
+b) Glaucoma
+c) Uveitis
+d) Ulcer
+e) Keratoconus

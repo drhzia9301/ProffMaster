@@ -391,6 +391,7 @@ export const togglePreproffBookmark = (questionId: string) => {
 // --- Session Persistence ---
 
 export interface QuizSessionState {
+  sessionId: string; // Unique ID to differentiate sessions
   questions: Question[];
   currentIndex: number;
   score: number;
@@ -398,9 +399,68 @@ export interface QuizSessionState {
   sessionAttempts: Record<string, Attempt>;
   timeLimit?: number;
   startTime: number;
+  elapsedTime?: number; // Track elapsed time for timer restoration
   type: string; // 'main' | 'ai_generated' | 'preproff'
   config?: any; // To store aiConfig or other setup params
 }
+
+// Generate unique session identifier based on navigation state
+export const generateSessionId = (state: any): string => {
+  const parts = [
+    state?.type || '',
+    state?.subject || '',
+    state?.block || '',
+    state?.college || '',
+    state?.year || '',
+    state?.aiConfig?.type || '',
+    state?.aiConfig?.topic || '',
+    state?.questionId || '',
+    state?.filter || ''
+  ].filter(Boolean);
+  return parts.join('_') + '_' + Date.now();
+};
+
+// Check if saved session matches current navigation intent
+export const sessionMatchesState = (saved: QuizSessionState, currentState: any): boolean => {
+  if (!saved || !currentState) return false;
+  
+  // Type must match
+  if (saved.type !== (currentState.type || (currentState.aiConfig ? 'ai_generated' : (currentState.block ? 'preproff' : 'main')))) {
+    return false;
+  }
+  
+  // For preproff, block/college/year must match
+  if (saved.type === 'preproff') {
+    return saved.config?.block === currentState.block &&
+           saved.config?.college === currentState.college &&
+           saved.config?.year === currentState.year;
+  }
+  
+  // For AI generated, aiConfig must match
+  if (saved.type === 'ai_generated' && saved.config?.aiConfig) {
+    const savedAi = saved.config.aiConfig;
+    const currentAi = currentState.aiConfig;
+    if (!currentAi) return false;
+    return savedAi.block === currentAi.block &&
+           savedAi.type === currentAi.type &&
+           savedAi.topic === currentAi.topic;
+  }
+  
+  // For main/practice, subject and topics must match
+  if (saved.type === 'main' && saved.config?.subject) {
+    return saved.config.subject === currentState.subject;
+  }
+  
+  // For review mode with pre-loaded questions
+  if (currentState.questions && currentState.questions.length > 0) {
+    // If reviewing saved paper, compare first question ID
+    if (saved.questions.length > 0 && currentState.questions.length > 0) {
+      return saved.questions[0].id === currentState.questions[0].id;
+    }
+  }
+  
+  return false;
+};
 
 export const saveCurrentSession = (state: QuizSessionState) => {
   try {

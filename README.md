@@ -1,20 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ProffMaster - MBBS Question Bank
 
-# Run and deploy your AI Studio app
+AI-Powered Quiz & Analytics App for Medical Students.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1B-WXlxrdg1K8TYBAMYW0cgAF89koxaFC
+- 📚 Comprehensive question bank covering all MBBS subjects
+- 🤖 AI-generated quizzes using Gemini API
+- 📊 Performance analytics and progress tracking
+- 🔖 Bookmark questions for review
+- 📱 Cross-platform (Web + Android via Capacitor)
 
-## Run Locally
+## Development
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
+### Setup
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Create `.env.local` file with your credentials:
+   ```
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_key
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Building for Android
+
+1. Build the web app:
+   ```bash
+   npm run build
+   ```
+
+2. Sync with Capacitor:
+   ```bash
+   npx cap sync android
+   ```
+
+3. Open in Android Studio or build APK:
+   ```bash
+   cd android && ./gradlew assembleDebug
+   ```

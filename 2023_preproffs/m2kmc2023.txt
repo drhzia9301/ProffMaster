@@ -1,0 +1,902 @@
+[
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 30 years old man presents to Eye OPD with diplopia and bilateral droopy eyelids which worsen in the evening. There is also a history of fatigability. On examination, his visual acuity is 6/6 in both eyes. Anterior and posterior segment examination is unremarkable. There is bilateral ptosis partially obstructing the visual axis and 20 prism diopter esotropia. Which of the following tests would you perform next?",
+    "options": [
+      "a. Chest X-ray",
+      "b. CT head",
+      "c. Ice pack test",
+      "d. MRI brain",
+      "e. Serum antibodies"
+    ],
+    "answer": "c",
+    "explanation": "The patient's symptoms of fatigable weakness, specifically ptosis and diplopia that worsen as the day progresses, are classic for ocular Myasthenia Gravis. The ice pack test is a simple, quick, and specific bedside test for this condition. Applying ice to the droopy eyelid for 2-5 minutes can temporarily improve the ptosis in myasthenic patients, as cold improves neuromuscular transmission."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "An 80-year-old Caucasian smoker woman complains of recent problems with reading vision, specifically words appearing distorted and blank patches being present. Her vision is often good in brighter light. On examination, her vision is 6/36 both eyes with no further improvement with refraction. Anterior segment examination is unremarkable. Pupils are reactive to light. Fundus shows numerous intermediate-size soft drusen in both eyes with choroidal neovascularization (CNV). How will you manage?",
+    "options": [
+      "a. Intravitreal antibiotics",
+      "b. Intravitreal antiVEGF",
+      "c. Multivitamins",
+      "d. Subconjunctival decadron",
+      "e. Subtenon triamcinolone"
+    ],
+    "answer": "b",
+    "explanation": "The diagnosis is wet (neovascular) age-related macular degeneration (AMD), confirmed by the presence of choroidal neovascularization (CNV). The standard of care and first-line treatment for wet AMD is intravitreal injections of anti-Vascular Endothelial Growth Factor (anti-VEGF) agents. These drugs inhibit the growth of abnormal blood vessels, reducing leakage and preserving vision."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60 years old man presents to the Eye clinic with a 3 days history of left eye pain. On examination, her VA is CF in the left eye and 6/18 in the right eye. Left anterior chamber is deep and shows cells and flare. There are bilateral cataracts. The left cataract is hypermature and IOP in the same eye is 50mmHg. Which of the following is the likely diagnosis?",
+    "options": [
+      "a. Lens particle glaucoma",
+      "b. Phacoanaphylactic glaucoma",
+      "c. Phacoantigenic glaucoma",
+      "d. Phacolytic glaucoma",
+      "e. Phacomorphic glaucoma"
+    ],
+    "answer": "d",
+    "explanation": "Phacolytic glaucoma occurs when a hypermature cataract leaks soluble lens proteins through an intact lens capsule. These proteins are engulfed by macrophages, which then obstruct the trabecular meshwork, leading to acute open-angle glaucoma with very high IOP and inflammation. Phacomorphic glaucoma involves a swollen lens pushing the iris forward, causing angle closure."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 10 years old boy presents with dimness of vision in the right eye for a long time. On examination, his visual acuity is 6/36 in the right eye, there is right RAPD. Anterior segment examination is unremarkable. Right fundus shows optic atrophy. Laboratory workup is not significant. You are suspecting a space-occupying lesion. What is the most appropriate next step of investigation in this patient?",
+    "options": [
+      "a. CT",
+      "b. CTA",
+      "c. CTV",
+      "d. MRA",
+      "e. MRI"
+    ],
+    "answer": "e",
+    "explanation": "Magnetic Resonance Imaging (MRI) provides superior soft-tissue contrast compared to CT, making it the investigation of choice for visualizing the optic nerves, chiasm, and brain. In a child with unilateral optic atrophy, an MRI is essential to rule out a compressive lesion like an optic nerve glioma or craniopharyngioma."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 40 years old male came to OPD with sudden blurring of vision in his right eye. Visual acuity (VA) in right eye is 6/9 and VA in left eye is 6/6. On fundus examination, there are superior temporal venous engorgement, flame-shaped hemorrhages and cotton wool spots. Your diagnosis is branch retinal vein occlusion. What is the most appropriate treatment in this case?",
+    "options": [
+      "a. AntiVEGF",
+      "b. Argon laser",
+      "c. Intravitreal dexamethasone",
+      "d. Intravitreal triamcinolone",
+      "e. Observation"
+    ],
+    "answer": "e",
+    "explanation": "In a case of branch retinal vein occlusion (BRVO) where the visual acuity is still good (6/9) and there is no significant macular edema or neovascularization, the standard initial management is observation. Treatment with anti-VEGF or laser is typically initiated only if vision-threatening complications develop."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 42 years old man presented with watering and redness of right eye from the last 6 months. On examination there was restricted extraocular movements with lid lag and scleral show. The patient was found to have proptosis. What is the best way to measure the amount of his proptosis?",
+    "options": [
+      "a. B-Scan ultrasonography",
+      "b. Computed Tomography (CT)",
+      "c. Corneal topography",
+      "d. Exophthalmo-metery",
+      "e. Magnetic Resonance Imaging (MRI)"
+    ],
+    "answer": "d",
+    "explanation": "Exophthalmometry is the specific clinical method used to measure the degree of proptosis (forward protrusion of the eyeball). An instrument like the Hertel exophthalmometer is used to quantify the distance from the lateral orbital rim to the corneal apex, allowing for objective measurement and monitoring."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 3-old child is brought to Pediatric Ophthalmic OPD with leucokoria. Two of her siblings also have same problem. On examination, there are bilateral cataracts. There is no fundus view due to this media opacity. B-scan is normal. How will you manage?",
+    "options": [
+      "a. Glasses prescription",
+      "b. Laser refractive surgery",
+      "c. Lensectomy with intraocular lens implantation",
+      "d. Observation",
+      "e. Pars plana vitrectomy"
+    ],
+    "answer": "c",
+    "explanation": "Visually significant congenital or infantile cataracts are an ophthalmic emergency as they can lead to irreversible amblyopia (lazy eye). The definitive treatment is surgical removal of the cataractous lens (lensectomy), typically combined with primary intraocular lens (IOL) implantation in a 3-year-old child to correct the vision."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60 years old man presents to you with a mass on the left lower eyelid for 10 years. On examination, there is a well-circumscribed mass on the lower eyelid with rolled edges and central ulceration. You are suspecting basal cell carcinoma (BCC). What is most common complication that can be expected in this patient?",
+    "options": [
+      "a. Hematogenous metastasis to the brain",
+      "b. Hematogenous metastasis to the liver",
+      "c. Hematogenous metastasis to the lungs",
+      "d. Local invasion of skull and CNS",
+      "e. Lymphatic metastasis"
+    ],
+    "answer": "d",
+    "explanation": "Basal cell carcinoma (BCC) is the most common malignancy of the eyelid. It is characterized by slow growth and local invasion. While metastasis is extremely rare, the most significant complication is its potential for direct, local invasion into the orbit, surrounding facial bones, skull, and central nervous system if left untreated."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 40 years old male came to OPD with sudden blurring of vision in his right eye. VA right eye 6/12 and VA left eye 6/6. On fundus examination, there are superior temporal venous engorgement, flame-shaped hemorrhages and cotton wool spots. What is your diagnosis?",
+    "options": [
+      "a. Branch retinal artery occlusion",
+      "b. Branch retinal vein occlusion",
+      "c. Central retinal artery occlusion",
+      "d. Central retinal vein occlusion",
+      "e. Optic neuropathy"
+    ],
+    "answer": "b",
+    "explanation": "The fundus findings of venous engorgement, flame-shaped hemorrhages, and cotton wool spots that are localized to one quadrant of the retina (the area drained by the superior temporal vein) are the classic signs of a Branch Retinal Vein Occlusion (BRVO)."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60 years male presented to you with sudden painless loss of vision in his right eye. Visual acuity in right eye is CF 4m while in left eye it is 6/6. On fundus examination, there were flame shaped hemorrhages in all quadrants, dilated tortuous vessels and swollen disc. What is your diagnosis?",
+    "options": [
+      "a. Anterior ischemic optic neuropathy",
+      "b. Central retinal artery occlusion",
+      "c. Central retinal vein occlusion",
+      "d. Macular hole",
+      "e. Retinal detachment"
+    ],
+    "answer": "c",
+    "explanation": "The characteristic fundus appearance described as 'blood and thunder'—involving hemorrhages in all four quadrants, venous dilation and tortuosity, and optic disc swelling—is pathognomonic for a Central Retinal Vein Occlusion (CRVO)."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 19 years old boy presents to your clinic with droopy eyelids on right side. Visual acuities are 6/5 in the right eye and 6/6 in the left eye. On examination, there is mild right ptosis. On slit lamp examination you notice that the iris is slightly lighter in colour on the right side. What is your diagnosis?",
+    "options": [
+      "a. Aponeurotic ptosis",
+      "b. Blepharophimosis syndrome",
+      "c. Congenital horners syndrome",
+      "d. Congenital myogenic ptosis",
+      "e. Neurogenic ptosis"
+    ],
+    "answer": "c",
+    "explanation": "The combination of unilateral ptosis and iris heterochromia (lighter colored iris on the affected side) are key features of Congenital Horner's Syndrome. This condition results from a disruption of the sympathetic nerve supply to the eye during development."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 30-year-old male presented to you with red eyes and watering. Initially it involved right eye and after two days it spread to the left eye. His young daughter develops a similar problem other day. On examination, VA is 6/6. There is conjunctival redness with ropy discharge. Rest of the ocular examination is unremarkable. What is the most probable diagnosis?",
+    "options": [
+      "a. Allergic conjunctivitis",
+      "b. Bacterial conjunctivitis",
+      "c. Cicatricial conjunctivitis",
+      "d. Fungal conjunctivitis",
+      "e. Viral conjunctivitis"
+    ],
+    "answer": "e",
+    "explanation": "The history is classic for viral conjunctivitis: an acute onset, spreading from one eye to the other, a watery or ropy discharge (not purulent), and a history of a close contact (daughter) also being affected, indicating high contagiousness."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 30-year-old male presented with loss of vision in his left eye after trauma while left eye is normal. VA right eye is HM while 6/6 in left eye with right RAPD. On examination red reflex is absent in right eye, anterior segment is normal. There are pigmented cells in vitreous. Retina is elevated with tear in the superatemporal retina. What is your diagnosis?",
+    "options": [
+      "a. Exudative retinal detachment",
+      "b. Macular hole",
+      "c. Optic atrophy",
+      "d. Rhegmatogenous retinal detachment",
+      "e. Tractional retinal detachment"
+    ],
+    "answer": "d",
+    "explanation": "A rhegmatogenous retinal detachment is defined as a detachment caused by a full-thickness break (a hole or tear) in the retina, which allows vitreous fluid to seep underneath and separate the retina from the underlying tissue. The history of trauma and the finding of a retinal tear confirm this diagnosis."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 65 years old hypertensive patient is complaining of decrease vision in both eyes. You performed visual field examination on the patient and found right homonymous hemianopia which is confirmed on perimetry as well. Which of the following is the most probable site of lesion?",
+    "options": [
+      "a. Left optic nerve",
+      "b. Left optic tract",
+      "c. Optic chiasma",
+      "d. Right optic tract",
+      "e. Right optic nerve"
+    ],
+    "answer": "b",
+    "explanation": "A right homonymous hemianopia is the loss of the right visual field in both eyes. This type of visual field defect is caused by a lesion in the visual pathway behind the optic chiasm on the contralateral (opposite) side. Therefore, the lesion must be in the left optic tract, left optic radiations, or left visual cortex. The most anterior of these is the left optic tract."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 48 years diabetic patient presented with diplopia from the last 5 days. On examination, you find that the patient is having left hypertropia with a head tilt to the right side. On extraocular motility, the hypertropia increases in right gaze. What is the most probable diagnosis?",
+    "options": [
+      "a. Right inferior oblique palsy",
+      "b. Right superior oblique palsy",
+      "c. Left inferior rectus palsy",
+      "d. Left inferior oblique palsy",
+      "e. Left superior oblique palsy"
+    ],
+    "answer": "e",
+    "explanation": "This clinical scenario fits the Parks-Bielschowsky three-step test for a superior oblique palsy. The left hypertropia (step 1) which worsens on contralateral gaze (right gaze, step 2) and is typically associated with a contralateral head tilt (right tilt, step 3) is characteristic of a left superior oblique (IVth nerve) palsy."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 50 years old woman presents to Eye OPD with severe pain and dimness of vision in her right eye. She has a history of right phacoemulsification with intraocular lens implantation 05 days ago. On examination, her visual acuity is 6/60 in the right eye with eyelid swelling, conjunctival congestion and chemosis. There is fibrinous exudate and hypopyon in the right eye. Fundus view is hazy. Which is the most likely involved pathogen?",
+    "options": [
+      "a. Proteus spp.",
+      "b. Pseudomonas spp.",
+      "c. S. aureus",
+      "d. S. epidermidis",
+      "e. Streptococcus spp."
+    ],
+    "answer": "d",
+    "explanation": "The presentation is classic for acute post-operative endophthalmitis. The most common causative organisms are bacteria from the patient's own ocular surface flora. Coagulase-negative staphylococci, specifically *Staphylococcus epidermidis*, are the most frequently isolated pathogens in this setting."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 15 years old girl presents to the eye clinic with a 2 days history of blurring in the right eye with pain on ocular movements. Examination reveals a visual acuity of 6/36 in the right eye and 6/6 in the left eye. There is RAPD. Fundus examination shows right swollen optic disc. Left fundus is normal. Systemic history and examination are not significant. What is the most appropriate diagnosis?",
+    "options": [
+      "a. Acute angle closure glaucoma",
+      "b. Anterior ischemic optic neuropathy",
+      "c. Cavernous sinus thrombosis",
+      "d. Giant cell arteritis",
+      "e. Optic neuritis"
+    ],
+    "answer": "e",
+    "explanation": "The classic triad of acute unilateral vision loss, pain with eye movements, and a relative afferent pupillary defect (RAPD) in a young person is pathognomonic for optic neuritis. The swollen optic disc indicates papillitis, a common finding in this condition."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "An 80 years old female presented to Eye OPD with sudden onset painful right eye with decreased vision and associated nausea. On examination she has right corneal edema with mid dilated pupil and IOP of 60 mmHg. Left eye is normal except having shallow anterior chamber. What is the immediate next step of management?",
+    "options": [
+      "a. Intravenous Mannitol",
+      "b. Laser iridotomy in right eye",
+      "c. Oral steroids",
+      "d. Topical antibiotics in right eye",
+      "e. Trabeculectomy in right eye"
+    ],
+    "answer": "a",
+    "explanation": "This is a classic presentation of acute angle-closure glaucoma, an ophthalmic emergency. The immediate goal is to lower the extremely high intraocular pressure (IOP) to prevent irreversible optic nerve damage. Intravenous mannitol is a hyperosmotic agent that rapidly reduces IOP by drawing fluid out of the vitreous humor."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 53-year-old man presented to you with pain and redness in his left eye for the last 05 days. On examination, he has corneal ulceration involving inferior 1/3 of the cornea. He also has a left sided facial palsy. What is your diagnosis?",
+    "options": [
+      "a. Exposure keratopathy",
+      "b. Filamentary keratopathy",
+      "c. Infectious crystalline keratopathy",
+      "d. Neurotrophic keratopathy",
+      "e. Thygeson superficial punctate keratitis"
+    ],
+    "answer": "a",
+    "explanation": "Facial nerve palsy prevents complete closure of the eyelid (a condition called lagophthalmos). This leads to inadequate lubrication and drying of the cornea, especially the inferior third, resulting in epithelial breakdown and ulceration known as exposure keratopathy."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 5 years old child went on spring vacations to his village and was playing cricket. He got cricket ball injury and developed decreased vision in left eye. On slit lamp examination, there is blood in anterior chamber. What is this condition called as?",
+    "options": [
+      "a. Endophthalmitis",
+      "b. Hyphaema",
+      "c. Hypopyon",
+      "d. Keratitis",
+      "e. Uveitis"
+    ],
+    "answer": "b",
+    "explanation": "Hyphaema is the medical term for blood collecting in the anterior chamber of the eye, the space between the cornea and the iris. It is a common result of blunt trauma, such as being hit by a ball."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 58-year-old male presented with pain, dimness of vision and watering in left eye. On examination, he has visual acuity of 6/6 in right eye and 6/60 in his left eye. He has a 2.3x2.8mm corneal ulcer. Which of the following measures should be avoided in this patient?",
+    "options": [
+      "a. Antibiotics",
+      "b. Antifungals",
+      "c. Bandage contact lens",
+      "d. Cycloplegics",
+      "e. Irrigation with saline"
+    ],
+    "answer": "c",
+    "explanation": "In the case of a suspected infectious corneal ulcer, placing a bandage contact lens (BCL) is contraindicated. A BCL can trap microorganisms against the cornea, creating a warm, moist environment that can accelerate microbial replication and worsen the infection."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 56 years old diabetic patient presented with decrease vision in both eyes from the last one year. On examination, the anterior segment was normal. Fundoscopy showed retinal hemorrhages in all 4 quadrants with diabetic macular edema. How you will measure the amount of macular edema in this patient?",
+    "options": [
+      "a. B-Scan ultrasonography",
+      "b. Fundus autofluorescence (FAF)",
+      "c. Fundus Fluorescein angiography (FFA)",
+      "d. Optical coherence tomography (OCT)",
+      "e. Pachymetry"
+    ],
+    "answer": "d",
+    "explanation": "Optical Coherence Tomography (OCT) is the gold standard for diagnosing and quantifying diabetic macular edema. It provides high-resolution, cross-sectional images of the retina, allowing for precise measurement of retinal thickness and visualization of intraretinal fluid."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 52-year-old hypertensive patient presented with sudden onset diplopia and face turn to the left. On examination there is left abduction deficit. The rest of extraocular movements are normal. Which of the following nerve is involved in this condition?",
+    "options": [
+      "a. 2nd nerve",
+      "b. 3rd nerve",
+      "c. 4th nerve",
+      "d. 5th nerve",
+      "e. 6th nerve"
+    ],
+    "answer": "e",
+    "explanation": "The 6th cranial nerve (Abducens nerve) innervates the lateral rectus muscle, which is solely responsible for abduction (outward movement) of the eye. A deficit in abduction is a classic sign of a 6th nerve palsy. The face turn is a compensatory mechanism to avoid diplopia."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 2 weeks old infant is brought to eye OPD with white pupillary reflex in both eyes since birth. He is systemically normal. On examination, child cannot fix and follow. There are bilateral cataracts and microcorneas. There is no view of posterior segment. B-scans are normal. What will be your next step of management?",
+    "options": [
+      "a. Corneal topography",
+      "b. CT brain",
+      "c. Mantoux test",
+      "d. OCT macula",
+      "e. TORCH serology"
+    ],
+    "answer": "e",
+    "explanation": "In an infant with bilateral congenital cataracts, it is crucial to investigate for an underlying systemic cause before proceeding with surgery. Congenital infections are a significant cause, and a TORCH serology panel (Toxoplasmosis, Other, Rubella, Cytomegalovirus, Herpes) is a standard and essential part of the workup."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 09-year-old boy has 30 prism diopter of left esotropia. On full-time wear of +5 diopter glasses, the deviation decreased to 15 prism diopter. What is the next treatment option at this stage?",
+    "options": [
+      "a. Contact Lenses",
+      "b. Low vision devices",
+      "c. Multivitamin Syrup",
+      "d. Surgery for remaining squint",
+      "e. Telescopes"
+    ],
+    "answer": "d",
+    "explanation": "This patient has a partially accommodative esotropia. The glasses correct the accommodative component of the squint, but a residual non-accommodative deviation of 15 prism diopters remains. This residual squint requires surgical correction (strabismus surgery) to align the eyes."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "An 18 years old girl had severe headaches since six months, along with defective vision on temporal sides of her visual fields. What is the most probably diagnosis?",
+    "options": [
+      "a. Occipital infarct",
+      "b. Optic nerves glioma",
+      "c. Optic neuritis",
+      "d. Optic tract glioma",
+      "e. Pituitary adenoma"
+    ],
+    "answer": "e",
+    "explanation": "The loss of vision on the temporal (outer) sides of both visual fields is known as a bitemporal hemianopia. This specific visual field defect is the classic sign of a lesion compressing the optic chiasm. The pituitary gland is located directly beneath the chiasm, making a pituitary adenoma the most common cause."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 40-year-old lady complains of left eye redness of 2 days duration associated with photophobia and watery discharge. On exam, visual acuity is 6/12 both eyes. Cornea reveals dendritic lesion that stain well with fluorescein, Corneal sensations are reduced in left eye. Which of the following is the most appropriate management?",
+    "options": [
+      "a. Artificial tears",
+      "b. Topical antivirals",
+      "c. Topical cyclosporine",
+      "d. Topical NSAIDS",
+      "e. Topical steroids"
+    ],
+    "answer": "b",
+    "explanation": "A dendritic ulcer on the cornea that stains with fluorescein, combined with reduced corneal sensation, is pathognomonic for Herpes Simplex Virus (HSV) keratitis. The mainstay of treatment is a topical antiviral agent (e.g., ganciclovir gel). Topical steroids are strongly contraindicated as they can worsen the infection."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 55-year-old patient presented with decreased vision in the right eye from the last 3 days associated with watering and foreign body sensation. There is also pustules and blisters involving the right side of forehead, lid up to the tip of the nose with severe pain and tingling sensation. Ocular examination shows corneal dendritic ulceration. What is the most probable diagnosis in this case?",
+    "options": [
+      "a. Atopic keratoconjunctivitis",
+      "b. Fungal infection",
+      "c. Herpes simplex infection",
+      "d. Herpes zoster ophthalmicus",
+      "e. Steven Johnson syndrome"
+    ],
+    "answer": "d",
+    "explanation": "The unilateral, dermatomal vesicular rash involving the forehead and tip of the nose (Hutchinson's sign) is characteristic of shingles in the ophthalmic division of the trigeminal nerve. This condition, known as Herpes Zoster Ophthalmicus (HZO), frequently involves the eye, causing conditions like keratitis (dendritic ulcer)."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A young man recently shifted to a new home and was doing white wash of the walls. Suddenly he slipped and the white wash fell in his both eyes. What immediate treatment is needed?",
+    "options": [
+      "a. Copious wash of eyes with water/saline",
+      "b. Pad both eyes",
+      "c. Put local anesthesia eye drops in eyes",
+      "d. Start antibiotic eye drops",
+      "e. Start antiglaucoma medicines"
+    ],
+    "answer": "a",
+    "explanation": "White wash contains lime, which is a strong alkali. Alkali chemical burns are an ophthalmic emergency. The single most important and immediate step is to dilute and remove the chemical by performing copious and prolonged irrigation of the eyes with any clean water available, or sterile saline if accessible."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 30-year old female presented to eye OPD with sudden onset redness in right eye (RE) with photophobia and decreased vision. Systemic history is positive for low back pain. On examination, her visual acuity is 6/18 in RE. There is conjunctival congestion, keratic precipitates (kps) and +4 cells in anterior chamber. Fundus examination is unremarkable. What is the primary treatment of this patient?",
+    "options": [
+      "a. Oral antibiotics",
+      "b. Oral steroids",
+      "c. Subtenon steroids",
+      "d. Topical antibiotics",
+      "e. Topical steroids"
+    ],
+    "answer": "e",
+    "explanation": "The patient has acute anterior uveitis, characterized by inflammation in the anterior chamber (cells, KPs). The primary goal of treatment is to control this inflammation to prevent complications like synechiae and glaucoma. Intensive topical corticosteroids are the first-line and mainstay of treatment."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60 years old man presented to eye OPD with transient visual loss in left eye that lasts for few minutes. These episodes occur several times a day. Ocular examination is unremarkable. Which of the following is most appropriate initial investigation?",
+    "options": [
+      "a. Chest X-ray",
+      "b. CT brain",
+      "c. Electrocardiogram",
+      "d. Renal function tests",
+      "e. Thyroid function tests"
+    ],
+    "answer": "c",
+    "explanation": "The symptom described is amaurosis fugax, a form of transient ischemic attack (TIA) affecting the eye. It is often caused by emboli from the carotid arteries or the heart. A standard workup for TIA includes investigating the heart for sources of emboli, such as atrial fibrillation. An Electrocardiogram (ECG) is a crucial initial test for this purpose."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 2 weeks old infant is brought to eye OPD with white pupillary reflex in both eyes since birth. He is systemically normal. On examination, child cannot fix and follow. There are bilateral cataracts and microcorneas. There is no view of posterior segment. B-scans are normal. What are the preferred timing of surgery for this child?",
+    "options": [
+      "a. At 2 weeks age",
+      "b. At 6 weeks age",
+      "c. At 18 weeks age",
+      "d. At 20 weeks age",
+      "e. At 25 weeks age"
+    ],
+    "answer": "b",
+    "explanation": "To prevent irreversible stimulus-deprivation amblyopia, surgery for visually significant bilateral congenital cataracts should be performed early in life. The ideal window is generally considered to be between 4 and 8 weeks of age. Operating at 6 weeks falls perfectly within this critical period for visual development."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 30-years old farmer presented to you with pain and redness in right eye for the last 02 days. On inquiry he had trauma to his right eye with a bush of tree. On examination, visual acuity in his right eye is 6/36. He has a 2.5x3mm corneal ulcer with satellite lesions. What is your diagnosis?",
+    "options": [
+      "a. Acanthamoeba keratitis",
+      "b. Bacterial conjunctivitis",
+      "c. Fungal keratitis",
+      "d. Marginal keratitis",
+      "e. Viral keratitis"
+    ],
+    "answer": "c",
+    "explanation": "The combination of a history of trauma with vegetative matter (a tree bush) and the clinical finding of satellite lesions surrounding a main corneal infiltrate is highly characteristic of fungal keratitis. This presentation should be considered a fungal infection until proven otherwise."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 35 years old obese woman presented to eye OPD with severe headache especially in morning. It worsens on bending forward. She also complains of visual obscuration lasting few seconds. She is taking oral contraceptive pills for the last 1 year. She is non-diabetic and non-hypertensive. On examination, her visual acuity is 6/6. There is no RAPD. Anterior segment examination is unremarkable. Fundus examination shows, bilateral swollen discs with hemorrhages and exudates. What will be your next step of management?",
+    "options": [
+      "a. CT brain",
+      "b. Lumber puncture",
+      "c. MRI brain",
+      "d. Oral acetazolamide",
+      "e. Oral topiramate"
+    ],
+    "answer": "b",
+    "explanation": "The patient's presentation is classic for Idiopathic Intracranial Hypertension (IIH). The first step is neuroimaging (MRI is preferred over CT) to rule out a mass lesion. Once a mass is ruled out, a lumbar puncture (LP) is the essential next step to confirm the diagnosis by measuring an elevated opening pressure and to analyze the cerebrospinal fluid."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 6 months old infant is brought by parents with complaint of watering, redness, photophobia and blepharospasm. On examination, he has nystagmus with enlarged hazy cornea. Fundus examination is not possible due to poor view. IOP is 30 in both eyes under sedation. What is your diagnosis?",
+    "options": [
+      "a. Conjunctivitis",
+      "b. Congenital glaucoma",
+      "c. Congenital myopia",
+      "d. Congenital nasolacrimal duct obstruction",
+      "e. Congenital rubella keratitis"
+    ],
+    "answer": "b",
+    "explanation": "The classic triad of symptoms (epiphora, photophobia, blepharospasm) combined with the signs of elevated intraocular pressure (enlarged, hazy cornea known as buphthalmos) in an infant is pathognomonic for primary congenital glaucoma."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 4-year-old girl has convergent squint of left eye. On examination she has left amblyopia. What is the best treatment option for her?",
+    "options": [
+      "a. Glasses",
+      "b. Multivitamins",
+      "c. Observation",
+      "d. Patch therapy",
+      "e. Surgery"
+    ],
+    "answer": "d",
+    "explanation": "The primary goal before correcting the squint is to treat the amblyopia (lazy eye). The standard and most effective treatment for amblyopia is occlusion therapy, which involves patching the better-seeing eye to force the brain to use and develop the neural pathways for the amblyopic eye."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 7-years old boy developed pain and swelling of right orbital region for 3 days. He has a history of sinusitis for 1 week. On examination, he has right proptosis with reduced ocular motility and conjunctival chemosis. His vision is 6/36 in right eye. What is the most appropriate treatment in this patient?",
+    "options": [
+      "a. Systemic antibiotics",
+      "b. Systemic steroids",
+      "c. Topical antibiotics",
+      "d. Topical cycloplegics",
+      "e. Topical steroids"
+    ],
+    "answer": "a",
+    "explanation": "This patient has orbital cellulitis, a serious infection of the tissues behind the orbital septum, which is a common complication of sinusitis. It is a medical emergency that requires immediate hospitalization and treatment with broad-spectrum intravenous (systemic) antibiotics to prevent vision loss and intracranial spread."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 30-year-old female presented to eye OPD with sudden onset redness in right eye (RE) with photophobia and decreased vision. Systemic history is positive for low back pain. On examination, her visual acuity is 6/18 in RE. There is conjunctival congestion, keratic precipitates (kps) and +4 cells in the anterior chamber. Fundus examination is unremarkable. What is your diagnosis?",
+    "options": [
+      "a. Anterior uveitis",
+      "b. Endophthalmitis",
+      "c. Intermediate uveitis",
+      "d. Panuveitis",
+      "e. Posterior uveitis"
+    ],
+    "answer": "a",
+    "explanation": "The presence of inflammatory signs confined to the anterior segment—specifically keratic precipitates (KPs) on the endothelium and inflammatory cells in the anterior chamber—defines the condition as anterior uveitis. The association with low back pain suggests a possible systemic inflammatory condition like ankylosing spondylitis."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 5 years old child is brought by her mother to you with deviation of right eye since birth. On Hirschberg test, the light reflex was falling on inner (nasal) border of right pupil. What is your diagnosis?",
+    "options": [
+      "a. Esotropia 15 degrees",
+      "b. Esotropia 15 prism diopters",
+      "c. Exotropia 15 degrees",
+      "d. Exotropia 15 prism diopters",
+      "e. Hypertropia 15 prism diopter"
+    ],
+    "answer": "c",
+    "explanation": "In the Hirschberg test, the corneal light reflex is assessed. If the eye is deviated outward (exotropia), the light reflex will be displaced inward (nasally) from the center of the pupil. A reflex falling on the border of the pupil corresponds to a deviation of approximately 15 degrees."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 04 months old infant is brought by parents to Eye OPD with white pupillary reflex in right eye since birth. Infant is not fixing and following light with right eye. EUA reveals rubeosis irides and a retrolental mass with vitreous seeds in right eye. Intraocular pressure is 35 in right eye and 8 in left eye. Left eye examination is unremarkable. MRI shows no invasion of optic nerve. How will you treat this infant?",
+    "options": [
+      "a. Chemotherapy",
+      "b. Cryotherapy",
+      "c. Enucleation",
+      "d. Laser photocoagulation",
+      "e. Radiotherapy"
+    ],
+    "answer": "c",
+    "explanation": "The findings are classic for advanced, unilateral retinoblastoma. Given the poor visual potential, vitreous seeding, and secondary glaucoma (high IOP with rubeosis irides), the safest and most definitive treatment is enucleation (surgical removal of the eye). This is life-saving as it prevents the tumor from spreading outside the eye."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 70 years old woman came to OPD with complaints of sudden decrease in vision in left eye with associated headache. The patient was also complaining of jaw claudication and pain on combing hair. On examination, her visual acuity is counting finger in left eye with RAPD and swollen optic disc. Her ESR was 60. What is your diagnosis?",
+    "options": [
+      "a. Arteritic anterior ischemic optic neuropathy",
+      "b. Neuroretinitis",
+      "c. Non-Arteritic anterior ischemic optic neuropathy",
+      "d. Optic neuritis",
+      "e. Posterior ischemic optic neuropathy"
+    ],
+    "answer": "a",
+    "explanation": "The combination of systemic symptoms (headache, jaw claudication, scalp tenderness) with acute, severe vision loss, a swollen optic disc, and a significantly elevated Erythrocyte Sedimentation Rate (ESR) in an elderly patient is the classic presentation of Arteritic Anterior Ischemic Optic Neuropathy (A-AION) caused by Giant Cell Arteritis (GCA)."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 50 years old man presented to you with watering and redness in both eyes for the last 01 year. He had a previous history of cicatricial conjunctivitis. On examination, you found inward rotation of lower eyelids. What is your diagnosis?",
+    "options": [
+      "a. Lower lid ectropion",
+      "b. Lower lid entropion",
+      "c. Lower lid epiblepharon",
+      "d. Lower lid ptosis",
+      "e. Lower lid trichiasis"
+    ],
+    "answer": "b",
+    "explanation": "Entropion is the medical term for the inward turning of the eyelid margin. This causes the eyelashes to rub against the globe, leading to chronic irritation, redness, and watering. It can be a consequence of scarring (cicatricial) changes to the conjunctiva."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60 year uncontrolled diabetic woman presented with sudden decrease vision in right eye. On examination, there are bilateral cataracts. There is no RAPD. Fundus view is not clear. What investigation will you advice to assess any associated posterior segment pathology?",
+    "options": [
+      "a. B-Scan ultrasonography",
+      "b. Fundus autoflourescence",
+      "c. Fundus fluorescein angiography",
+      "d. Optical coherence tomography",
+      "e. Retinal photography"
+    ],
+    "answer": "a",
+    "explanation": "When the view of the posterior segment is obscured by a dense media opacity like a mature cataract, B-scan ultrasonography is the investigation of choice. It uses sound waves to create a two-dimensional image of the inside of the eye, allowing for the detection of pathologies like retinal detachment or vitreous hemorrhage."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 56 years old man presented with gradual progressive decrease vision in the right from last 8 months. On examination the vision is 6/60 in right eye and 6/9 in left eye with no improvement with pinhole. Fundus examination is hazy but seems to be normal. What is the most probable diagnosis?",
+    "options": [
+      "a. Age-related macular degeneration",
+      "b. Cataract",
+      "c. Diabetic retinopathy",
+      "d. Glaucoma",
+      "e. Vitreous hemorrhage"
+    ],
+    "answer": "b",
+    "explanation": "The history of a gradual, progressive, and painless decline in vision that does not improve with a pinhole is the classic presentation of a cataract. The cataract itself is the media opacity that would cause the fundus examination to be hazy."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 65 years old man presented with decreased vision in both eyes from the last 2 years. On examination, he has a visual acuity of CF 3 meters in both eyes. On examination anterior segment is normal in both eyes and there is retinal pigment epithelial atrophy with scars in the macular region. He is non-diabetic and non-hypertensive. What is the most probable diagnosis?",
+    "options": [
+      "a. Age-related macular degeneration",
+      "b. Central serous chorioretinopathy",
+      "c. Exudative retinal detachment",
+      "d. Lattice degeneration",
+      "e. Retinitis pigmentosa"
+    ],
+    "answer": "a",
+    "explanation": "The clinical profile of an elderly patient with bilateral, progressive central vision loss and fundus findings of atrophy and scarring confined to the macula is characteristic of atrophic (dry) Age-related Macular Degeneration (AMD)."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 35 years old male presented to Eye OPD with sudden loss of vision in his right eye. He has a history of trauma to the right eye with a cricket ball 1 month ago. On examination, his visual acuity is 6/36 in right eye and 6/6 in left eye. He is having right eye RAPD. What is the likely cause of his right eye RAPD?",
+    "options": [
+      "a. Cataract",
+      "b. Episcleritis",
+      "c. Keratitis",
+      "d. Retinal detachment",
+      "e. Scleritis"
+    ],
+    "answer": "d",
+    "explanation": "A Relative Afferent Pupillary Defect (RAPD) indicates significant damage to the afferent visual pathway (retina or optic nerve). Following severe blunt trauma, a traumatic retinal detachment is a common cause of profound vision loss and would result in widespread retinal dysfunction, leading to a RAPD."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 45 years old labourer presented to your clinic with complain of watering and irritation, more frequently during sun exposure. On slit lamp examination, you observe a wedge-shaped growth of the conjunctiva that extends onto the nasal cornea. What is your diagnosis?",
+    "options": [
+      "a. Limbal Dermoid",
+      "b. Nodular Phlyctenule",
+      "c. Pinguecula",
+      "d. Pterygium",
+      "e. Scleritis"
+    ],
+    "answer": "d",
+    "explanation": "A pterygium is a fibrovascular growth of the conjunctiva that is typically triangular or wedge-shaped and extends onto the cornea, most commonly from the nasal side. It is strongly associated with chronic exposure to ultraviolet light, dust, and wind."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 6 months old infant is brought by parents with complaint of watering, redness, photophobia and blepharospasm. On examination, he has nystagmus with enlarged hazy cornea. Fundus examination is not possible due to poor view. IOP is 30 in both eyes under sedation. How will you treat?",
+    "options": [
+      "a. Artificial drainage device",
+      "b. Cyclocryopexy",
+      "c. Cyclodiode laser",
+      "d. Trabeculotomy",
+      "e. Trabeculectomy"
+    ],
+    "answer": "d",
+    "explanation": "The diagnosis is congenital glaucoma. Treatment is surgical. The primary surgical procedures aim to improve aqueous outflow. Trabeculotomy is a standard initial procedure that incises the abnormal trabecular meshwork to create a direct path for aqueous to drain into Schlemm's canal. It is often preferred over goniotomy when the cornea is hazy."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 65 years old woman presented with pain in left eye since yesterday. She is giving history of left phacoemulsification 3 days back. On examination the vision is counting fingers in left eye with conjunctival congestion and corneal edema along with hypopyon in the anterior chamber. What is the most appropriate treatment?",
+    "options": [
+      "a. Intravitreal antibiotics",
+      "b. Peribulbar antibiotics",
+      "c. Subtenon antibiotics",
+      "d. Systemic antibiotics",
+      "e. Topical antibiotics"
+    ],
+    "answer": "a",
+    "explanation": "This is a classic case of acute post-operative endophthalmitis, an ophthalmic emergency. The standard of care is immediate intervention with a vitreous tap for cultures followed by the injection of broad-spectrum antibiotics directly into the vitreous cavity (intravitreal injection) to achieve high, therapeutic drug levels at the site of infection."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60 years old man presents to you with sudden loss of vision in his left eye. He is a known cardiac patient. On examination, VA is PL+ in left eye. Anterior segment is normal while fundus shows white cloudy retina with cherry red spot. What is your diagnosis?",
+    "options": [
+      "a. Branch retinal artery occlusion",
+      "b. Branch retinal vein occlusion",
+      "c. Central retinal artery occlusion",
+      "d. Central retinal vein occlusion",
+      "e. Hemiretinal vein occlusion"
+    ],
+    "answer": "c",
+    "explanation": "The funduscopic finding of a diffusely pale, ischemic retina with a contrasting 'cherry-red spot' at the macula is pathognomonic for a Central Retinal Artery Occlusion (CRAO). The cherry-red appearance is due to the intact choroidal circulation showing through the thin fovea against the backdrop of the opacified retina."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 55 years old female patient presented with decrease vision in the left eye along with complaint of watering from left eye. On examination, you found that the patient is having mature cataract in the left eye with positive regurgitation test of mucopurulent discharge on same side. Which procedure you will prefer to do first?",
+    "options": [
+      "a. Both cataract and DCR surgery in the same setting",
+      "b. Cataract surgery alone",
+      "c. Dacryocystorhinostomy Surgery alone",
+      "d. Give antibiotics for chronic dacryocystitis and do cataract surgery",
+      "e. No surgical intervention at the moment"
+    ],
+    "answer": "c",
+    "explanation": "Performing intraocular surgery (like cataract extraction) in the presence of an active infection in the nasolacrimal system (chronic dacryocystitis) carries a very high risk of sight-threatening postoperative endophthalmitis. It is an absolute requirement to resolve the infection first, which is done surgically with a dacryocystorhinostomy (DCR). The cataract surgery can be performed at a later date."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 50 years old woman presents to you with gradual onset dimness of vision in both eyes for the last 01 year. She is known diabetic for the last 10 years. On examination, her visual acuity is 6/24 in both eyes. Anterior segment examination is within normal limits. Fundus examination shows proliferative diabetic retinopathy with macular edema. How will you treat this patient?",
+    "options": [
+      "a. AntiVEGF",
+      "b. Cryotherapy",
+      "c. Diffuse laser",
+      "d. Focal laser",
+      "e. Pars plana vitrectomy"
+    ],
+    "answer": "a",
+    "explanation": "This patient has two vision-threatening conditions: proliferative diabetic retinopathy (PDR) and diabetic macular edema (DME). Intravitreal anti-VEGF therapy is a first-line treatment that effectively addresses both problems. It reduces macular edema and can also cause regression of the abnormal new blood vessels associated with PDR."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 60-year-old male presented to you with sudden painless loss of vision in his right eye. VA in right eye is CF while it is 6/6 in left eye. On fundus examination, there were flame-shaped hemorrhages in all quadrants, dilated tortuous vessels and swollen disc. Which complication will you expect in this patient at 3 months after the event?",
+    "options": [
+      "a. Angle closure glaucoma",
+      "b. Choroidal detachment",
+      "c. Neovascular glaucoma",
+      "d. Open angle glaucoma",
+      "e. Retinal detachment"
+    ],
+    "answer": "c",
+    "explanation": "The patient has a Central Retinal Vein Occlusion (CRVO). A severe, ischemic CRVO leads to retinal hypoxia, which stimulates the production of VEGF. This can lead to the growth of new, abnormal blood vessels on the iris and in the angle, causing a severe secondary glaucoma known as neovascular glaucoma. This complication typically develops around 90 days (3 months) after the initial event."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 48-year-old woman came to you with difficulty in reading. She is non-diabetic and non-hypertensive. On examination, VA in both eyes is 6/6 for distance. Ocular examination is unremarkable. What is the cause of her reduced near vision?",
+    "options": [
+      "a. Amblyopia",
+      "b. Astigmatism",
+      "c. Hypermetropia",
+      "d. Myopia",
+      "e. Presbyopia"
+    ],
+    "answer": "e",
+    "explanation": "Presbyopia is the normal, age-related loss of the eye's ability to focus on near objects. It typically starts in the early to mid-40s and is caused by the hardening of the lens. The patient's age and symptom of isolated difficulty with near vision while distance vision remains clear are classic for presbyopia."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 12 years old child was brought to you with complain of irritation of eyes that is most severe in summer season and recurrent. On examination, the child is having VA of 6/12 in right eye and 6/9 in left eye. On eversion of lid you find giant papillae, conjunctival congestion most marked in the limbal region with associated pseudogerontoxon. What is the most probable diagnosis in this case?",
+    "options": [
+      "a. Adenoviral conjunctivitis",
+      "b. Bacterial conjunctivitis",
+      "c. Gonococcal conjunctivitis",
+      "d. Trachoma",
+      "e. Vernal keratoconjunctivitis"
+    ],
+    "answer": "e",
+    "explanation": "The combination of seasonal (summer) recurrence, intense itching, and the classic signs of giant 'cobblestone' papillae on the upper tarsal conjunctiva and limbal inflammation are pathognomonic for Vernal Keratoconjunctivitis (VKC), a severe form of allergic eye disease."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 16-year-old boy is brought to you with trauma by scissor when he was playing with it. On examination, you found that his cornea is perforated. What is your 1st step of management as a community doctor?",
+    "options": [
+      "a. Repairing of the cornea",
+      "b. Refer the patient without doing anything",
+      "c. Steroid ointment, then refer the patient",
+      "d. Topical steroids then refer the patient",
+      "e. Topical antibiotics, pad the eye then refer"
+    ],
+    "answer": "e",
+    "explanation": "In a case of an open globe injury (corneal perforation), the immediate priorities for a non-specialist are to prevent infection and protect the eye from further damage. This involves applying a topical broad-spectrum antibiotic, placing a protective shield (or a very gentle pad) over the eye without applying pressure, and arranging for immediate referral to an ophthalmologist for surgical repair."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 65-year-old patient presented with vertical diplopia for the last week. She has a history of road traffic accident 01 week ago. On examination, vision in both eyes is 6/6. There is hypertropia of right eye and the patient cannot depress the eye in adduction. Which nerve is most probably involved?",
+    "options": [
+      "a. Abducent nerve",
+      "b. Nasociliary nerve",
+      "c. Oculomotor nerve",
+      "d. Optic nerve",
+      "e. Trochlear nerve"
+    ],
+    "answer": "e",
+    "explanation": "The superior oblique muscle is responsible for depressing the eye when it is in the adducted (turned in) position. This muscle is innervated by the trochlear nerve (IVth cranial nerve). An inability to depress the adducted eye is the classic sign of a trochlear nerve palsy, which is common after head trauma due to the nerve's long intracranial course."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "An 80-year-old Caucasian smoker woman complains of recent problems with reading vision, specifically words appearing distorted and blank patches being present. Her vision is often good in brighter light. On examination, her vision is 6/36 both eyes with no further improvement with refraction. Anterior segment examination is unremarkable. Pupils are reactive to light. Fundus shows numerous intermediate-size soft drusen in both eyes with choroidal neovascularization (CNV). How will you manage?",
+    "options": [
+      "a. Intravitreal antibiotics",
+      "b. Intravitreal antiVEGF",
+      "c. Multivitamins",
+      "d. Subconjunctival decadron",
+      "e. Subtenon triamcinolone"
+    ],
+    "answer": "b",
+    "explanation": "This is a duplicate question. The diagnosis is wet AMD due to the presence of CNV. The standard of care is treatment with intravitreal anti-VEGF injections to suppress the growth and leakage from the abnormal blood vessels."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 58 years old man underwent uneventful phacoemulsification surgery for cataract in his right eye. After 3 days, he presented with severe pain and loss of vision in the right eye. On examination, he was having VA of perception of light in right eye and 6/9 in the left eye. He has congested conjunctiva, hazy cornea and hypopyon with no view of posterior segment of the eye. What is the most probable diagnosis?",
+    "options": [
+      "a. Acute angle closure glaucoma",
+      "b. Loss of lens fragments into posterior segment of the eye",
+      "c. Post-operative endophthalmitis",
+      "d. Post-operative uveitis",
+      "e. Post-operative vitreous hemorrhage"
+    ],
+    "answer": "c",
+    "explanation": "The acute onset of severe pain, profound vision loss, and intense intraocular inflammation (indicated by a hypopyon) within days of an intraocular surgery like cataract extraction is the classic presentation of post-operative endophthalmitis, a severe infection inside the eye."
+  },
+  {
+    "id": "kmc",
+    "block": "m2",
+    "year": "2023",
+    "question": "A 47 years old man presented with ocular pain in the right eye from the last 1 week. There is redness of the right eye with associated pain. On phenylephrine eye drops installation the redness is not reduced. The patient is also giving a history of rheumatoid arthritis. What is your diagnosis?",
+    "options": [
+      "a. Blepharitis",
+      "b. Conjunctivitis",
+      "c. Corneal ulcer",
+      "d. Episcleritis",
+      "e. Scleritis"
+    ],
+    "answer": "e",
+    "explanation": "Scleritis is characterized by deep, boring ocular pain and redness. A key diagnostic sign is that the redness, which originates from the deep episcleral vascular plexus, does not blanch with the application of a topical vasoconstrictor like phenylephrine. There is also a strong association between scleritis and systemic autoimmune diseases like rheumatoid arthritis."
+  }
+]

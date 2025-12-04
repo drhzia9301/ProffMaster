@@ -1,0 +1,1403 @@
+[
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The best position after trachestomy:",
+    "options": [
+      "a. Supine",
+      "b. Semi-sitting",
+      "c. Standing",
+      "d. On one side."
+    ],
+    "answer": "b",
+    "explanation": "After a tracheostomy, the patient is usually placed in a semi-sitting (Fowler's) position. This helps to reduce edema, facilitates drainage of secretions, improves ventilation, and minimizes the risk of aspiration."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The tube may slip due to:",
+    "options": [
+      "a. Small sized tube.",
+      "b. Pulled out by violent cough.",
+      "c. Loosely tied tape.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "A tracheostomy tube can slip or become displaced due to several factors: if the tube is too small for the stoma, if it is not secured tightly enough (loosely tied tape), or if a violent cough generates enough force to dislodge it. Therefore, all of the listed reasons are potential causes."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Structures in the larynx responsible for sphincteric function:",
+    "options": [
+      "a. Vocal cords.",
+      "b. Ventricular bands.",
+      "c. Aryepiglottic folds.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "The larynx has three levels of sphincteric protection to prevent aspiration: the aryepiglottic folds (supraglottic), the ventricular bands (false vocal cords), and the true vocal cords (glottis). All of these structures contribute to the sphincteric function of the larynx."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Laryngeal stenosis may be due to:",
+    "options": [
+      "a. Scleroma.",
+      "b. Congenital.",
+      "c. Traumatic.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "Laryngeal stenosis can be congenital (e.g., webs, subglottic stenosis) or acquired. Acquired causes include trauma (e.g., intubation injury, external trauma) and chronic inflammatory conditions like scleroma (rhinoscleroma affecting the larynx). Thus, all the options are valid causes."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Apnea immediately after opening the trachea is due to:",
+    "options": [
+      "a. Rise of the blood carbon dioxide level.",
+      "b. Fall of the blood 02 level.",
+      "c. Wash out of the blood carbon dioxide level",
+      "d. None of the above."
+    ],
+    "answer": "c",
+    "explanation": "In patients with chronic upper airway obstruction, the respiratory drive is often maintained by hypoxic drive or high CO2 levels. When the trachea is opened (tracheostomy), the obstruction is suddenly relieved, leading to a rapid washout of accumulated CO2. This sudden drop in PaCO2 removes the primary respiratory stimulus, causing temporary apnea (apnea of relief)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Which is true about laryngeal carcinoma:",
+    "options": [
+      "a. Commoner in males.",
+      "b. The commonest type is squamous cell carcinoma.",
+      "c. Is predisposed by smoking.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "Laryngeal carcinoma is significantly more common in males, the vast majority (over 90%) are squamous cell carcinomas, and smoking is the single most important risk factor. Therefore, all statements are true."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Inhaled smooth small FB is commonly arrested in:",
+    "options": [
+      "a. The larynx.",
+      "b. The trachea.",
+      "c. The right bronchus.",
+      "d. The left bronchus."
+    ],
+    "answer": "c",
+    "explanation": "Inhaled foreign bodies (FB) are most commonly arrested in the right main bronchus because it is wider, shorter, and more vertical (more in line with the trachea) than the left main bronchus."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "30 years old female suffering form bilateral nasal obstruction, crusty nose, hoarseness of voice & stridor. The most probable cause is:",
+    "options": [
+      "a. Allergic rhinitis.",
+      "b. Vasomotor rhinitis.",
+      "c. Rhino laryngo scleroma.",
+      "d. Acute rhinosinusitis."
+    ],
+    "answer": "c",
+    "explanation": "The constellation of symptoms involving the nose (obstruction, crusting) and the larynx (hoarseness, stridor) in a young female, specifically with crusting (atrophic stage), points towards Rhinoscleroma (or Scleroma). It is a chronic granulomatous disease that affects the respiratory tract, progressing from the nose to the larynx."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The left recurrent laryngeal nerve passes in the chest around:",
+    "options": [
+      "a. Aortic arch.",
+      "b. Left main bronchus.",
+      "c. Thoracic duct.",
+      "d. Azygos vein."
+    ],
+    "answer": "a",
+    "explanation": "The left recurrent laryngeal nerve loops around the arch of the aorta in the superior mediastinum before ascending in the tracheoesophageal groove. The right recurrent laryngeal nerve loops around the right subclavian artery."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest cause of breathing difficulty after tracheostomy is:",
+    "options": [
+      "a. Pneumonia.",
+      "b. Obstruction of the tube by secretion.",
+      "c. Surgical emphysema.",
+      "d. Pneumothorax."
+    ],
+    "answer": "b",
+    "explanation": "Tube obstruction by inspissated secretions (mucus plugs) or blood clots is the most common cause of respiratory difficulty in the immediate postoperative period following a tracheostomy. Regular suctioning and humidification are essential preventive measures."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Laryngeal lesions are investigated by:",
+    "options": [
+      "a. Ct.",
+      "b. MRI.",
+      "c. Endoscopy & biopsy.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "The investigation of laryngeal lesions is multimodal. Endoscopy (laryngoscopy) with biopsy is essential for diagnosis. CT and MRI are crucial for staging, assessing the extent of the lesion, cartilage invasion, and nodal involvement."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Infection reaching the submental & submandibular space is called:",
+    "options": [
+      "a. Vincent angina.",
+      "b. Ludwig's angina.",
+      "c. Submandibular sialadenitis.",
+      "d. Bezold's abscess."
+    ],
+    "answer": "b",
+    "explanation": "Ludwig's angina is a rapidly spreading cellulitis involving the submandibular, sublingual, and submental spaces bilaterally. It is a serious condition that can lead to airway obstruction."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Vincent angina is characterized by:",
+    "options": [
+      "a. Very sever systemic symptoms & mild local symptoms.",
+      "b. Very sever local symptoms & mild systemic symptoms.",
+      "c. Very sever local & systemic symptoms.",
+      "d. Very mild local & systemic symptoms."
+    ],
+    "answer": "b",
+    "explanation": "Vincent's angina (acute necrotizing ulcerative gingivitis/pharyngitis) typically presents with severe local symptoms like painful, ulcerative gums or tonsils, foul breath, and bleeding, but systemic symptoms (like high fever) are often mild or disproportionately less severe compared to the local appearance."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Contraindication of tonsillectomy includes all of the following EXCEPT:",
+    "options": [
+      "a. Hemophilia.",
+      "b. Acute attack.",
+      "c. One attack of quinsy 2 months ago.",
+      "d. Active rheumatic arthritis."
+    ],
+    "answer": "c",
+    "explanation": "Contraindications for tonsillectomy include bleeding disorders (like hemophilia) unless corrected, acute infection (acute attack), and systemic conditions like active rheumatic fever/arthritis (until controlled). A history of quinsy (peritonsillar abscess) is actually an *indication* for interval tonsillectomy to prevent recurrence, not a contraindication."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Pain in the ear in cases of acute tonsillitis or following tonsillectomy is referred via:",
+    "options": [
+      "a. 5th nerve.",
+      "b. 9th nerve.",
+      "c. 10th nerve.",
+      "d. 12th nerve."
+    ],
+    "answer": "b",
+    "explanation": "Referred otalgia (ear pain) from the tonsil or tonsillar fossa is mediated by the glossopharyngeal nerve (CN IX). The tympanic branch of CN IX (Jacobson's nerve) supplies sensation to the middle ear, and the tonsillar branch supplies the tonsil."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Haemorrhage within the 24 hours following tonsillectomy:",
+    "options": [
+      "a. Primary.",
+      "b. Reactionary.",
+      "c. Secondary.",
+      "d. None of the above."
+    ],
+    "answer": "b",
+    "explanation": "Reactionary hemorrhage is defined as bleeding that occurs within the first 24 hours after surgery (typically within 4-6 hours), usually due to the slipping of a ligature, dislodgement of a clot, or cessation of reflex vasoconstriction as blood pressure normalizes."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Haemorrhage during the operation of tonsillectomy is:",
+    "options": [
+      "a. Primary.",
+      "b. Reactionary.",
+      "c. Secondary.",
+      "d. None of the above."
+    ],
+    "answer": "a",
+    "explanation": "Primary hemorrhage is defined as bleeding that occurs *during* the surgical procedure itself."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The cause of reactionary haemorrhage after tonsillectomy:",
+    "options": [
+      "a. Secondary infection.",
+      "b. Rising blood pressure with slipping of ligature.",
+      "c. Injury of the pharyngeal muscles & mucosa.",
+      "d. None of the above."
+    ],
+    "answer": "b",
+    "explanation": "Reactionary hemorrhage is often precipitated by factors that increase venous pressure or dislodge a clot/ligature shortly after surgery, such as rising blood pressure as the patient recovers from anesthesia, coughing, or vomiting."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The cause of suffocation & laryngeal spasm after tonsillectomy:",
+    "options": [
+      "a. Backward of the tongue.",
+      "b. Inhalation of vomitus or blood clots.",
+      "c. Extubation spasm.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "Post-tonsillectomy airway compromise can be caused by the tongue falling backward (especially if the patient is deeply sedated), aspiration of blood or vomitus triggering laryngospasm, or laryngospasm upon extubation. All are potential causes."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The value of post-tonsillectomy position is:",
+    "options": [
+      "a. To prevent backward falling of tongue.",
+      "b. To prevent inhalation of the vomitus or blood.",
+      "c. To detect bleeding.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "The tonsil position (lateral position with head down and slight extension) serves multiple purposes: it keeps the airway open by preventing the tongue from falling back, allows blood and secretions to drain out of the mouth (preventing aspiration/inhalation), and makes active bleeding easier to detect as it trickles out."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "6th nerve paralysis occurs in the following cases EXCEPT:",
+    "options": [
+      "a. Nasopharyngeal carcinoma.",
+      "b. Cavernous sinus thrombosis.",
+      "c. Postcricoid carcinoma.",
+      "d. Petrositis."
+    ],
+    "answer": "c",
+    "explanation": "The 6th cranial nerve (abducens) has a long intracranial course and is susceptible to damage in nasopharyngeal carcinoma (via skull base invasion), cavernous sinus thrombosis (it runs through the sinus), and petrositis (Gradenigo's syndrome). Postcricoid carcinoma, being hypopharyngeal, typically affects lower cranial nerves (IX, X, XI, XII) or the sympathetic chain, but does not typically cause isolated 6th nerve palsy."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Tonsillectomy is indicated in all of the following EXCEPT:",
+    "options": [
+      "a. Blood diseases.",
+      "b. Diphtheria carrier.",
+      "c. Chronic tonsillitis.",
+      "d. Impacted FB."
+    ],
+    "answer": "a",
+    "explanation": "Blood diseases (like leukemia, severe anemia, purpura) are generally *contraindications* for tonsillectomy due to the high risk of bleeding and infection. Diphtheria carriers (to eliminate the carrier state), chronic tonsillitis, and impacted foreign bodies are valid indications."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Tonsillectomy is contraindicated in all of the following EXCEPT:",
+    "options": [
+      "a. During epidemic of polio.",
+      "b. During acute attack",
+      "c. Malignant hypertension.",
+      "d. Diphtheria carrier."
+    ],
+    "answer": "d",
+    "explanation": "Tonsillectomy is *contraindicated* during a polio epidemic, during an acute infection (acute attack), and in systemic conditions like malignant hypertension. Being a diphtheria carrier is an *indication* for tonsillectomy (to clear the carrier state), not a contraindication."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Tonsillectomy is contraindicated in all of the following EXCEPT:",
+    "options": [
+      "a. During menses.",
+      "b. Uncontrolled diabetes.",
+      "c. After peritonsillar abscess.",
+      "d. Full stomach."
+    ],
+    "answer": "c",
+    "explanation": "Tonsillectomy is contraindicated during active menses (due to potentially increased bleeding), uncontrolled diabetes (poor healing/infection risk), and with a full stomach (aspiration risk). A history of peritonsillar abscess (quinsy) is an *indication* for interval tonsillectomy to prevent recurrence."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Pain in the ear in cases of acute tonsillitis or following tonsillectomy is referred via:",
+    "options": [
+      "a. 9th cranial nerve.",
+      "b. 5th cranial nerve.",
+      "c. 10th cranial nerve.",
+      "d. 12th cranial nerve."
+    ],
+    "answer": "a",
+    "explanation": "The glossopharyngeal nerve (CN IX) provides sensory innervation to the tonsillar region. It also gives off the tympanic branch (Jacobson's nerve) to the middle ear. Pain from the tonsil is referred to the ear via this nerve."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Ludwig's angina is:",
+    "options": [
+      "a. Cellulitis of the pyriform fossa.",
+      "b. Cellulitis in the parapharyngeal space.",
+      "c. Cellulitis in the retropharyngeal space.",
+      "d. Cellulitis of the floor of the mouth."
+    ],
+    "answer": "d",
+    "explanation": "Ludwig's angina is defined as a rapidly spreading, bilateral cellulitis of the submandibular, sublingual, and submental spaces, which collectively form the floor of the mouth."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most dangerous complication of ludwig's angina is:",
+    "options": [
+      "a. Acute laryngeal edema.",
+      "b. CHL.",
+      "c. Bleeding.",
+      "d. Nasal obstruction."
+    ],
+    "answer": "a",
+    "explanation": "The most feared and life-threatening complication of Ludwig's angina is airway obstruction due to laryngeal edema and the displacement of the tongue superiorly and posteriorly."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most common site of quinsy is:",
+    "options": [
+      "a. Superior to tonsils.",
+      "b. Lateral to tonsils.",
+      "c. Posterior to tonsils.",
+      "d. Inferior to the tonsils."
+    ],
+    "answer": "a",
+    "explanation": "Quinsy (peritonsillar abscess) most commonly forms in the potential space between the tonsillar capsule and the superior constrictor muscle, typically at the superior pole of the tonsil (superior and lateral)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The possible cause of death in case of juvenile nasopharyngeal angiofibroma is:",
+    "options": [
+      "a. Recurrent infection.",
+      "b. ever epistaxis.",
+      "c. Upper respiratory tract obstruction.",
+      "d. None of the above."
+    ],
+    "answer": "b",
+    "explanation": "Juvenile nasopharyngeal angiofibroma is a highly vascular tumor. The most significant risk and potential cause of mortality is severe, uncontrolled hemorrhage (epistaxis), either spontaneously or during surgery."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most dangerous complication of ludwig's angina is:",
+    "options": [
+      "a. Acute laryngeal edema.",
+      "b. CHL.",
+      "c. Bleeding.",
+      "d. Nasal obstruction."
+    ],
+    "answer": "a",
+    "explanation": "Repeated question: Acute laryngeal edema leading to airway asphyxia is the most dangerous complication."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The following antibiotic is contraindicated in infectious mononucleosis:",
+    "options": [
+      "a. Ampicillin.",
+      "b. Erythromycin.",
+      "c. Cephalosporin.",
+      "d. None of the above."
+    ],
+    "answer": "a",
+    "explanation": "Ampicillin (and amoxicillin) is contraindicated in infectious mononucleosis because it frequently causes a non-allergic maculopapular rash."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Adenoid hypertrophy may lead to all of the following EXCEPT:",
+    "options": [
+      "a. Adenoid face.",
+      "b. Otitis media with effusion.",
+      "c. Sensory neural deafness.",
+      "d. Night mares."
+    ],
+    "answer": "c",
+    "explanation": "Adenoid hypertrophy can cause Eustachian tube dysfunction leading to otitis media with effusion (conductive deafness), mouth breathing leading to 'adenoid facies', and sleep apnea leading to nightmares. It does not cause sensorineural deafness."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Acute tonsillitis may cause all of the following EXCEPT:",
+    "options": [
+      "a. acute retropharyngeal abscess.",
+      "b. Acute peritonsillar abscess.",
+      "c. Para Pharyngeal abscess.",
+      "d. Quinsy."
+    ],
+    "answer": "a",
+    "explanation": "Acute tonsillitis can spread directly to cause peritonsillar abscess (quinsy) and parapharyngeal abscess. Acute retropharyngeal abscess is typically due to suppuration of retropharyngeal lymph nodes (from adenoid/nasopharyngeal/sinus infection) in children, not a direct complication of acute tonsillitis in the same way quinsy is."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Chronic retropharyngeal abscess is treated by:",
+    "options": [
+      "a. Excision through posterior to sternomastoid.",
+      "b. External drainage anterior to sternomastoid.",
+      "c. Internal drainage via longitudinal incision.",
+      "d. None of the above."
+    ],
+    "answer": "b",
+    "explanation": "Chronic retropharyngeal abscess is usually tuberculous (Pott's disease). It is treated by external drainage through an incision along the anterior border of the sternocleidomastoid muscle to prevent secondary infection and fistula formation, combined with anti-tuberculous chemotherapy. (Note: Acute is often drained intraorally, but chronic is external)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The causative agent of infectious mononucleosis:",
+    "options": [
+      "a. Boreli vencenti.",
+      "b. Candida albicans.",
+      "c. Barr-epestin virus",
+      "d. Streptococci."
+    ],
+    "answer": "c",
+    "explanation": "Infectious mononucleosis is caused by the Epstein-Barr virus (EBV)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Membranous tonsillitis may be due to:",
+    "options": [
+      "a. Diphtheria.",
+      "b. Acute follicular tonsillitis.",
+      "c. Infectious mononucleosis.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "Membranous or exudative tonsillitis can be seen in diphtheria (true membrane), acute follicular tonsillitis (coalesced follicles), infectious mononucleosis, and Vincent's angina. Thus, all options are correct."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Paul-Bunnell test is diagnostic for:",
+    "options": [
+      "a. Diphtheria.",
+      "b. Acute follicular tonsillitis.",
+      "c. Infectious mononucleosis.",
+      "d. Thrush stomatitis."
+    ],
+    "answer": "c",
+    "explanation": "The Paul-Bunnell test (heterophile antibody test) is a specific serological test used to diagnose infectious mononucleosis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The cause of secondary hemorrhage is:",
+    "options": [
+      "a. Wound sepsis.",
+      "b. Unprepared patient.",
+      "c. Injury of the pharyngeal muscle.",
+      "d. Rising of blood pressure with slipping ligature."
+    ],
+    "answer": "a",
+    "explanation": "Secondary hemorrhage (occurring 5-10 days post-op) is almost always due to wound infection (sepsis) causing erosion of a vessel as the eschar separates."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Fever in diphtheria is:",
+    "options": [
+      "a. High grade fever.",
+      "b. Low grade fever.",
+      "c. Remittent fever.",
+      "d. Intermittent fever."
+    ],
+    "answer": "b",
+    "explanation": "Despite the severe systemic toxicity caused by the exotoxin, the fever in diphtheria is typically low-grade (around 100-101°F)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The pulse in diphtheria is:",
+    "options": [
+      "a. Full bounding pulse.",
+      "b. Week rapid pulse.",
+      "c. Synchronous with the temperature.",
+      "d. Non synchronous with the temperature."
+    ],
+    "answer": "b",
+    "explanation": "The pulse in diphtheria is characteristically weak and rapid, often disproportionate to the degree of fever (tachycardia out of proportion to temperature), due to the toxic effect on the myocardium (myocarditis)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "In a case of 5 years old boy with a membranous faucial lesion, temp 103F and pulse 180/min, the most probable diagnosis is:",
+    "options": [
+      "a. Acute tonsillitis.",
+      "b. Infectious mononucleosis.",
+      "c. Acute follicular tonsillitis.",
+      "d. Diphtheria.",
+      "e. Agranulocytosis."
+    ],
+    "answer": "a",
+    "explanation": "High fever (103°F) and rapid pulse are more characteristic of acute septic conditions like acute streptococcal tonsillitis. While diphtheria has a membrane, the fever is usually low-grade. Infectious mononucleosis also has fever and membrane but the acute high fever and tachycardia fit acute bacterial tonsillitis well."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Chronic sinusitis has:",
+    "options": [
+      "a. Low grade fever.",
+      "b. Remittent fever.",
+      "c. Intermittent fever.",
+      "d. No fever."
+    ],
+    "answer": "d",
+    "explanation": "Chronic sinusitis is typically not associated with fever. Symptoms are more prolonged and include nasal obstruction, discharge, and facial pressure/pain. Fever suggests acute exacerbation or acute sinusitis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The point of tenderness in acute frontal sinusitis is:",
+    "options": [
+      "a. The inner canthus.",
+      "b. The supra-orbital margin.",
+      "c. The infra-orbital margin.",
+      "d. None of them."
+    ],
+    "answer": "b",
+    "explanation": "Tenderness in acute frontal sinusitis is typically elicited by applying pressure to the floor of the frontal sinus, which is located just medial to the supra-orbital margin (Ewing's sign)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The point of tenderness in acute ethmoidal sinusitis is: a.",
+    "options": [
+      "a. The inner canthus.",
+      "b. The supra-orbital margin.",
+      "c. The infra-orbital margin.",
+      "d. None of them."
+    ],
+    "answer": "a",
+    "explanation": "Tenderness in acute ethmoiditis is typically found over the medial wall of the orbit, near the inner canthus."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Unilateral nasal discharge and unilateral nasal obstruction in 13 years boy is most probably diagnostic of:",
+    "options": [
+      "a. Choanal atresia.",
+      "b. Adenoids.",
+      "c. Nasopharyngeal carcinoma.",
+      "d. None of them."
+    ],
+    "answer": "d",
+    "explanation": "In a 13-year-old boy, unilateral nasal obstruction and discharge should raise suspicion for a foreign body (less likely at this age), antrochoanal polyp, or nasopharyngeal angiofibroma (associated with epistaxis). Nasopharyngeal carcinoma is possible but rare. Choanal atresia presents in infancy. Adenoids are usually bilateral. The *most* probable diagnosis for this specific demographic and presentation isn't perfectly captured by the specific options A-C, though antrochoanal polyp (not listed) is a strong candidate. Among the choices, none is a classic fit for 'most probable' compared to common entities like a polyp or deviated septum/sinusitis. However, if forced to choose pathology, angiofibroma (also not listed) is a key differential. Given options, 'None of them' is a reasonable choice if common causes like polyps are absent."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "In frontal sinusitis, the discharge is in:",
+    "options": [
+      "a. The anterior part of the middle meatus.",
+      "b. The posterior part of the middle meatus.",
+      "c. All over the middle meatus.",
+      "d. The inferior meatus."
+    ],
+    "answer": "a",
+    "explanation": "The frontal sinus drains via the frontonasal duct into the anterior part of the middle meatus (specifically the hiatus semilunaris)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "In ethmoidal sinusitis, the discharge is in:",
+    "options": [
+      "a. The anterior part of the middle meatus.",
+      "b. The posterior part of the middle meatus.",
+      "c. All over the middle meatus.",
+      "d. The inferior meatus."
+    ],
+    "answer": "c",
+    "explanation": "The anterior ethmoid air cells drain into the middle meatus, while the posterior ethmoid air cells drain into the superior meatus. In generalized ethmoiditis or specifically anterior ethmoiditis, discharge can be seen in the middle meatus. However, the option 'all over the middle meatus' is often used to describe the drainage from multiple anterior group sinuses (frontal, maxillary, anterior ethmoid)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Which of the following is used to confirm nasal allergy:",
+    "options": [
+      "a. Eosinophilia in nasal secretion.",
+      "b. eosinophilia in blood.",
+      "c. elevated serum IgE level.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "The diagnosis of allergic rhinitis (nasal allergy) is supported by finding eosinophils in nasal smears, eosinophilia in the blood, and elevated serum IgE levels (specific or total). Therefore, all of the above can be used."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Alternating nasal obstruction is mainly:",
+    "options": [
+      "a. Allergic.",
+      "b. Infective.",
+      "c. Neoplastic.",
+      "d. None of them."
+    ],
+    "answer": "a",
+    "explanation": "Alternating nasal obstruction is characteristic of the nasal cycle, which is often exaggerated in allergic rhinitis and vasomotor rhinitis due to mucosal congestion."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The main manifestation of antrochoanal polyp is:",
+    "options": [
+      "a. Proptosis.",
+      "b. Unilateral nasal obstruction.",
+      "c. Headache.",
+      "d. Sneezing."
+    ],
+    "answer": "b",
+    "explanation": "An antrochoanal polyp typically grows posteriorly from the maxillary sinus into the choana and nasopharynx, causing marked unilateral nasal obstruction, often on expiration."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest cause of epistaxis in 50 years old man is:",
+    "options": [
+      "a. Hypertension.",
+      "b. Angio-fibroma.",
+      "c. Allergic nasal polypi.",
+      "d. Antrochoanal polyp."
+    ],
+    "answer": "a",
+    "explanation": "In older adults (e.g., 50 years old), systemic factors like hypertension and atherosclerosis are common predisposing or exacerbating causes of epistaxis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Non symptomatic deviated nasal septum needs:",
+    "options": [
+      "a. Septoplasty.",
+      "b. No treatment.",
+      "c. Sub-mucoperichondrial resection.",
+      "d. Cauterization."
+    ],
+    "answer": "b",
+    "explanation": "A deviated nasal septum is a common anatomical finding. If it is asymptomatic (not causing obstruction, sinusitis, etc.), it requires no treatment."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The following is complication of SMR of deviated nasal septum:",
+    "options": [
+      "a. Septal haematoma.",
+      "b. Septal abscess.",
+      "c. Septal perforation.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "Complications of Submucous Resection (SMR) include septal hematoma (collection of blood), septal abscess (if infected), and septal perforation (due to mucosal tear or ischemia). Saddle nose deformity is another potential complication."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Headache in sinusitis is due to:",
+    "options": [
+      "a. Tension headache.",
+      "b. Vacuum headache.",
+      "c. Toxic headache.",
+      "d. All of the above."
+    ],
+    "answer": "d",
+    "explanation": "Headache in sinusitis can be due to vacuum effect (obstruction of ostia leading to negative pressure), absorption of toxins (toxic headache), and referred pain/tension. Thus, multiple mechanisms contribute."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The time of occurence of headache in frontal sinusitis:",
+    "options": [
+      "a. All the day.",
+      "b. At night.",
+      "c. Periodecal.",
+      "d. None of them."
+    ],
+    "answer": "c",
+    "explanation": "Headache in acute frontal sinusitis is characteristically periodical ('office headache'). It typically starts in the morning, worsens towards midday as sinus secretions accumulate and pressure increases, and subsides in the late afternoon as the sinus drains."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Nasopharyngeal carcinoma cause Horner's syndrome as a result of infiltration of:",
+    "options": [
+      "a. cranial nerve.",
+      "b. 5th cranial nerve.",
+      "c. 7th cranial nerve.",
+      "d. Cervical sympathetic chain."
+    ],
+    "answer": "d",
+    "explanation": "Horner's syndrome (ptosis, miosis, anhidrosis) results from the interruption of the sympathetic nerve supply. In nasopharyngeal carcinoma, this occurs due to infiltration of the cervical sympathetic chain, typically in the parapharyngeal space or near the carotid sheath."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The following drugs can cause epistaxis EXCEPT:",
+    "options": [
+      "a. Salicylates.",
+      "b. Anticoagulants.",
+      "c. Hypertensive",
+      "d. Ampicilin."
+    ],
+    "answer": "d",
+    "explanation": "Salicylates (aspirin) and anticoagulants interfere with clotting and can cause epistaxis. Hypertension is a systemic cause. Ampicillin is an antibiotic and does not typically cause epistaxis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Periodic headache is a characteristic symptoms in:",
+    "options": [
+      "a. Frontal sinusitis.",
+      "b. Ethmoidal sinusitis.",
+      "c. Maxillary sinusitis.",
+      "d. Non of the above."
+    ],
+    "answer": "a",
+    "explanation": "As noted previously, 'periodical' headache is a classic symptom of acute frontal sinusitis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The following lesions may leads to proptosis EXCEPT:",
+    "options": [
+      "a. Nasopharyngeal angiofibroma.",
+      "b. Nasopharyngeal carcinoma.",
+      "c. Adenoid hypertrophy.",
+      "d. Nasopharyngeal sarcoma."
+    ],
+    "answer": "c",
+    "explanation": "Tumors like angiofibroma, carcinoma, and sarcoma can invade the orbit via the pterygopalatine fossa and inferior orbital fissure, causing proptosis. Adenoid hypertrophy is a benign lymphoid enlargement restricted to the nasopharynx and does not invade the orbit."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest cause of nasal polypi is:",
+    "options": [
+      "a. Infective.",
+      "b. Malignant.",
+      "c. Secondary to malignancy.",
+      "d. Allergic."
+    ],
+    "answer": "d",
+    "explanation": "Nasal polyps, particularly bilateral ethmoidal polyps, are most commonly associated with chronic inflammation due to allergy or asthma."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest cause of CSF rhinorrhea is:",
+    "options": [
+      "a. Congenital.",
+      "b. Traumatic.",
+      "c. Infective.",
+      "d. Neoplastic."
+    ],
+    "answer": "b",
+    "explanation": "Trauma (accidental or iatrogenic/surgical) is the most common cause of CSF rhinorrhea due to fracture of the cribriform plate or skull base."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest complication of sinusitis is:",
+    "options": [
+      "a. Meningitis.",
+      "b. Orbital.",
+      "c. Extradural abscess.",
+      "d. Brain abscess."
+    ],
+    "answer": "b",
+    "explanation": "Orbital complications (e.g., orbital cellulitis) are the most common complications of acute sinusitis, particularly ethmoiditis in children, due to the thin lamina papyracea separating the sinus from the orbit."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Post nasal discharge may occurs in:",
+    "options": [
+      "a. Adenoid abscess.",
+      "b. Acute & chronic sinusitis is.",
+      "c. None of them.",
+      "d. All of them."
+    ],
+    "answer": "d",
+    "explanation": "Post nasal discharge (drip) is a common symptom of both adenoiditis/abscess and sinusitis (acute or chronic), where secretions drain posteriorly into the nasopharynx."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Unilateral nasal obstruction in newly born infant may be due to:",
+    "options": [
+      "a. Antro choanal polyp.",
+      "b. Allergic nasal polyp.",
+      "c. Choanal atresia.",
+      "d. None of the above."
+    ],
+    "answer": "c",
+    "explanation": "Unilateral choanal atresia is a congenital cause of unilateral nasal obstruction in newborns. Bilateral atresia presents with respiratory distress."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Unilateral mucopurulent & purulent nasal discharge may be due to:",
+    "options": [
+      "a. Unilateral sinusitis.",
+      "b. FB in nose.",
+      "c. None of them.",
+      "d. All of them."
+    ],
+    "answer": "d",
+    "explanation": "Unilateral mucopurulent discharge can be caused by unilateral sinusitis or a foreign body in the nose (which causes secondary infection). Thus, all options are possible causes."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most common site of nasal bleeding is:",
+    "options": [
+      "a. Little's area.",
+      "b. Mac Ewing triangle.",
+      "c. Pyriform fossa.",
+      "d. Sphenoethmoidal recess."
+    ],
+    "answer": "a",
+    "explanation": "Little's area (Kiesselbach's plexus) on the anterior nasal septum is the most common site of epistaxis (nasal bleeding)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Little's area is the site of anastomosis of the following arteries EXCEPT",
+    "options": [
+      "a. Anterior ethmoidal artery.",
+      "b. Sphenopalatine artery.",
+      "c. Greater palatine artery.",
+      "d. Ascending pharyngeal artery."
+    ],
+    "answer": "d",
+    "explanation": "Little's area is formed by the anastomosis of the septal branches of: 1. Sphenopalatine artery, 2. Greater palatine artery, 3. Superior labial artery, and 4. Anterior ethmoidal artery. The ascending pharyngeal artery does not contribute to this plexus."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Anterior ethmoid presents bulge in the middle meatus called:",
+    "options": [
+      "a. Bulla ethmoidalis.",
+      "b. Concha bullosa.",
+      "c. Lamina papyracea.",
+      "d. Hiatus semilunaris."
+    ],
+    "answer": "a",
+    "explanation": "The bulla ethmoidalis is a bulge in the lateral wall of the middle meatus formed by the largest anterior ethmoid air cell."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most common site of origin of allergic nasal polpi is:",
+    "options": [
+      "a. Maxillary sinus.",
+      "b. Ethmoidal sinus.",
+      "c. Frontal sinus.",
+      "d. Sphenoid sinus."
+    ],
+    "answer": "b",
+    "explanation": "Bilateral allergic nasal polyps most commonly arise from the ethmoid sinuses."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest organism in malignant otitis externa:",
+    "options": [
+      "a. Streptococci.",
+      "b. Pneumococci.",
+      "c. Pseudomonas aeruginosa.",
+      "d. Moraxella catarrhalis."
+    ],
+    "answer": "c",
+    "explanation": "Malignant otitis externa is predominantly caused by *Pseudomonas aeruginosa*."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Radiological findings of sinusitis include all of the following except:",
+    "options": [
+      "a. bone destruction.",
+      "b. opacity of affected sinus.",
+      "c. Fluid level.",
+      "d. Mucosal thickening."
+    ],
+    "answer": "a",
+    "explanation": "Radiological signs of sinusitis include opacity (haziness), air-fluid levels, and mucosal thickening. Bone destruction is not a feature of uncomplicated sinusitis but rather suggests malignancy or aggressive fungal infection."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Mixed hearing loss may be caused by one of the following:",
+    "options": [
+      "a. Otosclerosis.",
+      "b. Meniere's disease.",
+      "c. Ear wax.",
+      "d. Acoustic neuroma."
+    ],
+    "answer": "a",
+    "explanation": "Otosclerosis causes conductive hearing loss due to stapes fixation. However, it can also involve the cochlea (cochlear otosclerosis), leading to a sensorineural component, thus resulting in mixed hearing loss."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Pulsating ear discharge may be found in:",
+    "options": [
+      "a. Extradural abscess.",
+      "b. Acute exacerbation of CSOM.",
+      "c. Acute otitis media with small perforation.",
+      "d. All of the above."
+    ],
+    "answer": "c",
+    "explanation": "A pulsating ear discharge (light-house sign) is characteristic of acute otitis media with a small perforation, where the pulsation of the inflamed mucosa is transmitted to the discharge. It can also be seen in acute exacerbations."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The following are tests of hearing sensitivity EXCEPT:",
+    "options": [
+      "a. Tuning fork tests.",
+      "b. Tympanometry.",
+      "c. Auditory Brain Stem Response.",
+      "d. Pure tone audiometry."
+    ],
+    "answer": "b",
+    "explanation": "Tympanometry is a test of middle ear function (compliance of the TM and middle ear pressure), not a direct test of hearing sensitivity (thresholds). Tuning forks, ABR, and PTA assess hearing."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Extra cranial complications of chronic suppurative otitis media includes",
+    "options": [
+      "a. Mastoiditis.",
+      "b. Bezold abscess.",
+      "c. Lateral sinus thrombosis.",
+      "d. Otitis externa."
+    ],
+    "answer": "b",
+    "explanation": "Bezold's abscess (abscess in the neck) is an extracranial complication. Mastoiditis is intratemporal. Lateral sinus thrombosis is intracranial. Otitis externa is a separate condition."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "All are correct about Meniere's disease EXCEPT:",
+    "options": [
+      "a. It is an endolymphatic hydrops.",
+      "b. Males are more affected than females.",
+      "c. The type of deafness is conductive.",
+      "d. Degeneration of the labyrinth is indicated if the vertiginous attack is crippling."
+    ],
+    "answer": "c",
+    "explanation": "The hearing loss in Meniere's disease is sensorineural (cochlear), not conductive."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "BULL NECK is known to occur in",
+    "options": [
+      "a. Tonsillar diphtheria.",
+      "b. Quinsy.",
+      "c. Acute tonsillitis.",
+      "d. Chronic tonsillitis."
+    ],
+    "answer": "a",
+    "explanation": "'Bull neck' appearance is a characteristic sign of severe tonsillar diphtheria, caused by massive cervical lymphadenopathy and surrounding soft tissue edema."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Low grad fever is known to occur in",
+    "options": [
+      "a. Tonsillar diphtheria.",
+      "b. Quinsy.",
+      "c. Acute tonsillitis.",
+      "d. Chronic tonsillitis."
+    ],
+    "answer": "a",
+    "explanation": "Repeated question: Diphtheria typically presents with low-grade fever despite severe toxicity."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Feeble very rapid pulse is known to occur in:",
+    "options": [
+      "a. Tonsillar diphtheria.",
+      "b. Quinsy.",
+      "c. Acute tonsillitis.",
+      "d. Chronic tonsillitis."
+    ],
+    "answer": "a",
+    "explanation": "Repeated question: Tachycardia disproportionate to fever (feeble rapid pulse) is a sign of diphtheritic myocarditis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Plummer-Vinson syndrome predispose to:",
+    "options": [
+      "a. Postcricoid carcinoma.",
+      "b. Cancer larynx.",
+      "c. Cancer oesophagus.",
+      "d. None of the above."
+    ],
+    "answer": "a",
+    "explanation": "Repeated question: Plummer-Vinson syndrome predisposes to postcricoid carcinoma."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The fluids presents in secretory otitis media is:",
+    "options": [
+      "a. Mucopurulent.",
+      "b. Serosanguineous.",
+      "c. Exudates.",
+      "d. Transudates."
+    ],
+    "answer": "d",
+    "explanation": "The fluid in secretory otitis media (otitis media with effusion) is typically a sterile transudate (serous) or exudate (mucoid) resulting from negative pressure and inflammation, but 'transudate' or 'serous/mucoid' are classic descriptions distinguishing it from purulent infection. In early stages, it's often a transudate due to vacuum effect."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The discharge in case of cholesteatoma is:",
+    "options": [
+      "a. Copious creamy.",
+      "b. Copious offensive.",
+      "c. Scanty offensive.",
+      "d. Thick scanty creamy."
+    ],
+    "answer": "c",
+    "explanation": "Cholesteatoma typically produces a scanty, foul-smelling (offensive) discharge due to bone erosion and anaerobic infection."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most common cause of deafness in children:",
+    "options": [
+      "a. Acute otitis media.",
+      "b. Secretory otitis media.",
+      "c. Chronic otitis media.",
+      "d. Cholesteatoma."
+    ],
+    "answer": "b",
+    "explanation": "Secretory otitis media (glue ear) is the most common cause of hearing loss (conductive) in children."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Crescentic hair line is an otoscopic finding in:",
+    "options": [
+      "a. Otomycosis.",
+      "b. Otosclerosis.",
+      "c. Secretory otitis media.",
+      "d. Acute otitis media."
+    ],
+    "answer": "c",
+    "explanation": "A 'hair line' or fluid level (meniscus) visible behind the tympanic membrane is a classic sign of secretory otitis media (fluid in the middle ear)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The Following is true about the tympanic Membrane EXCEPT:",
+    "options": [
+      "a. It is rounded in shape.",
+      "b. It is placed obliquely forming acute angle with meatus anteriorly and obtuse one posteriorly.",
+      "c. The normal tympanic membrane is pearly white in colour.",
+      "d. The light reflex is due to the concave position of the membrane."
+    ],
+    "answer": "a",
+    "explanation": "The tympanic membrane is oval in shape, not perfectly round. It is placed obliquely, is pearly grey/white, and is concave."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Pain on mastication is present in:",
+    "options": [
+      "a. Acute mastoiditis",
+      "b. Otosclerosis",
+      "c. Furunculosis of the external ear.",
+      "d. Allergic otitis externa."
+    ],
+    "answer": "c",
+    "explanation": "Furunculosis (boil) of the external auditory canal causes severe pain which is exacerbated by movements of the jaw, such as mastication (chewing), because the temporomandibular joint is located just anterior to the ear canal."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The causative agent in otomycosis is:",
+    "options": [
+      "a. Aspergillus nigers or Candida albicans.",
+      "b. Streptococci.",
+      "c. Staphylococci.",
+      "d. E.coli"
+    ],
+    "answer": "a",
+    "explanation": "Otomycosis is a fungal infection of the ear canal, most commonly caused by *Aspergillus niger* or *Candida albicans*."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Ramsay-Hunt syndrome is:",
+    "options": [
+      "a. Herpes-zoster affection of the geniculate ganglion of the facial nerve.",
+      "b. Dysphagia in middle aged female.",
+      "c. Dysphagia in old male.",
+      "d. Sensory-neural deafness in newly born."
+    ],
+    "answer": "a",
+    "explanation": "Ramsay Hunt syndrome (Herpes Zoster Oticus) is caused by the reactivation of the varicella-zoster virus in the geniculate ganglion of the facial nerve."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Stapedectomy is line one for treatment of:",
+    "options": [
+      "a. Otosclerosis.",
+      "b. Otomycosis.",
+      "c. Meniere's disease.",
+      "d. Otitis media."
+    ],
+    "answer": "a",
+    "explanation": "Stapedectomy is the surgical treatment for otosclerosis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The cause of Bell's palsy may be one of the following EXCEPT:",
+    "options": [
+      "a. Vascular ischemia.",
+      "b. Viral infection.",
+      "c. Bacterial infection.",
+      "d. Auto Immune."
+    ],
+    "answer": "c",
+    "explanation": "Bell's palsy is an idiopathic facial paralysis. While viral (HSV), vascular (ischemia), and autoimmune etiologies are leading theories, a direct bacterial infection of the nerve is not considered a cause of 'Bell's palsy' (though bacteria can cause facial palsy, e.g., in CSOM, which would not be termed Bell's palsy)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The middle ear magnifies the sound:",
+    "options": [
+      "a. 20 times.",
+      "b. 22 times.",
+      "c. 24 times.",
+      "d. 21 times."
+    ],
+    "answer": "b",
+    "explanation": "The middle ear impedance matching mechanism (areal ratio + lever action) amplifies sound pressure by approximately 22 times (or about 27-30 dB)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The test of hearing in infants is:",
+    "options": [
+      "a. Rinne's test.",
+      "b. Weber test.",
+      "c. Pure tone audiometry.",
+      "d. ABR \"Auditory Brain Stem Response\"."
+    ],
+    "answer": "d",
+    "explanation": "Objective tests like Auditory Brainstem Response (ABR) or Otoacoustic Emissions (OAE) are required to test hearing in infants who cannot cooperate with subjective tests like pure tone audiometry or tuning fork tests."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "In traumatic rupture of the drum, all are true EXCEPT:",
+    "options": [
+      "a. The main treatment is conservative.",
+      "b. Local ear drops are highly indicated.",
+      "c. It heals spontaneously within 3 months.",
+      "d. It may be caused by longitudinal fracture of the temporal bone."
+    ],
+    "answer": "b",
+    "explanation": "Ear drops are generally contraindicated in traumatic dry perforations because they can introduce infection into the middle ear. The treatment is conservative (keep dry)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Inability to raise the eye brow & close the same eye with deviation of the angle of the mouth to the opposite side is:",
+    "options": [
+      "a. UMNL 7th cranial nerve palsy.",
+      "b. UMNL 5th cranial nerve palsy.",
+      "c. LMNL 5th cranial nerve palsy.",
+      "d. LMNL 7th cranial nerve palsy."
+    ],
+    "answer": "d",
+    "explanation": "Inability to raise the eyebrow (forehead sparing is absent) and close the eye indicates involvement of the entire side of the face, which is characteristic of a Lower Motor Neuron Lesion (LMNL) of the facial nerve (7th CN). In UMNL, the forehead is spared."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Conductive deafness is the main presentation of",
+    "options": [
+      "a. Furunculosis of the external auditory canal.",
+      "b. Ear wax.",
+      "c. Haematoma auris.",
+      "d. None of the above."
+    ],
+    "answer": "b",
+    "explanation": "Impacted ear wax acts as a physical barrier to sound conduction, leading to conductive hearing loss. Furunculosis and hematoma auris cause pain/swelling but less commonly present primarily as deafness unless the canal is completely occluded."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The most common vertigo is:",
+    "options": [
+      "a. Acoustic neuroma.",
+      "b. Ototoxicity.",
+      "c. Meniere's disease.",
+      "d. Benign paroxysmal positional vertigo."
+    ],
+    "answer": "d",
+    "explanation": "Benign Paroxysmal Positional Vertigo (BPPV) is the most common cause of peripheral vertigo."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "A case of ear infection followed by headache, blurring of vision & vomiting is suggestive of:",
+    "options": [
+      "a. Mastoiditis.",
+      "b. Petrositis.",
+      "c. Labyrinthitis.",
+      "d. Brain abscess."
+    ],
+    "answer": "d",
+    "explanation": "Ear infection followed by signs of raised intracranial pressure (headache, vomiting, blurring of vision/papilledema) or focal neurological deficits suggests an intracranial complication, most likely a brain abscess (e.g., temporal lobe or cerebellar)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The commonest organism in malignant otitis externa:",
+    "options": [
+      "a. Streptococci.",
+      "b. Pneumococci.",
+      "c. Pseudomonas aeruginos.",
+      "d. Moraxella catarrhalis."
+    ],
+    "answer": "c",
+    "explanation": "Repeated question: Pseudomonas aeruginosa."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "The medial wall of the middle ear shows the following EXCEPT:",
+    "options": [
+      "a. The oval window.",
+      "b. The promontory",
+      "c. The pyramid.",
+      "d. The lateral semicircular canal."
+    ],
+    "answer": "c",
+    "explanation": "The pyramid (containing the stapedius muscle) is located on the posterior wall of the middle ear, not the medial wall."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2024",
+    "question": "Mixed hearing loss may be caused by one of the following:",
+    "options": [
+      "a. Otosclerosis.",
+      "b. Meniere's disease.",
+      "c. Ear wax.",
+      "d. Acoustic neuroma."
+    ],
+    "answer": "a",
+    "explanation": "Repeated question: Otosclerosis."
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A water sample was taken from a source that was supplying Nathiagali .On analysis it was declared unfit for human consumption on account of raised concentration of a chemical. What is the likely chemical which has resulted in making this water unfit?",
+    "options": [
+      "A. Calcium",
+      "B. Chlorides",
+      "C. Iodine",
+      "D. Nitrite",
+      "E. Zinc"
+    ],
+    "answer": "D",
+    "explanation": "The presence of nitrites in water is a strong indicator of recent organic pollution, usually from sewage or agricultural runoff. High concentrations render water unfit for consumption due to the risk of methaemoglobinaemia (blue baby syndrome) and the potential presence of pathogenic organisms."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A dentist appointed in basic health unit reports an increased incidence of dental caries in the children of that area. What is the important preventive measure that he should suggest to the health authorities?",
+    "options": [
+      "A. Boiling of water",
+      "B. Chlorination of water",
+      "C. Filtration of water",
+      "D. Fluoridation of water",
+      "E. Use of aquatabs in water"
+    ],
+    "answer": "D",
+    "explanation": "Fluoridation of community water supplies is the most effective public health measure for the prevention of dental caries."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A well in a rural area was contaminated with an unhygienic source nearby. What is the disease more likely to be transmitted through drinking this well water?",
+    "options": [
+      "A. Dental fluorosis",
+      "B. Goitre",
+      "C. Leishmaniasis",
+      "D. Trachoma",
+      "E. Typhoid"
+    ],
+    "answer": "E",
+    "explanation": "Typhoid fever is a waterborne disease caused by Salmonella Typhi, commonly transmitted through water contaminated with fecal matter. The other options are vector-borne (Leishmaniasis), contact/hygiene-related (Trachoma), or deficiency/excess related (Goitre, Fluorosis)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A family of four members in a village was using coal fire. One day they were brought to the hospital with memory loss, breathing difficulty and unconsciousness. What is the most probable diagnosis?",
+    "options": [
+      "A. CO poisoning",
+      "B. CO2 poisoning",
+      "C. Nitrogen dioxide poisoning",
+      "D. Nitrous oxide poisoning",
+      "E. Sulphur dioxide poisoning"
+    ],
+    "answer": "A",
+    "explanation": "Incomplete combustion of coal produces Carbon Monoxide (CO). In an enclosed space, this odorless gas causes hypoxia, leading to symptoms like memory loss, confusion, dyspnea, and unconsciousness."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 30 years old woman had symptoms of of vaginal itching and discharge. On examination she had white cheesy discharge adherent to walls of vagina with vaginal inflammation. The most likely causative organism is:",
+    "options": [
+      "A. Candida albicans",
+      "B. HIV infection",
+      "C. Neisseria gonorrhea",
+      "D. Treponema pallidum",
+      "E. Trichomonas vaginalis"
+    ],
+    "answer": "A",
+    "explanation": "White, cheesy (curd-like) vaginal discharge accompanied by itching and inflammation is the classic presentation of Vulvovaginal Candidiasis, caused by Candida albicans."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "STDs are on the rise all over the world. A young woman presented to a doctor in the emergency with bilateral conjunctivitis and high grade temperature. On examination she had swelling of eyelids and conjunctiva and copious purulent discharge. On laboratory smear diplococcic were seen. What is the most likely diagnosis?",
+    "options": [
+      "A. Gonococci",
+      "B. H. influenzae",
+      "C. Meningococci",
+      "D. Staphylococci",
+      "E. Streptococci"
+    ],
+    "answer": "A",
+    "explanation": "Hyperacute purulent conjunctivitis with the presence of intracellular diplococci on smear is characteristic of Gonococcal conjunctivitis (caused by Neisseria gonorrhoeae)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Disposal of waste in a proper manner is essential in preventing a large number of diseases. Which one of the following is a hygienic way of disposing solid waste and is more suitable if the waste contains more hazardous material and organic content?",
+    "options": [
+      "A. composing",
+      "B. dumping",
+      "C. incineration",
+      "D. Oxidation",
+      "E. sub grading"
+    ],
+    "answer": "C",
+    "explanation": "Incineration involves the controlled burning of waste at high temperatures. It is the preferred method for disposing of hazardous, infectious, or organic medical waste as it destroys pathogens and reduces volume significantly."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "The two important waste disposal methods include sullage as well as sewage. What does sullage consist of?",
+    "options": [
+      "A. Inorganic waste",
+      "B. Organic waste",
+      "C. Solid vegetable waste matter",
+      "D. Waste containing human excreta",
+      "E. Waste water from kitchen"
+    ],
+    "answer": "E",
+    "explanation": "Sullage is the wastewater generated from households (kitchens, bathrooms, laundries) that does not contain human excreta. Sewage includes wastewater containing human excreta."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Pakistan generates 0.5—2 kg hospital waste /bed/day. . What is the color code of plastic bag for disposing of microbial laboratory culture waste?",
+    "options": [
+      "A. Black",
+      "B. Blue",
+      "C. Red",
+      "D. White",
+      "E. Yellow"
+    ],
+    "answer": "E",
+    "explanation": "According to standard hospital waste management guidelines (including in Pakistan), yellow bags are used for infectious waste, which includes microbial laboratory cultures."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "The first and immediate step after disaster is classification of the injured. The treatment given to each injured depends on this classification. What is the approach of rapidly classifying the injured on the basis of severity of their injuries and likelihood of their survival with prompt medical intervention after disaster called?",
+    "options": [
+      "A. Emergency care",
+      "B. First aid",
+      "C. Rehabilitation",
+      "D. Tagging",
+      "E. Triage"
+    ],
+    "answer": "E",
+    "explanation": "Triage is the process of rapidly classifying patients based on the severity of their injuries to prioritize treatment and maximize survival in mass casualty situations."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "8 October 2005 earthquake was a massive disaster that hit Pakistan. Several Governmental agencies as well as NGOs participated to combat the post disaster phase. What was the most important point they considered in order of preference?",
+    "options": [
+      "A. Disposal of dead bodies",
+      "B. Disposal of solid waste",
+      "C. Provision of first aid",
+      "D. Provision of safe water and food",
+      "E. Prevention against infectious diseases"
+    ],
+    "answer": "C",
+    "explanation": "In the immediate aftermath of a disaster, the primary priority is saving lives through search and rescue and the provision of emergency medical care (First Aid/Triage). While water and food are critical for the subsequent survival phase, immediate medical intervention takes precedence."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Several employees of a glass factory near Mansehra developed silicosis in the last one month. What is the most important control measure that you will recommend?",
+    "options": [
+      "A. Improvement in personal hygiene",
+      "B. Pre-placement examination",
+      "C. Rigorous dust control",
+      "D. Substitution of some chemical",
+      "E. Xray chest of all workers monthly"
+    ],
+    "answer": "C",
+    "explanation": "Silicosis is caused by the inhalation of silica dust. The most effective primary prevention measure is rigorous dust control (an engineering control) to reduce exposure. Substitution is ideal but silica is often essential in glass making; thus, controlling the dust is the standard practical recommendation."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "The changes in the size of population are indicated by five stages of demographic transition. Pakistan is currently in which stage?",
+    "options": [
+      "A. First stage",
+      "B. Second stage",
+      "C. Third stage",
+      "D. Fourth stage",
+      "E. Fifth stage"
+    ],
+    "answer": "B",
+    "explanation": "Pakistan is generally considered to be in the late Second Stage or transition to the Third Stage of demographic transition, characterized by a declining death rate but a birth rate that remains relatively high (though slowly declining), leading to rapid population growth."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Amena, Gravida 2 with 32 weeks of gestation visited OPD for routine checkup. Her BP was found to be 170/95 mm Hg. What advise did the doctor give her to report immediately if she has:",
+    "options": [
+      "A. Backache",
+      "B. Lower abdominal pain",
+      "C. Swelling of feet",
+      "D. Tinnitus",
+      "E. Vomiting"
+    ],
+    "answer": "E",
+    "explanation": "The patient has signs of severe pre-eclampsia (BP 170/95). Warning signs of impending eclampsia or severe complications include severe headache, visual disturbances, epigastric pain, and vomiting. Vomiting can be a sign of increased intracranial pressure or HELLP syndrome."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A child of 1 year presents with muscle wasting, loss of subcutaneous fat with no signs of edema . His weight is below 60% of WHO standard. The mother gives history of not giving enough proteins and other nutrients to the child after six months of age. What is the likely diagnosis?",
+    "options": [
+      "A. Kwashiorkor",
+      "B. Marasmus",
+      "C. Marasmus & kwashiorkor",
+      "D. Protein deficiency",
+      "E. Vitamin B12 deficiency"
+    ],
+    "answer": "B",
+    "explanation": "Marasmus is characterized by severe energy and protein deficiency, leading to gross muscle wasting, loss of subcutaneous fat, weight <60% of standard, and importantly, the absence of edema (which distinguishes it from Kwashiorkor)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 28 years old lady having two kids wants to plan her family. On examination she is found to be anemic. She also gives history of ectopic pregnancy last year. Which is the best method of contraception for her ?:",
+    "options": [
+      "A. Copper T",
+      "B. Injectable contraceptives",
+      "C. Lippe’s loop",
+      "D. Multi-load",
+      "E. Progestasert"
+    ],
+    "answer": "B",
+    "explanation": "Anemia is a relative contraindication for Copper IUDs (which can increase bleeding). A history of ectopic pregnancy is a risk factor for IUD use (if pregnancy occurs, it's more likely ectopic, though absolute risk is low). Injectable contraceptives (like DMPA) often cause amenorrhea, which benefits anemia, and they inhibit ovulation, reducing the risk of ectopic pregnancy."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A child aged 2 years presented with cough and difficulty in breathing. On examination the child had lower chest in drawing. According to IMNCI classification in which category will he be placed?",
+    "options": [
+      "A. Cough /cold only",
+      "B. No Pneumonia",
+      "C. Pneumonia",
+      "D. Severe pneumonia",
+      "E. Very severe disease"
+    ],
+    "answer": "D",
+    "explanation": "According to traditional IMNCI guidelines typically used in exams, lower chest indrawing in a child aged 2 months to 5 years is classified as 'Severe Pneumonia' requiring referral. (Note: Updated WHO guidelines might classify this as Pneumonia managed at home, but Severe Pneumonia is the standard answer for indrawing in this context)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 55-year-old female with chronic kidney disease (CKD) is undergoing her first hemodialysis session. During the session, she starts to feel nausea and complains of a headache. Her blood pressure is 150/90 mmHg. Which of the following is the most likely cause of her symptoms",
+    "options": [
+      "A. Hypokalemia",
+      "B. Dialysis disequilibrium syndrome",
+      "C. Hypercalcemia",
+      "D. Hypoglycemia",
+      "E. Fluid overload"
+    ],
+    "answer": "B",
+    "explanation": "Dialysis Disequilibrium Syndrome (DDS) is a neurological complication that can occur during or after the first few hemodialysis sessions due to rapid removal of urea from the blood, creating an osmotic gradient that causes cerebral edema. Symptoms include nausea, headache, and confusion."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45-year-old woman with a history of chronic NSAID use presents with fever, rash, and hematuria. She complains of generalized malaise and joint pain. Lab results show elevated eosinophils, increased creatinine, and BUN levels. Urinalysis reveals white blood cell casts. Which of the following is the most likely diagnosis",
+    "options": [
+      "A. Acute tubular necrosis",
+      "B. Post-streptococcal glomerulonephritis",
+      "C. Acute interstitial nephritis",
+      "D. Pre-renal azotemia",
+      "E. Nephrotic syndrome"
+    ],
+    "answer": "C",
+    "explanation": "The classic triad of fever, rash, and eosinophilia, along with renal impairment (elevated BUN/Cr) and sterile pyuria (WBC casts) in the context of drug use (NSAIDs), is diagnostic for Acute Interstitial Nephritis (AIN)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the primary cause of hypernatremia",
+    "options": [
+      "A. Excessive sodium intake",
+      "B. Excessive water loss",
+      "C. Adrenal insufficiency",
+      "D. Hypothyroidism",
+      "E. Excessive water intake"
+    ],
+    "answer": "B",
+    "explanation": "Hypernatremia is most commonly caused by a net loss of water (dehydration) that is not replaced, leading to a relative excess of sodium."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 14 years old patient presents with black coloured urine puffiness and oliguria. He had sore throat about two weeks ago. On examination pulse 80/min Blood pressure 160/100 and pedal edema. What is the likely diagnosis",
+    "options": [
+      "A. Henoch schonlein syndrome",
+      "B. IgA Nephropathy",
+      "C. Minimal change disease",
+      "D. Post streptococcal glomerulonephritis",
+      "E. SLE"
+    ],
+    "answer": "D",
+    "explanation": "The clinical presentation of nephritic syndrome (hematuria/black urine, hypertension, oliguria, edema) occurring 1-2 weeks after a sore throat is characteristic of Post-Streptococcal Glomerulonephritis (PSGN)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 40 year old male after head injury secondary to RTA sustained extradural hematoma which was managed by neurosurgeon. On third day of admission his electrolytes report Sodium: 125 mmol/L Potassium: 3.8 mmol/ L calcium: 98 mmol/L What could be most likely cause of Hyponatremia",
+    "options": [
+      "A. Cerebral Metastasis",
+      "B. Hypoxemia",
+      "C. SIADH",
+      "D. Pulmonary infection",
+      "E. Hypothyroidism"
+    ],
+    "answer": "C",
+    "explanation": "The Syndrome of Inappropriate Antidiuretic Hormone (SIADH) is a common cause of hyponatremia following head injury, due to the unregulated release of ADH."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 46-year-old male with a history of obesity and physical inactivity presents with a 04-month history of polyuria, polydipsia, and weight loss His fasting blood glucose is 195 mg/dL HbA1c is 9% What would be the most appropriate initial management step for this patient",
+    "options": [
+      "A. Metformin 500 mg orally twice daily",
+      "B. Insulin glargine 10 units subcutaneously once daily",
+      "C. Lifestyle modifications (diet and exercise) alone",
+      "D. Gliclazide 30 mg orally twice daily",
+      "E. Pioglitazone 15 mg orally once daily"
+    ],
+    "answer": "A",
+    "explanation": "Metformin is the first-line pharmacological therapy for Type 2 Diabetes. Although the HbA1c is high (9%), guidelines typically recommend starting Metformin while considering combination therapy or insulin if catabolic symptoms are severe. However, as an 'initial management step' oral medication choice, Metformin is the standard first line unless there is severe metabolic decompensation (DKA)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 35-year-old female with a known history of Graves’ disease presents to the emergency department with fever, palpitations, and altered mental status. On examination, she is found to have a heart rate of 140 bpm, a temperature of 39°C, and a blood pressure of 160/90 mmHg. Laboratory tests reveal elevated free T4 and suppressed TSH levels. Which of the following is the most appropriate initial management step for this patient",
+    "options": [
+      "A. Administer intravenous propranolol",
+      "B. Start oral methimazole",
+      "C. Administer intravenous hydrocortisone",
+      "D. Perform an urgent thyroidectomy",
+      "E. Start oral radioactive iodine therapy"
+    ],
+    "answer": "A",
+    "explanation": "This patient is presenting with Thyroid Storm. The immediate priority is to control the severe adrenergic symptoms (tachycardia) which can be life-threatening. Beta-blockers like Propranolol are the first line for symptom control, followed by antithyroid drugs (PTU/Methimazole), steroids, and iodine."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45-year-old male with chronic kidney disease (CKD) presents with fatigue and generalized bone pain. Laboratory findings show elevated PTH, low calcium, and high phosphate levels. Which of the following is the most likely explanation for his elevated PTH",
+    "options": [
+      "A. Primary hyperparathyroidism",
+      "B. Secondary hyperparathyroidism",
+      "C. Tertiary hyperparathyroidism",
+      "D. Vitamin D deficiency",
+      "E. Familial hypocalciuric hypercalcemia"
+    ],
+    "answer": "B",
+    "explanation": "In CKD, decreased phosphate excretion and reduced activation of Vitamin D lead to hypocalcemia and hyperphosphatemia. This stimulates the parathyroid glands to secrete excessive PTH, a condition known as Secondary Hyperparathyroidism."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the primary cause of Sheehan’s syndrome",
+    "options": [
+      "A. Traumatic brain injury",
+      "B. Postpartum hemorrhage",
+      "C. Infection",
+      "D. Autoimmune disorder",
+      "E. Pregnancy induced hypertension"
+    ],
+    "answer": "B",
+    "explanation": "Sheehan's syndrome is ischemic necrosis of the pituitary gland caused by severe hypotension due to postpartum hemorrhage."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is the most common cause of primary adrenal insufficiency (Addison's disease)",
+    "options": [
+      "A. Congenital adrenal hyperplasia",
+      "B. Autoimmune adrenalitis",
+      "C. Adrenal haemorrhage",
+      "D. Infections (e.g., tuberculosis)",
+      "E. Pituitary adenoma"
+    ],
+    "answer": "B",
+    "explanation": "Autoimmune adrenalitis is the most common cause of primary adrenal insufficiency (Addison's disease) in the developed world. While TB is a common cause in developing regions, autoimmune destruction is generally the most frequently cited cause in medical literature."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 52-year-old male with a history of chronic hypertension and diabetes mellitus is admitted to the hospital with signs of dehydration after several days of vomiting and diarrhea. On physical examination, he is hypotensive, tachycardic, and appears very lethargic. Lab results show elevated blood urea nitrogen (BUN) and creatinine levels. Urinalysis shows muddy brown casts. An ultrasound of the kidneys shows normal-sized kidneys with no evidence of obstruction. Which of the following is the most likely cause of the patient’s renal injury",
+    "options": [
+      "A. Acute Glomerulonephritis",
+      "B. Acute Tubular Necrosis",
+      "C. Postrenal Obstruction",
+      "D. Chronic Pyelonephritis",
+      "E. Nephrotic Syndrome"
+    ],
+    "answer": "B",
+    "explanation": "The presence of muddy brown granular casts in the urinalysis is pathognomonic for Acute Tubular Necrosis (ATN), which in this case was likely precipitated by severe ischemia from dehydration (vomiting/diarrhea) and hypotension."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which one of the following is the drug of choice for the reduction of cerebral edema associated with cerebral infections because it has most potent anti-inflammatory action?",
+    "options": [
+      "A. Dexamethasone",
+      "B. Fludrocortisone",
+      "C. Mannitol",
+      "D. Methylprednisolone",
+      "E. Triamcinolone"
+    ],
+    "answer": "A",
+    "explanation": "Dexamethasone is the glucocorticoid of choice for reducing cerebral edema, particularly in conditions like bacterial meningitis or brain tumors, due to its high potency and lack of mineralocorticoid activity."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which one of the following is a contraindication to the use of oxytocin for induction of labour at term?",
+    "options": [
+      "A. Dead Fetus",
+      "B. Fetal Distress",
+      "C. Hypotonic uterine dysfunction",
+      "D. Prior history of low transverse C section",
+      "E. Twin gestation"
+    ],
+    "answer": "B",
+    "explanation": "Fetal distress is a contraindication to inducing labor with oxytocin because the contractions can further compromise fetal oxygenation. Immediate delivery (often via C-section) is usually indicated."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 60 years old man diagnosed with metastasized prostate cancer is started on depot preparation of goserelin. Which one of the following describes the mechanism of action of this drug?",
+    "options": [
+      "A. Blockade of gonadotropin receptors",
+      "B. Blockade of prostate testosterone receptors",
+      "C. Inhibition of aromatase enzyme",
+      "D. Inhibition of FSH and LH release",
+      "E. Inhibition of topoisomerase enzyme"
+    ],
+    "answer": "D",
+    "explanation": "Goserelin is a GnRH agonist. Continuous administration results in the downregulation of GnRH receptors in the pituitary, which subsequently inhibits the release of FSH and LH, leading to decreased testosterone production (medical castration)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 25 years old pregnant female has asymptomatic bacteriuria. Which one of the following drugs given in a single dose can be effective in this condition?",
+    "options": [
+      "A. Cotrimoxazole",
+      "B. Erythromycin",
+      "C. Fosfomycin",
+      "D. Imipenem",
+      "E. Nitrofurantoin"
+    ],
+    "answer": "C",
+    "explanation": "Fosfomycin is typically administered as a single 3-gram oral dose for uncomplicated urinary tract infections, including asymptomatic bacteriuria in pregnancy."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which one of the following adverse effects may be observed in 20% -30% of the patients taking Octreotide for more than six months?",
+    "options": [
+      "A. Hepatitis",
+      "B. Hypertension",
+      "C. Gallstones",
+      "D. Rash, Fever",
+      "E. Renal Failure"
+    ],
+    "answer": "C",
+    "explanation": "Octreotide inhibits gallbladder contractility and decreases bile secretion, which commonly leads to the formation of biliary sludge and gallstones (cholelithiasis) with long-term use."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which one of the following is the insulin preparation of choice in the treatment of diabetic ketoacidosis?",
+    "options": [
+      "A. Insulin Aspart",
+      "B. Insulin Glargine",
+      "C. Insulin Glulisine",
+      "D. NPH Insulin",
+      "E. Regular Insulin"
+    ],
+    "answer": "E",
+    "explanation": "Regular Insulin administered intravenously is the standard of care for the management of Diabetic Ketoacidosis (DKA) due to its rapid onset and short duration of action, allowing for precise titration."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A patient with type 2 diabetes is brought to the emergency with overdosage of antidiabetic medication. He is showing a picture of metabolic acidosis with raised plasma lactic acid levels. Which one of the following drugs is most likely cause of his symptoms?",
+    "options": [
+      "A. Acarbose",
+      "B. Metformin",
+      "C. Pioglitazone",
+      "D. Rapaglinide",
+      "E. Tolbutamide"
+    ],
+    "answer": "B",
+    "explanation": "Lactic acidosis is a rare but serious adverse effect associated with Metformin, especially in overdose or in patients with renal impairment."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following drugs if given in excessive amounts over long periods of time may result in a severely increased risk of infections and sepsis in the patient?",
+    "options": [
+      "A. Levothyroxine",
+      "B. Liotrix",
+      "C. Methimazole",
+      "D. Potassium iodide",
+      "E. Propranolol"
+    ],
+    "answer": "C",
+    "explanation": "Methimazole (an antithyroid drug) carries a risk of causing agranulocytosis (severe drop in white blood cells), which can predispose patients to severe infections and sepsis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which one of the following statements is correct regarding minipills?",
+    "options": [
+      "A. Are absolutely contraindicated in postpartum period",
+      "B. Are associated with increased menstrual blood loss",
+      "C. Dose has to be taken on alternate days",
+      "D. Have adverse effects profile similar to combined oral pills",
+      "E. Less efficacious than combined oral pills"
+    ],
+    "answer": "E",
+    "explanation": "Minipills (Progestogen-only pills) have a slightly higher failure rate (lower efficacy) compared to Combined Oral Contraceptive Pills (COCPs) if not taken at the exact same time every day. They are not contraindicated postpartum and are often preferred during breastfeeding."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 12-year-old boy develops hematuria two days after a sore throat. Light microscopy of the renal biopsy shows enlarged and hypercellular glomeruli. Electron microscopy reveals subepithelial \"hump-like\" deposits, and immunofluorescence demonstrates granular deposits of IgG, IgM, and C3 along the basement membrane. What is the most likely underlying pathogenesis of his condition?",
+    "options": [
+      "A. Deposition of anti-GBM antibodies",
+      "B. Circulating immune complex deposition",
+      "C. Mutations in collagen type IV",
+      "D. Alternative complement pathway activation",
+      "E. Deposition of IgA-containing immune complexes"
+    ],
+    "answer": "B",
+    "explanation": "The findings describe Post-Streptococcal Glomerulonephritis (PSGN), which is a Type III hypersensitivity reaction caused by the deposition of circulating immune complexes (antigen-antibody complexes) in the glomerulus."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A patient develops acute renal failure characterized by fever, rash, and eosinophilia one week after starting a course of antibiotics. Renal biopsy shows interstitial edema with numerous eosinophils and mononuclear infiltrates. Which type of hypersensitivity reaction is most consistent with these findings?",
+    "options": [
+      "A. Type I (Immediate)",
+      "B. Type II (Cytotoxic)",
+      "C. Type III (Immune Complex-Mediated)",
+      "D. Type IV (Delayed)",
+      "E. Type V (Stimulatory)"
+    ],
+    "answer": "D",
+    "explanation": "Acute Interstitial Nephritis (AIN) is primarily a T-cell mediated hypersensitivity reaction, which classifies it as a Type IV (delayed) hypersensitivity reaction."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45-year-old patient presents with generalized edema and heavy proteinuria. A renal biopsy reveals diffuse thickening of the glomerular basement membrane without significant hypercellularity. Immunofluorescence shows granular deposits of IgG and C3 along the basement membrane. Electron microscopy reveals subepithelial immune complexes. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Minimal Change Disease",
+      "B. Focal Segmental Glomerulosclerosis",
+      "C. Membranous Nephropathy",
+      "D. Membranoproliferative Glomerulonephritis",
+      "E. Acute Post-Streptococcal Glomerulonephritis"
+    ],
+    "answer": "C",
+    "explanation": "Diffuse GBM thickening, granular IgG/C3 deposits, and subepithelial 'spike and dome' immune complexes are the hallmark pathological features of Membranous Nephropathy."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 68-year-old man is diagnosed with prostatic adenocarcinoma confined to the prostate gland. His Gleason score is 8. Which of the following best describes the significance of this Gleason score?",
+    "options": [
+      "A. Low-grade tumor with excellent prognosis",
+      "B. Intermediate-grade tumor with moderate prognosis",
+      "C. High-grade tumor with poor prognosis",
+      "D. Indicates the tumor has metastasized",
+      "E. Reflects the tumor's response to hormonal therapy"
+    ],
+    "answer": "C",
+    "explanation": "The Gleason score ranges from 2 to 10. A score of 8-10 indicates a high-grade, poorly differentiated tumor that is more aggressive and associated with a poorer prognosis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following zones of the prostate gland is most commonly involved in benign prostatic hyperplasia leading to urinary obstruction symptoms?",
+    "options": [
+      "A. Peripheral zone",
+      "B. Central zone",
+      "C. Transitional zone",
+      "D. Periurethral zone",
+      "E. Anterior fibromuscular stroma"
+    ],
+    "answer": "C",
+    "explanation": "Benign Prostatic Hyperplasia (BPH) primarily affects the Transitional Zone of the prostate, which surrounds the urethra, leading to urinary obstruction symptoms."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 60-year-old male presents with hematuria and flank pain. Imaging reveals a mass in the upper pole of the left kidney. Histology shows clear cytoplasm tumor cells. Which paraneoplastic syndrome is most commonly associated with this type of renal cell carcinoma?",
+    "options": [
+      "A. Hypoglycemia due to insulin production",
+      "B. Polycythemia due to erythropoietin production",
+      "C. Cushing's syndrome due to ACTH production",
+      "D. Hypercalcemia due to PTHrP production",
+      "E. Hyponatremia due to ADH production"
+    ],
+    "answer": "B",
+    "explanation": "Renal Cell Carcinoma (RCC) is well known for paraneoplastic syndromes. Ectopic production of erythropoietin leads to polycythemia (erythrocytosis). While hypercalcemia is also common, polycythemia is a classic association frequently tested."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 35-year-old woman presents with severe flank pain radiating to the groin. Imaging reveals a staghorn calculus occupying the renal pelvis. Which of the following types of renal stones is most likely responsible for this presentation?",
+    "options": [
+      "A. Calcium oxalate",
+      "B. Uric acid",
+      "C. Cystine",
+      "D. Magnesium ammonium phosphate",
+      "E. Calcium phosphate"
+    ],
+    "answer": "D",
+    "explanation": "Staghorn calculi are typically composed of Magnesium Ammonium Phosphate (Struvite) and are associated with urease-producing bacterial infections (e.g., Proteus)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A patient presents with high fever, flank pain, and dysuria. Urinalysis shows white blood cell casts. Which of the following organisms is the most common cause of acute pyelonephritis in otherwise healthy individuals?",
+    "options": [
+      "A. Staphylococcus saprophyticus",
+      "B. Klebsiella pneumoniae",
+      "C. Proteus mirabilis",
+      "D. Escherichia coli",
+      "E. Enterococcus faecalis"
+    ],
+    "answer": "D",
+    "explanation": "Escherichia coli (E. coli) is the most common causative pathogen for both uncomplicated urinary tract infections (cystitis) and acute pyelonephritis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 4-year-old child presents with an abdominal mass and hematuria. Genetic testing reveals a deletion on chromosome 11p13 affecting the WT1 gene. This child also has developmental abnormalities including aniridia and genitourinary malformations. Based on this presentation, which syndrome is the most likely associated with this tumor?",
+    "options": [
+      "A. Beckwith-Wiedemann Syndrome",
+      "B. Denys-Drash Syndrome",
+      "C. WAGR Syndrome",
+      "D. Li-Fraumeni Syndrome",
+      "E. Von Hippel-Lindau Disease"
+    ],
+    "answer": "C",
+    "explanation": "WAGR syndrome stands for Wilms tumor, Aniridia, Genitourinary anomalies, and Retardation (intellectual disability). It is caused by a deletion at 11p13 involving the WT1 and PAX6 genes."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 65-year-old male presents with painless hematuria. Cystoscopy reveals a papillary growth within the urinary bladder. Biopsy of the lesion shows papillary fronds lined by transitional epithelium with varying degrees of nuclear atypia and mitotic activity. Which of the following histological features would most indicate progression to invasive carcinoma?",
+    "options": [
+      "A. Presence of squamous metaplasia",
+      "B. High nuclear-to-cytoplasmic ratio",
+      "C. Presence of lamina propria invasion",
+      "D. Increased mitotic figures at the epithelial surface",
+      "E. Loss of umbrella cells at the surface"
+    ],
+    "answer": "C",
+    "explanation": "The invasion of the tumor into the lamina propria (crossing the basement membrane) is the definitive sign that a carcinoma has become invasive (T1 stage)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 70-year-old smoker presents with gross hematuria. A biopsy of the bladder mass reveals an exophytic tumor with finger-like projections. The tumor cells are high-grade with marked nuclear pleomorphism, and frequent mitoses, and are arranged in a disordered, haphazard fashion. Which of the following is the most appropriate description of this tumor?",
+    "options": [
+      "A. Low-grade papillary urothelial carcinoma",
+      "B. High-grade papillary urothelial carcinoma",
+      "C. Squamous cell carcinoma",
+      "D. Adenocarcinoma of the bladder",
+      "E. Urothelial carcinoma in situ"
+    ],
+    "answer": "B",
+    "explanation": "The description of papillary architecture combined with high-grade cellular features (marked pleomorphism, frequent mitoses, disorder) fits High-grade Papillary Urothelial Carcinoma."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45-year-old woman presents with fatigue, cold intolerance, and amenorrhea. Physical examination reveals pale, dry skin and a delayed deep tendon reflex. Her past medical history includes a significant postpartum hemorrhage 10 years ago. Laboratory tests show low TSH, low ACTH, and low LH/FSH. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Sheehan's syndrome",
+      "B. Addison's disease",
+      "C. Primary hypothyroidism",
+      "D. Polycystic ovary syndrome (PCOS)",
+      "E. Graves' disease"
+    ],
+    "answer": "A",
+    "explanation": "Sheehan's syndrome is panhypopituitarism caused by ischemic necrosis of the pituitary gland following severe postpartum hemorrhage. Symptoms of multiple pituitary hormone deficiencies (hypothyroidism, adrenal insufficiency, amenorrhea) appearing years later are characteristic."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 55-year-old male presents with bitemporal hemianopia and headache. MRI reveals a large sellar mass compressing the optic chiasm. Laboratory tests show elevated prolactin levels. Which of the following is the most likely type of pituitary adenoma?",
+    "options": [
+      "A. Prolactinoma",
+      "B. Corticotroph adenoma",
+      "C. Somatotroph adenoma",
+      "D. Gonadotroph adenoma",
+      "E. Thyrotroph adenoma"
+    ],
+    "answer": "A",
+    "explanation": "Prolactinoma is the most common functioning pituitary adenoma. It presents with hyperprolactinemia and, if large (macroadenoma), mass effects like bitemporal hemianopia."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 42-year-old woman presents with a painless thyroid nodule that has been gradually increasing in size over the past few months. Fine-needle aspiration biopsy reveals cells with nuclear grooves and intranuclear inclusions. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Papillary thyroid carcinoma",
+      "B. Follicular adenoma",
+      "C. Medullary thyroid carcinoma",
+      "D. Anaplastic thyroid carcinoma",
+      "E. Hurthle cell carcinoma"
+    ],
+    "answer": "A",
+    "explanation": "Nuclear features such as 'Orphan Annie eyes' (optically clear nuclei), nuclear grooves, and intranuclear inclusions are pathognomonic for Papillary Thyroid Carcinoma."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 30-year-old female presents with a painful, swollen thyroid gland and a low-grade fever following an upper respiratory tract infection. Laboratory tests show elevated ESR and low TSH with high free T4. The thyroid scan shows decreased uptake. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Subacute granulomatous thyroiditis (De Quervain's thyroiditis)",
+      "B. Hashimoto's thyroiditis",
+      "C. Graves' disease",
+      "D. Riedel's thyroiditis",
+      "E. Suppurative thyroiditis"
+    ],
+    "answer": "A",
+    "explanation": "Subacute (De Quervain's) Thyroiditis typically follows a viral infection and presents with a painful thyroid, fever, and transient hyperthyroidism due to follicle destruction (low uptake on scan, high T4/low TSH)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 40-year-old woman presents with weight gain, central obesity, facial rounding, and purple striae on the abdomen. Laboratory tests reveal elevated 24-hour urinary free cortisol and suppressed ACTH levels. An MRI shows an adrenal mass. Which of the following is the most likely cause of her condition?",
+    "options": [
+      "A. Adrenal adenoma",
+      "B. Pituitary adenoma",
+      "C. Ectopic ACTH production",
+      "D. Exogenous glucocorticoid use",
+      "E. Adrenal hyperplasia"
+    ],
+    "answer": "A",
+    "explanation": "Cushing's syndrome symptoms with high cortisol and suppressed ACTH indicate an ACTH-independent cause (adrenal source). The presence of a unilateral adrenal mass confirms an Adrenal Adenoma (or carcinoma)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 25-year-old woman presents with abdominal bloating and pelvic discomfort. Ultrasound reveals a solid, cystic mass in the ovary. Serum markers show elevated CA-125. Histopathological examination reveals cells resembling fallopian tube epithelium. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Serous cystadenocarcinoma",
+      "B. Mucinous cystadenoma",
+      "C. Dysgerminoma",
+      "D. Granulosa cell tumor",
+      "E. Teratoma"
+    ],
+    "answer": "A",
+    "explanation": "Ovarian serous tumors are characterized by epithelium resembling the fallopian tube. Elevated CA-125 and the solid/cystic nature suggest malignancy (Serous Cystadenocarcinoma), which is the most common ovarian cancer."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 28-year-old male presents with a painless testicular mass. Serum tumor markers reveal elevated alpha-fetoprotein (AFP) and beta-human chorionic gonadotropin (β-hCG). Histopathology shows mixed germ cell tumor components. Which of the following is the most likely histologic subtype?",
+    "options": [
+      "A. Non-seminomatous germ cell tumor",
+      "B. Seminoma",
+      "C. Leydig cell tumor",
+      "D. Sertoli cell tumor",
+      "E. Testicular lymphoma"
+    ],
+    "answer": "A",
+    "explanation": "Seminomas typically do not elevate AFP. The elevation of both AFP and beta-hCG indicates a Non-Seminomatous Germ Cell Tumor (NSGCT), often mixed (e.g., embryonal carcinoma, yolk sac tumor)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 22-year-old woman presents with a firm, mobile breast lump that has been stable in size for the past year. Ultrasound shows a well-defined, solid mass with smooth borders. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Fibroadenoma",
+      "B. Phyllodes tumor",
+      "C. Invasive ductal carcinoma",
+      "D. Fibrocystic changes",
+      "E. Intraductal papilloma"
+    ],
+    "answer": "A",
+    "explanation": "Fibroadenoma is the most common benign breast mass in young women. It presents as a firm, mobile ('breast mouse'), well-defined solid mass."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 48-year-old woman presents with a newly discovered, firm, irregular breast mass. Mammography shows a spiculated lesion, and a core biopsy reveals invasive ductal carcinoma. Which of the following is the most significant prognostic factor in this patient?",
+    "options": [
+      "A. Lymph node involvement",
+      "B. Tumor size",
+      "C. Estrogen receptor status",
+      "D. HER2/neu status",
+      "E. Histologic grade"
+    ],
+    "answer": "A",
+    "explanation": "While all listed factors are important, the status of the axillary lymph nodes (involvement and number) is the single most significant prognostic factor for invasive breast cancer."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 50-year-old woman with breast cancer undergoes a biopsy. Immunohistochemistry shows positive estrogen receptor (ER), positive progesterone receptor (PR), and HER2/neu overexpression. Which of the following prognostic markers is associated with a more favorable outcome?",
+    "options": [
+      "A. Positive estrogen receptor (ER) status",
+      "B. HER2/neu overexpression",
+      "C. High Ki-67 index",
+      "D. Lymphovascular invasion",
+      "E. Negative progesterone receptor (PR) status"
+    ],
+    "answer": "A",
+    "explanation": "Estrogen Receptor (ER) positivity is a favorable prognostic indicator because these tumors tend to be less aggressive and respond well to hormonal therapy (e.g., Tamoxifen)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 58-year-old man with a 15-year history of type 2 diabetes mellitus presents with progressive leg pain and ulcers on his feet that have been slow to heal. He has also noticed a decrease in sensation in his feet over the past few months. On examination, his feet are cool to the touch, and there is evidence of diminished peripheral pulses and decreased vibration sense. Which of the following complications is most likely contributing to his symptoms?",
+    "options": [
+      "A. Peripheral arterial disease (PAD)",
+      "B. Diabetic neuropathy",
+      "C. Diabetic retinopathy",
+      "D. Diabetic nephropathy",
+      "E. Charcot joint"
+    ],
+    "answer": "A",
+    "explanation": "While the patient likely has neuropathy (decreased sensation), the symptoms of leg pain (claudication/ischemic pain), slow-healing ulcers, cool skin, and diminished pulses are hallmarks of Peripheral Arterial Disease (PAD), which causes ischemia."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45-year-old woman presents with persistent hypertension, muscle weakness, and fatigue. Laboratory investigations reveal hypokalemia, metabolic alkalosis, and an elevated serum aldosterone level with suppressed plasma renin activity. Imaging studies show a unilateral adrenal mass. Which of the following is the most likely underlying mechanism responsible for this patient's condition?",
+    "options": [
+      "A. Overproduction of cortisol due to adrenal hyperplasia",
+      "B. Increased secretion of aldosterone due to an adrenal adenoma",
+      "C. Ectopic aldosterone production from a non-adrenal tumor",
+      "D. Genetic mutation leading to constitutive activation of the mineralocorticoid receptor",
+      "E. Bilateral adrenal hyperplasia causing increased aldosterone secretion"
+    ],
+    "answer": "B",
+    "explanation": "This is the classic presentation of Primary Hyperaldosteronism (Conn's syndrome) caused by an aldosterone-secreting adrenal adenoma. The unilateral mass and biochemistry confirm the diagnosis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "The transplantation of human organs and tissues act was made in",
+    "options": [
+      "A. 1960",
+      "B. 1995",
+      "C. 2005",
+      "D. 2010",
+      "E. 2001"
+    ],
+    "answer": "D",
+    "explanation": "In Pakistan, the Transplantation of Human Organs and Tissues Act was enacted in 2010 to regulate organ transplantation and prevent illegal organ trade."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Hegar sign is present in",
+    "options": [
+      "A. Delivery",
+      "B. Pregnancy",
+      "C. UTI",
+      "D. Sodomy",
+      "E. Oposit to chadwicks sign"
+    ],
+    "answer": "B",
+    "explanation": "Hegar's sign is a non-sensitive indication of pregnancy in women, characterized by the softening of the lower uterine segment, typically felt during a bimanual examination."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Sterility can occur in",
+    "options": [
+      "A. Male",
+      "B. Female",
+      "C. Both male and female",
+      "D. Sterile patient is capable of reproduction",
+      "E. Mumps is not the cause of starility"
+    ],
+    "answer": "C",
+    "explanation": "Sterility (inability to reproduce) can affect both males and females due to various physiological or anatomical causes."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "In artificial inseminization homologues (AIH)",
+    "options": [
+      "A. Semen is of husband",
+      "B. Semen is of donor",
+      "C. Semen may be of husband or donor",
+      "D. Artificial inseminization is of three types",
+      "E. Artificial inseminization ion should be done in the absence of a nurse."
+    ],
+    "answer": "A",
+    "explanation": "AIH stands for Artificial Insemination by Husband, meaning the semen used is collected from the woman's husband."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "In virginity",
+    "options": [
+      "A. Hymen in intact",
+      "B. Hymen is Torn",
+      "C. Hymen may be intact or torn",
+      "D. Hymen is cribriform",
+      "E. Labia minora hard, insensitive and blue in colour."
+    ],
+    "answer": "C",
+    "explanation": "The state of the hymen is not a definitive indicator of virginity. It can be intact, torn, or naturally absent due to various factors unrelated to sexual intercourse."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Sodomy",
+    "options": [
+      "A. Not found in Pakistan",
+      "B. Derives its name from the city of Sodom",
+      "C. Offender is call passive agent",
+      "D. Legalized in India",
+      "E. Perinial abrasions never present"
+    ],
+    "answer": "B",
+    "explanation": "The term sodomy historically derives its name from the biblical city of Sodom."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Abortion",
+    "options": [
+      "A. Expulsion of products of conception before six months of gestation",
+      "B. At any periods of gestation before full term",
+      "C. Before three months of gestation",
+      "D. Female after abortion is not anaemic",
+      "E. After abortion cervix is hard and closed"
+    ],
+    "answer": "A",
+    "explanation": "Abortion is medically defined as the expulsion or removal of an embryo or fetus before it is viable, typically defined as before 20-24 weeks (approx. 6 months) of gestation."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A boy with recurrent UTIs, who can’t pass urine in single stream, can have",
+    "options": [
+      "A. Posterior urethral valves",
+      "B. Horse shoe kidney",
+      "C. Single kidney",
+      "D. All of above",
+      "E. None of above"
+    ],
+    "answer": "A",
+    "explanation": "Posterior Urethral Valves (PUV) are obstructing membranous folds in the posterior urethra in males, leading to poor urinary stream, urinary retention, and recurrent UTIs."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "The goal of management of D.M type1 is to maintain fasting sugar level between",
+    "options": [
+      "A. 110-140",
+      "B. 80-120",
+      "C. 70-80",
+      "D. 120-150",
+      "E. None of above"
+    ],
+    "answer": "B",
+    "explanation": "Typical glycemic targets for Type 1 Diabetes management often aim for a fasting/pre-prandial glucose range of 80-130 mg/dL (ADA guidelines) or 80-120 mg/dL in stricter control contexts."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which paremeters must be used in assesment of short stature",
+    "options": [
+      "A. Child’s height",
+      "B. Sibling’s height",
+      "C. Parent’s height",
+      "D. Mid parental height",
+      "E. All of above"
+    ],
+    "answer": "E",
+    "explanation": "Assessment of short stature involves evaluating the child's current height, genetic potential (Parents' height, Mid-parental height), and familial patterns (Siblings' height)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45 years old unmarried female presented in Surgical OPD having painless lump in right upper outer quadrant of breast for last 3 months gradually increasing in size. Examination reveals hard mass, immobile attached to deeper tissue. There is also a lump in right axilla. What is likely diagnosis?",
+    "options": [
+      "A. Traumatic fat necrosis",
+      "B. Fibroadenoma",
+      "C. Ca-breast",
+      "D. Breast abscess",
+      "E. Phylloides Tumor"
+    ],
+    "answer": "C",
+    "explanation": "A hard, immobile, painless breast mass with axillary lymphadenopathy in a 45-year-old woman is highly suspicious for Breast Carcinoma."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 45 years old female presented in surgical OPD having a lump in breast for 2 months. Lump is hard, fixed to deeper structures and non tender. There is also a lump in ipsilateral axilla. What is next step in management?",
+    "options": [
+      "A. Mammography",
+      "B. Ultrasound breast",
+      "C. Open biopsy",
+      "D. FNAC",
+      "E. MRI"
+    ],
+    "answer": "A",
+    "explanation": "In a woman over 35-40 years old presenting with a breast lump, bilateral Mammography is the standard initial imaging modality as part of the triple assessment."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 30 years old male patient presented with infertility. When sperm ejaculate analysis was done it came to be azoospermia and when further investigated it was found that there is obstruction in the ejaculatory duct. Which hormonal essay is done in this case?",
+    "options": [
+      "A. Serum testosterone",
+      "B. Serum prolactin",
+      "C. Luteinsing hormone",
+      "D. Prostate Specific antigen",
+      "E. Follicle stimulating hormone"
+    ],
+    "answer": "E",
+    "explanation": "FSH (Follicle Stimulating Hormone) is critical to distinguish between obstructive azoospermia (where FSH is typically normal because spermatogenesis is intact) and non-obstructive azoospermia (testicular failure, where FSH is elevated)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 70 years old male presented ē hesitancy, intermittent urination & nocturia, his USG shows 40 grams prostate. What treatment you will advise to patient?",
+    "options": [
+      "A. Uretheral Catheterization",
+      "B. Anticholinergies Drugs",
+      "C. Αlpha Blockage Drugs",
+      "D. TURP",
+      "E. Antibiotics"
+    ],
+    "answer": "C",
+    "explanation": "For symptomatic Benign Prostatic Hyperplasia (BPH) with a moderately enlarged prostate (40g), Alpha-blockers (e.g., tamsulosin) are the first-line medical therapy to relax smooth muscle and improve flow."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 20 years old male presented with acute urinary retention. Urethral catheterization tried in emergency department but not successful. What will be next step of management?",
+    "options": [
+      "A. Retrograde Uretherogram",
+      "B. Suprapubic Catheterization",
+      "C. Optical Urethrotomy",
+      "D. Urethroplasty",
+      "E. Laparotomy"
+    ],
+    "answer": "B",
+    "explanation": "When urethral catheterization fails in acute urinary retention, Suprapubic Catheterization is the immediate next step to relieve the bladder."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 60 Years old male presented with painless hematuria with passage of clots, he is also having irritative lower urinary tract symptoms, and he is smoker for the last 40 years. What is probable diagnosis?",
+    "options": [
+      "A. Enlarged Prostate",
+      "B. Bladder Tumor",
+      "C. Bladder Stone",
+      "D. Urinary Tract Infection",
+      "E. Urethral stricture"
+    ],
+    "answer": "B",
+    "explanation": "Painless gross hematuria in an older smoker is the classic presentation of Bladder Cancer (Transitional Cell Carcinoma)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 30 years male old patient has a Road traffic accident half hour ago, he is presented in emergency department with gross haematuria, his B.P is 100/80, his pulse is 100/min. On examination he had bruise in his right flank. What will be next step of management?",
+    "options": [
+      "A. Exploratory Laparotomy",
+      "B. CT Scan Abdomen + Pelvis",
+      "C. Blood Transfusion",
+      "D. Right Nephrectomy",
+      "E. X-ray erect abdomen"
+    ],
+    "answer": "B",
+    "explanation": "In a stable or stabilized trauma patient with gross hematuria and flank trauma, a CT scan of the abdomen and pelvis with contrast is the gold standard to assess renal injury."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 60 years old patient presented ē Gross haematuria ē his CT Scan showed right renal mass which is 4 cm & confined to kidney there is no lymph node involvement & no metastasis. What is the stage of the disease?",
+    "options": [
+      "A. T1a NOMO",
+      "B. T2a NOMO",
+      "C. T1b NOMO",
+      "D. T2b NOMO",
+      "E. T3 NOMO"
+    ],
+    "answer": "A",
+    "explanation": "A renal tumor measuring 4 cm or less, limited to the kidney, is classified as T1a. With no nodes (N0) and no metastasis (M0), the stage is T1a N0 M0."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 30 years old male patient presented with 30 mm ® Renal pelvis stone. What treatment will you offer to patient?",
+    "options": [
+      "A. ESWL",
+      "B. Conservative Treatment",
+      "C. PCNL",
+      "D. URS",
+      "E. Pyelolithotomy"
+    ],
+    "answer": "C",
+    "explanation": "For renal stones larger than 20mm (2cm), Percutaneous Nephrolithotomy (PCNL) is the standard treatment of choice as ESWL is less effective for large burden."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following medications is commonly used in the medical management of miscarriage?",
+    "options": [
+      "A. Methotrexate",
+      "B. Mifepristone",
+      "C. Misoprostol",
+      "D. Progesterone",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Misoprostol (a prostaglandin analog) is commonly used to induce expulsion of the products of conception in the medical management of miscarriage."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is true regarding a missed miscarriage?",
+    "options": [
+      "A. Cervix is open with heavy bleeding",
+      "B. Fetal tissue is expelled immediately",
+      "C. Fetus is non-viable, but there are no symptoms of miscarriage",
+      "D. It usually occurs after 20 weeks of pregnancy",
+      "E. All of the above"
+    ],
+    "answer": "C",
+    "explanation": "A missed miscarriage is defined by the presence of a non-viable fetus within the uterus with a closed cervix and usually minimal or no symptoms (bleeding/pain)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following types of miscarriage is associated with an open cervix and passage of products of conception?",
+    "options": [
+      "A. Threatened miscarriage",
+      "B. Inevitable miscarriage",
+      "C. Missed miscarriage",
+      "D. Complete miscarriage",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "While 'Incomplete' is the most precise term for partial passage, 'Inevitable' miscarriage involves an open cervix and symptoms indicating the process has become irreversible, often described as products being in the process of passing. In MCQs where Incomplete is absent, Inevitable often represents the active state with an open cervix compared to Threatened or Missed."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A patient presents with vaginal bleeding and abdominal pain at 10 weeks of pregnancy. On examination, the cervix is closed, and an ultrasound shows a non- viable fetus. What is the most likely diagnosis?",
+    "options": [
+      "A. Threatened miscarriage",
+      "B. Inevitable miscarriage",
+      "C. Missed miscarriage",
+      "D. Complete miscarriage",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "A non-viable fetus with a closed cervix fits the diagnosis of a Missed miscarriage. Threatened would imply viability."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the most common cause of first-trimester miscarriage?",
+    "options": [
+      "A. Infections",
+      "B. Chromosomal abnormalities",
+      "C. Trauma",
+      "D. Maternal autoimmune disorders",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Chromosomal abnormalities (aneuploidy) account for at least 50% of all first-trimester miscarriages."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is NOT a risk factor for ectopic pregnancy?",
+    "options": [
+      "A. Pelvic inflammatory disease (PID)",
+      "B. Intrauterine device (IUD) usage",
+      "C. History of tubal surgery",
+      "D. Polycystic ovarian syndrome (PCOS)",
+      "E. None of these"
+    ],
+    "answer": "D",
+    "explanation": "PID, tubal surgery, and IUD usage (if failure occurs) are established risk factors for ectopic pregnancy. PCOS affects ovulation but is not a specific risk factor for tubal implantation."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 28-year-old woman presents with lower abdominal pain, vaginal bleeding, and a positive pregnancy test. A transvaginal ultrasound shows an empty uterus. What is the next best step in the management?",
+    "options": [
+      "A. Serum β-hCG measurement",
+      "B. Immediate laparoscopy",
+      "C. Methotrexate administration",
+      "D. Dilation and curettage (D&C)",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "In a 'pregnancy of unknown location', measuring serum β-hCG is crucial to interpret the ultrasound findings (discriminatory zone) and guide further management."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following treatments is appropriate for an unruptured ectopic pregnancy with low β-hCG levels and no cardiac activity?",
+    "options": [
+      "A. Methotrexate",
+      "B. Laparotomy",
+      "C. Salpingectomy",
+      "D. Expectant management",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "Medical management with Methotrexate is indicated for hemodynamically stable patients with unruptured ectopic pregnancy, low β-hCG, and no fetal cardiac activity."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is a contraindication for methotrexate therapy in the treatment of ectopic pregnancy?",
+    "options": [
+      "A. Serum β-hCG level >5000 mIU/mL",
+      "B. Presence of fetal cardiac activity",
+      "C. Hemodynamically stable patient",
+      "D. Both a and b",
+      "E. All of the above"
+    ],
+    "answer": "D",
+    "explanation": "High β-hCG (>5000) and fetal cardiac activity are relative or absolute contraindications for methotrexate due to higher failure rates."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the main purpose of serial β-hCG measurements in a suspected case of ectopic pregnancy?",
+    "options": [
+      "A. To confirm intrauterine pregnancy",
+      "B. To assess the viability of the pregnancy",
+      "C. To monitor the resolution of ectopic pregnancy",
+      "D. To determine the appropriate timing for delivery",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Serial β-hCG helps assess viability (doubling time) and differentiate between a viable intrauterine pregnancy, a miscarriage, and an ectopic pregnancy."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is a common symptom associated with menopause?",
+    "options": [
+      "A. Amenorrhea",
+      "B. Hot flashes",
+      "C. Breast tenderness",
+      "D. Weight loss",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Vasomotor symptoms like hot flashes (and night sweats) are the most common characteristic symptoms of menopause."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which hormone predominantly decreases during menopause?",
+    "options": [
+      "A. Progesterone",
+      "B. Follicle-stimulating hormone (FSH)",
+      "C. Estrogen",
+      "D. Luteinizing hormone (LH)",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Menopause is defined by the cessation of ovarian function, leading to a profound decrease in estrogen production."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Hormone replacement therapy (HRT) in menopausal women is contraindicated in which of the following conditions?",
+    "options": [
+      "A. History of deep vein thrombosis (DVT)",
+      "B. Hot flashes",
+      "C. Low bone density",
+      "D. Premature ovarian insufficiency",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "HRT increases the risk of thromboembolism; therefore, a history of DVT is a contraindication."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "A 52-year-old postmenopausal woman presents with vaginal bleeding. What is the most important next step in her management?",
+    "options": [
+      "A. Prescribe estrogen therapy",
+      "B. Pap smear",
+      "C. Endometrial biopsy",
+      "D. Ultrasound of the pelvis",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Postmenopausal bleeding is considered endometrial cancer until proven otherwise. Endometrial biopsy is the definitive diagnostic step, although ultrasound is often used for triage."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is a long-term health risk associated with menopause due to estrogen deficiency?",
+    "options": [
+      "A. Hypothyroidism",
+      "B. Osteoporosis",
+      "C. Hypertension",
+      "D. Type 1 diabetes",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Estrogen deficiency leads to accelerated bone resorption, significantly increasing the risk of osteoporosis and fractures."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is a major risk factor for endometrial cancer?",
+    "options": [
+      "A. Multiparity",
+      "B. Use of oral contraceptives",
+      "C. Obesity",
+      "D. Early menopause",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Obesity causes increased peripheral conversion of androgens to estrogen, leading to unopposed estrogen exposure, a major risk factor for endometrial cancer."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the most common type of endometrial cancer?",
+    "options": [
+      "A. Clear cell carcinoma",
+      "B. Papillary serous carcinoma",
+      "C. Endometrioid adenocarcinoma",
+      "D. Mucinous carcinoma",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Endometrioid adenocarcinoma accounts for the vast majority (approx. 75-80%) of endometrial cancers."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which hormone is most implicated in the development of endometrial cancer?",
+    "options": [
+      "A. Progesterone",
+      "B. Estrogen",
+      "C. Testosterone",
+      "D. Follicle-stimulating hormone (FSH)",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Unopposed Estrogen causes endometrial hyperplasia, which can progress to carcinoma."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "In endometrial cancer staging, which stage involves spread beyond the uterus but confined to the pelvis?",
+    "options": [
+      "A. Stage I",
+      "B. Stage II",
+      "C. Stage III",
+      "D. Stage IV",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "According to FIGO staging, Stage III involves local and/or regional spread of the cancer (e.g., adnexa, vagina) but confined to the pelvis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which genetic condition is associated with an increased risk of endometrial cancer?",
+    "options": [
+      "A. BRCA1 mutation",
+      "B. Lynch syndrome (Hereditary nonpolyposis colorectal cancer)",
+      "C. Turner syndrome",
+      "D. Down syndrome",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Lynch syndrome is a hereditary condition that significantly increases the risk of colorectal, endometrial, and other cancers."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following HPV strains are most commonly associated with cervical cancer?",
+    "options": [
+      "A. HPV 6 and 11",
+      "B. HPV 16 and 18",
+      "C. HPV 31 and 33",
+      "D. HPV 45 and 52",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "HPV 16 and 18 are high-risk strains responsible for approximately 70% of all cervical cancer cases."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the most common presenting symptom of cervical cancer?",
+    "options": [
+      "A. Postcoital bleeding",
+      "B. Pelvic pain",
+      "C. Abdominal swelling",
+      "D. Dysuria",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "Postcoital bleeding (bleeding after intercourse) is the classic early warning sign of cervical cancer."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "In cervical cancer staging, which stage involves extension beyond the uterus but not to the pelvic wall or lower third of the vagina?",
+    "options": [
+      "A. Stage I",
+      "B. Stage II",
+      "C. Stage III",
+      "D. Stage IV",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Stage II cervical cancer extends beyond the cervix/uterus (e.g., to upper vagina or parametrium) but does not reach the pelvic wall or lower third of the vagina."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is the most common clinical feature of polycystic ovary syndrome (PCOS)?",
+    "options": [
+      "A. Hirsutism",
+      "B. Amenorrhea",
+      "C. Obesity",
+      "D. Infertility",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "Hirsutism is a very common manifestation of hyperandrogenism, which is a key diagnostic feature of PCOS."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which hormone is typically elevated in patients with PCOS?",
+    "options": [
+      "A. Progesterone",
+      "B. Luteinizing hormone (LH)",
+      "C. Follicle-stimulating hormone (FSH)",
+      "D. Estrogen",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Elevated LH levels and an increased LH:FSH ratio are characteristic hormonal findings in PCOS."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Women with PCOS are at increased risk for which of the following conditions?",
+    "options": [
+      "A. Osteoporosis",
+      "B. Endometrial cancer",
+      "C. Breast cancer",
+      "D. Hypothyroidism",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Chronic anovulation in PCOS leads to unopposed estrogen exposure, increasing the risk of endometrial hyperplasia and cancer."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which chromosomal abnormality is most commonly associated with complete hydatidiform moles?",
+    "options": [
+      "A. 69, XXX",
+      "B. 69, XXY",
+      "C. 46, XX or 46, XY (entirely paternal in origin)",
+      "D. 47, XXX",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Complete moles are usually diploid (46,XX or 46,XY) and androgenetic, meaning all genetic material is paternal in origin."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What is the treatment of choice for high-risk gestational trophoblastic neoplasia (GTN)?",
+    "options": [
+      "A. Surgical removal of the uterus",
+      "B. Single-agent chemotherapy",
+      "C. Multi-agent chemotherapy",
+      "D. Radiation therapy",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "High-risk GTN requires multi-agent chemotherapy regimens, such as EMA-CO, for effective treatment."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is TRUE about partial hydatidiform moles?",
+    "options": [
+      "A. They contain triploid chromosomal material",
+      "B. They have a higher risk of developing into choriocarcinoma than complete moles",
+      "C. They always present with vaginal bleeding",
+      "D. Fetal parts are never present",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "Partial moles are triploid (69 chromosomes) due to fertilization of an egg by two sperm. They often contain fetal parts and carry a lower risk of malignancy than complete moles."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is a known risk factor for developing a hydatidiform mole?",
+    "options": [
+      "A. Nulliparity",
+      "B. Advanced maternal age",
+      "C. Use of oral contraceptives",
+      "D. Twin pregnancy",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Extremes of maternal age (very young or advanced age >35-40) are significant risk factors for molar pregnancy."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which imaging modality is considered the gold standard for diagnosing uterine fibroids?",
+    "options": [
+      "A. Pelvic X-ray",
+      "B. Hysteroscopy",
+      "C. Transvaginal ultrasound",
+      "D. MRI of the pelvis",
+      "E. None of these"
+    ],
+    "answer": "D",
+    "explanation": "While ultrasound is the most common initial imaging, MRI is the most accurate (gold standard) for mapping fibroids, distinguishing them from adenomyosis, and planning surgery."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following medications is commonly used to reduce the size of uterine fibroids before surgery?",
+    "options": [
+      "A. Progesterone",
+      "B. Estrogen",
+      "C. Gonadotropin-releasing hormone (GnRH) agonists",
+      "D. Nonsteroidal anti-inflammatory drugs (NSAIDs) Answer: c) Gonadotropin-releasing hormone (GnRH) agonists",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "GnRH agonists create a hypoestrogenic state, which shrinks fibroids temporarily, making surgery easier."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following complications is associated with large uterine fibroids?",
+    "options": [
+      "A. Endometrial hyperplasia",
+      "B. Ureteric compression and hydronephrosis",
+      "C. Ovarian torsion",
+      "D. Vaginal atrophy",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Large fibroids can physically compress adjacent structures, including the ureters, leading to hydronephrosis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "In uterovaginal prolapse, which part of the pelvic floor weakens, leading to the descent of pelvic organs?",
+    "options": [
+      "A. Endometrial tissue",
+      "B. Uterine ligaments",
+      "C. Pelvic diaphragm",
+      "D. Round ligament",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "Weakness of the pelvic diaphragm (levator ani muscles) and endopelvic fascia is the primary cause of pelvic organ prolapse."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "What grading system is commonly used to classify the severity of pelvic organ prolapse?",
+    "options": [
+      "A. Bishop score",
+      "B. POP-Q (Pelvic Organ Prolapse Quantification) system",
+      "C. Apgar score",
+      "D. Gleason score",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "The POP-Q system is the standard objective method for quantifying and staging pelvic organ prolapse."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Uterovaginal prolapse is most commonly associated with:",
+    "options": [
+      "A. Nulliparity",
+      "B. Multiple vaginal deliveries",
+      "C. Cesarean sections",
+      "D. Oophorectomy",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Vaginal childbirth stretches and damages the pelvic floor muscles and connective tissue, making multiparity the strongest risk factor for prolapse."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is considered first-line medical therapy for mild to moderate endometriosis?",
+    "options": [
+      "A. Clomiphene citrate",
+      "B. Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "C. Gonadotropin-releasing hormone (GnRH) agonists",
+      "D. Oral contraceptive pills",
+      "E. None of these"
+    ],
+    "answer": "D",
+    "explanation": "Combined oral contraceptives (often with NSAIDs for pain) are the standard first-line medical treatment to suppress ovulation and reduce symptoms."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following antibiotics is the first-line treatment for bacterial vaginosis?",
+    "options": [
+      "A. Metronidazole",
+      "B. Clindamycin",
+      "C. Fluconazole",
+      "D. Doxycycline",
+      "E. None of these"
+    ],
+    "answer": "A",
+    "explanation": "Metronidazole is the treatment of choice for Bacterial Vaginosis."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Which of the following is a characteristic finding of bacterial vaginosis?",
+    "options": [
+      "A. Thick, white, curd-like discharge",
+      "B. Frothy, greenish-yellow discharge",
+      "C. Thin, greyish-white discharge with a fishy odor",
+      "D. Blood-stained discharge",
+      "E. None of these"
+    ],
+    "answer": "C",
+    "explanation": "The classic description of Bacterial Vaginosis includes a thin, homogeneous, grey-white discharge with a distinct fishy odor (amine odor)."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Ovulatory problems are cause of infertility",
+    "options": [
+      "A. 30%",
+      "B. 25%",
+      "C. 20%",
+      "D. 15%",
+      "E. None of the above"
+    ],
+    "answer": "B",
+    "explanation": "Ovulatory disorders are responsible for approximately 25% of female infertility cases."
+  },
+  {
+    "id": "wmc",
+    "block": "l",
+    "year": "2024",
+    "question": "Following investigation is done to determine tubal function in endometriosis p +",
+    "options": [
+      "A. Hysterosalpingography",
+      "B. Laparoscopy and Dye test",
+      "C. Doppler ultrasound",
+      "D. Pelvic X-ray",
+      "E. None of these"
+    ],
+    "answer": "B",
+    "explanation": "Laparoscopy with chromopertubation (dye test) is the gold standard for assessing tubal patency and diagnosing endometriosis simultaneously."
+  }
+]

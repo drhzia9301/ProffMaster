@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Rinne’s test positive means that.",
+    "options": [
+      "a. Air conduction is better than bone conduction",
+      "b. Bone conduction is better than air conduction",
+      "c. Bone is equal to air conduction",
+      "d. Cholesteatoma",
+      "e. Otosclerosis"
+    ],
+    "answer": "a",
+    "explanation": "Rinne's test compares air conduction (AC) to bone conduction (BC). A positive Rinne's test indicates that air conduction is heard louder and longer than bone conduction (AC > BC), which is either normal hearing or sensorineural hearing loss."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Greisinger’s sign means:",
+    "options": [
+      "a. Pain over the tempromandibular joint",
+      "b. Pain in the eye",
+      "c. Pain and tenderness over the mastoid",
+      "d. Pain and tenderness over the auricle",
+      "e. Acute suppurative otitis media"
+    ],
+    "answer": "c",
+    "explanation": "Griesinger's sign is characterized by edema, pain, and tenderness over the mastoid process, caused by thrombophlebitis of the mastoid emissary vein, often seen in lateral sinus thrombosis (a complication of otitis media)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Tonsillar artery is a branch from.",
+    "options": [
+      "a. Lingual artery",
+      "b. Maxillary artery",
+      "c. Facial artery",
+      "d. Occipital artery",
+      "e. Interna caretoid artery"
+    ],
+    "answer": "c",
+    "explanation": "The tonsillar artery, which is the main arterial supply to the palatine tonsils, is a branch of the facial artery."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Bulla ethmoidalis is present in:",
+    "options": [
+      "a. Inferior nasal meatus",
+      "b. Middle nasal meatus",
+      "c. Superior nasal meatus",
+      "d. Nasopharynx",
+      "e. Ethmoid sinus"
+    ],
+    "answer": "b",
+    "explanation": "The bulla ethmoidalis is an anatomical landmark located in the middle nasal meatus. It is the largest and most constant anterior ethmoid air cell."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Retracted drum is characterized by all the following except:",
+    "options": [
+      "a. Disturbed cone of light",
+      "b. Prominent malleolar folds",
+      "c. Decreased drum mobility",
+      "d. Central drum perforation",
+      "e. Conductive deafness"
+    ],
+    "answer": "d",
+    "explanation": "A retracted tympanic membrane (drum) is characterized by a disturbed cone of light, prominent malleolar folds, and decreased mobility due to negative pressure in the middle ear, leading to conductive deafness. A central drum perforation is a *cause* of conductive deafness, but it's a hole in the drum, not a characteristic of retraction itself."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The best treatment of otosclerosis:",
+    "options": [
+      "a. Grommet’s tube",
+      "b. Stapedectomy",
+      "c. Myringoplasty",
+      "d. Mastoidectomy",
+      "e. Adenoidectomy"
+    ],
+    "answer": "b",
+    "explanation": "Stapedectomy (or stapedotomy) is the surgical treatment of choice for otosclerosis. It involves removing the fixed stapes footplate and replacing it with a prosthesis to restore sound conduction."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Early glottic carcinoma is best treated by:",
+    "options": [
+      "a. Radiotherapy",
+      "b. Total laryngectomy",
+      "c. Antibiotics",
+      "d. Cryosurgery",
+      "e. Anticancerous therapy"
+    ],
+    "answer": "a",
+    "explanation": "Early glottic carcinoma (T1a) is best treated by either radiotherapy or endoscopic laser resection (cordectomy). Radiotherapy offers excellent cure rates with good voice preservation."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "On tracheostomy, apnea developed after incising the trachea is due to:",
+    "options": [
+      "a. Sudden wash of CO2 in the trachea",
+      "b. Sudden release of the pressure in trachea",
+      "c. Reflex vagal stimulation",
+      "d. None of the above",
+      "e. Sudden wash of O2"
+    ],
+    "answer": "b",
+    "explanation": "Apnea (temporary cessation of breathing) immediately after incising the trachea during tracheostomy for chronic upper airway obstruction is often due to the sudden relief of obstruction. This leads to a rapid washout of accumulated CO2, removing the primary respiratory drive and resulting in temporary apnea until the respiratory centers readjust."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The most common cause of esophageal stricture in children is:",
+    "options": [
+      "a. Esophageal carcinoma",
+      "b. Diphtheria",
+      "c. Achalasia of the cardia",
+      "d. Corrosive intake",
+      "e. Endoscopy"
+    ],
+    "answer": "d",
+    "explanation": "In children, the most common cause of esophageal stricture (narrowing of the esophagus) is the accidental ingestion of corrosive substances (e.g., strong acids or alkalis found in household cleaners), leading to chemical burns and subsequent scar formation."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Juvenile nasopharyngeal angiofibroma is characterized by the following except:",
+    "options": [
+      "a. Affects teenagers",
+      "b. Causes nasal obstructions",
+      "c. Very vascular tumor",
+      "d. Affects only females",
+      "e. Profuse epistaxis"
+    ],
+    "answer": "d",
+    "explanation": "Juvenile nasopharyngeal angiofibroma (JNA) is a highly vascular tumor that almost exclusively affects adolescent males, causing symptoms like nasal obstruction and recurrent, profuse epistaxis. It does not affect only females."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Fossa of Rosenmullar is a common site for:",
+    "options": [
+      "a. Angiofibroma",
+      "b. Lipoma",
+      "c. Adenoid",
+      "d. Nasopharyngeal carcinoma",
+      "e. Pharyngeal pouch"
+    ],
+    "answer": "d",
+    "explanation": "The Fossa of Rosenmüller (pharyngeal recess) in the lateral wall of the nasopharynx is the most common site of origin for nasopharyngeal carcinoma (NPC)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Nasopharyngeal carcinoma early sign of nasopharyngeal carcinoma is:",
+    "options": [
+      "a. Unilateral secretory otitis media",
+      "b. Trotter’s triad",
+      "c. Petrositis",
+      "d. Nasal obstruction",
+      "e. Epistaxis"
+    ],
+    "answer": "a",
+    "explanation": "One of the earliest and most common presenting signs of nasopharyngeal carcinoma (NPC) is unilateral secretory otitis media. This occurs due to obstruction of the ipsilateral Eustachian tube by the tumor, leading to middle ear effusion and conductive hearing loss."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Stridor means:",
+    "options": [
+      "a. Difficult expiration",
+      "b. Difficult inspiration",
+      "c. Both",
+      "d. Dysphagia",
+      "e. Dysphagia"
+    ],
+    "answer": "b",
+    "explanation": "Stridor is a high-pitched, harsh sound heard predominantly during inspiration, indicating partial obstruction of the upper airway (larynx, trachea)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Nasopharyngeal carcinoma is treated by:",
+    "options": [
+      "a. Antibiotics",
+      "b. Surgery",
+      "c. Radiotherapy",
+      "d. None of the above",
+      "e. Chemotherapy"
+    ],
+    "answer": "c",
+    "explanation": "Nasopharyngeal carcinoma (NPC) is highly radiosensitive due to its typical histological features and anatomical location. Therefore, radiotherapy, often combined with chemotherapy, is the primary modality of treatment for NPC, rather than surgery."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Weber’s test in unilateral conductive deafness is lateralized to:",
+    "options": [
+      "a. The sound ear",
+      "b. The diseased ear",
+      "c. Both ears",
+      "d. Zygoma",
+      "e. Equal on both sides"
+    ],
+    "answer": "b",
+    "explanation": "In unilateral conductive hearing loss, Weber's test (using a tuning fork on the midline of the head) will lateralize to the diseased (affected) ear. This is because bone conduction is better heard in the presence of conductive hearing loss as ambient noise is occluded."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "F.B bronchus is treated by:",
+    "options": [
+      "a. Eosophagoscopy",
+      "b. Direct laryngoscopy",
+      "c. Tonsillectomy",
+      "d. Bronchoscopy",
+      "e. Indirect laryngoscopy"
+    ],
+    "answer": "d",
+    "explanation": "A foreign body (F.B.) in the bronchus requires removal via bronchoscopy. Bronchoscopy allows for direct visualization of the tracheobronchial tree and retrieval of the foreign object."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Inferior constrictor muscle of the pharynx takes origin from:",
+    "options": [
+      "a. Hyoid bone",
+      "b. Mandible",
+      "c. Maxilla",
+      "d. Thyroid and cricoid cartilages",
+      "e. Cervical Vertebra"
+    ],
+    "answer": "d",
+    "explanation": "The inferior constrictor muscle of the pharynx originates from the thyroid cartilage and the cricoid cartilage in the larynx."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The pharyngeal pouch passes through:",
+    "options": [
+      "a. Superior constrictor muscle",
+      "b. Killian dehiscence",
+      "c. Middle constrictor muscle",
+      "d. Hyoid bone",
+      "e. Below inferior Constrictor"
+    ],
+    "answer": "b",
+    "explanation": "A pharyngeal pouch (Zenker's diverticulum) typically herniates through Killian's dehiscence, which is a triangular area of weakness in the posterior pharyngeal wall, located between the cricopharyngeus muscle and the thyropharyngeus part of the inferior constrictor muscle."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The middle ear cleft includes all of the following except:",
+    "options": [
+      "a. Mastoid air cells",
+      "b. Middle ear cavity",
+      "c. Eustachian tube",
+      "d. Vestibular aqueduct",
+      "e. Attic"
+    ],
+    "answer": "d",
+    "explanation": "The middle ear cleft is a continuous air-filled space comprising the Eustachian tube, middle ear cavity (tympanum), attic (epitympanum), and mastoid air cells. The vestibular aqueduct is a bony canal within the inner ear (vestibular system), not part of the middle ear cleft."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Reactionary bleeding adenoidectomy is treated by:",
+    "options": [
+      "a. Removal of the remnants and post nasal pack",
+      "b. Antibiotics",
+      "c. Anterior nasal pack",
+      "d. Ligation of the bleeding vessel",
+      "e. Cautery"
+    ],
+    "answer": "a",
+    "explanation": "Reactionary hemorrhage after adenoidectomy typically occurs within the first 24 hours. Management often involves clearing any residual clots, ensuring no adenoid remnants are actively bleeding, and applying a posterior nasal pack (or nasopharyngeal pack) to control the bleeding."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Tonsillectomy is absolutely contraindicated in:",
+    "options": [
+      "a. Menstruation",
+      "b. Upper respiratory tract infection",
+      "c. Quinsy",
+      "d. Bleeding disorders",
+      "e. Carcinoma Tonsil"
+    ],
+    "answer": "d",
+    "explanation": "Tonsillectomy is absolutely contraindicated in patients with uncorrected bleeding disorders (e.g., hemophilia, severe coagulopathies) due to the high risk of severe and potentially life-threatening hemorrhage."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "A patient with epistaxis showing a bleeding point in little’s area is best managed by:",
+    "options": [
+      "a. Cautery",
+      "b. Anterior nasal pack",
+      "c. Posterior nasal pack",
+      "d. Coagulants",
+      "e. Ligation of Feeding Vessel"
+    ],
+    "answer": "a",
+    "explanation": "Epistaxis originating from Little's area (Kiesselbach's plexus) in the anterior nasal septum is typically amenable to direct pressure and chemical (silver nitrate) or electrical cautery if bleeding persists after initial measures. Cautery directly addresses the bleeding vessel."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Primary atrophic rhinitis characterized by all of the following except:",
+    "options": [
+      "a. Recurrent epistaxis",
+      "b. Anosmia",
+      "c. Bad odor smelled by the neighbors",
+      "d. Affects male only",
+      "e. Affects females only"
+    ],
+    "answer": "d",
+    "explanation": "Primary atrophic rhinitis (ozena) is characterized by crusting, anosmia, and a foul odor (often smelled by others, not just the patient). It is more common in females and does not affect males only. Option 'd' is therefore the incorrect statement."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Unilateral watery nasal discharge most likely to suggest a diagnosis of:",
+    "options": [
+      "a. Acute viral rhinitis",
+      "b. CSF rhinorrhea",
+      "c. Allergic rhinitis",
+      "d. Rhinoscleroma",
+      "e. Vasomotor Rhinitis"
+    ],
+    "answer": "b",
+    "explanation": "Unilateral watery nasal discharge, especially if persistent, clear, and increasing with changes in head position or straining, is highly suggestive of cerebrospinal fluid (CSF) rhinorrhea, usually following trauma or surgery to the skull base."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The usual cause of reactionary post tonsillectomy bleeding is:",
+    "options": [
+      "a. Slipped ligature",
+      "b. Wound infection",
+      "c. Tonsillar remnant",
+      "d. Early extubation",
+      "e. No antibiotic during procedure"
+    ],
+    "answer": "a",
+    "explanation": "Reactionary hemorrhage (bleeding occurring within the first 24 hours post-surgery) after tonsillectomy is most commonly caused by a slipped ligature (suture tie) from a vessel that was initially controlled during the procedure."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "An adult presented with acute onset dysphagia, edema of the uvula and palate, medially pushed tonsil and trismus is most likely to have:",
+    "options": [
+      "a. Parapharyngeal abscess",
+      "b. Acute retropharyngeal",
+      "c. Quinsy",
+      "d. Chronic retropharyngeal abscess",
+      "e. Ludwigs angina"
+    ],
+    "answer": "c",
+    "explanation": "Acute onset dysphagia, edema of the uvula and palate, a medially pushed tonsil (often with normal morphology), and trismus (difficulty opening mouth) are classic signs of a peritonsillar abscess, commonly known as quinsy."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The following are signs of chronic tonsillitis except:",
+    "options": [
+      "a. Enlarged cervical lymph nodes",
+      "b. Inequality of the size of the tonsils",
+      "c. Pus in the tonsillar crypts",
+      "d. Edema of the uvula",
+      "e. Flushing of the pillars"
+    ],
+    "answer": "d",
+    "explanation": "Chronic tonsillitis can involve enlarged cervical lymph nodes, asymmetry in tonsil size, and pus in the tonsillar crypts, often with flushing of the pillars. Edema of the uvula is more characteristic of acute severe inflammation, such as in peritonsillar abscess, rather than chronic tonsillitis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Safe type of chronic suppurative otitis media is characterized by:",
+    "options": [
+      "a. Scantly offensive ear discharge",
+      "b. Profuse mucopurulent ear discharge",
+      "c. Marginal perforation",
+      "d. All of the above",
+      "e. Blood stained discharge"
+    ],
+    "answer": "b",
+    "explanation": "The 'safe type' of chronic suppurative otitis media (CSOM), also known as tubotympanic CSOM or mucosal CSOM, is characterized by a profuse, mucoid or mucopurulent ear discharge and typically a central perforation of the tympanic membrane. Marginal perforations and offensive, scanty, or blood-stained discharge are more characteristic of the 'unsafe type' (atticoantral/cholesteatomatous CSOM)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The semicircular canals and vestibule are responsible for:",
+    "options": [
+      "a. Hearing",
+      "b. Conduction of sound waves",
+      "c. Balance",
+      "d. Taste",
+      "e. Smell"
+    ],
+    "answer": "c",
+    "explanation": "The semicircular canals and vestibule (utricle and saccule) are components of the vestibular system within the inner ear, which is primarily responsible for sensing head movement and maintaining balance."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "In unilateral conductive hearing loss, Webber’s test will lateralize to:",
+    "options": [
+      "a. The diseased ear",
+      "b. The normal ear",
+      "c. Both ear",
+      "d. Webber will be normal",
+      "e. Webber will be Centre"
+    ],
+    "answer": "a",
+    "explanation": "In unilateral conductive hearing loss, Weber's test (tuning fork on the midline of the head) will lateralize to the diseased (affected) ear. This is because the conductive defect blocks out ambient noise, making bone-conducted sound appear louder in the affected ear."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Myringotomy is indicated in:",
+    "options": [
+      "a. Secretory otitis media",
+      "b. Acute otitis media with bulging drum",
+      "c. Otitic barotrauma",
+      "d. All of the above",
+      "e. For gromette"
+    ],
+    "answer": "d",
+    "explanation": "Myringotomy (surgical incision of the tympanic membrane) is indicated in secretory otitis media (for fluid drainage), acute otitis media with a bulging drum (to relieve pressure and drain pus), and severe otitic barotrauma (to relieve pain and drain blood/fluid). Therefore, it is indicated in all these conditions."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Antro-choanal polyp arises from:",
+    "options": [
+      "a. Ethmoid sinus",
+      "b. Sphenoid sinus",
+      "c. Maxillary sinus",
+      "d. Middle turbinate"
+    ],
+    "answer": "c",
+    "explanation": "An antrochoanal polyp (ACP) is a benign, solitary polyp that originates from the mucosa of the maxillary sinus (antrum) and then grows through the ostium into the nasal cavity and often extends into the choana and nasopharynx."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Unilateral offensive nasal discharge may suspect:",
+    "options": [
+      "a. Acute rhinitis",
+      "b. Nasal polyposis",
+      "c. Epistaxis",
+      "d. Nose F.B",
+      "e. Magotts Nose"
+    ],
+    "answer": "d",
+    "explanation": "Unilateral offensive nasal discharge, especially in a child, is highly suspicious for a foreign body (F.B.) in the nose. The foreign body causes irritation and often a secondary infection, leading to purulent and foul-smelling discharge."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "One of the predisposing factors for post cricoid carcinoma is:",
+    "options": [
+      "a. Plummer Vinson syndrome",
+      "b. Vitamin E deficiency",
+      "c. Vitamin D deficiency",
+      "d. Chronic tonsillitis",
+      "e. Carcinoma larynx"
+    ],
+    "answer": "a",
+    "explanation": "Plummer-Vinson syndrome (also known as Paterson-Kelly syndrome), characterized by iron deficiency anemia, dysphagia (due to esophageal webs), and atrophic glossitis, is a well-established predisposing factor for postcricoid carcinoma (a type of hypopharyngeal squamous cell carcinoma)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The most serious complication following adenotonsillectomy is:",
+    "options": [
+      "a. Reactionary hemorrhage",
+      "b. Respiratory obstruction",
+      "c. Respiratory infection",
+      "d. Remnant of Adenoids",
+      "e. None of the above"
+    ],
+    "answer": "a",
+    "explanation": "The most serious and potentially life-threatening complication following adenotonsillectomy is hemorrhage, which can be primary (within 24 hours, often reactionary) or secondary (after 24 hours, often due to infection)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Trotter’s triad is a clinical diagnosis of:",
+    "options": [
+      "a. Nasopharyngeal angiofibroma",
+      "b. Nasopharyngeal cyst",
+      "c. Petrositis",
+      "d. Nasopharyngeal carcinoma",
+      "e. Antrochoanal Polyps"
+    ],
+    "answer": "d",
+    "explanation": "Trotter's triad is a clinical complex associated with nasopharyngeal carcinoma, characterized by unilateral conductive deafness (due to Eustachian tube obstruction), trigeminal neuralgia, and ipsilateral soft palate paralysis. This triad helps in the clinical diagnosis of nasopharyngeal carcinoma."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The best treatment of attico-antral disease:",
+    "options": [
+      "a. Systemetic antibiotics",
+      "b. Topical antibiotics",
+      "c. Mastoidectomy",
+      "d. Both topical and systematic antibiotics",
+      "e. Treated with analgesics only"
+    ],
+    "answer": "c",
+    "explanation": "Attico-antral disease (unsafe type of CSOM) is typically associated with cholesteatoma and bone erosion. The best and definitive treatment for eradicating the disease and preventing complications is surgical mastoidectomy."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The following paranasal sinuses open in the middle meatus except:",
+    "options": [
+      "a. Sphenoid sinus",
+      "b. Maxillary sinus",
+      "c. Frontal sinus",
+      "d. Anterior ethmoid air cells",
+      "e. Middle ethmoid air cells"
+    ],
+    "answer": "a",
+    "explanation": "The maxillary, frontal, anterior ethmoid, and middle ethmoid sinuses all drain into the middle nasal meatus. The sphenoid sinus drains into the sphenoethmoidal recess, which is superior to the superior nasal meatus."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Posterior nasal packing is indicated in all of the following situations except:",
+    "options": [
+      "a. Severe posterior epistaxis",
+      "b. Antro-choanal polyp",
+      "c. Reactionary post-adenoidectomy bleeding",
+      "d. After removal of nasopharyngeal angiofibroma",
+      "e. Uncontrolled Epistaxis"
+    ],
+    "answer": "b",
+    "explanation": "Posterior nasal packing is a hemostatic measure used for severe posterior epistaxis, reactionary post-adenoidectomy bleeding, uncontrolled epistaxis, and sometimes after the removal of highly vascular tumors like nasopharyngeal angiofibroma. It is not indicated for an antrochoanal polyp itself, which is typically removed surgically rather than packed."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Quinsy is suppuration in:",
+    "options": [
+      "a. Parapharyngeal space",
+      "b. Peritonsillar space",
+      "c. Retropharyngeal space",
+      "d. Submandibular space",
+      "e. Submaxillary space"
+    ],
+    "answer": "b",
+    "explanation": "Quinsy is the colloquial term for a peritonsillar abscess, which is a collection of pus in the peritonsillar space, located between the tonsillar capsule and the superior constrictor muscle."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Laryngoscleroma is characterized by:",
+    "options": [
+      "a. Subglottic stenosis",
+      "b. Vocal cord paralysis",
+      "c. Mouth ulceration",
+      "d. Cervical lymph node",
+      "e. Ca Larynx"
+    ],
+    "answer": "a",
+    "explanation": "Laryngoscleroma, a manifestation of rhinoscleroma (caused by *Klebsiella rhinoscleromatis*), typically affects the upper airway and is characterized by granulomatous inflammation leading to progressive subglottic stenosis, which can cause severe airway obstruction."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Stridor in children can be caused by:",
+    "options": [
+      "a. Chronic tonsillitis",
+      "b. Acute rhinitis",
+      "c. Deviated nasal septum",
+      "d. Inhaled foreign body",
+      "e. Chronic laryngitis"
+    ],
+    "answer": "d",
+    "explanation": "Stridor (a high-pitched inspiratory sound indicating upper airway obstruction) in children can be caused by various conditions, but an inhaled foreign body is a common and critical cause that requires urgent attention."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Shwartz’s sign may be positive in:",
+    "options": [
+      "a. Chronic suppurative otitis media",
+      "b. Atelactatic middle ear",
+      "c. Meniere’s disease",
+      "d. Otosclerosis",
+      "e. Accute Suppurative Otitis Media"
+    ],
+    "answer": "d",
+    "explanation": "Schwartze's sign, a reddish blush or 'flamingo pink' appearance of the promontory visible through the tympanic membrane, is a clinical sign that may be positive in early, active otosclerosis, indicating increased vascularity in the otic capsule."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Griessinger’s sign is positive in:",
+    "options": [
+      "a. Acute petrositis",
+      "b. Acute sinusitis",
+      "c. Acute labyrinthitis",
+      "d. Lateral sinus thromophelbitis",
+      "e. Brain Abscess"
+    ],
+    "answer": "d",
+    "explanation": "Griesinger's sign (edema and tenderness over the mastoid process) is a specific sign associated with lateral sinus thrombophlebitis, a serious intracranial complication of ear infections where the thrombus extends into the mastoid emissary vein."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Recurrent laryngeal nerve is motor to all of the intrinsic muscles of the larynx except:",
+    "options": [
+      "a. Vocalis muscle",
+      "b. Posterior cricoarytenoid muscle",
+      "c. Lateral cricoarytenoid muscle",
+      "d. Cricothyroid muscle",
+      "e. Interarytenoids"
+    ],
+    "answer": "d",
+    "explanation": "The recurrent laryngeal nerve (RLN) provides motor innervation to all intrinsic muscles of the larynx except the cricothyroid muscle. The cricothyroid muscle is innervated by the external branch of the superior laryngeal nerve."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The only abductor muscle in the larynx is:",
+    "options": [
+      "a. Sternothyroid muscle",
+      "b. Lateral cricoaryenoid muscle",
+      "c. Cricothyroid muscle",
+      "d. Posterior cricoaryenoid muscle",
+      "e. Vocalis"
+    ],
+    "answer": "d",
+    "explanation": "The posterior cricoarytenoid muscle is the sole abductor muscle of the vocal cords. Its action pulls the vocal cords apart, opening the glottis for breathing."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Secondary post-tonsillectomy bleeding is due to:",
+    "options": [
+      "a. Incomplete removal",
+      "b. Foreign body aspiration",
+      "c. Sepsis",
+      "d. Posterior nasal packing",
+      "e. Slip of Ligature"
+    ],
+    "answer": "c",
+    "explanation": "Secondary post-tonsillectomy bleeding (bleeding occurring more than 24 hours after surgery, typically 5-10 days) is most commonly due to wound infection (sepsis) in the tonsillar fossa, leading to erosion of blood vessels and hemorrhage."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Pharyngeal diverticulum occurs through:",
+    "options": [
+      "a. The superior constrictor muscle",
+      "b. The middle constrictor muscle",
+      "c. The inferior constrictor muscle",
+      "d. Palatopharyngus muscle",
+      "e. All of the above"
+    ],
+    "answer": "c",
+    "explanation": "A pharyngeal diverticulum, specifically Zenker's diverticulum (a pulsion diverticulum), occurs through Killian's dehiscence, which is a triangular area of weakness located within the inferior constrictor muscle of the pharynx, between its thyropharyngeal and cricopharyngeal parts."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Cortical mastoidectomy is indicated in:",
+    "options": [
+      "a. acute mastoiditis not responding to medical treatment",
+      "b. Bezold’s abscess",
+      "c. mastoid abscess",
+      "d. all of the above",
+      "e. Complicated CSOM"
+    ],
+    "answer": "d",
+    "explanation": "Cortical mastoidectomy (Schwartze operation) is indicated in acute mastoiditis not responding to medical treatment, Bezold's abscess (a complication of mastoiditis), and mastoid abscess. Essentially, it's indicated in all acute suppurative mastoid processes that require surgical drainage and eradication of infection."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Stapedectomy is the operation of the choice in:",
+    "options": [
+      "a. atelactatic middle ear",
+      "b. Meniere’s disease",
+      "c. otosclerosis",
+      "d. secretory otitis media",
+      "e. CSOM"
+    ],
+    "answer": "c",
+    "explanation": "Stapedectomy (or stapedotomy) is the surgical treatment of choice for otosclerosis, a condition where the stapes bone becomes fixed in the oval window, causing conductive hearing loss."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Ear wash is indicated in all of the following except:",
+    "options": [
+      "a. dry central perforation",
+      "b. wax",
+      "c. otomycosis",
+      "d. caloric test",
+      "e. F.B ear"
+    ],
+    "answer": "a",
+    "explanation": "Ear wash (syringing) is generally contraindicated in the presence of a tympanic membrane perforation, whether central or marginal, as it can introduce water and infection into the middle ear. It is used for wax removal, foreign body removal, and as part of a caloric test."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Facial nerve gives secretomotor supply to:",
+    "options": [
+      "a. parotid gland",
+      "b. submandibular salivary gland",
+      "c. pituitary gland",
+      "d. thyroid gland",
+      "e. Adrenal gland"
+    ],
+    "answer": "b",
+    "explanation": "The facial nerve (CN VII), via its chorda tympani branch, provides secretomotor innervation to the submandibular and sublingual salivary glands."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Anterior septal perforation may be caused by:",
+    "options": [
+      "a. polypectomy",
+      "b. adenoidectomy",
+      "c. rhinoscleroma",
+      "d. Bilateral cautery for epistaxis",
+      "e. Nasal packing"
+    ],
+    "answer": "d",
+    "explanation": "Bilateral cautery (especially aggressive or repeated) for epistaxis on the nasal septum can damage the septal mucosa and cartilage on both sides, leading to necrosis and subsequent perforation of the anterior nasal septum."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "All the following are possible complications of acute sinusitis except:",
+    "options": [
+      "a. temporal lobe brain abscess",
+      "b. cavernous sinus thrombosis",
+      "c. orbital cellulitis",
+      "d. osteomylaitis",
+      "e. Frontal lobe abscess"
+    ],
+    "answer": "a",
+    "explanation": "Acute sinusitis can lead to various complications due to spread of infection. Orbital cellulitis, osteomyelitis (especially frontal bone), frontal lobe abscess, and cavernous sinus thrombosis are all recognized complications. Temporal lobe brain abscess is less common directly from sinusitis; frontal lobe abscess is more typical from frontal sinusitis."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "An infant with bilateral choanal atresia will present by:",
+    "options": [
+      "a. conductive deafness",
+      "b. epistaxis",
+      "c. postnasal discharge",
+      "d. respiratory distress",
+      "e. Dysphagia"
+    ],
+    "answer": "d",
+    "explanation": "Newborn infants are obligate nasal breathers. Bilateral choanal atresia (blockage of both posterior nasal openings) prevents nasal breathing, leading to severe respiratory distress, particularly when feeding, and is a life-threatening condition."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The immediate management of perforated TM:",
+    "options": [
+      "a. Antibiotic drops",
+      "b. Systematic Antibiotics",
+      "c. Myringo plasty",
+      "d. Tympanoplasty",
+      "e. Wait and See"
+    ],
+    "answer": "e",
+    "explanation": "For an acute, traumatic tympanic membrane (TM) perforation without signs of infection, the immediate management is typically 'wait and see'. Most small, uncomplicated perforations heal spontaneously within a few weeks to months. Antibiotics are generally not needed unless there's signs of infection."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The following antibiotics are Contraindicated in infectious mononucleosis:",
+    "options": [
+      "a. Ampicilin",
+      "b. Erythromycin",
+      "c. Cephalosporin",
+      "d. Chloramphenicol",
+      "e. Septran"
+    ],
+    "answer": "a",
+    "explanation": "Ampicillin (and other aminopenicillins like amoxicillin) is contraindicated in infectious mononucleosis because it commonly causes a characteristic widespread maculopapular rash, which is not a true allergic reaction but can be mistaken for one."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "One of the signs of otogenic cerebellar abscess is:",
+    "options": [
+      "a. hemiplegia",
+      "b. hemianethesia",
+      "c. aphasia",
+      "d. dysdiodokokainesia",
+      "e. Projectile vomiting"
+    ],
+    "answer": "d",
+    "explanation": "Cerebellar abscesses (often otogenic, spreading from middle ear/mastoid infection) present with signs of cerebellar dysfunction, including ataxia, nystagmus, and dysdiadochokinesia (impaired ability to perform rapid alternating movements)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Radical mastoidectomy is indicated in:",
+    "options": [
+      "a. adhesive otitis media",
+      "b. unsafe type of otitis media with dead ear",
+      "c. secretory otitis media",
+      "d. central dry perforation",
+      "e. Safe type of Otitis media"
+    ],
+    "answer": "b",
+    "explanation": "Radical mastoidectomy is a highly destructive surgical procedure used for extensive, chronic, and complicated cases of 'unsafe type' (atticoantral/cholesteatomatous) otitis media, especially when there is irreversible middle ear damage and profound hearing loss ('dead ear'), aiming to create a dry, safe ear."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Allergic rhinitis is characterized by all the following except:",
+    "options": [
+      "a. attacks of sneezing",
+      "b. watery or mucoid rhinorrhea",
+      "c. antrochoanal polyp",
+      "d. pale or bluish nasal mucosa",
+      "e. Watering eyes"
+    ],
+    "answer": "c",
+    "explanation": "Allergic rhinitis is characterized by symptoms like sneezing attacks, watery/mucoid rhinorrhea, itchy/watery eyes, and pale or bluish nasal mucosa. While polyps can occur with chronic inflammation, an antrochoanal polyp is a specific type of benign tumor that is not a characteristic feature of allergic rhinitis itself."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Surgical treatment of Meniere’s disease may include:",
+    "options": [
+      "a. myringoplasty",
+      "b. ossiculoplasty",
+      "c. radical mastoidectomy",
+      "d. vestibular nerve section",
+      "e. Stapedectomy"
+    ],
+    "answer": "d",
+    "explanation": "Meniere's disease is a disorder of the inner ear characterized by episodic vertigo, fluctuating hearing loss, tinnitus, and aural fullness. When medical management fails, surgical options include vestibular nerve section (to eliminate vertigo while preserving hearing), endolymphatic sac decompression, or labyrinthectomy (if hearing is already poor)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Nasopharyngeal angiofibroma is characterized by all the following except:",
+    "options": [
+      "a. lower motor facial nerve paralysis",
+      "b. recurrent severe epistaxis",
+      "c. occurs in adolescent boys",
+      "d. may cause frog face deformity",
+      "e. Severe Anemia"
+    ],
+    "answer": "a",
+    "explanation": "Juvenile nasopharyngeal angiofibroma (JNA) typically affects adolescent boys, causes recurrent severe epistaxis and nasal obstruction, and can lead to a 'frog face deformity' due to tumor expansion. Severe anemia can result from chronic blood loss. Lower motor facial nerve paralysis is not a characteristic feature of JNA."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The value of functional endoscopic sinus surgery is to:",
+    "options": [
+      "a. restore sinonasal functions",
+      "b. preserve sinus drainage through natural ostia",
+      "c. avoid external scar",
+      "d. all of the above",
+      "e. None of the above"
+    ],
+    "answer": "d",
+    "explanation": "Functional Endoscopic Sinus Surgery (FESS) aims to restore normal sinonasal function by preserving the natural ostia (drainage pathways) of the sinuses, removing diseased tissue, and improving ventilation. It is performed endoscopically, thus avoiding external scars."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Septal heamtoma is treated by:",
+    "options": [
+      "a. antibiotics",
+      "b. antihistaminc",
+      "c. drainage and pack",
+      "d. septal perforation",
+      "e. Severe Anemia"
+    ],
+    "answer": "c",
+    "explanation": "A septal hematoma (a collection of blood under the perichondrium of the nasal septum) requires urgent incision and drainage to prevent complications like abscess formation or septal necrosis leading to saddle nose deformity. After drainage, nasal packing is often applied to prevent reaccumulation."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Nasal septal perforation is caused by all the following except:",
+    "options": [
+      "a. bilateral cautery for epistaxis",
+      "b. allergic rhinitis",
+      "c. syphilis",
+      "d. T.B",
+      "e. Lethal granuloma"
+    ],
+    "answer": "b",
+    "explanation": "Nasal septal perforation can be caused by bilateral cautery for epistaxis, infections like syphilis and tuberculosis, and inflammatory conditions like lethal midline granuloma (now often referred to as NK/T-cell lymphoma). Allergic rhinitis causes inflammation but does not typically lead to septal perforation."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Hump nose is managed by:",
+    "options": [
+      "a. Reduction rhinoplasty",
+      "b. Augmentation rhinoplasty",
+      "c. Nasal tip reconstruction",
+      "d. All of the above",
+      "e. None of the above"
+    ],
+    "answer": "a",
+    "explanation": "A 'hump nose' (dorsal hump) is typically managed by reduction rhinoplasty, a surgical procedure that involves removing bone and/or cartilage from the nasal dorsum to achieve a straighter profile."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Unilateral nasal obstruction can be the result of the following except:",
+    "options": [
+      "a. Unilateral choanal atresia",
+      "b. Antro-choanal polyp",
+      "c. Marked septal deviation",
+      "d. Septal perforation",
+      "e. F.B. Nose"
+    ],
+    "answer": "d",
+    "explanation": "Unilateral nasal obstruction can be caused by unilateral choanal atresia, antrochoanal polyp, marked septal deviation, and nasal foreign body. A septal perforation (a hole in the septum) typically causes a whistling sound or crusting, but rarely, if ever, presents as primary nasal obstruction."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Reservoir sign is positive in:",
+    "options": [
+      "a. Acute petrositis",
+      "b. Chronic labyrinthitis",
+      "c. Acute mastoiditis",
+      "d. Cholesteatoma",
+      "e. CSOM"
+    ],
+    "answer": "e",
+    "explanation": "The 'reservoir sign' refers to the accumulation of mucopurulent discharge in the middle ear cleft, which can be visualized through a perforation in the tympanic membrane. It is characteristic of the 'safe type' of chronic suppurative otitis media (CSOM) or mucosal CSOM."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Rhinoscleroma is treated by the following except:",
+    "options": [
+      "a. Streptomycin",
+      "b. Rifampicin",
+      "c. Radiotherapy",
+      "d. Puncture and lavage",
+      "e. Chemotherapy"
+    ],
+    "answer": "d",
+    "explanation": "Rhinoscleroma is a chronic granulomatous disease caused by *Klebsiella rhinoscleromatis*. It is primarily treated with long-term antibiotics (e.g., streptomycin, rifampicin, tetracycline). Radiotherapy and sometimes surgery are used for severe cases. Puncture and lavage are not standard treatments for this condition."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Nasopharyngeal angiofibroma is treated by:",
+    "options": [
+      "a. Antibiotics",
+      "b. Nasal packing",
+      "c. Surgical excision",
+      "d. None of the above",
+      "e. All of the above"
+    ],
+    "answer": "c",
+    "explanation": "Juvenile nasopharyngeal angiofibroma (JNA) is a benign but locally aggressive and highly vascular tumor. The definitive treatment of choice is complete surgical excision, often preceded by embolization to reduce intraoperative bleeding."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The best position after trachestomy:",
+    "options": [
+      "a. Supine",
+      "b. Semi-sitting",
+      "c. Standing",
+      "d. On one side",
+      "e. Sitting"
+    ],
+    "answer": "b",
+    "explanation": "After a tracheostomy, the patient is usually positioned in a semi-sitting (Fowler's) position. This helps to reduce swelling, promote drainage, facilitate breathing, and prevent aspiration."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Laryngeal lesions are investigated:",
+    "options": [
+      "a. CT",
+      "b. MRI",
+      "c. Endoscopy & Biopsy",
+      "d. All of the above",
+      "e. None of the above"
+    ],
+    "answer": "d",
+    "explanation": "The investigation of laryngeal lesions typically involves a combination of methods. Endoscopy (flexible or direct laryngoscopy) with biopsy is essential for direct visualization and histological diagnosis. Imaging modalities like CT and MRI are crucial for assessing the extent of the lesion, local invasion, and nodal involvement. Therefore, all of the above are used."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The cause of primary hemorrhage is:",
+    "options": [
+      "a. Wound sepsis",
+      "b. Unprepared Patient",
+      "c. Injury of the pharyngeal muscle",
+      "d. Rising of blood pressure with slipping ligature",
+      "e. No prophylaxis antibiotics"
+    ],
+    "answer": "d",
+    "explanation": "Primary hemorrhage (bleeding occurring at the time of surgery or immediately post-op, within 24 hours) is often due to inadequate hemostasis (e.g., a vessel not properly ligated or cauterized) compounded by factors like a rise in blood pressure, which can cause a loosely tied ligature to slip."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Fever in diphtheria is:",
+    "options": [
+      "a. High grade fever",
+      "b. Low grade fever",
+      "c. Remittent fever",
+      "d. Intermittent fever",
+      "e. Rigors and Chills"
+    ],
+    "answer": "b",
+    "explanation": "Diphtheria is characterized by the formation of a pseudomembrane and can cause significant systemic toxicity. However, the fever associated with diphtheria is typically low-grade, despite the severity of the illness."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The causative agent of vincent’s agent:",
+    "options": [
+      "a. Boreli vencent",
+      "b. Candida albicans",
+      "c. Barr-epestin virus",
+      "d. Streptococci",
+      "e. Staphylococci"
+    ],
+    "answer": "a",
+    "explanation": "Vincent's angina (acute necrotizing ulcerative gingivitis/pharyngitis) is caused by a synergistic infection involving spirochetes (like *Borrelia vincentii*) and fusiform bacteria (*Fusobacterium nucleatum*)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The causative agent of infectious mononucleosis:",
+    "options": [
+      "a. Boreli vencenti",
+      "b. Candida albicans",
+      "c. Barr- virus",
+      "d. Streptococci",
+      "e. Klebsialla"
+    ],
+    "answer": "c",
+    "explanation": "Infectious mononucleosis (glandular fever) is most commonly caused by the Epstein-Barr virus (EBV), which is sometimes referred to as 'Barr-virus' in some contexts."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The causative agent of thrush stomatitis is:",
+    "options": [
+      "a. Boreli vencenti",
+      "b. Candida albicans",
+      "c. Epestin - Bar virus",
+      "d. Streptococci",
+      "e. Klebsialla"
+    ],
+    "answer": "b",
+    "explanation": "Oral thrush (oral candidiasis, or thrush stomatitis) is a fungal infection of the oral mucosa caused by *Candida albicans*."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Membranous tonsillitis may be due to:",
+    "options": [
+      "a. Diphtheria",
+      "b. Acute follicular tonsillitis",
+      "c. Infectious mononucleosis",
+      "d. All of the above",
+      "e. None of the above"
+    ],
+    "answer": "d",
+    "explanation": "Membranous tonsillitis, characterized by a membrane or exudate covering the tonsils, can be caused by diphtheria, acute follicular tonsillitis (e.g., streptococcal pharyngitis), and infectious mononucleosis. Therefore, all of the above are potential causes."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Paul-bunnell test is diagnostic for:",
+    "options": [
+      "a. Diphtheria",
+      "b. Acute follicular tonsillitis",
+      "c. Infectious mononucleosis",
+      "d. Thrush stomatitis",
+      "e. Submucous fibrosis"
+    ],
+    "answer": "c",
+    "explanation": "The Paul-Bunnell test (heterophile antibody test) is a diagnostic test used to detect heterophile antibodies, which are often present in infectious mononucleosis caused by the Epstein-Barr virus."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Pharyngeal ulcer may be due to:",
+    "options": [
+      "a. Herpes simplex",
+      "b. Herpes zoster",
+      "c. TB",
+      "d. All of the above",
+      "e. Acute infection"
+    ],
+    "answer": "d",
+    "explanation": "Pharyngeal ulcers can be caused by various etiologies, including viral infections (Herpes simplex, Herpes zoster), bacterial infections (e.g., acute severe pharyngitis), and chronic granulomatous infections like tuberculosis. Therefore, all of the above can cause pharyngeal ulcers."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Ludwig’s angina is:",
+    "options": [
+      "a. Cellulitis of the pyriform fossa",
+      "b. Cellulitis in the parapharyngeal space",
+      "c. Cellulitis in the retropharyngeal space",
+      "d. Cellulitis in the floor of the mouth",
+      "e. Quinsy"
+    ],
+    "answer": "d",
+    "explanation": "Ludwig's angina is a severe, rapidly spreading cellulitis of the submandibular and sublingual spaces, essentially the floor of the mouth, that can lead to airway obstruction."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The most common site of quinsy is:",
+    "options": [
+      "a. Superior to tonsils",
+      "b. Lateral to tonsils",
+      "c. Posterior to tonsils",
+      "d. Inferior to the tonsils",
+      "e. Medial to transil"
+    ],
+    "answer": "a",
+    "explanation": "A peritonsillar abscess (quinsy) typically forms in the peritonsillar space, most commonly superior and lateral to the palatine tonsil."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Feeble very rapid pulse is known to occure in:",
+    "options": [
+      "a. Tonsillar diphtheria",
+      "b. Quinsy",
+      "c. Acute tonsillitis",
+      "d. Chronic tonsillitis",
+      "e. laringitis"
+    ],
+    "answer": "a",
+    "explanation": "Tonsillar diphtheria, due to the systemic effects of the diphtheria toxin on the heart (myocarditis), can lead to severe cardiovascular compromise, including a feeble, very rapid pulse (tachycardia) and even circulatory collapse."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Plummer – Vinson syndrome is:",
+    "options": [
+      "a. Malignant condition",
+      "b. Pre-malignant",
+      "c. Locally malignant",
+      "d. None of the above",
+      "e. Infection of the pharynx"
+    ],
+    "answer": "b",
+    "explanation": "Plummer-Vinson syndrome is considered a pre-malignant (premalignant) condition because it is associated with an increased risk of developing postcricoid carcinoma (squamous cell carcinoma of the hypopharynx/esophagus)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Plummer –Vinson syndrome predispose:",
+    "options": [
+      "a. Postcricoid carcinoma",
+      "b. Cancer larynx",
+      "c. Cancer oesophagus",
+      "d. None of the above",
+      "e. Cancer Nasopharynx"
+    ],
+    "answer": "a",
+    "explanation": "Plummer-Vinson syndrome is a well-known predisposing factor for the development of postcricoid carcinoma, a type of squamous cell carcinoma of the hypopharynx (the area immediately below the larynx and above the esophagus)."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Pharyngeal pouch occurs mostly in:",
+    "options": [
+      "a. Old males",
+      "b. Old females",
+      "c. Infants",
+      "d. Adult it males",
+      "e. Young females"
+    ],
+    "answer": "a",
+    "explanation": "Pharyngeal pouch (Zenker's diverticulum) typically occurs in older individuals, and is more common in males than in females, with increasing incidence with age."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Violent vomiting after large meal may cause:",
+    "options": [
+      "a. Pharyngeal pouch",
+      "b. Cardiac achalasia",
+      "c. Spontanwus rupture of the oesophagus",
+      "d. Plummer vinson syndrome",
+      "e. Acid laryngitis"
+    ],
+    "answer": "c",
+    "explanation": "Violent or forceful vomiting, especially after a large meal, can lead to a spontaneous rupture of the esophagus, a life-threatening condition known as Boerhaave syndrome."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Which is true about laryngeal carcinoma:",
+    "options": [
+      "a. Commoner in males.",
+      "b. The commonest type is squamous cell carcinoma",
+      "c. Is predisposed by smoking",
+      "d. All of the above",
+      "e. None of the above"
+    ],
+    "answer": "d",
+    "explanation": "Laryngeal carcinoma is indeed commoner in males, with squamous cell carcinoma being the predominant histological type (over 90%), and smoking is the most significant predisposing factor. Therefore, all of the above statements are true."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "The site of singer’s nodules is:",
+    "options": [
+      "a. At the epiglottis",
+      "b. At the junction of the anterior 1/3 with posterior 2/3 of VC",
+      "c. At the arytenoids",
+      "d. None of the above",
+      "e. Anterior Cammissure"
+    ],
+    "answer": "b",
+    "explanation": "Singer's nodules (vocal fold nodules) typically occur symmetrically at the junction of the anterior one-third and posterior two-thirds of the true vocal cords, which is the point of maximal vibratory trauma."
+  },
+  {
+    "id": "wmc",
+    "block": "m1",
+    "year": "2023",
+    "question": "Leucoplakia of the larynx is:",
+    "options": [
+      "a. Epithelial hyperplasia",
+      "b. Epithelial hypertrophy",
+      "c. Epithelial degeneration",
+      "d. No histological Changes",
+      "e. Only redness of the larynx"
+    ],
+    "answer": "a",
+    "explanation": "Leukoplakia of the larynx (a white patch on the vocal cord) is a clinical term for a lesion that histologically represents epithelial hyperplasia and hyperkeratosis. It is considered a precancerous lesion, as it can progress to dysplasia and squamous cell carcinoma."
+  }
+]

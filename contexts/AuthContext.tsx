@@ -1,7 +1,8 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState, useCallback } from 'react';
 import { Session, User } from '@supabase/supabase-js';
 import { supabase } from '../services/supabase';
 import { syncAttempts } from '../services/storageService';
+import { deviceSessionService, DeviceSession } from '../services/deviceSessionService';
 
 interface AuthContextType {
     session: Session | null;
@@ -9,6 +10,15 @@ interface AuthContextType {
     loading: boolean;
     connectionError: boolean;
     signOut: () => Promise<void>;
+    // Device session state
+    isSessionValid: boolean;
+    isBanned: boolean;
+    banReason?: string;
+    sessionInvalidated: boolean;
+    setSessionInvalidated: (value: boolean) => void;
+    // Device session actions
+    validateDeviceSession: () => Promise<boolean>;
+    registerDeviceSession: () => Promise<{ success: boolean; replacedSession?: DeviceSession }>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -18,9 +28,54 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const [user, setUser] = useState<User | null>(null);
     const [loading, setLoading] = useState(true);
     const [connectionError, setConnectionError] = useState(false);
+    const [initialLoadComplete, setInitialLoadComplete] = useState(false);
+    
+    // Device session state
+    const [isSessionValid, setIsSessionValid] = useState(true);
+    const [isBanned, setIsBanned] = useState(false);
+    const [banReason, setBanReason] = useState<string | undefined>();
+    const [sessionInvalidated, setSessionInvalidated] = useState(false);
+
+    // Validate the device session
+    const validateDeviceSession = useCallback(async (): Promise<boolean> => {
+        if (!user) return false;
+
+        // First check if user is banned
+        const banStatus = await deviceSessionService.checkBanStatus(user.id);
+        if (banStatus.isBanned) {
+            setIsBanned(true);
+            setBanReason(banStatus.reason);
+            return false;
+        }
+
+        // Then validate the session
+        const result = await deviceSessionService.validateSession(user.id);
+        setIsSessionValid(result.isValid);
+        return result.isValid;
+    }, [user]);
+
+    // Register a new device session
+    const registerDeviceSession = useCallback(async (): Promise<{ success: boolean; replacedSession?: DeviceSession }> => {
+        if (!user) return { success: false };
+
+        const result = await deviceSessionService.registerSession(user.id);
+        if (result.success) {
+            setIsSessionValid(true);
+        }
+        return {
+            success: result.success,
+            replacedSession: result.replacedSession
+        };
+    }, [user]);
 
     useEffect(() => {
         let mounted = true;
+        let unsubscribeFromSessionChanges: (() => void) | null = null;
+
+        // Skip re-initialization if already loaded
+        if (initialLoadComplete && session) {
+            return;
+        }
 
         // Timeout to detect offline/blocking
         const timeoutId = setTimeout(() => {
@@ -28,11 +83,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 console.warn('Supabase connection timed out - assuming offline');
                 setConnectionError(true);
                 setLoading(false);
+                setInitialLoadComplete(true);
             }
         }, 5000); // 5 seconds timeout
 
         // Check active sessions and sets the user
-        supabase.auth.getSession().then(({ data: { session } }) => {
+        supabase.auth.getSession().then(async ({ data: { session } }) => {
             if (!mounted) return;
             clearTimeout(timeoutId);
 
@@ -41,33 +97,112 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             setConnectionError(false); // Connection successful
 
             if (session?.user) {
-                syncAttempts().then(() => {
-                    if (mounted) setLoading(false);
+                // Check ban status first
+                const banStatus = await deviceSessionService.checkBanStatus(session.user.id);
+                if (banStatus.isBanned) {
+                    setIsBanned(true);
+                    setBanReason(banStatus.reason);
+                    setLoading(false);
+                    setInitialLoadComplete(true);
+                    return;
+                }
+
+                // Validate device session
+                const sessionResult = await deviceSessionService.validateSession(session.user.id);
+                setIsSessionValid(sessionResult.isValid);
+
+                // Subscribe to real-time session changes
+                unsubscribeFromSessionChanges = deviceSessionService.subscribeToSessionChanges(
+                    session.user.id,
+                    () => {
+                        // Session was invalidated by another device logging in
+                        setSessionInvalidated(true);
+                        setIsSessionValid(false);
+                    }
+                );
+
+                // Set loading false immediately, sync attempts in background
+                setLoading(false);
+                setInitialLoadComplete(true);
+                
+                // Sync attempts in background (non-blocking)
+                syncAttempts().catch(err => {
+                    console.warn('Background sync failed:', err);
                 });
             } else {
                 setLoading(false);
+                setInitialLoadComplete(true);
             }
         }).catch(err => {
             console.error('Supabase session check failed:', err);
             if (mounted) {
                 setConnectionError(true);
                 setLoading(false);
+                setInitialLoadComplete(true);
             }
         });
 
         // Listen for changes on auth state (sign in, sign out, etc.)
-        const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+        const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
             if (!mounted) return;
             setSession(session);
             setUser(session?.user ?? null);
 
             if (event === 'SIGNED_IN' && session) {
                 setLoading(true);
-                syncAttempts().then(() => {
-                    if (mounted) setLoading(false);
+                
+                // Reset states on new sign in
+                setIsBanned(false);
+                setBanReason(undefined);
+                setSessionInvalidated(false);
+
+                // Check ban status
+                const banStatus = await deviceSessionService.checkBanStatus(session.user.id);
+                if (banStatus.isBanned) {
+                    setIsBanned(true);
+                    setBanReason(banStatus.reason);
+                    setLoading(false);
+                    setInitialLoadComplete(true);
+                    return;
+                }
+
+                // Subscribe to session changes for this user
+                if (unsubscribeFromSessionChanges) {
+                    unsubscribeFromSessionChanges();
+                }
+                unsubscribeFromSessionChanges = deviceSessionService.subscribeToSessionChanges(
+                    session.user.id,
+                    () => {
+                        setSessionInvalidated(true);
+                        setIsSessionValid(false);
+                    }
+                );
+
+                // Set loading false immediately
+                setLoading(false);
+                setInitialLoadComplete(true);
+                
+                // Sync in background
+                syncAttempts().catch(err => {
+                    console.warn('Background sync failed:', err);
                 });
             } else if (event === 'SIGNED_OUT') {
+                // Clean up session subscription
+                if (unsubscribeFromSessionChanges) {
+                    unsubscribeFromSessionChanges();
+                    unsubscribeFromSessionChanges = null;
+                }
+                // Reset device session states
+                setIsSessionValid(true);
+                setIsBanned(false);
+                setBanReason(undefined);
+                setSessionInvalidated(false);
+                setInitialLoadComplete(false);
+                deviceSessionService.clearSessionToken();
                 setLoading(false);
+            } else if (event === 'TOKEN_REFRESHED') {
+                // Token refresh shouldn't trigger loading state
+                // Just update session silently
             } else {
                 setLoading(false);
             }
@@ -77,10 +212,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             mounted = false;
             clearTimeout(timeoutId);
             subscription.unsubscribe();
+            if (unsubscribeFromSessionChanges) {
+                unsubscribeFromSessionChanges();
+            }
         };
-    }, []);
+    }, [initialLoadComplete]);
 
     const signOut = async () => {
+        // Clear device session before signing out
+        if (user) {
+            await deviceSessionService.clearSession(user.id);
+        }
         await supabase.auth.signOut();
     };
 
@@ -90,6 +232,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         loading,
         connectionError,
         signOut,
+        // Device session state
+        isSessionValid,
+        isBanned,
+        banReason,
+        sessionInvalidated,
+        setSessionInvalidated,
+        // Device session actions
+        validateDeviceSession,
+        registerDeviceSession,
     };
 
     return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

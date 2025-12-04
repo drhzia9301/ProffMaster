@@ -75,7 +75,7 @@ const AIBlockPage = () => {
 
     return (
         <div className="pb-24 space-y-6 relative">
-            <div className="flex items-center gap-2 text-gray-500 cursor-pointer" onClick={() => navigate('/')}>
+            <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 cursor-pointer" onClick={() => navigate('/')}>
                 <ArrowRight className="rotate-180" size={18} />
                 <span className="text-sm font-medium">Back to Dashboard</span>
             </div>
@@ -85,22 +85,22 @@ const AIBlockPage = () => {
                     <Sparkles size={24} />
                 </div>
                 <div>
-                    <h2 className="text-2xl font-bold text-gray-900">AI Questions</h2>
-                    <p className="text-sm text-gray-500">Select a block to train the model</p>
+                    <h2 className="text-2xl font-bold text-gray-900 dark:text-white">AI Questions</h2>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Select a block to generate questions</p>
                 </div>
             </div>
 
             {/* Tabs */}
-            <div className="flex p-1 bg-gray-100 rounded-xl">
+            <div className="flex p-1 bg-gray-100 dark:bg-slate-800 rounded-xl">
                 <button
                     onClick={() => setActiveTab('new')}
-                    className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${activeTab === 'new' ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
+                    className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${activeTab === 'new' ? 'bg-white dark:bg-slate-700 text-gray-900 dark:text-white shadow-sm' : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'}`}
                 >
                     New Generation
                 </button>
                 <button
                     onClick={() => setActiveTab('saved')}
-                    className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${activeTab === 'saved' ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'}`}
+                    className={`flex-1 py-2.5 text-sm font-bold rounded-lg transition-all ${activeTab === 'saved' ? 'bg-white dark:bg-slate-700 text-gray-900 dark:text-white shadow-sm' : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'}`}
                 >
                     Saved Papers
                 </button>
@@ -112,24 +112,24 @@ const AIBlockPage = () => {
                         <button
                             key={block}
                             onClick={() => setSelectedBlock(block)}
-                            className="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:border-medical-200 transition-all text-left flex items-center justify-between group"
+                            className="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-medical-200 dark:hover:border-medical-600 transition-all text-left flex items-center justify-between group"
                         >
                             <div className="flex items-center gap-4">
-                                <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center transition-transform group-hover:scale-110">
+                                <div className="w-12 h-12 rounded-xl bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 flex items-center justify-center transition-transform group-hover:scale-110">
                                     <Layers size={24} />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900">{block}</h3>
+                                    <h3 className="font-bold text-gray-900 dark:text-white">{block}</h3>
                                 </div>
                             </div>
-                            <ArrowRight size={20} className="text-gray-300 group-hover:text-medical-600 transition-colors" />
+                            <ArrowRight size={20} className="text-gray-300 dark:text-gray-600 group-hover:text-medical-600 dark:group-hover:text-medical-400 transition-colors" />
                         </button>
                     ))}
                 </div>
             ) : (
                 <div className="space-y-3 animate-fade-in">
                     {savedPapers.length === 0 ? (
-                        <div className="text-center py-12 text-gray-400">
+                        <div className="text-center py-12 text-gray-400 dark:text-gray-500">
                             <FileText size={48} className="mx-auto mb-4 opacity-20" />
                             <p>No saved papers yet.</p>
                             <p className="text-xs mt-1">Generate a Full Paper to see it here.</p>
@@ -139,15 +139,15 @@ const AIBlockPage = () => {
                             <div
                                 key={paper.id}
                                 onClick={() => handleOpenSaved(paper)}
-                                className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm hover:border-medical-200 cursor-pointer group flex items-center justify-between"
+                                className="bg-white dark:bg-slate-800 p-4 rounded-xl border border-gray-100 dark:border-slate-700 shadow-sm hover:border-medical-200 dark:hover:border-medical-600 cursor-pointer group flex items-center justify-between"
                             >
                                 <div className="flex items-center gap-4">
-                                    <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center">
+                                    <div className="w-10 h-10 rounded-lg bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex items-center justify-center">
                                         <FileText size={20} />
                                     </div>
                                     <div>
-                                        <h3 className="font-bold text-gray-900">{paper.name}</h3>
-                                        <div className="flex items-center gap-3 text-xs text-gray-500 mt-1">
+                                        <h3 className="font-bold text-gray-900 dark:text-white">{paper.name}</h3>
+                                        <div className="flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400 mt-1">
                                             <span className="flex items-center gap-1"><Clock size={12} /> {new Date(paper.date).toLocaleDateString()}</span>
                                             <span>•</span>
                                             <span>{paper.questions.length} Questions</span>
@@ -156,7 +156,7 @@ const AIBlockPage = () => {
                                 </div>
                                 <button
                                     onClick={(e) => handleDelete(e, paper.id)}
-                                    className="p-2 text-gray-300 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                                    className="p-2 text-gray-300 dark:text-gray-600 hover:text-red-500 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-colors"
                                 >
                                     <Trash2 size={18} />
                                 </button>

@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getApiKey, setApiKey, removeApiKey, hasApiKey } from '../services/apiKeyService';
 import { resetProgress } from '../services/storageService';
+import { subscriptionService } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 import { hapticsService } from '../services/hapticsService';
-import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Coffee, Palette, Smartphone } from 'lucide-react';
+import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Coffee, Palette, Smartphone, Shield, ArrowRight } from 'lucide-react';
 
 const Settings: React.FC = () => {
+    const navigate = useNavigate();
     const { theme, setTheme } = useTheme();
     const [apiKey, setApiKeyInput] = useState('');
     const [isConfigured, setIsConfigured] = useState(false);
@@ -14,6 +17,7 @@ const Settings: React.FC = () => {
     const [showConfirmDelete, setShowConfirmDelete] = useState(false);
     const [showConfirmReset, setShowConfirmReset] = useState(false);
     const [hapticsEnabled, setHapticsEnabled] = useState(true);
+    const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
         const configured = hasApiKey();
@@ -23,6 +27,9 @@ const Settings: React.FC = () => {
             setApiKeyInput(key || '');
         }
         setHapticsEnabled(hapticsService.getEnabled());
+        
+        // Check admin status
+        subscriptionService.isAdmin().then(setIsAdmin);
     }, []);
 
     const toggleHaptics = () => {
@@ -303,22 +310,43 @@ const Settings: React.FC = () => {
                 )
             }
             {/* Reset Progress */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
                 <div className="p-6">
-                    <h3 className="font-bold text-red-600 mb-2 flex items-center gap-2">
+                    <h3 className="font-bold text-red-600 dark:text-red-400 mb-2 flex items-center gap-2">
                         <Trash2 size={20} /> Danger Zone
                     </h3>
-                    <p className="text-sm text-gray-600 mb-4">
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
                         Resetting your progress will delete all your stats, attempts, and bookmarks. This action cannot be undone.
                     </p>
                     <button
                         onClick={() => setShowConfirmReset(true)}
-                        className="w-full py-3 rounded-xl border border-red-200 text-red-600 font-bold hover:bg-red-50 transition-colors"
+                        className="w-full py-3 rounded-xl border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 font-bold hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
                     >
                         Reset All Progress
                     </button>
                 </div>
             </div>
+
+            {/* Admin Dashboard Link - Only visible to admins */}
+            {isAdmin && (
+                <div className="bg-gradient-to-r from-slate-800 to-slate-700 rounded-2xl shadow-lg overflow-hidden">
+                    <button
+                        onClick={() => navigate('/admin')}
+                        className="w-full p-6 text-left flex items-center justify-between group"
+                    >
+                        <div className="flex items-center gap-4">
+                            <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
+                                <Shield size={24} className="text-white" />
+                            </div>
+                            <div>
+                                <h3 className="font-bold text-white text-lg">Admin Dashboard</h3>
+                                <p className="text-slate-300 text-sm">Manage users and subscriptions</p>
+                            </div>
+                        </div>
+                        <ArrowRight size={24} className="text-slate-400 group-hover:text-white transition-colors" />
+                    </button>
+                </div>
+            )}
 
             {/* Confirm Reset Modal */}
             {
