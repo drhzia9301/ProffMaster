@@ -25,9 +25,9 @@ const PreproffYearsPage: React.FC = () => {
         if (block === 'Block M1') {
             return ['2023', '2024', '2025'];
         }
-        // Block M2 has 2023, 2024
+        // Block M2 has 2023, 2024, 2025
         if (block === 'Block M2') {
-            return ['2023', '2024'];
+            return ['2023', '2024', '2025'];
         }
         return [];
     };

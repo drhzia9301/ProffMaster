@@ -53,21 +53,25 @@ const PreproffCollegesPage = () => {
             }
         }
         if (year === '2025') {
-            // Block J: KMC and WMC
+            // Block J: KMC, NWSM, and WMC
             if (block === 'Block J') {
-                return ['KMC', 'WMC'];
+                return ['KMC', 'NWSM', 'WMC'];
             }
-            // Block K: WMC only (from kwmc2025.txt)
+            // Block K: NWSM and WMC
             if (block === 'Block K') {
-                return ['WMC'];
+                return ['NWSM', 'WMC'];
             }
-            // Block L: KMC only
+            // Block L: KMC and NWSM
             if (block === 'Block L') {
-                return ['KMC'];
+                return ['KMC', 'NWSM'];
             }
-            // Block M1: KMC only
+            // Block M1: KMC and NWSM
             if (block === 'Block M1') {
-                return ['KMC'];
+                return ['KMC', 'NWSM'];
+            }
+            // Block M2: NWSM
+            if (block === 'Block M2') {
+                return ['NWSM'];
             }
         }
         return [];
