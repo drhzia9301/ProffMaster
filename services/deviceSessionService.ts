@@ -224,7 +224,8 @@ class DeviceSessionService {
       if (existingSession && !fetchError) {
         // Check if it's the same device
         if (existingSession.device_id === deviceInfo.deviceId) {
-          // Same device - just update the session
+          // Same device - just update the session token
+          // This is important: update the token so the device can continue working
           const { error: updateError } = await supabase
             .from('device_sessions')
             .update({
@@ -242,24 +243,21 @@ class DeviceSessionService {
           // Log the violation
           await this.logViolation(userId, 'multiple_device_attempt', deviceInfo);
 
-          // Delete the old session and create a new one
-          await supabase
+          // IMPORTANT: Update the existing session with new device info and token
+          // This will trigger the realtime subscription on the old device
+          // because the session_token changes but the row still exists
+          const { error: updateError } = await supabase
             .from('device_sessions')
-            .delete()
-            .eq('user_id', userId);
-
-          // Insert new session
-          const { error: insertError } = await supabase
-            .from('device_sessions')
-            .insert({
-              user_id: userId,
+            .update({
               device_id: deviceInfo.deviceId,
               device_name: deviceInfo.deviceName,
               device_platform: deviceInfo.platform,
-              session_token: sessionToken
-            });
+              session_token: sessionToken,
+              last_active_at: new Date().toISOString()
+            })
+            .eq('id', existingSession.id);
 
-          if (insertError) throw insertError;
+          if (updateError) throw updateError;
         }
       } else {
         // No existing session - first login
@@ -431,8 +429,10 @@ class DeviceSessionService {
    * Subscribe to session changes (for real-time logout detection)
    */
   subscribeToSessionChanges(userId: string, onSessionInvalidated: () => void): () => void {
+    const storedToken = this.getStoredSessionToken();
+    
     const channel = supabase
-      .channel('device_sessions_changes')
+      .channel(`device_sessions_${userId}`)
       .on(
         'postgres_changes',
         {
@@ -442,29 +442,38 @@ class DeviceSessionService {
           filter: `user_id=eq.${userId}`
         },
         async (payload) => {
-          // Check if the session was deleted or changed
+          console.log('Device session change detected:', payload.eventType, payload);
+          
+          const currentToken = this.getStoredSessionToken();
+          
+          // Check if the session was deleted
           if (payload.eventType === 'DELETE') {
             // Session was deleted - user was logged out
-            const storedToken = this.getStoredSessionToken();
-            if (storedToken) {
+            if (currentToken) {
+              console.log('Session deleted - logging out this device');
               onSessionInvalidated();
             }
           } else if (payload.eventType === 'UPDATE' || payload.eventType === 'INSERT') {
             // Session was updated - check if token still matches
-            const storedToken = this.getStoredSessionToken();
             const newSession = payload.new as DeviceSession;
             
-            if (storedToken && newSession.session_token !== storedToken) {
-              // Token changed - this device was logged out
+            if (currentToken && newSession.session_token !== currentToken) {
+              // Token changed - this device was logged out by another device
+              console.log('Session token changed - logging out this device');
+              console.log('Current token:', currentToken?.substring(0, 8) + '...');
+              console.log('New token:', newSession.session_token?.substring(0, 8) + '...');
               onSessionInvalidated();
             }
           }
         }
       )
-      .subscribe();
+      .subscribe((status) => {
+        console.log('Realtime subscription status:', status);
+      });
 
     // Return unsubscribe function
     return () => {
+      console.log('Unsubscribing from device session changes');
       supabase.removeChannel(channel);
     };
   }

@@ -116,10 +116,26 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                     session.user.id,
                     () => {
                         // Session was invalidated by another device logging in
+                        console.log('Session invalidated callback triggered!');
                         setSessionInvalidated(true);
                         setIsSessionValid(false);
                     }
                 );
+
+                // Also set up a periodic check as fallback in case realtime fails
+                const checkSessionInterval = setInterval(async () => {
+                    if (!session?.user) return;
+                    const result = await deviceSessionService.validateSession(session.user.id);
+                    if (!result.isValid && !result.isNewDevice) {
+                        console.log('Session validation failed in periodic check');
+                        setSessionInvalidated(true);
+                        setIsSessionValid(false);
+                        clearInterval(checkSessionInterval);
+                    }
+                }, 30000); // Check every 30 seconds
+
+                // Store interval ID for cleanup
+                (window as any).__sessionCheckInterval = checkSessionInterval;
 
                 // Set loading false immediately, sync attempts in background
                 setLoading(false);
@@ -192,6 +208,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                     unsubscribeFromSessionChanges();
                     unsubscribeFromSessionChanges = null;
                 }
+                // Clear the periodic session check interval
+                if ((window as any).__sessionCheckInterval) {
+                    clearInterval((window as any).__sessionCheckInterval);
+                    (window as any).__sessionCheckInterval = null;
+                }
                 // Reset device session states
                 setIsSessionValid(true);
                 setIsBanned(false);
@@ -214,6 +235,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             subscription.unsubscribe();
             if (unsubscribeFromSessionChanges) {
                 unsubscribeFromSessionChanges();
+            }
+            // Clear the periodic session check interval
+            if ((window as any).__sessionCheckInterval) {
+                clearInterval((window as any).__sessionCheckInterval);
             }
         };
     }, [initialLoadComplete]);
