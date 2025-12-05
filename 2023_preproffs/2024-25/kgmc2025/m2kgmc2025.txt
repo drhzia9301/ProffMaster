@@ -1,0 +1,907 @@
+[
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Which of the following is not a commonly used intraocular tamponading agent in vitreoretinal surgery?",
+"options": [
+"a) Sulfur hexafluoride (SF6) gas",
+"b) Perfluoropropane (C3F8) gas",
+"c) Silicone oil",
+"d) Balanced salt solution",
+"e) PFCL (perfluorocarbon liquid)"
+],
+"answer": "d",
+"explanation": "Balanced Salt Solution (BSS) is an irrigating solution used to maintain intraocular volume and pressure during surgery, but it does not have surface tension properties to act as a long-term tamponading agent like gases or silicone oil."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 30-year-old man develops blurred vision after stress. Fundus: serous macular elevation. Diagnosis?",
+"options": [
+"a) Central serous retinopathy (CSR)",
+"b) Macular hole",
+"c) Wet ARMD",
+"d) Retinal vein occlusion (RVO)",
+"e) Hypertensive retinopathy"
+],
+"answer": "a",
+"explanation": "Central Serous Retinopathy (CSR) typically affects young to middle-aged males, often associated with stress or steroid use, and presents with a serous detachment of the neurosensory retina at the macula."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 12-year-old boy presents with ethmoidal sinusitis and develops proptosis, pain, limitation of eye movements, visual acuity 6/30, RAPD positive. Immediate treatment?",
+"options": [
+"a) Warm compresses",
+"b) Surgical incision and drainage",
+"c) IV antibiotics",
+"d) Oral antibiotics",
+"e) Systemic corticosteroids"
+],
+"answer": "c",
+"explanation": "This clinical picture suggests Orbital Cellulitis (likely post-septal) with optic nerve compression (RAPD). The immediate priority is high-dose IV antibiotics to prevent intracranial spread and permanent vision loss."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Principle of scleral buckling surgery in rhegmatogenous retinal detachment:",
+"options": [
+"a) Flatten retina by removing vitreous traction",
+"b) Create chorioretinal scar around the break",
+"c) Indent the sclera to support the retinal break",
+"d) Replace vitreous with silicone oil",
+"e) Drain subretinal fluid completely"
+],
+"answer": "c",
+"explanation": "The primary goal of scleral buckling is to indent the sclera (buckle it inward) to relieve vitreous traction and support the retinal break, allowing the RPE to pump out subretinal fluid and reattach the retina."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A diabetic man presents with progressive painful ophthalmoplegia, lid edema, and black eschar on palate. Diagnosis?",
+"options": [
+"a) Likely Mucormycosis (Rhinocerebral)"
+],
+"answer": "a",
+"explanation": "The combination of diabetes, orbital symptoms (ophthalmoplegia), and a 'black eschar' (necrotic tissue) on the palate or nasal turbinates is pathognomonic for Rhinocerebral Mucormycosis, a fungal emergency."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 45-year-old man presents with slowly progressive painless proptosis and restricted elevation. CT orbit shows an expansile lesion in frontal sinus eroding into orbit. Most likely diagnosis:",
+"options": [
+"a) Dermoid cyst",
+"b) Frontoethmoidal mucocele",
+"c) Lymphangioma",
+"d) Pleomorphic adenoma",
+"e) Cavernous hemangioma"
+],
+"answer": "b",
+"explanation": "Mucoceles are cystic lesions that arise from obstruction of sinus ostia. They are slowly expansile and can erode through bone (frontal sinus into the orbit), causing proptosis and mass effect."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 60-year-old male presents with sudden painless loss of vision. Fundus shows vitreous hemorrhage. Cause?",
+"options": [
+"a) Retinal detachment",
+"b) Central retinal artery occlusion",
+"c) Central retinal vein occlusion",
+"d) Proliferative diabetic retinopathy",
+"e) Central serous retinopathy"
+],
+"answer": "d",
+"explanation": "Proliferative Diabetic Retinopathy (PDR) involves the growth of fragile new blood vessels (neovascularization) which commonly rupture, causing spontaneous vitreous hemorrhage and sudden vision loss."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Which muscle function is lost in abducent nerve palsy?",
+"options": [
+"a) Lateral rectus",
+"b) Medial rectus"
+],
+"answer": "a",
+"explanation": "The Abducent nerve (CN VI) innervates the Lateral Rectus muscle. Palsy results in loss of abduction (inability to look outward)."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "In myotonic dystrophy, what type of ptosis is seen?",
+"options": [
+"a) Mechanical",
+"b) Congenital",
+"c) Aponeurotic",
+"d) Myogenic"
+],
+"answer": "d",
+"explanation": "Myotonic dystrophy is a muscular dystrophy; the ptosis is caused by primary weakness of the levator muscle fibers, making it a myogenic ptosis."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 60-year-old man presents to ER with ptosis, dilated pupil, eye down and out. Which cranial nerve is affected?",
+"options": [
+"a) Abducens",
+"b) Trochlear",
+"c) Oculomotor",
+"d) Optic",
+"e) OFL"
+],
+"answer": "c",
+"explanation": "These are classic signs of a complete Oculomotor (CN III) nerve palsy: Ptosis (levator), mydriasis (sphincter pupillae), and 'down and out' position (unopposed action of SO and LR)."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 50-year-old female with long-standing hypertension shows only arteriovenous nicking and general narrowing of arterioles. No hemorrhages or exudates. Which grade of retinopathy?",
+"options": [
+"a) Grade 1",
+"b) Grade 2",
+"c) Grade 3",
+"d) Grade 4",
+"e) Hypertensive choroidopathy"
+],
+"answer": "a",
+"explanation": "Generalized narrowing is Grade 1. AV nicking is typically the hallmark of Grade 2. However, in the absence of hemorrhages/exudates (Grade 3) or papilledema (Grade 4), this represents early hypertensive changes. The provided key selects Grade 1."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Which finding suggests afferent pupillary defect (Marcus Gunn pupil)?",
+"options": [
+"a) Pupil dilates when light is moved from normal eye"
+],
+"answer": "a",
+"explanation": "In an APD, the affected eye perceives less light. When the flashlight is swung from the healthy eye to the affected eye, the consensual constriction signal is lost, and the pupil paradoxically dilates."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Tractional retinal detachment occurs commonly in association with:",
+"options": [
+"a) High myopia",
+"b) Trauma",
+"c) Diabetic retinopathy",
+"d) Retinoschisis",
+"e) Posterior uveitis"
+],
+"answer": "c",
+"explanation": "Proliferative Diabetic Retinopathy leads to the formation of fibrovascular membranes. As these membranes contract, they pull on the retina, causing Tractional Retinal Detachment."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Best investigation for CSR:",
+"options": [
+"a) OCT"
+],
+"answer": "a",
+"explanation": "Optical Coherence Tomography (OCT) is the gold standard for diagnosing and monitoring CSR as it clearly visualizes the subretinal fluid and retinal elevation."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "60-year-old patient comes for glaucoma evaluation: IOP 34 & 24 mmHg; OCT RNFL and field changes; no other disease. Type of glaucoma?",
+"options": [
+"a) Normal tension glaucoma",
+"b) Ocular hypertension",
+"c) Pigmentary glaucoma",
+"d) Primary open-angle glaucoma",
+"e) Secondary open-angle glaucoma"
+],
+"answer": "d",
+"explanation": "The presence of elevated IOP (>21 mmHg) combined with characteristic optic nerve damage (RNFL changes) and visual field loss, without a secondary cause, indicates Primary Open-Angle Glaucoma."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Which feature differentiates benign intracranial hypertension from a space-occupying lesion?",
+"options": [
+"a) Headache",
+"b) Papilledema",
+"c) Normal neuroimaging",
+"d) Visual field defect",
+"e) Vomiting"
+],
+"answer": "c",
+"explanation": "Both BIH (Pseudotumor Cerebri) and Space-Occupying Lesions (tumors) cause raised ICP (headache, papilledema). The distinguishing feature is that BIH has normal neuroimaging (no mass seen)."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Lesions at optic chiasma cause:",
+"options": [
+"a) Bitemporal hemianopia"
+],
+"answer": "a",
+"explanation": "The optic chiasma contains the crossing nasal retinal fibers (responsible for temporal vision). A lesion here affects both crossing pathways, leading to blindness in the temporal halves of both visual fields."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "5-year-old boy with white pupillary reflex and calcified fundus mass. Diagnosis:",
+"options": [
+"a) Retinoblastoma",
+"b) Toxocariasis",
+"c) Coats disease",
+"d) ROP",
+"e) Retinal detachment"
+],
+"answer": "a",
+"explanation": "Leukocoria (white reflex) in a young child combined with intraocular calcification is the hallmark presentation of Retinoblastoma, the most common intraocular malignancy in children."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Down and in movement of eye is done by:",
+"options": [
+"a) Superior rectus",
+"b) Medial rectus",
+"c) Superior oblique",
+"d) Inferior oblique",
+"e) Inferior rectus"
+],
+"answer": "c",
+"explanation": "The primary action of the Superior Oblique is intorsion, but its depressive action is maximal when the eye is adducted (looking in). Therefore, it moves the adducted eye down."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Indications for pars plana vitrectomy:",
+"options": [
+"a) Epiretinal membrane",
+"b) Diabetic retinopathy",
+"c) Rhegmatogenous retinal detachment"
+],
+"answer": "c",
+"explanation": "PPV is used for all these conditions, but in the context of the key, it is the primary surgical choice for complicated Rhegmatogenous Retinal Detachments (e.g., with PVR, giant tears) or when buckling isn't suitable."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "The principle of scleral buckling surgery in rhegmatogenous retinal detachment is to:",
+"options": [
+"a) Flatten the retina by removal of vitreous",
+"b) Create chorioretinal scar around break",
+"c) Indent the sclera to support retinal break externally",
+"d) Replace vitreous with silicone dye",
+"e) Drain subretinal fluid completely"
+],
+"answer": "c",
+"explanation": "Scleral buckling works by externally indenting the eye wall to close the retinal break, reducing the distance between the RPE and the detached retina."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "Patient presented with swelling, dryness, loss of lash follicle, mass at lid margin, painless and immobile. Diagnosis:",
+"options": [
+"a) Chalazion",
+"b) Hordeolum",
+"c) Dermoid cyst",
+"d) Epidermoid cyst",
+"e) Sebaceous cyst"
+],
+"answer": "a",
+"explanation": "A Chalazion is a chronic, painless lipogranuloma of the meibomian gland. While 'loss of lash follicle' can imply malignancy, in the context of common exams, a firm, painless, immobile lid mass is typically identified as a Chalazion."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 60-year-old male presented with sudden painless loss of vision. Fundus shows vitreous hemorrhage. Cause:",
+"options": [
+"a) Retinal detachment",
+"b) Central retinal artery occlusion",
+"c) Central retinal vein occlusion",
+"d) Proliferative diabetic retinopathy",
+"e) Central serous retinopathy"
+],
+"answer": "d",
+"explanation": "Spontaneous vitreous hemorrhage in a 60-year-old is most commonly caused by Proliferative Diabetic Retinopathy due to the rupture of fragile neovascular vessels."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 5-year-old with constant right eye deviation and poor vision; deviation is constant and visual acuity is 6/60 despite refractive correction. Cause of poor vision:",
+"options": [
+"a) Optic neuritis",
+"b) Retinal detachment",
+"c) Retinoblastoma",
+"d) Amblyopia"
+],
+"answer": "d",
+"explanation": "This is Strabismic Amblyopia. The constant deviation causes the brain to suppress the image from the deviating eye to avoid diplopia, leading to poor visual development in that eye."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 5-year-old boy with white pupillary reflex and calcified fundus mass. Diagnosis:",
+"options": [
+"a) Retinoblastoma",
+"b) Toxocariasis",
+"c) Coats disease",
+"d) ROP",
+"e) Retinal detachment"
+],
+"answer": "a",
+"explanation": "The combination of leukocoria and calcification in a 5-year-old is highly specific for Retinoblastoma."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 34-year-old man presents with gradual painless vision loss, mass superotemporally in orbit compressing orbit inferonasally. CT shows smooth lobulated bony lesion. Diagnosis:",
+"options": [
+"a) Dermoid cyst",
+"b) Epidermoid cyst",
+"c) Lacrimal gland pleomorphic adenoma"
+],
+"answer": "c",
+"explanation": "The Lacrimal Gland is located in the superotemporal orbit. A 'smooth lobulated bony lesion' (fossa formation) with a gradual painless course is characteristic of a benign Pleomorphic Adenoma."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 25-year-old male presents with double vision for 2 days. On examination, his right eye shows ptosis and is deviated downwards and outwards. Pupillary reaction is normal. Most likely diagnosis:",
+"options": [
+"a) Complete 3rd nerve palsy",
+"b) Partial 3rd nerve palsy",
+"c) 4th nerve palsy",
+"d) 6th nerve palsy",
+"e) Myasthenia gravis"
+],
+"answer": "b",
+"explanation": "The findings are consistent with CN III palsy (ptosis, down and out deviation). The normal pupillary reaction (pupil sparing) distinguishes it as a partial palsy, often microvascular in origin (though less common in a 25yo, it rules out compression which affects the pupil)."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 58-year-old hypertensive patient presented with blurring of vision. Fundus shows wedge-shaped area of superficial retinal hemorrhages limited to the superotemporal quadrant with macular edema. Diagnosis:",
+"options": [
+"a) CRVO",
+"b) CRAO",
+"c) BRVO",
+"d) Hypertensive retinopathy",
+"e) Proliferative diabetic retinopathy"
+],
+"answer": "c",
+"explanation": "The hemorrhages are sectoral (wedge-shaped) and limited to one quadrant, indicating the occlusion is in a branch vein (Branch Retinal Vein Occlusion), typically at an AV crossing."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "In pneumatic retinopexy, the retinal break should be located:",
+"options": [
+"a) Inferior",
+"b) Posterior to equator",
+"c) Superior within 1 hour of 12 o’clock",
+"d) At the ora serrata",
+"e) Near the macula"
+],
+"answer": "c",
+"explanation": "Pneumatic retinopexy uses an intravitreal gas bubble to tamponade the break. Since gas rises against gravity, the break must be located in the superior retina (ideally between 11 and 1 o'clock) for the bubble to cover it effectively."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 23-year-old woman has -4.00 Dsph and -2.00 Dcyl at 90°, 6/6 vision, normal cornea. Fundus shows slightly tilted optic disc. Best treatment option:",
+"options": [
+"a) Clear Lens Exchange",
+"b) LASIK",
+"c) Phakic Anterior Chamber IOL",
+"d) Phakic Posterior Chamber IOL",
+"e) Photorefractive Keratectomy (PRK)"
+],
+"answer": "b",
+"explanation": "For moderate myopia/astigmatism with a normal cornea and age, LASIK is the standard refractive procedure. Intraocular surgeries (Phakic IOL, CLE) are usually reserved for higher errors or corneas unsuitable for laser."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 30-year-old high myope presents with sudden onset floaters and flashes, followed by vision loss. Total retinal detachment with giant retinal tear. Procedure of choice:",
+"options": [
+"a) Cryotherapy",
+"b) Pars plana vitrectomy",
+"c) Photocoagulation",
+"d) Pneumatic retinopexy",
+"e) Scleral buckling"
+],
+"answer": "b",
+"explanation": "Giant Retinal Tears (tears >90 degrees or 3 clock hours) are complex and require Pars Plana Vitrectomy (PPV) to unroll the folded retinal flap, often utilizing perfluorocarbon liquids and tamponade."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2025",
+"question": "A 65-year-old hypertensive male presents with sudden painless loss of vision in right eye. Fundus shows engorged veins, flame-shaped hemorrhages, cotton wool spots. Diagnosis:",
+"options": [
+"a) CRVO",
+"b) CRAO",
+"c) BRVO",
+"d) Diabetic retinopathy",
+"e) Hypertensive grade 4"
+],
+"answer": "a",
+"explanation": "The classic 'blood and thunder' fundus appearance (diffuse hemorrhages, engorged tortuous veins, CWS) is diagnostic of Central Retinal Vein Occlusion (CRVO)."
+},
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 45-year-old female presents with severe pain, redness, and colored halos around lights in the right eye. Examination reveals a cloudy cornea, shallow anterior chamber, and a fixed mid-dilated pupil. IOP is 50 mmHg. What is the diagnosis?",
+    "options": [
+      "a) Acute Anterior Uveitis",
+      "b) Acute Congestive Glaucoma (Angle Closure)",
+      "c) Neovascular Glaucoma",
+      "d) Open Angle Glaucoma",
+      "e) Viral Keratitis"
+    ],
+    "answer": "b",
+    "explanation": "The classic triad of symptoms (pain, red eye, halos) combined with signs like corneal edema (cloudy), shallow AC, fixed mid-dilated pupil, and very high IOP is diagnostic for Acute Angle Closure Glaucoma."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A farmer presents with a corneal ulcer 5 days after trauma with a tree branch. Examination shows a dry-looking ulcer with feathery margins and satellite lesions. The most likely causative organism is:",
+    "options": [
+      "a) Staphylococcus aureus",
+      "b) Pseudomonas aeruginosa",
+      "c) Aspergillus species",
+      "d) Acanthamoeba",
+      "e) Herpes Simplex Virus"
+    ],
+    "answer": "c",
+    "explanation": "Fungal keratitis (often caused by Aspergillus or Fusarium) typically follows vegetative trauma and presents with feathery margins and satellite lesions."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 10-year-old boy complains of intense itching, ropy discharge, and photophobia. Examination reveals large 'cobblestone' papillae on the upper tarsal conjunctiva. Diagnosis?",
+    "options": [
+      "a) Bacterial conjunctivitis",
+      "b) Viral conjunctivitis",
+      "c) Vernal Keratoconjunctivitis (VKC)",
+      "d) Trachoma",
+      "e) Phlyctenular conjunctivitis"
+    ],
+    "answer": "c",
+    "explanation": "VKC is a severe allergic conjunctivitis affecting young boys, characterized by intense itching, ropy discharge, and giant papillae (cobblestone appearance) on the upper tarsal plate."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 25-year-old contact lens wearer presents with severe eye pain disproportionate to the clinical signs. Slit-lamp examination shows ring infiltrates. Diagnosis?",
+    "options": [
+      "a) Acanthamoeba Keratitis",
+      "b) Fungal Keratitis",
+      "c) Bacterial Keratitis",
+      "d) Herpes Zoster Ophthalmicus",
+      "e) Adenoviral Keratoconjunctivitis"
+    ],
+    "answer": "a",
+    "explanation": "Severe pain out of proportion to signs and a history of contact lens use (especially with tap water exposure) are hallmarks of Acanthamoeba keratitis. Ring infiltrates are a late specific sign."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 30-year-old male presents with a painful, red eye and photophobia. Examination shows circumciliary congestion, keratic precipitates (KPs) on the corneal endothelium, and aqueous flare. Diagnosis?",
+    "options": [
+      "a) Acute Conjunctivitis",
+      "b) Acute Anterior Uveitis (Iridocyclitis)",
+      "c) Acute Glaucoma",
+      "d) Corneal Ulcer",
+      "e) Scleritis"
+    ],
+    "answer": "b",
+    "explanation": "Photophobia, ciliary flush, KPs, and flare (protein in anterior chamber) are the classic signs of acute inflammation of the uveal tract (Anterior Uveitis)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Three days after cataract surgery, a patient presents with severe pain and loss of vision. Examination shows lid edema, corneal haze, and hypopyon. The most likely diagnosis is:",
+    "options": [
+      "a) Post-operative Uveitis",
+      "b) Endophthalmitis",
+      "c) Expulsive Hemorrhage",
+      "d) Toxic Anterior Segment Syndrome (TASS)",
+      "e) Retinal Detachment"
+    ],
+    "answer": "b",
+    "explanation": "Acute postoperative bacterial endophthalmitis is a vision-threatening emergency presenting with pain, vision loss, and hypopyon (pus in AC) usually within the first week after surgery."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A factory worker splashes alkali into his right eye. The immediate management step at the site of injury should be:",
+    "options": [
+      "a) Check visual acuity",
+      "b) Apply antibiotic ointment",
+      "c) Copious irrigation with water",
+      "d) Neutralize with mild acid",
+      "e) Rush to hospital without touching the eye"
+    ],
+    "answer": "c",
+    "explanation": "Chemical injuries are the only true ocular emergency where treatment begins before history or exam. Immediate, copious irrigation with water/saline is vital to dilute and remove the chemical."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "An 8-month-old child is brought with complaints of photophobia, watering, and large hazy corneas. The most likely diagnosis is:",
+    "options": [
+      "a) Congenital Cataract",
+      "b) Congenital Glaucoma",
+      "c) Nasolacrimal Duct Obstruction",
+      "d) Keratoconus",
+      "e) Megalocornea"
+    ],
+    "answer": "b",
+    "explanation": "The classic triad of Congenital Glaucoma is epiphora (watering), photophobia, and blepharospasm. Elevated IOP causes the elastic infant cornea to enlarge (buphthalmos) and become hazy."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A patient presents with a triangular fibrovascular growth of conjunctiva encroaching onto the nasal side of the cornea. Diagnosis?",
+    "options": [
+      "a) Pinguecula",
+      "b) Pterygium",
+      "c) Phlycten",
+      "d) Dermoid",
+      "e) Squamous Cell Carcinoma"
+    ],
+    "answer": "b",
+    "explanation": "A Pterygium is a wing-shaped fibrovascular degeneration of the conjunctiva that grows across the limbus onto the cornea, typically on the nasal side due to UV exposure."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 22-year-old female complains of frequent changes in spectacle prescription and distorted vision. Retinoscopy shows a scissoring reflex and examination reveals Munson’s sign. Diagnosis?",
+    "options": [
+      "a) High Myopia",
+      "b) Keratoconus",
+      "c) Pathological Myopia",
+      "d) Astigmatism",
+      "e) Corneal Dystrophy"
+    ],
+    "answer": "b",
+    "explanation": "Keratoconus is a progressive thinning and ectasia of the cornea. Clinical signs include scissoring reflex on retinoscopy, Munson’s sign (V-shape of lower lid on downgaze), and Fleischer rings."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 30-year-old female presents with pain on eye movement and sudden loss of central vision in one eye. Examination reveals a relative afferent pupillary defect (RAPD) and normal fundus. Most likely diagnosis?",
+    "options": [
+      "a) Papilledema",
+      "b) Retrobulbar Neuritis",
+      "c) Central Serous Retinopathy",
+      "d) CRAO",
+      "e) Anterior Ischemic Optic Neuropathy"
+    ],
+    "answer": "b",
+    "explanation": "Retrobulbar neuritis (a form of optic neuritis) typically presents in young adults with pain on eye movement, central vision loss, and RAPD. 'The patient sees nothing, and the doctor sees nothing' (normal fundus)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Which of the following findings is characteristic of Retinitis Pigmentosa?",
+    "options": [
+      "a) Cherry red spot",
+      "b) Bone-spicule pigmentation",
+      "c) Cotton wool spots",
+      "d) Hard exudates",
+      "e) Disc Neovascularization"
+    ],
+    "answer": "b",
+    "explanation": "Retinitis Pigmentosa is a hereditary dystrophy characterized by night blindness (nyctalopia) and the triad of: bone-spicule retinal pigmentation, arteriolar attenuation, and waxy disc pallor."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 70-year-old patient complains of gritty sensation and dryness in eyes. Schirmer’s test 1 shows <5 mm wetting in 5 minutes. Diagnosis?",
+    "options": [
+      "a) Chronic Dacryocystitis",
+      "b) Keratoconjunctivitis Sicca (Dry Eye)",
+      "c) Blepharitis",
+      "d) Allergic Conjunctivitis",
+      "e) Epiphora"
+    ],
+    "answer": "b",
+    "explanation": "Keratoconjunctivitis Sicca (Dry Eye Syndrome) is diagnosed when tear production is insufficient. A Schirmer's test result of less than 5mm in 5 minutes confirms severe aqueous deficiency."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A patient involved in a fistfight complains of double vision on looking up and numbness over the cheek. This suggests fracture of:",
+    "options": [
+      "a) Orbital roof",
+      "b) Medial wall",
+      "c) Orbital floor",
+      "d) Lateral wall",
+      "e) Optic canal"
+    ],
+    "answer": "c",
+    "explanation": "A 'blowout fracture' most commonly affects the orbital floor. Entrapment of the inferior rectus muscle causes diplopia on upgaze, and damage to the infraorbital nerve causes anesthesia of the cheek."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "An elderly male presents with inward turning of the lower eyelid margin, causing lashes to rub against the cornea. This condition is called:",
+    "options": [
+      "a) Ectropion",
+      "b) Entropion",
+      "c) Trichiasis",
+      "d) Distichiasis",
+      "e) Ptosis"
+    ],
+    "answer": "b",
+    "explanation": "Entropion is the inversion (inward turning) of the eyelid margin. This often causes trichiasis (lashes rubbing the cornea), leading to irritation and potential ulceration."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 45-year-old accountant complains of difficulty reading small print but has clear distance vision. This is due to:",
+    "options": [
+      "a) Myopia",
+      "b) Hypermetropia",
+      "c) Presbyopia",
+      "d) Astigmatism",
+      "e) Amblyopia"
+    ],
+    "answer": "c",
+    "explanation": "Presbyopia is the physiological loss of accommodation due to aging lens hardening, typically manifesting around age 40-45 as difficulty with near tasks (reading)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "In a patient with Thyroid Eye Disease (TED), which sign is characterized by the lagging of the upper lid on downgaze?",
+    "options": [
+      "a) Stellwag’s sign",
+      "b) Von Graefe’s sign",
+      "c) Dalrymple’s sign",
+      "d) Mobius sign",
+      "e) Gifford’s sign"
+    ],
+    "answer": "b",
+    "explanation": "Von Graefe’s sign is the specific term for lid lag on downgaze, a common sign in Graves' ophthalmopathy (TED)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A mother brings her 3-year-old child noting a 'white reflex' in the right eye. Which of the following is NOT a differential diagnosis for Leukocoria?",
+    "options": [
+      "a) Retinoblastoma",
+      "b) Congenital Cataract",
+      "c) Retinopathy of Prematurity (ROP)",
+      "d) Primary Open Angle Glaucoma",
+      "e) Coats Disease"
+    ],
+    "answer": "d",
+    "explanation": "Leukocoria (white pupil) differentials include Retinoblastoma, Cataract, ROP, Coats disease, and Persistent Hyperplastic Primary Vitreous. POAG does not cause a white pupil; it is asymptomatic or causes field loss."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A young female presents with ptosis that worsens towards the evening and improves with an ice-pack test. The likely diagnosis is:",
+    "options": [
+      "a) Horner’s Syndrome",
+      "b) 3rd Nerve Palsy",
+      "c) Myasthenia Gravis",
+      "d) Congenital Ptosis",
+      "e) Marcus Gunn Jaw Winking"
+    ],
+    "answer": "c",
+    "explanation": "Myasthenia Gravis is characterized by fatigable muscle weakness. Ptosis that worsens with fatigue (evening) and improves with cold (ice pack test inhibits acetylcholinesterase) is diagnostic."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 50-year-old female complains of severe, boring pain in the eye, radiating to the forehead, which wakes her up at night. The eye has a deep violet hue. Diagnosis?",
+    "options": [
+      "a) Episcleritis",
+      "b) Scleritis",
+      "c) Conjunctivitis",
+      "d) Iritis",
+      "e) Glaucoma"
+    ],
+    "answer": "b",
+    "explanation": "Scleritis is a serious inflammation characterized by severe, boring pain (often disturbing sleep) and a deep red/violet discoloration. Episcleritis causes mild discomfort, not severe pain."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Bitot’s spots and night blindness in a malnourished child are indicative of deficiency of:",
+    "options": [
+      "a) Vitamin B12",
+      "b) Vitamin C",
+      "c) Vitamin A",
+      "d) Vitamin D",
+      "e) Vitamin E"
+    ],
+    "answer": "c",
+    "explanation": "Vitamin A deficiency causes Xerophthalmia. Early signs include nyctalopia (night blindness) and Bitot’s spots (foamy keratinized patches on the conjunctiva)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Sympathetic Ophthalmia is a bilateral granulomatous uveitis occurring after:",
+    "options": [
+      "a) Viral conjunctivitis",
+      "b) Penetrating trauma to one eye",
+      "c) Blunt trauma",
+      "d) Chemical burn",
+      "e) Laser surgery"
+    ],
+    "answer": "b",
+    "explanation": "Sympathetic Ophthalmia is a rare autoimmune reaction where penetrating injury to one eye (exciting eye) leads to inflammation in the non-injured fellow eye (sympathizing eye)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Painful swelling over the medial canthus with regurgitation of mucopurulent material on pressure suggests:",
+    "options": [
+      "a) Acute Dacryocystitis",
+      "b) Chalazion",
+      "c) Hordeolum",
+      "d) Preseptal Cellulitis",
+      "e) Dacryoadenitis"
+    ],
+    "answer": "a",
+    "explanation": "Dacryocystitis is infection of the lacrimal sac. It presents as a painful swelling at the medial canthus (sac area) and regurgitation of pus through the puncta when pressed."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Which dye is used intravenously to perform angiography for visualizing retinal leakage and neovascularization?",
+    "options": [
+      "a) Rose Bengal",
+      "b) Lissamine Green",
+      "c) Fluorescein Sodium",
+      "d) Indocyanine Green",
+      "e) Trypan Blue"
+    ],
+    "answer": "c",
+    "explanation": "Fundus Fluorescein Angiography (FFA) utilizes Fluorescein Sodium dye to image the retinal circulation and detect leakage (as in Diabetic Retinopathy or ARMD)."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "According to the WHO classification, 'Blindness' is defined as best corrected visual acuity in the better eye of less than:",
+    "options": [
+      "a) 6/18",
+      "b) 6/60",
+      "c) 3/60",
+      "d) 1/60",
+      "e) No Light Perception"
+    ],
+    "answer": "c",
+    "explanation": "WHO defines blindness as visual acuity of less than 3/60 (or counting fingers at 3 meters) in the better eye with best possible correction."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Bilateral swelling of the optic disc secondary to raised intracranial pressure is termed:",
+    "options": [
+      "a) Optic Neuritis",
+      "b) Papilledema",
+      "c) Optic Atrophy",
+      "d) Glaucomatous cupping",
+      "e) Drusen"
+    ],
+    "answer": "b",
+    "explanation": "Papilledema specifically refers to optic disc swelling caused by increased intracranial pressure (e.g., from a brain tumor or idiopathic hypertension). Other causes of swelling are just 'disc edema'."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "The most common complication of long-term topical corticosteroid use in the eye is:",
+    "options": [
+      "a) Retinal detachment",
+      "b) Secondary Glaucoma and Cataract",
+      "c) Corneal vascularization",
+      "d) Uveitis",
+      "e) Scleritis"
+    ],
+    "answer": "b",
+    "explanation": "Steroid responders can develop high IOP (Secondary Glaucoma). Long-term use also causes Posterior Subcapsular Cataracts. Infection potentiation is another risk."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "A 6-month-old infant has a constantly inturned eye (crossed eye). The corneal light reflex is displaced temporally. Diagnosis?",
+    "options": [
+      "a) Exotropia",
+      "b) Esotropia",
+      "c) Hypertropia",
+      "d) Pseudostrabismus",
+      "e) Phoria"
+    ],
+    "answer": "b",
+    "explanation": "Esotropia is the inward deviation of the eye. Hirschberg test (corneal light reflex) will show the reflection on the temporal side of the pupil in an esotropic eye."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "Which of the following refractive conditions is characterized by light rays focusing *behind* the retina when accommodation is at rest?",
+    "options": [
+      "a) Myopia",
+      "b) Hypermetropia",
+      "c) Emmetropia",
+      "d) Astigmatism",
+      "e) Presbyopia"
+    ],
+    "answer": "b",
+    "explanation": "In Hypermetropia (farsightedness), the eyeball is too short or the cornea too flat, causing parallel rays of light to focus behind the retina."
+  },
+  {
+    "id": "m2",
+    "block": "m1",
+    "year": "2025",
+    "question": "The investigation of choice to measure the axial length of the eye for IOL power calculation (Biometry) is:",
+    "options": [
+      "a) A-Scan Ultrasonography",
+      "b) B-Scan Ultrasonography",
+      "c) Keratometry",
+      "d) Perimetry",
+      "e) Pachymetry"
+    ],
+    "answer": "a",
+    "explanation": "A-Scan (Amplitude Scan) ultrasound or optical biometry is used to measure axial length, which is a crucial variable in calculating the power of the Intraocular Lens (IOL) for cataract surgery."
+  }
+]
