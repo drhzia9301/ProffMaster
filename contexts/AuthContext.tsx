@@ -167,6 +167,34 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             if (event === 'SIGNED_IN' && session) {
                 setLoading(true);
                 
+                // ===== Clear previous user's data if a DIFFERENT user logs in =====
+                const STORAGE_KEY_LAST_USER = 'supersix_last_user_id';
+                const lastUserId = localStorage.getItem(STORAGE_KEY_LAST_USER);
+                
+                if (lastUserId && lastUserId !== session.user.id) {
+                    console.log(`Different user detected (${lastUserId} -> ${session.user.id}), clearing previous user data`);
+                    
+                    // Preserve non-user-specific settings
+                    const apiKey = localStorage.getItem('gemini_api_key');
+                    const theme = localStorage.getItem('theme');
+                    const hapticsEnabled = localStorage.getItem('supersix_haptics_enabled');
+                    const appVersion = localStorage.getItem('supersix_app_version');
+                    
+                    // Clear ALL localStorage
+                    localStorage.clear();
+                    
+                    // Restore non-user-specific settings
+                    if (apiKey) localStorage.setItem('gemini_api_key', apiKey);
+                    if (theme) localStorage.setItem('theme', theme);
+                    if (hapticsEnabled) localStorage.setItem('supersix_haptics_enabled', hapticsEnabled);
+                    if (appVersion) localStorage.setItem('supersix_app_version', appVersion);
+                } else if (lastUserId === session.user.id) {
+                    console.log('Same user logging in, preserving localStorage data');
+                }
+                
+                // Store current user ID for future comparison
+                localStorage.setItem(STORAGE_KEY_LAST_USER, session.user.id);
+                
                 // Reset states on new sign in
                 setIsBanned(false);
                 setBanReason(undefined);
@@ -269,6 +297,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             setBanReason(undefined);
             setSessionInvalidated(false);
             setInitialLoadComplete(false);
+            
+            // NOTE: We do NOT clear localStorage on logout anymore.
+            // We only clear it when a DIFFERENT user logs in (handled by clearPreviousUserData).
+            // This preserves the user's AI-generated content and notes if they log back in.
+            
+            console.log('User signed out - localStorage preserved for potential re-login');
             
             // Sign out from Supabase
             await supabase.auth.signOut();

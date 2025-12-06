@@ -309,11 +309,14 @@ export const generateQuiz = async (
       const prompt = `
         Context: Medical Student Exam Preparation (MBBS) - KMU Prof Exam Style.
         Task: Generate a custom quiz for MBBS Block: ${block}. Focus specifically on the topic: "${topic}".
-        Requirement: Generate EXACTLY ${questionCount} multiple choice questions.
+        
+        ⚠️ CRITICAL REQUIREMENT: You MUST generate EXACTLY ${questionCount} questions. Not ${questionCount - 1}, not ${questionCount + 1}, but EXACTLY ${questionCount} questions.
+        
+        COUNT CHECK: Before responding, count your questions. If you have less than ${questionCount}, ADD MORE. If you have more than ${questionCount}, REMOVE some.
         
         ${styleExamples}
 
-        Format: JSON Array of objects with the following structure:
+        Format: JSON Array of EXACTLY ${questionCount} objects with the following structure:
         [
           {
             "id": "unique_id",
@@ -326,6 +329,8 @@ export const generateQuiz = async (
             "explanation": "Brief explanation of why the correct answer is right and others are wrong."
           }
         ]
+        
+        FINAL CHECK: Your response MUST contain exactly ${questionCount} question objects in the array. This is non-negotiable.
         Ensure questions are high-quality, clinically relevant, and accurate.
         Do not include any markdown formatting (like \`\`\`json), just the raw JSON array.
       `;
@@ -338,7 +343,32 @@ export const generateQuiz = async (
 
       const text = response.text;
       if (!text) return [];
-      const questions = JSON.parse(text) as Question[];
+      let questions = JSON.parse(text) as Question[];
+      
+      // Validate we got the right count, retry if not
+      if (questions.length < questionCount) {
+        console.warn(`AI generated ${questions.length}/${questionCount} questions, requesting more...`);
+        const moreNeeded = questionCount - questions.length;
+        const retryPrompt = `
+          Generate EXACTLY ${moreNeeded} more MCQ questions on topic "${topic}" for ${block}.
+          ${styleExamples}
+          Format: JSON Array only. No markdown.
+        `;
+        try {
+          const retryResponse = await ai.models.generateContent({
+            model: 'gemini-2.5-flash',
+            contents: retryPrompt,
+            config: { responseMimeType: 'application/json' }
+          });
+          if (retryResponse.text) {
+            const moreQuestions = JSON.parse(retryResponse.text) as Question[];
+            questions = [...questions, ...moreQuestions].slice(0, questionCount);
+          }
+        } catch (e) {
+          console.error('Retry failed:', e);
+        }
+      }
+      
       return questions.map((q, i) => ({ ...q, id: `ai_${Date.now()}_${i}`, subject: block as any }));
     }
 
@@ -442,17 +472,24 @@ export const generateQuiz = async (
             Reference Syllabus:
             ${syllabusText.slice(0, 25000)}
             
-            Task: Generate EXACTLY ${remainingCount} multiple choice questions for the subject: "${subject}".
-            ${attempts > 1 ? `IMPORTANT: You previously generated fewer questions than requested. You MUST generate exactly ${remainingCount} questions this time.` : ''}
+            ⚠️⚠️⚠️ ABSOLUTE REQUIREMENT ⚠️⚠️⚠️
+            You MUST generate EXACTLY ${remainingCount} multiple choice questions for the subject: "${subject}".
+            
+            ${attempts > 1 ? `
+            🚨 FAILURE NOTICE: You previously generated fewer questions than requested.
+            This is your attempt #${attempts}. You MUST generate exactly ${remainingCount} questions this time.
+            COUNT EVERY QUESTION before submitting. Target: ${remainingCount} questions.
+            ` : ''}
+            
             Strictly follow the syllabus content for this subject.
             
             CRITICAL REQUIREMENTS:
-            1. Generate EXACTLY ${remainingCount} questions - no more, no less.
+            1. ⚠️ Generate EXACTLY ${remainingCount} questions - THIS IS MANDATORY. Count them: 1, 2, 3... up to ${remainingCount}.
             2. Each question MUST have an "explanation" field with a clear, educational explanation.
             3. All questions must be unique and not duplicates.
             4. MATCH THE KMU STYLE shown in the examples above - same difficulty, vignette style, and option formatting.
             
-            Format: JSON Array of objects with the following structure:
+            Format: JSON Array of EXACTLY ${remainingCount} objects with the following structure:
             [
               {
                 "id": "unique_id",
@@ -465,6 +502,8 @@ export const generateQuiz = async (
                 "explanation": "Clear explanation of why the correct answer is right. Include the key concept, mechanism, or clinical pearl that makes this answer correct."
               }
             ]
+            
+            BEFORE RESPONDING: Count your questions. You need exactly ${remainingCount}. If you have fewer, add more questions until you reach ${remainingCount}.
             
             Ensure questions are high-quality, clinically relevant, and accurate.
             Do not include any markdown formatting.
