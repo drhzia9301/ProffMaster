@@ -215,6 +215,146 @@ export const generateStudyNotes = async (
   }
 };
 
+export const generateSimilarQuestions = async (
+  sessionQuestions: Question[],
+  count: number = 10,
+  onProgress?: (msg: string) => void
+): Promise<Question[]> => {
+  const ai = getAIClient();
+  if (!ai) return [];
+
+  try {
+    onProgress?.('Analyzing session topics...');
+
+    // Extract topics and subjects from session questions
+    const topics = Array.from(new Set(sessionQuestions.flatMap(q => q.tags || [])));
+    const subjects = Array.from(new Set(sessionQuestions.map(q => q.subject)));
+    const difficulties = Array.from(new Set(sessionQuestions.map(q => q.difficulty)));
+    
+    // Extract the FULL question texts to help AI understand exact topics
+    const fullQuestionTexts = sessionQuestions.map((q, i) => 
+      `Q${i + 1}: ${q.text}\nCorrect Answer: ${q.options[q.correctIndex]}`
+    ).join('\n\n');
+
+    // Sample questions for style reference
+    const sampleQuestions = sessionQuestions.slice(0, 5).map(q => 
+      `Question: ${q.text}\nOptions:\nA. ${q.options[0]}\nB. ${q.options[1]}\nC. ${q.options[2]}\nD. ${q.options[3]}\nAnswer: ${q.options[q.correctIndex]}`
+    ).join('\n\n---\n\n');
+
+    onProgress?.(`Generating ${count} questions on session topics...`);
+
+    const prompt = `
+      Context: Medical Student Exam Preparation (MBBS) - KMU Prof Exam Style.
+      
+      🚨🚨🚨 EXTREMELY IMPORTANT - READ CAREFULLY 🚨🚨🚨
+      
+      The student just completed a quiz session. You MUST generate questions ONLY on the EXACT SAME diseases, conditions, and topics that appear in these questions.
+      
+      HERE ARE ALL THE QUESTIONS FROM THE SESSION - ANALYZE THEM CAREFULLY:
+      
+      ${fullQuestionTexts}
+      
+      ---
+      
+      📋 EXTRACTED TOPICS FROM SESSION (questions were about these):
+      ${topics.map(t => `• ${t}`).join('\n')}
+      
+      Subject: ${subjects.join(', ')}
+      
+      🎯 YOUR TASK:
+      Generate ${count} NEW questions that test the SAME diseases/conditions/topics from the session above.
+      
+      For example:
+      - If session had questions about "Infectious Mononucleosis" → Generate more questions about Infectious Mononucleosis
+      - If session had questions about "Diphtheria" → Generate more questions about Diphtheria
+      - DO NOT generate questions about Larynx, Pharynx, or ANY topic not in the session
+      
+      ⛔ STRICTLY FORBIDDEN - DO NOT GENERATE QUESTIONS ON:
+      - Any disease not mentioned in the session questions above
+      - Any anatomical structure not discussed in the session
+      - Any topic that doesn't directly appear in the session questions
+      - Generic or unrelated medical topics
+      
+      ✅ ONLY ALLOWED:
+      - Questions about the exact same diseases/conditions from the session
+      - Different aspects of the same topics (pathology, diagnosis, treatment, complications)
+      - Same difficulty level and question style
+      
+      STYLE REFERENCE (match this format exactly):
+      ${sampleQuestions}
+      
+      Format: JSON Array of EXACTLY ${count} objects:
+      [
+        {
+          "id": "unique_id",
+          "text": "Question text here",
+          "options": ["Option A", "Option B", "Option C", "Option D"],
+          "correctIndex": 0,
+          "subject": "${subjects[0] || 'General'}",
+          "tags": ["exact topic from session"],
+          "difficulty": "${difficulties[0] || 'Medium'}",
+          "explanation": "Brief explanation."
+        }
+      ]
+      
+      BEFORE RESPONDING, VERIFY EACH QUESTION:
+      □ Is this disease/condition mentioned in the session questions? If NO, delete it.
+      □ Would this question make sense as a follow-up to the session? If NO, delete it.
+      
+      Return ONLY the JSON array, no markdown.
+    `;
+
+    const response = await ai.models.generateContent({
+      model: 'gemini-2.5-flash',
+      contents: prompt,
+      config: { responseMimeType: 'application/json' }
+    });
+
+    const text = response.text;
+    if (!text) return [];
+    
+    let questions = JSON.parse(text) as Question[];
+    
+    // If we didn't get enough, try to get more
+    if (questions.length < count) {
+      onProgress?.(`Got ${questions.length}/${count}, generating more...`);
+      const moreNeeded = count - questions.length;
+      const retryPrompt = `
+        Generate EXACTLY ${moreNeeded} more MCQ questions.
+        ONLY on these specific topics from the session: ${topics.join(', ')}
+        
+        Reference questions from the session:
+        ${fullQuestionTexts.slice(0, 1500)}
+        
+        Format: JSON Array only. No markdown.
+      `;
+      try {
+        const retryResponse = await ai.models.generateContent({
+          model: 'gemini-2.5-flash',
+          contents: retryPrompt,
+          config: { responseMimeType: 'application/json' }
+        });
+        if (retryResponse.text) {
+          const moreQuestions = JSON.parse(retryResponse.text) as Question[];
+          questions = [...questions, ...moreQuestions].slice(0, count);
+        }
+      } catch (e) {
+        console.error('Retry failed:', e);
+      }
+    }
+
+    onProgress?.('Questions generated successfully!');
+    return questions.map((q, i) => ({ 
+      ...q, 
+      id: `ai_similar_${Date.now()}_${i}`,
+      subject: q.subject || subjects[0] as any
+    }));
+  } catch (error) {
+    console.error("Gemini Error generating similar questions:", error);
+    return [];
+  }
+};
+
 
 const BLOCK_DISTRIBUTIONS: Record<string, Record<string, number>> = {
   'Block J': {

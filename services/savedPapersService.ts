@@ -8,7 +8,7 @@ export interface SavedPaper {
     block: string;
     date: number;
     questions: Question[];
-    type: 'full' | 'custom';
+    type: 'full' | 'custom' | 'similar';
 }
 
 export const savePaper = (paper: SavedPaper) => {

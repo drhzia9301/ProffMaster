@@ -1,6 +1,21 @@
 import { Question, Subject } from './types';
 
-export const APP_VERSION = '1.2.1'; // Increment this to force cache clear on update
+export const APP_VERSION = '1.3.0'; // Increment this to force cache clear on update
+export const MINIMUM_REQUIRED_VERSION = '1.3.0'; // Users with older versions will be forced to update
+
+// Helper to compare versions (returns true if v1 >= v2)
+export const isVersionAtLeast = (v1: string, v2: string): boolean => {
+  const parts1 = v1.split('.').map(Number);
+  const parts2 = v2.split('.').map(Number);
+  
+  for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
+    const p1 = parts1[i] || 0;
+    const p2 = parts2[i] || 0;
+    if (p1 > p2) return true;
+    if (p1 < p2) return false;
+  }
+  return true; // Equal versions
+};
 
 // =====================================================
 // App Configuration

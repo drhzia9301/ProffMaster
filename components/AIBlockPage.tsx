@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { Layers, ArrowRight, Sparkles, Clock, Trash2, FileText } from 'lucide-react';
 import AIConfigModal from './AIConfigModal';
 import AIFilterModal from './AIFilterModal';
@@ -7,13 +7,16 @@ import { getSavedPapers, deleteSavedPaper, SavedPaper } from '../services/savedP
 
 const AIBlockPage = () => {
     const navigate = useNavigate();
+    const location = useLocation();
     const blocks = ['Block J', 'Block K', 'Block L', 'Block M1', 'Block M2'];
     const [selectedBlock, setSelectedBlock] = useState<string | null>(null);
-    const [activeTab, setActiveTab] = useState<'new' | 'saved'>('new');
+    // Check if navigated with tab state (e.g., from Generate Similar Questions)
+    const initialTab = (location.state as any)?.tab === 'saved' ? 'saved' : 'new';
+    const [activeTab, setActiveTab] = useState<'new' | 'saved'>(initialTab);
     const [savedPapers, setSavedPapers] = useState<SavedPaper[]>([]);
     const [selectedPaper, setSelectedPaper] = useState<SavedPaper | null>(null);
 
-    // Load saved papers when tab changes
+    // Load saved papers when tab changes or on initial load if tab is 'saved'
     React.useEffect(() => {
         if (activeTab === 'saved') {
             setSavedPapers(getSavedPapers());

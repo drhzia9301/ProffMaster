@@ -397,6 +397,33 @@ class SubscriptionService {
       return [];
     }
   }
+
+  /**
+   * Get user stats (total attempts, correct answers, accuracy) for admin view
+   */
+  async getUserStats(userId: string): Promise<{ totalAttempts: number; correctAnswers: number; accuracy: number } | null> {
+    try {
+      const { data, error } = await supabase
+        .from('attempts')
+        .select('is_correct')
+        .eq('user_id', userId);
+
+      if (error) throw error;
+
+      if (!data || data.length === 0) {
+        return { totalAttempts: 0, correctAnswers: 0, accuracy: 0 };
+      }
+
+      const totalAttempts = data.length;
+      const correctAnswers = data.filter(a => a.is_correct).length;
+      const accuracy = totalAttempts > 0 ? Math.round((correctAnswers / totalAttempts) * 100) : 0;
+
+      return { totalAttempts, correctAnswers, accuracy };
+    } catch (e) {
+      console.error('Failed to get user stats:', e);
+      return null;
+    }
+  }
 }
 
 export const subscriptionService = new SubscriptionService();

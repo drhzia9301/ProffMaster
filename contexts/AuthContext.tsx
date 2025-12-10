@@ -3,6 +3,8 @@ import { Session, User } from '@supabase/supabase-js';
 import { supabase } from '../services/supabase';
 import { syncAttempts } from '../services/storageService';
 import { deviceSessionService, DeviceSession } from '../services/deviceSessionService';
+import { versionBlockService } from '../services/versionBlockService';
+import { APP_VERSION } from '../constants';
 
 interface AuthContextType {
     session: Session | null;
@@ -16,6 +18,10 @@ interface AuthContextType {
     banReason?: string;
     sessionInvalidated: boolean;
     setSessionInvalidated: (value: boolean) => void;
+    // Version block state
+    isVersionBlocked: boolean;
+    versionBlockMessage?: string;
+    requiredVersion?: string;
     // Device session actions
     validateDeviceSession: () => Promise<boolean>;
     registerDeviceSession: () => Promise<{ success: boolean; replacedSession?: DeviceSession }>;
@@ -35,6 +41,34 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const [isBanned, setIsBanned] = useState(false);
     const [banReason, setBanReason] = useState<string | undefined>();
     const [sessionInvalidated, setSessionInvalidated] = useState(false);
+    
+    // Version block state
+    const [isVersionBlocked, setIsVersionBlocked] = useState(false);
+    const [versionBlockMessage, setVersionBlockMessage] = useState<string | undefined>();
+    const [requiredVersion, setRequiredVersion] = useState<string | undefined>();
+
+    // Update app version in profile and check for version blocks
+    const updateAndCheckVersion = useCallback(async (userId: string): Promise<boolean> => {
+        try {
+            // First, update app_version in profile (this is how we track version)
+            await versionBlockService.updateUserAppVersion(userId);
+
+            // Then check if user's version is blocked based on minimum_version in app_config
+            const blockResult = await versionBlockService.checkVersionBlock(userId);
+
+            if (blockResult.isBlocked) {
+                setIsVersionBlocked(true);
+                setVersionBlockMessage(blockResult.message || 'Your app version is outdated. Please update to continue.');
+                setRequiredVersion(blockResult.minimumVersion);
+                return false;
+            }
+
+            return true;
+        } catch (error) {
+            console.error('Error checking version:', error);
+            return true; // Don't block on error
+        }
+    }, []);
 
     // Validate the device session
     const validateDeviceSession = useCallback(async (): Promise<boolean> => {
@@ -102,6 +136,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 if (banStatus.isBanned) {
                     setIsBanned(true);
                     setBanReason(banStatus.reason);
+                    setLoading(false);
+                    setInitialLoadComplete(true);
+                    return;
+                }
+
+                // Update app version and check for version blocks
+                const versionOk = await updateAndCheckVersion(session.user.id);
+                if (!versionOk) {
+                    // User is version blocked
                     setLoading(false);
                     setInitialLoadComplete(true);
                     return;
@@ -327,6 +370,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         banReason,
         sessionInvalidated,
         setSessionInvalidated,
+        // Version block state
+        isVersionBlocked,
+        versionBlockMessage,
+        requiredVersion,
         // Device session actions
         validateDeviceSession,
         registerDeviceSession,

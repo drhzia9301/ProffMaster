@@ -79,13 +79,13 @@ const AIConfigModal: React.FC<AIConfigModalProps> = ({ block, onClose, onStart }
                             </div>
 
                             <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-1">Number of Questions (Max 20)</label>
+                                <label className="block text-sm font-medium text-gray-700 mb-1">Number of Questions (Max 50)</label>
                                 <input
                                     type="number"
                                     min="1"
-                                    max="20"
+                                    max="50"
                                     value={count}
-                                    onChange={(e) => setCount(Math.min(20, Math.max(1, parseInt(e.target.value) || 0)))}
+                                    onChange={(e) => setCount(Math.min(50, Math.max(1, parseInt(e.target.value) || 0)))}
                                     className="w-full p-3 rounded-xl border border-gray-200 focus:border-medical-500 focus:ring-2 focus:ring-medical-100 outline-none"
                                 />
                             </div>

@@ -21,9 +21,9 @@ import PreproffCollegesPage from './components/PreproffCollegesPage';
 import PreproffYearsPage from './components/PreproffYearsPage';
 import AIBlockPage from './components/AIBlockPage';
 import { getSessionAnalysisFromAI } from './services/geminiService';
-import { hasApiKey } from './services/apiKeyService';
+import { hasApiKey, hasShownFirstTimeModal, markFirstTimeModalShown } from './services/apiKeyService';
 import { dbService } from './services/databaseService';
-import { generateQuiz, generateStudyNotes } from './services/geminiService';
+import { generateQuiz, generateStudyNotes, generateSimilarQuestions } from './services/geminiService';
 import { savePaper } from './services/savedPapersService';
 import { App as CapacitorApp } from '@capacitor/app';
 import { hapticsService, NotificationType, ImpactStyle } from './services/hapticsService';
@@ -34,7 +34,9 @@ import NoteGenerationModal from './components/NoteGenerationModal';
 import { WhatsNewModal } from './components/WhatsNewModal';
 import SessionInvalidatedModal from './components/SessionInvalidatedModal';
 import BannedUserModal from './components/BannedUserModal';
+import VersionBlockedModal from './components/VersionBlockedModal';
 import AdminDashboard from './components/AdminDashboard';
+import FirstTimeApiKeyModal from './components/FirstTimeApiKeyModal';
 
 const SUBJECT_ICONS: Record<string, React.ElementType> = {
   [Subject.ENT]: Ear,
@@ -634,6 +636,10 @@ const QuizSession = () => {
   const [bookmarks, setBookmarks] = useState<string[]>([]);
   const [isGeneratingNotes, setIsGeneratingNotes] = useState(false);
   const [showNotesModal, setShowNotesModal] = useState(false);
+  const [showSimilarQuestionsModal, setShowSimilarQuestionsModal] = useState(false);
+  const [isGeneratingSimilar, setIsGeneratingSimilar] = useState(false);
+  const [similarQuestionCount, setSimilarQuestionCount] = useState(10);
+  const [similarPaperName, setSimilarPaperName] = useState('');
 
   // Track if we've already saved this session's paper to prevent duplicates
   const hasSavedPaper = useRef(false);
@@ -1028,6 +1034,58 @@ const QuizSession = () => {
     setIsGeneratingNotes(false);
   };
 
+  const handleGenerateSimilarQuestions = async () => {
+    setShowSimilarQuestionsModal(false);
+    setIsGeneratingSimilar(true);
+
+    try {
+      const newQuestions = await generateSimilarQuestions(
+        questions,
+        similarQuestionCount,
+        (msg) => setLoadingMessage(msg)
+      );
+
+      if (newQuestions.length > 0) {
+        // Save the generated questions to Saved Papers with user's custom name
+        const paperName = similarPaperName.trim() || `Similar Questions - ${subject || 'Session'} (${new Date().toLocaleDateString()})`;
+        savePaper({
+          id: `similar_${Date.now()}`,
+          name: paperName,
+          block: subject || 'AI Generated',
+          date: Date.now(),
+          questions: newQuestions,
+          type: 'similar'
+        });
+
+        // Ask user if they want to start now or access later
+        const startNow = window.confirm(
+          `✅ ${newQuestions.length} similar questions generated and saved as "${paperName}"!\n\nYou can access them anytime from:\nAI Questions → Saved Papers\n\nWould you like to start practicing now?`
+        );
+
+        if (startNow) {
+          navigate('/quiz', {
+            state: {
+              questions: newQuestions,
+              subject: subject || 'AI Generated',
+              type: 'ai_generated',
+              mode: 'study'
+            }
+          });
+        } else {
+          // Navigate to AI questions page with saved tab selected
+          navigate('/ai-questions', { state: { tab: 'saved' } });
+        }
+      } else {
+        alert('Failed to generate similar questions. Please try again.');
+      }
+    } catch (err) {
+      console.error('Error generating similar questions:', err);
+      alert('Failed to generate similar questions. Please try again.');
+    }
+    setIsGeneratingSimilar(false);
+    setSimilarPaperName(''); // Reset name for next time
+  };
+
   if (loading) return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center space-y-6">
       <div className="relative">
@@ -1094,7 +1152,7 @@ const QuizSession = () => {
           <div className="w-full">
             <button
               onClick={() => setShowNotesModal(true)}
-              disabled={isGeneratingNotes}
+              disabled={isGeneratingNotes || isGeneratingSimilar}
               className="w-full bg-indigo-600 text-white px-4 py-3 rounded-xl font-bold shadow-lg shadow-indigo-500/20 hover:bg-indigo-700 disabled:opacity-50 flex items-center justify-center gap-2"
             >
               {isGeneratingNotes ? (
@@ -1110,6 +1168,26 @@ const QuizSession = () => {
               )}
             </button>
           </div>
+          {/* Generate Similar Questions Button */}
+          <div className="w-full">
+            <button
+              onClick={() => setShowSimilarQuestionsModal(true)}
+              disabled={isGeneratingSimilar || isGeneratingNotes}
+              className="w-full bg-emerald-600 text-white px-4 py-3 rounded-xl font-bold shadow-lg shadow-emerald-500/20 hover:bg-emerald-700 disabled:opacity-50 flex items-center justify-center gap-2"
+            >
+              {isGeneratingSimilar ? (
+                <>
+                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                  Generating Questions...
+                </>
+              ) : (
+                <>
+                  <BrainCircuit size={20} />
+                  Generate Similar Questions
+                </>
+              )}
+            </button>
+          </div>
         </div>
 
         <NoteGenerationModal
@@ -1118,6 +1196,69 @@ const QuizSession = () => {
           onGenerate={handleGenerateNotes}
           defaultTitle={`Study Notes: ${subject || 'Session'}`}
         />
+
+        {/* Similar Questions Modal */}
+        {showSimilarQuestionsModal && (
+          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 max-w-sm w-full shadow-xl">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center">
+                  <BrainCircuit size={24} className="text-emerald-600 dark:text-emerald-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white">Generate Similar Questions</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Practice more on the same topics</p>
+                </div>
+              </div>
+              
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Paper Name
+                </label>
+                <input
+                  type="text"
+                  value={similarPaperName}
+                  onChange={(e) => setSimilarPaperName(e.target.value)}
+                  placeholder={`Similar Questions - ${subject || 'Session'}`}
+                  className="w-full p-3 rounded-xl border border-gray-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 dark:focus:ring-emerald-900 outline-none"
+                />
+              </div>
+              
+              <div className="mb-6">
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Number of Questions (Max 50)
+                </label>
+                <input
+                  type="number"
+                  min="1"
+                  max="50"
+                  value={similarQuestionCount}
+                  onChange={(e) => setSimilarQuestionCount(Math.min(50, Math.max(1, parseInt(e.target.value) || 1)))}
+                  className="w-full p-3 rounded-xl border border-gray-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 dark:focus:ring-emerald-900 outline-none"
+                />
+                <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                  AI will generate questions strictly on the same topics from this session
+                </p>
+              </div>
+
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setShowSimilarQuestionsModal(false)}
+                  className="flex-1 py-3 rounded-xl border border-gray-200 dark:border-slate-600 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleGenerateSimilarQuestions}
+                  className="flex-1 py-3 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition-colors flex items-center justify-center gap-2"
+                >
+                  <Sparkles size={18} />
+                  Generate
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="grid grid-cols-2 gap-3">
           <button
@@ -1288,6 +1429,7 @@ const App: React.FC = () => {
     <ThemeProvider>
       <VersionManager />
       <WhatsNewModal />
+      <FirstTimeApiKeyModal />
       <Router>
         <AuthProvider>
           <AuthWrapper>
@@ -1378,7 +1520,7 @@ const App: React.FC = () => {
 
 // Wrapper to handle connection error, banned users, and session invalidation inside AuthProvider context
 const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { connectionError, isBanned, banReason, sessionInvalidated, setSessionInvalidated, signOut } = useAuth();
+  const { connectionError, isBanned, banReason, sessionInvalidated, setSessionInvalidated, signOut, isVersionBlocked, versionBlockMessage, requiredVersion } = useAuth();
   const navigate = useNavigate();
 
   const handleContactSupport = () => {
@@ -1424,6 +1566,14 @@ const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <>
       {children}
       
+      {/* Version Blocked Modal (outdated APK) */}
+      {isVersionBlocked && (
+        <VersionBlockedModal
+          requiredVersion={requiredVersion}
+          message={versionBlockMessage}
+        />
+      )}
+
       {/* Banned User Modal */}
       <BannedUserModal
         isOpen={isBanned}

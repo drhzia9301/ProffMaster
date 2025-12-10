@@ -1,28 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getApiKey, setApiKey, removeApiKey, hasApiKey } from '../services/apiKeyService';
+import { getApiKey, setApiKey, removeApiKey, hasApiKey, hasCustomApiKey, isUsingDefaultKey } from '../services/apiKeyService';
 import { resetProgress } from '../services/storageService';
 import { subscriptionService } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 import { hapticsService } from '../services/hapticsService';
-import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Coffee, Palette, Smartphone, Shield, ArrowRight } from 'lucide-react';
+import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Coffee, Palette, Smartphone, Shield, ArrowRight, PlayCircle } from 'lucide-react';
+import VideoPlayerModal from './VideoPlayerModal';
 
 const Settings: React.FC = () => {
     const navigate = useNavigate();
     const { theme, setTheme } = useTheme();
     const [apiKey, setApiKeyInput] = useState('');
     const [isConfigured, setIsConfigured] = useState(false);
+    const [usingDefaultKey, setUsingDefaultKey] = useState(true);
     const [showKey, setShowKey] = useState(false);
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
     const [showConfirmDelete, setShowConfirmDelete] = useState(false);
     const [showConfirmReset, setShowConfirmReset] = useState(false);
     const [hapticsEnabled, setHapticsEnabled] = useState(true);
+    const [showVideoPlayer, setShowVideoPlayer] = useState(false);
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        const configured = hasApiKey();
-        setIsConfigured(configured);
-        if (configured) {
+        const hasCustom = hasCustomApiKey();
+        setIsConfigured(hasCustom);
+        setUsingDefaultKey(isUsingDefaultKey());
+        if (hasCustom) {
             const key = getApiKey();
             setApiKeyInput(key || '');
         }
@@ -47,6 +51,7 @@ const Settings: React.FC = () => {
         const success = setApiKey(apiKey);
         if (success) {
             setIsConfigured(true);
+            setUsingDefaultKey(false);
             setMessage({ type: 'success', text: 'API key saved successfully!' });
             setTimeout(() => setMessage(null), 3000);
         } else {
@@ -59,12 +64,17 @@ const Settings: React.FC = () => {
         if (success) {
             setApiKeyInput('');
             setIsConfigured(false);
+            setUsingDefaultKey(true);
             setShowConfirmDelete(false);
-            setMessage({ type: 'success', text: 'API key removed successfully' });
+            setMessage({ type: 'success', text: 'Custom API key removed. Using default key now.' });
             setTimeout(() => setMessage(null), 3000);
         } else {
             setMessage({ type: 'error', text: 'Failed to remove API key' });
         }
+    };
+
+    const handleWatchVideo = () => {
+        setShowVideoPlayer(true);
     };
 
     return (
@@ -151,16 +161,31 @@ const Settings: React.FC = () => {
                             </div>
                             <div>
                                 <h3 className="font-bold text-gray-900">Gemini API Key</h3>
-                                <p className="text-xs text-gray-500">Required for AI-powered features</p>
+                                <p className="text-xs text-gray-500">For AI-powered features</p>
                             </div>
                         </div>
-                        {isConfigured && (
+                        {usingDefaultKey ? (
+                            <div className="flex items-center gap-2 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-lg text-xs font-semibold">
+                                <Sparkles size={14} />
+                                Default Key
+                            </div>
+                        ) : (
                             <div className="flex items-center gap-2 bg-green-50 text-green-700 px-3 py-1.5 rounded-lg text-xs font-semibold">
                                 <CheckCircle2 size={14} />
-                                Configured
+                                Custom Key
                             </div>
                         )}
                     </div>
+
+                    {/* Default Key Notice */}
+                    {usingDefaultKey && (
+                        <div className="bg-blue-50 border border-blue-200 rounded-xl p-3 mb-4">
+                            <p className="text-xs text-blue-700">
+                                ✨ You're using the default built-in API key. All AI features are ready to use! 
+                                Add your own key below to avoid rate limits.
+                            </p>
+                        </div>
+                    )}
 
                     {/* API Key Input */}
                     <div className="space-y-4">
@@ -169,7 +194,7 @@ const Settings: React.FC = () => {
                                 type={showKey ? 'text' : 'password'}
                                 value={apiKey}
                                 onChange={(e) => setApiKeyInput(e.target.value)}
-                                placeholder="Enter your Gemini API key"
+                                placeholder="Enter your own Gemini API key (optional)"
                                 className="w-full px-4 py-3 pr-12 rounded-xl border border-gray-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-100 outline-none transition-all font-mono text-sm"
                             />
                             <button
@@ -186,7 +211,7 @@ const Settings: React.FC = () => {
                                 onClick={handleSave}
                                 className="flex-1 bg-purple-600 text-white py-3 rounded-xl font-semibold hover:bg-purple-700 transition-colors shadow-lg shadow-purple-500/20"
                             >
-                                {isConfigured ? 'Update Key' : 'Save Key'}
+                                {isConfigured ? 'Update Key' : 'Save Custom Key'}
                             </button>
                             {isConfigured && (
                                 <button
@@ -198,16 +223,25 @@ const Settings: React.FC = () => {
                             )}
                         </div>
 
-                        {/* Get API Key Link */}
-                        <a
-                            href="https://aistudio.google.com/app/apikey"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 text-sm text-purple-600 hover:text-purple-700 font-medium"
-                        >
-                            <ExternalLink size={14} />
-                            Get your free Gemini API key
-                        </a>
+                        {/* Get API Key Link and Watch Video */}
+                        <div className="flex flex-col gap-2">
+                            <a
+                                href="https://aistudio.google.com/app/apikey"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2 text-sm text-purple-600 hover:text-purple-700 font-medium"
+                            >
+                                <ExternalLink size={14} />
+                                Get your free Gemini API key
+                            </a>
+                            <button
+                                onClick={handleWatchVideo}
+                                className="flex items-center gap-2 text-sm text-indigo-600 hover:text-indigo-700 font-medium"
+                            >
+                                <PlayCircle size={14} />
+                                Watch Tutorial Video
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -218,7 +252,7 @@ const Settings: React.FC = () => {
                         <div className="text-sm">
                             <p className="font-semibold text-amber-900 mb-1">Security Notice</p>
                             <p className="text-amber-800">
-                                Your API key is stored locally in your browser's localStorage. It never leaves your device.
+                                Your custom API key is stored locally in your browser's localStorage. It never leaves your device.
                                 Keep your API key private and don't share it with others.
                             </p>
                         </div>
@@ -387,6 +421,14 @@ const Settings: React.FC = () => {
                     </div>
                 )
             }
+
+            {/* Video Player Modal */}
+            <VideoPlayerModal
+                isOpen={showVideoPlayer}
+                onClose={() => setShowVideoPlayer(false)}
+                videoSrc="/assets/api_key_tutorial.mp4"
+                title="How to Get Your Gemini API Key"
+            />
         </div >
     );
 };

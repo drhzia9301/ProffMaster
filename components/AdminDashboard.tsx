@@ -13,7 +13,9 @@ import {
     UserCheck,
     UserX,
     AlertTriangle,
-    RefreshCw
+    RefreshCw,
+    Target,
+    BarChart3
 } from 'lucide-react';
 import { subscriptionService, UserProfile } from '../services/subscriptionService';
 
@@ -500,106 +502,178 @@ interface UserRowProps {
 }
 
 const UserRow: React.FC<UserRowProps> = ({ user, actionLoading, onGrant, onRevoke, onBan, onUnban }) => {
+    const [stats, setStats] = useState<{ totalAttempts: number; correctAnswers: number; accuracy: number } | null>(null);
+    const [loadingStats, setLoadingStats] = useState(false);
+    const [showStats, setShowStats] = useState(false);
+
+    const fetchStats = async () => {
+        if (stats) {
+            setShowStats(!showStats);
+            return;
+        }
+        setLoadingStats(true);
+        const userStats = await subscriptionService.getUserStats(user.id);
+        setStats(userStats);
+        setShowStats(true);
+        setLoadingStats(false);
+    };
+
     return (
-        <div className="p-4 flex items-center justify-between hover:bg-gray-50 dark:hover:bg-slate-700/50 transition-colors">
-            <div className="flex items-center gap-3 flex-1 min-w-0">
-                <div className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
-                    user.is_banned 
-                        ? 'bg-red-100 dark:bg-red-900/20' 
-                        : user.has_preproff_access 
-                            ? 'bg-green-100 dark:bg-green-900/20' 
-                            : 'bg-gray-100 dark:bg-slate-700'
-                }`}>
-                    {user.is_banned ? (
-                        <Ban size={18} className="text-red-600 dark:text-red-400" />
-                    ) : user.has_preproff_access ? (
-                        <CheckCircle size={18} className="text-green-600 dark:text-green-400" />
-                    ) : (
-                        <Users size={18} className="text-gray-500 dark:text-gray-400" />
-                    )}
-                </div>
-                <div className="min-w-0 flex-1">
-                    <div className="font-medium text-gray-900 dark:text-white text-sm truncate">
-                        {user.email}
-                    </div>
-                    <div className="flex flex-wrap items-center gap-2 text-xs">
-                        {user.is_banned && (
-                            <span className="text-red-600 dark:text-red-400 flex items-center gap-1">
-                                <AlertTriangle size={12} />
-                                Banned{user.ban_reason ? `: ${user.ban_reason}` : ''}
-                            </span>
-                        )}
-                        {user.has_preproff_access && !user.is_banned && (
-                            <span className="text-green-600 dark:text-green-400">
-                                ✓ Has Access
-                            </span>
-                        )}
-                        {user.violation_count > 0 && !user.is_banned && (
-                            <span className="text-amber-600 dark:text-amber-400">
-                                ⚠ {user.violation_count} violations
-                            </span>
+        <div className="p-4 hover:bg-gray-50 dark:hover:bg-slate-700/50 transition-colors">
+            <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3 flex-1 min-w-0">
+                    <div className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
+                        user.is_banned 
+                            ? 'bg-red-100 dark:bg-red-900/20' 
+                            : user.has_preproff_access 
+                                ? 'bg-green-100 dark:bg-green-900/20' 
+                                : 'bg-gray-100 dark:bg-slate-700'
+                    }`}>
+                        {user.is_banned ? (
+                            <Ban size={18} className="text-red-600 dark:text-red-400" />
+                        ) : user.has_preproff_access ? (
+                            <CheckCircle size={18} className="text-green-600 dark:text-green-400" />
+                        ) : (
+                            <Users size={18} className="text-gray-500 dark:text-gray-400" />
                         )}
                     </div>
+                    <div className="min-w-0 flex-1">
+                        <div className="font-medium text-gray-900 dark:text-white text-sm truncate">
+                            {user.email}
+                        </div>
+                        <div className="flex flex-wrap items-center gap-2 text-xs">
+                            {user.is_banned && (
+                                <span className="text-red-600 dark:text-red-400 flex items-center gap-1">
+                                    <AlertTriangle size={12} />
+                                    Banned{user.ban_reason ? `: ${user.ban_reason}` : ''}
+                                </span>
+                            )}
+                            {user.has_preproff_access && !user.is_banned && (
+                                <span className="text-green-600 dark:text-green-400">
+                                    ✓ Has Access
+                                </span>
+                            )}
+                            {user.violation_count > 0 && !user.is_banned && (
+                                <span className="text-amber-600 dark:text-amber-400">
+                                    ⚠ {user.violation_count} violations
+                                </span>
+                            )}
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div className="flex items-center gap-2 flex-shrink-0 ml-2">
-                {/* Ban/Unban Button */}
-                {user.is_banned ? (
+                <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                    {/* Stats Button */}
                     <button
-                        onClick={() => onUnban(user.id, user.email)}
-                        disabled={actionLoading === user.id}
-                        className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
-                        title="Unban user"
+                        onClick={fetchStats}
+                        disabled={loadingStats}
+                        className="px-2 py-1.5 bg-blue-100 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 rounded-lg text-sm font-medium hover:bg-blue-200 dark:hover:bg-blue-900/40 disabled:opacity-50 transition-colors flex items-center gap-1"
+                        title="View user stats"
                     >
-                        {actionLoading === user.id ? (
+                        {loadingStats ? (
                             <Loader2 size={14} className="animate-spin" />
                         ) : (
-                            <UserCheck size={14} />
+                            <BarChart3 size={14} />
                         )}
-                        Unban
                     </button>
-                ) : (
-                    <>
-                        {/* Access Grant/Revoke */}
-                        {user.has_preproff_access ? (
-                            <button
-                                onClick={() => onRevoke(user.id, user.email)}
-                                disabled={actionLoading === user.id}
-                                className="px-3 py-1.5 bg-amber-100 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 rounded-lg text-sm font-medium hover:bg-amber-200 dark:hover:bg-amber-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
-                            >
-                                {actionLoading === user.id ? (
-                                    <Loader2 size={14} className="animate-spin" />
-                                ) : (
-                                    <XCircle size={14} />
-                                )}
-                                Revoke
-                            </button>
-                        ) : (
-                            <button
-                                onClick={() => onGrant(user.id, user.email)}
-                                disabled={actionLoading === user.id}
-                                className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
-                            >
-                                {actionLoading === user.id ? (
-                                    <Loader2 size={14} className="animate-spin" />
-                                ) : (
-                                    <CheckCircle size={14} />
-                                )}
-                                Grant
-                            </button>
-                        )}
-                        {/* Ban Button */}
+                    {/* Ban/Unban Button */}
+                    {user.is_banned ? (
                         <button
-                            onClick={() => onBan(user.id, user.email)}
+                            onClick={() => onUnban(user.id, user.email)}
                             disabled={actionLoading === user.id}
-                            className="px-3 py-1.5 bg-red-100 dark:bg-red-900/20 text-red-600 dark:text-red-400 rounded-lg text-sm font-medium hover:bg-red-200 dark:hover:bg-red-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
-                            title="Ban user"
+                            className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                            title="Unban user"
                         >
-                            <Ban size={14} />
+                            {actionLoading === user.id ? (
+                                <Loader2 size={14} className="animate-spin" />
+                            ) : (
+                                <UserCheck size={14} />
+                            )}
+                            Unban
                         </button>
-                    </>
-                )}
+                    ) : (
+                        <>
+                            {/* Access Grant/Revoke */}
+                            {user.has_preproff_access ? (
+                                <button
+                                    onClick={() => onRevoke(user.id, user.email)}
+                                    disabled={actionLoading === user.id}
+                                    className="px-3 py-1.5 bg-amber-100 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 rounded-lg text-sm font-medium hover:bg-amber-200 dark:hover:bg-amber-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                                >
+                                    {actionLoading === user.id ? (
+                                        <Loader2 size={14} className="animate-spin" />
+                                    ) : (
+                                        <XCircle size={14} />
+                                    )}
+                                    Revoke
+                                </button>
+                            ) : (
+                                <button
+                                    onClick={() => onGrant(user.id, user.email)}
+                                    disabled={actionLoading === user.id}
+                                    className="px-3 py-1.5 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg text-sm font-medium hover:bg-green-200 dark:hover:bg-green-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                                >
+                                    {actionLoading === user.id ? (
+                                        <Loader2 size={14} className="animate-spin" />
+                                    ) : (
+                                        <CheckCircle size={14} />
+                                    )}
+                                    Grant
+                                </button>
+                            )}
+                            {/* Ban Button */}
+                            <button
+                                onClick={() => onBan(user.id, user.email)}
+                                disabled={actionLoading === user.id}
+                                className="px-3 py-1.5 bg-red-100 dark:bg-red-900/20 text-red-600 dark:text-red-400 rounded-lg text-sm font-medium hover:bg-red-200 dark:hover:bg-red-900/40 disabled:opacity-50 transition-colors flex items-center gap-1.5"
+                                title="Ban user"
+                            >
+                                <Ban size={14} />
+                            </button>
+                        </>
+                    )}
+                </div>
             </div>
+            
+            {/* Stats Panel */}
+            {showStats && stats && (
+                <div className="mt-3 pt-3 border-t border-gray-100 dark:border-slate-700">
+                    <div className="grid grid-cols-3 gap-3">
+                        <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-2 text-center">
+                            <div className="text-lg font-bold text-blue-600 dark:text-blue-400">{stats.totalAttempts}</div>
+                            <div className="text-xs text-blue-500 dark:text-blue-300">Questions</div>
+                        </div>
+                        <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-2 text-center">
+                            <div className="text-lg font-bold text-green-600 dark:text-green-400">{stats.correctAnswers}</div>
+                            <div className="text-xs text-green-500 dark:text-green-300">Correct</div>
+                        </div>
+                        <div className={`rounded-lg p-2 text-center ${
+                            stats.accuracy >= 70 
+                                ? 'bg-green-50 dark:bg-green-900/20' 
+                                : stats.accuracy >= 50 
+                                    ? 'bg-amber-50 dark:bg-amber-900/20' 
+                                    : 'bg-red-50 dark:bg-red-900/20'
+                        }`}>
+                            <div className={`text-lg font-bold flex items-center justify-center gap-1 ${
+                                stats.accuracy >= 70 
+                                    ? 'text-green-600 dark:text-green-400' 
+                                    : stats.accuracy >= 50 
+                                        ? 'text-amber-600 dark:text-amber-400' 
+                                        : 'text-red-600 dark:text-red-400'
+                            }`}>
+                                <Target size={14} />
+                                {stats.accuracy}%
+                            </div>
+                            <div className={`text-xs ${
+                                stats.accuracy >= 70 
+                                    ? 'text-green-500 dark:text-green-300' 
+                                    : stats.accuracy >= 50 
+                                        ? 'text-amber-500 dark:text-amber-300' 
+                                        : 'text-red-500 dark:text-red-300'
+                            }`}>Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

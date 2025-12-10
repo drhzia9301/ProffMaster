@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { APP_VERSION } from '../constants';
-import { X, Sparkles, Zap, BookOpen, Bug } from 'lucide-react';
+import { X, Sparkles, Zap, BookOpen, Bug, BrainCircuit } from 'lucide-react';
 
 const STORAGE_KEY_WHATS_NEW = 'last_seen_whats_new_version';
 
@@ -53,14 +53,25 @@ export const WhatsNewModal: React.FC = () => {
                                 <Zap size={24} />
                             </div>
                             <div>
-                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 38 Preproff Papers Added!</h3>
+                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 45 Preproff Papers!</h3>
                                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
                                     Access preproff papers from <span className="font-semibold">2023, 2024 & 2025</span> across all blocks (J, K, L, M1, M2) from KMC, KGMC, WMC, GMC, and NWSM.
                                 </p>
                                 <p className="text-xs text-amber-600 dark:text-amber-400 mt-2 font-medium">
-                                    📚 3,500+ questions with detailed explanations!
+                                    📚 4,000+ questions with detailed explanations!
                                 </p>
                             </div>
+                        </div>
+                    </div>
+
+                    {/* NEW - Generate Similar Questions */}
+                    <div className="flex gap-4 items-start">
+                        <div className="bg-emerald-100 dark:bg-emerald-900/30 p-2 rounded-lg text-emerald-600 dark:text-emerald-400 shrink-0">
+                            <BrainCircuit size={20} />
+                        </div>
+                        <div>
+                            <h3 className="font-bold text-gray-900 dark:text-white">🆕 Generate Similar Questions</h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">After finishing a session, generate more questions on the same topics to strengthen your understanding!</p>
                         </div>
                     </div>
 
@@ -69,13 +80,13 @@ export const WhatsNewModal: React.FC = () => {
                             <Sparkles size={20} />
                         </div>
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">AI Questions Generator</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Create custom quizzes instantly with the power of AI.</p>
+                            <h3 className="font-bold text-gray-900 dark:text-white">AI Questions (Up to 50!)</h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">Create custom quizzes with up to 50 questions per session using AI.</p>
                         </div>
                     </div>
 
                     <div className="flex gap-4 items-start">
-                        <div className="bg-emerald-100 dark:bg-emerald-900/30 p-2 rounded-lg text-emerald-600 dark:text-emerald-400 shrink-0">
+                        <div className="bg-purple-100 dark:bg-purple-900/30 p-2 rounded-lg text-purple-600 dark:text-purple-400 shrink-0">
                             <BookOpen size={20} />
                         </div>
                         <div>
@@ -90,7 +101,7 @@ export const WhatsNewModal: React.FC = () => {
                         </div>
                         <div>
                             <h3 className="font-bold text-gray-900 dark:text-white">Bug Fixes & Improvements</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Fixed header display on mobile, spelling corrections, and UI improvements.</p>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">Updated M2 papers, fixed UI issues, and performance improvements.</p>
                         </div>
                     </div>
 
