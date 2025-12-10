@@ -9,13 +9,14 @@ import BannedUserModal from './BannedUserModal';
 const Login = () => {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(false);
+    const [checkingConnection, setCheckingConnection] = useState(true);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [showPassword, setShowPassword] = useState(false);
     const [isSignUp, setIsSignUp] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [message, setMessage] = useState<string | null>(null);
-    const [isOffline, setIsOffline] = useState(!navigator.onLine);
+    const [isOffline, setIsOffline] = useState(false);
     
     // Device session conflict state
     const [showConflictModal, setShowConflictModal] = useState(false);
@@ -27,10 +28,40 @@ const Login = () => {
     const [showBannedModal, setShowBannedModal] = useState(false);
     const [banReason, setBanReason] = useState<string | undefined>();
 
-    // Monitor network status
+    // Check actual internet connectivity on mount
     useEffect(() => {
-        const handleOnline = () => setIsOffline(false);
-        const handleOffline = () => setIsOffline(true);
+        const checkConnection = async () => {
+            try {
+                // Try to fetch from Supabase to check real connectivity
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 5000);
+                
+                await fetch('https://www.google.com/generate_204', { 
+                    method: 'HEAD',
+                    mode: 'no-cors',
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                setIsOffline(false);
+            } catch (err) {
+                console.log('Connection check failed:', err);
+                setIsOffline(true);
+            } finally {
+                setCheckingConnection(false);
+            }
+        };
+
+        checkConnection();
+
+        const handleOnline = () => {
+            setIsOffline(false);
+            setCheckingConnection(false);
+        };
+        const handleOffline = () => {
+            setIsOffline(true);
+            setCheckingConnection(false);
+        };
         
         window.addEventListener('online', handleOnline);
         window.addEventListener('offline', handleOffline);
@@ -157,6 +188,7 @@ const Login = () => {
                 err.message?.includes('fetch') ||
                 err.name === 'TypeError' ||
                 !navigator.onLine) {
+                setIsOffline(true);
                 setError('No internet connection. Please check your network and try again.');
             } else {
                 setError(err.message);
@@ -165,6 +197,18 @@ const Login = () => {
             setLoading(false);
         }
     };
+
+    // Show loading screen while checking connection
+    if (checkingConnection) {
+        return (
+            <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center p-4">
+                <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
+                    <Loader2 size={48} className="text-medical-600 animate-spin mx-auto mb-4" />
+                    <p className="text-gray-500 dark:text-gray-400">Checking connection...</p>
+                </div>
+            </div>
+        );
+    }
 
     // Show offline screen when no internet connection
     if (isOffline) {
