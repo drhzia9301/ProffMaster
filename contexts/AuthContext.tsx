@@ -121,6 +121,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             }
         }, 5000); // 5 seconds timeout
 
+        // Immediately check network status
+        if (!navigator.onLine) {
+            console.warn('Device is offline');
+            setConnectionError(true);
+            setLoading(false);
+            setInitialLoadComplete(true);
+            clearTimeout(timeoutId);
+            return;
+        }
+
         // Check active sessions and sets the user
         supabase.auth.getSession().then(async ({ data: { session } }) => {
             if (!mounted) return;
@@ -201,6 +211,22 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 setInitialLoadComplete(true);
             }
         });
+
+        // Listen for network status changes
+        const handleOnline = () => {
+            console.log('Device came online');
+            if (connectionError) {
+                window.location.reload(); // Reload the app when back online
+            }
+        };
+
+        const handleOffline = () => {
+            console.log('Device went offline');
+            setConnectionError(true);
+        };
+
+        window.addEventListener('online', handleOnline);
+        window.addEventListener('offline', handleOffline);
 
         // Listen for changes on auth state (sign in, sign out, etc.)
         const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
@@ -315,6 +341,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             if ((window as any).__sessionCheckInterval) {
                 clearInterval((window as any).__sessionCheckInterval);
             }
+            // Clean up network event listeners
+            window.removeEventListener('online', handleOnline);
+            window.removeEventListener('offline', handleOffline);
         };
     }, [initialLoadComplete]);
 

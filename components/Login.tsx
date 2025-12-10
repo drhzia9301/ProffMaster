@@ -45,7 +45,16 @@ const Login = () => {
                 setError('Failed to register device. Please try again.');
             }
         } catch (err: any) {
-            setError(err.message);
+            // Check if it's a network/connection error  
+            if (err.message?.includes('Failed to fetch') || 
+                err.message?.includes('NetworkError') || 
+                err.message?.includes('fetch') ||
+                err.name === 'TypeError' ||
+                !navigator.onLine) {
+                setError('No internet connection. Please check your network and try again.');
+            } else {
+                setError(err.message);
+            }
         } finally {
             setLoading(false);
         }
@@ -127,7 +136,16 @@ const Login = () => {
                 navigate('/');
             }
         } catch (err: any) {
-            setError(err.message);
+            // Check if it's a network/connection error
+            if (err.message?.includes('Failed to fetch') || 
+                err.message?.includes('NetworkError') || 
+                err.message?.includes('fetch') ||
+                err.name === 'TypeError' ||
+                !navigator.onLine) {
+                setError('No internet connection. Please check your network and try again.');
+            } else {
+                setError(err.message);
+            }
         } finally {
             setLoading(false);
         }
