@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../services/supabase';
 import { deviceSessionService, DeviceSession } from '../services/deviceSessionService';
-import { Mail, Lock, ArrowRight, AlertCircle, Loader2, Stethoscope, Eye, EyeOff } from 'lucide-react';
+import { Mail, Lock, ArrowRight, AlertCircle, Loader2, Stethoscope, Eye, EyeOff, WifiOff, RefreshCw } from 'lucide-react';
 import DeviceConflictModal from './DeviceConflictModal';
 import BannedUserModal from './BannedUserModal';
 
@@ -15,6 +15,7 @@ const Login = () => {
     const [isSignUp, setIsSignUp] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [message, setMessage] = useState<string | null>(null);
+    const [isOffline, setIsOffline] = useState(!navigator.onLine);
     
     // Device session conflict state
     const [showConflictModal, setShowConflictModal] = useState(false);
@@ -25,6 +26,20 @@ const Login = () => {
     // Banned user state
     const [showBannedModal, setShowBannedModal] = useState(false);
     const [banReason, setBanReason] = useState<string | undefined>();
+
+    // Monitor network status
+    useEffect(() => {
+        const handleOnline = () => setIsOffline(false);
+        const handleOffline = () => setIsOffline(true);
+        
+        window.addEventListener('online', handleOnline);
+        window.addEventListener('offline', handleOffline);
+        
+        return () => {
+            window.removeEventListener('online', handleOnline);
+            window.removeEventListener('offline', handleOffline);
+        };
+    }, []);
 
     const handleContactSupport = () => {
         // Open email client with support address
@@ -150,6 +165,32 @@ const Login = () => {
             setLoading(false);
         }
     };
+
+    // Show offline screen when no internet connection
+    if (isOffline) {
+        return (
+            <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center p-4">
+                <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
+                    <div className="w-20 h-20 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <WifiOff size={40} className="text-red-500" />
+                    </div>
+                    <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">No Internet Connection</h2>
+                    <p className="text-gray-500 dark:text-gray-400 mb-8">
+                        This app requires an active internet connection to sign in and sync your progress.
+                        <br /><br />
+                        Please check your Wi-Fi or mobile data and try again.
+                    </p>
+                    <button
+                        onClick={() => window.location.reload()}
+                        className="w-full bg-medical-600 text-white py-3 rounded-xl font-bold shadow-lg shadow-medical-500/20 hover:bg-medical-700 transition-all active:scale-95 flex items-center justify-center gap-2"
+                    >
+                        <RefreshCw size={20} />
+                        Retry Connection
+                    </button>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <>
