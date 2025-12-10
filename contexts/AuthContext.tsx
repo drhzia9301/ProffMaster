@@ -131,20 +131,21 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             setConnectionError(false); // Connection successful
 
             if (session?.user) {
-                // Check ban status first
-                const banStatus = await deviceSessionService.checkBanStatus(session.user.id);
-                if (banStatus.isBanned) {
-                    setIsBanned(true);
-                    setBanReason(banStatus.reason);
+                // FIRST: Update app version (this will also unban users who update)
+                // This must happen before ban check so updated users get unbanned
+                const versionOk = await updateAndCheckVersion(session.user.id);
+                if (!versionOk) {
+                    // User is version blocked
                     setLoading(false);
                     setInitialLoadComplete(true);
                     return;
                 }
 
-                // Update app version and check for version blocks
-                const versionOk = await updateAndCheckVersion(session.user.id);
-                if (!versionOk) {
-                    // User is version blocked
+                // THEN: Check ban status (after version update, so auto-unban works)
+                const banStatus = await deviceSessionService.checkBanStatus(session.user.id);
+                if (banStatus.isBanned) {
+                    setIsBanned(true);
+                    setBanReason(banStatus.reason);
                     setLoading(false);
                     setInitialLoadComplete(true);
                     return;
@@ -243,7 +244,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 setBanReason(undefined);
                 setSessionInvalidated(false);
 
-                // Check ban status
+                // FIRST: Update app version (this will also unban users who update)
+                await updateAndCheckVersion(session.user.id);
+
+                // THEN: Check ban status (after version update, so auto-unban works)
                 const banStatus = await deviceSessionService.checkBanStatus(session.user.id);
                 if (banStatus.isBanned) {
                     setIsBanned(true);
