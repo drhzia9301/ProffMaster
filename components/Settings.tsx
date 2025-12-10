@@ -10,7 +10,8 @@ import { resetProgress } from '../services/storageService';
 import { subscriptionService } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 import { hapticsService } from '../services/hapticsService';
-import { Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Palette, Smartphone, Shield, ArrowRight, Zap, Bot } from 'lucide-react';
+import { Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Palette, Smartphone, Shield, ArrowRight, Zap, Bot, PlayCircle } from 'lucide-react';
+import VideoPlayerModal from './VideoPlayerModal';
 
 const Settings: React.FC = () => {
     const navigate = useNavigate();
@@ -24,6 +25,7 @@ const Settings: React.FC = () => {
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
     const [showConfirmDelete, setShowConfirmDelete] = useState(false);
     const [showConfirmReset, setShowConfirmReset] = useState(false);
+    const [showTutorial, setShowTutorial] = useState(false);
     const [hapticsEnabled, setHapticsEnabled] = useState(true);
     const [isAdmin, setIsAdmin] = useState(false);
 
@@ -214,15 +216,25 @@ const Settings: React.FC = () => {
                                 </button>
                             )}
                         </div>
-                        <a
-                            href="https://aistudio.google.com/app/apikey"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-1 text-xs text-purple-600 dark:text-purple-400 hover:underline mt-2"
-                        >
-                            <ExternalLink size={12} />
-                            Get free Gemini API key
-                        </a>
+                        <div className="flex flex-wrap gap-2 mt-2">
+                            <a
+                                href="https://aistudio.google.com/app/apikey"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-1 text-xs text-purple-600 dark:text-purple-400 hover:underline"
+                            >
+                                <ExternalLink size={12} />
+                                Get free Gemini API key
+                            </a>
+                            <span className="text-gray-300 dark:text-gray-600">•</span>
+                            <button
+                                onClick={() => setShowTutorial(true)}
+                                className="flex items-center gap-1 text-xs text-indigo-600 dark:text-indigo-400 hover:underline"
+                            >
+                                <PlayCircle size={12} />
+                                Watch Tutorial
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -400,6 +412,13 @@ const Settings: React.FC = () => {
                     </div>
                 )
             }
+            
+            <VideoPlayerModal
+                isOpen={showTutorial}
+                onClose={() => setShowTutorial(false)}
+                videoSrc="/assets/gemini_tutorial.mp4"
+                title="How to Get Your Gemini API Key"
+            />
         </div >
     );
 };

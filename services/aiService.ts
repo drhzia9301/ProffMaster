@@ -659,6 +659,8 @@ export const generateQuiz = async (
           5. Each question MUST have an "explanation" field.
           6. Match KMU Prof exam style (clinical vignettes, integrated knowledge).
           7. Questions should test understanding of ${block}-specific content.
+          8. 🚫 NEVER mention "${block}", "syllabus", "according to", or any block references in question text or explanations.
+          9. Write natural medical questions without referencing curriculum structure.
 
           ✅ GOOD EXAMPLE: If generating "Pathology" questions for "Block J", only use pathology topics that appear in the Block J syllabus.
           ❌ BAD EXAMPLE: Generating random pathology questions not covered in Block J.
@@ -667,13 +669,13 @@ export const generateQuiz = async (
           [
             {
               "id": "unique_id",
-              "text": "Clinical vignette question based on ${block} syllabus",
+              "text": "Clinical vignette question (NO block/syllabus references)",
               "options": ["Option A", "Option B", "Option C", "Option D"],
               "correctIndex": 0,
               "subject": "${topic}", 
               "tags": ["${block}", "${topic}"],
               "difficulty": "Medium",
-              "explanation": "Brief explanation referencing ${block} content (1-2 sentences max)."
+              "explanation": "Brief medical explanation (1-2 sentences, NO curriculum references)."
             }
           ]
           
@@ -848,18 +850,20 @@ export const generateQuiz = async (
             4. MATCH THE KMU STYLE shown in examples.
             5. Make questions unique and clinically relevant.
             6. Focus on ${subject} topics from the ${block} syllabus.
+            7. 🚫 NEVER mention "${block}", "syllabus", "according to", or any block references in question text or explanations.
+            8. Write natural medical questions without referencing curriculum structure.
             
             Format: JSON Array of EXACTLY ${batchQuestionCount} objects:
             [
               {
                 \"id\": \"unique_id\",
-                \"text\": \"Clinical vignette question\",
+                \"text\": \"Clinical vignette question (NO block/syllabus references)\",
                 \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],
                 \"correctIndex\": 0,
                 \"subject\": \"${subject}\",
                 \"tags\": [\"${block}\", \"${subject}\"],
                 \"difficulty\": \"Medium\",
-                \"explanation\": \"Clear explanation why correct answer is right.\"
+                \"explanation\": \"Clear medical explanation (NO curriculum references).\"
               }
             ]
             
