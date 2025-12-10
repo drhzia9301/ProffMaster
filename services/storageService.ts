@@ -237,14 +237,14 @@ export const resetProgress = async () => {
 
     // 3. Clear Local Storage (Aggressive - Keep only API Key)
     // This removes the Supabase session token, effectively logging the user out locally.
-    const apiKey = localStorage.getItem('gemini_api_key');
+    const geminiKey = localStorage.getItem('gemini_api_key');
 
     // Explicitly sign out to ensure session is killed on the client
     await supabase.auth.signOut();
 
     localStorage.clear();
-    if (apiKey) {
-      localStorage.setItem('gemini_api_key', apiKey);
+    if (geminiKey) {
+      localStorage.setItem('gemini_api_key', geminiKey);
     }
 
     // Verification: Check if attempts key still exists

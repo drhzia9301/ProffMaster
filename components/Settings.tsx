@@ -1,38 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getApiKey, setApiKey, removeApiKey, hasApiKey, hasCustomApiKey, isUsingDefaultKey } from '../services/apiKeyService';
+import { 
+    getGeminiApiKey, 
+    setGeminiApiKey, 
+    removeGeminiApiKey, 
+    hasCustomGeminiKey
+} from '../services/apiKeyService';
 import { resetProgress } from '../services/storageService';
 import { subscriptionService } from '../services/subscriptionService';
 import { useTheme } from '../contexts/ThemeContext';
 import { hapticsService } from '../services/hapticsService';
-import { Key, Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Coffee, Palette, Smartphone, Shield, ArrowRight, PlayCircle } from 'lucide-react';
-import VideoPlayerModal from './VideoPlayerModal';
+import { Eye, EyeOff, CheckCircle2, AlertCircle, ExternalLink, Sparkles, HelpCircle, Trash2, Moon, Sun, Palette, Smartphone, Shield, ArrowRight, Zap, Bot } from 'lucide-react';
 
 const Settings: React.FC = () => {
     const navigate = useNavigate();
     const { theme, setTheme } = useTheme();
+    
+    // API Key states
     const [apiKey, setApiKeyInput] = useState('');
-    const [isConfigured, setIsConfigured] = useState(false);
-    const [usingDefaultKey, setUsingDefaultKey] = useState(true);
-    const [showKey, setShowKey] = useState(false);
+    const [hasCustomKey, setHasCustomKey] = useState(false);
+    
+    const [showApiKey, setShowApiKey] = useState(false);
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
     const [showConfirmDelete, setShowConfirmDelete] = useState(false);
     const [showConfirmReset, setShowConfirmReset] = useState(false);
     const [hapticsEnabled, setHapticsEnabled] = useState(true);
-    const [showVideoPlayer, setShowVideoPlayer] = useState(false);
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        const hasCustom = hasCustomApiKey();
-        setIsConfigured(hasCustom);
-        setUsingDefaultKey(isUsingDefaultKey());
-        if (hasCustom) {
-            const key = getApiKey();
-            setApiKeyInput(key || '');
-        }
-        setHapticsEnabled(hapticsService.getEnabled());
+        setHasCustomKey(hasCustomGeminiKey());
         
-        // Check admin status
+        if (hasCustomGeminiKey()) {
+            setApiKeyInput(getGeminiApiKey());
+        }
+        
+        setHapticsEnabled(hapticsService.getEnabled());
         subscriptionService.isAdmin().then(setIsAdmin);
     }, []);
 
@@ -42,58 +44,47 @@ const Settings: React.FC = () => {
         hapticsService.toggle(newState);
     };
 
-    const handleSave = () => {
+    const handleSaveApiKey = () => {
         if (!apiKey.trim()) {
             setMessage({ type: 'error', text: 'API key cannot be empty' });
             return;
         }
-
-        const success = setApiKey(apiKey);
+        const success = setGeminiApiKey(apiKey);
         if (success) {
-            setIsConfigured(true);
-            setUsingDefaultKey(false);
-            setMessage({ type: 'success', text: 'API key saved successfully!' });
+            setHasCustomKey(true);
+            setMessage({ type: 'success', text: 'Gemini API key saved!' });
             setTimeout(() => setMessage(null), 3000);
         } else {
-            setMessage({ type: 'error', text: 'Failed to save API key. Please try again.' });
+            setMessage({ type: 'error', text: 'Failed to save API key' });
         }
     };
 
-    const handleRemove = () => {
-        const success = removeApiKey();
-        if (success) {
-            setApiKeyInput('');
-            setIsConfigured(false);
-            setUsingDefaultKey(true);
-            setShowConfirmDelete(false);
-            setMessage({ type: 'success', text: 'Custom API key removed. Using default key now.' });
-            setTimeout(() => setMessage(null), 3000);
-        } else {
-            setMessage({ type: 'error', text: 'Failed to remove API key' });
-        }
-    };
-
-    const handleWatchVideo = () => {
-        setShowVideoPlayer(true);
+    const handleRemoveApiKey = () => {
+        removeGeminiApiKey();
+        setApiKeyInput('');
+        setHasCustomKey(false);
+        setShowConfirmDelete(false);
+        setMessage({ type: 'success', text: 'API key removed.' });
+        setTimeout(() => setMessage(null), 3000);
     };
 
     return (
         <div className="pb-24 space-y-6">
             <div>
-                <h2 className="text-2xl font-bold text-gray-900">Settings</h2>
-                <p className="text-gray-500 text-sm mt-1">Configure your AI features and preferences</p>
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Settings</h2>
+                <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">Configure your AI features and preferences</p>
             </div>
 
             {/* Appearance Settings */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
                 <div className="p-6">
                     <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+                        <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center text-blue-600 dark:text-blue-400">
                             <Palette size={20} />
                         </div>
                         <div>
-                            <h3 className="font-bold text-gray-900">Appearance</h3>
-                            <p className="text-xs text-gray-500">Customize your reading experience</p>
+                            <h3 className="font-bold text-gray-900 dark:text-white">Appearance</h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">Customize your reading experience</p>
                         </div>
                     </div>
 
@@ -124,170 +115,156 @@ const Settings: React.FC = () => {
             </div>
 
             {/* Haptics Settings */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
                 <div className="p-6">
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600">
+                            <div className="w-10 h-10 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg flex items-center justify-center text-indigo-600 dark:text-indigo-400">
                                 <Smartphone size={20} />
                             </div>
                             <div>
-                                <h3 className="font-bold text-gray-900">Haptics</h3>
-                                <p className="text-xs text-gray-500">Vibration feedback</p>
+                                <h3 className="font-bold text-gray-900 dark:text-white">Haptics</h3>
+                                <p className="text-xs text-gray-500 dark:text-gray-400">Vibration feedback</p>
                             </div>
                         </div>
                         <button
                             onClick={toggleHaptics}
-                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${hapticsEnabled ? 'bg-indigo-600' : 'bg-gray-200'}`}
+                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${hapticsEnabled ? 'bg-indigo-600' : 'bg-gray-200 dark:bg-slate-600'}`}
                         >
                             <span
                                 className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${hapticsEnabled ? 'translate-x-6' : 'translate-x-1'}`}
                             />
                         </button>
                     </div>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                         Enable premium haptic feedback for interactions, correct answers, and mistakes.
                     </p>
                 </div>
             </div>
 
-            {/* API Key Configuration */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-                <div className="p-6 border-b border-gray-100">
-                    <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600">
-                                <Key size={20} />
-                            </div>
-                            <div>
-                                <h3 className="font-bold text-gray-900">Gemini API Key</h3>
-                                <p className="text-xs text-gray-500">For AI-powered features</p>
-                            </div>
+            {/* AI Provider Configuration */}
+            <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
+                <div className="p-6 border-b border-gray-100 dark:border-slate-700">
+                    <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400">
+                            <Bot size={20} />
                         </div>
-                        {usingDefaultKey ? (
-                            <div className="flex items-center gap-2 bg-blue-50 text-blue-700 px-3 py-1.5 rounded-lg text-xs font-semibold">
-                                <Sparkles size={14} />
-                                Default Key
-                            </div>
-                        ) : (
-                            <div className="flex items-center gap-2 bg-green-50 text-green-700 px-3 py-1.5 rounded-lg text-xs font-semibold">
-                                <CheckCircle2 size={14} />
-                                Custom Key
-                            </div>
-                        )}
+                        <div>
+                            <h3 className="font-bold text-gray-900 dark:text-white">AI Provider</h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">Configure Google Gemini API for AI features</p>
+                        </div>
                     </div>
 
-                    {/* Default Key Notice */}
-                    {usingDefaultKey && (
-                        <div className="bg-blue-50 border border-blue-200 rounded-xl p-3 mb-4">
-                            <p className="text-xs text-blue-700">
-                                ✨ You're using the default built-in API key. All AI features are ready to use! 
-                                Add your own key below to avoid rate limits.
+                    {/* API Key Required Notice */}
+                    {!hasCustomKey ? (
+                        <div className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl p-3 mb-4">
+                            <p className="text-xs text-amber-700 dark:text-amber-400 font-medium">
+                                ⚠️ API Key Required! Add your Gemini API key below to enable AI features (explanations, hints, quiz generation).
+                            </p>
+                        </div>
+                    ) : (
+                        <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl p-3 mb-4">
+                            <p className="text-xs text-green-700 dark:text-green-400 font-medium">
+                                ✅ AI features are active!
                             </p>
                         </div>
                     )}
 
-                    {/* API Key Input */}
-                    <div className="space-y-4">
-                        <div className="relative">
+                    {/* OpenRouter API Key */}
+                    <div>
+                        <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center gap-2">
+                                <Zap size={16} className="text-purple-500" />
+                                <span className="font-medium text-gray-900 dark:text-white text-sm">Gemini API Key</span>
+                            </div>
+                            {hasCustomKey ? (
+                                <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 px-2 py-1 rounded-lg font-medium">✓ Active</span>
+                            ) : (
+                                <span className="text-xs bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 px-2 py-1 rounded-lg font-medium">Required</span>
+                            )}
+                        </div>
+                        <div className="relative mb-2">
                             <input
-                                type={showKey ? 'text' : 'password'}
+                                type={showApiKey ? 'text' : 'password'}
                                 value={apiKey}
                                 onChange={(e) => setApiKeyInput(e.target.value)}
-                                placeholder="Enter your own Gemini API key (optional)"
-                                className="w-full px-4 py-3 pr-12 rounded-xl border border-gray-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-100 outline-none transition-all font-mono text-sm"
+                                placeholder="Enter your Gemini API key"
+                                className="w-full px-4 py-3 pr-12 rounded-xl border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-100 dark:focus:ring-purple-900/30 outline-none transition-all font-mono text-sm"
                             />
                             <button
-                                onClick={() => setShowKey(!showKey)}
-                                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                                onClick={() => setShowApiKey(!showApiKey)}
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
                             >
-                                {showKey ? <EyeOff size={18} /> : <Eye size={18} />}
+                                {showApiKey ? <EyeOff size={18} /> : <Eye size={18} />}
                             </button>
                         </div>
-
-                        {/* Action Buttons */}
-                        <div className="flex gap-3">
+                        <div className="flex gap-2">
                             <button
-                                onClick={handleSave}
-                                className="flex-1 bg-purple-600 text-white py-3 rounded-xl font-semibold hover:bg-purple-700 transition-colors shadow-lg shadow-purple-500/20"
+                                onClick={handleSaveApiKey}
+                                className="flex-1 bg-purple-600 text-white py-2.5 rounded-xl font-semibold hover:bg-purple-700 transition-colors text-sm"
                             >
-                                {isConfigured ? 'Update Key' : 'Save Custom Key'}
+                                {hasCustomKey ? 'Update' : 'Save'}
                             </button>
-                            {isConfigured && (
+                            {hasCustomKey && (
                                 <button
                                     onClick={() => setShowConfirmDelete(true)}
-                                    className="px-4 py-3 rounded-xl border border-red-200 text-red-600 hover:bg-red-50 transition-colors"
+                                    className="px-3 py-2.5 rounded-xl border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
                                 >
-                                    <Trash2 size={18} />
+                                    <Trash2 size={16} />
                                 </button>
                             )}
                         </div>
-
-                        {/* Get API Key Link and Watch Video */}
-                        <div className="flex flex-col gap-2">
-                            <a
-                                href="https://aistudio.google.com/app/apikey"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center gap-2 text-sm text-purple-600 hover:text-purple-700 font-medium"
-                            >
-                                <ExternalLink size={14} />
-                                Get your free Gemini API key
-                            </a>
-                            <button
-                                onClick={handleWatchVideo}
-                                className="flex items-center gap-2 text-sm text-indigo-600 hover:text-indigo-700 font-medium"
-                            >
-                                <PlayCircle size={14} />
-                                Watch Tutorial Video
-                            </button>
-                        </div>
+                        <a
+                            href="https://aistudio.google.com/app/apikey"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-1 text-xs text-purple-600 dark:text-purple-400 hover:underline mt-2"
+                        >
+                            <ExternalLink size={12} />
+                            Get free Gemini API key
+                        </a>
                     </div>
                 </div>
 
                 {/* Security Notice */}
-                <div className="p-6 bg-amber-50 border-t border-amber-100">
+                <div className="p-4 bg-amber-50 dark:bg-amber-900/20 border-t border-amber-100 dark:border-amber-800">
                     <div className="flex gap-3">
-                        <AlertCircle size={20} className="text-amber-600 flex-shrink-0 mt-0.5" />
-                        <div className="text-sm">
-                            <p className="font-semibold text-amber-900 mb-1">Security Notice</p>
-                            <p className="text-amber-800">
-                                Your custom API key is stored locally in your browser's localStorage. It never leaves your device.
-                                Keep your API key private and don't share it with others.
-                            </p>
-                        </div>
+                        <AlertCircle size={16} className="text-amber-600 dark:text-amber-400 flex-shrink-0 mt-0.5" />
+                        <p className="text-xs text-amber-800 dark:text-amber-300">
+                            API keys are stored locally on your device. They never leave your phone.
+                        </p>
                     </div>
                 </div>
             </div>
 
             {/* AI Features Status */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+            <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
                 <div className="p-6">
-                    <h3 className="font-bold text-gray-900 mb-4">AI-Powered Features</h3>
+                    <h3 className="font-bold text-gray-900 dark:text-white mb-4">AI-Powered Features</h3>
                     <div className="space-y-3">
-                        <div className="flex items-center gap-3 p-3 rounded-xl bg-gray-50">
-                            <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${isConfigured ? 'bg-purple-100 text-purple-600' : 'bg-gray-200 text-gray-400'}`}>
+                        <div className="flex items-center gap-3 p-3 rounded-xl bg-gray-50 dark:bg-slate-700/50">
+                            <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${hasCustomKey ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400' : 'bg-gray-200 dark:bg-gray-700 text-gray-400'}`}>
                                 <Sparkles size={16} />
                             </div>
                             <div className="flex-1">
-                                <p className="font-medium text-gray-900 text-sm">AI Explanations</p>
-                                <p className="text-xs text-gray-500">Get detailed analysis after answering</p>
+                                <p className="font-medium text-gray-900 dark:text-white text-sm">AI Explanations</p>
+                                <p className="text-xs text-gray-500 dark:text-gray-400">Get detailed analysis after answering</p>
                             </div>
-                            <div className={`text-xs font-semibold px-2 py-1 rounded ${isConfigured ? 'bg-green-100 text-green-700' : 'bg-gray-200 text-gray-600'}`}>
-                                {isConfigured ? 'Active' : 'Inactive'}
+                            <div className={`text-xs font-semibold px-2 py-1 rounded ${hasCustomKey ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400' : 'bg-gray-200 dark:bg-gray-700 text-gray-500'}`}>
+                                {hasCustomKey ? 'Active' : 'Inactive'}
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-3 p-3 rounded-xl bg-gray-50">
-                            <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${isConfigured ? 'bg-blue-100 text-blue-600' : 'bg-gray-200 text-gray-400'}`}>
+                        <div className="flex items-center gap-3 p-3 rounded-xl bg-gray-50 dark:bg-slate-700/50">
+                            <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${hasCustomKey ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400' : 'bg-gray-200 dark:bg-gray-700 text-gray-400'}`}>
                                 <HelpCircle size={16} />
                             </div>
                             <div className="flex-1">
-                                <p className="font-medium text-gray-900 text-sm">AI Hints</p>
-                                <p className="text-xs text-gray-500">Get subtle hints during quizzes</p>
+                                <p className="font-medium text-gray-900 dark:text-white text-sm">AI Hints</p>
+                                <p className="text-xs text-gray-500 dark:text-gray-400">Get subtle hints during quizzes</p>
                             </div>
-                            <div className={`text-xs font-semibold px-2 py-1 rounded ${isConfigured ? 'bg-green-100 text-green-700' : 'bg-gray-200 text-gray-600'}`}>
-                                {isConfigured ? 'Active' : 'Inactive'}
+                            <div className={`text-xs font-semibold px-2 py-1 rounded ${hasCustomKey ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400' : 'bg-gray-200 dark:bg-gray-700 text-gray-500'}`}>
+                                {hasCustomKey ? 'Active' : 'Inactive'}
                             </div>
                         </div>
                     </div>
@@ -317,23 +294,25 @@ const Settings: React.FC = () => {
             {
                 showConfirmDelete && (
                     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-                        <div className="bg-white rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
-                            <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <AlertCircle size={24} className="text-red-600" />
+                        <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
+                            <div className="w-12 h-12 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <AlertCircle size={24} className="text-red-600 dark:text-red-400" />
                             </div>
-                            <h3 className="text-lg font-bold text-gray-900 text-center mb-2">Remove API Key?</h3>
-                            <p className="text-sm text-gray-600 text-center mb-6">
-                                This will disable all AI features. You can add it back anytime.
+                            <h3 className="text-lg font-bold text-gray-900 dark:text-white text-center mb-2">
+                                Remove Gemini API Key?
+                            </h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400 text-center mb-6">
+                                This will remove your API key and disable all AI features.
                             </p>
                             <div className="flex gap-3">
                                 <button
                                     onClick={() => setShowConfirmDelete(false)}
-                                    className="flex-1 px-4 py-3 rounded-xl border border-gray-200 text-gray-700 font-semibold hover:bg-gray-50 transition-colors"
+                                    className="flex-1 px-4 py-3 rounded-xl border border-gray-200 dark:border-slate-600 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
                                 >
                                     Cancel
                                 </button>
                                 <button
-                                    onClick={handleRemove}
+                                    onClick={handleRemoveApiKey}
                                     className="flex-1 px-4 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
                                 >
                                     Remove
@@ -421,14 +400,6 @@ const Settings: React.FC = () => {
                     </div>
                 )
             }
-
-            {/* Video Player Modal */}
-            <VideoPlayerModal
-                isOpen={showVideoPlayer}
-                onClose={() => setShowVideoPlayer(false)}
-                videoSrc="/assets/api_key_tutorial.mp4"
-                title="How to Get Your Gemini API Key"
-            />
         </div >
     );
 };

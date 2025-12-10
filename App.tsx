@@ -20,10 +20,10 @@ import PreproffBlocksPage from './components/PreproffBlocksPage';
 import PreproffCollegesPage from './components/PreproffCollegesPage';
 import PreproffYearsPage from './components/PreproffYearsPage';
 import AIBlockPage from './components/AIBlockPage';
-import { getSessionAnalysisFromAI } from './services/geminiService';
-import { hasApiKey, hasShownFirstTimeModal, markFirstTimeModalShown } from './services/apiKeyService';
+import { getSessionAnalysisFromAI } from './services/aiService';
+import { hasApiKey } from './services/apiKeyService';
 import { dbService } from './services/databaseService';
-import { generateQuiz, generateStudyNotes, generateSimilarQuestions } from './services/geminiService';
+import { generateQuiz, generateStudyNotes, generateSimilarQuestions } from './services/aiService';
 import { savePaper } from './services/savedPapersService';
 import { App as CapacitorApp } from '@capacitor/app';
 import { hapticsService, NotificationType, ImpactStyle } from './services/hapticsService';
@@ -36,7 +36,6 @@ import SessionInvalidatedModal from './components/SessionInvalidatedModal';
 import BannedUserModal from './components/BannedUserModal';
 import VersionBlockedModal from './components/VersionBlockedModal';
 import AdminDashboard from './components/AdminDashboard';
-import FirstTimeApiKeyModal from './components/FirstTimeApiKeyModal';
 
 const SUBJECT_ICONS: Record<string, React.ElementType> = {
   [Subject.ENT]: Ear,
@@ -808,9 +807,11 @@ const QuizSession = () => {
           // Save the generated paper automatically
           if (loadedQuestions.length > 0 && !hasSavedPaper.current) {
             const paperBlock = block || aiConfig.block;
+            // Use custom quiz name if provided, otherwise generate one
+            const paperName = aiConfig.quizName || location.state?.quizName || `${aiConfig.topic || 'Custom Quiz'} - ${paperBlock}`;
             const newPaper = {
               id: crypto.randomUUID(),
-              name: `${paperBlock} ${aiConfig.type === 'full' ? 'Full Paper' : (aiConfig.topic || 'Custom Quiz')}`,
+              name: paperName,
               block: paperBlock,
               date: Date.now(),
               questions: loadedQuestions,
@@ -1098,9 +1099,9 @@ const QuizSession = () => {
         <h2 className="text-xl font-bold text-gray-900 animate-pulse">
           {loadingMessage}
         </h2>
-        {type === 'ai_generated' && aiConfig?.type === 'full' && (
+        {type === 'ai_generated' && (
           <p className="text-sm text-gray-500">
-            Please be patient. We are crafting a comprehensive exam based on the official syllabus.
+            Please be patient. We are crafting questions based on the syllabus.
           </p>
         )}
       </div>
@@ -1226,14 +1227,14 @@ const QuizSession = () => {
               
               <div className="mb-6">
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  Number of Questions (Max 50)
+                  Number of Questions (Max 20)
                 </label>
                 <input
                   type="number"
                   min="1"
-                  max="50"
+                  max="20"
                   value={similarQuestionCount}
-                  onChange={(e) => setSimilarQuestionCount(Math.min(50, Math.max(1, parseInt(e.target.value) || 1)))}
+                  onChange={(e) => setSimilarQuestionCount(Math.min(20, Math.max(1, parseInt(e.target.value) || 1)))}
                   className="w-full p-3 rounded-xl border border-gray-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 dark:focus:ring-emerald-900 outline-none"
                 />
                 <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
@@ -1429,7 +1430,6 @@ const App: React.FC = () => {
     <ThemeProvider>
       <VersionManager />
       <WhatsNewModal />
-      <FirstTimeApiKeyModal />
       <Router>
         <AuthProvider>
           <AuthWrapper>

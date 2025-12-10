@@ -5,7 +5,7 @@ AI-Powered Quiz & Analytics App for Medical Students.
 ## Features
 
 - 📚 Comprehensive question bank covering all MBBS subjects
-- 🤖 AI-generated quizzes using Gemini API
+- 🤖 AI-generated quizzes using OpenRouter API
 - 📊 Performance analytics and progress tracking
 - 🔖 Bookmark questions for review
 - 📱 Cross-platform (Web + Android via Capacitor)

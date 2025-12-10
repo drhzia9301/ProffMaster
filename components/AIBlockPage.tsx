@@ -58,20 +58,16 @@ const AIBlockPage = () => {
         setSelectedPaper(null);
     };
 
-    const handleStart = (config: { type: 'full' | 'custom'; topic?: string; count?: number }) => {
-        // Navigate to quiz with AI config
-        // We'll pass a special 'ai_generated' type to the quiz session
-        const isShortBlock = selectedBlock === 'Block M1' || selectedBlock === 'Block M2';
-        const fullCount = isShortBlock ? 90 : 120;
-
+    const handleStart = (config: { type: 'custom'; topic: string; count: number; quizName: string }) => {
+        // Navigate to quiz with AI config for subject-specific generation
         navigate('/quiz', {
             state: {
-                mode: config.type === 'full' ? 'exam' : 'practice',
+                mode: 'practice',
                 type: 'ai_generated',
                 block: selectedBlock,
                 aiConfig: config,
-                timeLimit: config.type === 'full' ? fullCount : undefined,
-                questionCount: config.type === 'full' ? fullCount : config.count
+                questionCount: config.count,
+                quizName: config.quizName
             }
         });
     };
@@ -134,8 +130,8 @@ const AIBlockPage = () => {
                     {savedPapers.length === 0 ? (
                         <div className="text-center py-12 text-gray-400 dark:text-gray-500">
                             <FileText size={48} className="mx-auto mb-4 opacity-20" />
-                            <p>No saved papers yet.</p>
-                            <p className="text-xs mt-1">Generate a Full Paper to see it here.</p>
+                            <p>No saved quizzes yet.</p>
+                            <p className="text-xs mt-1">Generate a quiz to see it here.</p>
                         </div>
                     ) : (
                         savedPapers.map((paper) => (

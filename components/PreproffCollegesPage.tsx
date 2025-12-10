@@ -61,9 +61,9 @@ const PreproffCollegesPage = () => {
             if (block === 'Block K') {
                 return ['NWSM', 'WMC'];
             }
-            // Block L: KMC, KGMC and NWSM
+            // Block L: KMC, KGMC, NWSM and WMC
             if (block === 'Block L') {
-                return ['KMC', 'KGMC', 'NWSM'];
+                return ['KMC', 'KGMC', 'NWSM', 'WMC'];
             }
             // Block M1: KMC, KGMC and NWSM
             if (block === 'Block M1') {

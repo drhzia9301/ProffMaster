@@ -219,7 +219,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                     console.log(`Different user detected (${lastUserId} -> ${session.user.id}), clearing previous user data`);
                     
                     // Preserve non-user-specific settings
-                    const apiKey = localStorage.getItem('gemini_api_key');
+                    const geminiKey = localStorage.getItem('gemini_api_key');
                     const theme = localStorage.getItem('theme');
                     const hapticsEnabled = localStorage.getItem('supersix_haptics_enabled');
                     const appVersion = localStorage.getItem('supersix_app_version');
@@ -228,7 +228,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
                     localStorage.clear();
                     
                     // Restore non-user-specific settings
-                    if (apiKey) localStorage.setItem('gemini_api_key', apiKey);
+                    if (geminiKey) localStorage.setItem('gemini_api_key', geminiKey);
                     if (theme) localStorage.setItem('theme', theme);
                     if (hapticsEnabled) localStorage.setItem('supersix_haptics_enabled', hapticsEnabled);
                     if (appVersion) localStorage.setItem('supersix_app_version', appVersion);

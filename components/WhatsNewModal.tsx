@@ -53,7 +53,7 @@ export const WhatsNewModal: React.FC = () => {
                                 <Zap size={24} />
                             </div>
                             <div>
-                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 45 Preproff Papers!</h3>
+                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 46 Preproff Papers!</h3>
                                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
                                     Access preproff papers from <span className="font-semibold">2023, 2024 & 2025</span> across all blocks (J, K, L, M1, M2) from KMC, KGMC, WMC, GMC, and NWSM.
                                 </p>
@@ -80,8 +80,8 @@ export const WhatsNewModal: React.FC = () => {
                             <Sparkles size={20} />
                         </div>
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">AI Questions (Up to 50!)</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Create custom quizzes with up to 50 questions per session using AI.</p>
+                            <h3 className="font-bold text-gray-900 dark:text-white">AI Questions (Up to 20!)</h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">Create custom quizzes with up to 20 questions per session using AI.</p>
                         </div>
                     </div>
 

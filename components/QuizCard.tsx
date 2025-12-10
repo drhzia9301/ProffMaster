@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Question } from '../types';
 import { CheckCircle, XCircle, Sparkles, HelpCircle, Flag, Settings, Loader2 } from 'lucide-react';
-import { getExplanationFromAI, getHintFromAI, getHighYieldPointsFromAI } from '../services/geminiService';
+import { getExplanationFromAI, getHintFromAI, getHighYieldPointsFromAI } from '../services/aiService';
 import { toggleBookmark, getBookmarks } from '../services/storageService';
 import { hasApiKey } from '../services/apiKeyService';
 import { useNavigate } from 'react-router-dom';

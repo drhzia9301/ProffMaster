@@ -10,11 +10,19 @@
  * - Validates session on app launch
  * - Forces logout on other devices when new login occurs
  * - Tracks violations for potential banning
+ * 
+ * TEMPORARY: Device checks are DISABLED to allow multiple logins
  */
 
 import { supabase } from './supabase';
 import { Capacitor } from '@capacitor/core';
 import { Device } from '@capacitor/device';
+
+// ============================================
+// TEMPORARY FLAG - SET TO TRUE TO DISABLE ALL DEVICE CHECKS
+// This allows multiple devices to login simultaneously
+// ============================================
+const DISABLE_DEVICE_CHECKS = true;
 
 // Storage key for local session token
 const SESSION_TOKEN_KEY = 'proffmaster_device_session_token';
@@ -178,6 +186,12 @@ class DeviceSessionService {
    * Check if the user is banned
    */
   async checkBanStatus(userId: string): Promise<{ isBanned: boolean; reason?: string }> {
+    // TEMPORARY: Skip ban checks when device checks are disabled
+    if (DISABLE_DEVICE_CHECKS) {
+      console.log('[DeviceSession] Device checks DISABLED - skipping ban check');
+      return { isBanned: false };
+    }
+
     try {
       const { data, error } = await supabase
         .from('profiles')
@@ -208,6 +222,17 @@ class DeviceSessionService {
     sessionToken: string;
     error?: string;
   }> {
+    // TEMPORARY: Skip device registration when checks are disabled
+    if (DISABLE_DEVICE_CHECKS) {
+      console.log('[DeviceSession] Device checks DISABLED - skipping registration');
+      const sessionToken = this.generateSessionToken();
+      this.storeSessionToken(sessionToken);
+      return {
+        success: true,
+        sessionToken
+      };
+    }
+
     try {
       const deviceInfo = await this.getDeviceInfo();
       const sessionToken = this.generateSessionToken();
@@ -297,6 +322,15 @@ class DeviceSessionService {
    * Returns false if session is invalid (user logged in elsewhere)
    */
   async validateSession(userId: string): Promise<SessionValidationResult> {
+    // TEMPORARY: Skip all device validation when disabled
+    if (DISABLE_DEVICE_CHECKS) {
+      console.log('[DeviceSession] Device checks DISABLED - allowing login');
+      return {
+        isValid: true,
+        isNewDevice: false
+      };
+    }
+
     try {
       const storedToken = this.getStoredSessionToken();
       const deviceInfo = await this.getDeviceInfo();
