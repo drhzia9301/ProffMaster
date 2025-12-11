@@ -55,7 +55,7 @@ const AIConfigModal: React.FC<AIConfigModalProps> = ({ block, onClose, onStart }
     // Form State
     const [selectedSubject, setSelectedSubject] = useState('');
     const [customTopic, setCustomTopic] = useState('');
-    const [count, setCount] = useState(20);
+    const [count, setCount] = useState(10);
     const [quizName, setQuizName] = useState('');
 
     // Get subjects for selected block
@@ -213,7 +213,7 @@ const AIConfigModal: React.FC<AIConfigModalProps> = ({ block, onClose, onStart }
                                         <input
                                             type="range"
                                             min="5"
-                                            max="20"
+                                            max="10"
                                             value={count}
                                             onChange={(e) => setCount(parseInt(e.target.value))}
                                             className="flex-1 h-2 bg-gray-200 dark:bg-slate-600 rounded-lg appearance-none cursor-pointer accent-purple-600"
@@ -222,14 +222,14 @@ const AIConfigModal: React.FC<AIConfigModalProps> = ({ block, onClose, onStart }
                                             <input
                                                 type="number"
                                                 min="1"
-                                                max="20"
+                                                max="10"
                                                 value={count}
-                                                onChange={(e) => setCount(Math.min(20, Math.max(1, parseInt(e.target.value) || 1)))}
+                                                onChange={(e) => setCount(Math.min(10, Math.max(1, parseInt(e.target.value) || 1)))}
                                                 className="w-full p-2 rounded-lg border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-center font-bold text-gray-900 dark:text-white focus:border-purple-500 outline-none"
                                             />
                                         </div>
                                     </div>
-                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Maximum: 20 questions</p>
+                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Maximum: 10 questions</p>
                                 </div>
 
                                 {/* Quiz Name */}

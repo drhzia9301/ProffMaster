@@ -80,8 +80,8 @@ export const WhatsNewModal: React.FC = () => {
                             <Sparkles size={20} />
                         </div>
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">AI Questions (Up to 20!)</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Create custom quizzes with up to 20 questions per session using AI.</p>
+                            <h3 className="font-bold text-gray-900 dark:text-white">AI Questions (Up to 10!)</h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">Create custom quizzes with up to 10 questions per session using AI.</p>
                         </div>
                     </div>
 

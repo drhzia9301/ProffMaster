@@ -779,7 +779,7 @@ export const generateQuiz = async (
           const processedQuestions = batchQuestions.map((q, idx) => ({
             ...q,
             id: `ai_${Date.now()}_${i}_${idx}`,
-            subject: (topic || block) as any,
+            subject: block as any,
             tags: [block, topic || block],
           }));
           allQuestions = [...allQuestions, ...processedQuestions];
