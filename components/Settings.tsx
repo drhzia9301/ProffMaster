@@ -54,7 +54,7 @@ const Settings: React.FC = () => {
         const success = setApiKey(apiKey);
         if (success) {
             setHasCustomKey(true);
-            setMessage({ type: 'success', text: 'Groq API key saved!' });
+            setMessage({ type: 'success', text: 'AI API key saved!' });
             setTimeout(() => setMessage(null), 3000);
         } else {
             setMessage({ type: 'error', text: 'Failed to save API key' });

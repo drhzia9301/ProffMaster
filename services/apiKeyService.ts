@@ -1,5 +1,5 @@
-// Storage keys - using groq_api_key for Groq API
-const API_KEY_STORAGE_KEY = 'groq_api_key';
+// Storage key for AI API
+const API_KEY_STORAGE_KEY = 'ai_api_key';
 
 export interface APIKeyConfig {
   apiKey: string | null;
