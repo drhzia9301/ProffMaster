@@ -1059,23 +1059,12 @@ const QuizSession = () => {
         });
 
         // Ask user if they want to start now or access later
-        const startNow = window.confirm(
-          `✅ ${newQuestions.length} similar questions generated and saved as "${paperName}"!\n\nYou can access them anytime from:\nAI Questions → Saved Papers\n\nWould you like to start practicing now?`
+        alert(
+          `✅ ${newQuestions.length} similar questions generated and saved as "${paperName}"!\n\nYou can access them from:\nAI Questions → Saved Papers`
         );
 
-        if (startNow) {
-          navigate('/quiz', {
-            state: {
-              questions: newQuestions,
-              subject: subject || 'AI Generated',
-              type: 'ai_generated',
-              mode: 'study'
-            }
-          });
-        } else {
-          // Navigate to AI questions page with saved tab selected
-          navigate('/ai-questions', { state: { tab: 'saved' } });
-        }
+        // Navigate to AI questions page with saved tab selected
+        navigate('/ai-questions', { state: { tab: 'saved' } });
       } else {
         alert('Failed to generate similar questions. Please try again.');
       }
