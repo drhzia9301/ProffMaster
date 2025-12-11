@@ -1,20 +1,17 @@
-// Storage keys
-const GEMINI_API_KEY_STORAGE_KEY = 'gemini_api_key';
-
-// No default API keys - users must add their own
-const DEFAULT_GEMINI_API_KEY = '';
+// Storage keys - using groq_api_key for Groq API
+const API_KEY_STORAGE_KEY = 'groq_api_key';
 
 export interface APIKeyConfig {
-  geminiKey: string | null;
-  hasCustomGeminiKey: boolean;
+  apiKey: string | null;
+  hasCustomKey: boolean;
 }
 
 /**
- * Get Gemini API key (user's key only, no default)
+ * Get API key (user's key only, no default)
  */
-export const getGeminiApiKey = (): string => {
+export const getApiKey = (): string => {
   try {
-    const userKey = localStorage.getItem(GEMINI_API_KEY_STORAGE_KEY);
+    const userKey = localStorage.getItem(API_KEY_STORAGE_KEY);
     if (userKey && userKey.trim() !== '') {
       return userKey;
     }
@@ -25,11 +22,11 @@ export const getGeminiApiKey = (): string => {
 };
 
 /**
- * Check if user has custom Gemini key
+ * Check if user has custom API key
  */
-export const hasCustomGeminiKey = (): boolean => {
+export const hasCustomApiKey = (): boolean => {
   try {
-    const userKey = localStorage.getItem(GEMINI_API_KEY_STORAGE_KEY);
+    const userKey = localStorage.getItem(API_KEY_STORAGE_KEY);
     return userKey !== null && userKey.trim() !== '';
   } catch (error) {
     return false;
@@ -37,27 +34,27 @@ export const hasCustomGeminiKey = (): boolean => {
 };
 
 /**
- * Save Gemini API key
+ * Save API key
  */
-export const setGeminiApiKey = (key: string): boolean => {
+export const setApiKey = (key: string): boolean => {
   try {
     if (!key || key.trim() === '') {
       throw new Error('API key cannot be empty');
     }
-    localStorage.setItem(GEMINI_API_KEY_STORAGE_KEY, key.trim());
+    localStorage.setItem(API_KEY_STORAGE_KEY, key.trim());
     return true;
   } catch (error) {
-    console.error('Error saving Gemini API key:', error);
+    console.error('Error saving API key:', error);
     return false;
   }
 };
 
 /**
- * Remove Gemini API key
+ * Remove API key
  */
-export const removeGeminiApiKey = (): boolean => {
+export const removeApiKey = (): boolean => {
   try {
-    localStorage.removeItem(GEMINI_API_KEY_STORAGE_KEY);
+    localStorage.removeItem(API_KEY_STORAGE_KEY);
     return true;
   } catch (error) {
     return false;
@@ -65,8 +62,9 @@ export const removeGeminiApiKey = (): boolean => {
 };
 
 /**
- * Check if API key is configured (user must have added at least one key)
+ * Check if API key is configured (user must have added a key)
  */
 export const hasApiKey = (): boolean => {
-  return hasCustomGeminiKey();
+  return hasCustomApiKey();
 };
+

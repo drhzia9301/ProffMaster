@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
-    getGeminiApiKey, 
-    setGeminiApiKey, 
-    removeGeminiApiKey, 
-    hasCustomGeminiKey
+    getApiKey, 
+    setApiKey, 
+    removeApiKey, 
+    hasCustomApiKey
 } from '../services/apiKeyService';
 import { resetProgress } from '../services/storageService';
 import { subscriptionService } from '../services/subscriptionService';
@@ -30,10 +30,10 @@ const Settings: React.FC = () => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        setHasCustomKey(hasCustomGeminiKey());
+        setHasCustomKey(hasCustomApiKey());
         
-        if (hasCustomGeminiKey()) {
-            setApiKeyInput(getGeminiApiKey());
+        if (hasCustomApiKey()) {
+            setApiKeyInput(getApiKey());
         }
         
         setHapticsEnabled(hapticsService.getEnabled());
@@ -51,10 +51,10 @@ const Settings: React.FC = () => {
             setMessage({ type: 'error', text: 'API key cannot be empty' });
             return;
         }
-        const success = setGeminiApiKey(apiKey);
+        const success = setApiKey(apiKey);
         if (success) {
             setHasCustomKey(true);
-            setMessage({ type: 'success', text: 'Gemini API key saved!' });
+            setMessage({ type: 'success', text: 'Groq API key saved!' });
             setTimeout(() => setMessage(null), 3000);
         } else {
             setMessage({ type: 'error', text: 'Failed to save API key' });
@@ -62,7 +62,7 @@ const Settings: React.FC = () => {
     };
 
     const handleRemoveApiKey = () => {
-        removeGeminiApiKey();
+        removeApiKey();
         setApiKeyInput('');
         setHasCustomKey(false);
         setShowConfirmDelete(false);

@@ -1,5 +1,5 @@
 import { Question } from "../types";
-import { getGeminiApiKey, hasApiKey } from "./apiKeyService";
+import { getApiKey, hasApiKey } from "./apiKeyService";
 import { dbService } from "./databaseService";
 
 // Google Gemini API configuration - Models in priority order for fallback
@@ -103,7 +103,7 @@ const callGeminiAPIWithModel = async (
   model: string,
   maxTokens: number = 2048
 ): Promise<string> => {
-  const apiKey = getGeminiApiKey();
+  const apiKey = getApiKey();
 
   if (!apiKey) {
     throw new Error("NO_API_KEY");
