@@ -206,7 +206,8 @@ export class DatabaseService {
 
         console.log('Seeding database from initial_db.enc...');
         try {
-            const response = await fetch('/assets/initial_db.enc');
+            // Add cache-busting parameter using DB_VERSION to bypass CDN cache
+            const response = await fetch(`/assets/initial_db.enc?v=${DB_VERSION}`);
             if (!response.ok) {
                 throw new Error(`Failed to fetch encrypted SQL file: ${response.status}`);
             }
@@ -400,7 +401,9 @@ export class DatabaseService {
     }
 
     private async fetchAndDecrypt(url: string): Promise<string> {
-        const response = await fetch(url);
+        // Add cache-busting parameter to bypass CDN cache
+        const cacheBustUrl = url.includes('?') ? `${url}&v=${DB_VERSION}` : `${url}?v=${DB_VERSION}`;
+        const response = await fetch(cacheBustUrl);
         if (!response.ok) {
             throw new Error(`Failed to fetch file: ${response.statusText}`);
         }
