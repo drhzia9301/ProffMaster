@@ -1,5 +1,10 @@
 import initSqlJs, { Database } from 'sql.js';
 
+// INCREMENT THIS VERSION WHEN QUESTION BANK CONTENT CHANGES
+// This forces a re-seed of the database for all users
+const DB_VERSION = 2; // v2: Fixed 47 abnormal AI explanations
+const DB_VERSION_KEY = 'proffmaster_db_version';
+
 export class DatabaseService {
     private static instance: DatabaseService;
     private db: Database | null = null;
@@ -8,6 +13,38 @@ export class DatabaseService {
     private initPromise: Promise<void> | null = null;
 
     private constructor() { }
+    
+    private getStoredDbVersion(): number {
+        try {
+            const stored = localStorage.getItem(DB_VERSION_KEY);
+            return stored ? parseInt(stored, 10) : 0;
+        } catch {
+            return 0;
+        }
+    }
+    
+    private setStoredDbVersion(version: number): void {
+        try {
+            localStorage.setItem(DB_VERSION_KEY, version.toString());
+        } catch {
+            console.warn('Failed to save DB version');
+        }
+    }
+    
+    private async clearIndexedDB(): Promise<void> {
+        try {
+            const db = await this.openIndexedDB();
+            return new Promise((resolve, reject) => {
+                const transaction = db.transaction(['sqlite'], 'readwrite');
+                const store = transaction.objectStore('sqlite');
+                const request = store.delete('main_db');
+                request.onerror = () => reject(request.error);
+                request.onsuccess = () => resolve();
+            });
+        } catch (error) {
+            console.warn('Failed to clear IndexedDB:', error);
+        }
+    }
 
     public static getInstance(): DatabaseService {
         if (!DatabaseService.instance) {
@@ -47,7 +84,16 @@ export class DatabaseService {
             });
             console.log('✓ SQL.js initialized');
 
-            const savedDb = await this.loadFromIndexedDB();
+            // Check if database version has changed (content update)
+            const storedVersion = this.getStoredDbVersion();
+            const needsReseed = storedVersion < DB_VERSION;
+            
+            if (needsReseed) {
+                console.log(`📦 Database update detected (v${storedVersion} -> v${DB_VERSION}). Re-seeding...`);
+                await this.clearIndexedDB();
+            }
+
+            const savedDb = needsReseed ? null : await this.loadFromIndexedDB();
             if (savedDb) {
                 try {
                     console.log('Loading existing database from IndexedDB...');
@@ -58,6 +104,7 @@ export class DatabaseService {
                     this.db = new SQL.Database();
                     await this.seedDatabase();
                     await this.saveDatabase();
+                    this.setStoredDbVersion(DB_VERSION);
                 }
             } else {
                 console.log('Creating new database...');
@@ -66,6 +113,7 @@ export class DatabaseService {
 
                 await this.seedDatabase();
                 await this.saveDatabase();
+                this.setStoredDbVersion(DB_VERSION);
             }
 
             // Ensure preproff table exists (migration)
