@@ -2,7 +2,7 @@ import initSqlJs, { Database } from 'sql.js';
 
 // INCREMENT THIS VERSION WHEN QUESTION BANK CONTENT CHANGES
 // This forces a re-seed of the database for all users
-const DB_VERSION = 3; // v3: Fixed meningitis question (pathology_1491) - S. pneumoniae is correct
+const DB_VERSION = 4; // v4: Fixed Mumps MCQ (Secondary attack rate question) - answer changed to Mumps
 const DB_VERSION_KEY = 'proffmaster_db_version';
 
 export class DatabaseService {
