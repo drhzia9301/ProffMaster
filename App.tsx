@@ -1221,9 +1221,9 @@ const QuizSession = () => {
                 <input
                   type="number"
                   min="1"
-                  max="20"
+                  max="10"
                   value={similarQuestionCount}
-                  onChange={(e) => setSimilarQuestionCount(Math.min(20, Math.max(1, parseInt(e.target.value) || 1)))}
+                  onChange={(e) => setSimilarQuestionCount(Math.min(10, Math.max(1, parseInt(e.target.value) || 1)))}
                   className="w-full p-3 rounded-xl border border-gray-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 dark:focus:ring-emerald-900 outline-none"
                 />
                 <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">

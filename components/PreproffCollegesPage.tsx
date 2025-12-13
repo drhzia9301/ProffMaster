@@ -7,49 +7,50 @@ const PreproffCollegesPage = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const { block, year } = location.state || {};
-    const colleges = ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC'];
+    // Updated colleges list with new colleges: AMC, RMC, KIMS, NMC
+    const colleges = ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC', 'AMC', 'RMC', 'KIMS', 'NMC'];
     const [selectedCollege, setSelectedCollege] = useState<string | null>(null);
 
     // Available colleges for each block/year combination
     const getAvailableColleges = () => {
         if (year === '2023') {
-            // Block J: All 5 colleges (KGMC now added)
+            // Block J: Original 5 colleges + KIMS and RMC
             if (block === 'Block J') {
-                return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC'];
+                return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC', 'KIMS', 'RMC'];
             }
-            // Block K: All 5 colleges
+            // Block K: All original 5 colleges
             if (block === 'Block K') {
                 return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC'];
             }
-            // Block L: All 5 colleges
+            // Block L: All original 5 colleges
             if (block === 'Block L') {
                 return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC'];
             }
-            // Block M1: WMC, GMC, KGMC, KMC (no NWSM)
+            // Block M1: WMC, GMC, KGMC, KMC + AMC, NMC, NWSM (new - ENT papers)
             if (block === 'Block M1') {
-                return ['KMC', 'KGMC', 'GMC', 'WMC'];
+                return ['KMC', 'KGMC', 'GMC', 'WMC', 'AMC', 'NMC', 'NWSM'];
             }
-            // Block M2: All 5 colleges (KGMC and KMC now added)
+            // Block M2: All 5 colleges + KIMS
             if (block === 'Block M2') {
-                return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC'];
+                return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC', 'KIMS'];
             }
         }
         if (year === '2024') {
-            // Block J: KMC only (from jkmc2024.txt)
+            // Block J: KMC + GMC, WMC (2024 papers - removed KGMC)
             if (block === 'Block J') {
-                return ['KMC'];
+                return ['KMC', 'GMC', 'WMC'];
             }
             // Block L: GMC, KMC, WMC
             if (block === 'Block L') {
                 return ['KMC', 'GMC', 'WMC'];
             }
-            // Block M1: GMC, WMC (KMC moved to M2)
+            // Block M1: GMC, WMC + KMC (new 2024)
             if (block === 'Block M1') {
-                return ['GMC', 'WMC'];
+                return ['GMC', 'WMC', 'KMC'];
             }
-            // Block M2: GMC, KMC
+            // Block M2: GMC, KMC + KGMC (new 2024)
             if (block === 'Block M2') {
-                return ['KMC', 'GMC'];
+                return ['KMC', 'GMC', 'KGMC'];
             }
         }
         if (year === '2025') {
@@ -124,36 +125,23 @@ const PreproffCollegesPage = () => {
             <p className="text-gray-500 -mt-4">Block: <span className="text-medical-600 font-bold">{block}</span> • Year: <span className="text-medical-600 font-bold">{year}</span></p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {colleges.map((college) => {
-                    const isAvailable = availableColleges.includes(college);
-                    return (
-                        <button
-                            key={college}
-                            onClick={() => handleCollegeSelect(college)}
-                            disabled={!isAvailable}
-                            className={`p-5 rounded-2xl border shadow-sm transition-all text-left flex items-center justify-between group ${
-                                isAvailable
-                                    ? 'bg-white border-gray-100 hover:shadow-md hover:border-medical-200 cursor-pointer'
-                                    : 'bg-gray-50 border-gray-200 opacity-50 cursor-not-allowed'
-                            }`}
-                        >
-                            <div className="flex items-center gap-4">
-                                <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-transform ${
-                                    isAvailable
-                                        ? 'bg-teal-50 text-teal-600 group-hover:scale-110'
-                                        : 'bg-gray-200 text-gray-400'
-                                }`}>
-                                    <School size={24} />
-                                </div>
-                                <div>
-                                    <h3 className={`font-bold ${isAvailable ? 'text-gray-900' : 'text-gray-500'}`}>{college}</h3>
-                                    {!isAvailable && <p className="text-xs text-gray-400">Coming Soon</p>}
-                                </div>
+                {availableColleges.map((college) => (
+                    <button
+                        key={college}
+                        onClick={() => handleCollegeSelect(college)}
+                        className="bg-white border-gray-100 hover:shadow-md hover:border-medical-200 cursor-pointer p-5 rounded-2xl border shadow-sm transition-all text-left flex items-center justify-between group"
+                    >
+                        <div className="flex items-center gap-4">
+                            <div className="w-12 h-12 rounded-xl flex items-center justify-center transition-transform bg-teal-50 text-teal-600 group-hover:scale-110">
+                                <School size={24} />
                             </div>
-                            <ArrowRight size={20} className={isAvailable ? 'text-gray-300 group-hover:text-medical-600 transition-colors' : 'text-gray-300'} />
-                        </button>
-                    );
-                })}
+                            <div>
+                                <h3 className="font-bold text-gray-900">{college}</h3>
+                            </div>
+                        </div>
+                        <ArrowRight size={20} className="text-gray-300 group-hover:text-medical-600 transition-colors" />
+                    </button>
+                ))}
             </div>
 
             {selectedCollege && (

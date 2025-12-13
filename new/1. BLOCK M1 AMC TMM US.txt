@@ -1,0 +1,601 @@
+[
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 50 years old patient presented with unilateral earache and discharge, she is known diabetic with uncontrolled blood sugar. On examination there is a swelling of the EAM and discharge. The most probable diagnosis is",
+"options": [
+"a. CSOM",
+"b. Squamous Cell carcinoma",
+"c. Malignant otitis externa",
+"d. Acute otitis media",
+"e. foreign body in the ear"
+],
+"answer": "c",
+"explanation": "Malignant (necrotizing) otitis externa is a severe infection of the external ear canal, typically caused by Pseudomonas aeruginosa, occurring in elderly diabetic or immunocompromised patients. Key features include severe otalgia, otorrhea, and granulation tissue/swelling in the EAM."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A nine months old baby has put a plastic bead in his car. On otoscopy, it is present in deeper portion of meatus and totally occluding the meatus. The best way to remove this bead is:",
+"options": [
+"a. Remove it with foreign body hook.",
+"b. Remove it with crocodile forceps",
+"c. Remove it with suction.",
+"d. Remove it with ear syringing.",
+"e. Remove it under general anesthesia using microscope"
+],
+"answer": "e",
+"explanation": "A spherical, smooth foreign body (like a bead) that is tightly impacted or deep in the canal of an uncooperative infant is best removed under general anesthesia to prevent injury to the tympanic membrane or canal walls."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 25 year old girl has had car disease for the past 10 years. She came to the emergency with fever and tender swelling located below the mastoid process. What is the name of this abscess?",
+"options": [
+"a. Citelli's abscess",
+"b. Parapharyngeal abscess",
+"c. Bezold's abscess",
+"d. Retropharyngeal abscess"
+],
+"answer": "c",
+"explanation": "Bezold's abscess is a complication of mastoiditis where pus breaks through the mastoid tip into the sheath of the sternocleidomastoid muscle, presenting as a swelling in the upper neck below the mastoid process."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A fifty year old male with uncontrolled diabetes and history of chronic sinusitis presented to the emergency with facial pain severe headache. On examination there is ptosis and opthalmoplegia. What is the most likely diagnosis?",
+"options": [
+"a. Superior orbital fissure syndrome",
+"b. Sub periosteal abscess",
+"c. Orbital abscess",
+"d. Cavernous sinus thrombosis",
+"e. Orbital cellulitis"
+],
+"answer": "d",
+"explanation": "In a diabetic patient with sinusitis, the development of ophthalmoplegia, ptosis, and severe headache suggests extension of infection (or invasive fungal disease) to the cavernous sinus (Cavernous Sinus Thrombosis) or orbital apex. Cavernous sinus thrombosis classically involves CN III, IV, VI, V1, and V2."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "An artillery officer with noise-induced hearing loss complains of tinnitus and difficulty hearing in noisy surroundings but no difficulty in day-to-day hearing. The audiogram shows a typical notch at which frequency?",
+"options": [
+"a. 2KHz",
+"b. 4KHz",
+"c. 6KHz",
+"d. 8KHz",
+"e. 500Hz"
+],
+"answer": "b",
+"explanation": "Noise-induced hearing loss (NIHL) is characteristically associated with a dip or 'notch' in hearing sensitivity at 4000 Hz (4 KHz)."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old hypertensive patient presented with tinnitus and hearing loss after taking a drug for hypertension. Which of the following drugs can cause it?",
+"options": [
+"a. Lisinopril",
+"b. Valsartan",
+"c. Amlodipine",
+"d. Losartan",
+"e. Furosemide"
+],
+"answer": "e",
+"explanation": "Furosemide is a loop diuretic that is known to be ototoxic, potentially causing tinnitus and sensorineural hearing loss."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A three-year-old child has been using a hearing aid for the past year with no improvement in speech development. What is the next step in management of this child?",
+"options": [
+"a. Cochlear implant",
+"b. Speech therapy",
+"c. Bone-anchored hearing aid",
+"d. Special needs school",
+"e. Lip reading classes"
+],
+"answer": "a",
+"explanation": "If a child with profound hearing loss does not benefit from hearing aids (no improvement in speech/hearing), a cochlear implant is the indicated intervention to bypass the cochlear damage and stimulate the nerve directly."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "An 11-year-old boy with ear disease for the past 7 years came to the emergency with fever and swelling behind the ear. He also has pain which is throbbing in nature. What is the confirmatory sign for mastoiditis in this child?",
+"options": [
+"a. Postauricular abscess",
+"b. Absent retroauricular sulcus",
+"c. High-grade fever",
+"d. Discharge in the ear",
+"e. Neck node swelling"
+],
+"answer": "a",
+"explanation": "Acute mastoiditis is clinically diagnosed by signs including mastoid tenderness and swelling. A 'postauricular abscess' (pus collection behind the ear) confirms the spread of infection through the mastoid cortex. Note: In mastoiditis, the retroauricular sulcus is typically preserved (pinna pushed forward/down), whereas in furunculosis it is obliterated."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 7-year-old child is brought to the OPD with a history of pain and discharge from the right ear for the last day. There is no history of ear problems in the past. Diagnosis?",
+"options": [
+"a. Secretory otitis media",
+"b. Acute suppurative otitis media",
+"c. Chronic suppurative otitis media",
+"d. Otitis externa",
+"e. Otomycosis"
+],
+"answer": "b",
+"explanation": "Sudden onset of ear pain and discharge in a child with no prior history is characteristic of Acute Suppurative Otitis Media (ASOM) with spontaneous perforation."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 35-year-old male patient is going to be operated for the excision of a schwannoma of the right parapharyngeal space in the poststyloid compartment. The nerve at risk of being damaged during surgery would be:",
+"options": [
+"a. Facial nerve",
+"b. Spinal accessory nerve",
+"c. Auriculotemporal nerve",
+"d. Marginal mandibular nerve",
+"e. Vidian nerve"
+],
+"answer": "b",
+"explanation": "The poststyloid compartment of the parapharyngeal space contains the carotid sheath, cranial nerves IX, X, XI (Spinal Accessory), XII, and the sympathetic chain. Excision of masses here puts these nerves at risk. The Facial nerve is in the parotid (prestyloid)."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A patient underwent tracheostomy for upper airway obstruction because of the Ludwig's angina. The resident during the procedure injured a vessel bleeding profusely and he had to call the senior to help him. The common vessel that bleeds during tracheotomy is",
+"options": [
+"a. Internal carotid artery",
+"b. External carotid artery",
+"c. Internal jugular vein",
+"d. Ant jugular vein",
+"e. Inferior thyroid artery"
+],
+"answer": "d",
+"explanation": "The anterior jugular veins run vertically in the front of the neck and can be injured during the midline incision/dissection for tracheostomy, leading to troublesome bleeding."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 10 year old boy came to the OPD with sore throat and fever. On examination he was pale and the fever was high grade. Which of the following is the most dangerous differential diagnosis in the child.",
+"options": [
+"a. acute tonsillitis",
+"b. acute pharyngitis",
+"c. peritonsillar abscess",
+"d. Leukemia",
+"e. infectious mononucleosis"
+],
+"answer": "d",
+"explanation": "Pallor combined with high fever and sore throat (possible ulcerative pharyngitis) raises suspicion for Leukemia (malignancy/marrow failure), which is the most dangerous diagnosis among the options."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 9 months old baby comes to the OPD with feeding difficulty. On examination, cleft palate was observed. Which muscle is most important when the repair of the soft palate is undertaken?",
+"options": [
+"a. Superior constrictor",
+"b. Palatoglossus",
+"c. Stylopharyngeus",
+"d. Tensor veli palatini",
+"e. Middle constrictor"
+],
+"answer": "d",
+"explanation": "While the Levator Veli Palatini is crucial for function, the Tensor Veli Palatini is often surgically addressed (e.g., tenotomy or release from the hamulus) during palatoplasty to relieve tension on the repair line."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "An 11-year-old child came to the emergency with stridor and a dirty gray membrane over the tonsils. His throat swab was taken and showed Corynebacterium diphtheriae growth. According to his mother, the patient is sensitive to penicillin. What could be the drug of choice in penicillin-sensitive patients?",
+"options": [
+"a. Amoxicillin with clavulanic acid",
+"b. Moxifloxacin",
+"c. I/V corticosteroids before penicillin",
+"d. Ceftriaxone",
+"e. Erythromycin"
+],
+"answer": "e",
+"explanation": "Erythromycin is the standard alternative antibiotic for treating Diphtheria in patients who are allergic to Penicillin."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 15-year-old boy presented with progressive nasal obstruction and recurrent epistaxis for the last two months. On examination, there is a pinkish mass in the right side of the nose. Investigations confirm angiofibroma. This tumor arises from:",
+"options": [
+"a. Lateral wall of nose",
+"b. Medial wall of nose",
+"c. Roof of nasopharynx",
+"d. Posterior nasal cavity close to sphenopalatine foramen",
+"e. Inferior turbinate"
+],
+"answer": "d",
+"explanation": "Juvenile Nasopharyngeal Angiofibroma (JNA) typically arises from the superior margin of the sphenopalatine foramen in the posterior nasal cavity."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 60-year-old male came to the OPD with a large irregular mass on the posterior pharyngeal wall. Biopsy was taken and it was diagnosed as a malignant lesion. What is the most likely malignant tumor in this patient?",
+"options": [
+"a. Squamous cell carcinoma",
+"b. Basal cell carcinoma",
+"c. Lymphoma",
+"d. Melanoma",
+"e. Malignant melanoma"
+],
+"answer": "a",
+"explanation": "Squamous Cell Carcinoma is the most common malignancy of the pharynx (including oropharynx and hypopharynx)."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A sixty-year-old male is diagnosed with nasopharyngeal carcinoma. The mainstay of treatment is:",
+"options": [
+"a. Chemotherapy",
+"b. Radiotherapy",
+"c. Surgery",
+"d. Combined modality treatment",
+"e. Embolization"
+],
+"answer": "b",
+"explanation": "Nasopharyngeal carcinoma is highly radiosensitive, making Radiotherapy the mainstay of treatment."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 26-year-old man presents to the ENT clinic with sudden onset high fever of one day duration. On examination, both tonsils were enlarged with a whitish membrane over the right tonsil, petechiae over the palate, and palpable jugulodigastric lymph nodes. What is the most possible diagnosis?",
+"options": [
+"a. Acute membranous tonsillitis",
+"b. Infectious mononucleosis",
+"c. Diphtheria",
+"d. Quinsy",
+"e. Leukemia"
+],
+"answer": "b",
+"explanation": "The clinical triad of fever, tonsillar pharyngitis (often membranous), and lymphadenopathy, accompanied by palatal petechiae in a young adult, is classic for Infectious Mononucleosis."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A five-year-old female child got an injury in the prestyloid compartment of the right parapharyngeal space while playing. The vessel most likely to get injured would be:",
+"options": [
+"a. Superficial temporal artery",
+"b. Maxillary artery",
+"c. Facial artery",
+"d. Internal jugular vein",
+"e. External carotid artery"
+],
+"answer": "e",
+"explanation": "The prestyloid compartment of the parapharyngeal space contains the deep lobe of the parotid gland and is traversed by the External Carotid Artery (and its terminal branches)."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 55-year-old male presented with bilateral cervical lymphadenopathy for the last six months. The FNAC of the lymph node suggests metastatic carcinoma. The most likely site of primary in this patient could be:",
+"options": [
+"a. Nasopharynx",
+"b. Hypopharynx",
+"c. Oropharynx",
+"d. Larynx",
+"e. Oral cavity"
+],
+"answer": "a",
+"explanation": "The nasopharynx is a 'silent area' where tumors often present late with cervical lymphadenopathy (often bilateral) as the first sign, before local symptoms appear."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A fifty years old female underwent total thyroidectomy, post op she's complaining of hoarseness. Which nerve is more vulnerable to damage during thyroid surgery",
+"options": [
+"a. Right recurrent laryngeal nerve",
+"b. Left recurrent laryngeal nerve",
+"c. Glossopharyngeal nerve",
+"d. Superior laryngeal nerve",
+"e. Internal laryngeal nerve"
+],
+"answer": "a",
+"explanation": "The Recurrent Laryngeal Nerve (RLN) is most vulnerable during thyroidectomy. Injury leads to vocal cord palsy and hoarseness. The right RLN has a more oblique course and is sometimes considered at higher risk of inadvertent injury if not identified."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A new born baby presented with weak cry and hoarseness, the most probable diagnosis:",
+"options": [
+"a. Laryngomalacia.",
+"b. Subglotic stenosis.",
+"c. Subglotic hemangioma.",
+"d. Vocal cord palsy.",
+"e. Tracheomalacia"
+],
+"answer": "d",
+"explanation": "Hoarseness and a weak cry in a newborn are characteristic of vocal cord palsy (often due to birth trauma stretching the RLN). Laryngomalacia presents with stridor, not hoarseness."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 45 year old male came to the OPD with weight loss and hoarseness and was diagnosed as having laryngeal tuberculosis. Which of these is the most serious complication of this disease?",
+"options": [
+"a. Vocal cord scarring",
+"b. Laryngeal stenosis",
+"c. Excessive bleeding",
+"d. Permanent hoarseness",
+"e. Pulmonary complications"
+],
+"answer": "b",
+"explanation": "Tuberculosis of the larynx causes extensive fibrosis during healing, which can lead to laryngeal stenosis, a serious complication affecting the airway."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 3-year-old child came to the ER with stridor, croupy cough, and cyanosis. He has had a fever of 39 degrees for the last 2 days. What is the organism involved in this child?",
+"options": [
+"a. Mycoplasma",
+"b. Staph aureus",
+"c. Strep pneumonia",
+"d. Parainfluenza virus",
+"e. H influenza"
+],
+"answer": "d",
+"explanation": "The presentation of stridor and a 'croupy' (barking) cough is typical of Croup (Laryngotracheobronchitis), which is most commonly caused by the Parainfluenza virus."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 20-year-old male came to the ER after injury during a football game. He presented with hoarseness, difficulty in speech, and pain in the neck. On examination, there is tenderness over the thyroid cartilage. What is the most likely injury?",
+"options": [
+"a. Tracheal injury",
+"b. Laryngeal hematoma",
+"c. Vocal cord palsy",
+"d. Laryngeal fracture",
+"e. Thyroid injury"
+],
+"answer": "d",
+"explanation": "Blunt trauma to the neck causing hoarseness, pain, speech difficulty, and specific tenderness over the thyroid cartilage is highly suggestive of a laryngeal fracture."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old female presents with difficulty breathing for the last 3 months. She also has a history of weight loss. Suspected to have a hypopharyngeal tumor. The best way to confirm her diagnosis is:",
+"options": [
+"a. X-ray soft tissue neck lateral view in extension",
+"b. Barium swallow",
+"c. CT neck",
+"d. MRI neck",
+"e. Direct laryngoscopy and biopsy"
+],
+"answer": "e",
+"explanation": "Definitive diagnosis of a hypopharyngeal tumor requires tissue for histopathology, which is obtained via direct laryngoscopy and biopsy."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 50 year old patient presented with unilateral nasal mass with sudden loss of vision on that side. Mucormycosis was suspected. The investigation of choice for the patient is",
+"options": [
+"a. Complete blood count.",
+"b. X-ray PNS.",
+"c. Blood culture.",
+"d. Biopsy and Histopathology.",
+"e. CT scan."
+],
+"answer": "d",
+"explanation": "The definitive diagnosis of Mucormycosis (invasive fungal sinusitis) is made by demonstrating the characteristic broad, aseptate hyphae on tissue biopsy/histopathology."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 40 years old diabetic patient presented with swollen nose, she is diagnosed to have a cellulitis nose secondary to the infection of the hair follicle. The most common organism involved in the disease is",
+"options": [
+"a. Streptococcus",
+"b. E. coli",
+"c. Staph aureus",
+"d. Klebsiella",
+"e. Moraxallacataralis"
+],
+"answer": "c",
+"explanation": "Nasal furunculosis (infection of the hair follicle leading to cellulitis) is most commonly caused by Staphylococcus aureus."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "The patient after a road traffic accident presented with clear watery fluid from the nose, and it was suspected to have CSF rhinorrhoea. The most specific test for the diagnosis is",
+"options": [
+"a. CT scan",
+"b. X-ray of the skull",
+"c. MRI brain",
+"d. Culture and sensitivity of the discharge",
+"e. Beta 2 transferrin"
+],
+"answer": "e",
+"explanation": "Beta-2 transferrin is a protein found uniquely in CSF (and perilymph/aqueous humor) but not in nasal secretions, making its detection the gold standard/most specific test for confirming CSF rhinorrhea."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A Young male presented in ENT OPD with nasal obstruction occasional epistaxis and conductive deafness, his palate is pushed downwards and he has bilateral neck nodes. What is your most probable diagnosis?",
+"options": [
+"a. AC polyp",
+"b. Ethmoidal polyp",
+"c. Carcinoma larynx",
+"d. Carcinoma nasopharynx",
+"e. Nasopharyngeal angiofibroma"
+],
+"answer": "e",
+"explanation": "The classic presentation of a Juvenile Nasopharyngeal Angiofibroma (JNA) is in a 'Young male' with nasal obstruction, epistaxis, and a large mass that may push the soft palate downwards ('frog face' deformity). While neck nodes are more typical of carcinoma, the age and specific signs like palate displacement strongly favor JNA in MCQ contexts."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 45-year-old male patient presents with nasal congestion, facial pain, and the presence of nasal ulcers. The patient has saddle nose deformity with destruction of the nasal septum. What is the most likely diagnosis?",
+"options": [
+"a. Sarcoidosis",
+"b. Wegener's granulomatosis",
+"c. Tuberculosis",
+"d. Syphilis",
+"e. Fungal sinusitis"
+],
+"answer": "b",
+"explanation": "Wegener's granulomatosis (Granulomatosis with polyangiitis) is a systemic vasculitis that commonly presents with sinonasal symptoms including crusting, ulcers, septal perforation, and saddle nose deformity."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 20-year-old male had trauma to the nose in a road traffic accident one day ago. Now he is complaining of bilateral nasal obstruction and discomfort. Diagnosis?",
+"options": [
+"a. Fracture nasal bones",
+"b. Septal hematoma",
+"c. Septal abscess",
+"d. Deviated nasal septum",
+"e. Rhinitis"
+],
+"answer": "b",
+"explanation": "Bilateral nasal obstruction following recent trauma is a hallmark of a septal hematoma (collection of blood lifting the mucoperichondrium). This requires prompt drainage to prevent abscess and necrosis."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A patient diagnosed to have repeated swelling and pain in the submandibular region. On examination the patient is tender along the submandibular region and floor of the mouth on that side. Stone formation is more common in",
+"options": [
+"a. Parotid gland",
+"b. Lingual gland",
+"c. Submandibular gland",
+"d. Minor salivary glands",
+"e. Tonsils"
+],
+"answer": "c",
+"explanation": "Sialolithiasis (stone formation) is most common in the Submandibular gland (80-90%) due to the alkaline, mucinous nature of its saliva and the antigravity drainage of Wharton's duct."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old male undergoes a right superficial parotidectomy. Eight months later he presents to the outpatient department complaining of flushing and sweating of the right side of his face on eating. He is diagnosed as having Frey's syndrome and is listed for botulinum toxin injections. Misdirected re-innervation of which nerve is responsible for this syndrome?",
+"options": [
+"a. Greater auricular nerve",
+"b. Facial nerve",
+"c. Trigeminal nerve",
+"d. Auriculotemporal nerve",
+"e. Greater petrosal nerve"
+],
+"answer": "d",
+"explanation": "Frey's syndrome (Gustatory sweating) is caused by aberrant regeneration of severed parasympathetic fibers of the Auriculotemporal nerve, which innervate the sweat glands of the skin instead of the parotid gland."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 45 year old gentleman is taking to the operating theatre to have excision of right submandibular pleomorphic adenoma. Which of the following structures is most at risk of being damaged at the beginning of the procedure?",
+"options": [
+"a. The lingual nerve",
+"b. The hypoglossal nerve",
+"c. Marginal mandibular nerve",
+"d. Submandibular duct",
+"e. Glossopharyngeal nerve"
+],
+"answer": "c",
+"explanation": "The Marginal Mandibular branch of the Facial nerve runs superficially in the deep cervical fascia overlying the submandibular gland. It is the first nerve at risk during the incision and raising of the subplatysmal flap."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old female presents with right submandibular swelling for the last 7 years. FNAC of swelling suggests pleomorphic adenoma of the submandibular gland. Best treatment option?",
+"options": [
+"a. Radiotherapy",
+"b. Chemotherapy",
+"c. Submandibular gland excision",
+"d. Submandibular gland excision + radiotherapy",
+"e. Submandibular gland excision + chemotherapy"
+],
+"answer": "c",
+"explanation": "The treatment of choice for a pleomorphic adenoma (benign tumor) of the submandibular gland is complete excision of the gland."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 5 years old boy brought to the hospital with ingested coin. X Ray showed a coin impacted in the esophagus. The impaction of FB in the esophagus is",
+"options": [
+"a. Upper esophageal sphincter.",
+"b. At the crossing of left main bronchus.",
+"c. At the level of aortic arch.",
+"d. Mid esophagus.",
+"e. Lower esophageal sphincter."
+],
+"answer": "a",
+"explanation": "Foreign bodies in children most commonly impact at the cricopharyngeal constriction (Upper Esophageal Sphincter), which is the narrowest part of the esophagus."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A patient, after undergoing esophagoscopy is running high grade fever with pain in the chest radiating between the shoulder blades at the back, the most probable diagnosis for this patient is",
+"options": [
+"a. Haematoma formation.",
+"b. Perforation of the esophagus.",
+"c. Trauma to the larynx.",
+"d. Pneumonia.",
+"e. Aortic aneurysm."
+],
+"answer": "b",
+"explanation": "Fever and severe chest/back pain radiating between the shoulder blades following esophagoscopy are classic signs of esophageal perforation leading to mediastinitis."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A 45 year-old woman presents with lethargy, easy fatigability and difficulty swallowing. She has nail spooning, angular cheilitis and pale mucous membranes. A barium swallow shows constriction at the cricopharynx. The most likely diagnosis is",
+"options": [
+"a. Achalasia cardia",
+"b. Dysphagia lusoria",
+"c. Nutcracker oesophagus",
+"d. Plummer Vinson syndrome",
+"e. Oesophageal carcinoma"
+],
+"answer": "d",
+"explanation": "The combination of iron deficiency anemia (lethargy, spoon nails/koilonychia, cheilitis) and dysphagia due to a post-cricoid web is the triad of Plummer-Vinson (Paterson-Kelly) syndrome."
+},
+{
+"id": "amc",
+"block": "m1",
+"year": "2023",
+"question": "A patient 40 yrs old brought to the hospital after a road traffic accident. He is bleeding from the ear and nose, The most appropriate investigation to rule out skull base fracture is",
+"options": [
+"a. X ray of the skull",
+"b. X ray of the temporal bone",
+"c. MRI of the temporal bone",
+"d. High resolution CT scan",
+"e. Diagnostic endoscopy"
+],
+"answer": "d",
+"explanation": "A High Resolution CT scan (HRCT) is the imaging modality of choice for diagnosing and evaluating skull base fractures."
+}
+]

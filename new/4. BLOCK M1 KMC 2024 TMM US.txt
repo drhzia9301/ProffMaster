@@ -1,0 +1,885 @@
+[
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 15-year-old patient has presented to OPD with foul-smelling discharge from the right ear and decreased hearing level for the last 1 year. On otoscopic examination, a cholesteatoma is seen in the attic region as pearl-white material. CT scan shows hypodense opacity in the right mastoid antrum. What is the most likely diagnosis in this case?",
+"options": [
+"a. Acute Suppurative Otitis Media",
+"b. Chronic Suppurative Otitis Media",
+"c. Otosclerosis",
+"d. Secretory Otitis Media",
+"e. Tympanosclerosis"
+],
+"answer": "b",
+"explanation": "The presence of foul-smelling discharge and cholesteatoma (attic disease) characterizes unsafe Chronic Suppurative Otitis Media (CSOM)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 15-year-old patient has presented to a consultant clinic for complaining of right ear discharge, swelling, and pain for the last 20 days. The consultant notices a swelling and labels it as an extracranial complication of chronic suppurative otitis media along the sternocleidomastoid muscle. CT Scan shows erosion of the bone at the mastoid angle. What is the most likely diagnosis in this case?",
+"options": [
+"a. Bezold's Abscess",
+"b. Citelli Abscess",
+"c. Luc's Abscess",
+"d. Mastoid Abscess",
+"e. Zygomatic Abscess"
+],
+"answer": "a",
+"explanation": "Bezold's abscess is an extracranial complication of mastoiditis where pus tracks into the sternocleidomastoid muscle sheath due to erosion of the mastoid tip."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 12-year-old patient has presented to the Emergency Room complaining of fever and rigors for the last 4 days. He is also a diagnosed case of cholesteatoma in the left ear. The consultant advised a Magnetic Resonance Venography to show venous flow, and PTA shows mixed hearing loss. What is the most likely clinical diagnosis in this case?",
+"options": [
+"a. Acute mastoiditis",
+"b. Acute pyogenic meningitis",
+"c. Cerebellar abscess",
+"d. Lateral sinus thrombosis",
+"e. Otic hydrocephalus"
+],
+"answer": "d",
+"explanation": "Fever with rigors (picket-fence fever) and cholesteatoma are classic signs of Lateral Sinus Thrombosis. MRV is diagnostic for venous flow obstruction."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 5-year-old patient is brought to a consultant clinic by his parents complaining of pain in his right ear of sudden onset of three hours duration. Otoscopy shows red congested Tympanic membrane with bulge in the centre and the patient is febrile too. What is the most likely route of spread of infection in this case?",
+"options": [
+"a. Direct spread from external ear",
+"b. Haematogenous spread",
+"c. Infection of the Para Nasal Sinus",
+"d. Patulous Eustachian Tube",
+"e. Shorter and wider Eustachian Tube"
+],
+"answer": "e",
+"explanation": "Acute Otitis Media is more common in children because their Eustachian tubes are shorter, wider, and more horizontal, facilitating reflux of nasopharyngeal pathogens."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 19-year-old patient was diagnosed as a case of Gradenigo syndrome due to Chronic Suppurative Otitis Media 7 days ago. On examination, the post-aural area is tender with scanty foul-smelling discharge from the left ear. Pure tone audiometry shows mixed hearing loss. What is the most likely cause responsible for this condition?",
+"options": [
+"a. Acute mastoid abscess",
+"b. Acute petrositis",
+"c. Chronic otitis media",
+"d. Luc's abscess",
+"e. Secretory otitis media"
+],
+"answer": "b",
+"explanation": "Gradenigo's syndrome (otorrhea, retro-orbital pain, VI nerve palsy) is the hallmark of Petrositis (inflammation of the petrous apex)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 24-year-old patient has a history of foul-smelling discharge from the right ear for the last 7 years. On examination, he has attic defect and granulation tissue. For the last 7 days, he has developed a triad of ear discharge, retro-orbital pain, and 6th nerve paralysis. Audiometry showed profound hearing loss. What is the most likely cause in this patient?",
+"options": [
+"a. Cavernous sinus thrombosis",
+"b. Lateral sinus thrombosis",
+"c. Labyrinthitis",
+"d. Luc's abscess",
+"e. Petrositis"
+],
+"answer": "e",
+"explanation": "The triad of otorrhea, retro-orbital pain, and abducens (6th) nerve palsy constitutes Gradenigo's triad, which indicates Petrositis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 17-year-old patient has presented to outpatient complaining of right ear pain for the last 3 days. On otoscopic examination, the tympanic membrane is red and congested. The patient received oral antibiotics and nasal sprays but is not relieved. What is the most effective treatment option in this patient to avoid complications?",
+"options": [
+"a. Intravenous Venous Antibiotics",
+"b. Nasal topical steroids",
+"c. Myringotomy with grommet insertion",
+"d. Tympanocentesis in anterior superior quadrant",
+"e. Tympanocentesis in anterior inferior quadrant"
+],
+"answer": "e",
+"explanation": "In severe Acute Otitis Media unresponsive to antibiotics with a bulging TM, drainage is required. Tympanocentesis (or Myringotomy) is indicated. The anterior inferior quadrant is a safe site to avoid ossicles."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 9-year-old patient has presented to outpatient department complaining of nasal obstruction and decreased hearing level in both ears. Examination shows high arched palate and dull tympanic membrane with loss of landmarks. X-Ray nasopharynx shows enlarged Adenoids. What is the most likely type of hearing loss in this case?",
+"options": [
+"a. Conductive hearing loss",
+"b. Mixed hearing loss",
+"c. Profound hearing loss",
+"d. Sensory Neural Hearing loss",
+"e. Sudden Sensory Neural Hearing loss"
+],
+"answer": "a",
+"explanation": "Enlarged adenoids often cause Eustachian tube dysfunction leading to Otitis Media with Effusion (OME), which results in Conductive Hearing Loss."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 9-year-old boy has presented to a consultant outpatient complaining of bilateral decreased hearing level for the last 2 months. Otoscopy shows dull tympanic membrane, and Tympanometry reveals type B tympanogram. What is the most likely diagnosis in this case?",
+"options": [
+"a. Acute suppurative otitis media",
+"b. Chronic otitis media",
+"c. Retracted tympanic membrane",
+"d. Secretory otitis media",
+"e. Tympanosclerosis"
+],
+"answer": "d",
+"explanation": "A dull tympanic membrane and a Type B (flat) tympanogram are characteristic of Secretory Otitis Media (Otitis Media with Effusion)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 16-year-old boy has presented to the Emergency Room with sudden onset of headache and vomiting. He has also a history of foul-smelling right ear discharge for the last 6 years. On examination, there is scanty discharge and granulation tissue in the attic region of the right ear and difficulty in closing the right eye. What is the most likely extra-cranial complication of Chronic Suppurative Otitis Media in this case?",
+"options": [
+"a. Brain abscess",
+"b. Epidural abscess",
+"c. Facial nerve paralysis",
+"d. Otitis hydrocephalus",
+"e. Petrositis"
+],
+"answer": "c",
+"explanation": "Difficulty in closing the eye indicates Facial Nerve Paralysis. Among the options, this is the only one typically classified as an intratemporal/extracranial complication, whereas the others are intracranial (except Petrositis which doesn't cause this specific sign directly)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 12-year-old boy has come to outpatient clinic complaining of discharge from his right ear for the last 2 days. On examination, the tympanic membrane has central perforation with red congested mucosa and mucoid discharge. Which one of the following is the most likely causative organism responsible upon the report of culture and sensitivity test?",
+"options": [
+"a. Haemophilus influenzae",
+"b. Pneumococcus",
+"c. Pseudomonas aeruginosa",
+"d. Staphylococcus",
+"e. Streptococcus"
+],
+"answer": "b",
+"explanation": "Acute Otitis Media (short duration of 2 days) is most commonly caused by Streptococcus pneumoniae (Pneumococcus)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A diagnosed case of chronic otitis media has presented to Emergency Room complaining of post aural swelling for the last 7 days. Otoscopic examination shows cholesteatoma in attic region of left ear. Pure Tone Audiometry shows bone gap of 10 db, and CT Scan shows opacity in the antrum. Most likely treatment in this case?",
+"options": [
+"a. Cortical mastoidectomy",
+"b. Conservative Management",
+"c. Modified Radical Mastoidectomy",
+"d. Mastoid exploration",
+"e. Radical Mastoidectomy"
+],
+"answer": "c",
+"explanation": "The standard surgical treatment for Cholesteatoma (especially with complications like mastoiditis) is Modified Radical Mastoidectomy (Canal Wall Down procedure) to remove disease and prevent recurrence."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 20-year-old patient presented to ENT outpatient with the complaint of ear discharge for the last 6 years. The discharge is relieved by topical and systemic antibiotics and aggravated by water entry. On clinical examination, he is diagnosed with Cholesteatoma right ear. What is the most likely preoperative investigation to help in management plan?",
+"options": [
+"a. CT Scan with IV contrast",
+"b. CT Scan axial and coronal cuts",
+"c. CT Scan sagittal view",
+"d. MRI with IV contrast",
+"e. PET Scan"
+],
+"answer": "b",
+"explanation": "High-Resolution CT Scan (Axial and Coronal cuts) of the temporal bone is the gold standard preoperative investigation to assess the extent of cholesteatoma and bony anatomy."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 4-year-old child presents to the clinic with complaints of mouth breathing, snoring during sleep, and decreased hearing in both ears for the past 15 days. An X-ray of the nasopharynx reveals an enlarged adenoid. What is the next most likely investigation to help in the diagnosis?",
+"options": [
+"a. BERA (Brainstem Evoked Response Audiometry)",
+"b. Otoacoustic emissions",
+"c. Pure Tone Audiometry",
+"d. Pure Tone Audiometry and Tympanometry",
+"e. Tympanometry"
+],
+"answer": "d",
+"explanation": "Pure Tone Audiometry (or age-appropriate audiometry) assesses hearing loss, and Tympanometry evaluates middle ear status (effusion) often associated with adenoids."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 40-year-old hypertensive man presented to the emergency department with a history of sudden-onset severe epistaxis. After proper history, examination, and investigation, anterior nasal packing was done but was unsuccessful. You are called for vessel ligation under general anesthesia through an endoscope. What is the most appropriate vessel to be ligated through endoscope to stop bleeding?",
+"options": [
+"a. Anterior ethmoidal artery",
+"b. Posterior ethmoidal artery",
+"c. Septal branch of sphenopalatine artery",
+"d. Septal branch of greater palatine artery",
+"e. Septal branch of superior labial artery"
+],
+"answer": "c",
+"explanation": "The Sphenopalatine Artery (SPA) is the primary artery ligated endoscopically for intractable posterior epistaxis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 4-year-old child was brought to outpatient of consultant clinic by his parents with complaints of nasal obstruction, decreased hearing level, and foul smell from right nostril for the last 7 days. On examination, there is mucopus in the right nostril, post nasal drip, and dull tympanic membrane. What is the most likely diagnosis in this case?",
+"options": [
+"a. Adenoids",
+"b. Foreign body nose",
+"c. Septal abscesses",
+"d. Otitis media with effusion"
+],
+"answer": "b",
+"explanation": "Unilateral foul-smelling nasal discharge in a child is strongly suggestive of a foreign body in the nose."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 39-year-old lady presented to the emergency room with profuse epistaxis for 4 hours. She has had similar episodes in the past. Anterior nasal packing was done in the emergency room, but bleeding was uncontrolled. All baseline investigations were normal. The consultant decided to control the bleeding under general anesthesia. What is the most likely vessel that needs to be clipped with functional endoscopic sinus surgery in this case?",
+"options": [
+"a. Anterior Ethmoidal artery",
+"b. Greater palatine artery",
+"c. Posterior Ethmoidal artery",
+"d. Sphenopalatine artery",
+"e. Septal artery"
+],
+"answer": "d",
+"explanation": "Sphenopalatine artery ligation is the procedure of choice for epistaxis resistant to packing."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A middle-aged lady presented to outpatients with complaints of nasal obstruction, headache, and post-nasal discharge for the last 9 months. Clinical examination shows unilateral polyp, mucopurulent discharge, and CT scan shows double-density opacity in the nose, maxillary and ethmoid region pushing the orbit on the same side. What is the most appropriate treatment option in this case?",
+"options": [
+"a. Endoscopic sinus surgery",
+"b. Endoscopic sinus surgery plus topical nasal steroids",
+"c. Endoscopic sinus surgery plus topical and oral steroids",
+"d. IV Amphotericin B",
+"e. Topical nasal steroids"
+],
+"answer": "c",
+"explanation": "The presentation (polyps, double-density opacity) suggests Allergic Fungal Rhinosinusitis (AFRS). The standard treatment is FESS to remove the disease followed by steroids to prevent recurrence."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A middle-aged lady presented to outpatient department with complaints of nasal obstruction, headache, and post-nasal discharge for the last 9 months. Clinical examination shows unilateral polyp, mucopus, and CT scan shows double-density opacity in the nose, maxillary and ethmoid region pushing the orbit on the same side. What is the most likely diagnosis in this case?",
+"options": [
+"a. Antrochoanal polyp",
+"b. Allergic fungal sinusitis",
+"c. Ethmoidal polypi",
+"d. Inverted papilloma",
+"e. Maxillary sinusitis"
+],
+"answer": "b",
+"explanation": "'Double-density' opacity on CT scan is a pathognomonic sign of Allergic Fungal Rhinosinusitis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 27-year-old patient presents with complaints of nasal obstruction lasting for 7 months. The symptoms are persistent and progressively worsening, accompanied by headaches. The patient has no history of nasal surgery. On examination, mucopurulent discharge is noted in both nostrils, along with postnasal drip and multiple large, white-gray, non-sensate swellings in the nasal cavity. A non-contrast CT scan of the sinuses shows heterogeneous opacities in the nasal and sinus regions. What is the most appropriate treatment?",
+"options": [
+"a. Antibiotics first line",
+"b. FESS (Functional Endoscopic Sinus Surgery)",
+"c. Intranasal polypectomy",
+"d. Topical and oral steroids",
+"e. Topical Xylometazoline"
+],
+"answer": "b",
+"explanation": "For extensive nasal polyposis with heterogeneous opacities (suggesting fungal/chronic disease), FESS is the primary surgical treatment to clear the sinuses."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 37-year-old lady presented to outpatient department with complaints of nasal obstruction, headache, and post-nasal drip that is mucoid in nature for the last 7 years. CT scan shows hyperdense opacity in the ethmoid region close to the orbit. She has a history of NSAIDs, antibiotics, and nasal sprays. What is the most likely diagnosis in this case?",
+"options": [
+"a. Allergic fungal sinusitis",
+"b. Allergic rhinitis",
+"c. Invasive fungal sinusitis",
+"d. Maxillary sinusitis",
+"e. Osteoma-Ethmoid Sinus"
+],
+"answer": "a",
+"explanation": "Chronic sinusitis symptoms with hyperdense opacities on CT are characteristic of Allergic Fungal Sinusitis (due to fungal mucin). Osteomas are also hyperdense but usually asymptomatic or cause different symptoms."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 45-year-old man presented to outpatient department with complaints of nasal obstruction, headache, and post-nasal drip mucoid green in color for the last 3 days. On examination, there is mucopus in the left nostril and X PNS shows a hazy sinus on ipsilateral side. What is the most appropriate investigation?",
+"options": [
+"a. Complete blood picture",
+"b. CT nose and PNS",
+"c. Culture and sensitivity",
+"d. Functional Endoscopic Sinus",
+"e. Histopathology of sinus mucosa"
+],
+"answer": "b",
+"explanation": "While acute sinusitis is often clinical, if an investigation is required to confirm or assess anatomy/complications, CT Nose and PNS is the gold standard imaging modality."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 55-year-old male patient is scheduled for nasal surgery for Ethmoidal polypi. Endoscopic examination shows no landmarks which suggest previous surgery. Further examination shows mucopus and fungal debris. CT Scan also shows heterogeneous opacities in all sinuses. What is the first surgical step in this case?",
+"options": [
+"a. Antrostomy",
+"b. Inferior Turbinectomy",
+"c. Middle Turbinectomy",
+"d. Polypectomy",
+"e. Uncinectomy"
+],
+"answer": "a",
+"explanation": "In revision FESS where landmarks (like the uncinate process) are absent or distorted, identifying the maxillary sinus ostium (Antrostomy) or the orbit is a key initial step for orientation."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "An 11-year-old boy was brought to the emergency room by his mother complaining of unilateral sore throat, headache, and difficulty in mouth opening for the last 7 days. On examination, a palpable swelling is noticed at level-2 behind the angle of the jaw, and on oral cavity examination, swelling has extension posterior to the posterior pillar of the tonsil on the same side. What is the most likely diagnosis in this case?",
+"options": [
+"a. Unilateral tonsillitis",
+"b. Peritonsillar abscess",
+"c. Parapharyngeal abscess",
+"d. Pleomorphic adenoma",
+"e. Retropharyngeal abscess"
+],
+"answer": "c",
+"explanation": "A parapharyngeal abscess typically presents with neck swelling behind the angle of the jaw and bulging of the lateral pharyngeal wall (posterior to the tonsillar pillar)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 60-year-old man has presented to a specialist outpatient complaining of painful swallowing, hoarseness of voice, and occasional regurgitation of food for the last 8 months. Examination of the neck and indirect laryngoscopy are unremarkable. His Hb level is 9.5 g/dl, Total leucocyte count 15000 mcl. Repeated water-soluble barium swallow shows a constant filling on the side of the neck. What is the most likely diagnosis in this case?",
+"options": [
+"a. Laryngocele",
+"b. Oesophageal carcinoma",
+"c. Pharyngeal pouch",
+"d. Piriform sinus carcinoma",
+"e. Post cricoid carcinoma"
+],
+"answer": "c",
+"explanation": "The clinical picture of regurgitation and a 'constant filling' on barium swallow in the neck suggests a Pharyngeal Pouch (Zenker's diverticulum)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 17-year-old girl was brought to the emergency room complaining of difficulty in breathing for the last two days. She also gives a history of dental manipulation. On examination, the tongue is protruded with reduced movements. Which one of the following is the most likely organism responsible for this condition?",
+"options": [
+"a. Haemophilus influenzae",
+"b. Pseudomonas aeruginosa",
+"c. Staphylococcus aureus",
+"d. Streptococcus pneumoniae",
+"e. Streptococcus viridians"
+],
+"answer": "e",
+"explanation": "Ludwig's angina (dental origin) is often polymicrobial, with Streptococcus viridans being a common causative organism from the oral flora."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 7-year-old girl was brought to outpatient by her parents complaining of bilateral decreased hearing and nasal obstruction for the last 3 months. On otoscopy, she has bilateral dull tympanic membranes with loss of landmarks and is a mouth breather. Tympanometry reveals type B graph. What is the most effective treatment of choice in this case?",
+"options": [
+"a. Adenotonsillectomy",
+"b. Adenoidectomy with Grommets insertion",
+"c. Conservative treatment with analgesics",
+"d. Conservative treatment with antibiotics",
+"e. Myringotomy with ventilation tube insertion"
+],
+"answer": "b",
+"explanation": "The combination of nasal obstruction (adenoids) and persistent OME (dull TM, Type B tymp) is best treated with Adenoidectomy and Grommet insertion."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 40-year-old lady is coming to a specialist clinic complaining of difficulty in swallowing for the last 2 years. She has a history of total thyroidectomy for differentiated thyroid carcinoma 3 years back. Her Barium swallow is normal and flexible endoscopy shows right vocal cord paralysis. What is the most likely cause of dysphagia in this case?",
+"options": [
+"a. Decreased pharyngeal gradient pressure and decreased glottis closure",
+"b. Decreased pharyngeal gradient pressure and increased glottis closure",
+"c. Increased pharyngeal gradient pressure and increased glottis closure",
+"d. Increased pharyngeal gradient pressure and decreased glottis closure",
+"e. Superior constrictor muscle and cricothyroid muscle dysfunction"
+],
+"answer": "a",
+"explanation": "Vocal cord paralysis leads to decreased glottic closure, which impairs the generation of adequate pharyngeal pressure gradient necessary for effective swallowing."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 15-year-old boy was brought to the emergency room by his parents complaining of sore throat, headache, and difficulty in opening mouth for the last three days. His both tonsils are covered by white follicles, and the left tonsil is enlarged medially anterior to the posterior pillar with deviation of the uvula to the opposite side. What is the most probable diagnosis?",
+"options": [
+"a. Acute follicular tonsillitis",
+"b. Infectious mononucleosis",
+"c. Membranous tonsillitis",
+"d. Peritonsillar abscess",
+"e. Parapharyngeal abscess"
+],
+"answer": "d",
+"explanation": "Unilateral tonsillar enlargement, trismus (difficulty opening mouth), and uvular deviation are classic signs of a Peritonsillar Abscess (Quinsy)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 9-year-old boy presented to the consultant clinic for pain in the throat, fever, and severe body aches for the last 4 days. On examination, the oropharynx is congested with whitish layers and red spots, neck is also swollen and tender. What is the investigation of choice in this patient?",
+"options": [
+"a. ASO Titre",
+"b. Complete Blood Picture",
+"c. Culture and Sensitivity",
+"d. Paul Bunnell Test",
+"e. Rapid Antigen test"
+],
+"answer": "c",
+"explanation": "Throat swab Culture and Sensitivity is the gold standard investigation for diagnosing bacterial tonsillitis (Streptococcus)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 9-year-old boy was brought to the emergency room by his mother complaining of sore throat, headache, and severe body aches and pains. His both tonsils are covered by white follicles, and on examination, enlarged level-2 neck nodes on both sides are noted. Which of the following is the most likely organism which can cause valvular heart disease in future?",
+"options": [
+"a. Group B haemolytic streptococci",
+"b. H. influenzae",
+"c. Staphylococcus aureus",
+"d. Streptococcus viridans",
+"e. Streptococcus pyogenes"
+],
+"answer": "e",
+"explanation": "Streptococcus pyogenes (Group A Beta-hemolytic Streptococcus) is the causative agent of Rheumatic Fever, which can lead to valvular heart disease."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 7-year-old boy was brought to the emergency room by his mother complaining of sore throat, headache, and difficulty in breathing. His both tonsils are covered by grey, white membrane; red spots on the soft palate and periorbital edema are noted. The neck has enlarged tender lymph nodes on both sides. His lymphocyte/WBC ratio is higher than 0.35. What is the most likely diagnosis?",
+"options": [
+"a. Acute membranous tonsillitis",
+"b. Acute follicular tonsillitis",
+"c. Candidiasis",
+"d. Diphtheria",
+"e. Infectious mononucleosis"
+],
+"answer": "e",
+"explanation": "The clinical picture of membrane, palatal petechiae, periorbital edema, and lymphocytosis is characteristic of Infectious Mononucleosis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 43-year-old man presented to the outpatient department complaining of difficulty in breathing and swelling for the last 10 days that is progressive. Oral examination shows swelling in the oropharynx on the right side, and the mass seems to be well-oriented. X-ray neck lateral view in extension shows a prominent shadow at the retropharynx with erosion of the corresponding vertebrae. What is the most appropriate treatment in this case?",
+"options": [
+"a. Anti-Tubercular Therapy",
+"b. Incision and drainage through cervical incision",
+"c. Antibiotics",
+"d. Per oral incision and drainage",
+"e. Tracheostomy"
+],
+"answer": "a",
+"explanation": "Retropharyngeal abscess with vertebral erosion suggests Tuberculosis (Pott's disease/Cold abscess). The primary treatment is Anti-Tubercular Therapy."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 17-year-old boy was listed for tonsillectomy for repeated sore throat. On examination, the tonsils are graded in size as grade-4. During surgical intervention, both tonsils were dissected while enlarged adenoids were left and not shaved. What is the most likely absolute contraindication for adenoid surgery in this case?",
+"options": [
+"a. Aberrant pharyngeal artery",
+"b. Bifid uvula",
+"c. Nasopharyngeal insufficiency",
+"d. Sinusitis",
+"e. Suspected Angiofibroma"
+],
+"answer": "b",
+"explanation": "A bifid uvula indicates a submucous cleft palate. Adenoidectomy in such cases can lead to Velopharyngeal Insufficiency."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 15-year-old boy presented to the emergency room spitting repeated blood-stained saliva from the oral cavity. He has a history of tonsillectomy 9 days back. On examination, the right tonsil fossa has a clot with no white slough. The patient is hemodynamically stable but pale and tries to vomit; saturation is 96% and Hb 9g/dl with raised TLC count. What is the most appropriate next step in management?",
+"options": [
+"a. Blood transfusions",
+"b. Crystalloids infusions",
+"c. IV Antibiotics",
+"d. Ligation of blood vessel under general anesthesia",
+"e. Packing of the tonsil bed with Adrenaline-soaked gauze"
+],
+"answer": "c",
+"explanation": "Secondary hemorrhage (due to infection) is typically managed by admission and IV antibiotics. Surgical intervention is reserved for uncontrolled bleeding."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "An 8-year-old male patient is brought by his mother with complaints of sore throat and fever for which he received treatment from a General Physician. However, his symptoms have worsened after receiving the prescribed medications. He is now unable to swallow for the last 2 days. On examination, his both tonsils are covered by white membrane and neck has palpable neck nodes at level 2. His Complete Blood Picture shows Lymphocytosis. What is the most likely drug responsible for exacerbation of his symptoms?",
+"options": [
+"a. Amoxicillin",
+"b. Brufen",
+"c. Clarithromycin",
+"d. Cefadroxil",
+"e. Cefaclor"
+],
+"answer": "a",
+"explanation": "Amoxicillin often causes a maculopapular rash and can exacerbate symptoms in patients with Infectious Mononucleosis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A middle-aged man visited ENT Clinic for a routine oral cavity examination for the complaints of foreign body sensation in the throat. On examination, he has right-sided tonsillar enlargement. The attending surgeon counseled the patient for early surgical intervention. What is the most likely absolute indication for early tonsil surgery in this case?",
+"options": [
+"a. Acute tonsillitis",
+"b. Chronic tonsillitis",
+"c. Malignancy",
+"d. Peritonsillar abscess",
+"e. Sleep apnea"
+],
+"answer": "c",
+"explanation": "Unilateral tonsillar enlargement is a strong indicator of malignancy (e.g., Lymphoma or Squamous Cell Carcinoma), necessitating excision for biopsy."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 15-year-old girl was scheduled for tonsillectomy for repeated sore throat. On examination, the tonsils are enlarged in size with bilateral neck nodes. During surgery, the left tonsil has a bleeding vessel that bleeds repeatedly, and a 2nd year resident is unable to control it. He has called for help of a senior consultant. What is the most likely vessel that needs ligation in this case?",
+"options": [
+"a. Ascending Pharyngeal artery",
+"b. Branch of facial artery",
+"c. Descending Pharyngeal artery branch",
+"d. Lingual artery branch",
+"e. Paratonsillar vein"
+],
+"answer": "b",
+"explanation": "The tonsillar branch of the facial artery is the principal arterial supply to the tonsil and the most significant source of bleeding."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 50-year-old man was brought to the emergency room complaining of difficulty in breathing for the last three days. He is an uncontrolled diabetic, and also giving history of dental manipulation by dentist. On examination the tongue is protruded with sub-lingual swelling. What is the most appropriate clinical diagnosis?",
+"options": [
+"a. Ludwig’s Angina",
+"b. Parapharyngeal abscess",
+"c. Retropharyngeal abscess",
+"d. Submandibular duct stone",
+"e. Submandibular abscess"
+],
+"answer": "a",
+"explanation": "Ludwig's Angina is a rapidly spreading cellulitis of the submandibular/sublingual space, often of dental origin, pushing the tongue upwards and backwards."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 50-year-old male patient is coming to specialist outpatient complaining of difficulty in swallowing for liquids and solids, regurgitation of food, and occasionally chest pain for the last 2 years. He has a history of hospitalization for chest infection 9 months back. Examination of the neck is unremarkable, and indirect laryngoscopy shows pooling of saliva. Low molecular weight barium swallow shows classical bird beak appearance. What is the most effective treatment for this disease?",
+"options": [
+"a. Botulinum toxin injection",
+"b. Cardiomyotomy with partial fundoplication",
+"c. Cardiomyotomy with complete fundoplication",
+"d. Oesophageal dilatation",
+"e. Oesophagectomy"
+],
+"answer": "b",
+"explanation": "Achalasia (Bird beak sign) is best treated surgically by Heller's Cardiomyotomy combined with a partial fundoplication (to prevent reflux)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 55-year-old man was brought to the emergency room complaining of hoarseness of voice for the last 7 months that is progressive and now having difficulty in breathing for the last three days. He has a history of Carcinoma Larynx for which he received radiation. Flexible laryngoscopy shows fixed vocal cords with ulcerated growth, and CT Scan shows heterogeneously enhancing lesion involving vocal cords and thyroid cartilage. What is the most appropriate T-stage classification for this patient?",
+"options": [
+"a. T0",
+"b. T1a",
+"c. T2",
+"d. T3",
+"e. T4a"
+],
+"answer": "e",
+"explanation": "Tumor invasion through the thyroid cartilage designates stage T4a."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 45-year-old man has been brought to the emergency room complaining of hoarseness of voice for the last 14 months that is progressive and now having difficulty in breathing for the last two days. He has a history of Carcinoma Larynx for which he received radiation. The patient has developed decreased saturation for which intervention is needed. What is the best airway management option in this case?",
+"options": [
+"a. Endotracheal Intubation",
+"b. High Tracheostomy",
+"c. Low Tracheostomy",
+"d. Percutaneous Tracheostomy",
+"e. Tracheostomy between ring two and three of trachea"
+],
+"answer": "e",
+"explanation": "A standard tracheostomy (between 2nd and 3rd tracheal rings) is the preferred method to secure the airway in laryngeal carcinoma presenting with obstruction."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 55-year-old patient has presented to the outpatient department complaining of a change in voice for the last 3 months that is persistent and progressive in nature. Her Flexible Endoscopy shows a fungating, ulcerative lesion involving the anterior one-third of the right vocal cord, but both vocal cords are mobile. What is the most likely diagnosis in this case?",
+"options": [
+"a. Arytenoid granuloma",
+"b. Cord papilloma",
+"c. Squamous cell carcinoma",
+"d. Vocal cord nodule",
+"e. Vocal cord polyp"
+],
+"answer": "c",
+"explanation": "A persistent, progressive fungating and ulcerative lesion on the vocal cord is characteristic of Squamous Cell Carcinoma."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 40-year-old man has presented to outpatient complaining of hoarseness of voice for the last 15 months that is persistent and progressive. Neck examination is normal and indirect laryngoscopy shows ulcerated growth on left vocal cord anterior one-third with normal movements. His flexible endoscopy shows same findings only white patch on right cord. What is the most likely T Stage of the disease in this case?",
+"options": [
+"a. Stage 1",
+"b. Stage 1a",
+"c. Stage 1b",
+"d. Stage 2a",
+"e. Stage 2b"
+],
+"answer": "b",
+"explanation": "A tumor limited to one vocal cord with normal mobility is classified as T1a (often referred to as Stage 1a in the context of T-stage grouping options)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 45-year-old man has presented to outpatient department complaining of hoarseness of voice for the last 18 months that is persistent and progressive. He is farmer by profession. His neck examination is normal and indirect laryngoscopy shows ulcerated growth on right vocal cord anterior mid portion with normal movements. His flexible endoscopy shows same findings, the patient is staged as T1a N0 M0. Histopathology report shows Squamous Cell Carcinoma. After counseling for treatment he is reluctant to go for Radiotherapy. What is the most likely next treatment option in this case?",
+"options": [
+"a. Chemotherapy",
+"b. Cordectomy",
+"c. Partial laryngectomy",
+"d. Total laryngectomy",
+"e. Sub epithelial Cordectomy"
+],
+"answer": "b",
+"explanation": "For T1a glottic carcinoma, if radiotherapy is declined, the standard alternative is transoral laser cordectomy."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 51-year-old shopkeeper presented to the Consultant Clinic complaining of hoarseness of voice for the last 06 months, persistent and progressive. Flexible laryngoscopy shows right fixed vocal cord with ulcerated growth, and CT Scan shows heterogeneously enhancing lesion involving vocal cord with no extension to thyroid cartilage. What is the appropriate staging classification for this patient?",
+"options": [
+"a. T1, N0, M0",
+"b. T2, N0, M0",
+"c. T3, N0, M0",
+"d. T4a, N0, M0",
+"e. T4b, N0, M0"
+],
+"answer": "c",
+"explanation": "Fixation of the vocal cord indicates a T3 tumor."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 45-year-old male patient is presented to otolaryngology specialist clinic complaining of hoarseness of voice for the last 3 months. He is a chronic smoker and was using medicines for heart burn. Flexible laryngoscopy shows grayish white patches on anterior two third of both mobile vocal cords. Under direct laryngoscopy, the plaques could not be easily excised. What is the most likely diagnosis in this case?",
+"options": [
+"a. Contact ulcers",
+"b. Hyperkeratosis",
+"c. Leukoplakia",
+"d. Verrucous carcinoma",
+"e. Squamous cell carcinoma"
+],
+"answer": "c",
+"explanation": "'Leukoplakia' is the clinical term for white patches on the vocal cords that cannot be wiped off."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 45-year-old high school teacher has presented to outpatient complaining of hoarseness of voice for the last 16 months, persistent and progressive. Neck examination is unremarkable, and flexible laryngoscopy shows ulcerated growth on right vocal cord anterior one third with normal movements. This patient is staged as T1a N0 M0, according to AJCC. What is the most appropriate treatment option?",
+"options": [
+"a. Cordectomy segmental",
+"b. Chemoradiotherapy",
+"c. Radiotherapy",
+"d. Subepithelial Cordectomy",
+"e. Total Laryngectomy"
+],
+"answer": "c",
+"explanation": "Radiotherapy is a standard primary treatment modality for T1a glottic carcinoma, offering excellent cure rates and voice preservation."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 5-year-old boy is scheduled for diagnostic bronchoscopy. Clinical examination and X-Ray chest are normal. During rigid bronchoscopy, a piece of peanut was removed. In the recovery room the patient was not maintaining O2 saturation, with hyper resonant chest on percussion. What is the next step in the treatment of this patient?",
+"options": [
+"a. Endotracheal intubation",
+"b. Chest intubation",
+"c. Re-Bronchoscopy",
+"d. Tracheostomy",
+"e. Ventilator support"
+],
+"answer": "b",
+"explanation": "Hyper-resonance and desaturation post-bronchoscopy suggest a pneumothorax, which requires chest tube insertion (chest intubation)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 16-year-old girl presented to a consultant outpatient clinic with complaints of fever, foreign body sensation in the throat, and change in voice for 12 hours. On examination, the patient is anxious with sweating. What is the most appropriate treatment in this case?",
+"options": [
+"a. Cricothyroidotomy",
+"b. IV Antibiotics",
+"c. Mask oxygenation",
+"d. Tracheostomy",
+"e. Ventilator support"
+],
+"answer": "b",
+"explanation": "The clinical picture suggests acute epiglottitis. The primary medical treatment is IV antibiotics. While airway security is paramount, antibiotics are the specific treatment for the infection."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 47-year-old man was brought to the emergency room complaining of hoarseness of voice for the last 12 months, persistent and progressive, and now difficulty in breathing for the last two days. He has a history of Carcinoma Larynx for which he received radiation. Flexible laryngoscopy shows fixed vocal cords with ulcerated growth, and CT Scan shows heterogeneously enhancing lesion involving vocal cords and thyroid cartilage, sparing pharyngeal mucosa. What is the most management option in this case?",
+"options": [
+"a. Chemotherapy",
+"b. Neo adjunct radiotherapy",
+"c. Partial Laryngectomy",
+"d. Palliative care",
+"e. Total Laryngectomy"
+],
+"answer": "e",
+"explanation": "Recurrent laryngeal carcinoma after radiation with cartilage invasion requires Total Laryngectomy as salvage surgery."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "You received a consultation call of a 2-year-old patient who is in severe respiratory distress for the last 2 days. He is not maintaining saturation. On examination, the patient is in inspiratory distress with intercostal recession and X-ray shows steeple sign. Saturation is decreasing, and the patient develops peripheral cyanosis. What is the most suitable management option in this case?",
+"options": [
+"a. Bronchoscopy",
+"b. Mask oxygenation with helium",
+"c. Endotracheal intubation",
+"d. Cricothyroidotomy",
+"e. Tracheostomy"
+],
+"answer": "c",
+"explanation": "Severe croup (Laryngotracheobronchitis) with cyanosis and respiratory failure requires airway security via endotracheal intubation."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "You received a consultation call of a 02-day-old infant from the Nursery of child health department stating that the baby has difficulty in breathing while awake. According to the mother, the feeding and sleep of the baby is adequate. On examination, the baby is not cyanosed and is having mild chest recession. Flexible laryngoscopy shows aryepiglottic folds. What is the most likely clinical diagnosis in this case?",
+"options": [
+"a. Choanal atresia",
+"b. Epiglottitis",
+"c. Laryngomalacia",
+"d. Laryngotracheobronchitis",
+"e. Vocal cord Web"
+],
+"answer": "c",
+"explanation": "Laryngomalacia is the most common cause of congenital stridor, characterized by collapse of supraglottic structures (like aryepiglottic folds) during inspiration."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 5-year-old child was brought to the emergency room by her mother with complaints of difficulty in breathing and is unable to speak for the last 2 hours. The mother told that the kid was playing with toys. The child is in respiratory distress, is cyanosed and exhausted. Her X-ray chest is normal. What is the most likely diagnosis in this case?",
+"options": [
+"a. Acute epiglottitis",
+"b. Acute laryngotracheobronchitis",
+"c. Foreign body tracheobronchial tree",
+"d. Laryngitis"
+],
+"answer": "c",
+"explanation": "Sudden onset of respiratory distress in a child with a history of playing with toys is strongly suggestive of Foreign Body Aspiration."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 20-year-old boy presented to the Consultant Clinic complaining of sore throat and difficulty in swallowing for the last 06 months associated with fever, body aches, and pains. The patient is appearing in poor general condition. On examination of the oral cavity, mobile mucosal surfaces of the tongue have white reddish spots, multiple and tender to touch. What is the most likely clinical diagnosis in this case?",
+"options": [
+"a. Aphthous ulcers",
+"b. Erythroplakia",
+"c. Leukoplakia",
+"d. Submucosal fibrosis",
+"e. Squamous cell carcinoma"
+],
+"answer": "a",
+"explanation": "Multiple, tender, white-reddish spots (ulcers with halos) are consistent with Aphthous Ulcers (or herpetic stomatitis given fever/aches, but aphthous is the closest standard option for painful spots)."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 16-year-old girl presented to the Consultant Clinic complaining of swelling in the floor of mouth for the last 06 months that is progressive. The swelling is bluish in color, soft, not tender on the left side of the frenulum and on ventral of the tongue. What is the most likely clinical diagnosis in this case?",
+"options": [
+"a. Dermoid cyst",
+"b. Granuloma",
+"c. Papilloma",
+"d. Ranula",
+"e. Submandibular duct stone"
+],
+"answer": "d",
+"explanation": "A bluish, soft, non-tender cystic swelling in the floor of the mouth is characteristic of a Ranula."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 25-year-old boy presented to the emergency room complaining of burning sensation in the throat and difficulty in chewing food for the last 06 months associated with fever body aches and pains. The patient is addicted to Pan (Betel quid) and smoking. On examination of the oral cavity mobile mucosal surfaces of the tongue have white reddish spots, multiple and tender to touch. Which of the following is the most likely diagnosis in this case?",
+"options": [
+"a. Aphthous ulcers",
+"b. Erythroplakia",
+"c. Leukoplakia",
+"d. Lichen planus",
+"e. Submucosal fibrosis"
+],
+"answer": "e",
+"explanation": "The history of Betel quid addiction, burning sensation, and difficulty opening mouth/chewing (trismus) is diagnostic for Oral Submucous Fibrosis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "A 49-year-old man presented to outpatient complaining of non-healing ulcer on right middle of the tongue for the last 7 months that is progressive. Neck examination shows one mobile neck node less than 3 cm in greater diameter. What is the most likely investigation in this case to establish the diagnosis?",
+"options": [
+"a. CT-scan oral cavity",
+"b. Incisional biopsy under general anesthesia",
+"c. Incisional biopsy under surface anesthesia",
+"d. MRI",
+"e. Ultrasound b mode tongue"
+],
+"answer": "c",
+"explanation": "A non-healing ulcer is suspicious for malignancy; an incisional biopsy (usually under local/surface anesthesia) is the definitive investigation to establish diagnosis."
+},
+{
+"id": "kmc",
+"block": "m1",
+"year": "2024",
+"question": "An 18-year-old boy presents to Emergency department with history of severe headache which he claims to be the worst of his life. Headache is associated with vomiting and neck pain. Patient is giving history of nasal obstruction and post-nasal drip on examination. There is mucopus in both nostrils. What specific investigation would you like to order immediately?",
+"options": [
+"a. CSF analysis",
+"b. CT Brain with contrast",
+"c. CT Brain without contrast",
+"d. MRI Brain",
+"e. PET scan"
+],
+"answer": "b",
+"explanation": "The symptoms suggest an intracranial complication of sinusitis (e.g., meningitis or abscess). A contrast-enhanced CT brain is urgent to visualize abscesses or meningeal enhancement."
+}
+]

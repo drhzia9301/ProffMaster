@@ -1,0 +1,167 @@
+[
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A 30-year-old hockey player struck with a puck on the left side of his face complains of diplopia in the left eye. What is the diagnosis?",
+"options": [
+"a. Traumatic 3rd nerve palsy",
+"b. Traumatic 4th nerve palsy",
+"c. Orbital fracture",
+"d. Blowout fracture",
+"e. Retinal detachment"
+],
+"answer": "d",
+"explanation": "A history of blunt trauma to the orbit (hockey puck) causing diplopia is characteristic of an orbital blowout fracture, typically involving the orbital floor and entrapment of the inferior rectus muscle."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A 40-year-old woman presented with exophthalmos in both eyes associated with decreased vision. The vision in both eyes is 6/12. On examination, there is scleral show with restriction of extraocular movements along with hand tremors. The patient is not taking medications for any disease. What single investigation will you advise for this patient?",
+"options": [
+"a. Carotid Doppler",
+"b. Full blood count",
+"c. MRI orbit",
+"d. Peripheral smear",
+"e. Thyroid function tests"
+],
+"answer": "e",
+"explanation": "The clinical presentation of bilateral exophthalmos, restrictive myopathy (movement restriction), scleral show, and systemic signs like hand tremors is highly suggestive of Thyroid Eye Disease (Graves' ophthalmopathy). Thyroid function tests are the primary investigation."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "Fluorescein angiography is a diagnostic procedure that uses fluorescence and a special camera to record blood flow in which structure?",
+"options": [
+"a. Retina",
+"b. Sclera",
+"c. Cornea",
+"d. Brain",
+"e. Heart"
+],
+"answer": "a",
+"explanation": "Fundus Fluorescein Angiography (FFA) is used to examine the circulation of the retina and choroid."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A 3-year-old has a left eye white pupil reflex and micro-ophthalmia since birth. The right eye is normal, with no calcification on a BT scan. What is the diagnosis?",
+"options": [
+"a. Congenital glaucoma",
+"b. Coats disease",
+"c. PHPV (Persistent Fetal Vasculature Syndrome)",
+"d. Retinoblastoma",
+"e. Retinopathy of prematurity"
+],
+"answer": "c",
+"explanation": "The triad of leukocoria (white pupil), microphthalmia (small eye), and absence of calcification on imaging is characteristic of Persistent Hyperplastic Primary Vitreous (PHPV), also known as Persistent Fetal Vasculature (PFV)."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A 70-year-old male presents with bilateral lower lid inversion for 6 months. What is the diagnosis?",
+"options": [
+"a. Ptosis",
+"b. Entropion",
+"c. Ectropion",
+"d. Trichiasis",
+"e. Trachoma"
+],
+"answer": "b",
+"explanation": "Inversion (inward turning) of the eyelid margin is defined as Entropion."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "All are true about dermoids except?",
+"options": [
+"a. Located at the superolateral margin of the lid",
+"b. Common in early adulthood",
+"c. Present at birth",
+"d. Treatment is excision",
+"e. Excise in toto to prevent risk of granulomatous inflammation"
+],
+"answer": "b",
+"explanation": "Dermoid cysts are congenital choristomas, meaning they are present at birth and typically present in childhood, not early adulthood. They are commonly located at the superolateral orbital rim."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A patient has developed acute necrotizing scleritis associated with a systemic disease. What will be the mortality rate after the onset of scleritis in this patient?",
+"options": [
+"a. 15%",
+"b. 20%",
+"c. 25%",
+"d. 35%",
+"e. 45%"
+],
+"answer": "c",
+"explanation": "Necrotizing scleritis with associated systemic vasculitis (e.g., Rheumatoid Arthritis, GPA) carries a poor prognosis. Historically, the 5-year mortality rate is cited around 25% to 30% due to systemic complications."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A patient with homogentisate 1,2-dioxygenase enzyme deficiency was sent by a physician for an eye examination. On slit lamp examination, he had focal scleral discoloration near the horizontal recti insertion. What is the most common systemic association with this condition?",
+"options": [
+"a. Rheumatoid arthritis",
+"b. Ankylosing spondylitis",
+"c. Osteoarthritis",
+"d. Alkaptonuria",
+"e. Reactive arthritis"
+],
+"answer": "d",
+"explanation": "The enzyme deficiency described causes Alkaptonuria. The ocular sign is scleral pigmentation (Osler's sign). While the condition causes severe ochronotic arthropathy (resembling osteoarthritis), 'Alkaptonuria' is the name of the condition itself and is the most direct answer linking the enzyme and the signs."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A young boy from DI Khan came to the OPD with bilateral conjunctivitis associated with itching, burning, and lacrimation along with polygonal raised areas on the palpebra. What is your diagnosis?",
+"options": [
+"a. Vernal keratoconjunctivitis",
+"b. Viral conjunctivitis",
+"c. Mucopurulent conjunctivitis",
+"d. Trachoma",
+"e. Phylectenular conjunctivitis"
+],
+"answer": "a",
+"explanation": "The presence of 'polygonal raised areas' (giant papillae/cobblestone appearance) on the palpebral conjunctiva, combined with intense itching in a young boy, is diagnostic of Vernal Keratoconjunctivitis (VKC)."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "A patient with AIDS was sent by a physician to the eye OPD for anterior segment examination to exclude a low-grade malignancy. On slit lamp examination, there is a flat red lesion in the inferior fornix resembling subconjunctival hemorrhages. What is the most probable diagnosis?",
+"options": [
+"a. Limbal dermoid",
+"b. Ciliary staphyloma",
+"c. Pinguecula",
+"d. Kaposi sarcoma",
+"e. Lymphoma"
+],
+"answer": "d",
+"explanation": "Kaposi sarcoma is an AIDS-defining malignancy that often presents as a flat, red or purple vascular lesion on the conjunctiva or eyelids, mimicking a hemorrhage."
+},
+{
+"id": "kgmc",
+"block": "m2",
+"year": "2024",
+"question": "Which of the following uses is associated with a synoptophore?",
+"options": [
+"a. Measure angle Kappa",
+"b. Detect ARC after image test",
+"c. Detect eccentric fixation",
+"d. Assess anisocoria",
+"e. Assess physiological diplopia"
+],
+"answer": "a",
+"explanation": "The Synoptophore is an instrument used to assess binocular vision, measure the angle of deviation, and measure Angle Kappa."
+}
+]

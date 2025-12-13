@@ -1,0 +1,1756 @@
+[
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 2-year-old boy with gross motor delays presented with wide-based, unsteady gait and headaches over 1 month. A brain MRI reveals a large posterior fossa mass. He underwent total resection, and microscopy showed small blue round cells, Homer Wright rosettes, and a high mitotic count. The most likely diagnosis is:",
+"options": [
+"a. Meningioma",
+"b. Glioblastoma",
+"c. Astrocytoma",
+"d. Choroid plexus tumor",
+"e. Medulloblastoma"
+],
+"answer": "e",
+"explanation": "Medulloblastoma is a common malignant pediatric brain tumor located in the cerebellum (posterior fossa), characterized histologically by small round blue cells and Homer-Wright rosettes."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 67-year-old male with a 70-pack-per-year smoking history and hypertension is eating dinner with friends when he suddenly begins to speak in incomplete sentences and with noticeable pauses between small groups of words. He is brought to the emergency room. During his subsequent hospital admission, a follow-up CT scan is performed 24 hours after his arrival. Of the following, which is most likely to be identified?",
+"options": [
+"a. Ischemic injury in the superior left frontal lobe",
+"b. Ischemic injury in the superior right frontal lobe",
+"c. Ischemic injury in the superior left parietal lobe",
+"d. Ischemic injury in the inferior left frontal lobe",
+"e. Ischemic injury in the inferior right frontal lobe"
+],
+"answer": "d",
+"explanation": "The patient presents with Broca's aphasia (expressive aphasia), which is caused by a lesion in Broca's area, located in the inferior left frontal lobe."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 37-year-old first presented to her family physician with loss of vision in her right eye about 7 years ago. Since that time, she has done fairly well, with occasional episodes in which she has had a variety of symptoms including weakness of her left lower extremity, loss of sensation in her right upper extremity, and one episode where she had urinary incontinence. Of the following, what would gross examination of the brain most likely reveal?",
+"options": [
+"a. Normal parenchyma",
+"b. Metastatic carcinoma",
+"c. Plaques",
+"d. Multiple foci of hemorrhage",
+"e. Central pontine myelinolysis"
+],
+"answer": "c",
+"explanation": "The clinical history of relapsing-remitting neurological deficits separated by time and space (vision loss, weakness, sensory loss, incontinence) is classic for Multiple Sclerosis. Gross pathology reveals demyelinated plaques."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 41-year-old male commits suicide by shooting himself in the chest. The forensic pathologist who is performing the autopsy examines the brain and notes that both caudate nuclei appear atrophic. Of the following, what molecular abnormality was present in this individual?",
+"options": [
+"a. CAG repeats",
+"b. CGA repeats",
+"c. Mutation of chromosome 1",
+"d. Mutation of chromosome 14",
+"e. Inability to catabolize very-long-chain fatty acids"
+],
+"answer": "a",
+"explanation": "Atrophy of the caudate nucleus is a hallmark of Huntington's Disease, which is caused by trinucleotide (CAG) repeat expansion on chromosome 4."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A pathologist is examining a brain tumor resected from a 63-year-old male. The pathologist identifies psammoma bodies in the histologic section. Of the following, what is true of this tumor type?",
+"options": [
+"a. The prognosis is good",
+"b. The tumor most frequently occurs at the cerebellopontine angle",
+"c. The tumor derives from Rathke's pouch",
+"d. The appearance of the tumor cells is sometimes described as a fried egg",
+"e. The tumor is rare"
+],
+"answer": "a",
+"explanation": "Psammoma bodies are characteristic of Meningiomas. Meningiomas are typically benign (WHO Grade I) and have a good prognosis after resection."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 27-year-old male snorts cocaine and becomes unresponsive. He does not regain consciousness and is pronounced brain dead a day later. An autopsy reveals changes in the hippocampus. Which change would be identified?",
+"options": [
+"a. Gliosis",
+"b. Red neurons",
+"c. Neurofibrillary tangles",
+"d. Microglial nodules",
+"e. Foamy macrophages"
+],
+"answer": "b",
+"explanation": "Acute hypoxic-ischemic injury (likely from cocaine-induced vasospasm or cardiac arrest) leads to the formation of 'red neurons' (eosinophilic neuronal necrosis), which are visible 12-24 hours after the insult, particularly in vulnerable areas like the hippocampus."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A previously healthy 31-year-old female experiences a sudden severe headache and loses consciousness within an hour. CT scan reveals extensive subarachnoid hemorrhage at the base of the brain. A lumbar puncture yields cerebrospinal fluid with many red blood cells. Which of the following is the most likely diagnosis?",
+"options": [
+"a. Acute bacterial meningitis",
+"b. Ruptured berry aneurysm",
+"c. Progressive multifocal leukoencephalopathy",
+"d. Hypertensive hemorrhage",
+"e. Amyloid arteriopathy"
+],
+"answer": "b",
+"explanation": "Sudden severe headache ('thunderclap headache') and subarachnoid hemorrhage in a young patient are classic for a ruptured berry (saccular) aneurysm."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 43-year-old alcoholic is brought to the emergency room by EMTs, who were called by the patient's family. Over the past two days, he has complained of a headache, which he described as severe and throbbing. Today, they found him unresponsive in his bed, with vomit on the bed. His vital signs are a temperature of 101.3°F, pulse of 108 bpm, and blood pressure of 152/87 mm Hg. What is the most likely etiology of his condition?",
+"options": [
+"a. Staphylococcus aureus",
+"b. Neisseria meningitidis",
+"c. Hemophilus influenzae",
+"d. Streptococcus pneumoniae",
+"e. Mycobacterium tuberculosis"
+],
+"answer": "d",
+"explanation": "The patient has signs of bacterial meningitis (fever, headache, altered mental status). In adults, especially alcoholics, *Streptococcus pneumoniae* is the most common causative organism."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 68-year-old man presents with a 2-week history of tonic-clonic seizures that initially involve his left arm but have more recently progressed to involve his left leg. The seizures are accompanied by muscle weakness but no other neurologic signs. A CT scan reveals a mass in the left cerebral hemisphere. A left frontoparietal craniotomy is performed. Histologic examination of the brain biopsy shows extensive necrosis and pallisading of tumor cells around necrosis. Which of the following is the appropriate diagnosis?",
+"options": [
+"a. Craniopharyngioma",
+"b. Ependymoma",
+"c. Ganglioglioma",
+"d. Glioblastoma multiforme",
+"e. Meningioma"
+],
+"answer": "d",
+"explanation": "Pseudopalisading necrosis is the hallmark histologic feature of Glioblastoma Multiforme (GBM), a high-grade astrocytoma."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 50-year-old man presents to the emergency room after suffering an epileptic seizure. Vital signs are normal. An X-ray of the patient's head shows a mass in the left cerebral hemisphere with scattered foci of calcification. Histologic examination of a brain biopsy shows rounded tumor cells with a clear halo around them (fried egg appearance). Which of the following is the appropriate diagnosis?",
+"options": [
+"a. Ependymoma",
+"b. Glioblastoma",
+"c. Hemangioblastoma",
+"d. Meningioma",
+"e. Oligodendroglioma"
+],
+"answer": "e",
+"explanation": "The 'fried egg' appearance (perinuclear halos) and calcification are characteristic features of Oligodendroglioma."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old man presents with weakness and wasting of the muscles of his right hand for 8 months. Physical examination shows fasciculations of the hand. The patient's speech is impaired, and 6 years later, he dies of respiratory insufficiency. Autopsy shows atrophy of ventral roots in the spinal cord. Which of the following is the most likely diagnosis?",
+"options": [
+"a. Amyotrophic lateral sclerosis",
+"b. Parkinson disease",
+"c. Huntington disease",
+"d. Multiple infarct dementia",
+"e. Pick disease"
+],
+"answer": "a",
+"explanation": "Amyotrophic Lateral Sclerosis (ALS) involves both Upper Motor Neurons and Lower Motor Neurons (ventral roots), leading to muscle wasting, fasciculations, and eventual respiratory failure."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient admitted to emergency with a history of seizure and fever was diagnosed to have Herpes simplex 1 virus infection of the brain. She was started on antiviral medication but became increasingly unresponsive and expired. Examination of affected brain tissue at autopsy would most likely reveal which of the following pathologic findings?",
+"options": [
+"a. Charcot-Bouchard aneurysms",
+"b. Focal plaques of demyelination",
+"c. Neurofibrillary tangles",
+"d. Perivascular cuffs of lymphocytes",
+"e. Spongiform degeneration"
+],
+"answer": "d",
+"explanation": "Viral encephalitis, including HSV-1, is characterized histologically by perivascular lymphocytic cuffing, microglial nodules, and neuronophagia. HSV specifically causes hemorrhagic necrosis in the temporal lobes."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old man with AIDS is admitted to the hospital with a productive cough, fever, and night sweats. An X-ray film of the chest shows an ill-defined area of consolidation at the periphery of the right middle lobe and mediastinal lymphadenopathy. A sputum culture grows acid-fast bacilli. The patient develops severe headache and neck rigidity. Which of the following pathogens is the most likely cause of meningitis in this patient?",
+"options": [
+"a. Aspergillus flavus",
+"b. Cryptococcus neoformans",
+"c. Mycobacterium tuberculosis",
+"d. Neisseria meningitidis",
+"e. Toxoplasma gondii"
+],
+"answer": "c",
+"explanation": "The patient has pulmonary Tuberculosis (acid-fast bacilli, consolidation, lymphadenopathy). The development of meningitis in this context is most likely Tuberculous Meningitis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 34-year-old male has a one-week history of cough, congestion, and a slight fever. Following these, he develops weakness in his legs, which then progresses to his thighs. He is admitted to the hospital. The weakness continues and involves his abdominal musculature and diaphragm, necessitating intubation. Ultimately, the weakness passes, he is extubated and able to leave the hospital with no lingering complications. He had no significant past medical history. What is the most likely diagnosis?",
+"options": [
+"a. Lyme disease",
+"b. Lambert-Eaton syndrome",
+"c. Myasthenia gravis",
+"d. Guillain-Barré syndrome",
+"e. Transient ischemic attack"
+],
+"answer": "d",
+"explanation": "Guillain-Barré syndrome is an acute inflammatory demyelinating polyneuropathy characterized by ascending paralysis, often following a respiratory or GI infection."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following is NOT a tumor of the central nervous system?",
+"options": [
+"a. Astrocytoma",
+"b. Meningioma",
+"c. Ependymoma",
+"d. Retinoblastoma",
+"e. Oligodendroglioma"
+],
+"answer": "d",
+"explanation": "Retinoblastoma is a tumor of the retina. While the retina is embryologically part of the CNS, Retinoblastoma is typically classified as an intraocular tumor, distinct from the primary brain tumors listed in the other options."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 4-year-old child presented with a large infratentorial cerebellar cystic tumor with a mural nodule on CT-scan. On microscopy, it is composed of bland-looking bipolar cells with eosinophilic granular bodies and pink Rosenthal fibers in a fibrillary background. What is the diagnosis?",
+"options": [
+"a. Glioblastoma multiforme WHO grade IV",
+"b. Meningioma WHO Grade I",
+"c. Medulloblastoma WHO Grade IV",
+"d. Pilocytic Astrocytoma WHO grade I",
+"e. Oligodendroglioma"
+],
+"answer": "d",
+"explanation": "Pilocytic Astrocytoma is a common pediatric cerebellar tumor (cystic with mural nodule) characterized by Rosenthal fibers and a benign course (WHO Grade I)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 15-year-old boy is rushed to the emergency room after suffering a tonic-clonic seizure 4 weeks after a bite by a rabid bat. The boy appears irritable and agitated, and his parents state that he has difficulty swallowing fluids. Lumbar puncture shows numerous lymphocytes. The patient becomes delirious, slips into a coma, and expires. At autopsy, the brain stem shows infiltrates of lymphocytes around small blood vessels and evidence of neuronophagia. Some neurons contain eosinophilic inclusions. What is the proper name for these neuronal inclusions?",
+"options": [
+"a. Councilman bodies",
+"b. Hirano bodies",
+"c. Lewy bodies",
+"d. Negri bodies",
+"e. Psammoma bodies"
+],
+"answer": "d",
+"explanation": "Negri bodies are pathognomonic eosinophilic intracytoplasmic inclusions found in neurons infected with the Rabies virus."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Following statement is true of Schwannoma/neurilemmoma?",
+"options": [
+"a. It is a malignant counterpart of neurofibroma",
+"b. It's a round blue cell tumor",
+"c. Spindly cells forming palisade around acellular areas called VEROCAY bodies are characteristic",
+"d. It's a Non-encapsulated tumor and cannot be separated from nerve",
+"e. Pseudo palisading of atypical tumor cells around necrosis"
+],
+"answer": "c",
+"explanation": "Schwannomas are characterized by Antoni A areas with Verocay bodies (nuclear palisading around acellular zones) and Antoni B areas."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The best described etiology for Berry aneurysm is which of the following?",
+"options": [
+"a. Degeneration of internal elastic lamina",
+"b. Degeneration of tunica media",
+"c. Defect in muscular layer",
+"d. Low grade inflammation in the vessel wall",
+"e. Defect in tunica intima"
+],
+"answer": "c",
+"explanation": "Berry aneurysms are caused by a congenital defect in the muscular layer (tunica media) of the vessel wall, typically at bifurcations in the Circle of Willis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which of the following is a sign of an upper motor neuron lesion?",
+"options": [
+"A. Hyporeflexia",
+"b. Fasciculations",
+"c. Hypertonia",
+"d. Down-going Plantar",
+"e. Muscle Wasting"
+],
+"answer": "c",
+"explanation": "Upper Motor Neuron (UMN) lesions are characterized by hypertonia (spasticity), hyperreflexia, and a positive Babinski sign (up-going plantar). Hyporeflexia, fasciculations, and wasting are LMN signs."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 35-year-old male patient gives a history of low-grade evening fever and weight loss for the past three months. On presentation, he is drowsy for 3 days and has had 5 episodes of vomiting. On examination, neck stiffness and Kernig's sign are positive. CSF examination shows 500 WBCs (all lymphocytes), protein 80 mg/dl (normal: 15-60 mg/dl), and glucose 25 mg/dl (normal: 50-80 mg/dl). What is the likely diagnosis?",
+"options": [
+"a. Acute Bacterial Meningitis",
+"b. Tuberculous Meningitis",
+"c. Viral Encephalitis",
+"d. Viral Meningitis",
+"e. Subarachnoid Hemorrhage"
+],
+"answer": "b",
+"explanation": "The clinical picture (chronic fever, weight loss) and CSF findings (lymphocytic pleocytosis, high protein, low glucose) are classic for Tuberculous Meningitis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one is not a feature of meningeal inflammation?",
+"options": [
+"a. High-grade fever",
+"b. Projectile vomiting",
+"c. Headache",
+"d. Seizures",
+"e. None of the above"
+],
+"answer": "e",
+"explanation": "Fever, headache, vomiting (often projectile due to raised ICP), and seizures are all potential features associated with meningitis and its complications. Thus, 'None of the above' is the correct choice as all listed can be features."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which kind of rash is pathognomonic of meningococcal sepsis?",
+"options": [
+"a. Maculopapular",
+"b. Pustular",
+"c. Petechial",
+"d. Urticarial",
+"e. None of the above"
+],
+"answer": "c",
+"explanation": "Meningococcemia typically presents with a non-blanching petechial or purpuric rash."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which precaution should be taken before lumbar puncture?",
+"options": [
+"a. Pyrexial management",
+"b. Fundoscopy",
+"c. C.T brain",
+"d. Ultrasound",
+"e. All of above"
+],
+"answer": "b",
+"explanation": "Fundoscopy is performed to rule out papilledema (a sign of raised intracranial pressure) before LP to prevent brain herniation. CT brain is also often done, but fundoscopy is the bedside precaution listed."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one is not true for tuberculous meningitis?",
+"options": [
+"a. It is a primary lesion",
+"b. It results from a metastatic caseous lesion",
+"c. Primary lesion is usually in lung",
+"d. Not reported in infants below 4 months of age",
+"e. All of above"
+],
+"answer": "a",
+"explanation": "Tuberculous meningitis is secondary to hematogenous spread from a primary site (usually the lungs), not a primary lesion itself."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 30-year-old female patient is taking some antiepileptic drug to which she responded well. Recently she started taking oral contraceptive pills; however, she still conceived despite contraception. If the contraception failure is drug-induced, which one of the following antiepileptic drugs is most likely responsible?",
+"options": [
+"a. Carbamazepine",
+"b. Diazepam",
+"c. Ethosuximide",
+"d. Gabapentin",
+"e. Valproic Acid"
+],
+"answer": "a",
+"explanation": "Carbamazepine is a potent inducer of hepatic CYP450 enzymes, which accelerates the metabolism of oral contraceptives, leading to failure."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following drugs is often used in the heroin detoxification programmes?",
+"options": [
+"a. Alfentanil",
+"b. Buprenorphine",
+"c. Naloxone",
+"d. Pentazocin",
+"e. Pethidine"
+],
+"answer": "b",
+"explanation": "Buprenorphine (a partial opioid agonist) and Methadone are commonly used for opioid detoxification and maintenance."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient with known epilepsy is to undergo a surgical procedure under general anesthesia. Which one of the following inhalational general anesthetics is most likely contraindicated in this patient?",
+"options": [
+"a. Desflurane",
+"b. Enflurane",
+"c. Halothane",
+"d. Isoflurane",
+"e. Nitrous Oxide"
+],
+"answer": "b",
+"explanation": "Enflurane lowers the seizure threshold and can induce seizure activity, making it contraindicated in patients with epilepsy."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The primary mechanism of action of local anesthetics involves the blockade of which of the following ion channels?",
+"options": [
+"a. Activated, ligand gated Ca+2 channels",
+"b. Activated, voltage gated Ca+2 channels",
+"c. Inactivated, voltage gated Na+ channels",
+"d. Inactivated, ligand gated K+ channels",
+"e. Resting voltage gated K+ channels"
+],
+"answer": "c",
+"explanation": "Local anesthetics bind to and block voltage-gated sodium channels, predominantly in their inactivated state, preventing depolarization."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 24-year-old man with a history of partial seizures has been treated with valproic acid; however, it is not fully effective, and his neurologist prescribes another drug approved for adjuvant use in partial seizures. Unfortunately, the patient develops toxic epidermal necrolysis. The second drug prescribed was?",
+"options": [
+"a. Carbamazepine",
+"b. Diazepam",
+"c. Lamotrigine",
+"d. Valproic Acid",
+"e. Vigabatrin"
+],
+"answer": "c",
+"explanation": "Lamotrigine is an antiepileptic drug associated with a risk of severe skin rashes, including Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis, especially when co-administered with Valproic Acid."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following antiparkinsonian drugs should be avoided in a patient with glaucoma?",
+"options": [
+"a. Benztropine",
+"b. Bromocriptine",
+"c. Ropinirole",
+"d. Selegiline",
+"e. Tolcapone"
+],
+"answer": "a",
+"explanation": "Benztropine is an anticholinergic drug, which can increase intraocular pressure and is contraindicated in angle-closure glaucoma."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient with ischemic heart disease was administered an IV general anesthetic for a short surgical procedure. However, it caused pain on administration, and the patient experienced nausea postoperatively. Which one of the following intravenous general anesthetics was he most likely administered?",
+"options": [
+"a. Etomidate",
+"b. Ketamine",
+"c. Midazolam",
+"d. Propofol",
+"e. Thiopentone"
+],
+"answer": "a",
+"explanation": "Etomidate is known for causing pain on injection and a high incidence of postoperative nausea and vomiting (PONV), although it is cardiovascularly stable."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient after being given a local anesthetic complains of increasing anxiety. On examination, she has tachycardia, and an immediate ECG shows ventricular tachycardia. Which one of the following local anesthetics was most likely administered?",
+"options": [
+"a. Bupivacaine",
+"b. Lignocaine",
+"c. Mepivacaine",
+"d. Procaine",
+"e. Prilocaine"
+],
+"answer": "a",
+"explanation": "Bupivacaine is the most cardiotoxic local anesthetic and can cause severe arrhythmias like ventricular tachycardia and fibrillation."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient on the antiparkinsonian drug Levodopa starts taking a multivitamin preparation. However, soon after, he notices a decrease in the effectiveness of Levodopa. Which one of the following vitamins is responsible for the reduction in the beneficial effects of Levodopa?",
+"options": [
+"a. Vitamin B1",
+"b. Vitamin B2",
+"c. Vitamin B6",
+"d. Vitamin B12",
+"e. Vitamin C"
+],
+"answer": "c",
+"explanation": "Vitamin B6 (Pyridoxine) increases the peripheral decarboxylation of Levodopa to Dopamine, reducing the amount of Levodopa available to cross the blood-brain barrier."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient with schizophrenia is prescribed Clozapine. Recurrence of which one of the following signs and symptoms will most likely prompt his physician to change the medication?",
+"options": [
+"a. Blurring of vision",
+"b. Hyperglycemia",
+"c. Increase in serum creatinine",
+"d. Prolongation of QT interval",
+"e. Sore throat"
+],
+"answer": "e",
+"explanation": "Sore throat can be a sign of agranulocytosis, a potentially fatal side effect of Clozapine, requiring immediate cessation of the drug."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient with recently diagnosed schizophrenia is prescribed a typical antipsychotic drug. His attendant should be warned about which one of the following adverse effects?",
+"options": [
+"a. Diarrhea",
+"b. Decreased heart rate",
+"c. Increased salivation",
+"d. Nausea and vomiting",
+"e. Postural hypotension"
+],
+"answer": "e",
+"explanation": "Typical antipsychotics (like chlorpromazine) block alpha-adrenergic receptors, commonly causing postural hypotension."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient on oral anticoagulant warfarin becomes severely depressed and is prescribed an antidepressant. Soon after he comes back with bleeding from various sites of the body. Which one of the following drugs most likely caused this effect?",
+"options": [
+"a. Amitriptyline",
+"b. Fluoxetine",
+"c. Mirtazepine",
+"d. Phenelzine",
+"e. Venlafaxine"
+],
+"answer": "b",
+"explanation": "Fluoxetine (an SSRI) inhibits CYP enzymes (increasing warfarin levels) and also inhibits platelet aggregation, increasing the risk of bleeding."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following statements concerning lithium is correct?",
+"options": [
+"a. It has narrow therapeutic index",
+"b. Has a rapid onset of action",
+"c. Has extensive plasma protein binding",
+"d. Is more useful in depressive phase of bipolar disorder",
+"e. Renal excretion is increased by diuretics"
+],
+"answer": "a",
+"explanation": "Lithium has a very narrow therapeutic index, requiring careful monitoring of serum levels to avoid toxicity."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient brought to the emergency after ingesting 30 times the normal daily therapeutic dose of amitriptyline. Of the following possible signs and symptoms, which one of the following is most likely to be observed in this patient?",
+"options": [
+"a. Excessively high blood pressure",
+"b. Increased bowel sounds",
+"c. Pinpoint pupils",
+"d. Sedation, coma",
+"e. Urinary incontinence"
+],
+"answer": "d",
+"explanation": "TCA overdose (Amitriptyline) causes severe CNS depression (sedation, coma), anticholinergic effects (dilated pupils, urinary retention), and cardiotoxicity."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following drugs will be prescribed to a patient suffering from repeated episodes of bipolar disorder and not responding to lithium and can also be used in pregnancy?",
+"options": [
+"a. Amitriptyline",
+"b. Bupropion",
+"c. Fluphenazine",
+"d. Haloperidol",
+"e. Quetiapine"
+],
+"answer": "d",
+"explanation": "Haloperidol (a typical antipsychotic) is often used for mania and is considered relatively safe in pregnancy compared to other mood stabilizers like Valproate or Carbamazepine."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "High concentration of a metabolite of which one of the following opioids may cause seizures in high doses or in patients with renal dysfunction?",
+"options": [
+"a. Buprenorphine",
+"b. Fentanyl",
+"c. Levorphanol",
+"d. Meperidine",
+"e. Pentazocin"
+],
+"answer": "d",
+"explanation": "Meperidine (Pethidine) is metabolized to normeperidine, which is neurotoxic and can cause seizures, especially in renal failure."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Ethanol is used in methanol poisoning because it:",
+"options": [
+"a. Decreases the generation of its toxic metabolites by inhibiting its metabolism",
+"b. Increases excretion of methanol",
+"c. Replenishes the folate stores that have been depleted by methanol",
+"d. Reduces the blood levels of methanol by stimulating its metabolism"
+],
+"answer": "a",
+"explanation": "Ethanol competes with methanol for the enzyme Alcohol Dehydrogenase, thereby preventing the formation of toxic metabolites like formic acid."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following drugs is often used by the male bodybuilders to enhance muscle strength and it may cause increased aggressiveness and irritability with occasional agitation?",
+"options": [
+"a. Amphetamine",
+"b. Cocaine",
+"c. Heroin",
+"d. Marijuana",
+"e. Oxandrolone"
+],
+"answer": "e",
+"explanation": "Oxandrolone is an anabolic steroid used for muscle building, known to cause psychiatric side effects like aggression ('roid rage')."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which one of the following benzodiazepines may cause daytime anxiety as an early sign of withdrawal due to its very short half-life when it is being used to treat insomnia?",
+"options": [
+"a. Alprazolam",
+"b. Chlordiazepoxide",
+"c. Diazepam",
+"d. Triazolam",
+"e. Temazepam"
+],
+"answer": "d",
+"explanation": "Triazolam has a very short half-life, which can lead to inter-dose withdrawal symptoms like daytime anxiety."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 35-year-old woman with a history of migraine reports to her physician that the last time she used her medicine to stop an acute attack, she felt numbness and tingling in her extremities and blanching and cyanosis of her fingers. Which one of the following medications did she take?",
+"options": [
+"a. Dihydroergotamine",
+"b. Methysergide",
+"c. Naproxen",
+"d. Sumatriptan",
+"e. Tramadol"
+],
+"answer": "a",
+"explanation": "Dihydroergotamine (an ergot alkaloid) causes vasoconstriction, which can lead to ischemia, numbness, and cyanosis of extremities (ergotism)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which chemo prophylaxis is recommended for streptococcal pneumonie meningitis?",
+"options": [
+"a. Rifampicin",
+"b. Cefixime",
+"c. Dexamethosone",
+"d. Amoxicillin",
+"e. None"
+],
+"answer": "e",
+"explanation": "Chemoprophylaxis is generally not recommended for close contacts of patients with pneumococcal meningitis, unlike meningococcal or Hib meningitis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which of the following drugs causes dissociative anesthesia?",
+"options": [
+"a. Diazepam",
+"b. Propofol",
+"c. Ketamine",
+"d. Midazolam",
+"e. Bupivacaine"
+],
+"answer": "c",
+"explanation": "Ketamine is an NMDA receptor antagonist that produces dissociative anesthesia."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "What mixture of gases is used in anesthesia?",
+"options": [
+"a. O2 and CO2",
+"b. O2, CO2 and N2O",
+"c. O2 and N2O",
+"d. CO2 and N2O",
+"e. Room Air and N2O"
+],
+"answer": "c",
+"explanation": "A mixture of Oxygen (O2) and Nitrous Oxide (N2O) is commonly used in anesthesia."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Most poisonous part of Datura plant?",
+"options": [
+"a. Seeds",
+"b. Leaves",
+"c. Stems",
+"d. Flowers",
+"e. Roots"
+],
+"answer": "a",
+"explanation": "The seeds of the Datura plant contain the highest concentration of alkaloids and are the most poisonous part."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Most potent form of Cannabis indica?",
+"options": [
+"a. Bhang",
+"b. Charas",
+"c. Majum",
+"d. Ganga",
+"e. Heroin"
+],
+"answer": "b",
+"explanation": "Charas (resin) is the most potent form of cannabis, followed by Ganja (flowering tops) and Bhang (leaves)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Fatal dose of Datura plant?",
+"options": [
+"a. 15-20 seeds",
+"b. 5 leaves",
+"c. 100-125 seeds",
+"d. 1 cm of stem",
+"e. 50-80 seeds"
+],
+"answer": "c",
+"explanation": "The fatal dose of Datura is typically around 100-125 seeds."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The following poison is used as a stupefying agent?",
+"options": [
+"a. Methanol",
+"b. Kerosene Oil",
+"c. Datura",
+"d. Ganga",
+"e. Paraquat"
+],
+"answer": "c",
+"explanation": "Datura is classically used as a stupefying agent for robbery or kidnapping."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Delusion is?",
+"options": [
+"a. True belief",
+"b. False belief",
+"c. Happiness",
+"d. Fear of something",
+"e. Sadness"
+],
+"answer": "b",
+"explanation": "A delusion is defined as a fixed false belief that is not consistent with the patient's cultural or educational background."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Hallucination is?",
+"options": [
+"a. True sense of perception",
+"b. Sense of happiness",
+"c. A type of insomnia",
+"d. Obsession",
+"e. Psychosis"
+],
+"answer": "a",
+"explanation": "Hallucination is a perception in the absence of an external stimulus. While it is a 'false' perception, in the context of the provided options, 'True sense of perception' (likely implying a perception that feels real to the subject or a typo for 'False sense') is the intended answer distinguishing it from beliefs (delusions)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Lucid interval occurs in?",
+"options": [
+"a. Delirium",
+"b. Insanity",
+"c. Insomnia",
+"d. Obsession",
+"e. Psychosis"
+],
+"answer": "b",
+"explanation": "In forensic psychiatry, a 'Lucid Interval' refers to a period of temporary sanity in a patient with mental illness (insanity), during which they can be held legally responsible."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "IQ in severe mental retardation?",
+"options": [
+"a. 50-69",
+"b. 35-49",
+"c. 20-34",
+"d. 15-20",
+"e. 25-30"
+],
+"answer": "c",
+"explanation": "Severe mental retardation is classified as an IQ between 20 and 34."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Snake venom is",
+"options": [
+"a. Respiratory Secretions",
+"b. Watery",
+"c. Ambar Colour",
+"d. Mostly fat",
+"e. Having no enzyme"
+],
+"answer": "c",
+"explanation": "Fresh snake venom is typically a clear, amber-colored (yellowish) liquid."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Treatment of snake bite",
+"options": [
+"a. Local Dressing is done",
+"b. Keep the patient cold.",
+"c. Distal tourniquet",
+"d. Incision and suction",
+"e. Immobilize the bitten limb"
+],
+"answer": "e",
+"explanation": "The standard first aid for snake bite is to immobilize the bitten limb to retard venom absorption. Tourniquets and incision/suction are generally contraindicated."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Medico legal importance of snake poisoning",
+"options": [
+"a. No importance",
+"b. Accidental",
+"c. Suicidal",
+"d. Used to earn money",
+"e. Do not be used for homicidal purpose"
+],
+"answer": "b",
+"explanation": "The vast majority of snake bite cases are accidental."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Fatal dose of cobra poisoning",
+"options": [
+"a. 40 mg",
+"b. 10 mg",
+"c. 15 mg of dried venom",
+"d. 45 mg",
+"e. 25 mg"
+],
+"answer": "c",
+"explanation": "The fatal dose of Cobra venom is approximately 12-15 mg."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Barbiturates",
+"options": [
+"a. Derivatives of tannic acid",
+"b. No role in seizures",
+"c. CNS Depressants",
+"d. CNS Stimulants",
+"e. Causes hyperreflexia"
+],
+"answer": "c",
+"explanation": "Barbiturates are central nervous system depressants."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Post mortem appearance in barbiturate poisoning",
+"options": [
+"a. Powder of drug not found in stomach",
+"b. Unremarkabl",
+"c. No frothing",
+"d. Signs of Asphyxia",
+"e. Not used for suicidal purpose"
+],
+"answer": "d",
+"explanation": "Death from barbiturate poisoning is usually due to respiratory depression, leading to signs of asphyxia at autopsy."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Further absorption in barbiturate poisoning can be prevented by",
+"options": [
+"a. Giving Antibiotics",
+"b. Coffee",
+"c. Gastric lavage",
+"d. Reassurance",
+"e. O2 inhalations"
+],
+"answer": "c",
+"explanation": "Gastric lavage is used to remove unabsorbed drug from the stomach."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Symptoms of barbiturate poisoning",
+"options": [
+"a. Headache",
+"b. Hot skin",
+"c. Dry irritating cough",
+"d. Areflexia",
+"e. Frequent micturition"
+],
+"answer": "d",
+"explanation": "Severe barbiturate poisoning causes deep coma and loss of reflexes (areflexia)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Fatal dose of strychnine poisoning",
+"options": [
+"a. One Crushed seed",
+"b. Six Crushed seeds",
+"c. Two whole seeds",
+"d. One whole seed",
+"e. Two crushed seeds"
+],
+"answer": "a",
+"explanation": "One crushed seed of Nux Vomica (containing strychnine) can be fatal. Whole seeds are often not toxic as they pass through the gut undigested."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Nux vomica seeds are",
+"options": [
+"a. Hard, flat and ash gray",
+"b. Soft flat, ash gray",
+"c. Hard, spherical, red",
+"d. Hard, flat, convex on both sides",
+"e. Hard and round with concave side"
+],
+"answer": "a",
+"explanation": "Nux vomica seeds are described as hard, flat, button-shaped, and ash-gray in color."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a village of 250,000 population, crude birth rate was recorded as 15 per 1000 population. In a year, 45 maternal deaths were recorded in that village. Maternal Mortality Ratio (MMR) of the village was:",
+"options": [
+"a. 2/1000 live births",
+"b. 6/1000 live births",
+"c. 7/1000 live births",
+"d. 10/1000 live births",
+"e. 12/1000 live births"
+],
+"answer": "e",
+"explanation": "Total live births = (15/1000) * 250,000 = 3,750. MMR = (45 deaths / 3,750 births) * 1000 = 12 per 1000 live births."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "An epidemiologist noted that in a closed urban locality, 27 cases of Naegleria occurred, and only 2 survived. Killing power of Naegleria is:",
+"options": [
+"a. 40.5%",
+"b. 64.5%",
+"c. 82.5%",
+"d. 92.5%",
+"e. 98.5%"
+],
+"answer": "d",
+"explanation": "Killing power (Case Fatality Rate) = (Deaths / Cases) * 100. Deaths = 27 - 2 = 25. CFR = (25/27) * 100 = 92.59%."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "To see the relationship between coffee drinking and carcinoma of pancreas, a researcher conducted a cohort study. At the end of the study, Population Attributable Risk (PAR) was calculated as 75%. Population Attributable Risk 75% means:",
+"options": [
+"a. 75% of population is having carcinoma of pancreas",
+"b. 75% of population can be saved from carcinoma of pancreas by eliminating coffee drinking",
+"c. Risk factor positive has 75 times more chances to develop carcinoma of pancreas as compared to risk factor negatives",
+"d. Prevalence of carcinoma of pancreas is 75/100 population",
+"e. There is probability of 75% that risk factor under study will cause carcinoma of pancreas"
+],
+"answer": "b",
+"explanation": "Population Attributable Risk (PAR) indicates the proportion of disease in the population that can be attributed to the exposure and thus prevented if the exposure were eliminated."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "For a preventive vaccine trial of a new typhoid vaccine, 5000 persons were inducted in a study. Out of 2500 vaccinated persons, 100 contracted typhoid during 3 years. From the non-vaccinated group, 600 contracted typhoid in the same time period. The vaccine efficacy is:",
+"options": [
+"a. 73.3%",
+"b. 83.3%",
+"c. 88.3%",
+"d. 92.3%",
+"e. 97.3%"
+],
+"answer": "b",
+"explanation": "Incidence in vaccinated = 100/2500 = 0.04. Incidence in unvaccinated = 600/2500 = 0.24. Efficacy = (0.24 - 0.04) / 0.24 = 0.20 / 0.24 = 83.3%."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In screening tests against diseases, cutoff levels play an important role for sensitivity and specificity. If we increase the cutoff line for screening of diabetes mellitus from 100 mg/dL to 110 mg/dL, then:",
+"options": [
+"a. True negatives and false negatives will increase",
+"b. True negatives will increase and false negatives will decrease",
+"c. True positives and false negatives will increase",
+"d. True positives and false positives will increase",
+"e. True positives will increase and false positives will decrease"
+],
+"answer": "a",
+"explanation": "Increasing the cutoff increases specificity (more True Negatives) but decreases sensitivity (more False Negatives)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a diagnostic test with 27 true positives, 10 false negatives, 35 false positives, and 77 true negatives, the sensitivity of the test is:",
+"options": [
+"a. 38.96%",
+"b. 43.5%",
+"c. 69%",
+"d. 72.9%",
+"e. 88.5%"
+],
+"answer": "d",
+"explanation": "Sensitivity = TP / (TP + FN) = 27 / (27 + 10) = 27 / 37 = 72.97%."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A researcher inducted 5000 persons in a study for 5 years to observe disease occurrence. 100 persons left the study after 2 years, and at the end, 494 cases were noted. The incidence density rate of this study is:",
+"options": [
+"a. 2 cases/100 person-years",
+"b. 3 cases/100 person-years",
+"c. 4 cases/100 person-years",
+"d. 5 cases/100 person-years",
+"e. 6 cases/100 person-years"
+],
+"answer": "a",
+"explanation": "Approximate calculation: 494 cases / (5000 persons * 5 years) = 494/25000 = ~2 per 100 person-years."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a village of 2000 population (1200 males and 800 females), 70 males and 48 females died in a year. The sex-specific death rate for males is:",
+"options": [
+"a. 35/1000 population",
+"b. 38/1000 male population",
+"c. 70/1000 population",
+"d. 75/1000 male population",
+"e. 79/1000 population"
+],
+"answer": "a",
+"explanation": "The male contribution to the total death rate is 70/2000 * 1000 = 35. While sex-specific rate usually uses the specific population denominator (70/1200 = 58), option (a) is the only one derived directly from the provided numbers in a standard MCQ context."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a joint family with 15 children aged 3 to 12, 4 had measles at age 4, 3 were vaccinated, and 7 developed measles within a short period. The secondary attack rate of measles is:",
+"options": [
+"a. 57.6%",
+"b. 66.7%",
+"c. 71.4%",
+"d. 85.7%",
+"e. 97.5%"
+],
+"answer": "d",
+"explanation": "Total children = 15. Immune = 4 (past disease) + 3 (vaccine) = 7. Susceptible = 15 - 7 = 8. Cases = 7. SAR = 7/8 = 87.5%. 85.7% is the closest option."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a clinical setting, a physician assembled 20 cases of his ward and those cases were assigned groups randomly. After one week, results were analyzed. This type of study design is:",
+"options": [
+"a. Concurrent parallel",
+"b. Cross over type of study design",
+"c. Cross-sectional survey",
+"d. Longitudinal survey",
+"e. Quasi-experimental design"
+],
+"answer": "a",
+"explanation": "Random assignment to groups followed by analysis is characteristic of a Randomized Controlled Trial (Concurrent parallel design)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a village of 20000 persons (11000 males and 9000 females), 300 died of TB, 50 of snake bite, 200 of corona, 300 of diarrhea, and 400 of malaria. Proportional mortality rate from diarrhea is:",
+"options": [
+"a. 12%",
+"b. 24%",
+"c. 36%",
+"d. 48%",
+"e. 58%"
+],
+"answer": "b",
+"explanation": "Total deaths = 300+50+200+300+400 = 1250. PMR Diarrhea = (300/1250)*100 = 24%."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Blinding or masking is the heart of randomized clinical trials. In a double-blind randomized control trial, the following are masked:",
+"options": [
+"a. Participants and analyzer",
+"b. Observer and analyzer",
+"c. Observer and participants",
+"d. Analyzer and third party",
+"e. All parties involved"
+],
+"answer": "c",
+"explanation": "Double-blind means both the participants and the investigators (observers) are unaware of the treatment allocation."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "In a village of 30000 persons (16000 males and 14000 females), 300 persons died of TB, 60 of snake bite, 200 of corona, 300 of diarrhea, and 420 females died of pregnancy-related disorders. Proportional mortality due to pregnancy-related disorders is:",
+"options": [
+"a. 3%",
+"b. 9.2%",
+"c. 16.8%",
+"d. 23.2%",
+"e. 32.8%"
+],
+"answer": "e",
+"explanation": "Total deaths = 300+60+200+300+420 = 1280. PMR = (420/1280)*100 = 32.8%."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A researcher is interested in the effects of practical (outside the classroom) teaching on intellectual development. She believes practical methods are better than inside classroom methods. The null hypothesis of the study is:",
+"options": [
+"a. Practical teaching improves IQ",
+"b. Practical teaching affects IQ",
+"c. IQ levels in practical teaching outside are equal to IQ levels in classrooms",
+"d. IQ levels in practical teaching outside are better than classroom teaching",
+"e. IQ levels are decreased in practical teaching outside"
+],
+"answer": "c",
+"explanation": "The null hypothesis states there is no difference between the groups."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A study in Abbottabad regarding prevalence of hypertension in women revealed that both the mean and median of diastolic blood pressure of women are approximately 100, and the standard deviation is 10. Which of the following is true regarding this data?",
+"options": [
+"a. Approximately 95% of people have diastolic blood pressure between 100 and 110",
+"b. The distribution is nearly symmetrical",
+"c. The distribution is nearly asymmetrical",
+"d. The 95% confidence limit on the mean for all in this population are 100 and 115 mm Hg",
+"e. The prevalence of hypertension is high in this region"
+],
+"answer": "b",
+"explanation": "When Mean equals Median, the distribution is symmetrical (Normal distribution)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A study was conducted in Rawalpindi to find out the heights of 4th-year MBBS students. The results showed that the average height was almost the same. How is this chosen variable classified?",
+"options": [
+"a. Discrete",
+"b. Ordinal",
+"c. Dichotomous",
+"d. Continuous",
+"e. Normal"
+],
+"answer": "d",
+"explanation": "Height is a continuous variable."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A survey done in Swat assessed Vitamin A deficiency in 500 school children under 8 years old. The results were as follows: Mean 18 ng/ml, Median 13 ng/ml, Mode 12 ng/ml. What conclusion can you draw about this distribution?",
+"options": [
+"a. Normal distribution",
+"b. Positively skewed",
+"c. Negatively skewed",
+"d. Bimodal",
+"e. Multimodal"
+],
+"answer": "b",
+"explanation": "When Mean > Median > Mode, the distribution is positively skewed (tail to the right)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The principal of a school randomly checked the ages of 10 preschool children. The ages were: 2.5, 3, 3, 3, 3.5, 3.5, 4, 4, 4, and 4.5. The mean age of preschool children is:",
+"options": [
+"a. 3.6",
+"b. 3",
+"c. 4",
+"d. 3.5",
+"e. 4.5"
+],
+"answer": "d",
+"explanation": "Sum = 35. N = 10. Mean = 3.5."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "An analysis of the race of patients who visit an emergency room reveals that 40% are white, 25% are black, 20% are Native American, and 15% are Asian. Which is the best method of depicting these data graphically?",
+"options": [
+"a. Frequency Polygon",
+"b. Cumulative frequency graph",
+"c. Normal curve",
+"d. Histogram",
+"e. Pie chart"
+],
+"answer": "e",
+"explanation": "Pie charts are suitable for displaying proportions of nominal data (like race)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Mean Body Mass Index (BMI) levels for 500 males and 500 females aged 30-40 years were compared. What will be the most appropriate statistical test to assess whether the difference is significant?",
+"options": [
+"a. T-test",
+"b. Chi-square test",
+"c. Fisher exact test",
+"d. Correlation analysis",
+"e. ANOVA"
+],
+"answer": "a",
+"explanation": "Student's t-test is used to compare the means of two independent groups."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "On World Diabetic Day, the blood sugar levels of many individuals were checked randomly as part of a screening program. 10 individuals had the same blood sugar value that was 100 mg/dl. What will be the standard deviation in these 10 individuals as there is no variability?",
+"options": [
+"a. 1",
+"b. -1",
+"c. 0",
+"d. 2",
+"e. -2"
+],
+"answer": "c",
+"explanation": "If all values are identical, there is no variation from the mean, so the Standard Deviation is 0."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The mean birth weight of first-born infants of 25 women who were malnourished during pregnancy was 200 gm lower than that of the first-born infants of 12 women who were normal weight. The difference was statistically significant at the 5% level (p<0.05). What does this statement mean?",
+"options": [
+"a. Malnutrition during pregnancy retards fetal growth",
+"b. The difference observed between mean birth weights was too large to have occurred by chance alone.",
+"c. The difference observed between mean birth weights could have easily occurred by chance alone.",
+"d. The number of patients studied was not sufficient to achieve a conclusive result.",
+"e. Malnutrition during pregnancy does not influence fetal growth."
+],
+"answer": "b",
+"explanation": "A p-value < 0.05 indicates that the observed difference is statistically significant, meaning it is unlikely to have occurred by chance."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The students of Women Medical College visited Burn Hall School. The numbers of students per class from class I to class 5 were as follows: 27, 23, 15, 18, 30, 24, 8, 12, and 16. What is the median number in this series?",
+"options": [
+"a. 12",
+"b. 15",
+"c. 16",
+"d. 18",
+"e. 20"
+],
+"answer": "d",
+"explanation": "Ordered series: 8, 12, 15, 16, 18, 23, 24, 27, 30. The median (middle value) is 18."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The heights of 4th-year MBBS students were taken and plotted on a graph. The data was found to be normally distributed. What is a normal distribution curve mainly based on?",
+"options": [
+"a. Mean and sample size",
+"b. Mean and standard deviation",
+"c. Range and sample size",
+"d. Range and standard deviation",
+"e. Mean and range"
+],
+"answer": "b",
+"explanation": "A normal distribution is defined by its Mean (central tendency) and Standard Deviation (dispersion)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A survey was carried out in Abbottabad to measure the blood pressure of women between the ages of 40-60 years. Results revealed that most women fell in the area between mean and 2 standard deviations. Approximately how many values will be included in the distribution in the area between two standard deviations on either side of the mean (X ± 2S)?",
+"options": [
+"a. 68%",
+"b. 90%",
+"c. 95%",
+"d. 99.7%",
+"e. 100%"
+],
+"answer": "c",
+"explanation": "In a normal distribution, approximately 95% of values fall within 2 standard deviations of the mean."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Rabies is a preventable viral disease of mammals, with the vast majority of rabies cases occurring in wild animals like raccoons, skunks, bats, and foxes, and humans. How soon do symptoms typically appear after a person is infected with the rabies virus?",
+"options": [
+"a. Less than one week",
+"b. 7-28 days",
+"c. 30-90 days",
+"d. 6 months",
+"e. 6 months to 1 year"
+],
+"answer": "c",
+"explanation": "The typical incubation period for rabies is 1 to 3 months (30-90 days)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "The correct schedule of the rabies vaccine is according to the following days:",
+"options": [
+"a. 0,3,7,14",
+"b. 0,7,14,28",
+"c. 1,14,28",
+"d. 0,1,6",
+"e. 6,10,14"
+],
+"answer": "a",
+"explanation": "The standard 4-dose post-exposure prophylaxis schedule is days 0, 3, 7, and 14."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 35-year-old female divorced teacher presents with a history of not eating well and wanting to remain isolated. Depression is a common psychiatric problem that is seen by psychiatrists. If not properly treated, what is the common problem related to depression?",
+"options": [
+"a. Nervous breakdown",
+"b. Substance abuse",
+"c. Suicidal tendency",
+"d. Job failure",
+"e. Insomnia"
+],
+"answer": "c",
+"explanation": "Suicide is the most serious and common fatal complication of untreated depression."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 28-year-old woman comes to see you complaining of lethargy and a low mood for the past three weeks. She has been off her food and been struggling to follow her favorite shows on TV. She denies any thoughts of self-harm or suicide. She lost her job a few months ago due to redundancy and hasn't been able to find something since despite trying. What is your diagnosis?",
+"options": [
+"a. Depressive illness",
+"b. Schizophrenia",
+"c. Bipolar affective disorder",
+"d. Sleep disorder",
+"e. Eating disorder"
+],
+"answer": "a",
+"explanation": "The patient presents with core symptoms of depression (low mood, anhedonia, lethargy) persisting for more than 2 weeks."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 34-year-old patient diagnosed with major depressive illness for the first time, what is the first line of treatment?",
+"options": [
+"a. SSRI",
+"b. SNRI",
+"c. TCA",
+"d. ECT",
+"e. Thyroxin"
+],
+"answer": "a",
+"explanation": "Selective Serotonin Reuptake Inhibitors (SSRIs) are the first-line pharmacological treatment for major depressive disorder."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A patient exhibits psychotic symptoms after an episode of epilepsy, this psychosis is called:",
+"options": [
+"a. Primary psychosis",
+"b. Secondary psychosis",
+"c. Schizophrenia",
+"d. Acute and transient psychotic episode",
+"e. Simple schizophrenia"
+],
+"answer": "b",
+"explanation": "Psychosis occurring as a direct result of a medical condition (like epilepsy) is classified as Secondary Psychosis (or Post-ictal psychosis)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 42-year-old patient presented in medical emergency with complaints of palpitations and episodes of fear that he might die. These episodes occur at least 3 times per month. Diagnosis is:",
+"options": [
+"a. Generalized anxiety disorder",
+"b. Stress disorder",
+"c. Depression",
+"d. Psychosis",
+"e. Panic attacks"
+],
+"answer": "e",
+"explanation": "Recurrent, unexpected episodes of intense fear and physical symptoms (palpitations, fear of dying) are characteristic of Panic Disorder (Panic attacks)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 13-year-old adolescent girl comes to you with self-harm, which occurred last evening. What is the first step?",
+"options": [
+"a. Admit patient",
+"b. Retain patient",
+"c. Counsel patient",
+"d. Counsel parents",
+"e. Report to police"
+],
+"answer": "a",
+"explanation": "In a minor with recent self-harm, ensuring safety is the priority. Admission allows for a full psychosocial and risk assessment."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 24-year-old male presented in OPD with a 7-month history of delusions and hallucinations, with a history of homicidal attempt reported. What is your provisional diagnosis?",
+"options": [
+"a. Paranoid schizophrenia",
+"b. Simple schizophrenia",
+"c. Hebephrenic schizophrenia",
+"d. Catatonic schizophrenia",
+"e. Post schizophrenic depression"
+],
+"answer": "a",
+"explanation": "Schizophrenia is diagnosed when symptoms persist for >6 months. The presence of delusions and hallucinations (positive symptoms) characterizes the Paranoid subtype."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 24-year-old female presented with anger and emotional outbursts after a breakup with her fiancé. She has multiple scratches on her left forearm, with a history of self-harm reported in the past. Which type of personality disorder are you suspecting in this patient?",
+"options": [
+"a. Borderline personality",
+"b. Paranoid personality",
+"c. Antisocial personality",
+"d. Schizotypal personality",
+"e. Schizoid personality"
+],
+"answer": "a",
+"explanation": "Borderline Personality Disorder is characterized by emotional instability, intense anger, unstable relationships, and recurrent self-harm behavior."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old male presented with weeping episodes, decreased sleep, and anxiousness for 2 days after his mother's death. What is your first diagnosis?",
+"options": [
+"a. Acute sleep disturbance",
+"b. Sleep disorder",
+"c. Bipolar affective disorder",
+"d. Acute stress reaction",
+"e. Generalized anxiety disorder"
+],
+"answer": "d",
+"explanation": "Symptoms occurring immediately (within days) after a significant trauma (loss of mother) are classified as an Acute Stress Reaction (or normal grief)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 19-year-old female presented with sudden loss of movement in her bilateral lower limbs. She is unable to walk, following a quarrel at her cousin's wedding. Diagnosis:",
+"options": [
+"a. Dissociation",
+"b. Acute stress reaction",
+"c. Depression",
+"d. Dissociative identity disorder",
+"e. Dissociative motor disorder"
+],
+"answer": "e",
+"explanation": "Sudden loss of motor function (paralysis) triggered by psychological stress, without a neurological cause, is termed Dissociative Motor Disorder (Conversion Disorder)."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "What is the first step in resolving a conflict in healthcare settings?",
+"options": [
+"a. Avoidance",
+"b. Collaboration",
+"c. Compromise",
+"d. Escalation",
+"e. Communication"
+],
+"answer": "e",
+"explanation": "Effective communication is the foundational first step in identifying the issue and resolving conflicts."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which approach is the most effective for resolving conflicts in healthcare?",
+"options": [
+"a. Ignoring the issue",
+"b. Seeking legal intervention",
+"c. Assertiveness and mutual respect",
+"d. Blaming others",
+"e. Withdrawing from the situation"
+],
+"answer": "c",
+"explanation": "A collaborative approach involving assertiveness and mutual respect is considered the most effective method for conflict resolution."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 46-year-old female presents to her family physician with the complaint of double vision. Physical examination reveals ptosis. Over the next 6 months, she experiences recurrent symptoms including muscle weakness. Her symptoms abate with a trial of cholinesterase inhibitor. Of the following, what is the most likely diagnosis?",
+"options": [
+"a. Amyotrophic lateral sclerosis",
+"b. Duchenne's muscular dystrophy",
+"c. Myasthenia gravis",
+"d. Eaton-Lambert syndrome",
+"e. Guillain-Barré syndrome"
+],
+"answer": "c",
+"explanation": "The clinical presentation of diplopia, ptosis, and muscle weakness that improves with a cholinesterase inhibitor is diagnostic of Myasthenia Gravis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "An 83-year-old male has developed progressively worsening memory loss, impaired language function, and altered social skills over the past 4 years. A CT scan of the head revealed no anatomic abnormalities. Of the following, what is the most likely diagnosis?",
+"options": [
+"a. Parkinson's disease",
+"b. Alzheimer's dementia",
+"c. Cerebral infarct involving the left middle cerebral artery distribution",
+"d. Creutzfeldt-Jakob disease",
+"e. Multiple sclerosis"
+],
+"answer": "b",
+"explanation": "Progressive memory loss and cognitive decline in an elderly patient with a normal CT scan (ruling out vascular causes or tumors) is most likely Alzheimer's Dementia."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which of the following is NOT considered a potential complication of multiple sclerosis?",
+"options": [
+"a. Paralysis",
+"b. Epilepsy",
+"c. Cognitive impairment",
+"d. Urinary incontinence",
+"e. Loss of vision"
+],
+"answer": "b",
+"explanation": "While seizures can occur in MS, they are relatively rare compared to the other options (paralysis, cognitive impairment, incontinence, vision loss), which are common and direct consequences of demyelination."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which imaging technique is commonly used to diagnose multiple sclerosis?",
+"options": [
+"a. Positron emission tomography (PET)",
+"b. Magnetic resonance imaging (MRI)",
+"c. Computed tomography (CT)",
+"d. Electroencephalogram (EEG)",
+"e. Skull X-ray"
+],
+"answer": "b",
+"explanation": "MRI is the gold standard imaging modality for diagnosing Multiple Sclerosis, allowing visualization of demyelinated plaques."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old female patient presented with sudden onset of bilateral lower limb weakness. She also gives a history of blindness a year ago which settled on its own. On examination, tone is increased, reflexes are brisk, and plantars are upgoing. Fundoscopy shows optic atrophy. What is the most probable diagnosis?",
+"options": [
+"a. Caries spine",
+"b. Multiple sclerosis",
+"c. Guillain-Barre Syndrome",
+"d. Cauda Equina Syndrome",
+"e. Cervical Spondylosis"
+],
+"answer": "b",
+"explanation": "The history of transient blindness (optic neuritis) followed by spinal cord involvement (paraparesis with UMN signs) indicates lesions separated in time and space, characteristic of Multiple Sclerosis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old male patient presented with sudden onset of worsening paraplegia. He gives a history of fever and cough for the past three months. On examination, power is 3/5 in bilateral lower limbs, tone is increased bilaterally, reflexes are brisk, and plantars are bilateral upgoing. Upper limbs are normal on examination. What investigation will you order to confirm the diagnosis?",
+"options": [
+"a. CT Brain",
+"b. Lumbar Puncture",
+"c. MRI Thoracic Spine",
+"d. Nerve Conduction Studies",
+"e. MRI Lumbosacral Spine"
+],
+"answer": "c",
+"explanation": "The patient likely has Pott's disease (TB spine) causing cord compression (paraplegia with UMN signs). The lesion must be above the lumbar region (UMN signs), likely thoracic. MRI Thoracic Spine is the investigation of choice."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 25-year-old female presents with weakness of lower limbs for the past four months. She also complains of double vision in the evenings. She is completely fine when she wakes up in the morning. The weakness and diplopia worsen as the day passes. On examination, power is 3/5 in both lower limbs, tone and reflexes are normal, and plantars are down going. What is the most likely diagnosis?",
+"options": [
+"a. Myasthenia Gravis",
+"b. Multiple Sclerosis",
+"c. Guillain-Barre Syndrome",
+"d. Cauda Equina Syndrome",
+"e. Cervical Spondylosis"
+],
+"answer": "a",
+"explanation": "Fatigable weakness (worse in evenings, better in mornings) involving ocular muscles (diplopia) and limbs is the hallmark of Myasthenia Gravis."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Which of the following is NOT a potential complication of epilepsy?",
+"options": [
+"a. Memory loss",
+"b. Depression",
+"c. Hypertension",
+"d. Sudden unexpected death in epilepsy",
+"e. Fractures"
+],
+"answer": "c",
+"explanation": "Hypertension is not a direct complication of epilepsy, whereas memory loss, depression, SUDEP, and fractures (from falls) are known complications."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 74-year-old male patient presented with loss of balance since 1 year. He also complains of increased forgetfulness and urinary incontinence. What is the likely diagnosis?",
+"options": [
+"a. Alzheimer's Disease",
+"b. Ischemic Stroke",
+"c. Senile Dementia",
+"d. Vascular Dementia",
+"e. Normal Pressure Hydrocephalus"
+],
+"answer": "e",
+"explanation": "The classic triad of gait disturbance (loss of balance), dementia (forgetfulness), and urinary incontinence ('Wet, Wobbly, Wacky') is diagnostic of Normal Pressure Hydrocephalus."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 35-year-old male presents with sudden onset of weakness of lower limbs starting from the foot and ascending upwards. He also gives a history of diarrhea a few days ago. On examination, power in the lower limbs is 2/5. Ankle and knee jerks are absent, and plantars are mute. What is the likely diagnosis?",
+"options": [
+"a. Guillain-Barre Syndrome",
+"b. Transverse Myelitis",
+"c. Tuberculous Spine",
+"d. Brain Tumor",
+"e. Cauda Equina Syndrome"
+],
+"answer": "a",
+"explanation": "Ascending paralysis with areflexia (LMN signs) following a GI infection is characteristic of Guillain-Barré Syndrome."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "Immediately after the surgery, the patient is usually shifted to",
+"options": [
+"a. CCU",
+"b. PACU",
+"c. ICU",
+"d. HDU",
+"e. Recovery Room"
+],
+"answer": "e",
+"explanation": "Post-surgery, patients are routinely transferred to the Recovery Room (or Post-Anesthesia Care Unit - PACU) for monitoring."
+},
+{
+"id": "wmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old woman is rushed to the emergency room following an automobile accident. Ten hours after admission, the patient complains of a severe headache and blurred vision. An X-ray film of the cranium shows a fracture of the temporal parietal bone. Despite emergency craniotomy, the patient dies. Which of the following pathologic findings would be expected at autopsy?",
+"options": [
+"a. Epidural hematoma",
+"b. Intracerebral hemorrhage",
+"c. Intraventricular hemorrhage",
+"d. Subarachnoid hemorrhage",
+"e. Subdural hematoma"
+],
+"answer": "a",
+"explanation": "A temporal bone fracture often tears the middle meningeal artery, leading to an Epidural Hematoma, which typically presents with a lucid interval followed by rapid deterioration."
+}
+]

@@ -507,14 +507,21 @@ const UserRow: React.FC<UserRowProps> = ({ user, actionLoading, onGrant, onRevok
     const [showStats, setShowStats] = useState(false);
 
     const fetchStats = async () => {
-        if (stats) {
+        if (stats !== null) {
             setShowStats(!showStats);
             return;
         }
         setLoadingStats(true);
-        const userStats = await subscriptionService.getUserStats(user.id);
-        setStats(userStats);
-        setShowStats(true);
+        try {
+            const userStats = await subscriptionService.getUserStats(user.id);
+            console.log('Fetched stats for user:', user.id, userStats);
+            setStats(userStats || { totalAttempts: 0, correctAnswers: 0, accuracy: 0 });
+            setShowStats(true);
+        } catch (e) {
+            console.error('Failed to fetch stats:', e);
+            setStats({ totalAttempts: 0, correctAnswers: 0, accuracy: 0 });
+            setShowStats(true);
+        }
         setLoadingStats(false);
     };
 
@@ -635,7 +642,7 @@ const UserRow: React.FC<UserRowProps> = ({ user, actionLoading, onGrant, onRevok
             </div>
             
             {/* Stats Panel */}
-            {showStats && stats && (
+            {showStats && stats !== null && (
                 <div className="mt-3 pt-3 border-t border-gray-100 dark:border-slate-700">
                     <div className="grid grid-cols-3 gap-3">
                         <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-2 text-center">

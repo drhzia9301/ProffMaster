@@ -1,0 +1,842 @@
+[
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Phylecten is due to:",
+"options": [
+"a. Endogenous allergy",
+"b. Exogenous allergy",
+"c. Degeneration",
+"d. None of the above"
+],
+"answer": "a",
+"explanation": "Phlyctenular conjunctivitis is typically a delayed hypersensitivity (Type IV) reaction to endogenous microbial proteins (e.g., Staph or TB)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A young child suffering from fever and sore throat began to complain of lacrimation. On examination, follicles were found in the lower palpebral conjunctiva with tender preauricular lymph nodes. The most probable diagnosis is:",
+"options": [
+"a. Trachoma",
+"b. Staphylococcal conjunctivitis",
+"c. Adenoviral conjunctivitis",
+"d. Phlyctenular conjunctivitis"
+],
+"answer": "c",
+"explanation": "This clinical picture (fever, pharyngitis, follicular conjunctivitis, lymphadenopathy) describes Pharyngoconjunctival Fever (PCF), caused by Adenovirus."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Herbert's pits are seen in:",
+"options": [
+"a. Trachoma",
+"b. Herpetic conjunctivitis",
+"c. Ophthalmia neonatorum",
+"d. Spring catarrh"
+],
+"answer": "a",
+"explanation": "Herbert's pits are scarred limbal follicles and are pathognomonic for Trachoma."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A patient on slit lamp examination shows hypopyon in the anterior chamber after trauma, which is",
+"options": [
+"a. Pus in anterior chamber",
+"b. Cells in anterior chamber",
+"c. Protein in anterior chamber",
+"d. Blood in anterior chamber",
+"e. Foreign body in anterior chamber"
+],
+"answer": "a",
+"explanation": "Hypopyon is defined as the presence of pus (leukocytes) in the anterior chamber."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A patient has blunt trauma with a tennis ball and is having hyphema, which is",
+"options": [
+"a. Pus in anterior chamber",
+"b. Foreign body in anterior chamber",
+"c. Uveal tissue",
+"d. Blood in anterior chamber"
+],
+"answer": "d",
+"explanation": "Hyphema is defined as the presence of blood in the anterior chamber."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A young boy presented in emergency with watering and photophobia in the right eye. Which test is appropriate?",
+"options": [
+"a. Schirmer test",
+"b. Tear breakup time",
+"c. Rose Bengal staining",
+"d. Fluorescein staining"
+],
+"answer": "d",
+"explanation": "Fluorescein staining is used to detect corneal epithelial defects (abrasions or ulcers) which cause photophobia and watering."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A patient is presented with a dendritic corneal ulcer and severe pain and has a history of contact lens wear. Which organism is most likely responsible for the condition?",
+"options": [
+"a. Herpes simplex",
+"b. Acanthamoeba",
+"c. Candida",
+"d. Both a and b"
+],
+"answer": "a",
+"explanation": "Dendritic ulcers are classic for Herpes Simplex Keratitis. While contact lens wear and severe pain are also associated with Acanthamoeba, the specific finding of a dendritic ulcer strongly points to HSV (Acanthamoeba causes pseudo-dendrites)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In band keratopathy which corneal layer is involved",
+"options": [
+"a. Bowman's layer",
+"b. Epithelium layer",
+"c. Endothelium layer",
+"d. None of the above"
+],
+"answer": "a",
+"explanation": "Band keratopathy involves calcium deposition in Bowman's layer."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In keratoconus the cornea becomes",
+"options": [
+"a. Cone shaped",
+"b. Spherical shape",
+"c. Thin at the center",
+"d. Both a and c"
+],
+"answer": "d",
+"explanation": "Keratoconus is characterized by conical protrusion and stromal thinning (ectasia)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The color of fluorescein staining in corneal ulcer is:",
+"options": [
+"a. Yellow",
+"b. Blue",
+"c. Green",
+"d. Red"
+],
+"answer": "c",
+"explanation": "Fluorescein stains epithelial defects bright green when viewed under cobalt blue light."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Bandage of the eyes is contraindicated in:",
+"options": [
+"a. Corneal abrasion",
+"b. Bacterial corneal ulcer",
+"c. Mucopurulent conjunctivitis",
+"d. After glaucoma surgery",
+"e. Inferior fornix"
+],
+"answer": "c",
+"explanation": "Bandaging is contraindicated in mucopurulent conjunctivitis as it retains discharge and creates a warm incubator for bacteria."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Papilloedema has all the following characteristics except:",
+"options": [
+"a. Marked loss of vision",
+"b. Blurring of disc margins",
+"c. Hyperemia of disc",
+"d. Field defect"
+],
+"answer": "a",
+"explanation": "In acute papilloedema, visual acuity is typically preserved. Marked loss of vision occurs in late stages (optic atrophy)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Homonymous hemianopia is the result of a lesion in:",
+"options": [
+"a. Optic chiasma",
+"b. Retina",
+"c. Optic tract",
+"d. Optic nerve"
+],
+"answer": "c",
+"explanation": "Lesions posterior to the chiasm (e.g., Optic Tract) cause contralateral homonymous hemianopia."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Lagophthalmos can occur in all of the following except:",
+"options": [
+"a. 7th cranial nerve paralysis",
+"b. 5th cranial nerve paralysis",
+"c. Thyrotoxic exophthalmos",
+"d. Symblepharon"
+],
+"answer": "b",
+"explanation": "5th nerve paralysis affects sensation (neurotrophic), not lid closure. 7th nerve paralysis (Bell's palsy) affects the orbicularis oculi, causing lagophthalmos."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "All the following are extraocular muscles of the eye except:",
+"options": [
+"a. Superior rectus",
+"b. Ciliary muscle",
+"c. Inferior oblique",
+"d. Superior oblique"
+],
+"answer": "b",
+"explanation": "The ciliary muscle is an intraocular smooth muscle involved in accommodation, not eye movement."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The action of inferior oblique is:",
+"options": [
+"a. Depression, extorsion, abduction",
+"b. Depression, extorsion, adduction",
+"c. Elevation, extorsion, adduction",
+"d. Elevation, extorsion, abduction"
+],
+"answer": "d",
+"explanation": "The Inferior Oblique acts to elevate, extort, and abduct the eye."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Ptosis and mydriasis are seen in:",
+"options": [
+"a. Facial palsy",
+"b. Peripheral neuritis",
+"c. Oculomotor palsy",
+"d. Sympathetic palsy"
+],
+"answer": "c",
+"explanation": "Oculomotor (CN III) palsy causes ptosis (levator paralysis) and mydriasis (parasympathetic loss)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In paralytic squint, the difference between primary and secondary deviation in the gaze of direction of the paralytic muscle:",
+"options": [
+"a. Increases",
+"b. Decreases",
+"c. Remains the same",
+"d. None"
+],
+"answer": "a",
+"explanation": "In paralytic squint, secondary deviation (when the paretic eye fixes) is greater than primary deviation. The deviation increases in the field of action of the paralyzed muscle."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Paralytic ectropion occurs in:",
+"options": [
+"a. Third nerve paralysis",
+"b. Trigeminal nerve paralysis",
+"c. Facial nerve paralysis",
+"d. Trochlear nerve paralysis"
+],
+"answer": "c",
+"explanation": "Facial nerve (CN VII) paralysis causes loss of tone in the orbicularis oculi, leading to paralytic ectropion."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The incision size in phacoemulsification is:",
+"options": [
+"a. 1 mm",
+"b. 3 mm",
+"c. 5 mm",
+"d. 7 mm"
+],
+"answer": "b",
+"explanation": "Phacoemulsification is a small-incision surgery, typically involving an incision around 2.2mm to 3.2mm."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A 12-year-old boy receiving long-term treatment for spring catarrh developed defective vision in both eyes. The likely cause is:",
+"options": [
+"a. Posterior subcapsular cataract",
+"b. Retinopathy of prematurity",
+"c. Optic neuritis",
+"d. Vitreous hemorrhage"
+],
+"answer": "a",
+"explanation": "Long-term steroid use (often for Vernal Keratoconjunctivitis/Spring Catarrh) is a common cause of Posterior Subcapsular Cataract."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Pseudophakia is the loss of:",
+"options": [
+"a. Accommodation",
+"b. Conversion",
+"c. Saccadic eye movements",
+"d. Contrast sensitivity"
+],
+"answer": "a",
+"explanation": "Pseudophakia refers to the presence of an artificial intraocular lens (IOL). Standard IOLs do not accommodate."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Evisceration is:",
+"options": [
+"a. Excision of the entire eyeball",
+"b. Excision of all the inner contents of the eyeball including the uveal tissue",
+"c. Photocoagulation of the retina",
+"d. Removal of orbit contents"
+],
+"answer": "b",
+"explanation": "Evisceration involves removing the intraocular contents while leaving the sclera and extraocular muscles intact."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A four-year-old boy is seen in the Emergency Department with an 8mm laceration of the upper lid not involving the lid margin. He says that he injured his eye on the corner of the table. He has mild ptosis on the left side and there is herniation of orbital fat through the laceration. The eye examination is normal. Which of the following is the next MOST appropriate step?",
+"options": [
+"a. CT of the orbit",
+"b. Glue the laceration",
+"c. MRI of the orbit",
+"d. Ultrasound the orbit"
+],
+"answer": "a",
+"explanation": "Herniation of orbital fat indicates a breach of the orbital septum. A CT scan is necessary to rule out foreign bodies or deeper orbital injury/fractures."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In blowout fracture the commonest bone to fracture is",
+"options": [
+"a. Maxillary (floor)",
+"b. Zygomatic (lateral wall)",
+"c. Lachrymal (medial wall)",
+"d. Frontal (roof)"
+],
+"answer": "a",
+"explanation": "The orbital floor (Maxillary bone) is the weakest and most commonly fractured in blowout fractures."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Most common cause of adult unilateral proptosis",
+"options": [
+"a. Thyroid orbitopathy",
+"b. Metastasis",
+"c. Lymphoma",
+"d. Meningioma"
+],
+"answer": "a",
+"explanation": "Thyroid Eye Disease is the most common cause of both bilateral and unilateral proptosis in adults."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Anterolaterally, there is a slight depression in the orbit called:",
+"options": [
+"a. Lacrimal gland",
+"b. Check ligaments",
+"c. Lacrimal fossa",
+"d. Lacrimal groove"
+],
+"answer": "c",
+"explanation": "The lacrimal fossa (for the lacrimal gland) is located in the anterolateral aspect of the orbital roof (frontal bone)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Number of layers in neurosensory retina is:",
+"options": [
+"a. 9",
+"b. 10",
+"c. 11",
+"d. 12"
+],
+"answer": "a",
+"explanation": "The retina has 10 layers in total, but the neurosensory retina (excluding the Retinal Pigment Epithelium) has 9 layers."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In retinal detachment, fluid accumulates between:",
+"options": [
+"a. Outer plexiform layer and inner nuclear layer",
+"b. Neurosensory retina and layer of retinal pigment epithelium",
+"c. Nerve fiber layer and rest of retina",
+"d. Retinal pigment epithelium and Bruch’s membrane"
+],
+"answer": "b",
+"explanation": "Subretinal fluid accumulates between the neurosensory retina and the RPE."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A young patient with sudden painless loss of vision, with systolic murmur and ocular examination reveal a cherry red spot with clear AC, the likely diagnosis is:",
+"options": [
+"a. Central Retinal Artery Occlusion",
+"b. Central Retinal Vein Occlusion",
+"c. Diabetes Mellitus",
+"d. Branch Retinal Vein Occlusion"
+],
+"answer": "a",
+"explanation": "Sudden painless vision loss + Cherry Red Spot is classic for CRAO. The murmur suggests an embolic source."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Amaurotic cat's eye reflex is seen in:",
+"options": [
+"a. Papilloedema",
+"b. Retinoblastoma",
+"c. Papillitis",
+"d. Retinitis"
+],
+"answer": "b",
+"explanation": "Amaurotic cat's eye reflex (Leukocoria) is the most common presenting sign of Retinoblastoma."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Commonest lesion which hinders vision in diabetic retinopathy is:",
+"options": [
+"a. Macular oedema",
+"b. Microaneurysm",
+"c. Retinal hemorrhage",
+"d. Retinal detachment"
+],
+"answer": "a",
+"explanation": "Diabetic Macular Edema (DME) is the most common cause of vision loss in diabetic patients."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In retinitis pigmentosa, the pigmentation in the retina starts at:",
+"options": [
+"a. Posterior pole",
+"b. Anterior to equator",
+"c. Equator",
+"d. At the disc"
+],
+"answer": "c",
+"explanation": "Bone-spicule pigmentation in RP typically begins in the mid-periphery (equatorial region)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The most common primarily intraocular malignancy in adults is:",
+"options": [
+"a. Retinoblastoma",
+"b. Choroidal melanoma",
+"c. Squamous cell carcinoma of conjunctiva",
+"d. Iris naevus"
+],
+"answer": "b",
+"explanation": "Uveal (Choroidal) Melanoma is the most common primary intraocular malignancy in adults."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In CRAO, a cherry red spot is due to:",
+"options": [
+"a. Hemorrhage at macula",
+"b. Increased choroidal perfusion",
+"c. Increased retinal perfusion at macula",
+"d. The contrast between pale retina and reddish intact choriocapillaris"
+],
+"answer": "d",
+"explanation": "The fovea is thin and lacks the inner retinal layers that become oedematous/opaque in CRAO, allowing the underlying choroidal circulation to show through as a red spot."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The treatment of choice for the other eye in angle closure glaucoma is:",
+"options": [
+"a. Surgical peripheral iridectomy",
+"b. Yag laser iridotomy",
+"c. Trabeculotomy",
+"d. Trabeculectomy"
+],
+"answer": "b",
+"explanation": "Prophylactic YAG Laser Iridotomy is indicated for the fellow eye in ACG."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Topical atropine is contraindicated in:",
+"options": [
+"a. Retinoscopy in children",
+"b. Iridocyclitis",
+"c. Corneal ulcer",
+"d. Primary angle closure glaucoma"
+],
+"answer": "d",
+"explanation": "Atropine causes mydriasis (pupil dilation), which can crowd the angle and precipitate or worsen angle closure glaucoma."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Neovascular glaucoma follows:",
+"options": [
+"a. Thrombosis of central retinal vein",
+"b. Acute congestive glaucoma",
+"c. Staphylococcal infection",
+"d. Hypertension"
+],
+"answer": "a",
+"explanation": "Ischemic CRVO is a common cause of neovascular glaucoma ('90-day glaucoma')."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A one-month old baby is brought with complaints of photophobia and watering. Clinical examination shows normal tear passages and clear but large cornea. The most likely diagnosis is:",
+"options": [
+"a. Congenital dacryocystitis",
+"b. Interstitial keratitis",
+"c. Keratoconus",
+"d. Buphthalmos"
+],
+"answer": "d",
+"explanation": "The triad of epiphora, photophobia, and blepharospasm combined with corneal enlargement (megalocornea) suggests Congenital Glaucoma (Buphthalmos)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "You have been referred a case of open angle glaucoma. Which of the following would be an important point in diagnosing the case?",
+"options": [
+"a. Shallow anterior chamber",
+"b. Optic disc cupping",
+"c. Narrow angle",
+"d. Visual acuity and refractive error"
+],
+"answer": "b",
+"explanation": "Optic disc cupping (and field defects) is the hallmark structural damage in open-angle glaucoma. Shallow/narrow angles suggest angle-closure."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Normal intraocular pressure in the human eye is",
+"options": [
+"a. 10 – 21 mmHg",
+"b. 16 – 25 mmHg",
+"c. 13 – 22 mmHg",
+"d. 9 – 19 mmHg"
+],
+"answer": "a",
+"explanation": "The normal range for IOP is typically cited as 10-21 mmHg."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A one-month-old baby is brought with complaints of photophobia and watering. Clinical examination shows normal tear passages and clear but large cornea. The most likely diagnosis is:",
+"options": [
+"a. Congenital dacryocystitis",
+"b. Interstitial keratitis",
+"c. Keratoconus",
+"d. Buphthalmos"
+],
+"answer": "d",
+"explanation": "Duplicate question: Buphthalmos (Congenital Glaucoma)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "In myopia:",
+"options": [
+"a. Length of eye-ball is short",
+"b. Corneal radius of curvature is less",
+"c. Lens is less spherical",
+"d. Image forms in front of the retina"
+],
+"answer": "d",
+"explanation": "The definition of myopia is that parallel rays of light focus in front of the retina. (Option b, steeper cornea, is a cause, but d is the optical definition)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The most common cause of reduced vision in the world is",
+"options": [
+"a. Trachoma",
+"b. Diabetic retinopathy",
+"c. Refractive errors",
+"d. Glaucoma"
+],
+"answer": "c",
+"explanation": "Uncorrected refractive errors are the leading cause of visual impairment globally."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "All of the following are true about chalazion except",
+"options": [
+"a. Not painful",
+"b. Present on the lid margin",
+"c. Acute inflammation",
+"d. Both b and c"
+],
+"answer": "c",
+"explanation": "Chalazion is a chronic granulomatous inflammation, not acute."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "An elderly patient is presented with a mass on the upper lateral eyelid margin. The mass has central ulceration and raised edges. The most likely diagnosis could be",
+"options": [
+"a. Chalazion",
+"b. Stye",
+"c. Lacrimal gland inflammation",
+"d. BCC"
+],
+"answer": "d",
+"explanation": "A mass with central ulceration and raised (rolled) edges in an elderly patient suggests Basal Cell Carcinoma (Rodent Ulcer)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A patient is presented with upper eye drooping after cataract surgery. The most likely type of ptosis is:",
+"options": [
+"a. Aponeurotic",
+"b. Myogenic",
+"c. Mechanical",
+"d. Neurogenic"
+],
+"answer": "a",
+"explanation": "Post-cataract surgery ptosis is typically aponeurotic, caused by dehiscence of the levator aponeurosis due to the eyelid speculum."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Chalazion is:",
+"options": [
+"a. Acute suppurative inflammation of Meibomian glands",
+"b. Chronic granulomatous inflammation of Meibomian glands",
+"c. Retention cyst of the Meibomian glands",
+"d. Neoplasm of the Meibomian glands"
+],
+"answer": "b",
+"explanation": "Chalazion is a chronic granulomatous inflammation of the Meibomian glands."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A mother noticed a mucopurulent discharge from the puncta of her 3-month-old son. There is a history of watering from his eye. Which of the following is an appropriate treatment?",
+"options": [
+"a. Syringing",
+"b. Probing with syringing",
+"c. Sac massage with local antibiotics",
+"d. DCR surgery"
+],
+"answer": "c",
+"explanation": "For congenital nasolacrimal duct obstruction in an infant, the first line of treatment is conservative (Crigler sac massage) and topical antibiotics."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Nasolacrimal ducts open into the:",
+"options": [
+"a. Inferior meatus",
+"b. Superior meatus",
+"c. Lacrimal duct",
+"d. Conjunctival sac"
+],
+"answer": "a",
+"explanation": "The nasolacrimal duct drains into the inferior meatus of the nose."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Aqueous humor formation is the function of:",
+"options": [
+"a. Ciliary muscle",
+"b. Ciliary process",
+"c. Pigmented epithelium",
+"d. Both b and c"
+],
+"answer": "b",
+"explanation": "Aqueous humor is secreted by the non-pigmented epithelium of the ciliary processes."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "All cranial nerves pass through the superior orbital fissure except:",
+"options": [
+"a. 8th",
+"b. 4th",
+"c. 3rd",
+"d. 5th"
+],
+"answer": "a",
+"explanation": "CN III, IV, V (V1), and VI pass through the superior orbital fissure. CN VIII (Vestibulocochlear) does not."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Lacrimal puncta are present on the:",
+"options": [
+"a. Medial side",
+"b. Lateral side",
+"c. Superior fornix"
+],
+"answer": "a",
+"explanation": "The lacrimal puncta are located on the medial aspect of the upper and lower eyelid margins."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Important function of the iris is to",
+"options": [
+"a. Help in crystalline lens accommodation",
+"b. Divide the eye into anterior and posterior chambers",
+"c. Divide the eye into anterior and posterior segments",
+"d. Both b and c"
+],
+"answer": "b",
+"explanation": "The iris divides the anterior segment into the anterior and posterior chambers."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The average anterio-posterior axial length of an adult eye ball is",
+"options": [
+"a. 20mm",
+"b. 24mm",
+"c. 19mm"
+],
+"answer": "b",
+"explanation": "The average axial length of the adult human eye is approximately 24 mm."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Ciliary body helps in",
+"options": [
+"a. Maintaining structure of eye",
+"b. Focusing ability of eye",
+"c. Crystalline lens accommodation",
+"d. All of the above"
+],
+"answer": "d",
+"explanation": "The ciliary body produces aqueous (structure) and contains the ciliary muscle which controls accommodation (focusing)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "When the ciliary muscles contract, it results in",
+"options": [
+"a. Increased tension on zonular fibers",
+"b. Decreased tension on zonular fibers",
+"c. Decreased tension on the lens",
+"d. Both b and c"
+],
+"answer": "d",
+"explanation": "Contraction of the ciliary muscle moves the ciliary body forward/inward, relaxing the zonules (decreased tension), which allows the lens to become more spherical."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "The first line of treatment in acid burns of the eye is:",
+"options": [
+"a. Patching the eye",
+"b. Instilling a drop of oil in the eye",
+"c. Immediate wash with plain water",
+"d. Instilling a drop of surface anesthetic into the eye"
+],
+"answer": "c",
+"explanation": "Immediate and copious irrigation (washing) is the critical first step in chemical burns."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "Normal radius of curvature of the posterior corneal surface is:",
+"options": [
+"a. 7.8mm",
+"b. 6.8mm",
+"c. 7.9mm",
+"d. 6.0mm"
+],
+"answer": "b",
+"explanation": "The posterior corneal surface (approx 6.5-6.8mm) is steeper than the anterior surface (approx 7.8mm)."
+},
+{
+"id": "kims",
+"block": "m2",
+"year": "2023",
+"question": "A patient has an upper lid trichiasis with a history of chronic eye irritation. The most common causes are:",
+"options": [
+"a. Stye",
+"b. Trachoma",
+"c. Infected chalazion",
+"d. Spring catarrh"
+],
+"answer": "b",
+"explanation": "Trachoma causes scarring of the tarsal plate (Arlt's line), leading to entropion and trichiasis."
+}
+]

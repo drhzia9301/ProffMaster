@@ -53,9 +53,9 @@ export const WhatsNewModal: React.FC = () => {
                                 <Zap size={24} />
                             </div>
                             <div>
-                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 46 Preproff Papers!</h3>
+                                <h3 className="font-bold text-gray-900 dark:text-white text-lg">🎉 56 Preproff Papers!</h3>
                                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                                    Access preproff papers from <span className="font-semibold">2023, 2024 & 2025</span> across all blocks (J, K, L, M1, M2) from KMC, KGMC, WMC, GMC, and NWSM.
+                                    Access preproff papers from <span className="font-semibold">2023, 2024 & 2025</span> across all blocks (J, K, L, M1, M2) from 9 colleges including KMC, KGMC, WMC, GMC, NWSM, AMC, RMC, KIMS, and NMC.
                                 </p>
                                 <p className="text-xs text-amber-600 dark:text-amber-400 mt-2 font-medium">
                                     📚 4,000+ questions with detailed explanations!
@@ -100,8 +100,8 @@ export const WhatsNewModal: React.FC = () => {
                             <Bug size={20} />
                         </div>
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white">Bug Fixes & Improvements</h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">Updated M2 papers, fixed UI issues, and performance improvements.</p>
+                            <h3 className="font-bold text-gray-900 dark:text-white">10 New Preproff Papers Added!</h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400">Added papers from AMC, RMC, KIMS, NMC plus new 2024 papers from GMC, KGMC, and WMC.</p>
                         </div>
                     </div>
 

@@ -1,0 +1,882 @@
+[
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 46-year-old man who is an IV drug user is admitted to the hospital because he has had increasing headache, high fever & vomiting for the past 24 hours. On Physical Examination, his temperature is 38.4°C and there is neck rigidity. The CSF shows an increased protein concentration and a decreased glucose level. Which of the following infectious agents is most likely to produce these findings?",
+"options": [
+"a. JC papovavirus",
+"b. Mycobacterium tuberculosis",
+"c. Staphylococcus aureus",
+"d. Herpes simplex virus",
+"e. Toxoplasma gondii"
+],
+"answer": "c",
+"explanation": "The patient presents with acute bacterial meningitis (fever, neck rigidity, low glucose, high protein). In an IV drug user, Staphylococcus aureus is a common causative pathogen due to hematogenous spread."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 45-year-old, previously healthy man has developed headaches over the past month. A cerebral angiogram shows a 7-mm saccular aneurysm at the trifurcation of the right middle cerebral artery. Which of the following is most likely to result from this lesion?",
+"options": [
+"a. Epidural hematoma",
+"b. Subarachnoid hemorrhage",
+"c. Subdural hematoma",
+"d. Cerebellar tonsillar herniation",
+"e. Hydrocephalus"
+],
+"answer": "b",
+"explanation": "Rupture of a saccular (berry) aneurysm typically results in a subarachnoid hemorrhage."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 43-year-old female patient recently had a severe respiratory tract infection. She has had a headache and fever for the past 2 weeks. CT scan of the head shows a sharply demarcated, 3-cm, ring lesion in the right occipital region. Laboratory analysis of the CSF shows a cell count of four lymphocytes & eight neutrophils and increased protein & normal glucose levels. What is the most likely diagnosis?",
+"options": [
+"a. Glioblastoma multiforme",
+"b. Multiple sclerosis",
+"c. Subacute infarction",
+"d. Cerebral abscess",
+"e. Metastatic carcinoma"
+],
+"answer": "d",
+"explanation": "A ring-enhancing lesion with fever and headache following a respiratory infection is suggestive of a cerebral abscess. The CSF findings reflect a parameningeal inflammatory process."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 5 years old child presents with blurred and double vision. CT scan of the head shows the presence of a 4-cm mass in the cerebellar vermis and dilation of the cerebral ventricles. A lumbar puncture is done. Cytological examination of the CSF shows small cells with hyperchromatic dark blue nuclei and scant cytoplasm. What neoplasm would most likely explain these findings?",
+"options": [
+"a. Schwannoma",
+"b. Ependymoma",
+"c. Glioblastoma multiforme",
+"d. Medulloblastoma",
+"e. Metastatic carcinoma"
+],
+"answer": "d",
+"explanation": "Medulloblastoma is a common malignant brain tumor in children located in the cerebellum (vermis). Histology typically shows small, round, blue cells (Homer-Wright rosettes)."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which one of the following proteins is associated with the pathogenesis of Parkinson’s disease?",
+"options": [
+"a. Amyloid beta",
+"b. Tau",
+"c. FUS",
+"d. α synuclein",
+"e. Polyglutamine"
+],
+"answer": "d",
+"explanation": "Alpha-synuclein aggregation (forming Lewy bodies) is the hallmark of Parkinson's disease pathology."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which one of the following is the autosomal dominant disease characterized by jerky, hyperkinetic dystonic movements involving all parts of the body and dementia, caused by degeneration of striatal neurons?",
+"options": [
+"a. Parkinson’s disease",
+"b. Multiple sclerosis",
+"c. Wilson's disease",
+"d. Huntington disease",
+"e. Myasthenia gravis"
+],
+"answer": "d",
+"explanation": "Huntington disease is an autosomal dominant disorder characterized by chorea (jerky movements), dementia, and caudate/striatal degeneration."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 32-year-old female patient presents with fluctuating weakness that worsens with exertion over the courses of the day. She also has a problem of diplopia and ptosis. Which of the following antibodies will be present in this patient?",
+"options": [
+"a. Anti-acetylcholine receptor Ab",
+"b. Anti- M2 Ab",
+"c. Anti-Jo1 Ab",
+"d. Anti-P155/140 Ab",
+"e. Anti- Myelin Sheath Ab"
+],
+"answer": "a",
+"explanation": "The clinical presentation of fatigable weakness, ptosis, and diplopia is classic for Myasthenia Gravis, which is caused by autoantibodies against acetylcholine receptors."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which of the following is not a tumor of central nervous system?",
+"options": [
+"a. Astrocytoma",
+"b. Oligodendroglioma",
+"c. Meningioma",
+"d. Ependymoma",
+"e. Retinoblastoma"
+],
+"answer": "e",
+"explanation": "Retinoblastoma is a tumor of the eye (retina). While the retina is embryologically part of the CNS, Retinoblastoma is distinct from intracranial CNS tumors like gliomas (Astrocytoma, Oligodendroglioma, Ependymoma) or Meningiomas."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 65 years old male patient was diagnosed as Huntington’s disease. What genetic abnormality is present in this patient?",
+"options": [
+"a. CAG trinucleotide repeat expansions",
+"b. AAA repeats",
+"c. ACG repeats",
+"d. Arginine lysine disarrangement",
+"e. UAG rearrangement"
+],
+"answer": "a",
+"explanation": "Huntington's disease is caused by CAG trinucleotide repeat expansions in the HTT gene."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Glucose content of CSF is unaltered by which type of Meningitis?",
+"options": [
+"a. Acute pyogenic meningitis",
+"b. Viral meningitis",
+"c. Tuberculous meningitis",
+"d. Cryptogenic meningitis",
+"e. Neisseria meningitis"
+],
+"answer": "b",
+"explanation": "Viral meningitis typically presents with normal CSF glucose levels, whereas bacterial and tuberculous meningitis cause hypoglycemia in the CSF."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Parkinson’s disease is characterized by the triad of which of the following?",
+"options": [
+"a. Tremors, Bradykineia & muscle rigidity",
+"b. Paresis, anesthesia & muscle spasticity",
+"c. Chorea, muscle hypotonia & tremors",
+"d. Tremors, ataxia & muscle hypotonia",
+"e. Tremors, Bradykineia & paresis"
+],
+"answer": "a",
+"explanation": "The classic motor triad of Parkinson's disease is resting tremor, bradykinesia, and rigidity."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Parkinson’s disease is associated with a decrease of dopamine in the",
+"options": [
+"a. Brain stem",
+"b. Spinal cord",
+"c. Basal ganglia",
+"d. mesencephalon",
+"e. Chemoreceptor trigger zone"
+],
+"answer": "c",
+"explanation": "Parkinson's disease involves the degeneration of dopaminergic neurons in the substantia nigra (part of the basal ganglia circuitry)."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 25 years old girl who had one year history of sudden loss of vision and numbness in right hand, now presented with one week history of diplopia. On examination she had failure of adduction in the right eye and nystagmus in the left eye on attempting left gaze. What is the most likely diagnosis?",
+"options": [
+"a. Congenital squint",
+"b. Hysteria",
+"c. Multiple sclerosis",
+"d. Pseudotumour cerebri",
+"e. Right Middle cerebral artery infarct"
+],
+"answer": "c",
+"explanation": "The patient exhibits Internuclear Ophthalmoplegia (INO) and a history of disseminated neurological deficits (vision, sensory) separated by time and space, which is diagnostic for Multiple Sclerosis."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 33 years old male presented with weak legs. O/E tone was reduced, muscles were wasted but no fasciculation. Power was 2/5 and deep tendon reflexes were depressed and down-going planters. He could not perform heel-shin test due to reduced power. What type of lesion this patient has?",
+"options": [
+"a. Cerebellar lesion",
+"b. Cortical lesion",
+"c. Extra-pyramidal lesion",
+"d. Lower motor neuron lesion",
+"e. Upper motor neuron lesion"
+],
+"answer": "d",
+"explanation": "Hypotonia, muscle wasting, and depressed reflexes are signs of a Lower Motor Neuron (LMN) lesion."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 66-year-old man presented with progressive cognitive impairment. He does not remember his relatives' names and is unable to write. He is able to take care of his daily activities. He does not have any motor problems, has normal gait, and has no history of falls. He had no medical illness in the past. Mini Mental State Examination score of 13 out of 30. MRI brain showed moderate generalized cerebral atrophy. Which of the following is the most likely diagnosis?",
+"options": [
+"a. Alzheimer’s disease",
+"b. Creutzfeldt-Jakob disease",
+"c. Dementia with Lewy bodies",
+"d. Frontotemporal dementia",
+"e. Vascular dementia"
+],
+"answer": "a",
+"explanation": "Progressive dementia involving memory and language (agraphia), with generalized atrophy and preserved motor function/gait, is most consistent with Alzheimer's disease."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 8 years old child presented to neurology unit with difficulty getting up from deep position and climbing steps and waddling gait. His elder brother died at the age of 16 years due to similar illness. On examination, Gower sign was positive, CPK was 10,000. What is the most likely diagnosis?",
+"options": [
+"a. Dermatomyositis",
+"b. Duchenne muscular dystrophy",
+"c. Inclusion body myositis",
+"d. Limb girdle muscular dystrophy",
+"e. Polymyositis"
+],
+"answer": "b",
+"explanation": "The presentation of a young boy with proximal muscle weakness, Gower sign, very high CPK, and family history suggesting X-linked inheritance is characteristic of Duchenne Muscular Dystrophy."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 48 years old male patient was admitted with 3 weeks history of fever, malaise, headache, vomiting and altered sensorium. O/E he had GCS of 13/15, mild neck rigidity and left 6th cranial nerve palsy. CSF R/E showed Pressure 24 cmH2O, Protein 87 mg/L, sugar 45 mg, cell count 450 u/L with predominant lymphocytes. Random blood sugar was 120 mg/DL. What is the most likely diagnosis?",
+"options": [
+"a. Acute bacterial meningitis",
+"b. Fungal meningitis",
+"c. Tuberculous meningitis",
+"d. Viral encephalitis",
+"e. Viral meningitis"
+],
+"answer": "c",
+"explanation": "Subacute presentation, lymphocytic pleocytosis, elevated protein, and low glucose (hypoglycorrhachia) along with cranial nerve palsy are typical features of Tuberculous Meningitis."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 16 years old girl presented with rapid, jerky movements of irregular timing for the last 2 weeks. She had history of sore throat, fever and joint pains in the past. What is the most likely diagnosis?",
+"options": [
+"a. Athetosis",
+"b. Huntington Chorea",
+"c. Sydenham chorea",
+"d. Thyrotoxicosis",
+"e. Torsion dystonia"
+],
+"answer": "c",
+"explanation": "Chorea occurring after a history of sore throat and joint pains (Rheumatic Fever) is Sydenham Chorea."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "In a hospital setting, which is the standard of care for severe pain?",
+"options": [
+"a. Opioid Analgesics",
+"b. Oral NSAIDs",
+"c. Parenteral Opioid Analgesics",
+"d. Parenteral NSAIDs Analgesics",
+"e. a and c"
+],
+"answer": "e",
+"explanation": "Opioid analgesics are the standard for severe pain. Parenteral administration is often used in hospital settings for acute severe pain, making 'a and c' the best inclusive answer."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which drug reverses the effect of benzodiazepine overdose?",
+"options": [
+"a. Carbamezapine",
+"b. Flumazenil",
+"c. Gabapentine",
+"d. Nitrous Oxide",
+"e. Rifampin"
+],
+"answer": "b",
+"explanation": "Flumazenil is a specific competitive antagonist at the benzodiazepine receptor site, used to reverse benzodiazepine sedation/overdose."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 7 year-old woman with a history of mild hypertension and classic angina pectoris. She is seeking treatment for migraine headaches of moderate intensity. Her headaches are preceded by bilateral light flashes and dizziness that last about 10 minutes prior to the onset of pain. Her headaches are also frequently accompanied by photophobia, severe nausea and occasional vomiting. What medication would be contraindicated for acute treatment of Jane's headaches?",
+"options": [
+"a. acetaminophen",
+"b. aspirin",
+"c. caffeine",
+"d. propranolol",
+"e. sumatriptan"
+],
+"answer": "e",
+"explanation": "Sumatriptan causes vasoconstriction and is contraindicated in patients with ischemic heart disease or angina."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Rizatriptan is a drug used for",
+"options": [
+"a. acute migraine",
+"b. cluster headache",
+"c. chronic migraine",
+"d. prophylaxis of migraine",
+"e. none of the above"
+],
+"answer": "a",
+"explanation": "Rizatriptan is a serotonin agonist used for the acute treatment of migraine attacks."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 17 year-old high school athlete with a history of asthma comes to your clinic seeking a preventative medication for migraine headaches. Which of the following would be contraindicated?",
+"options": [
+"a. amitriptyline",
+"b. topiramate",
+"c. valporate",
+"d. propranolol",
+"e. none of the above"
+],
+"answer": "d",
+"explanation": "Propranolol is a non-selective beta-blocker that can cause bronchoconstriction and is contraindicated in asthmatics."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "First line drug for trigeminal neuralgia is",
+"options": [
+"a. carbamazepine",
+"b. lamotrigine",
+"c. valporate",
+"d. caffeine",
+"e. none of the above"
+],
+"answer": "a",
+"explanation": "Carbamazepine is the drug of choice (first-line) for trigeminal neuralgia."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which one of the following TCAs used in neuralgias has the least adverse effects?",
+"options": [
+"a. desipramine",
+"b. imipramine",
+"c. amitriptyline",
+"d. doxepin",
+"e. nortriptyline"
+],
+"answer": "e",
+"explanation": "Nortriptyline, a secondary amine TCA, typically has a better side effect profile (less anticholinergic/sedative) compared to tertiary amines like amitriptyline."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A patient was brought to the emergency department of Hospital with central nervous system depression, impaired balance, ataxia and slurred speech after an overdose of alprozalam. Which of the following agents can reverse these symptoms?",
+"options": [
+"a. Buspirone",
+"b. Flumazenil",
+"c. Flurazepam",
+"d. Naloxone",
+"e. Ramelteon"
+],
+"answer": "b",
+"explanation": "Flumazenil is the antidote for benzodiazepine (alprazolam) overdose."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A patient under treatment for depression was brought to the emergency department with hypertensive crisis after consuming aged cheese. Which of the following antidepressant drugs is most likely to have caused this complication?",
+"options": [
+"a. Amitriptyline",
+"b. Duloxetine",
+"c. Fluoxetine",
+"d. Mirtazapine",
+"e. Phenelzine"
+],
+"answer": "e",
+"explanation": "Phenelzine is a Monoamine Oxidase Inhibitor (MAOI). MAOIs can cause a hypertensive crisis ('cheese reaction') when tyramine-rich foods (like aged cheese) are consumed."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which of the following drugs has established clinical uses that include attention deficit hyperkinetic disorder, enuresis and the management of chronic pain?",
+"options": [
+"a. Bupropion",
+"b. Fluvoxamine",
+"c. Imipramine",
+"d. Morphine",
+"e. Venlafaxine"
+],
+"answer": "c",
+"explanation": "Imipramine (a TCA) is indicated for nocturnal enuresis and chronic neuropathic pain, and has been used for ADHD."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A patient was anesthetized for surgery with a drug which produced sedation, analgesia, amnesia and detachment from surrounding without complete loss of consciousness. The drug most likely used is:",
+"options": [
+"a. Halothane",
+"b. Isoflurane",
+"c. Ketamine",
+"d. Nitrous oxide",
+"e. Propofol"
+],
+"answer": "c",
+"explanation": "Ketamine produces 'dissociative anesthesia' characterized by sedation, amnesia, analgesia, and detachment."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which antipsychotic drug requires blood monitoring to detect agranulocytosis?",
+"options": [
+"a. Loxapine",
+"b. Clozapine",
+"c. Olanzapine",
+"d. Phenothiazine",
+"e. Bentropine"
+],
+"answer": "b",
+"explanation": "Clozapine carries a significant risk of agranulocytosis and requires regular white blood cell monitoring."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Lithium salts are mainly used for treating",
+"options": [
+"a. Depression",
+"b. Schizophrenia",
+"c. Bipolar disorder",
+"d. Tourette’s syndrome",
+"e. Parkinson’s disease"
+],
+"answer": "c",
+"explanation": "Lithium is a mood stabilizer primarily used for the treatment of Bipolar Disorder."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 15 years old girl was brought to OPD. She had a single unprovoked generalized tonic clonic fit for 2 minutes followed by altered conscious level for 20 minutes. She had no tongue bite but had urinary incontinence. She had no focal neuro-deficit. She was investigated and her EEG, MRI brain, and other metabolic profile were normal. What is the best treatment you can offer this young girl?",
+"options": [
+"a. Carbamezepine",
+"b. Lamotrigine",
+"c. Levitiracetam",
+"d. No treatment required unless recurrence of fits",
+"e. Valprovate"
+],
+"answer": "d",
+"explanation": "A first unprovoked seizure with normal workup (EEG, MRI) typically does not require immediate initiation of antiepileptic drug therapy due to the variable risk of recurrence."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which one of the following manifestations is an indication of severe ethanol intoxication:",
+"options": [
+"a. Euphoria and sense of well-being",
+"b. Marked muscular incoordination",
+"c. Increased confidence",
+"d. Aggressive behavior"
+],
+"answer": "b",
+"explanation": "Euphoria and confidence are signs of mild intoxication. Marked muscular incoordination indicates a higher blood alcohol level consistent with moderate to severe intoxication."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "The level of toxicity of Datura plant on the basis of increasing level is",
+"options": [
+"a. Root, Seeds, Fruit, Leaf",
+"b. Leaf, Root, Fruit, Seeds",
+"c. Fruit, Root, Seeds, Leaf",
+"d. Seeds, Leaf, Root, Fruit"
+],
+"answer": "b",
+"explanation": "All parts of Datura are toxic, but the seeds typically contain the highest concentration of alkaloids. A common hierarchy of toxicity is Leaf < Root < Fruit < Seeds."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Crude death rates means Number of Deaths per year per",
+"options": [
+"a. 10% population",
+"b. 100% population",
+"c. 100 population",
+"d. 1000 population",
+"e. 10,000 population"
+],
+"answer": "d",
+"explanation": "Crude Death Rate is calculated as the number of deaths per 1,000 mid-year population."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which of the following measures is used frequently as a denominator to calculate the incidence rate of a disease?",
+"options": [
+"a. Number of cases observed",
+"b. Number of new cases observed",
+"c. Number of asymptomatic cases",
+"d. person years of observation",
+"e. persons lost to follow-up"
+],
+"answer": "d",
+"explanation": "Incidence rate (incidence density) uses 'person-years of observation' as the denominator to account for varying follow-up times."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "In the definition of Epidemiology determinants refer to",
+"options": [
+"a. sources",
+"b. Risk Factors",
+"c. Causes",
+"d. Agents",
+"e. All of the above"
+],
+"answer": "e",
+"explanation": "Determinants in epidemiology encompass the underlying factors that influence health, including agents, causes, and risk factors."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Case fatality rate is highest for",
+"options": [
+"a. Measles",
+"b. Diphtheria",
+"c. influenza",
+"d. T.B",
+"e. Polio"
+],
+"answer": "b",
+"explanation": "Among the options listed, Diphtheria historically has a high case fatality rate (5-10% even with treatment). While untreated TB is high, Diphtheria is an acute high-mortality infection."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "You collect data about type of blood groups of 100 people. What type of data you will get",
+"options": [
+"a. Nominal",
+"b. Ordinal",
+"c. Interval scale",
+"d. Ratio scale",
+"e. Continuous"
+],
+"answer": "a",
+"explanation": "Blood groups (A, B, AB, O) are categories with no inherent order, representing nominal data."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "What type of data is qualitative?",
+"options": [
+"a. Nominal",
+"b. Interval",
+"c. Ratio",
+"d. Numerical",
+"e. Numerical discreet"
+],
+"answer": "a",
+"explanation": "Nominal data classifies items into categories (quality), as opposed to numerical/quantitative data."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "The birth weights in a hospital are to be presented in a graph. This is best done by a:",
+"options": [
+"a. Bar diagram",
+"b. Pie chart",
+"c. Histogram",
+"d. Pictogram",
+"e. Frequency chart"
+],
+"answer": "c",
+"explanation": "Birth weight is a continuous variable; histograms are used to display the frequency distribution of continuous variables."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "An analysis of the race of patients who visit an emergency room reveals that 40% are white, 25% are black, 20% are Native American, and 15% are Asian. These data would best be depicted graphically with a",
+"options": [
+"a. Venn diagram",
+"b. Cumulative frequency graph",
+"c. Normal curve",
+"d. Histogram",
+"e. Pie chart"
+],
+"answer": "e",
+"explanation": "Race is a nominal variable, and its proportional distribution is best represented by a pie chart (or bar chart)."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Malaria cases were reported throughout the world during the year 1971-1978 excluding African region. These cases can be best represented by:",
+"options": [
+"a. Frequency polygon",
+"b. Histogram",
+"c. Line diagram",
+"d. Pictogram",
+"e. Scatter diagram"
+],
+"answer": "c",
+"explanation": "Data trends over time (time series) are best represented by a line diagram."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "There are 50 individuals in a population and they have the same hemoglobin level that is 14 g/dL. As there is no variability, the standard deviation will be:",
+"options": [
+"a. 0",
+"b. 1,-1",
+"c. 0,1",
+"d. +2",
+"e. -2"
+],
+"answer": "a",
+"explanation": "If all values in a dataset are identical, there is no deviation from the mean, so the standard deviation is 0."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Mean is a measure of",
+"options": [
+"a. Central tendency",
+"b. Variability",
+"c. Skewness",
+"d. Kurtosis",
+"e. None of the above"
+],
+"answer": "a",
+"explanation": "The mean is a statistical measure of central tendency."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A person with head injury can talk normally and tell about the circumstantial evidence in case of:",
+"options": [
+"a. Lucid interval",
+"b. Concussion",
+"c. Retrograde amnesia",
+"d. Automatism",
+"e. None of the above"
+],
+"answer": "a",
+"explanation": "A lucid interval is a temporary period of improvement/consciousness after a head injury (typically epidural hematoma) before condition deteriorates."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Which one of the followings produce toxic hypothermia:",
+"options": [
+"a. Salicylates",
+"b. Anticholinergics",
+"c. Antidepressants",
+"d. Opioids",
+"e. None of the above"
+],
+"answer": "d",
+"explanation": "Opioids depress the thermoregulatory center, leading to hypothermia, whereas salicylates and anticholinergics often cause hyperthermia."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "Benzodiazepines act on the CNS through the following mechanism:",
+"options": [
+"a. Increasing catecholamines",
+"b. Increasing serotonin",
+"c. Increasing the activity of GABA",
+"d. Decreasing the activity of GABA"
+],
+"answer": "c",
+"explanation": "Benzodiazepines work by potentiating the effect of the inhibitory neurotransmitter GABA."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "All of the following are associated with psychosis, EXCEPT:",
+"options": [
+"a. Delusion",
+"b. Depression",
+"c. Phobia",
+"d. Mania"
+],
+"answer": "c",
+"explanation": "Phobias are classified as neurotic disorders. Delusions, Mania, and severe Depression (with psychotic features) can be associated with psychosis."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 30-year-old lady during traveling from Kohat to Peshawar starts palpitations and choking whenever she enters Kohat Tunnel and therefore, returns back to Kohat. Which one of the following is the most probable psychiatric diagnosis?",
+"options": [
+"a. Panic Disorder",
+"b. Post Traumatic Stress Disorder",
+"c. Agoraphobia",
+"d. Acute Stress Disorder",
+"e. Generalized Anxiety Disorder"
+],
+"answer": "c",
+"explanation": "The avoidance of specific situations (like tunnels) due to fear of not being able to escape or having a panic attack is characteristic of Agoraphobia."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A first-year medical student came to psychiatry OPD with 2 days history of anger outbursts, irritability, headache, and nausea which started within 24 hours of having been bullied by senior students in hostel at night. Which one of the following could be the most possible diagnosis:",
+"options": [
+"a. Post Traumatic Stress Disorder",
+"b. Adjustment Disorder",
+"c. Panic Disorder",
+"d. Acute Stress Reaction",
+"e. Generalized Anxiety Disorder"
+],
+"answer": "d",
+"explanation": "Symptoms developing immediately or within a few days of a stressful event and lasting a short time are indicative of an Acute Stress Reaction."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 35-year-old lady, after 20 days of delivery of a baby, refused to feed her baby, stopped moving, lost enjoyment and interest in daily routine. Which one is the most probable diagnosis?",
+"options": [
+"a. Acute Fatigue Syndrome",
+"b. Post Partum Purpeurium",
+"c. Phobic Anxiety Disorder",
+"d. Post Partum Depression"
+],
+"answer": "d",
+"explanation": "The onset of depressive symptoms (anhedonia, psychomotor retardation) weeks after delivery indicates Post Partum Depression."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 30 years old lady presented with acute severe “thunderclap” headache and vomiting. O/E patient is drowsy with neck rigidity. Fundoscopy revealed subhyaloid hemorrhages. Her Temp is 98°F and BP is 125/70 mmHg. What is the most appropriate treatment option?",
+"options": [
+"a. Fluoxetine",
+"b. Intravenous Ceftriaxone",
+"c. Intravenous chlorpromazine",
+"d. Nimodipine",
+"e. Sumatriptan"
+],
+"answer": "d",
+"explanation": "The presentation is classic for Subarachnoid Hemorrhage. Nimodipine is used to prevent secondary vasospasm and ischemic injury."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 23 years old male presented with weak legs for 5 days. He was treated for chest symptoms 3 weeks ago by GP. O/E he had power of 2/5 in lower limbs, absent deep tendon reflexes with no sensory level. His CSF showed cells 45/mm3. Protein 60 mg/dl, sugar 55 mg. TPHA negative and Serum K was 4.0 meq. What is the most likely diagnosis?",
+"options": [
+"a. Botulism",
+"b. Guillain-Barre syndrome",
+"c. Hypokalemic periodic paralysis",
+"d. Poliomyelitis",
+"e. Transverse myelitis"
+],
+"answer": "b",
+"explanation": "Acute ascending paralysis with areflexia following a respiratory infection is characteristic of Guillain-Barre Syndrome (GBS). While typical GBS has albuminocytologic dissociation, mild pleocytosis can sometimes occur or be a variation in the question context, but the clinical picture (areflexia, no sensory level, post-infectious) strongly points to GBS over other options."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 4 years old child presents to OPD with difficulty in walking and having tendency to fall down for the past five days. He was alright before except for a low-grade fever and the appearance of rash on the body which was vesicular in nature initially, then it became pustular after few days. Child has been vaccinated according to EPI schedule. His elder brother also had fever and rash but he recovered completely. He only took paracetamol for his illness. What is the most likely diagnosis?",
+"options": [
+"a. Acute Cerebellar Ataxia",
+"b. Encephalitis",
+"c. Trauma",
+"d. Drug Poisoning",
+"e. Poliomyelitis"
+],
+"answer": "a",
+"explanation": "Acute cerebellar ataxia is a common post-viral complication, particularly following Varicella (chickenpox), which presents with a vesicular/pustular rash."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "An 8 years old child has progressively difficulty in walking over the past few months. He was alright before and had normal growth and development. History was unremarkable for any fits, fever, headache or loss of consciousness. His clinical neurological examination reveals an absent deep tendon reflexes, loss of touch sensation, positive Babinski sign. He also has difficulty in speech articulation. His spinal cord shows scoliosis. The child is fully vaccinated.",
+"options": [
+"a. Ataxia Telangiectasia",
+"b. Abetalipoproteinemia",
+"c. Guillain-Barre Syndrome (GBS)",
+"d. Friedreich’s Ataxia",
+"e. Spinocerebellar Ataxia"
+],
+"answer": "d",
+"explanation": "The combination of progressive ataxia, scoliosis, speech difficulty, absent reflexes (LMN), and positive Babinski (UMN) in a child is diagnostic of Friedreich's Ataxia."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 4 years old child presents to ER with 3 days history of high-grade fever. He was well before the onset of fever but now it has increased in intensity and since morning he has developed generalized tonic-clonic fits. Clinically he is a sick-looking child and in distress. His heart sounds are normal and also chest is clear bilaterally. CNS examination reveals increased tone in lower limbs and a positive Kernig sign, with up-going plantars. What is the most likely diagnosis?",
+"options": [
+"a. Febrile Fits",
+"b. Meningitis",
+"c. Seizure Disorder",
+"d. Stroke",
+"e. Space Occupying Lesion"
+],
+"answer": "b",
+"explanation": "Fever, seizures, and signs of meningeal irritation (Kernig sign) with upper motor neuron signs indicate meningitis."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "A 3 years old child presents to OPD with 3 weeks history of fever. He was well before the onset of fever and had attained milestones at the appropriate time. Fever is moderate and occurs usually in the evening. It is accompanied by loss of appetite as well as weight loss. Child is unable to walk now which his mother attributes to his weakness and prolonged fever. He also occasionally vomits out. Two days back child also had a brief episode of generalized stiffness of body. Family history reveals he is a product of consanguineous marriage other family members are fine, although his grandmother has a history of chronic productive cough for which she is on some medicines. What is the most likely diagnosis?",
+"options": [
+"a. Brain Abscess",
+"b. Space Occupying Lesion",
+"c. Viral Meningitis",
+"d. Sepsis",
+"e. Tuberculous Meningitis"
+],
+"answer": "e",
+"explanation": "Chronic fever, weight loss, neurological decline, seizures, and a family history of chronic cough (suggesting TB exposure) points to Tuberculous Meningitis."
+},
+{
+"id": "kims",
+"block": "j",
+"year": "2023",
+"question": "To compare the death rate of Nepal with death rate of Pakistan, the most appropriate measure is a comparison between",
+"options": [
+"a. Age specific mortality rates",
+"b. crude death rates",
+"c. Maternal mortality rates",
+"d. standardized mortality rates",
+"e. Life expectancy"
+],
+"answer": "d",
+"explanation": "Standardized (or age-adjusted) mortality rates are used to compare mortality between populations with different age structures."
+}
+]

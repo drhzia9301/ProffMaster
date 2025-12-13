@@ -1,0 +1,317 @@
+[
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "What is complete transection of a peripheral nerve called?",
+"options": [
+"a. Neurotmesis",
+"b. Axonotmesis",
+"c. Neuropraxia",
+"d. Radiculopathy",
+"e. Plexopathy"
+],
+"answer": "a",
+"explanation": "Neurotmesis is the most severe grade of nerve injury, involving complete transection of the nerve trunk."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "Most common cause of stroke worldwide is?",
+"options": [
+"a. Atherosclerosis",
+"b. Hypertension",
+"c. Diabetes mellitus",
+"d. Hyperlipidemia",
+"e. Smoking"
+],
+"answer": "b",
+"explanation": "Hypertension is the single most important modifiable risk factor and 'cause' for both ischemic and hemorrhagic strokes globally."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "An infant born with bacterial meningitis. What is the most common cause?",
+"options": [
+"a. E. coli",
+"b. Streptococcus pneumoniae",
+"c. Haemophilus influenzae",
+"d. Group B Streptococcus",
+"e. Listeria monocytogenes"
+],
+"answer": "d",
+"explanation": "Group B Streptococcus (S. agalactiae) is the most common cause of bacterial meningitis in neonates."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "At the neuromuscular junction, motor neuron passes action potential to the muscle spindle fibre. The ion responsible for the release of ACh from the synaptic vesicle is?",
+"options": [
+"a. Calcium",
+"b. Sodium",
+"c. Potassium",
+"d. Chloride",
+"e. Magnesium"
+],
+"answer": "a",
+"explanation": "Influx of Calcium ions through voltage-gated calcium channels triggers the exocytosis of Acetylcholine (ACh) vesicles."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "The most common site of primary thrombosis causing cerebral infarction is?",
+"options": [
+"a. Middle cerebral artery",
+"b. Basilar artery",
+"c. Cavernous sinus",
+"d. Carotid artery bifurcation",
+"e. Anterior cerebral artery"
+],
+"answer": "d",
+"explanation": "Atherosclerotic plaque formation and subsequent thrombosis occur most frequently at the bifurcation of the common carotid artery."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "An 83-year-old man presents with irregular talking and incontinence of urine for the past 3 years. What is your diagnosis?",
+"options": [
+"a. Dementia",
+"b. Delirium",
+"c. Parkinson’s disease",
+"d. Stroke",
+"e. Normal pressure hydrocephalus"
+],
+"answer": "e",
+"explanation": "This presents the classic triad of Normal Pressure Hydrocephalus (NPH): Dementia (cognitive decline), Urinary incontinence, and Gait disturbance (often described as 'wobbly')."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "A 45-year-old lady presented with a 3-day history of weakness in both lower limbs. She had an episode of diarrhea 5 days back, which resolved with treatment. Clinical examination shows flaccid paralysis of the lower limbs with 1/5 power in the lower limbs and 2/5 power in the upper limbs. Plantar reflexes are bilaterally going down. What is the diagnosis?",
+"options": [
+"a. Poliomyelitis",
+"b. Familial periodic paralysis",
+"c. Acute hypokalemia due to GI loss",
+"d. GB syndrome",
+"e. MS"
+],
+"answer": "d",
+"explanation": "Guillain-Barré Syndrome (GBS) presents with ascending flaccid paralysis often following a GI infection (Campylobacter jejuni)."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "A 25-year-old had a bike accident 2 days ago and presented with one-day history of weakness in both lower limbs. Clinical examination shows bilateral up-going plantar reflexes and a sensory level up to the umbilicus. Which is the most likely area of spinal cord injury?",
+"options": [
+"a. Upper dorsal spine",
+"b. Lower dorsal spine",
+"c. Upper lumbar spine",
+"d. Lower lumbar spine",
+"e. Cauda equina"
+],
+"answer": "b",
+"explanation": "The sensory level at the umbilicus corresponds to the T10 dermatome, which indicates injury in the lower dorsal (thoracic) spine area."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "A 20-year-old man presents with the inability to hold his right hand straight due to an intramuscular injection in his arm. Clinically, he has right wrist drop. Which of the following explains his condition?",
+"options": [
+"a. Ulnar nerve injury",
+"b. Median nerve injury",
+"c. Radial nerve injury",
+"d. Extensor digitorum brevis injury",
+"e. Extensor digitorum longus injury"
+],
+"answer": "c",
+"explanation": "Wrist drop is the hallmark sign of Radial nerve injury, which can occur from IM injections in the arm."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "A 53-year-old female with known rheumatoid arthritis has numbness and tingling sensations in the lateral three fingers of her right hand, along with a sharp burning pain extending from her right hand to her arm. What is the diagnosis?",
+"options": [
+"a. Ulnar nerve entrapment",
+"b. Median nerve entrapment",
+"c. Radial nerve entrapment",
+"d. Tenosynovitis",
+"e. Wrist joint subluxation"
+],
+"answer": "b",
+"explanation": "Symptoms in the lateral three fingers suggest Median nerve entrapment (Carpal Tunnel Syndrome), which is commonly associated with Rheumatoid Arthritis."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "A 2-year-old child presented with cerebral palsy and had an ataxic gait. How would you classify this ataxia?",
+"options": [
+"a. Acute ataxia",
+"b. Chronic non-progressive ataxia",
+"c. Chronic progressive ataxia",
+"d. Intermittent ataxia",
+"e. Paroxysmal ataxia"
+],
+"answer": "b",
+"explanation": "Cerebral palsy is defined as a non-progressive disturbance of the developing brain."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "Gingival hyperplasia occurs with the use of which drug?",
+"options": [
+"a. Phenytoin",
+"b. Aspirin",
+"c. Amoxicillin",
+"d. Paracetamol",
+"e. Ibuprofen"
+],
+"answer": "a",
+"explanation": "Phenytoin is a known cause of drug-induced gingival overgrowth."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "Pin point pupils are seen in?",
+"options": [
+"a. Alcohol poisoning",
+"b. Morphine poisoning",
+"c. Amphetamine poisoning",
+"d. Cocaine poisoning",
+"e. LSD poisoning"
+],
+"answer": "b",
+"explanation": "Opioid overdose (Morphine) characteristically causes miosis (pinpoint pupils)."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "The skull fracture that doesn’t cross sutural lines is called?",
+"options": [
+"a. Linear fracture",
+"b. Diastatic fracture",
+"c. Comminuted fracture",
+"d. Depressed fracture",
+"e. Basilar fracture"
+],
+"answer": "b",
+"explanation": "Diastatic fractures involve the separation of the cranial sutures themselves, rather than crossing the bone plates. (Note: Cephalohematoma is a hemorrhage that does not cross suture lines, but among fractures, Diastatic relates to the suture)."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "Synesthesia and flashbacks occur in poisoning with which substance?",
+"options": [
+"a. LSD",
+"b. Cocaine",
+"c. Alcohol",
+"d. Morphine",
+"e. Amphetamines"
+],
+"answer": "a",
+"explanation": "LSD (Lysergic Acid Diethylamide) is associated with synesthesia (mixing of senses) and flashbacks."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "What are the advantages of a double-blinded study?",
+"options": [
+"a. Eliminates bias",
+"b. Improves data collection",
+"c. Increases statistical power",
+"d. Prevents placebo effect",
+"e. Reduces sample size"
+],
+"answer": "a",
+"explanation": "Double-blinding prevents selection and information bias from both researchers and participants."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "What is the most common mode of transmission of rabies to humans?",
+"options": [
+"a. Ingestion of contaminated food",
+"b. Mosquito bites",
+"c. Inhalation of infected air",
+"d. Contact with infected saliva through bites and scrapes",
+"e. Sharing utensils with infected individuals"
+],
+"answer": "d",
+"explanation": "Rabies is transmitted via the saliva of infected animals, primarily through bites."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "Student t-test measures?",
+"options": [
+"a. Difference between means",
+"b. Difference between 2 to 3 means",
+"c. Difference between frequency distributions",
+"d. Correlation between variables",
+"e. Variance differences"
+],
+"answer": "a",
+"explanation": "The Student's t-test is used to determine if there is a significant difference between the means of two groups."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "When there is no correlation between two variables, it is true for?",
+"options": [
+"a. Negative correlation",
+"b. Null hypothesis",
+"c. Positive correlation",
+"d. Zero variance",
+"e. Direct correlation"
+],
+"answer": "b",
+"explanation": "The Null Hypothesis typically assumes that there is no relationship or correlation between the variables being tested."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "What is the first thing you should do after being bitten by a dog?",
+"options": [
+"a. Go to a hakeem",
+"b. Take a painkiller",
+"c. Apply turmeric",
+"d. Get an anti-rabies vaccine",
+"e. Wash the wound with mild soap and running water for 10 minutes and then go to the hospital"
+],
+"answer": "e",
+"explanation": "Immediate washing of the wound for at least 15 minutes is the most critical first-aid step to reduce the viral load."
+},
+{
+"id": "kgmc",
+"block": "j",
+"year": "2024",
+"question": "Duration of detention for the purpose of assessment of mental health illness in KPK Mental Health Act 2017 is?",
+"options": [
+"a. 28 days",
+"b. 22 days",
+"c. 4 months",
+"d. 2 months",
+"e. 6 weeks"
+],
+"answer": "a",
+"explanation": "Under the Mental Health Act (consistent with 2017 KPK and 2001 Ordinance), the period for assessment detention is typically up to 28 days."
+}
+]

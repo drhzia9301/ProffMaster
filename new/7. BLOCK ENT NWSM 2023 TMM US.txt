@@ -1,0 +1,602 @@
+[
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 60 years old diabetic female presented with complaints of severe pain right ear, fever and serous discharge from right ear from the last 2 weeks. She is on oral hypoglycemics. Her blood investigations reveal poor glycemic control with HbA1C of 10%. Examination of right ear reveals a congested external canal with serous discharge and is very tender. This patient is suffering from",
+"options": [
+"a. Herpes Zooster Oticus",
+"b. Keratosis obturans",
+"c. Malignant otitis externa",
+"d. Otomycosis",
+"e. Osteoma"
+],
+"answer": "c",
+"explanation": "Malignant (necrotizing) otitis externa is a severe infection typically affecting elderly diabetic patients, characterized by severe pain, discharge, and granulation tissue in the ear canal, caused by Pseudomonas aeruginosa."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 45 years male presented to eye OPD with a complaint of right inward deviation in primary position and sudden diplopia. Extra ocular movements are normal except right lateral rectus restriction. Diplopia increases on ipsilateral gaze. What’s the probable diagnosis:",
+"options": [
+"a. 3rd nerve palsy",
+"b. 6th nerve palsy",
+"c. Duane retraction syndrome",
+"d. Convergence spasm",
+"e. Restrictive thyroid ophthalmopathy"
+],
+"answer": "b",
+"explanation": "The 6th cranial nerve (Abducens) innervates the lateral rectus. Palsy results in an inability to abduct the eye (lateral rectus restriction), leading to esotropia (inward deviation) and diplopia that worsens on looking towards the affected side."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 2 years male old child presented with complaints of bilaterally decreased hearing since birth. Her parents report that he had neonatal jaundice at 10th day of life for which he required an exchange transfusion for his high bilirubin levels. Audiogram reveals he has 100dB of sensorineural hearing loss bilaterally. The option he has for auditory rehabilitation is:",
+"options": [
+"a. Brain stem implant",
+"b. Cochlear implant",
+"c. Hearing aid",
+"d. Non verbal cues",
+"e. Wait and watch policy"
+],
+"answer": "b",
+"explanation": "For profound sensorineural hearing loss (100dB) where hearing aids provide insufficient benefit, a cochlear implant is the standard option for auditory rehabilitation. Brain stem implants are reserved for cases with absent cochlear nerves."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 20-year-old patient presents with a feeling of pressure and fullness in both ears, particularly when traveling in an airplane. Examination reveals normal tympanic membranes. Which of the following conditions is the likely cause of these symptoms?",
+"options": [
+"a. Acute otitis media",
+"b. Eustachian tube dysfunction",
+"c. Serous otitis media",
+"d. Otitis externa",
+"e. Meniere’s disease"
+],
+"answer": "b",
+"explanation": "Difficulty equalizing middle ear pressure during altitude changes (airplane travel) with normal TM findings is characteristic of Eustachian tube dysfunction."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 30 years old female presented with complaints of painful left pinna after getting an ear piercing 6 days back. o/e , left pinna is swollen and is exquisitely tender with a fluctuant red swelling. The next step should be",
+"options": [
+"a. Antibiotics",
+"b. Conservative management",
+"c. Incision and drainage",
+"d. Heat pads",
+"e. Splintage of pinna"
+],
+"answer": "c",
+"explanation": "The presentation suggests a perichondrial abscess (fluctuant swelling) following piercing (perichondritis). The immediate management for an abscess is incision and drainage to prevent cartilage necrosis, along with antibiotics."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 65 years old male presented with complaints of decreased hearing left side along with tinnitus and vertigo from the last 4 years. O/E left tympanic membrane is normal. Tuning fork tests reveal Rinnie's positive in both ears with webers lateralizing towards the right ear. The interpretation of tuning fork tests is:",
+"options": [
+"a. Conductive deafness in left ear",
+"b. Conductive deafness in right ear",
+"c. Sensorineural deafness in left ear",
+"d. Sensorineural deafness in right ear",
+"e. Mixed hearing loss"
+],
+"answer": "c",
+"explanation": "Rinne positive implies Air Conduction > Bone Conduction (Normal or SNHL). Weber lateralizes to the better ear in SNHL. Lateralization to the right indicates the left ear is the affected ear with sensorineural hearing loss."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 34 years old male presented with complaints of left sided tinnitus, vertigo and aural fullness from the last 2 years. He also complains of decreased hearing in that ear. You are suspecting meniere's disease. the investigation which you will order to reach diagnosis in this case would be",
+"options": [
+"a. Audiogram",
+"b. Brain stem evoked response audiometry",
+"c. Electrocochleography",
+"d. MRI brain",
+"e. Otoacoustic emissions"
+],
+"answer": "c",
+"explanation": "Electrocochleography (ECochG) is a specific diagnostic test for Meniere's disease (endolymphatic hydrops), looking for an elevated SP/AP ratio."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old female presents with recurrent episodes of transient vertigo. There is no history of hearing loss and tinnitus. Positional test (Dix Hallpike) results in nystagmus and vertigo. What is the most likely diagnosis?",
+"options": [
+"a. Vestibular neuritis",
+"b. Meniere's disease",
+"c. Benign paroxysmal positional vertigo (BPPV)",
+"d. Acoustic neuroma",
+"e. Labyrinthitis"
+],
+"answer": "c",
+"explanation": "Recurrent transient vertigo triggered by position changes, with a positive Dix-Hallpike test and no hearing loss, is diagnostic of Benign Paroxysmal Positional Vertigo (BPPV)."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 24 years old female presented with complaints of chronically discharging ears from the last 4 years. She has taken multiple antibiotics with no improvement. Examination of the ears reveal bilateral perforations with active discharge in both ears. Her CT scan shows hazy mastoids. The next investigation in this patient which will help in management is:",
+"options": [
+"a. Audiogram",
+"b. Examination under a microscope",
+"c. Full blood profile",
+"d. Pus for culture and sensitivity",
+"e. MRI brain"
+],
+"answer": "d",
+"explanation": "In chronic otitis media with active discharge that is resistant to multiple antibiotics, obtaining a pus swab for culture and sensitivity is crucial to identify the causative organism and select appropriate antibiotics."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old female presents with recurrent episodes of severe vertigo associated with hearing loss and tinnitus. Patient suddenly falls on the ground without loss of consciousness. What is the most likely diagnosis?",
+"options": [
+"a. Vestibular neuritis",
+"b. Meniere's disease",
+"c. Benign paroxysmal positional vertigo (BPPV)",
+"d. Acoustic neuroma",
+"e. Labyrinthitis"
+],
+"answer": "b",
+"explanation": "The triad of vertigo, hearing loss, and tinnitus indicates Meniere's disease. Sudden falls without loss of consciousness (Tumarkin's otolithic crisis or Drop attacks) are a known complication of Meniere's."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old patient complains of gradual hearing loss in both ears, especially for high-pitched sounds. There is a history of prolonged exposure to loud noise at the workplace. What is the most likely diagnosis?",
+"options": [
+"a. Presbycusis",
+"b. Meniere's disease",
+"c. Otitis externa",
+"d. Conductive hearing loss",
+"e. Noise induced hearing loss"
+],
+"answer": "e",
+"explanation": "History of prolonged noise exposure and high-frequency hearing loss is characteristic of Noise-Induced Hearing Loss (NIHL)."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 45-year-old patient presents with a complaint of yellowish discharge from the right ear along with hearing loss. On examination, the tympanic membrane appears red and inflamed. What is the most likely diagnosis?",
+"options": [
+"a. Acute otitis media",
+"b. Chronic otitis media",
+"c. Otitis externa",
+"d. Serous otitis media",
+"e. Eustachian tubes dysfunction"
+],
+"answer": "a",
+"explanation": "Red, inflamed tympanic membrane with discharge (indicating perforation or suppuration) and acute symptoms points to Acute Otitis Media."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 40 years old male presented with complaints of right sided tinnitus and vertigo from the last 5 years. he has taken multiple medications for it but with no improvement. Rather his symptoms have worsened over time. O/E right TM is normal. Tuning fork tests are also normal. The next investigation in this patient would be",
+"options": [
+"a. Audiogram",
+"b. Brain stem evoked response audiometry",
+"c. Electrocochleography",
+"d. MRI brain",
+"e. Speech discrimination score"
+],
+"answer": "d",
+"explanation": "Unilateral tinnitus and vertigo warrant investigation for retrocochlear pathology, such as a vestibular schwannoma (acoustic neuroma). MRI of the brain/IAM is the gold standard for diagnosis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old patient presents with recurrent episodes of severe pain and swelling below the jaw, especially during meals. On palpation, you feel a tender, fluctuant mass. What is the most likely diagnosis?",
+"options": [
+"a. Submandibular sialadenitis",
+"b. Parotitis",
+"c. Sublingual gland abscess",
+"d. Pharyngitis",
+"e. Ludwig’s angina"
+],
+"answer": "a",
+"explanation": "Pain and swelling below the jaw (submandibular region) exacerbated by meals (mealtime syndrome) is classic for obstructive sialadenitis, likely due to a stone (sialolithiasis) in the submandibular gland."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 25-year-old patient presents with a complaint of a scratchy and painful throat, along with mild fever. On examination, you notice redness and swelling in the back of the throat, as well as white patches on the tonsils. What is the most likely diagnosis?",
+"options": [
+"a. Infectious mononucleosis",
+"b. Viral pharyngitis",
+"c. Granular tonsillitis",
+"d. Laryngitis",
+"e. Acute glossitis"
+],
+"answer": "a",
+"explanation": "White patches (exudate) on the tonsils with sore throat and fever can indicate bacterial tonsillitis or Infectious Mononucleosis. Among the options provided, Infectious Mononucleosis fits the description of exudative tonsillitis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 17-year-old patient visits your clinic with complaints of a persistent sore throat, mild fever and discomfort in the abdomen. Physical examination reveals swollen tonsils with scrapable white patches and palpable cervical lymph nodes. The patient's fatigue seems disproportionate to the symptoms. What condition should be considered in this case?",
+"options": [
+"a. Common Cold",
+"b. Gastroenteritis",
+"c. Diphtheria",
+"d. Infectious mononucleosis",
+"e. Streptococcal tonsillitis"
+],
+"answer": "d",
+"explanation": "The combination of sore throat, tonsillar exudates, cervical lymphadenopathy, significant fatigue, and abdominal discomfort (likely splenomegaly) is classic for Infectious Mononucleosis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 65-year-old patient presents with complaints of difficulty in swallowing, especially when consuming solid foods. He also mentions occasional regurgitation of undigested food, often accompanied by foul-smelling breath. On examination, you notice a bulge in the neck region during swallowing. What is the most likely diagnosis?",
+"options": [
+"a. Tonsillitis",
+"b. Gastroesophageal reflux disease",
+"c. Zenker's Diverticulum",
+"d. Laryngitis",
+"e. Laryngocele"
+],
+"answer": "c",
+"explanation": "Dysphagia, regurgitation of undigested food, halitosis, and a neck lump are characteristic signs of a pharyngeal pouch (Zenker's Diverticulum)."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 5 weeks-old child is brought to your clinic with high-pitched noise during inspiration and improves with proning. The child appears distressed, and you observe retractions in the suprasternal notch and between the ribs. What is the most likely condition causing these symptoms?",
+"options": [
+"a. Croup (viral laryngotracheitis)",
+"b. Epiglottitis",
+"c. Laryngomalacia",
+"d. Foreign body aspiration",
+"e. Vocal cords nodules"
+],
+"answer": "c",
+"explanation": "Inspiratory stridor in an infant that improves when placed in the prone position is the hallmark of Laryngomalacia."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 35-year-old teacher complains of a persistently hoarse voice for the past few weeks. There is no associated pain or cough. What is the most likely cause of hoarseness in this patient?",
+"options": [
+"a. Gastroesophageal reflux disease (GERD)",
+"b. Acute laryngitis",
+"c. Vocal cord nodules",
+"d. Laryngeal carcinoma",
+"e. Bilateral vocal cords palsies"
+],
+"answer": "c",
+"explanation": "Chronic hoarseness in a professional voice user (teacher) without pain or acute infection symptoms is suggestive of vocal cord nodules."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 60-year-old patient presents with dysphagia, weight loss, and a painless lump in the neck. Examination reveals an enlarged thyroid gland. Fine-needle aspiration cytology shows differentiated thyroid carcinoma. Which subtype is most common?",
+"options": [
+"a. Papillary carcinoma",
+"b. Follicular carcinoma",
+"c. Medullary carcinoma",
+"d. Anaplastic carcinoma",
+"e. Hurthal cell carcinoma"
+],
+"answer": "a",
+"explanation": "Papillary carcinoma is the most common subtype of differentiated thyroid carcinoma."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 55-year-old male smoker presents with hoarseness and a progressively worsening cough. He also complains of difficulty swallowing. Laryngoscopy reveals a lesion involving the right vocal cord with irregular borders and areas of ulceration. What is the most appropriate next step?",
+"options": [
+"a. Empiric antibiotic therapy",
+"b. Immediate surgical excision",
+"c. Chest X-ray to evaluate for metastasis",
+"d. Biopsy of the lesion",
+"e. High-dose corticosteroid therapy"
+],
+"answer": "d",
+"explanation": "A suspicious laryngeal lesion (irregular, ulcerative) in a smoker requires a biopsy to confirm the diagnosis (likely laryngeal carcinoma) before further management."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A three years female child is brought to eye opd with convergent squint for the last 6 months. Extraocular movements and fundi are normal. Ac/A ratio is normal. Cycloplegic refraction shows hypermetropia of 6 diopters . eyes are staright with glasses. Whats your probable diagnosis:",
+"options": [
+"a. Accomodative esotropia",
+"b. Infantile esotropia",
+"c. Exotropia",
+"d. Paralytic esotropia",
+"e. Paralytic exotropia"
+],
+"answer": "a",
+"explanation": "Esotropia that is fully corrected by hypermetropic glasses indicates refractive accommodative esotropia."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 28 years lady came to eye OPD with the complaint of a painless swelling in the left upper lid with normal overlying skin. Palpation of the lesion indicates a small nodule in the substance of upper eyelid. Conjunctiva of the upper eyelid is red over the nodule. The most probable diagnosis is:",
+"options": [
+"a. Chalazion",
+"b. Externum Hordeolum (Stye)",
+"c. Basal cells carcinoma",
+"d. Squamous cells carcinoma",
+"e. Sebaceous gland carcinoma"
+],
+"answer": "a",
+"explanation": "A painless nodule within the substance of the eyelid (tarsal plate) is characteristic of a Chalazion (internal hordeolum/meibomian cyst). The conjunctival redness over the nodule confirms its internal location."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "13 years boy presents to eye OPD with pain in the right lower eyelid. The lesion is tender and the eyelid margin is red and edematous.pus is pointing towards the eyelid margin. What’s the most probable diagnosis:",
+"options": [
+"a. Chalazion",
+"b. Externum Hordeolum (Stye)",
+"c. Basal cells carcinoma",
+"d. Squamous cells carcinoma",
+"e. Sebaceous gland carcinoma"
+],
+"answer": "b",
+"explanation": "A painful, tender swelling at the eyelid margin with pus pointing externally is a Hordeolum Externum (Stye)."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 60 years old male presents with acute onset of right orbital pain, he has periocullar redness and swelling. Conjunctival injection, chemosis, lid edema and proptosis is present. The size of extra ocular muscle is normal. Thyroid function tests are normal. Whats the most probable diagnosis:",
+"options": [
+"a. Orbital cellulitis",
+"b. Preceptal cellulitis",
+"c. Thyroid Eye Disease",
+"d. Idiopathic orbital eye disease",
+"e. Dermoid cyst of the orbit"
+],
+"answer": "a",
+"explanation": "The presence of proptosis, chemosis, and pain distinguishes orbital cellulitis from preseptal cellulitis. Normal muscles and thyroid function exclude thyroid eye disease."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 3 years old male child is brought to eye OPD with a complaint of outward deviation of the right eye. According to the mother of the child the deviation is only seen when the kid is fatigued, ill health and in bright light. The child usually closes one eye in bright light. Cover uncover test shows exophoria. Whats your probable diagnosis:",
+"options": [
+"a. Paralytic exotopia",
+"b. Paralytic esotropia",
+"c. Intermittant exotropia",
+"d. Alternation exotropia",
+"e. Infantile esotropia"
+],
+"answer": "c",
+"explanation": "Exotropia that manifests intermittently (e.g., during fatigue or bright light) and is controlled by fusion (phoria on testing) is Intermittent Exotropia."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 3-year young boy is brought by his concerned parents after they noticed white pupillary reflex in his left eye. On examination, you found the cornea and lens are clear. You noticed a whitish mass involving the retina. B-scan ultrasound showed calcification in the mass. You are suspecting a possible intra—ocular tumor. What is the most likely diagnosis?",
+"options": [
+"a. Retinoblastoma",
+"b. Coat’s disease",
+"c. Toxocariasis",
+"d. Toxoplasmosis",
+"e. Congenital Cataract"
+],
+"answer": "a",
+"explanation": "Leukocoria (white reflex) with an intraocular mass showing calcification on ultrasound is highly specific for Retinoblastoma."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "1 year old male baby is presented to eye OPD with severe swelling of eyelids and forward bulging of the eyeball with restricted extraocular movements and the patient has fever. The most probable diagnosis is:",
+"options": [
+"a. Orbital cellulitis",
+"b. Preceptal cellulitis",
+"c. Thyroid eye disease",
+"d. Idiopathic orbital eye disease",
+"e. Dermoid cyst of the orbit"
+],
+"answer": "a",
+"explanation": "Severe eyelid swelling with proptosis (forward bulging), restricted eye movements, and fever indicates infection posterior to the orbital septum, which is Orbital Cellulitis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 4-years old patient has Retinoblastoma involving her right eye. The patient is advised to undergo complete removal of the eyeball. The rest of orbital contents will not be excised. What is the procedure described above named?",
+"options": [
+"a. Evisceration",
+"b. Classical exenteration",
+"c. Lid sparing (Modified) exenteration",
+"d. Enucleation",
+"e. Eyeball Resection"
+],
+"answer": "d",
+"explanation": "Removal of the entire eyeball while leaving the orbital contents (muscles, fat) behind is called Enucleation. This is the standard surgery for retinoblastoma."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "An 8 years old male child is presented to eye OPD with severe swelling and redness of right upper and lower eyelids. His extra ocular movements are normal. Whats your probable diagnosis:",
+"options": [
+"a. Orbital cellulitis",
+"b. Preceptal cellulitis",
+"c. Thyroid eye disease",
+"d. Idiopathic orbital eye disease",
+"e. Dermoid cyst of the orbit"
+],
+"answer": "b",
+"explanation": "Eyelid swelling and redness with *normal* extraocular movements and no proptosis suggests the infection is limited to the tissues anterior to the orbital septum, known as Preseptal Cellulitis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A middle aged women who is a known patient of hyperlipidemia presents with bilateral slightly raised creamy-yellowish, plaque like lesions in the skin of upper eyelid near the medial canthus. The most probable diagnosis is:",
+"options": [
+"a. Chalazion",
+"b. Externum Hordeolum (Stye)",
+"c. Capillary haemangioma",
+"d. Xanthalesma",
+"e. Neurofriboma of eyelid"
+],
+"answer": "d",
+"explanation": "Yellowish plaques on the eyelids, often near the medial canthus, associated with hyperlipidemia are Xanthelasma."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 20 years old girl presents to eye OPD with a recent onset of bilateral ptosis and diplopia, which becomes worse in the evening. Ice pack test and acetylecholine receptor antibodies are positive. The most probable diagnosis is:",
+"options": [
+"a. Mayasthenia gravis",
+"b. Ptosis",
+"c. Psudo ptosis",
+"d. Proptosis",
+"e. Psudo proptosis"
+],
+"answer": "a",
+"explanation": "Fatigable ptosis (worse in evening), diplopia, positive ice pack test, and ACh receptor antibodies are diagnostic for Myasthenia Gravis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 9-months young boy is brought by his parents to Ophthalmology OPD. According to the parents, the patient does not follow objects and cannot recognize his mother’s face. On examination, you noticed a white pupillary reflex (Leukocoria). The opacity involves a structure behind the iris. What is the most common cause of leukocoria in this age group?",
+"options": [
+"a. Retinoblastoma",
+"b. Congenital Cataract",
+"c. Coat’s Disease",
+"d. Toxocariasis",
+"e. Congenital Glaucoma"
+],
+"answer": "b",
+"explanation": "Congenital cataract is statistically the most common cause of leukocoria in children."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "An 80 years old female presents to eye OPD with the complaints of persistent right epiphora. On examination the right lower eyelid is everted away from the eyeball. She has right chronic conjunctivitis and exposure keratitis. the most probable diagnosis is:",
+"options": [
+"a. Trichiases",
+"b. Ectropion",
+"c. Entropion",
+"d. Districhiases",
+"e. Psudo districhiases"
+],
+"answer": "b",
+"explanation": "Eversion (outward turning) of the lower eyelid is called Ectropion. It causes epiphora and exposure problems."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 1-year young boy is brought by his parents to Ophthalmology OPD. The parents want to seek opinion regarding treatment of congenital cataract in Right eye of their infant. What is the best treatment option in this case?",
+"options": [
+"a. Keep under observation until 2-years of age",
+"b. Perform lens matter aspiration and lens implant after 2-years of age",
+"c. Perform lens matter aspiration now and implant lens at 2-years of age",
+"d. Prescribe glasses and call for follow-up after 1 year",
+"e. Advise the parents that it will clear spontaneously"
+],
+"answer": "c",
+"explanation": "Congenital cataract requires early surgical removal (aspiration) to prevent deep amblyopia. Intraocular lens (IOL) implantation is often deferred until the eye has grown (around 2 years), using contact lenses or glasses in the interim."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 70 years old man presents to eye OPD with irritation, foreign body sensation and photophobia in the right eye. On examination the patients has right punctuate corneal epithelium defects, conjunctival redness and corneal ulceration. On examination the lid margin is turned inward and the eyelashes are rubbing against cornea and conjunctiva. The most probable diagnosis is:",
+"options": [
+"a. Trichiases",
+"b. Ectropion",
+"c. Entropion",
+"d. Districhiases",
+"e. Psudo districhiases"
+],
+"answer": "c",
+"explanation": "Inward turning of the eyelid margin, causing lashes to rub against the cornea, is called Entropion."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A two year male child is presented with drooping of right upper eyelid since birth. On examination upper eyelid crease is absent and the elevator function is 10mm.The most probable diagnosis is:",
+"options": [
+"a. Myasthenia gravis",
+"b. Ptosis",
+"c. Pseudoptosis",
+"d. Proptosis",
+"e. Pseudo proptosis"
+],
+"answer": "b",
+"explanation": "Drooping of the eyelid since birth with absent lid crease indicates Congenital Ptosis."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 6 months male baby is brought to eye OPD with inward deviation of eyes for the last two months. On examination the angle of deviation is 60 prism diopter. There is no refractive error and fundi are normal. The most probable diagnosis",
+"options": [
+"a. Accomodative esotropia",
+"b. Infantile esotropia",
+"c. Exotropia",
+"d. Paralytic esotropia",
+"e. Paralytic exotropia"
+],
+"answer": "b",
+"explanation": "Infantile (Congenital) Esotropia is characterized by large angle deviation appearing within the first 6 months of life, usually without significant refractive error."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 55 years male presented to eye OPD with severe headache and closure of his right eye. On examination the patient has right ptosis, variable limitation of inward upward and downward movements. Pupil is dilated and poor reactive to light. Outward movement of the eye is normal. The most probable diagnosis is:",
+"options": [
+"a. Paralytic exotropia",
+"b. Paralytic esotropia",
+"c. Intermitant exotropia",
+"d. Alternation exotropia",
+"e. Accomodative esotropia"
+],
+"answer": "a",
+"explanation": "The clinical picture describes a 3rd nerve palsy (Oculomotor nerve palsy) causing ptosis, mydriasis, and limitation of adduction/elevation/depression. The unopposed action of the lateral rectus causes the eye to turn outward, resulting in paralytic exotropia."
+},
+{
+"id": "nwsm",
+"block": "m1",
+"year": "2023",
+"question": "A 12-years old girl is brought by her parents to Ophthalmology OPD. According to the parents, the patient has congenital cataracts since birth. What is the most important complication of untreated congenital cataracts?",
+"options": [
+"a. Retinal detachment",
+"b. Corneal ulcer",
+"c. Amblyopia",
+"d. Optic disc atrophy",
+"e. Lens subluxation"
+],
+"answer": "c",
+"explanation": "The most critical complication of untreated congenital cataract is Amblyopia (lazy eye) due to visual deprivation during the critical period of development."
+}
+]

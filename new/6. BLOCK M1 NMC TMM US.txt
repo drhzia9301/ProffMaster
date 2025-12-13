@@ -1,0 +1,872 @@
+[
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 20-year-old female presented with unilateral nasal obstruction for the last 6 months. On examination, a fleshy mass can be seen in the right nostril and also a mass can be seen hanging down in the oropharynx. What is the most likely diagnosis?",
+"options": [
+"a. Ethmoidal polyp",
+"b. Antrochoanal polyp",
+"c. Inverted papilloma",
+"d. Squamous cell carcinoma"
+],
+"answer": "b",
+"explanation": "Antrochoanal polyps arise from the maxillary antrum and grow backwards into the choana and nasopharynx, often presenting as a mass visible in the oropharynx."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 6-year-old child presented with recurrent sinusitis and decreased hearing for the last 4 days; He also complains of pain in the ears. On examination, the tympanic membrane is red and bulging. What is the most likely diagnosis?",
+"options": [
+"a. Otitis media with effusion",
+"b. CSOM",
+"c. Acute otitis media",
+"d. Otitis externa"
+],
+"answer": "c",
+"explanation": "The presence of otalgia, fever (implied by acute presentation), and a red, bulging tympanic membrane are classic signs of Acute Otitis Media (AOM)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 15-year-old female presented with complaints of pain in the throat and difficulty in swallowing for the last 3 days. On examination, the tonsils are congested with multiple white dots. What is the most likely diagnosis?",
+"options": [
+"a. Acute membranous tonsillitis",
+"b. Acute catarrhal tonsillitis",
+"c. Acute follicular tonsillitis",
+"d. Acute parenchymatous tonsillitis"
+],
+"answer": "c",
+"explanation": "In acute follicular tonsillitis, the crypts become filled with purulent material, appearing as multiple white or yellowish spots on the tonsillar surface."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 35-year-old female presented with difficulty in swallowing for the last one month. She looks pale and has brittle nails; she has no history of weight loss. The peripheral smear shows microcytic hypochromic anemia. What is the most likely diagnosis?",
+"options": [
+"a. Thalassemia",
+"b. Plummer-Vinson syndrome",
+"c. Fanconi anemia",
+"d. Hypopharyngeal carcinoma"
+],
+"answer": "b",
+"explanation": "Plummer-Vinson syndrome (Paterson-Brown-Kelly syndrome) is characterized by the triad of dysphagia, iron deficiency anemia (microcytic hypochromic), and esophageal webs."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 27-year-old male patient comes with complaints of rhinorrhea, sneezing, watering of eyes, and itching of the nose. What is your most appropriate diagnosis?",
+"options": [
+"a. Allergic Rhinitis",
+"b. Wegener's granulomatosis",
+"c. CSF Rhinorrhea",
+"d. Rhinoscleroma"
+],
+"answer": "a",
+"explanation": "The constellation of sneezing, rhinorrhea, nasal itching, and eye watering is the classic presentation of allergic rhinitis."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old female patient has a history of trauma to the head for the last 1 day. Since then, she has had clear watery discharge from the nose. What is the most appropriate test to confirm your diagnosis?",
+"options": [
+"a. Protein analysis",
+"b. Full blood count",
+"c. X-ray skull",
+"d. Beta-2 transferrin"
+],
+"answer": "d",
+"explanation": "Beta-2 transferrin assay is a highly specific and sensitive test to confirm the presence of cerebrospinal fluid (CSF) in nasal discharge."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 7-year-old child has a history of nasal trauma for 1 day. On examination, there is deviation of the nasal bone towards the right. After how many days should we do manipulation of nasal bones?",
+"options": [
+"a. 20 days",
+"b. 7 days",
+"c. 40 days",
+"d. 30 days"
+],
+"answer": "b",
+"explanation": "Closed reduction of nasal bone fractures is typically performed within 7-10 days (before 2 weeks) in children and adults before the bones unite."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "On CT Scan, the Antral (Holman-Miller) sign is a feature of which condition?",
+"options": [
+"a. Acoustic neuroma",
+"b. Glomus tumor",
+"c. Angiofibroma",
+"d. Coalescent mastoiditis"
+],
+"answer": "c",
+"explanation": "The Holman-Miller sign (anterior bowing of the posterior wall of the maxillary sinus) is a pathognomonic radiological feature of Juvenile Nasopharyngeal Angiofibroma."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "The treatment of choice for an antrochoanal polyp in a child is:",
+"options": [
+"a. Polypectomy",
+"b. Polypectomy with Caldwell-Luc operation",
+"c. Polypectomy with intranasal antrostomy",
+"d. Horgan’s operation"
+],
+"answer": "c",
+"explanation": "Functional Endoscopic Sinus Surgery (FESS) with polypectomy and intranasal antrostomy is the current treatment of choice to remove the polyp and its antral part to prevent recurrence."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "Characteristics of cholesteatoma include:",
+"options": [
+"a. Very painful",
+"b. Causes metastatic emboli",
+"c. Erodes bone",
+"d. Rapidly progressive condition"
+],
+"answer": "c",
+"explanation": "Cholesteatoma is a destructive lesion that produces enzymes (collagenases) capable of eroding surrounding bone, leading to complications."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "The treatment of 7th nerve palsy in a patient with cholesteatoma is:",
+"options": [
+"a. Medical management",
+"b. Cortical mastoidectomy",
+"c. Modified radical mastoidectomy with facial nerve decompression",
+"d. Facial nerve section and grafting"
+],
+"answer": "c",
+"explanation": "Facial nerve palsy complicating cholesteatoma is a surgical emergency requiring mastoidectomy (to remove the disease) and decompression of the nerve."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "Type A tympanogram is seen in which condition?",
+"options": [
+"a. Secretory otitis media",
+"b. Healed central perforation",
+"c. Chronic otitis media",
+"d. Adhesive otitis media",
+"e. Normal tympanogram"
+],
+"answer": "e",
+"explanation": "A Type A tympanogram indicates normal middle ear pressure and compliance, representing a normal middle ear system."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "Picket fence fever is characteristic of which condition?",
+"options": [
+"a. Bezold abscess",
+"b. Brain abscess",
+"c. Meningitis",
+"d. Lateral sinus thrombosis",
+"e. Extra dural abscess"
+],
+"answer": "d",
+"explanation": "Lateral sinus thrombosis presents with a hectic, 'picket fence' type of fever curve due to periodic release of septic emboli into the bloodstream."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "In malignant otitis externa, the causative organism is:",
+"options": [
+"a. Streptococcus aureus",
+"b. H. influenza",
+"c. Streptococcus pneumonia",
+"d. Pseudomonas aeruginosa"
+],
+"answer": "d",
+"explanation": "Malignant (necrotizing) otitis externa is an invasive infection most commonly caused by Pseudomonas aeruginosa, typically affecting elderly diabetics."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old female presented with bilateral conductive hearing loss, which is gradual, progressive, and persistent. On examination, both tympanic membranes are intact. What is the most appropriate diagnosis?",
+"options": [
+"a. Otosclerosis",
+"b. Meniere's disease",
+"c. Presbycusis",
+"d. Chronic suppurative otitis media"
+],
+"answer": "a",
+"explanation": "Otosclerosis is a common cause of progressive bilateral conductive hearing loss in young to middle-aged adults, often with a normal tympanic membrane."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 45-year-old male patient presented to ENT OPD with vertigo, fluctuating hearing loss, tinnitus, and aural fullness. What is your most appropriate diagnosis?",
+"options": [
+"a. Otosclerosis",
+"b. Acute suppurative otitis media",
+"c. Serous otitis media",
+"d. Meniere's disease"
+],
+"answer": "d",
+"explanation": "The classic tetrad of symptoms for Meniere's disease includes episodic vertigo, fluctuating sensorineural hearing loss, tinnitus, and aural fullness."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 6-year-old child came to ENT OPD with bilateral decreased hearing, bilateral nasal obstruction, and snoring at night. What is your most appropriate diagnosis?",
+"options": [
+"a. Acute suppurative otitis media",
+"b. Chronic suppurative otitis media",
+"c. Serous otitis media",
+"d. Presbycusis"
+],
+"answer": "c",
+"explanation": "Adenoid hypertrophy causes nasal obstruction and snoring and frequently leads to Eustachian tube dysfunction, resulting in Serous Otitis Media (Otitis Media with Effusion) and hearing loss."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "In otosclerosis, on pure tone audiometry, there will be a Carhart notch at which frequency?",
+"options": [
+"a. 1000 Hz",
+"b. 2000 Hz",
+"c. 3000 Hz",
+"d. 4000 Hz"
+],
+"answer": "b",
+"explanation": "Carhart's notch is a dip in bone conduction thresholds at 2000 Hz (2 kHz) seen in otosclerosis."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 25-year-old male patient presented with vertigo which is sudden in onset and lasts for 20 to 30 seconds. Vertigo is position-related. What is your diagnosis?",
+"options": [
+"a. Benign paroxysmal positional vertigo",
+"b. Perilymph fistula",
+"c. Meniere's disease",
+"d. Vertebrobasilar insufficiency"
+],
+"answer": "a",
+"explanation": "Benign Paroxysmal Positional Vertigo (BPPV) is characterized by short episodes of vertigo (seconds) triggered by changes in head position."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 19-year-old female patient presented with right-sided facial palsy. On examination, there were vesicular rashes on the right pinna. What is the most definitive diagnosis?",
+"options": [
+"a. Herpes zoster",
+"b. Bell's palsy",
+"c. Neurofibroma",
+"d. Facial nerve tumor"
+],
+"answer": "a",
+"explanation": "Herpes Zoster Oticus (Ramsay Hunt syndrome) presents with facial nerve palsy and vesicular rash in the ear canal or pinna."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 20-year-old male patient presented with bilateral foul-smelling discharge which is scanty and purulent. What is the most appropriate diagnosis?",
+"options": [
+"a. Atticoantral disease",
+"b. Tubotympanic disease",
+"c. Serous otitis media",
+"d. Otitis externa"
+],
+"answer": "a",
+"explanation": "Scanty, foul-smelling purulent discharge is characteristic of unsafe CSOM (Atticoantral disease), often associated with cholesteatoma or bone erosion."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "The pathogen responsible for localized otitis externa is:",
+"options": [
+"a. Staph aureus",
+"b. Strep pneumonia",
+"c. Klebsiella",
+"d. Proteus mirabilis"
+],
+"answer": "a",
+"explanation": "Localized otitis externa (furuncle) is an infection of the hair follicle, typically caused by Staphylococcus aureus."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 4-year-old child came to ENT emergency with sudden onset of dysphagia, fever, and stridor. On examination, the epiglottis is red and swollen. What is your diagnosis?",
+"options": [
+"a. Acute laryngitis",
+"b. Acute epiglottitis",
+"c. Acute laryngotracheobronchitis",
+"d. Chronic laryngitis"
+],
+"answer": "b",
+"explanation": "Acute epiglottitis is a medical emergency in children presenting with high fever, dysphagia, drooling, stridor, and a swollen 'cherry-red' epiglottis."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old female patient came to ENT OPD with swelling in front of the right ear for the last 6 months, which is painless. On examination, the facial nerve is intact. What is your most probable diagnosis?",
+"options": [
+"a. Pleomorphic adenoma",
+"b. Mucoepidermoid carcinoma",
+"c. Acute parotitis",
+"d. Warthin's tumor"
+],
+"answer": "a",
+"explanation": "Pleomorphic adenoma is the most common benign tumor of the parotid gland, typically presenting as a slow-growing, painless swelling with an intact facial nerve."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old female patient underwent parotid surgery 4 months back. Now she complains of sweating and flushing of the preauricular region. What is your diagnosis?",
+"options": [
+"a. Frey’s syndrome",
+"b. Hematoma",
+"c. Wound infection",
+"d. Injury to facial nerve"
+],
+"answer": "a",
+"explanation": "Frey's syndrome (gustatory sweating) is a complication of parotidectomy where autonomic nerve fibers cross-innervate, causing sweating in the preauricular skin during eating."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 60-year-old malnourished patient presents with regurgitation of undigested food at night. Gurgling sound is produced on swallowing. What is your most probable diagnosis?",
+"options": [
+"a. Achalasia",
+"b. Pharyngeal pouch",
+"c. Acute esophagitis",
+"d. Plummer-Vinson syndrome"
+],
+"answer": "b",
+"explanation": "A pharyngeal pouch (Zenker's diverticulum) causes regurgitation of undigested food, dysphagia, and a gurgling sound (borborygmi) in the neck."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "Plummer-Vinson syndrome is a predisposing factor for:",
+"options": [
+"a. Esophageal tumors",
+"b. Hypopharyngeal tumors",
+"c. Pharyngeal pouch",
+"d. Achalasia"
+],
+"answer": "b",
+"explanation": "Plummer-Vinson syndrome increases the risk of developing post-cricoid carcinoma, which is a tumor of the hypopharynx."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old male patient presents with progressive unilateral sensorineural hearing loss. On examination, there is hypoaesthesia of the posterior meatal wall. What is your diagnosis?",
+"options": [
+"a. Noise-induced hearing loss",
+"b. Acoustic neuroma",
+"c. Meniere's disease",
+"d. Presbycusis"
+],
+"answer": "b",
+"explanation": "Unilateral progressive sensorineural hearing loss and Hitselberger's sign (hypoesthesia of the posterior meatal wall due to facial nerve compression) suggest Acoustic Neuroma (Vestibular Schwannoma)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 35-year-old male patient came to ENT OPD with chief complaints of episodic vertigo, fluctuating hearing loss, and tinnitus. On examination, both tympanic membranes are normal. What is your diagnosis?",
+"options": [
+"a. Otosclerosis",
+"b. Acute otitis media",
+"c. Meniere's disease",
+"d. CP angle tumors"
+],
+"answer": "c",
+"explanation": "The clinical picture describes the classic triad of Meniere's disease: episodic vertigo, fluctuating hearing loss, and tinnitus."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old male patient presents with right-sided neck swelling along with conductive deafness on the same side. He also has nasal obstruction. What is your diagnosis?",
+"options": [
+"a. Sinonasal tumors",
+"b. Nasopharyngeal carcinoma",
+"c. Deviated nasal septum",
+"d. Ethmoidal polyps"
+],
+"answer": "b",
+"explanation": "Trotter's triad for Nasopharyngeal Carcinoma includes conductive deafness (due to Eustachian tube blockage), ipsilateral temporoparietal neuralgia, and palatal paralysis. Neck swelling (node metastasis) and nasal obstruction are also common presentations."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "What is the most common benign sinonasal tumor?",
+"options": [
+"a. Hemangioma",
+"b. Inverted papilloma",
+"c. Lymphoma",
+"d. Malignant melanoma"
+],
+"answer": "b",
+"explanation": "Inverted papilloma is the most common and clinically significant benign epithelial tumor of the nose and paranasal sinuses. (Osteomas are also very common but among the options provided, Inverted Papilloma is the standard answer)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "Rhinolith formation in the nasal cavity is due to deposition of:",
+"options": [
+"a. Calcium and magnesium salts",
+"b. Potassium",
+"c. Chloride",
+"d. Iron"
+],
+"answer": "a",
+"explanation": "Rhinoliths are formed by the deposition of insoluble salts of calcium and magnesium around a nidus in the nasal cavity."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A patient presents with intermittent swelling and pain in the upper part of the neck after eating, and it subsides after some time. There is no swelling in the oral cavity. What is your most probable diagnosis?",
+"options": [
+"a. Sialadenitis",
+"b. Submandibular duct stone",
+"c. Sjogren's syndrome",
+"d. Actinomycosis"
+],
+"answer": "b",
+"explanation": "Pain and swelling of a salivary gland associated with meals (Mealtime Syndrome) is characteristic of obstructive sialadenitis, commonly due to a submandibular duct stone."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 10-year-old boy presents in emergency to the ENT department with a history of sore throat and fever. On examination, there is a dirty grey membrane on both tonsils, which extends to the soft palate, and its removal causes bleeding. What could be your diagnosis?",
+"options": [
+"a. Membranous tonsillitis",
+"b. Infectious mononucleosis",
+"c. Diphtheria",
+"d. Leukemia"
+],
+"answer": "c",
+"explanation": "A dirty grey, adherent membrane that bleeds on removal is the hallmark clinical finding of Diphtheria."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 4-year-old boy presents with a history of nasal trauma 24 hours ago. Now he has bilateral nasal obstruction. On examination, there is smooth swelling of the nasal septum which is fluctuant. How could you treat this patient?",
+"options": [
+"a. Incision and drainage",
+"b. Antibiotics",
+"c. Incision and drainage and antibiotics",
+"d. Analgesic"
+],
+"answer": "c",
+"explanation": "A septal hematoma (fluctuant septal swelling after trauma) requires immediate incision and drainage to prevent septal necrosis/abscess, followed by antibiotics."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old male patient came with chief complaints of right-side nasal obstruction. On examination, there is a mass in the right nasal cavity. CT scan shows homogeneous opacity involving the right nasal cavity and maxillary sinus. If it is inverted papilloma, what will be the treatment of choice?",
+"options": [
+"a. Radiotherapy",
+"b. Chemotherapy",
+"c. Medial maxillectomy",
+"d. Intranasal polypectomy"
+],
+"answer": "c",
+"explanation": "Inverted papilloma requires complete surgical excision to prevent recurrence and malignant transformation. Medial maxillectomy (endoscopic or open) is the standard treatment."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old female patient presents with bilateral hearing loss. On examination, both tympanic membranes are normal. How will you investigate this patient?",
+"options": [
+"a. CT scan",
+"b. MRI",
+"c. PTA",
+"d. ERA"
+],
+"answer": "c",
+"explanation": "Pure Tone Audiometry (PTA) is the fundamental investigation for assessing the type and degree of hearing loss."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A patient is diagnosed with Meniere's disease. What will be the investigation of choice?",
+"options": [
+"a. Tympanometry",
+"b. Electrocochleography",
+"c. Caloric test",
+"d. CT scan"
+],
+"answer": "b",
+"explanation": "Electrocochleography (ECochG) is the most specific electrophysiological test for diagnosing endolymphatic hydrops (Meniere's disease)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old female patient comes to ENT OPD with a history of nasal discharge on bending forward for the last 10 days. The discharge is clear and watery. What is your diagnosis?",
+"options": [
+"a. Allergic rhinitis",
+"b. CSF rhinorrhea",
+"c. Acute sinusitis",
+"d. Atrophic rhinitis"
+],
+"answer": "b",
+"explanation": "Watery nasal discharge that increases with bending forward (reservoir sign) or straining is highly suggestive of Cerebrospinal Fluid (CSF) rhinorrhea."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 20-year-old male patient had bilateral nasal obstruction for the last year. On examination of the nose, there are bilateral smooth, glistening multiple masses. What is your diagnosis?",
+"options": [
+"a. Antrochoanal polyp",
+"b. Ethmoidal polyp",
+"c. Fungal sinusitis",
+"d. Malignant tumor"
+],
+"answer": "b",
+"explanation": "Bilateral, multiple, smooth, glistening masses in the nasal cavity are characteristic of ethmoidal polyps."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "An 8-year-old boy presented to ENT OPD with 3 days history of pain in the throat and high-grade fever. On examination, there is a whitish membrane over both tonsils. What is the most probable diagnosis?",
+"options": [
+"a. Diphtheria",
+"b. Acute membranous tonsillitis",
+"c. Oral candidiasis",
+"d. Infectious mononucleosis"
+],
+"answer": "b",
+"explanation": "High fever and pain with a whitish membrane suggest acute membranous tonsillitis. While Diphtheria is a differential, the acute high-fever presentation aligns well with acute non-diphtheritic infections or infectious mononucleosis (which can be termed membranous tonsillitis in broad classification)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old diabetic female patient had a history of severe pain in the right ear. On examination, there are granulation tissues in the external auditory meatus. What is your diagnosis?",
+"options": [
+"a. Acute otitis media",
+"b. Malignant otitis externa",
+"c. Secretory otitis media",
+"d. Furuncle"
+],
+"answer": "b",
+"explanation": "Severe ear pain in a diabetic with granulation tissue in the floor of the ear canal is the classic presentation of Malignant Otitis Externa."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 5-year-old child presents with decreased hearing and delayed speech for the last 3 months. She is diagnosed with otitis media with effusion. What will be the findings on tympanogram?",
+"options": [
+"a. Type A",
+"b. Type B",
+"c. Type AD",
+"d. Type AS"
+],
+"answer": "b",
+"explanation": "Otitis Media with Effusion (OME) typically produces a Type B (flat) tympanogram due to fluid in the middle ear restricting tympanic membrane movement."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old diabetic patient presents with right ear blockage and itching sensation. On autoscopic examination, there is a wet paper appearance in the external auditory meatus. What is your diagnosis?",
+"options": [
+"a. Diffuse otitis externa",
+"b. Otomycosis",
+"c. Furuncle",
+"d. Malignant otitis externa"
+],
+"answer": "b",
+"explanation": "Otomycosis (fungal ear infection) often presents with intense itching and a 'wet newspaper' appearance or visible fungal hyphae/spores."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 35-year-old school teacher presents with a change of voice for the last 2 months. He is a non-smoker and on indirect laryngoscopy, there is a polypoidal growth on the right vocal cord. What will be your treatment of choice in this patient?",
+"options": [
+"a. Cordectomy",
+"b. Speech therapy",
+"c. Direct laryngoscopy and excision",
+"d. Radiotherapy"
+],
+"answer": "c",
+"explanation": "Vocal cord polyps are surgically treated by microlaryngoscopic excision (Direct laryngoscopy and excision) followed by voice rest and therapy."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 30-year-old male patient presented with nasal blockage on and off for the last 1 month. On examination, there is nasal crusting and septal perforation. There is hematuria and deranged urea and creatinine. What is your most probable diagnosis?",
+"options": [
+"a. SLE",
+"b. Wegener's Granulomatosis",
+"c. Leishmaniasis",
+"d. Goodpasture syndrome"
+],
+"answer": "b",
+"explanation": "Wegener's Granulomatosis (Granulomatosis with Polyangiitis) involves the upper respiratory tract (crusting, perforation), lungs, and kidneys (glomerulonephritis/hematuria)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 3-year-old child presented with 3 days history of sudden onset of shortness of breath and cyanotic spells. On auscultation of the chest, there is decreased breath sound on the right side of the chest. The parents also give a history that the child was playing on the floor after which these symptoms developed. What is your diagnosis?",
+"options": [
+"a. Acute epiglottitis",
+"b. Acute laryngitis",
+"c. Foreign body in bronchial tree",
+"d. Acute bronchitis"
+],
+"answer": "c",
+"explanation": "Sudden onset of respiratory distress in a child with a history of playing on the floor suggests foreign body aspiration. Decreased breath sounds on one side indicate obstruction of a main bronchus."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 12-year-old girl presented to the ENT OPD with complaints of pain and swelling behind the right ear, having high-grade fever, toxic look, and lethargy. On examination, there is right side postauricular tenderness. Otoscopic findings show sagging of the posterior meatal wall. What is your diagnosis?",
+"options": [
+"a. Temporal abscess",
+"b. Bezold's abscess",
+"c. Acute mastoiditis",
+"d. Petrositis"
+],
+"answer": "c",
+"explanation": "Postauricular pain/swelling, fever, and sagging of the posterosuperior meatal wall are cardinal signs of acute mastoiditis."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old diabetic female patient presents with difficulty in swallowing for the last 10 days. On examination, there is ulceration over the buccal mucosa, soft palate, and uvula. What is your diagnosis?",
+"options": [
+"a. Diphtheria",
+"b. Aphthous ulcer",
+"c. Stomatitis",
+"d. Erythroplakia"
+],
+"answer": "c",
+"explanation": "Generalized inflammation and ulceration of the oral mucosa (buccal, palate, uvula) is termed stomatitis. In a diabetic, this could be infective (e.g., severe viral or candidal, though candidal is usually white patches). 'Aphthous' are usually discrete. Stomatitis is the broad descriptive diagnosis fitting the findings."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 45-year-old female patient presents with difficulty with liquid diet more than solid food and regurgitation of food particles at night time. What is your diagnosis?",
+"options": [
+"a. GERD",
+"b. Scleroderma",
+"c. Cardiac achalasia",
+"d. Esophageal cancer"
+],
+"answer": "c",
+"explanation": "Achalasia typically presents with dysphagia to both solids and liquids (often liquids > solids initially or paradoxically) and regurgitation."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 40-year-old patient presents to your OPD with a history of sticking sensation and pooling of saliva. X-ray lateral view of the neck shows increased prevertebral shadow. What is your diagnosis?",
+"options": [
+"a. Esophageal cancer",
+"b. Laryngeal carcinoma",
+"c. Hypopharyngeal carcinoma",
+"d. Nasopharyngeal carcinoma"
+],
+"answer": "c",
+"explanation": "Pooling of saliva (Chevalier Jackson's sign) and widening of the prevertebral soft tissue shadow on X-ray suggest a mass in the hypopharynx or retropharyngeal space, such as hypopharyngeal carcinoma."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 3-year-old boy was brought to the ENT OPD by his father with complaints of foul-smelling discharge from the nose for the last 14 days. What is your probable diagnosis?",
+"options": [
+"a. Hemangioma",
+"b. Inverted papilloma",
+"c. Foreign body in the nose",
+"d. Schwannoma"
+],
+"answer": "c",
+"explanation": "Unilateral foul-smelling nasal discharge in a child is considered to be due to a foreign body until proven otherwise."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "What is the most specific treatment for peritonsillar abscess?",
+"options": [
+"a. IV antibiotics",
+"b. Tonsillectomy",
+"c. Incision and drainage of abscess along with antibiotics",
+"d. Analgesic"
+],
+"answer": "c",
+"explanation": "The definitive treatment for a peritonsillar abscess (Quinsy) is drainage (via incision or aspiration) combined with antibiotic therapy."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 55-year-old tubercular laryngitis patient presented with hoarseness of voice. In such a condition, which part of the larynx is mostly involved?",
+"options": [
+"a. Subglottic",
+"b. Anterior part of the larynx",
+"c. Glottis",
+"d. Posterior part of the larynx"
+],
+"answer": "d",
+"explanation": "Tuberculosis of the larynx typically affects the posterior part of the larynx (interarytenoid region, posterior vocal cords)."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old banker presents to you in OPD with left-sided unilateral headache associated with lacrimation and discharge from the nose on the same side. CT scan of the paranasal sinuses is normal. What is your diagnosis?",
+"options": [
+"a. Cluster headache",
+"b. Migraine",
+"c. Sinusitis",
+"d. Temporal lobe abscess"
+],
+"answer": "a",
+"explanation": "Cluster headaches present as severe unilateral headache with ipsilateral autonomic symptoms (lacrimation, rhinorrhea, nasal congestion) and normal sinus imaging."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 9-year-old child presents to you with nasal obstruction and discharge for the last 2 years. On examination, there are crowded teeth and a high-arched palate. He is diagnosed with hypertrophied adenoids. Which investigation should be performed?",
+"options": [
+"a. U/S Neck",
+"b. X-ray lateral view of neck",
+"c. CBC",
+"d. X-ray neck AP view"
+],
+"answer": "b",
+"explanation": "X-ray lateral view of the nasopharynx (neck) is the standard simple imaging to assess adenoid size and airway patency."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 55-year-old chain smoker for the last 20 years presents to you in OPD with hoarseness of voice. On examination, there is cervical lymphadenopathy. What is your diagnosis?",
+"options": [
+"a. Hypopharyngeal carcinoma",
+"b. Laryngeal carcinoma",
+"c. Nasopharyngeal carcinoma",
+"d. Lung carcinoma"
+],
+"answer": "b",
+"explanation": "Persistent hoarseness in a smoker suggests laryngeal pathology. The presence of cervical lymphadenopathy indicates metastasis, consistent with laryngeal carcinoma."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 25-year-old patient presents to you with sore throat and difficulty in swallowing. On examination, there are granules on the posterior pharyngeal wall. What is your diagnosis?",
+"options": [
+"a. Acute tonsillitis",
+"b. Acute pharyngitis",
+"c. Oropharyngeal cancer",
+"d. Nasopharyngeal cancer"
+],
+"answer": "b",
+"explanation": "The presence of granules (prominent lymphoid follicles) on the posterior pharyngeal wall is often termed granular pharyngitis, which is a form of pharyngitis. In the context of options, 'Acute pharyngitis' is the closest fit for an inflammatory condition."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 50-year-old patient presents to you with right-sided parotid swelling and facial paralysis for the last 3 months. What is your diagnosis?",
+"options": [
+"a. Pleomorphic adenoma",
+"b. Mucoepidermoid carcinoma",
+"c. Warthin tumor",
+"d. Squamous cell carcinoma of the neck"
+],
+"answer": "b",
+"explanation": "Facial nerve paralysis associated with a parotid mass is highly suggestive of malignancy. Mucoepidermoid carcinoma is the most common malignant parotid tumor."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 7-year-old child presents with foul-smelling ear discharge for the last 3 years. Now he is having high-grade fever, neck stiffness, and projectile vomiting. What is your diagnosis?",
+"options": [
+"a. Subdural abscess",
+"b. Lateral sinus thrombosis",
+"c. Meningitis",
+"d. Brain abscess"
+],
+"answer": "c",
+"explanation": "The triad of fever, neck stiffness (nuchal rigidity), and vomiting (signs of increased ICP) in a patient with CSOM indicates meningitis."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 15-year-old male patient with a history of bleeding from the nose on and off for the last 2 months. If he is a case of angiofibroma, which investigation should be done?",
+"options": [
+"a. U/S Neck",
+"b. CT scan of nose and PNS with contrast",
+"c. X-ray PNS",
+"d. Angiography"
+],
+"answer": "b",
+"explanation": "Contrast-enhanced CT scan is the primary diagnostic investigation for Juvenile Nasopharyngeal Angiofibroma to assess tumor extent and bony changes."
+},
+{
+"id": "nmc",
+"block": "m1",
+"year": "2023",
+"question": "A 60-year-old diabetic patient presents with nasal obstruction on and off. On anterior rhinoscopy, there is blackish ulceration on the inferior turbinate. What is your most probable diagnosis?",
+"options": [
+"a. Angiofibroma",
+"b. Nasopharyngeal carcinoma",
+"c. Acute invasive fungal sinusitis",
+"d. Acute bacterial rhinosinusitis"
+],
+"answer": "c",
+"explanation": "Blackish ulceration (eschar) in the nose of a diabetic patient is the hallmark of acute invasive fungal sinusitis (mucormycosis)."
+}
+]

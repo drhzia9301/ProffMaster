@@ -403,14 +403,30 @@ class SubscriptionService {
    */
   async getUserStats(userId: string): Promise<{ totalAttempts: number; correctAnswers: number; accuracy: number } | null> {
     try {
+      console.log('[getUserStats] Fetching for userId:', userId);
+      
       const { data, error } = await supabase
         .from('attempts')
         .select('is_correct')
         .eq('user_id', userId);
 
-      if (error) throw error;
+      console.log('[getUserStats] Query result:', { 
+        userId, 
+        hasData: !!data, 
+        dataLength: data?.length,
+        hasError: !!error,
+        errorMessage: error?.message,
+        errorCode: error?.code,
+        sampleData: data?.slice(0, 2)
+      });
+
+      if (error) {
+        console.error('[getUserStats] Supabase error:', error);
+        throw error;
+      }
 
       if (!data || data.length === 0) {
+        console.log('[getUserStats] No attempts found, returning zeros');
         return { totalAttempts: 0, correctAnswers: 0, accuracy: 0 };
       }
 
@@ -418,9 +434,11 @@ class SubscriptionService {
       const correctAnswers = data.filter(a => a.is_correct).length;
       const accuracy = totalAttempts > 0 ? Math.round((correctAnswers / totalAttempts) * 100) : 0;
 
+      console.log('[getUserStats] Calculated:', { totalAttempts, correctAnswers, accuracy });
+
       return { totalAttempts, correctAnswers, accuracy };
     } catch (e) {
-      console.error('Failed to get user stats:', e);
+      console.error('[getUserStats] Exception:', e);
       return null;
     }
   }

@@ -1,0 +1,974 @@
+[
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The triad of consequences consisting of chorioretinitis, hydrocephalus, and intracranial calcifications are most likely associated with which of the following infections?",
+"options": [
+"a. Tuberculous meningitis",
+"b. Bacterial meningitis",
+"c. Fungal Encephalitis",
+"d. Cysticercosis",
+"e. Cerebral Toxoplasmosis"
+],
+"answer": "e",
+"explanation": "The classic triad of congenital toxoplasmosis consists of chorioretinitis, hydrocephalus, and intracranial calcifications."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which of the following fungi has the proclivity to invade the brain directly through the cribriform plate rather than via hematogenous dissemination?",
+"options": [
+"a. Candida",
+"b. Mucormycosis",
+"c. Aspergillus",
+"d. Histoplasma",
+"e. Blastomyces"
+],
+"answer": "b",
+"explanation": "Mucormycosis (Rhizopus species) typically invades the brain directly from the nasal sinuses through the cribriform plate, causing rhinocerebral mucormycosis."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The pattern of involvement of CNS in TB is:",
+"options": [
+"a. Meningitis",
+"b. Brain abscess",
+"c. Meningoencephalitis",
+"d. Cerebral gummas",
+"e. Encephalitis"
+],
+"answer": "a",
+"explanation": "Tuberculous meningitis is the most common presentation of neurotuberculosis, typically affecting the base of the brain (basal meningitis)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 55-year-old man presents with a history of headaches and seizures. CT reveals a mass in the left cerebral hemisphere. Biopsy of the mass reveals increased cellularity, cells with marked nuclear pleomorphism, necrosis, and vascular endothelial proliferation. What is the most likely diagnosis?",
+"options": [
+"a. Gemistocytic Astrocytoma",
+"b. Glioblastoma",
+"c. Medulloblastoma",
+"d. Meningioma",
+"e. Pilocytic Astrocytoma"
+],
+"answer": "b",
+"explanation": "The histological features of marked pleomorphism, necrosis (often pseudopalisading), and microvascular proliferation are diagnostic of Glioblastoma (WHO Grade IV)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A mass removed surgically measuring 4 cm lying beneath the dura compressing the right superolateral lobe. On histology, pale oblong nuclei and pink cytoplasm with occasional psammoma bodies are noted. This is most likely a:",
+"options": [
+"a. Medulloblastoma",
+"b. Tuberculoma",
+"c. Meningioma",
+"d. Ependymoma",
+"e. Schwannoma"
+],
+"answer": "c",
+"explanation": "Meningiomas are extra-axial tumors (beneath the dura) characterized histologically by whorled cells with psammoma bodies."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The most common cause of intracerebral hemorrhage is:",
+"options": [
+"a. Hypertension",
+"b. Berry aneurysm",
+"c. Fusiform aneurysm",
+"d. Vascular malformation",
+"e. Bleeding diathesis"
+],
+"answer": "a",
+"explanation": "Hypertension is the leading cause of spontaneous intracerebral hemorrhage, typically affecting deep brain structures like the basal ganglia."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Intra-cytoplasmic inclusion bodies called neurofibrillary tangles are characteristic of:",
+"options": [
+"a. Parkinson's disease",
+"b. Creutzfeldt-Jakob disease",
+"c. Alzheimer's disease",
+"d. Gliosis",
+"e. Alexander disease"
+],
+"answer": "c",
+"explanation": "Neurofibrillary tangles (composed of hyperphosphorylated tau protein) and amyloid plaques are the hallmark pathological features of Alzheimer's disease."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Multiple sclerosis is:",
+"options": [
+"a. A disease with a rapidly progressive course",
+"b. Characterized by focal necrosis of the spinal cord",
+"c. Presents with pre-senile dementia",
+"d. Usually seen in the elderly",
+"e. An auto-immune condition"
+],
+"answer": "e",
+"explanation": "Multiple sclerosis is an autoimmune demyelinating disease of the central nervous system."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 66-year-old man is finding that he has more difficulty getting up and moving about for the past year. He is annoyed by a tremor in his hands, but the tremor goes away when he performs routine tasks using his hands. Which of the following conditions is he most likely to have?",
+"options": [
+"a. Parkinson's Disease",
+"b. Huntington Disease",
+"c. Amyotrophic Lateral Sclerosis",
+"d. Niemann-Pick Disease",
+"e. Tuberous Sclerosis"
+],
+"answer": "a",
+"explanation": "The clinical presentation of bradykinesia (difficulty moving) and a resting tremor (disappears with action) is characteristic of Parkinson's Disease."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A patient with a recent viral infection complains of fever, headache, nausea, and vomiting. Upon taking a CSF sample, it is determined that there are no bacteria present and the protein levels are elevated. What happens to glucose levels if the patient were infected with E. coli?",
+"options": [
+"a. Increase",
+"b. Decrease",
+"c. Stay the same",
+"d. Irrelevant at this level",
+"e. Only elevated when proteins are elevated"
+],
+"answer": "b",
+"explanation": "E. coli causes bacterial meningitis, which is characterized by a significant decrease in CSF glucose levels (hypoglycorrhachia) as bacteria consume glucose."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Pathophysiologically, which is the most important reason for the precipitation of seizures?",
+"options": [
+"a. Increased Glutamate, Increased GABA",
+"b. Increased AMPA, Increased GABA",
+"c. Increased Glutamate, Decreased GABA",
+"d. Decreased Glutamate, Increased GABA",
+"e. Decreased Glutamate, Decreased AMPA"
+],
+"answer": "c",
+"explanation": "Seizures result from an imbalance between excitatory and inhibitory neurotransmission, specifically increased excitation (Glutamate) and decreased inhibition (GABA)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which of the following inhalational anesthetics has a low blood gas partition coefficient but is not used for induction of anesthesia because of airway irritation?",
+"options": [
+"a. Desflurane",
+"b. Halothane",
+"c. Enflurane",
+"d. Isoflurane",
+"e. Sevoflurane"
+],
+"answer": "a",
+"explanation": "Desflurane has a very low blood-gas partition coefficient (fast onset/offset) but is extremely pungent, causing airway irritation, coughing, and laryngospasm, making it unsuitable for inhalation induction."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which of the following drugs causes malignant hyperthermia?",
+"options": [
+"a. Decamethonium",
+"b. Halothane",
+"c. Isoflurane",
+"d. Ketamine",
+"e. Nitrous oxide"
+],
+"answer": "b",
+"explanation": "Malignant hyperthermia is a rare, life-threatening reaction triggered by volatile anesthetics (like Halothane, Isoflurane) and succinylcholine. Halothane is a classic trigger."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which of the following drugs may cause an increase in intraocular pressure?",
+"options": [
+"a. Amoxicillin",
+"b. Dopamine",
+"c. Ketamine",
+"d. Phenytoin sodium",
+"e. Propranolol"
+],
+"answer": "c",
+"explanation": "Ketamine increases cerebral blood flow and can increase intraocular pressure, making it potentially hazardous in patients with open-globe injuries or glaucoma."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Respiratory depression after the use of which of the following agents may be reversed by the administration of flumazenil?",
+"options": [
+"a. Desflurane",
+"b. Fentanyl",
+"c. Ketamine",
+"d. Midazolam",
+"e. Morphine"
+],
+"answer": "d",
+"explanation": "Flumazenil is a specific benzodiazepine receptor antagonist used to reverse the sedative and respiratory depressant effects of benzodiazepines like Midazolam."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A patient is to undergo brief general anesthesia for surgery. The safest and the fastest-acting inhalation general anesthetic would be:",
+"options": [
+"a. Enflurane",
+"b. Halothane",
+"c. Isoflurane",
+"d. Nitrogen dioxide",
+"e. Nitrous oxide"
+],
+"answer": "e",
+"explanation": "Nitrous oxide has the lowest blood:gas partition coefficient among the options, allowing for the fastest induction and recovery, although it is a weak anesthetic."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which of the following is the drug of choice in trigeminal neuralgia?",
+"options": [
+"a. Carbamazepine",
+"b. Levodopa",
+"c. Methyldopa",
+"d. Phenobarbitone",
+"e. Phenytoin"
+],
+"answer": "a",
+"explanation": "Carbamazepine is the first-line drug of choice for the treatment of trigeminal neuralgia."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 20-year-old man with absence seizures is treated with ethosuximide. Which of the following is the principle mechanism of action of ethosuximide?",
+"options": [
+"a. Increase in GABA",
+"b. Increase in the frequency of the chloride channel opening",
+"c. L-type of calcium channel blockade",
+"d. Sodium channel blockade",
+"e. T-type of calcium channel blockade"
+],
+"answer": "e",
+"explanation": "Ethosuximide works by blocking T-type calcium channels in thalamic neurons, which are responsible for generating the 3Hz spike-and-wave pattern in absence seizures."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A hypertensive crisis is more likely to result from the action of drugs from which one of the following drug classes?",
+"options": [
+"a. Barbiturates",
+"b. Benzodiazepines",
+"c. Monoamine oxidase inhibitor",
+"d. Opioids",
+"e. Tricyclic antidepressants"
+],
+"answer": "c",
+"explanation": "MAO inhibitors can cause a hypertensive crisis ('cheese reaction') when consumed with tyramine-rich foods, as tyramine displaces stored catecholamines."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 12-year-old boy with generalized tonic seizures develops an overgrowth of gum tissue. The patient was most likely taking which of the following agents?",
+"options": [
+"a. Clonazepam",
+"b. Ethosuximide",
+"c. Phenobarbital",
+"d. Phenytoin",
+"e. Primidone"
+],
+"answer": "d",
+"explanation": "Gingival hyperplasia (gum overgrowth) is a well-known side effect of long-term Phenytoin therapy."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 72-year-old patient with parkinsonism presents with swollen feet, which are red, tender, and very painful. These symptoms will decrease within a few days if the patient were to stop taking:",
+"options": [
+"a. Amantadine",
+"b. Benztropine",
+"c. Bromocriptine",
+"d. Levodopa",
+"e. Selegiline"
+],
+"answer": "c",
+"explanation": "Bromocriptine, a dopamine agonist, can cause erythromelalgia (red, tender, painful swollen feet)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 20-year-old lady has been admitted under your care as a case of suspected poisoning. Her pupils are dilated, she is delirious, and also has hyperpyrexia. What is the appropriate antidote for this case?",
+"options": [
+"a. Atropine",
+"b. Flumazenil",
+"c. Morphine",
+"d. Naloxone",
+"e. Physostigmine"
+],
+"answer": "e",
+"explanation": "The symptoms (dilated pupils, delirium, hyperpyrexia, dry skin) suggest anticholinergic poisoning (e.g., Datura/Atropine). Physostigmine is the antidote."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A drug addict gives a history of tactile sensations all over his body. Which drug is he likely to have consumed?",
+"options": [
+"a. Alcohol",
+"b. Cannabis",
+"c. Cocaine",
+"d. Heroin",
+"e. Opium"
+],
+"answer": "c",
+"explanation": "Tactile hallucinations, often described as bugs crawling under the skin (Magnan's symptoms or 'cocaine bugs'), are characteristic of chronic Cocaine abuse."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which drug is commonly used in body packer syndrome?",
+"options": [
+"a. Alcohol",
+"b. Benzodiazepine",
+"c. Cannabis",
+"d. Diacetylmorphine",
+"e. Ganja"
+],
+"answer": "d",
+"explanation": "Body packer syndrome involves swallowing packets of drugs for trafficking. Heroin (Diacetylmorphine) and Cocaine are the most commonly involved drugs."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The drug which causes drowsiness and facilitates sleep, which is close to the normal pattern and the patient can be aroused easily, is called a:",
+"options": [
+"a. Analgesic",
+"b. Anesthetic",
+"c. Deliriant",
+"d. Hypnotic",
+"e. Sedative"
+],
+"answer": "d",
+"explanation": "A hypnotic is a drug that induces sleep resembling natural sleep, from which the patient can be aroused."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Bullous lesions on the fingers, buttocks, and around the knees are observed in which acute poisoning?",
+"options": [
+"a. Barbiturate",
+"b. Cocaine",
+"c. Opium",
+"d. Alcohol",
+"e. Strychnine"
+],
+"answer": "a",
+"explanation": "Cutaneous bullae (barbiturate blisters) on pressure areas are a characteristic finding in acute Barbiturate poisoning."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "In which poisoning case is drug automatism mostly seen?",
+"options": [
+"a. Barbiturate",
+"b. Cannabis",
+"c. Chloral hydrate",
+"d. Cocaine",
+"e. Opium"
+],
+"answer": "a",
+"explanation": "Drug automatism is a phenomenon where a patient forgets they have already taken a dose and takes repeated doses, leading to toxicity. It is classically associated with Barbiturates."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Cold Turkey is referred to the withdrawal effect of which substance?",
+"options": [
+"a. Aconite",
+"b. Dhatura",
+"c. Morphine",
+"d. Oleander",
+"e. Strychnine"
+],
+"answer": "c",
+"explanation": "'Cold Turkey' refers to the abrupt withdrawal symptoms (piloerection/gooseflesh) seen in opioid (Morphine/Heroin) addiction."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "What is the shape of the pupil in opium poisoning?",
+"options": [
+"a. Alternately contracted & dilated",
+"b. Contracted",
+"c. Dilated",
+"d. Mid dilated",
+"e. Pinpoint"
+],
+"answer": "e",
+"explanation": "Pinpoint pupils (miosis) are a hallmark sign of opioid (opium) poisoning."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "What is the color of lividity in opium poisoning?",
+"options": [
+"a. Blue",
+"b. Black",
+"c. Cherry red",
+"d. Pink",
+"e. Red"
+],
+"answer": "b",
+"explanation": "In opium poisoning, death is due to respiratory depression/asphyxia, leading to deep blue or blackish post-mortem lividity."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Opium is the dried juice of which of the following plants?",
+"options": [
+"a. Capsicum annuum",
+"b. Cannabis sativa",
+"c. Datura fastuosa",
+"d. Papaver somniferum",
+"e. Strychnos nux-vomica"
+],
+"answer": "d",
+"explanation": "Opium is obtained from the unripe capsule of the poppy plant, Papaver somniferum."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which one is used as a truth serum?",
+"options": [
+"a. Alcohol",
+"b. Cocaine",
+"c. Morphine",
+"d. Opium",
+"e. Thiopentone sodium"
+],
+"answer": "e",
+"explanation": "Thiopentone sodium (a barbiturate) is used in narcoanalysis as a 'truth serum' to lower inhibitions."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "What is the antidote for benzodiazepine poisoning?",
+"options": [
+"a. Diazepam",
+"b. Flumazenil",
+"c. Morphine",
+"d. Pentobarbitone",
+"e. Thiopentone"
+],
+"answer": "b",
+"explanation": "Flumazenil is the specific antidote for benzodiazepine overdose."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which one is correct regarding rigor mortis in deaths due to strychnine poisoning?",
+"options": [
+"a. Sets in late and passes off early",
+"b. Sets in early and passes off late",
+"c. Sets in early and passes off early",
+"d. Sets in late and passes off late",
+"e. Sets in and passes off irregularly"
+],
+"answer": "c",
+"explanation": "In conditions involving violent convulsions and exhaustion (like strychnine poisoning), rigor mortis sets in very early and passes off early."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which poison can resist putrefaction and can be recovered from putrefied exhumed bodies?",
+"options": [
+"a. Cannabis",
+"b. Chloral hydrate",
+"c. Cocaine",
+"d. Opium",
+"e. Strychnine"
+],
+"answer": "e",
+"explanation": "Strychnine is a stable alkaloid that resists putrefaction and can be detected in bodies years after death."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "How many crushed seeds of Strychnos nux-vomica can be proved fatal?",
+"options": [
+"a. 1-2 seeds",
+"b. 4-6 seeds",
+"c. 6-8 seeds",
+"d. 8-10 seeds",
+"e. 10-12 seeds"
+],
+"answer": "a",
+"explanation": "One crushed seed of Nux vomica (containing strychnine) contains enough alkaloid to be fatal."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which of the following diseases has resemblance with strychnine poisoning?",
+"options": [
+"a. Cholera",
+"b. Encephalitis",
+"c. Migraine",
+"d. Renal tubular necrosis",
+"e. Tetanus"
+],
+"answer": "e",
+"explanation": "Strychnine poisoning causes tetanic convulsions and opisthotonos, closely resembling Tetanus."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "An ICU patient has an intra-arterial cannula placed after cardiac surgery to monitor systolic blood pressure (SBP). Twenty-four SBP values are recorded over a period of six hours, with a maximum value of 141 mmHg and a minimum value of 96 mmHg. If the next SBP recording is 200 mmHg, which of the following is most likely to remain unchanged?",
+"options": [
+"a. Mean",
+"b. Mode",
+"c. Range",
+"d. Variance",
+"e. Standard deviation"
+],
+"answer": "b",
+"explanation": "The mode is the most frequent value. Adding a single extreme outlier (200 mmHg) is unlikely to change the most frequent value, whereas mean, range, variance, and SD are all sensitive to outliers."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A rare disorder of amino acid metabolism causes severe mental retardation if left untreated. If the disease is detected soon after birth, a restrictive diet prevents mental abnormalities. Which of the following characteristics would be most desirable in a screening test for this disease?",
+"options": [
+"a. High Sensitivity",
+"b. High Specificity",
+"c. High Positive predictive value",
+"d. High Cutoff value",
+"e. High Accuracy"
+],
+"answer": "a",
+"explanation": "For a serious condition where early treatment prevents severe consequences (like PKU), a screening test must have high sensitivity to ensure no cases are missed (few false negatives)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A 52-year-old female presents to your office with a self-palpated thyroid nodule. After the appropriate work-up, fine-needle aspiration (FNA) of the nodule is performed. The FNA result is negative. As you are explaining the test result, the patient asks, 'What are the chances that I really do not have cancer?' You reply that the probability of thyroid cancer is low in her case because FNA has a high:",
+"options": [
+"a. Specificity",
+"b. Sensitivity",
+"c. Positive predictive value",
+"d. Negative predictive value",
+"e. Validity"
+],
+"answer": "d",
+"explanation": "Negative Predictive Value (NPV) is the probability that a person with a negative test result truly does not have the disease."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "2500 women aged 40-54 who present for routine check-ups are asked about their meat consumption. 20% of the women turn out to be vegetarian. During the ensuing 5 years, 5 vegetarians and 43 non-vegetarians develop colorectal cancer. Which of the following best describes the study design?",
+"options": [
+"a. Case Series Report",
+"b. Cohort Study",
+"c. Case-Control Study",
+"d. Cross-Sectional Study",
+"e. Randomized Clinical Trial"
+],
+"answer": "b",
+"explanation": "The study starts with exposure status (vegetarian vs non-vegetarian) and follows participants forward in time to observe the outcome (cancer), which is the definition of a Cohort Study."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A study in which children are randomly assigned to receive either a newly formulated vaccine or the currently available vaccine, and are followed to monitor for side effects and effectiveness of each vaccine, is an example of which type of study?",
+"options": [
+"a. Experimental",
+"b. Observational",
+"c. Cohort",
+"d. Case-control",
+"e. Clinical trial"
+],
+"answer": "e",
+"explanation": "Random assignment of an intervention (vaccine) to human subjects to evaluate efficacy and safety is a Clinical Trial (Experimental study)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Several studies have found that approximately 75% of cases of lung cancer are due to cigarette smoking. This measure is an example of:",
+"options": [
+"a. An incidence rate",
+"b. An attributable risk",
+"c. A relative risk",
+"d. Prevalence risk",
+"e. A proportionate mortality ratio"
+],
+"answer": "b",
+"explanation": "Attributable Risk (or Population Attributable Fraction) estimates the proportion of disease cases that can be attributed to a specific exposure."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A patient has his blood glucose level measured. The population mean blood glucose level is then subtracted from the patient's blood glucose level. The result is then divided by the standard deviation. If we assume that the blood glucose level in the population follows a normal distribution, the value obtained is best referred to as:",
+"options": [
+"a. T score",
+"b. Z score",
+"c. F value",
+"d. Chi-square value",
+"e. Correlation coefficient"
+],
+"answer": "b",
+"explanation": "The Z-score indicates how many standard deviations an element is from the mean. Formula: Z = (X - Mean) / SD."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A large study of serum cholesterol levels in patients with diabetes mellitus reveals that the parameter is normally distributed with a mean of 230 mg/dL and standard deviation of 10 mg/dL. According to the results of the study, 95% of serum cholesterol observations in these patients lie between which of the following limits?",
+"options": [
+"a. 220 and 240 mg/dL",
+"b. 225 and 235 mg/dL",
+"c. 210 and 250 mg/dL",
+"d. 200 and 260 mg/dL",
+"e. 220 and 260 mg/dL"
+],
+"answer": "c",
+"explanation": "In a normal distribution, 95% of values lie within 2 standard deviations of the mean. 230 +/- (2*10) = 230 +/- 20 = 210 to 250."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "High plasma C-reactive protein (CRP) level is believed to be associated with increased risk of acute coronary syndromes. A group of investigators is planning a study that would evaluate that association, taking into account a set of potential confounders. Which of the following is the best statement of null hypothesis for the study?",
+"options": [
+"a. High plasma CRP level carries increased risk of acute coronary syndromes",
+"b. High plasma CRP level is related to the occurrence of acute coronary syndromes",
+"c. High plasma CRP level has no association with acute coronary syndrome",
+"d. Acute coronary syndrome can be predicted by high plasma CRP",
+"e. High plasma CRP level can cause acute coronary syndromes"
+],
+"answer": "c",
+"explanation": "The null hypothesis states that there is no relationship or association between the variables being studied."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A group of investigators describes a linear association between calcium content of the aortic valve cusps as measured in vivo and the diameter of the aortic opening. They report a correlation coefficient of -0.45 and a p value of 0.001. Which of the following is the best interpretation of the results reported by the investigators?",
+"options": [
+"a. Alpha-error level is set too low",
+"b. Sample size is too low for drawing definite conclusions",
+"c. Calcium deposition causes narrowing of the aortic valve opening",
+"d. As calcium content of the cusps increases, the aortic valve diameter decreases",
+"e. As aortic valve diameter decreases, the calcium content of the cusps decreases"
+],
+"answer": "d",
+"explanation": "A negative correlation coefficient (-0.45) indicates an inverse relationship: as one variable increases (calcium), the other decreases (diameter). The p-value indicates statistical significance."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "In a well-designed clinical trial of treatment of ovarian cancer, the remission rate at one year is similar for a new drug and usual care. The P value is 0.4. This means that:",
+"options": [
+"a. Both treatments are effective",
+"b. Neither treatment is effective",
+"c. The statistical power of this study is 60%",
+"d. The best estimate of treatment effect is 0.4",
+"e. It is not possible to decide on whether one treatment is better than the other using this information alone"
+],
+"answer": "e",
+"explanation": "A p-value of 0.4 (>0.05) indicates that the difference is not statistically significant. Therefore, the study failed to prove that one treatment is better than the other (cannot reject the null hypothesis)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "When designing a study to determine whether there is a direct association between a particular exposure and an outcome, one should anticipate that potential alternative explanations may exist. Which of the following is a way to deal with confounding?",
+"options": [
+"a. Post hoc blocking",
+"b. Randomization",
+"c. Screening",
+"d. Validation",
+"e. Reliability"
+],
+"answer": "b",
+"explanation": "Randomization is a powerful method used in the design phase of experimental studies to distribute known and unknown confounders equally among study groups."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Identify an example of a case-control study:",
+"options": [
+"a. Are used very commonly in environmental epidemiologic research. An example may be possible health effects of exposure to electromagnetic fields.",
+"b. Allowance of the direct observation of risk. The exposure factor is well defined and can study exposures that are uncommon in the population. The temporal relationship between factor and outcome is known.",
+"c. The units of analysis are groups. This can be referred to as an Ecological Comparison Study.",
+"d. None of the above",
+"e. All of the above"
+],
+"answer": "a",
+"explanation": "Case-control studies are often used for rare diseases or environmental exposures (like EMF) where following a cohort would be impractical. Option 'a' describes a typical application."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Describe the correlation:",
+"options": [
+"a. It is the best because if the sensitivity test correctly identifies all potential cases as either negative or positive.",
+"b. A clinical trial refers to a research activity that involves the administration of a test regimen to humans to evaluate its efficacy and safety.",
+"c. This is the association between two variables, the exposure and the outcome",
+"d. They help lead to the prevention of disease",
+"e. The measurement of exposure may be inaccurate"
+],
+"answer": "c",
+"explanation": "Correlation describes the strength and direction of the association or relationship between two quantitative variables."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Describe sensitivity:",
+"options": [
+"a. The ability of a test to correctly identify all individuals who have been screened and actually have the disease",
+"b. This is the ability of a test to identify only those non-diseased individuals who actually do not have the disease",
+"c. The proportion of people screened positive by a test and actually have the disease, this is the + value",
+"d. None of the above"
+],
+"answer": "a",
+"explanation": "Sensitivity is the ability of a test to correctly identify those with the disease (True Positives / Total Diseased)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "An epidemiologist is assigned to conduct a study on 5000 people having hyperlipidemia and those having a normal lipid profile. He has to keep track of all the participants to observe the development of stroke in these patients to confirm that hyperlipidemia increases the risk of stroke. This study is:",
+"options": [
+"a. Retrospective cohort study",
+"b. Retrospective study",
+"c. Prospective study",
+"d. Cross-sectional study",
+"e. Case-series"
+],
+"answer": "c",
+"explanation": "The study starts with exposure (hyperlipidemia) and follows participants forward in time to observe the outcome (stroke), which is a Prospective Cohort Study."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A study is performed in which mothers of babies born with neural tube defects are questioned about acetaminophen consumption during the first trimester of pregnancy. At the same time, mothers of babies born without neural tube defects are also questioned about their consumption of acetaminophen during the first trimester. Which of the following measures of association is most likely to be reported?",
+"options": [
+"a. Prevalence ratio",
+"b. Median survival",
+"c. Relative risk",
+"d. Odds ratio",
+"e. Hazard ratio"
+],
+"answer": "d",
+"explanation": "This is a Case-Control study (outcome is known, looking back at exposure). The appropriate measure of association is the Odds Ratio."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "All of the following are true of odds ratio except:",
+"options": [
+"a. It is an estimate of relative risk",
+"b. It is the only measure of risk that can be obtained directly from a case-control study",
+"c. It tends to be biased towards 1 (neither risk nor protection) at high rates of disease",
+"d. It is the ratio of incidence in exposed divided by incidence in non-exposed",
+"e. None of the above"
+],
+"answer": "d",
+"explanation": "The ratio of incidence in exposed divided by incidence in non-exposed is the definition of Relative Risk (Risk Ratio), not Odds Ratio. OR is the ratio of odds of exposure in cases vs controls."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A study was made of a clinician's ability to diagnose streptococcal throat infections in 149 patients in the emergency department in a certain hospital. The doctor's clinical impressions were compared with throat cultures for group A streptococcus. 37 patients had positive throat cultures and 27 were diagnosed by the doctor as having strep throat. 112 patients had negative cultures, and the doctor diagnosed 35 of these as having strep throat. The specificity of the doctor's clinical judgment was:",
+"options": [
+"a. 27/37",
+"b. 77/112",
+"c. 27/62",
+"d. 10/87"
+],
+"answer": "b",
+"explanation": "Specificity = True Negatives / Total Without Disease. Total without disease (culture negative) = 112. False Positives (diagnosed as strep but culture neg) = 35. True Negatives = 112 - 35 = 77. Specificity = 77/112."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "You asked five of your classmates about their height. On the basis of this information, you state that the average height of all students in your university or college is 67 inches. This is an example of:",
+"options": [
+"a. Descriptive statistics",
+"b. Inferential Statistics",
+"c. Parameter",
+"d. Population",
+"e. None of the above"
+],
+"answer": "b",
+"explanation": "Inferential statistics involves making generalizations or predictions about a population based on data from a sample."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The standard deviation of all possible sample means is called the:",
+"options": [
+"a. Sampling error",
+"b. The population mean",
+"c. Standard error of the mean",
+"d. Normal distribution",
+"e. None of the above"
+],
+"answer": "c",
+"explanation": "The Standard Error of the Mean (SEM) is the standard deviation of the sampling distribution of the sample mean."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The mean of the standard normal distribution is:",
+"options": [
+"a. 0",
+"b. 1",
+"c. 100",
+"d. 150",
+"e. 200"
+],
+"answer": "a",
+"explanation": "A standard normal distribution (Z-distribution) has a mean of 0 and a standard deviation of 1."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "The difference between a sample mean and a population mean is due to:",
+"options": [
+"a. Standard error of the mean",
+"b. Population mean",
+"c. Normal distribution",
+"d. Sampling error",
+"e. All of the above"
+],
+"answer": "d",
+"explanation": "Sampling error is the natural variation that occurs because a sample is used to estimate a population parameter, resulting in a difference between the sample statistic and the true population parameter."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Cross-sectional study is also known as:",
+"options": [
+"a. Longitudinal study",
+"b. Incidence study",
+"c. Prevalence study",
+"d. Follow up study",
+"e. Randomized cohort trial"
+],
+"answer": "c",
+"explanation": "Cross-sectional studies measure the prevalence of disease and exposure at a single point in time, hence they are called prevalence studies."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "A ratio measures the occurrence of some particular event (development of disease or the occurrence of death) in a specified population during a given time period;",
+"options": [
+"a. Ratio",
+"b. Proportion",
+"c. Rate",
+"d. Percentage",
+"e. Frequency distribution"
+],
+"answer": "c",
+"explanation": "A rate measures the frequency of an event in a population over a specific time period (e.g., incidence rate, mortality rate)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "_______ is a relation in size between two random quantities where the numerator is not a subset of the denominator.",
+"options": [
+"a. Percentage",
+"b. Ratio",
+"c. Frequency distribution",
+"d. Rate",
+"e. Proportion"
+],
+"answer": "b",
+"explanation": "A ratio is a comparison of two quantities (a/b) where the numerator is not necessarily included in the denominator (unlike a proportion)."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Which one is NOT a component of the epidemiological triangle:",
+"options": [
+"a. Host",
+"b. Disease",
+"c. Environment",
+"d. Agent",
+"e. None of the above"
+],
+"answer": "b",
+"explanation": "The epidemiological triangle consists of Agent, Host, and Environment. Disease is the result of their interaction."
+},
+{
+"id": "rmc",
+"block": "j",
+"year": "2023",
+"question": "Actions that can be taken to help prevent or remove harms or to simply improve the situation of:",
+"options": [
+"a. Beneficent actions",
+"b. Confidentiality maintaining actions",
+"c. Use of Evidence-Based Medicine",
+"d. None of the above"
+],
+"answer": "a",
+"explanation": "Beneficence refers to actions taken for the benefit of others, to help prevent or remove harm, or to improve their situation."
+}
+]

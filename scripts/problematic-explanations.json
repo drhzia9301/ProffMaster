@@ -1,0 +1,36 @@
+[
+  {
+    "file": "initial_db.enc",
+    "index": 1925,
+    "format": "sql-questions",
+    "id": "pharmacology_974",
+    "subject": "Pharmacology",
+    "questionPreview": "Vasoconstrictors are less effective in prolonging anesthetic properties of:",
+    "explanation": "Procaine has potent intrinsic vasodilator properties, so vasoconstrictors are often needed but might be less effective compared to agents with less vasodilation or longer duration like Bupivacaine. However, standard teaching is that vasoconstrictors *significantly* prolong Procaine (short acting). Re-evaluating the question context: Bupivacaine is long acting and highly protein bound, so adding adrenaline prolongs it *less* proportionally than short acting drugs. Let's check standard keys. Key consensus: b. Bupivacaine (or Etidocaine) because they are highly lipid soluble and protein bound, so washout is slow regardless of vasoconstriction.",
+    "patterns": [
+      {
+        "name": "Let's check",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "initial_db.enc",
+    "index": 2348,
+    "format": "sql-questions",
+    "id": "surgery_2088",
+    "subject": "Surgery",
+    "questionPreview": "A 60-year-old male is admitted with a 2 days history of lower abdominal pain and marked vomiting. On",
+    "explanation": "Marked vomiting (late feature in LBO, early in SBO) is noted, but 2 days history of lower abdominal pain, swelling (distention), and numerous bowel sounds (hyperactive) suggest mechanical obstruction. In a 60-year-old, Large Bowel Obstruction (e.g., from cancer or volvulus) is a prime suspect. Sigmoid volvulus often presents with massive distention. However, 'marked vomiting' is more typical of SBO or late LBO. Given the age and distention, LBO is a strong consideration. *Re-evaluating:* 2 days pain, marked vomiting, distention, hyperactive sounds. This profile fits Small Bowel Obstruction (SBO) very well (early vomiting). However, LBO causes more distention. The key might be 'lower abdominal pain'. Sigmoid volvulus causes massive distention but less vomiting initially. The options list both LBO and Sigmoid Volvulus (a cause of LBO) and SBO. SBO causes frequent vomiting. LBO causes late vomiting. If vomiting is 'marked' after only 2 days, it leans towards SBO or high obstruction. But if the swelling is 'abdominal swelling' (distention) and pain is 'lower', it could be LBO. Standard exam keys often link marked distention + elderly to LBO/Volvulus, but vomiting is the variable. Let's look at the options again. SBO vs LBO. Distention is more prominent in LBO. Vomiting is more prominent in SBO. With 'marked vomiting', SBO is clinically more sound unless it's late stage. However, many sources use this vignette for Sigmoid Volvulus or LBO. Let's check if 'numerous audible bowel sounds' points to obstruction. Yes. The age (60) favors LBO (cancer/volvulus). But the vomiting is the distractor. Usually, Sigmoid Volvulus presents with massive distention and absolute constipation, vomiting is late. SBO presents with colicky pain and early vomiting. Let's assume 'Large bowel obstruction' as the broad category covering the likely pathology in this age group, despite the vomiting description which might be late-stage or reflex.",
+    "patterns": [
+      {
+        "name": "Let's assume",
+        "count": 1
+      },
+      {
+        "name": "Let's check",
+        "count": 1
+      }
+    ]
+  }
+]
