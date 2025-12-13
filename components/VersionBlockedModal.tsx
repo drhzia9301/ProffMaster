@@ -10,9 +10,8 @@ const VersionBlockedModal: React.FC<VersionBlockedModalProps> = ({
     requiredVersion = '1.3.0',
     message 
 }) => {
-    const handleDownloadUpdate = () => {
-        // You can replace this with your actual APK download link
-        window.open('https://drive.google.com/your-apk-link', '_blank');
+    const handleCallContact = () => {
+        window.location.href = 'tel:03169694543';
     };
 
     return (
@@ -73,13 +72,15 @@ const VersionBlockedModal: React.FC<VersionBlockedModalProps> = ({
 
                 {/* Footer */}
                 <div className="px-6 pb-6">
-                    <button
-                        onClick={handleDownloadUpdate}
-                        className="w-full bg-gradient-to-r from-red-600 to-orange-600 text-white py-4 rounded-xl font-bold hover:from-red-700 hover:to-orange-700 transition-all shadow-lg shadow-red-500/25 flex items-center justify-center gap-2"
-                    >
-                        <Download size={20} />
-                        Download Latest Version
-                    </button>
+                    <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-5 rounded-xl text-center">
+                        <p className="text-sm mb-2 opacity-90">Contact for the new APK</p>
+                        <button
+                            onClick={handleCallContact}
+                            className="text-2xl font-bold hover:scale-105 transition-transform"
+                        >
+                            📞 03169694543
+                        </button>
+                    </div>
                     <p className="text-xs text-center text-gray-400 mt-3">
                         Your progress and data will be preserved after updating
                     </p>
