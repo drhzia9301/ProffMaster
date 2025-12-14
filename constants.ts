@@ -1,6 +1,6 @@
 import { Question, Subject } from './types';
 
-export const APP_VERSION = '1.3.2'; // Increment this to force cache clear on update
+export const APP_VERSION = '1.3.3'; // Increment this to force cache clear on update
 export const MINIMUM_REQUIRED_VERSION = '1.3.0'; // Users with older versions will be forced to update
 
 // Helper to compare versions (returns true if v1 >= v2)
