@@ -2,7 +2,7 @@ import initSqlJs, { Database } from 'sql.js';
 
 // INCREMENT THIS VERSION WHEN QUESTION BANK CONTENT CHANGES
 // This forces a re-seed of the database for all users
-const DB_VERSION = 4; // v4: Fixed Mumps MCQ (Secondary attack rate question) - answer changed to Mumps
+const DB_VERSION = 105; // v105: Removed BEGIN TRANSACTION (no COMMIT caused rollback!)
 const DB_VERSION_KEY = 'proffmaster_db_version';
 
 export class DatabaseService {
@@ -99,6 +99,27 @@ export class DatabaseService {
                     console.log('Loading existing database from IndexedDB...');
                     this.db = new SQL.Database(savedDb);
                     console.log('✓ Database loaded from storage');
+                    
+                    // Validate the loaded database has questions
+                    try {
+                        const check = this.db.exec("SELECT count(*) FROM questions");
+                        const count = check[0]?.values[0][0] as number || 0;
+                        if (count === 0) {
+                            console.warn('⚠️ Loaded database has 0 questions - forcing re-seed...');
+                            this.db.close();
+                            this.db = new SQL.Database();
+                            await this.seedDatabase();
+                            await this.saveDatabase();
+                        } else {
+                            console.log(`✓ Loaded database validated: ${count} questions`);
+                        }
+                    } catch (validateError) {
+                        console.warn('⚠️ Database validation failed, re-seeding...', validateError);
+                        this.db.close();
+                        this.db = new SQL.Database();
+                        await this.seedDatabase();
+                        await this.saveDatabase();
+                    }
                 } catch (e) {
                     console.error('Failed to load database from storage, creating new one:', e);
                     this.db = new SQL.Database();
@@ -137,6 +158,7 @@ export class DatabaseService {
             } catch (e) {
                 console.error('Error creating preproff table:', e);
             }
+
 
             console.log('✓ Database initialization complete!');
         } catch (error) {
@@ -230,32 +252,15 @@ export class DatabaseService {
             const sql = new TextDecoder().decode(decryptedBytes);
             console.log(`Decrypted SQL, size: ${sql.length} characters`);
 
-            const statements = sql
-                .split(';')
-                .map(s => s.trim())
-                .filter(s => s.length > 0 && !s.startsWith('--'));
-
-            console.log(`Found ${statements.length} SQL statements`);
-
-            const BATCH_SIZE = 50;
-            let executed = 0;
-
-            for (let i = 0; i < statements.length; i += BATCH_SIZE) {
-                const batch = statements.slice(i, Math.min(i + BATCH_SIZE, statements.length));
-
-                for (const stmt of batch) {
-                    if (stmt && stmt.trim()) {
-                        try {
-                            this.db.run(stmt);
-                            executed++;
-                        } catch (e) {
-                            console.warn(`Error executing statement ${executed}:`, e);
-                        }
-                    }
-                }
-
-                const progress = Math.round((executed / statements.length) * 100);
-                console.log(`✓ Executed ${executed}/${statements.length} statements (${progress}%)`);
+            // Use db.exec() which properly handles multiple SQL statements
+            // This correctly handles semicolons inside quoted strings
+            console.log('Executing SQL statements...');
+            try {
+                this.db.exec(sql);
+                console.log('✓ All SQL statements executed successfully');
+            } catch (execError: any) {
+                console.error('Error executing SQL:', execError);
+                // Try to continue - some syntax errors in individual statements shouldn't break everything
             }
 
             console.log('✓ Database seeding complete!');
@@ -276,12 +281,13 @@ export class DatabaseService {
 
     public async getQuestionsBySubject(subject: string): Promise<any[]> {
         if (!this.db) {
-            console.warn('Database not initialized in getQuestionsBySubject, attempting to initialize...');
             await this.initialize();
             if (!this.db) throw new Error('Database not initialized');
         }
 
-        const result = this.db.exec(`SELECT * FROM questions WHERE subject = ?`, [subject]);
+        // SQL.js db.exec() doesn't support parameter binding - use escaped string
+        const escapedSubject = subject.replace(/'/g, "''");
+        const result = this.db.exec(`SELECT * FROM questions WHERE subject = '${escapedSubject}'`);
         return this.transformResults(result);
     }
 
@@ -291,7 +297,9 @@ export class DatabaseService {
             if (!this.db) throw new Error('Database not initialized');
         }
 
-        const result = this.db.exec(`SELECT * FROM questions WHERE topic = ?`, [topic]);
+        // SQL.js db.exec() doesn't support parameter binding - use escaped string
+        const escapedTopic = topic.replace(/'/g, "''");
+        const result = this.db.exec(`SELECT * FROM questions WHERE topic = '${escapedTopic}'`);
         return this.transformResults(result);
     }
 
