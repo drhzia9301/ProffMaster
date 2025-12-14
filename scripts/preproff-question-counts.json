@@ -1,0 +1,145 @@
+{
+  "timestamp": "2025-12-14T16:11:35.143Z",
+  "institutions": {
+    "AMC": {
+      "M1": {
+        "count": 40,
+        "structure": "json-array"
+      }
+    },
+    "GMC": {
+      "J": {
+        "count": 204,
+        "structure": "sql-insert"
+      },
+      "K": {
+        "count": 113,
+        "structure": "sql-insert"
+      },
+      "L": {
+        "count": 205,
+        "structure": "sql-insert"
+      },
+      "M1": {
+        "count": 168,
+        "structure": "sql-insert"
+      },
+      "M2": {
+        "count": 167,
+        "structure": "sql-insert"
+      }
+    },
+    "KGMC": {
+      "J": {
+        "count": 102,
+        "structure": "sql-insert"
+      },
+      "K": {
+        "count": 83,
+        "structure": "sql-insert"
+      },
+      "L": {
+        "count": 215,
+        "structure": "sql-insert"
+      },
+      "M1": {
+        "count": 151,
+        "structure": "sql-insert"
+      },
+      "M2": {
+        "count": 156,
+        "structure": "sql-insert"
+      }
+    },
+    "KIMS": {
+      "J": {
+        "count": 59,
+        "structure": "json-array"
+      },
+      "M2": {
+        "count": 60,
+        "structure": "json-array"
+      }
+    },
+    "KMC": {
+      "J": {
+        "count": 350,
+        "structure": "sql-insert"
+      },
+      "K": {
+        "count": 100,
+        "structure": "sql-insert"
+      },
+      "L": {
+        "count": 329,
+        "structure": "sql-insert"
+      },
+      "M1": {
+        "count": 177,
+        "structure": "sql-insert"
+      },
+      "M2": {
+        "count": 172,
+        "structure": "sql-insert"
+      }
+    },
+    "NMC": {
+      "M1": {
+        "count": 62,
+        "structure": "json-array"
+      }
+    },
+    "NWSM": {
+      "J": {
+        "count": 214,
+        "structure": "sql-insert"
+      },
+      "K": {
+        "count": 208,
+        "structure": "sql-insert"
+      },
+      "L": {
+        "count": 215,
+        "structure": "sql-insert"
+      },
+      "M1": {
+        "count": 117,
+        "structure": "sql-insert"
+      },
+      "M2": {
+        "count": 95,
+        "structure": "sql-insert"
+      }
+    },
+    "RMC": {
+      "J": {
+        "count": 65,
+        "structure": "json-array"
+      }
+    },
+    "WMC": {
+      "J": {
+        "count": 356,
+        "structure": "sql-insert"
+      },
+      "K": {
+        "count": 235,
+        "structure": "sql-insert"
+      },
+      "L": {
+        "count": 360,
+        "structure": "sql-insert"
+      },
+      "M1": {
+        "count": 175,
+        "structure": "sql-insert"
+      },
+      "M2": {
+        "count": 56,
+        "structure": "sql-insert"
+      }
+    }
+  },
+  "totalQuestions": 5009,
+  "totalPapers": 30
+}
