@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "wmc1",
+    "block": "l",
+    "year": "2025",
+    "question": "A 30 years male old patient has a Road traffic accident half hour ago, he is presented in emergency department with gross haematuria, his B.P is 100/80, his pulse is 100/min. On examination he had bruise in his right flank. What will be next step of management?",
+    "options": [
+      "A Exploratory Laparotomy",
+      "B CT Scan Abdomen + Pelvis",
+      "C Blood Transfusion",
+      "D Right Nephrectomy",
+      "E X-ray erect abdomen"
+    ],
+    "answer": "B",
+    "explanation": "In a hemodynamically stable (or transiently responsive) patient with renal trauma (indicated by flank bruise and gross hematuria), contrast-enhanced CT scan of the abdomen and pelvis is the gold standard for staging the injury."
+  },
+  {
+    "id": "wmc2",
+    "block": "l",
+    "year": "2025",
+    "question": "A 60 years old patient presented ē Gross haematuria ē his CT Scan showed right renal mass which is 4 cm & confined to kidney there is no lymph node involvement & no metastasis. What is the stage of the disease?",
+    "options": [
+      "A T1a NOMO",
+      "B T2a NOMO",
+      "C T1b NOMO",
+      "D T2b NOMO",
+      "E T3 NOMO"
+    ],
+    "answer": "A",
+    "explanation": "According to the TNM staging system for Renal Cell Carcinoma, a tumor measuring 4 cm or less in greatest dimension, limited to the kidney, is classified as T1a. With no nodes or metastasis, it is T1aN0M0."
+  },
+  {
+    "id": "wmc3",
+    "block": "l",
+    "year": "2025",
+    "question": "A 30 years old male patient presented with 30 mm ® Renal pelvis stone. What treatment will you offer to patient?",
+    "options": [
+      "A ESWL",
+      "B Conservative Treatment",
+      "C PCNL",
+      "D URS",
+      "E Pyelolithotomy"
+    ],
+    "answer": "C",
+    "explanation": "For renal stones larger than 2 cm (20 mm), Percutaneous Nephrolithotomy (PCNL) is the recommended first-line treatment. This stone is 30 mm."
+  },
+  {
+    "id": "wmc4",
+    "block": "l",
+    "year": "2025",
+    "question": "A 70 years old male presented ē hesitancy, intermittent urination & nocturia, his USG shows 40 grams prostate. What treatment you will advise to patient?",
+    "options": [
+      "A Uretheral Catheterization",
+      "B Anticholinergies Drugs",
+      "C Αlpha Blockage Drugs",
+      "D TURP",
+      "E Antibiotics"
+    ],
+    "answer": "C",
+    "explanation": "For a patient with bothersome Lower Urinary Tract Symptoms (LUTS) due to Benign Prostatic Hyperplasia (BPH) and a prostate size of 40g (moderate), Alpha-blockers are the first-line medical therapy to relax smooth muscle and improve flow."
+  },
+  {
+    "id": "wmc5",
+    "block": "l",
+    "year": "2025",
+    "question": "A 20 years old male presented with acute urinary retention. Urethral catheterization tried in emergency department but not successful. What will be next step of management?",
+    "options": [
+      "A Retrograde Uretherogram",
+      "B Suprapubic Catheterization",
+      "C Optical Urethrotomy",
+      "D Urethroplasty",
+      "E Laparotomy"
+    ],
+    "answer": "B",
+    "explanation": "When urethral catheterization fails in acute urinary retention, the immediate next step to relieve the bladder is Suprapubic Catheterization."
+  },
+  {
+    "id": "wmc6",
+    "block": "l",
+    "year": "2025",
+    "question": "A 60 Years old male presented with painless hematuria with passage of clots, he is also having irritative lower urinary tract symptoms, and he is smoker for the last 40 years. What is probable diagnosis?",
+    "options": [
+      "A Enlarged Prostate",
+      "B Bladder Tumor",
+      "C Bladder Stone",
+      "D Urinary Tract Infection",
+      "E Urethral stricture"
+    ],
+    "answer": "B",
+    "explanation": "Painless hematuria with clots and irritative symptoms in an older smoker is the classic presentation of Bladder Cancer (Transitional Cell Carcinoma)."
+  },
+  {
+    "id": "wmc7",
+    "block": "l",
+    "year": "2025",
+    "question": "A 45 years old unmarried female presented in Surgical OPD having painless lump in right upper outer quadrant of breast for last 3 months gradually increasing in size. Examination reveals hard mass, immobile attached to deeper tissue. There is also a lump in right axilla. What is likely diagnosis?",
+    "options": [
+      "A Traumatic fat necrosis",
+      "B Fibroadenoma",
+      "C Ca-breast",
+      "D Breast abscess",
+      "E Phylloides Tumor"
+    ],
+    "answer": "C",
+    "explanation": "A hard, painless, immobile breast lump attached to deep tissues with associated axillary lymphadenopathy is highly suggestive of Breast Carcinoma."
+  },
+  {
+    "id": "wmc8",
+    "block": "l",
+    "year": "2025",
+    "question": "A 45 years old female presented in surgical OPD having a lump in breast for 2 months. Lump is hard, fixed to deeper structures and non tender. There is also a lump in ipsilateral axilla. What is next step in management?",
+    "options": [
+      "A Mammography",
+      "B Ultrasound breast",
+      "C Open biopsy",
+      "D FNAC",
+      "E MRI"
+    ],
+    "answer": "A",
+    "explanation": "Following clinical examination (step 1), the next step in the triple assessment of a breast lump for a woman over 35-40 years is imaging, specifically Mammography."
+  },
+  {
+    "id": "wmc9",
+    "block": "l",
+    "year": "2025",
+    "question": "A 30 years old male patient presented with infertility. When sperm ejaculate analysis was done it came to be azoospermia and when further investigated it was found that there is obstruction in the ejaculatory duct. Which hormonal essay is done in this case?",
+    "options": [
+      "A Serum testosterone",
+      "B Serum prolactin",
+      "C Luteinsing hormone",
+      "D Prostate Specific antigen",
+      "E Follicle stimulating hormone"
+    ],
+    "answer": "E",
+    "explanation": "FSH levels are critical in distinguishing obstructive from non-obstructive azoospermia. Normal FSH usually indicates normal spermatogenesis (suggesting obstruction), whereas elevated FSH indicates testicular failure."
+  },
+  {
+    "id": "wmc10",
+    "block": "l",
+    "year": "2025",
+    "question": "A 50 year old male after head injury secondary to RTA sustained extradural hematoma which was managed by neurosurgeon. On third day of admission his electrolytes report Sodium: 125 mmol/L, Potassium:3.8mmol/L, calcium: 98 mmol/L. What could be most likely cause of Hyponatremia",
+    "options": [
+      "A Cerebral Metastasis",
+      "B Hypoxemia",
+      "C SIADH",
+      "D Pulmonary infection",
+      "E Hypothyroidism"
+    ],
+    "answer": "C",
+    "explanation": "Syndrome of Inappropriate Antidiuretic Hormone (SIADH) is a common cause of hyponatremia following head injury or neurosurgery."
+  },
+  {
+    "id": "wmc11",
+    "block": "l",
+    "year": "2025",
+    "question": "A 44-year-old man with long-standing diabetes presents with fatigue and swelling of legs. Labs: Serum creatinine: 4.2 mg/dL, eGFR 18mL/min/1.73 m2, Hemoglobin: 8.5 g/dL, Serum calcium: 7.6 mg/dL (low), Serum phosphate: 5.8 mg/dL (high), PTH elevated. Which of the following best explains his mineral abnormalities:",
+    "options": [
+      "A Primary hyperparathyroidism",
+      "B Secondary hyperparathyroidism due to CKD",
+      "C Vitamin D intoxication",
+      "D Tertiary hyperparathyroidism",
+      "E Malignancy-related hypercalcemia"
+    ],
+    "answer": "B",
+    "explanation": "Chronic Kidney Disease (CKD) leads to phosphate retention and reduced activation of Vitamin D, causing hypocalcemia. This stimulates the parathyroid glands to release PTH, a condition known as Secondary Hyperparathyroidism."
+  },
+  {
+    "id": "wmc12",
+    "block": "l",
+    "year": "2025",
+    "question": "A 13-year-old boy presents with a 3-day history of abdominal pain and a purpuric rash over his trunk, buttocks, and legs. His BP is 140/90 mmHg. On examination, he has mild pedal edema. Labs: Hb: 12 g/dl, TLC 9,000/μL, Platelets: 320,000/μL, Random blood sugar: 120mg/dl, ANA negative, Urea: 110 mg/dl, Creatinine: 2 mg/dl, Urinalysis: RBCs ++, proteins ++, pus cells 2-4/hpf, Chest X-ray: normal. What is the Most likely diagnosis:",
+    "options": [
+      "A Acute post-streptococcal glomerulonephritis",
+      "B Henoch–Schönlein Purpura (IgA vasculitis) with renal involvement",
+      "C Systemic lupus erythematosus nephritis",
+      "D Thrombotic thrombocytopenic purpura",
+      "E Goodpasture’s syndrome"
+    ],
+    "answer": "B",
+    "explanation": "The clinical triad of palpable purpura (with normal platelets), abdominal pain, and renal involvement (hematuria/proteinuria/AKI) in a child is diagnostic of Henoch–Schönlein Purpura (HSP)."
+  },
+  {
+    "id": "wmc13",
+    "block": "l",
+    "year": "2025",
+    "question": "A 6-year-old boy is brought by his mother with swelling around the eyes for 1 week, which later involved his legs and abdomen. The child has no fever, no sore throat, and no hematuria. On exam, he has periorbital puffiness, pedal edema, and ascites. His blood pressure is normal. Lab results: Serum albumin: 1.6 g/dL(low), Total cholesterol: 320mg/dL (high), Urinalysis: protein ++++, no RBCs, Urea/creatinine: normal. What is the most common cause of this disease in children:",
+    "options": [
+      "A Minimal change disease",
+      "B Focal segmental glomerulosclerosis",
+      "C Membranous nephropathy",
+      "D IgA nephropathy",
+      "E Lupus nephritis"
+    ],
+    "answer": "A",
+    "explanation": "Minimal Change Disease is the most common cause of Nephrotic Syndrome (characterized by edema, massive proteinuria, hypoalbuminemia, and hyperlipidemia) in children."
+  },
+  {
+    "id": "wmc14",
+    "block": "l",
+    "year": "2025",
+    "question": "Which of the following antibiotics is safe in a pregnant lady having UTI",
+    "options": [
+      "A Levofloxacin",
+      "B Moxifloxacin",
+      "C Trimethoprim",
+      "D Cefixime",
+      "E Doxycycline"
+    ],
+    "answer": "D",
+    "explanation": "Cephalosporins (like Cefixime) are category B and are generally considered safe for treating UTIs in pregnancy. Quinolones and Tetracyclines are contraindicated."
+  },
+  {
+    "id": "wmc15",
+    "block": "l",
+    "year": "2025",
+    "question": "A 68-year-old man with hypertension presents to your clinic with reduced urine output for 24 hours and mild ankle swelling. He is taking lisinopril and ibuprofen for knee pain. On exam: BP 95/60 mmHg, pulse 110/min, dry mucous membranes. Labs: Serum creatinine: 2.1 mg/dL (baseline 1.0), Potassium: 6.1 mmol/L. Which is the most appropriate next step in primary care:",
+    "options": [
+      "A Continue ACE inhibitor and recheck in 1 week",
+      "B Start IV fluids, monitor, and refer to hospital immediately",
+      "C Give oral potassium-lowering resin and follow up in 2 days",
+      "D Advise to stop NSAIDs and observe at home",
+      "E Prescribe oral antibiotics for possible urinary infection"
+    ],
+    "answer": "B",
+    "explanation": "The patient has Acute Kidney Injury (AKI) and significant Hyperkalemia (6.1 mmol/L) with signs of dehydration/shock. Immediate referral to the hospital for fluid resuscitation and management of hyperkalemia is required."
+  },
+  {
+    "id": "wmc16",
+    "block": "l",
+    "year": "2025",
+    "question": "A 25-year-old female with a known history of Graves’ disease presents to the emergency department with fever, palpitations, and altered mental status. On examination, she is found to have a heart rate of 140 bpm, a temperature of 39°C, and a blood pressure of 160/90 mmHg. Laboratory tests reveal elevated free T4 and suppressed TSH levels. Which of the following is the most appropriate initial management step for this patient",
+    "options": [
+      "A Administer intravenous propranolol",
+      "B Start oral methimazole",
+      "C Administer intravenous hydrocortisone",
+      "D Perform an urgent thyroidectomy",
+      "E Start oral radioactive iodine therapy"
+    ],
+    "answer": "A",
+    "explanation": "In Thyroid Storm, the immediate priority is to control adrenergic symptoms and reduce heart rate using beta-blockers like Propranolol, which also blocks peripheral T4 to T3 conversion."
+  },
+  {
+    "id": "wmc17",
+    "block": "l",
+    "year": "2025",
+    "question": "A 25-year-old woman presents with perioral tingling, muscle cramps, and carpopedal spasms. She had a total thyroidectomy 1 week ago. On exam: positive Trousseau’s sign. Labs: Calcium 6.8 mg/dL (low), Phosphate 5.5mg/dL (high), PTH undetectable. What is the most likely diagnosis:",
+    "options": [
+      "A Hypoparathyroidism secondary to thyroid surgery",
+      "B Vitamin D deficiency rickets",
+      "C Chronic kidney disease with secondary hyperparathyroidism",
+      "D Pseudohypoparathyroidism",
+      "E Primary hyperparathyroidism"
+    ],
+    "answer": "A",
+    "explanation": "The clinical history of recent thyroidectomy combined with hypocalcemia, hyperphosphatemia, and low PTH is diagnostic of iatrogenic Hypoparathyroidism."
+  },
+  {
+    "id": "wmc18",
+    "block": "l",
+    "year": "2025",
+    "question": "A 42-year-old woman presents to the emergency department with fatigue, nausea, vomiting, and abdominal pain. On examination, she is hypotensive (BP 85/60 mmHg), has hyperpigmentation of the skin, and appears dehydrated. Laboratory results reveal: Na+: 128 mmol/L, K+: 5.9 mmol/L, Glucose: 62 mg/dL, ACTH Elevated, Cortisol 8 AM Low. Which of the following is the most appropriate initial management step",
+    "options": [
+      "A Initiate oral fludrocortisone replacement",
+      "B Administer hydrocortisone IV and IV fluids",
+      "C Order a CT scan of the adrenal glands",
+      "D Start long-term oral glucocorticoid therapy",
+      "E Refer for endocrine follow-up before initiating treatment"
+    ],
+    "answer": "B",
+    "explanation": "The patient is in Adrenal Crisis (Addisonian crisis). Immediate resuscitation with IV fluids and IV Hydrocortisone is lifesaving."
+  },
+  {
+    "id": "wmc19",
+    "block": "l",
+    "year": "2025",
+    "question": "A 52 Years old male patient presented with complaints of generalized weakness and pain over the both wrists. He also complains of tightening of the ring & increased thickness of the tongue and size of the hand and feet. On examination he has large spade like hands and protrusion of the lower jaw. what investigation is confirmatory for the likely diagnosis:",
+    "options": [
+      "A Serum random growth hormone levels",
+      "B Insulin tolerance test",
+      "C CT scan brain",
+      "D Growth hormone levels during an OGTT",
+      "E Dexamethasone suppression test"
+    ],
+    "answer": "D",
+    "explanation": "The patient has clinical features of Acromegaly. The confirmatory test is the lack of Growth Hormone suppression following an Oral Glucose Tolerance Test (OGTT)."
+  },
+  {
+    "id": "wmc20",
+    "block": "l",
+    "year": "2025",
+    "question": "A 55-year-old man, obese with a BMI of 32, presents with increased fatigue and has been frequently thirsty and urinating over the past few months. His lab work reveals a Fasting Plasma Glucose (FPG) of 185 mg/dL (10.3 mmol/L) and an HbA1c of 8.5%. His kidney function is normal. Based on current guidelines for this patient’s presentation, what is the most appropriate initial pharmacological therapy:",
+    "options": [
+      "A Glipizide (a Sulfonylurea)",
+      "B Pioglitazone (a Thiazolidinedione)",
+      "C Insulin Glargine (a Basal Insulin)",
+      "D Metformin (a Biguanide)",
+      "E Dapagliflozin (a SGLT2 Inhibitor)"
+    ],
+    "answer": "D",
+    "explanation": "Metformin is the first-line pharmacological therapy for Type 2 Diabetes Mellitus in the absence of contraindications."
+  },
+  {
+    "id": "wmc21",
+    "block": "l",
+    "year": "2025",
+    "question": "A 52 years old postmenopausal woman is started on tamoxifen therapy for estrogen positive breast cancer. She is asymptomatic on routine followup. Which one of the following tests should be performed routinely as a part of her monitoring?",
+    "options": [
+      "A Bone marrow biopsy to exclude therapy related mylosuppression",
+      "B CA-125 levels screening for gynecological malignancies",
+      "C DEXA scan to evaluate skeletal mineral density and fracture risk",
+      "D Endometrial thickness assessment on transvaginal ultrasound",
+      "E Liver ultrasound to assess hepatic parenchymal architecture and vascularity"
+    ],
+    "answer": "D",
+    "explanation": "Tamoxifen acts as an estrogen agonist in the uterus, increasing the risk of endometrial hyperplasia and cancer. Monitoring endometrial thickness or investigating abnormal bleeding is clinically relevant."
+  },
+  {
+    "id": "wmc22",
+    "block": "l",
+    "year": "2025",
+    "question": "A 58-year-old man with giant cell arteritis has been on oral prednisone for 6 weeks. He now presents with progressive lower limb edema, new-onset hypertension and mild weight gain. Laboratory studies show mild hypokalemia and metabolic alkalosis. Which pharmacodynamic property of prednisone is most likely responsible for his current clinical findings?",
+    "options": [
+      "A Direct stimulation of aldosterone secretion by the adrenal cortex",
+      "B Hepatic induction of enzymes causing altered drug metabolism and fluid imbalance",
+      "C Partial agonist activity at mineralocorticoid receptors",
+      "D Potent glucocorticoid mediated immunosuppression leading to sodium retention",
+      "E Significant mineralocorticoid receptor agonist activity"
+    ],
+    "answer": "E",
+    "explanation": "Prednisone (and other glucocorticoids) possesses mineralocorticoid activity, which leads to sodium/water retention (edema, hypertension) and potassium loss (hypokalemia, alkalosis)."
+  },
+  {
+    "id": "wmc23",
+    "block": "l",
+    "year": "2025",
+    "question": "A 70 years old man is diagnosed with metastatic prostate cancer with multiple osteoblastic lesions in the lumbar spine. He is stated on a monthly depot injection that suppresses testosterone at the level of pituitary. However two weeks later he reports worsening of back pain and develops acute urinary retention. Which drug was most likely responsible for worsening of his symptoms and which drug should have been given for first few weeks to prevent this complication?",
+    "options": [
+      "A Degarelix --- Flutamide",
+      "B Leuprolide ---- Flutamide",
+      "C Leuprolide ------ Tamsulosin",
+      "D Nefarelin----- Tamsulosin",
+      "E Nefarelin----- Spironolactone"
+    ],
+    "answer": "B",
+    "explanation": "Leuprolide is a GnRH agonist that causes an initial surge ('flare') in testosterone, worsening symptoms. This is prevented by co-administering an anti-androgen like Flutamide."
+  },
+  {
+    "id": "wmc24",
+    "block": "l",
+    "year": "2025",
+    "question": "A 40 years old man overdosed on propranolol. Now he is hypotensive, bradycardiac and is refractory to atropine and IV fluids. Which one of the following drugs is most likely to be life saving?",
+    "options": [
+      "A Dopamine",
+      "B Epinephrine",
+      "C Glucagon",
+      "D Insulin",
+      "E Somatostatin"
+    ],
+    "answer": "C",
+    "explanation": "Glucagon is the specific antidote for beta-blocker overdose as it increases cAMP via a different receptor, bypassing the blocked beta receptors."
+  },
+  {
+    "id": "wmc25",
+    "block": "l",
+    "year": "2025",
+    "question": "A 50 years old woman with type 2 diabetes mellitus is initiated on new medication. Over the next few weeks she develops bilateral pitting edema and shortness of breath on exertion. A subsequent echocardiogram reveals left ventricular dysfunction. The clinical picture is most consistent with a side effect of which one of the following drugs?",
+    "options": [
+      "A Acarbose",
+      "B Liraglutide",
+      "C Pioglitazone",
+      "D Repaglinide",
+      "E Sitagliptin"
+    ],
+    "answer": "C",
+    "explanation": "Thiazolidinediones like Pioglitazone cause fluid retention and can precipitate or worsen heart failure."
+  },
+  {
+    "id": "wmc26",
+    "block": "l",
+    "year": "2025",
+    "question": "A 40 years old woman with a history of Graves’ disease is in her first trimester of pregnancy. Which one of the following antithyroid medications is the most appropriate choice for her management given its lower risk of teratogenicity?",
+    "options": [
+      "A Atenolol",
+      "B Lugol’s iodine solution",
+      "C Radioactive iodine",
+      "D Methimazole",
+      "E Propylthiouracil"
+    ],
+    "answer": "E",
+    "explanation": "Propylthiouracil (PTU) is preferred in the first trimester of pregnancy because Methimazole is associated with specific congenital defects (e.g., aplasia cutis)."
+  },
+  {
+    "id": "wmc27",
+    "block": "l",
+    "year": "2025",
+    "question": "A 30 years old woman with a history of bipolar disorder wants to start a contraceptive pill. Her psychiatrist is concerned about the pill’s potential effect on her mood. Which one of the following component of pill is most likely to cause mood changes?",
+    "options": [
+      "A estrogen and progestin equally",
+      "B Estrogen",
+      "C Progestin",
+      "D The placebo component",
+      "E The iron supplement"
+    ],
+    "answer": "C",
+    "explanation": "The progestin component of oral contraceptives is generally considered the agent responsible for mood-related side effects like depression or irritability."
+  },
+  {
+    "id": "wmc28",
+    "block": "l",
+    "year": "2025",
+    "question": "A 70 years old man has been taking nitrofurantoin daily for the last six months for the prevention of recurrent urinary tract infection. Which one of the following is the most likely adverse effect of the long term use of the drug?",
+    "options": [
+      "A Cardiotoxicity",
+      "B Hyperkalemia",
+      "C Ototoxicity",
+      "D Photosensitivity",
+      "E Peripheral neuropathy"
+    ],
+    "answer": "E",
+    "explanation": "Chronic use of Nitrofurantoin, especially in the elderly or those with renal impairment, can lead to severe and sometimes irreversible peripheral neuropathy."
+  },
+  {
+    "id": "wmc29",
+    "block": "l",
+    "year": "2025",
+    "question": "A 29 years old woman diagnosed with hyperprolactenimia secondary to a pituitary adenoma is started on a drug to reduce serum prolactin. However after several weeks she develops new onset hallucinations, confusion and mood changes. Which one of the following drugs was most likely prescribed to her?",
+    "options": [
+      "A Bromocriptine",
+      "B Cabergoline",
+      "C Octreotide",
+      "D Pegvisomant",
+      "E Somatropin"
+    ],
+    "answer": "A",
+    "explanation": "Bromocriptine is a dopamine agonist used for hyperprolactinemia but has a higher side effect profile, including psychiatric symptoms like hallucinations and confusion, compared to newer agents."
+  },
+  {
+    "id": "wmc30",
+    "block": "l",
+    "year": "2025",
+    "question": "According to the Rotterdam criteria, a diagnosis of PCOS requires at least two out of three features. Which of the following is NOT one of them?",
+    "options": [
+      "A Oligo- or anovulation",
+      "B Clinical and/or biochemical signs of hyperandrogenism",
+      "C Polycystic ovaries on ultrasound",
+      "D Elevated serum prolactin levels",
+      "E Oligo- or anovulation and Elevated serum prolactin levels"
+    ],
+    "answer": "D",
+    "explanation": "The Rotterdam criteria for PCOS are: 1. Oligo/Anovulation, 2. Hyperandrogenism, 3. Polycystic ovaries. Elevated prolactin is an exclusion criterion, not a diagnostic one."
+  },
+  {
+    "id": "wmc31",
+    "block": "l",
+    "year": "2025",
+    "question": "The uterine artery is a branch of which artery?",
+    "options": [
+      "A Internal pudendal artery",
+      "B Obturator artery",
+      "C Internal iliac artery",
+      "D Superior vesical artery",
+      "E Ovarian artery"
+    ],
+    "answer": "C",
+    "explanation": "The uterine artery arises from the anterior division of the Internal Iliac Artery."
+  },
+  {
+    "id": "wmc32",
+    "block": "l",
+    "year": "2025",
+    "question": "Which structure provides the primary support to the uterus and prevents prolapse?",
+    "options": [
+      "A Broad ligament",
+      "B Cardinal (transverse cervical) ligament",
+      "C Round ligament",
+      "D Pubocervical ligament",
+      "E Uterosacral ligament"
+    ],
+    "answer": "B",
+    "explanation": "The Cardinal (Mackenrodt's) ligaments and Uterosacral ligaments provide the primary support to the uterus."
+  },
+  {
+    "id": "wmc33",
+    "block": "l",
+    "year": "2025",
+    "question": "Which of the following is NOT a diagnostic criterion for PCOS according to the Rotterdam criteria?",
+    "options": [
+      "A Oligo-ovulation or an-ovulation",
+      "B Clinical or biochemical signs of hyperandrogegism",
+      "C Polycystic ovaries on ultrasound",
+      "D Elevated serum FSH levels",
+      "E Exclusion of other etiologies"
+    ],
+    "answer": "D",
+    "explanation": "Elevated FSH is not a criterion for PCOS (FSH is typically normal or low, while LH is often elevated). The other options represent the Rotterdam criteria."
+  },
+  {
+    "id": "wmc34",
+    "block": "l",
+    "year": "2025",
+    "question": "A 22-year-old woman presents with irregular menstrual cycles, hirsutism, and obesity. Which laboratory finding is most characteristic of PCOS?",
+    "options": [
+      "A Increased LH/FSH ratio",
+      "B Increased prolactin levels",
+      "C Low testosterone levels",
+      "D Decreased DHEAS levels",
+      "E Elevated cortisol levels"
+    ],
+    "answer": "A",
+    "explanation": "An increased LH/FSH ratio (often > 2:1 or 3:1) is a classic biochemical feature of Polycystic Ovary Syndrome (PCOS)."
+  },
+  {
+    "id": "wmc35",
+    "block": "l",
+    "year": "2025",
+    "question": "On ultrasound, which of the following features is typically seen in a polycystic ovary?",
+    "options": [
+      "A Enlarged ovary with 12 follicles 2-9 mm in diameter",
+      "B Presence of a single dominant follicle 20 mm",
+      "C Hyperechoic stroma with calcifications",
+      "D Thickened endometrium with cystic spaces",
+      "E Ovarian cysts 5 cm in size"
+    ],
+    "answer": "A",
+    "explanation": "The ultrasound definition of polycystic ovaries involves the presence of 12 or more follicles measuring 2-9 mm in diameter and/or increased ovarian volume."
+  },
+  {
+    "id": "wmc36",
+    "block": "l",
+    "year": "2025",
+    "question": "Dysmenorrhea is most commonly associated with which of the following?",
+    "options": [
+      "A Increased levels of prostaglandins in endometrium",
+      "B Decreased uterine contractility",
+      "C Hyperprolactinemia",
+      "D Estrogen deficiency",
+      "E Chronic pelvic infection"
+    ],
+    "answer": "A",
+    "explanation": "Primary dysmenorrhea is caused by the excessive production of uterine prostaglandins (specifically PGF2alpha), leading to strong uterine contractions and pain."
+  },
+  {
+    "id": "wmc37",
+    "block": "l",
+    "year": "2025",
+    "question": "Menorrhagia is best defined as:",
+    "options": [
+      "A Cycles occurring at intervals < 21 days",
+      "B Excessive bleeding during menstruation > 80 mL per cycle",
+      "C Painful menstruation without pelvic pathology",
+      "D Absence of menstruation for 6 months",
+      "E Irregular menstrual cycles due to anovulation"
+    ],
+    "answer": "B",
+    "explanation": "Menorrhagia (heavy menstrual bleeding) is clinically defined as blood loss exceeding 80 mL per menstrual cycle."
+  },
+  {
+    "id": "wmc38",
+    "block": "l",
+    "year": "2025",
+    "question": "The most common cause of secondary amenorrhea in reproductive-aged women is:",
+    "options": [
+      "A Asherman’s syndrome",
+      "B Polycystic ovarian syndrome PCOS",
+      "C Pituitary adenoma",
+      "D Premature ovarian insufficiency",
+      "E Chronic endometritis"
+    ],
+    "answer": "B",
+    "explanation": "After excluding pregnancy, Polycystic Ovary Syndrome (PCOS) is the most common pathological cause of secondary amenorrhea."
+  },
+  {
+    "id": "wmc39",
+    "block": "l",
+    "year": "2025",
+    "question": "Oligomenorrhea is defined as:",
+    "options": [
+      "A Absence of menstruation for 12 months",
+      "B Menstrual cycles longer than 35 days apart",
+      "C Cycles occurring every 15-20 days",
+      "D Heavy menstrual bleeding with clots",
+      "E Menstrual pain radiating to back and thighs"
+    ],
+    "answer": "B",
+    "explanation": "Oligomenorrhea refers to infrequent menstrual periods, defined as cycles longer than 35 days."
+  },
+  {
+    "id": "wmc40",
+    "block": "l",
+    "year": "2025",
+    "question": "Classical clinical triad of ectopic pregnancy includes:",
+    "options": [
+      "A Amenorrhea, abdominal pain, vaginal bleeding",
+      "B Dysmenorrhea, menorrhagia, infertility",
+      "C Amenorrhea, vomiting, weight gain",
+      "D Abdominal pain, shoulder tip pain, fainting",
+      "E Vaginal bleeding, urinary retention, fever"
+    ],
+    "answer": "A",
+    "explanation": "The classic triad for ectopic pregnancy is amenorrhea (missed period), abdominal pain, and vaginal bleeding."
+  },
+  {
+    "id": "wmc41",
+    "block": "l",
+    "year": "2025",
+    "question": "Which investigation is most useful for early diagnosis of ectopic pregnancy?",
+    "options": [
+      "A MRI pelvis",
+      "B Serum progesterone levels",
+      "C Culdocentesis",
+      "D Transvaginal ultrasound",
+      "E Laparotomy"
+    ],
+    "answer": "D",
+    "explanation": "Transvaginal ultrasound (TVS) combined with beta-hCG levels is the gold standard for the early diagnosis of ectopic pregnancy."
+  },
+  {
+    "id": "wmc42",
+    "block": "l",
+    "year": "2025",
+    "question": "The drug of choice for medical management of unruptured ectopic pregnancy is:",
+    "options": [
+      "A Methotrexate",
+      "B Mifepristone",
+      "C Misoprostol",
+      "D Tamoxifen",
+      "E Letrozole"
+    ],
+    "answer": "A",
+    "explanation": "Methotrexate is the standard pharmacological agent used for the medical management of stable, unruptured ectopic pregnancy."
+  },
+  {
+    "id": "wmc43",
+    "block": "l",
+    "year": "2025",
+    "question": "Which investigation is most useful for assessing ovulation in a woman with subfertility?",
+    "options": [
+      "A Hysterosalpingography",
+      "B Mid-luteal serum progesterone",
+      "C Transvaginal ultrasound in follicular phase",
+      "D Endometrial biopsy",
+      "E Basal body temperature charting"
+    ],
+    "answer": "B",
+    "explanation": "Measurement of serum progesterone in the mid-luteal phase (Day 21 of a 28-day cycle) is the standard test to confirm ovulation."
+  },
+  {
+    "id": "wmc44",
+    "block": "l",
+    "year": "2025",
+    "question": "Which test is considered the initial investigation in the evaluation of male subfertility?",
+    "options": [
+      "A Serum testosterone",
+      "B Testicular biopsy",
+      "C Semen analysis",
+      "D Scrotal ultrasound",
+      "E Serum LH/FSH"
+    ],
+    "answer": "C",
+    "explanation": "Semen analysis is the cornerstone and initial step in the evaluation of the male partner for infertility."
+  },
+  {
+    "id": "wmc45",
+    "block": "l",
+    "year": "2025",
+    "question": "Hyperprolactinemia leads to subfertility due to:",
+    "options": [
+      "A Inhibition of GnRH secretion",
+      "B Increased androgen production",
+      "C Cervical mucus thickening",
+      "D Endometrial atrophy",
+      "E Ovarian hyperstimulation"
+    ],
+    "answer": "A",
+    "explanation": "High levels of prolactin inhibit the pulsatile secretion of GnRH from the hypothalamus, leading to hypogonadism and anovulation."
+  },
+  {
+    "id": "wmc46",
+    "block": "l",
+    "year": "2025",
+    "question": "Which hormone is primarily responsible for the mid-cycle LH surge leading to ovulation?",
+    "options": [
+      "A Progesterone",
+      "B Estradiol",
+      "C Follicle-stimulating hormone FSH",
+      "D Inhibin B",
+      "E Cortisol"
+    ],
+    "answer": "B",
+    "explanation": "High levels of Estradiol produced by the dominant follicle exert a positive feedback effect on the pituitary, triggering the LH surge."
+  },
+  {
+    "id": "wmc47",
+    "block": "l",
+    "year": "2025",
+    "question": "The proliferative phase of the menstrual cycle is predominantly regulated by:",
+    "options": [
+      "A Progesterone",
+      "B Estrogen",
+      "C LH",
+      "D FSH",
+      "E Prolactin"
+    ],
+    "answer": "B",
+    "explanation": "The proliferative phase of the endometrium coincides with the follicular phase of the ovary and is driven by increasing levels of Estrogen."
+  },
+  {
+    "id": "wmc48",
+    "block": "l",
+    "year": "2025",
+    "question": "The hormone responsible for maintaining pregnancy during the first trimester is:",
+    "options": [
+      "A Progesterone from the corpus luteum",
+      "B Estrogen from the placenta",
+      "C Oxytocin from the posterior pituitary",
+      "D Relaxin from the ovary",
+      "E Cortisol from the adrenal gland"
+    ],
+    "answer": "A",
+    "explanation": "Progesterone produced by the Corpus Luteum (supported by hCG) is essential for maintaining the pregnancy until the placenta takes over around 10-12 weeks."
+  },
+  {
+    "id": "wmc49",
+    "block": "l",
+    "year": "2025",
+    "question": "Which enzyme is crucial for the conversion of androgens to estrogens in the ovary?",
+    "options": [
+      "A Aromatase",
+      "B 5-alpha reductase",
+      "C Tyrosine hydroxylase",
+      "D Decarboxylase",
+      "E Monoamine oxidase"
+    ],
+    "answer": "A",
+    "explanation": "Aromatase (CYP19) is the enzyme responsible for converting androgens (like testosterone) into estrogens (like estradiol)."
+  },
+  {
+    "id": "wmc50",
+    "block": "l",
+    "year": "2025",
+    "question": "Impotency",
+    "options": [
+      "A Inability to procreate",
+      "B inability to Give sexual satisfaction to other partner",
+      "C inability to Give sexual satisfaction to other partner Or Inability to procreate",
+      "D None of the these",
+      "E an endocrine disease"
+    ],
+    "answer": "B",
+    "explanation": "Impotence typically refers to the inability to achieve or maintain an erection sufficient for sexual intercourse, often phrased as 'inability to perform the sexual act' or 'give sexual satisfaction'. Sterility (Option A) refers to the inability to procreate."
+  },
+  {
+    "id": "wmc51",
+    "block": "l",
+    "year": "2025",
+    "question": "Causes of impotency",
+    "options": [
+      "A No known cause",
+      "B Hypertension",
+      "C Short penis",
+      "D Hyperpitutism",
+      "E 99% psychological"
+    ],
+    "answer": "E",
+    "explanation": "Historically and in many medico-legal contexts, a very high percentage (often cited as ~90%) of impotence cases are attributed to psychological causes, though modern medicine recognizes many organic causes."
+  },
+  {
+    "id": "wmc52",
+    "block": "l",
+    "year": "2025",
+    "question": "Causes of Sterility",
+    "options": [
+      "A Only in females",
+      "B small testis",
+      "C Mumps",
+      "D Grav,s disease",
+      "E UTI"
+    ],
+    "answer": "C",
+    "explanation": "Mumps orchitis is a well-known cause of testicular atrophy and subsequent sterility in males."
+  },
+  {
+    "id": "wmc53",
+    "block": "l",
+    "year": "2025",
+    "question": "Artificial Insemination",
+    "options": [
+      "A Tow types",
+      "B Bring about pregnancy by drugs",
+      "C in AID, semen of husband is used",
+      "D Husband is not sterile",
+      "E Semen is obtain by disposable"
+    ],
+    "answer": "A",
+    "explanation": "There are two main types of artificial insemination: Artificial Insemination by Husband (AIH) and Artificial Insemination by Donor (AID)."
+  },
+  {
+    "id": "wmc54",
+    "block": "l",
+    "year": "2025",
+    "question": "Sodomy",
+    "options": [
+      "A Derives its name from the city of sodem",
+      "B Only occurs between male and male",
+      "C Offender is called passive agent",
+      "D in habitual agents digital examination is painful",
+      "E is not a ground for divorce"
+    ],
+    "answer": "A",
+    "explanation": "The term Sodomy derives from the biblical city of Sodom."
+  },
+  {
+    "id": "wmc55",
+    "block": "l",
+    "year": "2025",
+    "question": "Virginity",
+    "options": [
+      "A Hymen is torn",
+      "B Hymen is no role in virginity",
+      "C loss of virginity my be a ground for divorce",
+      "D Hymen is intact.",
+      "E Nullity of marriage cannot occure du to defloration"
+    ],
+    "answer": "D",
+    "explanation": "In medico-legal terms, a 'true virgin' is typically defined by the presence of an intact hymen, although false virgins (intact hymen despite intercourse) and false non-virgins (torn hymen without intercourse) exist."
+  },
+  {
+    "id": "wmc56",
+    "block": "l",
+    "year": "2025",
+    "question": "Legitimacy",
+    "options": [
+      "A for legitimacy time of conception VS date of married is not important",
+      "B DNA profiling has no role in legitimacy",
+      "C Child born within 240 days ofter dissolution of marriage is legitimate, if” mother is married",
+      "D Legitimate child is of his own father",
+      "E in legitimacy, court does not relay on forensic expert opinion"
+    ],
+    "answer": "C",
+    "explanation": "Under the Qanun-e-Shahadat Order (Pakistan), a child born during the continuance of a valid marriage or within 280 days after its dissolution (provided the mother remains unmarried) is conclusive proof of legitimacy. The option '240 days' falls within this legal window."
+  },
+  {
+    "id": "wmc57",
+    "block": "l",
+    "year": "2025",
+    "question": "A 50-year-old man presents with hematuria. Cystoscopy reveals a flat, erythematous lesion in the bladder mucosa. Biopsy shows high-grade atypia confined to the epithelium without invasion of the basement membrane. What is the most accurate description of this lesion?",
+    "options": [
+      "A Urothelial carcinoma in situ",
+      "B Low-grade papillary urothelial carcinoma",
+      "C Squamous cell carcinoma of bladder",
+      "D Adenocarcinoma of bladder",
+      "E High-grade invasive urothelial carcinoma"
+    ],
+    "answer": "A",
+    "explanation": "Urothelial Carcinoma In Situ (CIS) is characterized by malignant (high-grade) cells confined to the epithelium (flat lesion) without basement membrane invasion."
+  },
+  {
+    "id": "wmc58",
+    "block": "l",
+    "year": "2025",
+    "question": "A renal biopsy from a patient with rapidly progressive glomerulonephritis shows crescent formation composed predominantly of monocytes, macrophages, and fibrin. Immunofluorescence reveals a linear pattern of IgG deposition along the basement membrane. Which additional clinical finding is most expected?",
+    "options": [
+      "A Recurrent kidney stones",
+      "B Pulmonary hemorrhage",
+      "C Hepatosplenomegaly",
+      "D Nephrolithiasis with cystine crystals",
+      "E Hypertensive retinopathy"
+    ],
+    "answer": "B",
+    "explanation": "The findings describe Anti-GBM Disease (Goodpasture's Syndrome), which affects both the kidneys (RPGN) and the lungs, causing pulmonary hemorrhage."
+  },
+  {
+    "id": "wmc59",
+    "block": "l",
+    "year": "2025",
+    "question": "A 12-year-old boy presents with cola-colored urine one week after a streptococcal throat infection. Biopsy shows hypercellular glomeruli and subepithelial “humps.” Which complement component is decreased in this condition?",
+    "options": [
+      "A C1q",
+      "B C3",
+      "C C4",
+      "D Factor H",
+      "E Factor D"
+    ],
+    "answer": "B",
+    "explanation": "Post-streptococcal glomerulonephritis involves activation of the alternative complement pathway, leading to decreased levels of serum C3."
+  },
+  {
+    "id": "wmc60",
+    "block": "l",
+    "year": "2025",
+    "question": "A 65-year-old man presents with a left-sided renal mass. Histology reveals cells with clear cytoplasm. Which genetic abnormality is most commonly implicated?",
+    "options": [
+      "A 11p deletion",
+      "B 16p mutation",
+      "C VHL gene mutation on chromosome 3p",
+      "D c-MYC translocation",
+      "E TP53 mutation"
+    ],
+    "answer": "C",
+    "explanation": "Clear Cell Renal Cell Carcinoma is most commonly associated with loss of the VHL (Von Hippel-Lindau) tumor suppressor gene on chromosome 3p."
+  },
+  {
+    "id": "wmc61",
+    "block": "l",
+    "year": "2025",
+    "question": "A 3-year-old child presents with a large abdominal mass. Genetic testing shows WT1 mutation. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A Neuroblastoma",
+      "B Renal cell carcinoma",
+      "C Wilms tumor",
+      "D Oncocytoma",
+      "E Medullary carcinoma"
+    ],
+    "answer": "C",
+    "explanation": "Wilms tumor (Nephroblastoma) is the most common renal tumor in children and is associated with mutations in the WT1 gene."
+  },
+  {
+    "id": "wmc62",
+    "block": "l",
+    "year": "2025",
+    "question": "A 38-year-old woman with a history of recurrent urinary tract infections presents with fever and flank pain. Urinalysis shows alkaline urine with numerous white blood cells and bacteria. Imaging reveals a large staghorn calculus occupying the",
+    "options": [
+      "A Uric acid",
+      "B Calcium oxalate",
+      "C Cystine",
+      "D Magnesium ammonium phosphate",
+      "E Calcium phosphate"
+    ],
+    "answer": "D",
+    "explanation": "Staghorn calculi formed in the presence of urease-producing bacteria (infection stones) and alkaline urine are composed of Magnesium Ammonium Phosphate (Struvite)."
+  },
+  {
+    "id": "wmc63",
+    "block": "l",
+    "year": "2025",
+    "question": "A 60-year-old man presents with bilateral enlarged kidneys. Histology shows multiple dilated collecting ducts. Which cystic disease of the kidney is most likely?",
+    "options": [
+      "A Autosomal dominant polycystic kidney disease",
+      "B Autosomal recessive polycystic kidney disease",
+      "C Medullary sponge kidney",
+      "D Acquired cystic kidney disease",
+      "E Simple renal cyst"
+    ],
+    "answer": "A",
+    "explanation": "Autosomal Dominant Polycystic Kidney Disease (ADPKD) is the most common adult cystic disease, presenting with bilaterally enlarged kidneys. (Note: While ARPKD is classically associated with collecting ducts, it presents in infancy. In a 60-year-old, ADPKD is the diagnosis)."
+  },
+  {
+    "id": "wmc64",
+    "block": "l",
+    "year": "2025",
+    "question": "A 55-year-old diabetic patient with CKD presents with normocytic anemia. Which mechanism best explains this finding?",
+    "options": [
+      "A Hemolysis due to uremia",
+      "B Iron sequestration",
+      "C Decreased erythropoietin production by peritubular interstitial cells",
+      "D Bone marrow infiltration",
+      "E Vitamin B12 deficiency"
+    ],
+    "answer": "C",
+    "explanation": "The primary cause of anemia in Chronic Kidney Disease (CKD) is the decreased production of erythropoietin (EPO) by the renal peritubular interstitial cells."
+  },
+  {
+    "id": "wmc65",
+    "block": "l",
+    "year": "2025",
+    "question": "A 26-year-old female presents with dysuria, frequency, and suprapubic discomfort. Urine culture shows 100,000 CFU/mL of E. coli. Which of the following best describes the condition?",
+    "options": [
+      "A Asymptomatic bacteriuria",
+      "B Acute uncomplicated cystitis",
+      "C Chronic pyelonephritis",
+      "D Urethritis",
+      "E Interstitial nephritis"
+    ],
+    "answer": "B",
+    "explanation": "The presence of lower urinary tract symptoms (dysuria, frequency, pain) along with significant bacteriuria indicates Acute Uncomplicated Cystitis."
+  },
+  {
+    "id": "wmc66",
+    "block": "l",
+    "year": "2025",
+    "question": "A 35-year-old woman with poorly controlled diabetes mellitus presents with high-grade fever, chills, and flank pain. She also reports urinary frequency and dysuria. Laboratory studies show leukocytosis and pyuria. A urine culture grows E. coli. Which of the following histological findings is most characteristic of the renal pathology in this condition?",
+    "options": [
+      "A Hyaline arteriosclerosis",
+      "B Neutrophilic infiltration of the renal interstitium and tubules",
+      "C Granulomatous inflammation",
+      "D Glomerular basement membrane thickening",
+      "E Interstitial fibrosis and tubular atrophy with thyroidization"
+    ],
+    "answer": "B",
+    "explanation": "The clinical presentation is classic for Acute Pyelonephritis. Histologically, this is characterized by acute inflammation, specifically neutrophilic infiltration of the tubules and interstitium."
+  },
+  {
+    "id": "wmc67",
+    "block": "l",
+    "year": "2025",
+    "question": "A 9-year-old child is brought to the clinic with generalized swelling. On examination, he has periorbital edema and ascites. Urinalysis shows 4 proteinuria, oval fat bodies, and no hematuria. Serum albumin is markedly decreased and cholesterol is elevated. Which of the following best distinguishes this condition from nephritic syndrome?",
+    "options": [
+      "A Presence of hypertension",
+      "B Decreased serum complement levels",
+      "C Selective loss of albumin in urine without hematuria",
+      "D Presence of red blood cell casts in urine",
+      "E Elevated serum creatinine with oliguria"
+    ],
+    "answer": "C",
+    "explanation": "This child has Nephrotic Syndrome (Minimal Change Disease). A key feature distinguishing it from Nephritic Syndrome is the massive, selective proteinuria (loss of albumin) and the absence of hematuria/RBC casts."
+  },
+  {
+    "id": "wmc68",
+    "block": "l",
+    "year": "2025",
+    "question": "A 55-year-old woman with a solitary thyroid nodule undergoes FNA, which shows cells with \"salt-and-pepper\" chromatin and amyloid stroma. Serum calcitonin is elevated. Genetic testing reveals RET proto oncogene mutation. What is the most likely diagnosis?",
+    "options": [
+      "A Anaplastic thyroid carcinoma",
+      "B Medullary thyroid carcinoma",
+      "C Papillary carcinoma",
+      "D Follicular adenoma",
+      "E Hurthle cell neoplasm"
+    ],
+    "answer": "B",
+    "explanation": "Medullary Thyroid Carcinoma is a neuroendocrine tumor (salt-and-pepper chromatin) derived from C-cells (calcitonin), characterized by amyloid deposition and associated with RET mutations."
+  },
+  {
+    "id": "wmc69",
+    "block": "l",
+    "year": "2025",
+    "question": "A 45-year-old man presents with resistant hypertension and muscle cramps. Labs show serum K = 2.7 mEq/L, metabolic alkalosis, and plasma aldosterone concentration/plasma renin activity ratio. CT reveals a solitary adrenal cortical nodule. What is the most likely diagnosis?",
+    "options": [
+      "A Ectopic ACTH production",
+      "B Aldosterone-producing adenoma",
+      "C Bilateral adrenal hyperplasia",
+      "D Cushing disease",
+      "E Liddle syndrome"
+    ],
+    "answer": "B",
+    "explanation": "The combination of hypertension, hypokalemia, and a high aldosterone/renin ratio with a solitary adrenal nodule points to Primary Hyperaldosteronism due to an Aldosterone-producing adenoma (Conn's syndrome)."
+  },
+  {
+    "id": "wmc70",
+    "block": "l",
+    "year": "2025",
+    "question": "A 29-year-old woman presents with anxiety, weight loss, heat intolerance, and menstrual irregularities. Her eyes appear prominent. TSH is suppressed; free T4 is elevated. Thyroid scan shows diffusely increased uptake. What is the most specific feature of her underlying condition?",
+    "options": [
+      "A TSH receptor blocking antibodies",
+      "B Thyroid peroxidase antibodies",
+      "C TSH receptor stimulating antibodies TSI",
+      "D Low radioactive iodine uptake",
+      "E Elevated thyroglobulin"
+    ],
+    "answer": "C",
+    "explanation": "Graves' disease is an autoimmune disorder caused by Thyroid Stimulating Immunoglobulins (TSI) that activate the TSH receptor."
+  },
+  {
+    "id": "wmc71",
+    "block": "l",
+    "year": "2025",
+    "question": "A 30-year-old woman develops amenorrhea and inability to breastfeed after a complicated delivery with postpartum hemorrhage. She now has cold intolerance and fatigue. Labs show low TSH, ACTH, LH, and FSH. What is the most likely diagnosis?",
+    "options": [
+      "A Autoimmune thyroiditis",
+      "B Empty sella syndrome",
+      "C Sheehan syndrome",
+      "D Functional hypothalamic amenorrhea",
+      "E Craniopharyngioma"
+    ],
+    "answer": "C",
+    "explanation": "Sheehan syndrome is panhypopituitarism caused by ischemic necrosis of the pituitary gland following severe postpartum hemorrhage."
+  },
+  {
+    "id": "wmc72",
+    "block": "l",
+    "year": "2025",
+    "question": "A 53-year-old man with type 2 diabetes mellitus presents with microalbuminuria, and a kidney biopsy reveals nodular glomerulosclerosis. Which of the following histological features is pathognomonic?",
+    "options": [
+      "A Mesangial IgA deposits",
+      "B GBM splitting",
+      "C Kimmelstiel-Wilson nodules",
+      "D Tram-track appearance",
+      "E Segmental sclerosis"
+    ],
+    "answer": "C",
+    "explanation": "Kimmelstiel-Wilson nodules are nodular mesangial expansions that are pathognomonic for Diabetic Nephropathy."
+  },
+  {
+    "id": "wmc73",
+    "block": "l",
+    "year": "2025",
+    "question": "A 48-year-old woman presents with a hard, irregular breast mass. Mammography shows a spiculated lesion. Core biopsy reveals infiltrating malignant glands with desmoplastic stroma and pleomorphic cells. Most likely diagnosis?",
+    "options": [
+      "A Lobular carcinoma",
+      "B Invasive ductal carcinoma NOS",
+      "C Fibrocystic change",
+      "D Ductal carcinoma in situ",
+      "E Phyllodes tumor"
+    ],
+    "answer": "B",
+    "explanation": "Invasive Ductal Carcinoma (No Special Type) is the most common breast cancer, characterized by infiltrating glands, desmoplasia (causing hardness), and spiculation."
+  },
+  {
+    "id": "wmc74",
+    "block": "l",
+    "year": "2025",
+    "question": "A 34-year-old woman presents with hirsutism, irregular menses, and infertility. Ultrasound shows enlarged ovaries with peripheral cysts. Labs show elevated LH FSH ratio. What is the primary pathophysiologic feature?",
+    "options": [
+      "A Estrogen deficiency",
+      "B Increased prolactin",
+      "C Increased ovarian androgen production and insulin resistance",
+      "D Low gonadotropin levels",
+      "E Excess adrenal cortisol"
+    ],
+    "answer": "C",
+    "explanation": "Polycystic Ovary Syndrome (PCOS) is driven by insulin resistance and hyperinsulinemia, which stimulate excessive ovarian androgen production."
+  },
+  {
+    "id": "wmc75",
+    "block": "l",
+    "year": "2025",
+    "question": "A 47-year-old woman is diagnosed with a 2.5 cm ER , PR , HER2 breast cancer. What is the single most important prognostic factor influencing survival?",
+    "options": [
+      "A Tumor size",
+      "B Hormone receptor status",
+      "C HER2 overexpression",
+      "D Ki-67 index",
+      "E Axillary lymph node involvement"
+    ],
+    "answer": "E",
+    "explanation": "Axillary lymph node status is the single most significant prognostic factor in early-stage breast cancer."
+  },
+  {
+    "id": "wmc76",
+    "block": "l",
+    "year": "2025",
+    "question": "A 60-year-old man with a long history of untreated hypothyroidism presents with bradycardia, weight gain, and mental slowing. TSH is markedly elevated. Anti-thyroid peroxidase antibodies are positive. What is the diagnosis?",
+    "options": [
+      "A Subacute thyroiditis",
+      "B Iodine deficiency",
+      "C Hashimoto thyroiditis",
+      "D Riedel’s thyroiditis",
+      "E Cretinism"
+    ],
+    "answer": "C",
+    "explanation": "Hashimoto Thyroiditis is the most common cause of hypothyroidism in iodine-sufficient areas, characterized by positive anti-TPO antibodies."
+  },
+  {
+    "id": "wmc77",
+    "block": "l",
+    "year": "2025",
+    "question": "A 56-year-old postmenopausal woman presents with increasing abdominal girth and early satiety. Imaging shows a large complex ovarian mass. Serum CA 125 is elevated. Histopathology reveals papillary structures with psammoma bodies and cellular atypia. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A Mucinous cystadenocarcinoma",
+      "B Serous cystadenoma",
+      "C Serous Cystadenocarcinoma",
+      "D Granulosa cell tumor",
+      "E Endometrioid carcinoma"
+    ],
+    "answer": "C",
+    "explanation": "Serous Cystadenocarcinoma is the most common ovarian malignancy, often presenting with ascites, elevated CA-125, and Psammoma bodies on histology."
+  },
+  {
+    "id": "wmc78",
+    "block": "l",
+    "year": "2025",
+    "question": "A 72-year-old man presents with urinary hesitancy and nocturia. PSA is 18 ng/mL. Digital rectal examination reveals a firm, irregular, nodular prostate. Transrectal biopsy shows small acinar glands infiltrating the stroma with prominent nucleoli and absence of basal cell layer. Perineural invasion is noted. Which of the following best describes this tumor?",
+    "options": [
+      "A Benign prostatic hyperplasia involving the transitional zone",
+      "B Urothelial carcinoma invading the prostate",
+      "C High-grade prostatic intraepithelial neoplasia",
+      "D Prostatic adenocarcinoma (peripheral zone,Gleason grading applies)",
+      "E Granulomatous prostatitis"
+    ],
+    "answer": "D",
+    "explanation": "The findings of elevated PSA, hard nodule, and malignant glands (no basal cells) are diagnostic of Prostatic Adenocarcinoma, which typically arises in the peripheral zone."
+  },
+  {
+    "id": "wmc79",
+    "block": "l",
+    "year": "2025",
+    "question": "A 28-year-old male presents with a painless, enlarging testicular mass. Ultrasound confirms a solid intratesticular lesion. Serum tumor markers reveal elevated α-fetoprotein AFP and β- hCG. Histopathology shows both embryonal carcinoma and yolk sac tumor elements. Which of the following is the most appropriate classification?",
+    "options": [
+      "A Seminoma",
+      "B Mixed non-seminomatous germ cell tumor",
+      "C Leydig cell tumor",
+      "D Sertoli cell tumor",
+      "E Testicular lymphoma"
+    ],
+    "answer": "B",
+    "explanation": "Tumors containing multiple germ cell types (e.g., Embryonal + Yolk Sac) and elevated AFP (which is never raised in pure Seminoma) are classified as Mixed Non-Seminomatous Germ Cell Tumors."
+  },
+  {
+    "id": "wmc80",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the primary function of the hypothalamic-pituitary gonadal HPG axis in reproduction?",
+    "options": [
+      "A To regulate body temperature",
+      "B To control blood pressure",
+      "C To stimulate gametogenesis and hormone production",
+      "D To maintain electrolyte balance",
+      "E To regulate digestion"
+    ],
+    "answer": "C",
+    "explanation": "The HPG axis regulates reproduction by controlling the production of gametes (sperm/eggs) and sex hormones."
+  },
+  {
+    "id": "wmc81",
+    "block": "l",
+    "year": "2025",
+    "question": "Which hormone is primarily responsible for ovulation?",
+    "options": [
+      "A Estrogen",
+      "B Progesterone",
+      "C Luteinizing hormone LH",
+      "D Follicle-stimulating hormone FSH",
+      "E Human chorionic gonadotropin (hCG"
+    ],
+    "answer": "C",
+    "explanation": "The surge of Luteinizing Hormone (LH) triggers the release of the oocyte from the dominant follicle."
+  },
+  {
+    "id": "wmc82",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the role of the zona pellucida in fertilization?",
+    "options": [
+      "A To provide nutrients to the oocyte",
+      "B To facilitate sperm binding and penetration",
+      "C To regulate ovulation",
+      "D To maintain embryo implantation",
+      "E To produce hormones"
+    ],
+    "answer": "B",
+    "explanation": "The zona pellucida contains receptors for sperm binding and undergoes a reaction to prevent polyspermy after fertilization."
+  },
+  {
+    "id": "wmc83",
+    "block": "l",
+    "year": "2025",
+    "question": "Which embryonic structure gives rise to the reproductive system?",
+    "options": [
+      "A Mesoderm",
+      "B Ectoderm",
+      "C Endoderm",
+      "D Intermediate mesoderm",
+      "E Somites"
+    ],
+    "answer": "D",
+    "explanation": "The reproductive (and urinary) system develops from the Intermediate Mesoderm (specifically the urogenital ridge)."
+  },
+  {
+    "id": "wmc84",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the function of the corpus luteum?",
+    "options": [
+      "A To produce estrogen and progesterone",
+      "B To stimulate follicular growth",
+      "C To regulate ovulation",
+      "D To maintain embryo implantation",
+      "E To produce testosterone"
+    ],
+    "answer": "A",
+    "explanation": "The corpus luteum secretes Progesterone (and some Estrogen) to maintain the endometrium for potential implantation."
+  },
+  {
+    "id": "wmc85",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the primary function of the sperm acrosome?",
+    "options": [
+      "A To provide motility to the sperm",
+      "B To facilitate sperm binding to the zona pellucida",
+      "C To release enzymes for zona pellucida penetration",
+      "D To regulate sperm capacitation",
+      "E To maintain sperm viability"
+    ],
+    "answer": "C",
+    "explanation": "The acrosome contains hydrolytic enzymes that digest the zona pellucida, allowing the sperm to penetrate the egg."
+  },
+  {
+    "id": "wmc86",
+    "block": "l",
+    "year": "2025",
+    "question": "Which of the following is a characteristic of a mature follicle?",
+    "options": [
+      "A Presence of a single layer of granulosa cells",
+      "B Absence of antrum",
+      "C Presence of a cumulus oophorus",
+      "D Absence of estrogen production",
+      "E Presence of a degenerating oocyte"
+    ],
+    "answer": "C",
+    "explanation": "A mature (Graafian) follicle is characterized by a large antrum and the oocyte surrounded by the cumulus oophorus."
+  },
+  {
+    "id": "wmc87",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the role of human chorionic gonadotropin (hCG in pregnancy?",
+    "options": [
+      "A To stimulate ovulation",
+      "B To maintain corpus luteum function",
+      "C To regulate fetal development",
+      "D To initiate parturition",
+      "E To stimulate lactation"
+    ],
+    "answer": "B",
+    "explanation": "hCG mimics LH and maintains the corpus luteum so it continues to produce progesterone during early pregnancy."
+  },
+  {
+    "id": "wmc88",
+    "block": "l",
+    "year": "2025",
+    "question": "Which part of the spermatozoon fuses with the oocyte plasma membrane during fertilization",
+    "options": [
+      "A Acrosome",
+      "B Head",
+      "C Midpiece",
+      "D Tail",
+      "E Postacrosomal region *"
+    ],
+    "answer": "E",
+    "explanation": "Fusion occurs between the oocyte membrane and the plasma membrane of the sperm's postacrosomal region (equatorial segment)."
+  },
+  {
+    "id": "wmc89",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the term for the failure of the testes to descend into the scrotum?",
+    "options": [
+      "A Cryptorchidism",
+      "B Hypospadias",
+      "C Epispadias",
+      "D Hydrocele",
+      "E Varicocele"
+    ],
+    "answer": "A",
+    "explanation": "Cryptorchidism is the condition of undescended testes."
+  },
+  {
+    "id": "wmc90",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the primary function of the epididymis",
+    "options": [
+      "A To produce testosterone",
+      "B To store and mature sperm",
+      "C To regulate body temperature",
+      "D To facilitate sperm capacitation",
+      "E To produce inhibin"
+    ],
+    "answer": "B",
+    "explanation": "The epididymis stores sperm and provides the environment for them to acquire motility (maturation)."
+  },
+  {
+    "id": "wmc91",
+    "block": "l",
+    "year": "2025",
+    "question": "Which hormone is primarily responsible for the development of male secondary sex characteristics?",
+    "options": [
+      "A Testosterone",
+      "B Estrogen",
+      "C Progesterone",
+      "D Follicle-stimulating hormone FSH",
+      "E Luteinizing hormone LH"
+    ],
+    "answer": "A",
+    "explanation": "Testosterone drives the development of male secondary sexual characteristics."
+  },
+  {
+    "id": "wmc92",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the term for the process by which the sperm undergoes changes to become capable of fertilizing an egg?",
+    "options": [
+      "A Spermatogenesis",
+      "B Capacitation",
+      "C Fertilization",
+      "D Implantation",
+      "E Embryogenesis"
+    ],
+    "answer": "B",
+    "explanation": "Capacitation is the physiological change sperm undergo in the female reproductive tract to become competent for fertilization."
+  },
+  {
+    "id": "wmc93",
+    "block": "l",
+    "year": "2025",
+    "question": "Which structure supports the development of the embryo during implantation?",
+    "options": [
+      "A Zona pellucida",
+      "B Corpus luteum",
+      "C Endometrium",
+      "D Myometrium",
+      "E Perimetrium"
+    ],
+    "answer": "C",
+    "explanation": "The embryo implants into the Endometrium (specifically the decidua)."
+  },
+  {
+    "id": "wmc94",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the primary function of the placenta?",
+    "options": [
+      "A To produce hormones",
+      "B To facilitate gas exchange",
+      "C To provide nutrients to the fetus",
+      "D To regulate fetal development",
+      "E All of the these"
+    ],
+    "answer": "E",
+    "explanation": "The placenta acts as a lung, gut, and endocrine organ for the fetus."
+  },
+  {
+    "id": "wmc95",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the role of inhibin in the reproductive system?",
+    "options": [
+      "A To stimulate FSH production",
+      "B To inhibit FSH production",
+      "C To regulate LH production",
+      "D To facilitate ovulation",
+      "E To maintain corpus luteum function"
+    ],
+    "answer": "B",
+    "explanation": "Inhibin selectively inhibits the secretion of FSH from the pituitary gland."
+  },
+  {
+    "id": "wmc96",
+    "block": "l",
+    "year": "2025",
+    "question": "Which part of the female reproductive system produces most of the estrogen?",
+    "options": [
+      "A Ovaries",
+      "B Adrenal glands",
+      "C Uterus",
+      "D Fallopian tubes",
+      "E Vagina"
+    ],
+    "answer": "A",
+    "explanation": "The ovaries (specifically the granulosa cells of the follicles) are the main source of estrogen in premenopausal women."
+  },
+  {
+    "id": "wmc97",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the term for the cessation of menstrual cycles in women?",
+    "options": [
+      "A Menarche",
+      "B Menopause",
+      "C Dysmenorrhea",
+      "D Amenorrhea",
+      "E Oligomenorrhea"
+    ],
+    "answer": "B",
+    "explanation": "Menopause is the permanent cessation of menstruation."
+  },
+  {
+    "id": "wmc98",
+    "block": "l",
+    "year": "2025",
+    "question": "Which hormone is essential for the maintenance of pregnancy?",
+    "options": [
+      "A Progesterone",
+      "B Estrogen",
+      "C LH",
+      "D FSH",
+      "E hCG"
+    ],
+    "answer": "A",
+    "explanation": "Progesterone is 'pro-gestation'; it maintains the uterine lining and quiescence essential for pregnancy."
+  },
+  {
+    "id": "wmc99",
+    "block": "l",
+    "year": "2025",
+    "question": "What is the function of the fimbriae in the fallopian tubes?",
+    "options": [
+      "A To facilitate ovulation",
+      "B To capture the oocyte",
+      "C To regulate tubal motility",
+      "D To maintain tubal patency",
+      "E To produce hormones"
+    ],
+    "answer": "B",
+    "explanation": "The fimbriae sweep over the ovary to catch the released oocyte."
+  },
+  {
+    "id": "wmc100",
+    "block": "l",
+    "year": "2025",
+    "question": "Pathological state resulting from a relative orabsolute deficiency or excess of one or more of nutrients is calledMalnutrition.it can cause permanent impairment of physical and mental growth. Best single parameter for assessing physical growth of a child is",
+    "options": [
+      "A head circumference",
+      "B height for age",
+      "C mid upper arm circumference",
+      "D weight for age",
+      "E weight for height"
+    ],
+    "answer": "D",
+    "explanation": "Weight for age is the standard, most commonly used single parameter for monitoring growth (Growth Charts)."
+  },
+  {
+    "id": "wmc101",
+    "block": "l",
+    "year": "2025",
+    "question": "There is a type of low energy radiation that does not have enough energy to remove electron (negative particle) from an atom or molecule, meaning it cannot damage DNA or break chemical bonds . What is the name of that Radiation",
+    "options": [
+      "A ionizing radiations",
+      "B Non-ionizing radiations",
+      "C Visible light",
+      "D X-rays",
+      "E Neutron"
+    ],
+    "answer": "B",
+    "explanation": "Radiation that lacks sufficient energy to ionize atoms (remove electrons) is classified as Non-ionizing radiation."
+  },
+  {
+    "id": "wmc102",
+    "block": "l",
+    "year": "2025",
+    "question": "A 45-year-old factory worker presents with gradual hearing loss, irritability, and difficulty sleeping. He has been working in a textile mill for 45 years where noise levels are consistently above 90 dB. Which of the following is the most likely health effect due to long-term occupational noise exposure?",
+    "options": [
+      "A Acute otitis media",
+      "B Noise-induced hearing loss",
+      "C Giddiness",
+      "D Ear barotrauma",
+      "E Meniere’s disease"
+    ],
+    "answer": "B",
+    "explanation": "Chronic exposure to high noise levels (>85-90 dB) causes sensorineural Noise-Induced Hearing Loss (NIHL)."
+  },
+  {
+    "id": "wmc103",
+    "block": "l",
+    "year": "2025",
+    "question": "A 22-year-old student develops abdominal cramps, vomiting, and diarrhea 4 hours after eating fried rice at a roadside stall. Several of his friends who ate the same food also developed similar symptoms. Which of the following is the most likely cause of foodborne illness in this case?",
+    "options": [
+      "A Salmonella typhi",
+      "B Bacillus cereus",
+      "C Salmonellas para typhi",
+      "D Vibrio cholerae",
+      "E Hepatitis A virus"
+    ],
+    "answer": "B",
+    "explanation": "Bacillus cereus produces a pre-formed heat-stable toxin causing vomiting within 1-6 hours, classically associated with fried rice."
+  },
+  {
+    "id": "wmc104",
+    "block": "l",
+    "year": "2025",
+    "question": "Waste is unwanted or discarded waste material from houses, street sweeping, commercial industries and agricultural operations arising from man’s activities What is the waste water from kitchen and bath rooms, that does not contain excreta is called",
+    "options": [
+      "A Sullage",
+      "B Scum",
+      "C Sewage",
+      "D Sludge",
+      "E Sewer"
+    ],
+    "answer": "A",
+    "explanation": "Sullage (or greywater) is liquid waste that does not contain human or animal excreta."
+  },
+  {
+    "id": "wmc105",
+    "block": "l",
+    "year": "2025",
+    "question": "Water filtration on a large scale is carried out using rapid sand filter and slow sand filter.Which is the most important biological process for cleaning slow sand filter",
+    "options": [
+      "A Supernatant Tank",
+      "B scraping of Vital Layer",
+      "C Under drainage system",
+      "D Backwashing",
+      "E replacement of the filter"
+    ],
+    "answer": "B",
+    "explanation": "Slow sand filters are cleaned by scraping off the top biological layer ('Schmutzdecke' or vital layer), unlike rapid sand filters which use backwashing."
+  },
+  {
+    "id": "wmc106",
+    "block": "l",
+    "year": "2025",
+    "question": "Global warming in green house effect is responsible for raising temperature of earth. Which of the following is most common green house gas?",
+    "options": [
+      "A Methane",
+      "B Hydrogen",
+      "C Nitrous Oxide",
+      "D Ozone",
+      "E oxygen"
+    ],
+    "answer": "A",
+    "explanation": "Among the options listed (anthropogenic sources), Methane is a significant greenhouse gas. While water vapor is the most abundant and CO2 the most significant anthropogenic one, Methane is the most common answer in this context among the distractors."
+  },
+  {
+    "id": "wmc107",
+    "block": "l",
+    "year": "2025",
+    "question": "People of an area effected by Diarrhea as epidemic. Administration was informed by health department to take relative action regarding prevention of water borne diseases. Chlorination of water was arranged by team. What is the primary purpose of water chlorination?",
+    "options": [
+      "A To remove dissolve salts",
+      "B To kill harmful micro-organisms",
+      "C To reduce water temperature",
+      "D To increase water turbidity",
+      "E to add odor to the water"
+    ],
+    "answer": "B",
+    "explanation": "Chlorination is a disinfection process used to kill pathogenic microorganisms in water."
+  },
+  {
+    "id": "wmc108",
+    "block": "l",
+    "year": "2025",
+    "question": "8-month old infant has diarrhea for 3 days, sunken eyes, drinks eagerly when offered water, on skin pinch test, skin goes back slowly. What is the classification, according to IMNCI?",
+    "options": [
+      "A no dehydration",
+      "B some dehydration",
+      "C severe dehydration",
+      "D persistent diarrhea",
+      "E rehydration"
+    ],
+    "answer": "B",
+    "explanation": "The presence of two signs (sunken eyes, drinks eagerly/thirsty, skin pinch slow) classifies the child as having Some Dehydration."
+  },
+  {
+    "id": "wmc109",
+    "block": "l",
+    "year": "2025",
+    "question": "A 24 year old primigravida at 8 weeks came for antenatal checkup. She has no comorbidities. What is the recommended minimum number of antenatal visits essential for safe motherhood?",
+    "options": [
+      "A 2",
+      "B 3",
+      "C 4",
+      "D 1",
+      "E 5"
+    ],
+    "answer": "C",
+    "explanation": "The WHO focused antenatal care model recommends a minimum of 4 visits for uncomplicated pregnancies."
+  },
+  {
+    "id": "wmc110",
+    "block": "l",
+    "year": "2025",
+    "question": "Pakistan faces difficulties during winter season specially in Punjab due to smog. Alot of people develop eye irritation, throat burning and chest tightness. Which type of smog is responsible?",
+    "options": [
+      "A classical smog(London type)",
+      "B photochemical smog",
+      "C dust storm",
+      "D fog due to humidity",
+      "E fog due to heavy rain"
+    ],
+    "answer": "B",
+    "explanation": "Photochemical smog (Los Angeles type), formed by the reaction of sunlight with pollutants like NOx and VOCs, contains oxidants like Ozone and PAN which cause eye irritation and respiratory symptoms."
+  },
+  {
+    "id": "wmc111",
+    "block": "l",
+    "year": "2025",
+    "question": "In a flood effected area, medical teams are providing first aid, distributing clean water and preventing outbreaks of cholera. What phase does this represent of disaster management?",
+    "options": [
+      "A preparedness",
+      "B mitigation",
+      "C relief",
+      "D rehabilitation",
+      "E counselling"
+    ],
+    "answer": "C",
+    "explanation": "Immediate actions taken during or directly after a disaster to save lives and meet basic needs (first aid, water) constitute the Relief (or Response) phase."
+  },
+  {
+    "id": "wmc112",
+    "block": "l",
+    "year": "2025",
+    "question": "Hospital wastes are disposed in different color bags. In the labour room, a placenta and blood soaked cotton pads are to be discarded. Which color bag is used for their disposal?",
+    "options": [
+      "A yellow bag",
+      "B Red bag",
+      "C blue container",
+      "D white puncture proof box",
+      "E black bag"
+    ],
+    "answer": "A",
+    "explanation": "According to waste management guidelines, human anatomical waste (placenta) and infectious waste (blood-soaked items) should be disposed of in Yellow bags."
+  },
+  {
+    "id": "wmc113",
+    "block": "l",
+    "year": "2025",
+    "question": "Rabia, a 40-year-old sexually active woman, presented to the OPD with complaints of vaginal discharge. On examination, a lesion was found on the cervix, and a Pap smear was performed. The report showed a benign lesion. The doctor counselled her regarding the importance of prevention of cervical cancer What method she advised her regarding the prevention of disease?",
+    "options": [
+      "A Pap smear test",
+      "B Cervical biopsy",
+      "C Complete blood count CBC",
+      "D C-reactive protein CRP test",
+      "E HPV vaccine immunization"
+    ],
+    "answer": "E",
+    "explanation": "HPV vaccination is primary prevention. While screening (Pap smear) is crucial, vaccination prevents the infection that causes the cancer."
+  },
+  {
+    "id": "wmc114",
+    "block": "l",
+    "year": "2025",
+    "question": "A 35 years old patient went to OPD for her checkup. she gave family history of breast cancer. Doctor counselled her regarding screening for prevention of breast cancer.Which step is important regarding prevention of breast cancer?",
+    "options": [
+      "A Fine needle aspiration",
+      "B mammography",
+      "C Self breast examination",
+      "D MRI",
+      "E Biopsy"
+    ],
+    "answer": "B",
+    "explanation": "Mammography is the standard and most effective screening method for breast cancer."
+  },
+  {
+    "id": "wmc115",
+    "block": "l",
+    "year": "2025",
+    "question": "30 years old man building house in semi urban area where there is no central sewage system. He installed the septic tank for safe disposal of water. After a few months he asked health worker how the sewage inside the tank is purified. Which primary process is responsible for purification of sewage in septic tank?",
+    "options": [
+      "A Aerobic Decomposition by bacteria",
+      "B Anaerobic Decomposition by bacteria",
+      "C Filtration through sand and Gravel",
+      "D Coagulation with Alum",
+      "E Flocculation"
+    ],
+    "answer": "B",
+    "explanation": "Septic tanks function by anaerobic decomposition of organic matter by bacteria in a confined, oxygen-free environment."
+  },
+  {
+    "id": "wmc116",
+    "block": "l",
+    "year": "2025",
+    "question": "A dentist appointed in basic health unit reports an increased incidence of dental caries in the children of that area. What is the important preventive measure that he should suggest to the health authorities?",
+    "options": [
+      "A Boiling of water",
+      "B Chlorination of water",
+      "C Filtration of water",
+      "D Fluoridation of water",
+      "E Use of aquatabs in water"
+    ],
+    "answer": "D",
+    "explanation": "Fluoridation of community water supplies is the most effective public health measure to prevent dental caries."
+  },
+  {
+    "id": "wmc117",
+    "block": "l",
+    "year": "2025",
+    "question": "A boy with recurrent UTIs, who can’t pass urine in single stream, can have",
+    "options": [
+      "A Posterior urethral valves",
+      "B Horse shoe kidney",
+      "C Single kidney",
+      "D All of above",
+      "E None of above"
+    ],
+    "answer": "A",
+    "explanation": "Posterior Urethral Valves (PUV) cause bladder outlet obstruction in boys, leading to a poor urinary stream (dribbling/intermittent) and recurrent UTIs."
+  },
+  {
+    "id": "wmc118",
+    "block": "l",
+    "year": "2025",
+    "question": "The goal of management of D.M type1 is to maintain fasting sugar level between",
+    "options": [
+      "A 110 140",
+      "B 80 120",
+      "C 70 80",
+      "D 120 150",
+      "E None of these"
+    ],
+    "answer": "B",
+    "explanation": "Standard target fasting blood glucose levels for management are typically in the range of 80-120 mg/dL (or 70-130 mg/dL)."
+  },
+  {
+    "id": "wmc119",
+    "block": "l",
+    "year": "2025",
+    "question": "Which paremeters must be used in assesment of short stature",
+    "options": [
+      "A Child’s height",
+      "B Sibling’s height",
+      "C Parent’s height",
+      "D Mid parental height",
+      "E All of these"
+    ],
+    "answer": "E",
+    "explanation": "Assessment of short stature requires the child's height, parental heights (to calculate Mid-parental/Target height), and growth velocity."
+  },
+  {
+    "id": "wmc120",
+    "block": "l",
+    "year": "2025",
+    "question": "A 52-year-old male with a history of chronic hypertension and diabetes mellitus is admitted to the hospital with signs of dehydration after several days of vomiting and diarrhea. On physical examination, he is hypotensive, tachycardic, and appears very lethargic. Lab results show elevated blood urea nitrogen BUN and creatinine levels. Urinalysis shows muddy brown casts. An ultrasound of the kidneys shows normal-sized kidneys with no evidence of obstruction. Which of the following is the most likely cause of the patient’s renal injury",
+    "options": [
+      "A Acute Glomerulonephritis",
+      "B Acute Tubular Necrosis",
+      "C Postrenal Obstruction",
+      "D Chronic Pyelonephritis",
+      "E Nephrotic Syndrome"
+    ],
+    "answer": "B",
+    "explanation": "Prolonged hypotension and dehydration cause renal ischemia, leading to Acute Tubular Necrosis (ATN), characterized by muddy brown granular casts in the urine."
+  }
+]

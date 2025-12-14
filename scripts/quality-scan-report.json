@@ -1,0 +1,1175 @@
+{
+  "timestamp": "2025-12-14T13:58:52.621Z",
+  "totalQuestions": 2008,
+  "questionsWithIssues": 96,
+  "issuesByType": {
+    "PATTERN": 79,
+    "SPELLING": 20
+  },
+  "details": [
+    {
+      "id": "ent_457",
+      "subject": "ENT",
+      "topic": "Temporal bone fracture",
+      "question": "All are true about longitudinal fracture of Temporal bone except:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "ent_531",
+      "subject": "ENT",
+      "topic": "TRAUMA TO THE FACE",
+      "question": "In a patient presenting to the emergency room with a fractured nose associated w...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "forensic_medicine_1572",
+      "subject": "Forensic Medicine",
+      "topic": "TOXICOLOGY - METALLIC POISON",
+      "question": "Punctate basophilia is a feature seen in:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "forensic_medicine_1575",
+      "subject": "Forensic Medicine",
+      "topic": "TOXICOLOGY - METALLIC POISON",
+      "question": "Erethism is a feature observed in:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "forensic_medicine_1576",
+      "subject": "Forensic Medicine",
+      "topic": "TOXICOLOGY - METALLIC POISON",
+      "question": "Punctate basophilia is a feature observed in:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "forensic_medicine_1584",
+      "subject": "Forensic Medicine",
+      "topic": "TOXICOLOGY - METALLIC POISON",
+      "question": "Ascharotic appearance of oral mucosa is seen in acute poisoning by:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "forensic_medicine_1586",
+      "subject": "Forensic Medicine",
+      "topic": "TOXICOLOGY - METALLIC POISON",
+      "question": "All of the following features make arsenic an ideal homicidal poison except:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1659_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "A public health physician wants to study the load of hypertension in KPK to esta...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1660_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "Diagnostic power of a test is reflected by",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1661_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "The first case of communicable disease introduced into a defined population is t...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1674_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "Using cross sectional studies, we can determine the:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1676_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "Type 1 error is",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1693_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "A total of 300 newly diagnosed patients with laryngeal cancer are or surgical ex...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1697_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "Seasonal variation of a disease can be assessed by:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1698_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "Which of the following is not a characteristic of propagated epidemic:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1699_2",
+      "subject": "Community Medicine",
+      "topic": "EPIDEMIOLOGY",
+      "question": "The importance of secondary attack rate is that it reflects:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1704_2",
+      "subject": "Community Medicine",
+      "topic": "SAMPLING TECHNIQUE",
+      "question": "The term sampling error is used to describe errors caused by the:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1711",
+      "subject": "Community Medicine",
+      "topic": "BIAS",
+      "question": "The term sampling error is used to describe errors caused by:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1712",
+      "subject": "Community Medicine",
+      "topic": "BIAS",
+      "question": "The term sampling error is used to describe errors caused by the",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1714",
+      "subject": "Community Medicine",
+      "topic": "BLINDING",
+      "question": "In a case control study confounding bias can be prevented by:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1723",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "In a chi- square test the observed and the expected values are related by the fa...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1727",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "The change that occurs in disease frequency over many years is called",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1731",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "A sample error can be reduced by:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1732",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "All are measures of dispersion EXCEPT",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1733",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "For positively skewed data, which of the following is true, by value?",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1742",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "In Survey Sampling, Inter-observer variation is a type of:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1743",
+      "subject": "Community Medicine",
+      "topic": "BIOSTATISTICS",
+      "question": "A correlation coefficient (r) usually tend to lie between values of:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1744",
+      "subject": "Community Medicine",
+      "topic": "DEMOGRAPHY",
+      "question": "Infant mortality rate of Pakistan is:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1747",
+      "subject": "Community Medicine",
+      "topic": "DEMOGRAPHY",
+      "question": "In demographic cycle, late expanding stage indicates",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1752",
+      "subject": "Community Medicine",
+      "topic": "DEMOGRAPHY",
+      "question": "Numerator for calculating child death rate is number of deaths occurring in chil...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1755",
+      "subject": "Community Medicine",
+      "topic": "DEMOGRAPHY",
+      "question": "In how many years a country will double its population with an annual population...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1775",
+      "subject": "Community Medicine",
+      "topic": "ENVIRONMENTAL HEALTH AND DISASTER",
+      "question": "The importance of fluoridation of water is that it",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1779",
+      "subject": "Community Medicine",
+      "topic": "ENVIRONMENTAL HEALTH AND DISASTER",
+      "question": "The importance of fluoridation of water is that it",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1780",
+      "subject": "Community Medicine",
+      "topic": "ENVIRONMENTAL HEALTH AND DISASTER",
+      "question": "Which of the following is more sensitive indicator of environmental iodine defic...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1783",
+      "subject": "Community Medicine",
+      "topic": "ENVIRONMENTAL HEALTH AND DISASTER",
+      "question": "Which of the following is not a surface water?",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1796",
+      "subject": "Community Medicine",
+      "topic": "ENVIRONMENTAL HEALTH AND DISASTER",
+      "question": "Fluoridation of water leads to",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1803",
+      "subject": "Community Medicine",
+      "topic": "RADIATIONS",
+      "question": "The most harmful gas for the destruction of ozone:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1804",
+      "subject": "Community Medicine",
+      "topic": "RADIATIONS",
+      "question": "The property of green house gases which causes global warming is that it",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1833",
+      "subject": "Community Medicine",
+      "topic": "HEALTH AND DISEASE",
+      "question": "Informed consent is important because",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1854",
+      "subject": "Community Medicine",
+      "topic": "NUTRITION",
+      "question": "An LHV in a BHU was demonstrating the method of making oral rehydration solution...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1883",
+      "subject": "Community Medicine",
+      "topic": "REPRODUCTION",
+      "question": "All are true about barrier methods except,",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1887",
+      "subject": "Community Medicine",
+      "topic": "REPRODUCTION",
+      "question": "Which of the following not related in the infant Mortality:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1890",
+      "subject": "Community Medicine",
+      "topic": "REPRODUCTION",
+      "question": "The most sensitive indicator of obstetric and pediatric care is",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1891",
+      "subject": "Community Medicine",
+      "topic": "REPRODUCTION",
+      "question": "What is the most suitable hormonal contraceptive for the post partum lactating m...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1892",
+      "subject": "Community Medicine",
+      "topic": "REPRODUCTION",
+      "question": "The average number of children a woman would have if she were to pass through he...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "community_medicine_1893",
+      "subject": "Community Medicine",
+      "topic": "REPRODUCTION",
+      "question": "Use of PAP smear examination in the detection of cervical cancer in women is",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_701",
+      "subject": "Gynecology",
+      "topic": "MENSTRUAL DISORDERS",
+      "question": "A 42 year old, para 6, came to OPD with complaints of an irregular cycle. She ha...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"adn\" should be \"and\""
+        }
+      ]
+    },
+    {
+      "id": "gynecology_730",
+      "subject": "Gynecology",
+      "topic": "ABORTION AND MISCARRIAGE",
+      "question": "A 20 year old G2 P1 woman at 12 weeks gestation has had no problems with this pr...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_742",
+      "subject": "Gynecology",
+      "topic": "INFERTILITY AND OCP",
+      "question": "All of the following are possible causes of subfertility except:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_743",
+      "subject": "Gynecology",
+      "topic": "INFERTILITY AND OCP",
+      "question": "Which of the following values of semen analysis indicates abnormal semen quality...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        },
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_748",
+      "subject": "Gynecology",
+      "topic": "INFERTILITY AND OCP",
+      "question": "While evaluated a 30 years old lady for infertility you diagnose a bicornuate ut...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_798",
+      "subject": "Gynecology",
+      "topic": "INFECTIONS",
+      "question": "On bimanual examination, bilateral adnexal masses were palpated. A transvaginal ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"adn\" should be \"and\""
+        }
+      ]
+    },
+    {
+      "id": "gynecology_803",
+      "subject": "Gynecology",
+      "topic": "INFECTIONS",
+      "question": "A 60 year old woman is diagnosed with endometrial cancer. Which of the following...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_836",
+      "subject": "Gynecology",
+      "topic": "CONTRACEPTIVE & INFERTILITY",
+      "question": "The mechanism of action of oral contraceptive pills includes all of the followin...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_865",
+      "subject": "Gynecology",
+      "topic": "INFECTIONS",
+      "question": "On bimanual examination, bilateral adnexal masses were palpated. A transvaginal ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"adn\" should be \"and\""
+        }
+      ]
+    },
+    {
+      "id": "gynecology_870",
+      "subject": "Gynecology",
+      "topic": "INFECTIONS",
+      "question": "A 60 year old woman is diagnosed with endometrial cancer. Which of the following...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_903",
+      "subject": "Gynecology",
+      "topic": "CONTRACEPTIVE & INFERTILITY",
+      "question": "The mechanism of action of oral contraceptive pills includes all of the followin...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "AI thinking pattern"
+        }
+      ]
+    },
+    {
+      "id": "gynecology_939",
+      "subject": "Gynecology",
+      "topic": "GYNECOLOGICAL PROCEDURES, ADENOMYOSIS/ENDOMETRIOSIS",
+      "question": "A 29 year old woman came to emergency in state of shock. She is 6 weeks pregnant...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"adn\" should be \"and\""
+        }
+      ]
+    },
+    {
+      "id": "medicine_2281",
+      "subject": "Medicine",
+      "topic": "Endocrine - Pituitary",
+      "question": "A 55 year old woman with a history of severe depression and radical mastectomy f...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "medicine_2321",
+      "subject": "Medicine",
+      "topic": "Intestine",
+      "question": "A 49 year old woman presents with a two week history of lower abdominal pain and...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_41",
+      "subject": "Ophthalmology",
+      "topic": "Pupil & Keratoplasty & Keratitis",
+      "question": "A fixed dilated pupil which does not react to direct or consensual light stimulu...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_102",
+      "subject": "Ophthalmology",
+      "topic": "CRAO - CENTRAL RETINAL ARTERY OCCLUSION",
+      "question": "A 70 year old hypertensive gentleman develops sudden profound loss of vision in ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_105",
+      "subject": "Ophthalmology",
+      "topic": "CRVO (CENTRAL RETINAL VEIN OCCLUSION)",
+      "question": "A 65 year old hypertensive man presents with sudden decrease in vision in the le...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_107",
+      "subject": "Ophthalmology",
+      "topic": "CRVO (CENTRAL RETINAL VEIN OCCLUSION)",
+      "question": "A 65 year old hypertensive man presents with painless sudden decrease in vision ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_108",
+      "subject": "Ophthalmology",
+      "topic": "CRVO (CENTRAL RETINAL VEIN OCCLUSION)",
+      "question": "A 40 year old lady with a BMI of 30 and using oral contraceptives presents with ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_109",
+      "subject": "Ophthalmology",
+      "topic": "CRVO (CENTRAL RETINAL VEIN OCCLUSION)",
+      "question": "A 65 year old hypertensive man presents with sudden decrease in vision in the le...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_136",
+      "subject": "Ophthalmology",
+      "topic": "Neuro Ophthalmology",
+      "question": "Bi temporal hemianopia is a characteristic feature of:",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_138",
+      "subject": "Ophthalmology",
+      "topic": "Papilloedema",
+      "question": "A 40 year old lady with papilloedema underwent a lumbar puncture. She now compla...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_139",
+      "subject": "Ophthalmology",
+      "topic": "Papilloedema",
+      "question": "A 39 year old man presents with visual symptoms ophthalmoscopy shows papilloedem...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_143",
+      "subject": "Ophthalmology",
+      "topic": "Optic Neuropathy",
+      "question": "A 62 year old hypertensive man who snores presents with sudden painless decrease...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_146",
+      "subject": "Ophthalmology",
+      "topic": "Optic Neuritis",
+      "question": "A 30 year old female presents with mild pain on eye movements and a central scot...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_208",
+      "subject": "Ophthalmology",
+      "topic": "GLAUCOMA CLASSIFICATION",
+      "question": "A 40 years old hypermetropic lady presented with severe pain and redness in her ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_221",
+      "subject": "Ophthalmology",
+      "topic": "GLAUCOMATOUS VISUAL FIELD DEFECTS",
+      "question": "A patient has a temporary loss of vision, like a curtain descending in front of ...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_234",
+      "subject": "Ophthalmology",
+      "topic": "MANAGEMENT OPTIONS GLAUCOMA",
+      "question": "A 40-years-old man with medically uncontrolled open angle glaucoma. What is the ...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "ophthalmology_332",
+      "subject": "Ophthalmology",
+      "topic": "Vitreous",
+      "question": "40-year-old diabetic presents with acute loss of vision. On examination the reti...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"oedema\" should be \"edema\""
+        }
+      ]
+    },
+    {
+      "id": "pathology_1256",
+      "subject": "Pathology",
+      "topic": "URINARY OUTFLOW OBSTRUCTION AND RENAL NEOPLASMS",
+      "question": "In minimal change disease or lipoid nephrosis the pathology is:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pathology_1445",
+      "subject": "Pathology",
+      "topic": "ENDOCRINE PATHOLOGY - 3. Pancreas",
+      "question": "Fasting plasma glucose (FPG) of a 48 year old senior male officer during his \"An...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pathology_1491",
+      "subject": "Pathology",
+      "topic": "CNS PATHOLOGY",
+      "question": "A 2 year old child presents with fever, headache, prostration and nuchal rigidit...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Multiple consecutive spaces"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_978",
+      "subject": "Pharmacology",
+      "topic": "ANESTHETICS",
+      "question": "Which of the following intravenous anesthetic is used to cause analgesia and cat...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        },
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_990",
+      "subject": "Pharmacology",
+      "topic": "ANESTHETICS",
+      "question": "Which of the following local anesthetics is useful for topical (surface) adminis...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_992",
+      "subject": "Pharmacology",
+      "topic": "ANESTHETICS",
+      "question": "A patient is given non depolarizing neuromuscular blocker during open reduction ...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_994",
+      "subject": "Pharmacology",
+      "topic": "ANESTHETICS",
+      "question": "Epinephrine is sometimes added to commercial local anesthetic solutions for whic...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        },
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1019",
+      "subject": "Pharmacology",
+      "topic": "ANXIOLYTICS",
+      "question": "Which one of the following anxiolytic drugs is noted for its lack of sedation?",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1021",
+      "subject": "Pharmacology",
+      "topic": "ANXIOLYTICS",
+      "question": "Which of the following anxiolytic has also antidepressant properties?",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1022",
+      "subject": "Pharmacology",
+      "topic": "ANXIOLYTICS",
+      "question": "Which of the following anxiolytic drugs is noted for its lack of sedation?",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1056",
+      "subject": "Pharmacology",
+      "topic": "SYMPATHOMIMETICS",
+      "question": "A school boy aged 10 years was brought to Pediatric OPD by her mother. She compl...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1058",
+      "subject": "Pharmacology",
+      "topic": "SYMPATHOMIMETICS",
+      "question": "A boy suffering from bed-wetting can be prescribed:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1086",
+      "subject": "Pharmacology",
+      "topic": "ANTI PARKINSON DRUGS",
+      "question": "A hypertensive crises is most likely to result from action of drugs from which o...",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"anti depressant\" should be \"antidepressant\""
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1104",
+      "subject": "Pharmacology",
+      "topic": "ENDO PHARMACOLOGY - PITUITARY",
+      "question": "Bromocriptine is an antagonist drug of:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1130",
+      "subject": "Pharmacology",
+      "topic": "DIABETES",
+      "question": "The insulin preparation of choice In diabetic ketoacidosis is:",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "pharmacology_1133",
+      "subject": "Pharmacology",
+      "topic": "AGONIST FOR Ca BALANCE",
+      "question": "The most suitable Vitamin D preparation for Vitamin D dependant rickets is:",
+      "issues": [
+        {
+          "type": "SPELLING",
+          "detail": "\"dependant\" should be \"dependent\""
+        }
+      ]
+    },
+    {
+      "id": "psychiatry_1200",
+      "subject": "Psychiatry",
+      "topic": "PSYCHIATRY/GENERAL MEDICINE",
+      "question": "Which of the following is more likely to indicate depression in older people com...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "psychiatry_1201",
+      "subject": "Psychiatry",
+      "topic": "PSYCHIATRY/GENERAL MEDICINE",
+      "question": "You are asked to see a 48-years-old obese lady in the outpatient department. She...",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Duplicate explanation reference"
+        }
+      ]
+    },
+    {
+      "id": "surgery_2135",
+      "subject": "Surgery",
+      "topic": "GIT SURGERY - SMALL INTESTINE + LARGE INTESTINE",
+      "question": "Ileocecal tuberculosis is associated with-",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "surgery_2136",
+      "subject": "Surgery",
+      "topic": "GIT SURGERY - SMALL INTESTINE + LARGE INTESTINE",
+      "question": "Lynch syndrome is associated with",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    },
+    {
+      "id": "surgery_2138",
+      "subject": "Surgery",
+      "topic": "GIT SURGERY - SMALL INTESTINE + LARGE INTESTINE",
+      "question": "which of the following colonic polyps has no risk for malignancy?",
+      "issues": [
+        {
+          "type": "PATTERN",
+          "detail": "Very short explanation (<20 chars)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+PSYCHIATRY QUESTIONS - REVIEW FILE
+================================================================================
+Total: 11 questions
+Generated: 14/12/2025, 6:41:32 pm
+================================================================================
+
+Instructions: Review each question for:
+  1. Correct answer accuracy
+  2. Spelling/grammar issues
+  3. Option formatting
+Mark any issues with [ISSUE] prefix
+
+================================================================================
+Q1. ID: psychiatry_1185
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+Which one of the following indicates lithium toxicity?
+
+Options:
+  ✓ a. Coarse tremor
+    b. Polyuria
+    c. Vomiting
+    d. T-wave inversion on the ECG
+    e. Hypothyroidism
+
+Marked Correct: a. Coarse tremor (index: 0)
+
+Explanation:
+A coarse tremor (distinct from the fine tremor seen as a common side effect) is a reliable sign of Lithium toxicity (>1.5-2.0 mEq/L). Vomiting is also an early sign, but coarse tremor is the classic neurological discriminator in exams. T-wave inversion, Polyuria, and Hypothyroidism are side effects of long-term use, not necessarily acute toxicity signs.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q2. ID: psychiatry_1188
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+A 32 years old man has obsessive compulsive disorder. What is the best treatment option for him?
+
+Options:
+  ✓ a. CBT
+    b. SSRI
+    c. TCA
+    d. MAO inhibitors
+    e. Reassure
+
+Marked Correct: a. CBT (index: 0)
+
+Explanation:
+Cognitive Behavioral Therapy (specifically Exposure and Response Prevention - ERP) is often considered the most effective first-line treatment for OCD, with lower relapse rates than medication alone. SSRIs are also first-line pharmacotherapy.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q3. ID: psychiatry_1189
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+You are asked to see a 48-years-old obese lady in the outpatient department. She has a recent diagnosis of type 2 diabetes as well a long standing diagnosis of schizoaffective disorder. Which one of the following medications is most likely to be significantly contributing to her weight gain?
+
+Options:
+    a. Haloperidol
+  ✓ b. Olanzapine
+    c. Fluoxetine
+    d. Zopiclone
+    e. Carbamazepine
+
+Marked Correct: b. Olanzapine (index: 1)
+
+Explanation:
+Olanzapine (an atypical antipsychotic) has the highest risk of metabolic side effects, including significant weight gain, dyslipidemia, and diabetes mellitus.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q4. ID: psychiatry_1191
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+The drug of choice for obsessive compulsive disorder is:
+
+Options:
+    a. Benzodiazepine
+    b. Tricyclic Anti-depressants
+  ✓ c. Selective serotonin reuptake inhibitors (SSRI)
+    d. Quinolones
+    e. Penicillin
+
+Marked Correct: c. Selective serotonin reuptake inhibitors (SSRI) (index: 2)
+
+Explanation:
+SSRIs (e.g., Fluoxetine, Fluvoxamine, Sertraline) are the first-line pharmacological treatment for OCD. Clomipramine (TCA) is second-line.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q5. ID: psychiatry_1192
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+Drug of choice for bipolar disorder is:
+
+Options:
+  ✓ a. Lithium
+    b. Amiodarone
+    c. Tri cyclic anti depressive
+    d. Anticonvulsants
+    e. Benzodiazepines
+
+Marked Correct: a. Lithium (index: 0)
+
+Explanation:
+Lithium Carbonate is the classic mood stabilizer and drug of choice for Bipolar Disorder maintenance and acute mania.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q6. ID: psychiatry_1193
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+A young student is seen by dermatologist with severe dermatitis of his hands. He has been frequently washing his hands with strong antiseptic solutions 10 times a day. He believes they are not clean. This is compatible with diagnosis of:
+
+Options:
+    a. Depression
+    b. Bipolar disorder
+    c. Mania
+  ✓ d. Obsessive compulsive behavior
+    e. Schizophrenia
+
+Marked Correct: d. Obsessive compulsive behavior (index: 3)
+
+Explanation:
+Excessive washing driven by an obsession with cleanliness/contamination is a hallmark compulsion in OCD.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q7. ID: psychiatry_1194
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+The following conditions can mimic anxiety disorder:
+
+Options:
+    a. Hyperthyroidism
+    b. Pheochromocytoma
+    c. Paroxysmal arrythmia
+    d. Hypoglycemia
+  ✓ e. All of them
+
+Marked Correct: e. All of them (index: 4)
+
+Explanation:
+Medical conditions that cause sympathetic overdrive (Hyperthyroidism, Pheochromocytoma, Hypoglycemia, Arrhythmias) present with symptoms like tachycardia, tremors, and sweating, which mimic anxiety/panic attacks.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q8. ID: psychiatry_1197
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+Which of the following electrolyte abnormalities is associated with bulimic patients?
+
+Options:
+    a. Metabolic acidosis
+  ✓ b. Metabolic alkalosis
+    c. Respiratory acidosis
+    d. Respiratory alkalosis
+    e. Normal electrolytes
+
+Marked Correct: b. Metabolic alkalosis (index: 1)
+
+Explanation:
+Recurrent vomiting leads to the loss of gastric acid (HCl), resulting in Hypochloremic Metabolic Alkalosis and Hypokalemia.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q9. ID: psychiatry_1199
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+A 45-years-old man with a 20-year history of drinking about 15 units of alcohol every day decides to stop drinking. He makes a clean break and stops suddenly. Three days later his wife brings him to the emergency department because he is agitated and disoriented, he says that he can see small animals and Insects coming menacingly towards him. He has marked tremors, sweating, tachycardia and pyrexia. What is the diagnosis?
+
+Options:
+    a. Meningitis
+    b. Catatonic schizophrenia
+  ✓ c. Delirium tremens
+    d. Drug abuse in addition to alcohol
+    e. Derealization
+
+Marked Correct: c. Delirium tremens (index: 2)
+
+Explanation:
+Delirium Tremens is the most severe form of alcohol withdrawal, appearing 2-3 days after cessation. It presents with clouding of consciousness (disorientation), autonomic hyperactivity (tachycardia, fever, sweating), and vivid hallucinations (often visual/tactile - small animals/Lilliputian).
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q10. ID: psychiatry_1200
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+Which of the following is more likely to indicate depression in older people compared with a younger age group?
+
+Options:
+    a. Suicidal thoughts
+  ✓ b. Hypochondriasis
+    c. Loss of Interest or pleasure in things
+    d. Poor self-care
+    e. Insomnia
+
+Marked Correct: b. Hypochondriasis (index: 1)
+
+Explanation:
+Duplicate of ID 1190.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+
+================================================================================
+Q11. ID: psychiatry_1201
+Topic: PSYCHIATRY/GENERAL MEDICINE
+================================================================================
+
+Question:
+You are asked to see a 48-years-old obese lady in the outpatient department. She has a recent diagnosis of type 2 diabetes as well a long standing diagnosis of schizoaffective disorder. Which one of the following medications is most likely to be significantly contributing to her weight gain?
+
+Options:
+    a. Haloperidol
+  ✓ b. Olanzapine
+    c. Fluoxetine
+    d. Zopiclone
+    e. Carbamazepine
+
+Marked Correct: b. Olanzapine (index: 1)
+
+Explanation:
+Duplicate of ID 1189.
+
+[STATUS: OK / ISSUE]
+[NOTES: ]
+

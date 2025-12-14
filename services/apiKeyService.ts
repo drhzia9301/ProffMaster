@@ -68,3 +68,62 @@ export const hasApiKey = (): boolean => {
   return hasCustomApiKey();
 };
 
+// ============================================
+// GROQ API KEY MANAGEMENT
+// ============================================
+const GROQ_API_KEY_STORAGE_KEY = 'groq_api_key';
+
+/**
+ * Get Groq API key
+ */
+export const getGroqApiKey = (): string => {
+  try {
+    const key = localStorage.getItem(GROQ_API_KEY_STORAGE_KEY);
+    if (key && key.trim() !== '') {
+      return key;
+    }
+    return '';
+  } catch (error) {
+    return '';
+  }
+};
+
+/**
+ * Check if user has Groq API key
+ */
+export const hasGroqApiKey = (): boolean => {
+  try {
+    const key = localStorage.getItem(GROQ_API_KEY_STORAGE_KEY);
+    return key !== null && key.trim() !== '';
+  } catch (error) {
+    return false;
+  }
+};
+
+/**
+ * Save Groq API key
+ */
+export const setGroqApiKey = (key: string): boolean => {
+  try {
+    if (!key || key.trim() === '') {
+      throw new Error('Groq API key cannot be empty');
+    }
+    localStorage.setItem(GROQ_API_KEY_STORAGE_KEY, key.trim());
+    return true;
+  } catch (error) {
+    console.error('Error saving Groq API key:', error);
+    return false;
+  }
+};
+
+/**
+ * Remove Groq API key
+ */
+export const removeGroqApiKey = (): boolean => {
+  try {
+    localStorage.removeItem(GROQ_API_KEY_STORAGE_KEY);
+    return true;
+  } catch (error) {
+    return false;
+  }
+};

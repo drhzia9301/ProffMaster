@@ -1,0 +1,5 @@
+git checkout 00f9f71 -- "public/qbanks/gmc M2.enc"
+git checkout eeb6533 -- "public/qbanks/kgmc M2.enc"
+git checkout 00f9f71 -- "public/qbanks/kmc M2.enc"
+git checkout 3d21ff2 -- "public/qbanks/nwsm M2.enc"
+git checkout 00f9f71 -- "public/qbanks/wmc L.enc"

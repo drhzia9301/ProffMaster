@@ -1,5 +1,5 @@
 import { Question } from "../types";
-import { getApiKey, hasApiKey } from "./apiKeyService";
+import { getApiKey, hasApiKey, getGroqApiKey, hasGroqApiKey } from "./apiKeyService";
 import { dbService } from "./databaseService";
 
 // Google Gemini API configuration - Models in priority order for fallback
@@ -23,6 +23,96 @@ export const getAIModelDisplayName = (): string => {
   if (model === "gemini-2.5-flash") return "Gemini 2.5 Flash";
   if (model === "gemma-3-27b") return "Gemma 3 27B";
   return model;
+};
+
+// ============================================
+// GROQ API CONFIGURATION
+// ============================================
+const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
+const GROQ_MODEL = "llama-3.3-70b-versatile"; // Fast, high quality for question generation
+
+// Track Groq rate limit
+let groqLastError = 0;
+const GROQ_COOLDOWN = 60000; // 60 seconds cooldown
+
+/**
+ * Call Groq API for question generation
+ * Uses OpenAI-compatible API format
+ */
+const callGroqAPI = async (
+  prompt: string,
+  maxTokens: number = 4096
+): Promise<string> => {
+  const apiKey = getGroqApiKey();
+
+  if (!apiKey) {
+    throw new Error("NO_GROQ_API_KEY");
+  }
+
+  const now = Date.now();
+  if (now - groqLastError < GROQ_COOLDOWN) {
+    const remainingSeconds = Math.ceil((GROQ_COOLDOWN - (now - groqLastError)) / 1000);
+    throw new Error(`Groq rate limited. Please wait ${remainingSeconds} seconds.`);
+  }
+
+  console.log(`Calling Groq API with model: ${GROQ_MODEL}`);
+
+  const response = await fetch(GROQ_API_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({
+      model: GROQ_MODEL,
+      messages: [
+        {
+          role: "user",
+          content: prompt,
+        },
+      ],
+      max_tokens: maxTokens,
+      temperature: 0.7,
+    }),
+  });
+
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({}));
+    if (response.status === 429) {
+      groqLastError = Date.now();
+      throw new Error("GROQ_RATE_LIMIT");
+    }
+    if (response.status === 401 || response.status === 403) {
+      throw new Error("Invalid Groq API key. Please check your Groq API key in Settings.");
+    }
+    throw new Error(error.error?.message || `Groq API error: ${response.status}`);
+  }
+
+  const data = await response.json();
+  return data.choices?.[0]?.message?.content || "";
+};
+
+/**
+ * Call AI for question generation - uses Groq if available, falls back to Gemini
+ */
+const callAIForQuestions = async (
+  prompt: string,
+  maxTokens: number = 4096
+): Promise<string> => {
+  // Try Groq first if key is available
+  if (hasGroqApiKey()) {
+    try {
+      console.log("Using Groq API for question generation...");
+      return await callGroqAPI(prompt, maxTokens);
+    } catch (error: any) {
+      console.warn("Groq API failed, falling back to Gemini:", error.message);
+      // Fall through to Gemini
+    }
+  }
+
+  // Fall back to Gemini
+  console.log("Using Gemini API for question generation...");
+  return await callAI(prompt, maxTokens);
 };
 
 // Track rate limit errors per model
@@ -506,7 +596,7 @@ export const generateSimilarQuestions = async (
       Return ONLY the JSON array, no markdown.
     `;
 
-    const text = await callAI(prompt);
+    const text = await callAIForQuestions(prompt);
     if (!text) return [];
 
     // Try to parse JSON - handle potential markdown wrapping
@@ -731,7 +821,7 @@ export const generateQuiz = async (
           IMPORTANT: Keep explanations short to avoid truncation.
         `;
 
-        const text = await callAI(prompt, 4096);
+        const text = await callAIForQuestions(prompt, 4096);
 
         if (!text) {
           console.warn(`Batch ${i + 1} failed to generate text.`);

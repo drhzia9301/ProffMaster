@@ -32,6 +32,7 @@ import NotesPage from './components/NotesPage';
 import { notesService } from './services/notesService';
 import NoteGenerationModal from './components/NoteGenerationModal';
 import { WhatsNewModal } from './components/WhatsNewModal';
+import { GroqAPIInfoModal } from './components/GroqAPIInfoModal';
 import SessionInvalidatedModal from './components/SessionInvalidatedModal';
 import BannedUserModal from './components/BannedUserModal';
 import VersionBlockedModal from './components/VersionBlockedModal';
@@ -1419,6 +1420,7 @@ const App: React.FC = () => {
     <ThemeProvider>
       <VersionManager />
       <WhatsNewModal />
+      <GroqAPIInfoModal />
       <Router>
         <AuthProvider>
           <AuthWrapper>

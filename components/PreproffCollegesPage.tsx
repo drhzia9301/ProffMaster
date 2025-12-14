@@ -26,13 +26,13 @@ const PreproffCollegesPage = () => {
             if (block === 'Block L') {
                 return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC'];
             }
-            // Block M1: WMC, GMC, KGMC, KMC + AMC, NMC, NWSM (new - ENT papers)
+            // Block M1: WMC, GMC, KGMC, KMC + AMC, NMC (NWSM removed - merged to 2025)
             if (block === 'Block M1') {
-                return ['KMC', 'KGMC', 'GMC', 'WMC', 'AMC', 'NMC', 'NWSM'];
+                return ['KMC', 'KGMC', 'GMC', 'WMC', 'AMC', 'NMC'];
             }
-            // Block M2: All 5 colleges + KIMS
+            // Block M2: All 5 colleges + KIMS (NWSM removed - merged to 2025)
             if (block === 'Block M2') {
-                return ['KMC', 'KGMC', 'NWSM', 'GMC', 'WMC', 'KIMS'];
+                return ['KMC', 'KGMC', 'GMC', 'WMC', 'KIMS'];
             }
         }
         if (year === '2024') {

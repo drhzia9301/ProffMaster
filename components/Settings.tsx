@@ -4,7 +4,11 @@ import {
     getApiKey, 
     setApiKey, 
     removeApiKey, 
-    hasCustomApiKey
+    hasCustomApiKey,
+    getGroqApiKey,
+    setGroqApiKey,
+    removeGroqApiKey,
+    hasGroqApiKey
 } from '../services/apiKeyService';
 import { resetProgress } from '../services/storageService';
 import { subscriptionService } from '../services/subscriptionService';
@@ -17,11 +21,17 @@ const Settings: React.FC = () => {
     const navigate = useNavigate();
     const { theme, setTheme } = useTheme();
     
-    // API Key states
+    // Gemini API Key states
     const [apiKey, setApiKeyInput] = useState('');
     const [hasCustomKey, setHasCustomKey] = useState(false);
-    
     const [showApiKey, setShowApiKey] = useState(false);
+    
+    // Groq API Key states
+    const [groqKey, setGroqKeyInput] = useState('');
+    const [hasGroqKey, setHasGroqKey] = useState(false);
+    const [showGroqKey, setShowGroqKey] = useState(false);
+    const [showConfirmDeleteGroq, setShowConfirmDeleteGroq] = useState(false);
+    
     const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
     const [showConfirmDelete, setShowConfirmDelete] = useState(false);
     const [showConfirmReset, setShowConfirmReset] = useState(false);
@@ -30,10 +40,16 @@ const Settings: React.FC = () => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
+        // Gemini key
         setHasCustomKey(hasCustomApiKey());
-        
         if (hasCustomApiKey()) {
             setApiKeyInput(getApiKey());
+        }
+        
+        // Groq key
+        setHasGroqKey(hasGroqApiKey());
+        if (hasGroqApiKey()) {
+            setGroqKeyInput(getGroqApiKey());
         }
         
         setHapticsEnabled(hapticsService.getEnabled());
@@ -54,7 +70,7 @@ const Settings: React.FC = () => {
         const success = setApiKey(apiKey);
         if (success) {
             setHasCustomKey(true);
-            setMessage({ type: 'success', text: 'AI API key saved!' });
+            setMessage({ type: 'success', text: 'Gemini API key saved!' });
             setTimeout(() => setMessage(null), 3000);
         } else {
             setMessage({ type: 'error', text: 'Failed to save API key' });
@@ -66,7 +82,32 @@ const Settings: React.FC = () => {
         setApiKeyInput('');
         setHasCustomKey(false);
         setShowConfirmDelete(false);
-        setMessage({ type: 'success', text: 'API key removed.' });
+        setMessage({ type: 'success', text: 'Gemini API key removed.' });
+        setTimeout(() => setMessage(null), 3000);
+    };
+
+    // Groq API key handlers
+    const handleSaveGroqKey = () => {
+        if (!groqKey.trim()) {
+            setMessage({ type: 'error', text: 'Groq API key cannot be empty' });
+            return;
+        }
+        const success = setGroqApiKey(groqKey);
+        if (success) {
+            setHasGroqKey(true);
+            setMessage({ type: 'success', text: 'Groq API key saved!' });
+            setTimeout(() => setMessage(null), 3000);
+        } else {
+            setMessage({ type: 'error', text: 'Failed to save Groq API key' });
+        }
+    };
+
+    const handleRemoveGroqKey = () => {
+        removeGroqApiKey();
+        setGroqKeyInput('');
+        setHasGroqKey(false);
+        setShowConfirmDeleteGroq(false);
+        setMessage({ type: 'success', text: 'Groq API key removed.' });
         setTimeout(() => setMessage(null), 3000);
     };
 
@@ -249,6 +290,85 @@ const Settings: React.FC = () => {
                 </div>
             </div>
 
+            {/* Groq API Key for AI Questions */}
+            <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
+                <div className="p-6 border-b border-gray-100 dark:border-slate-700">
+                    <div className="flex items-center gap-3 mb-4">
+                        <div className="w-10 h-10 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center text-orange-600 dark:text-orange-400">
+                            <Zap size={20} />
+                        </div>
+                        <div>
+                            <h3 className="font-bold text-gray-900 dark:text-white">Groq AI (Questions)</h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">Fast AI for generating quiz questions</p>
+                        </div>
+                    </div>
+
+                    {/* Groq Info */}
+                    <div className={`${hasGroqKey ? 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800' : 'bg-orange-50 dark:bg-orange-900/20 border-orange-200 dark:border-orange-800'} border rounded-xl p-3 mb-4`}>
+                        <p className={`text-xs font-medium ${hasGroqKey ? 'text-green-700 dark:text-green-400' : 'text-orange-700 dark:text-orange-400'}`}>
+                            {hasGroqKey ? '✅ Groq will be used for AI question generation!' : '💡 Optional: Add Groq key for faster AI question generation. Falls back to Gemini if not set.'}
+                        </p>
+                    </div>
+
+                    {/* Groq API Key Input */}
+                    <div>
+                        <div className="flex items-center justify-between mb-2">
+                            <div className="flex items-center gap-2">
+                                <Zap size={16} className="text-orange-500" />
+                                <span className="font-medium text-gray-900 dark:text-white text-sm">Groq API Key</span>
+                            </div>
+                            {hasGroqKey ? (
+                                <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 px-2 py-1 rounded-lg font-medium">✓ Active</span>
+                            ) : (
+                                <span className="text-xs bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400 px-2 py-1 rounded-lg font-medium">Optional</span>
+                            )}
+                        </div>
+                        <div className="relative mb-2">
+                            <input
+                                type={showGroqKey ? 'text' : 'password'}
+                                value={groqKey}
+                                onChange={(e) => setGroqKeyInput(e.target.value)}
+                                placeholder="Enter your Groq API key"
+                                className="w-full px-4 py-3 pr-12 rounded-xl border border-gray-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-gray-900 dark:text-white focus:border-orange-500 focus:ring-2 focus:ring-orange-100 dark:focus:ring-orange-900/30 outline-none transition-all font-mono text-sm"
+                            />
+                            <button
+                                onClick={() => setShowGroqKey(!showGroqKey)}
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+                            >
+                                {showGroqKey ? <EyeOff size={18} /> : <Eye size={18} />}
+                            </button>
+                        </div>
+                        <div className="flex gap-2">
+                            <button
+                                onClick={handleSaveGroqKey}
+                                className="flex-1 bg-orange-600 text-white py-2.5 rounded-xl font-semibold hover:bg-orange-700 transition-colors text-sm"
+                            >
+                                {hasGroqKey ? 'Update' : 'Save'}
+                            </button>
+                            {hasGroqKey && (
+                                <button
+                                    onClick={() => setShowConfirmDeleteGroq(true)}
+                                    className="px-3 py-2.5 rounded-xl border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+                                >
+                                    <Trash2 size={16} />
+                                </button>
+                            )}
+                        </div>
+                        <div className="mt-2">
+                            <a
+                                href="https://console.groq.com/keys"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-1 text-xs text-orange-600 dark:text-orange-400 hover:underline"
+                            >
+                                <ExternalLink size={12} />
+                                Get free Groq API key
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             {/* AI Features Status */}
             <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm overflow-hidden">
                 <div className="p-6">
@@ -326,6 +446,39 @@ const Settings: React.FC = () => {
                                 <button
                                     onClick={handleRemoveApiKey}
                                     className="flex-1 px-4 py-3 rounded-xl bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
+                                >
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
+            
+            {/* Confirm Delete Groq Modal */}
+            {
+                showConfirmDeleteGroq && (
+                    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+                        <div className="bg-white dark:bg-slate-800 rounded-2xl p-6 max-w-sm w-full shadow-xl animate-fade-in">
+                            <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <AlertCircle size={24} className="text-orange-600 dark:text-orange-400" />
+                            </div>
+                            <h3 className="text-lg font-bold text-gray-900 dark:text-white text-center mb-2">
+                                Remove Groq API Key?
+                            </h3>
+                            <p className="text-sm text-gray-600 dark:text-gray-400 text-center mb-6">
+                                This will remove your Groq key. AI questions will use Gemini instead.
+                            </p>
+                            <div className="flex gap-3">
+                                <button
+                                    onClick={() => setShowConfirmDeleteGroq(false)}
+                                    className="flex-1 px-4 py-3 rounded-xl border border-gray-200 dark:border-slate-600 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    onClick={handleRemoveGroqKey}
+                                    className="flex-1 px-4 py-3 rounded-xl bg-orange-600 text-white font-semibold hover:bg-orange-700 transition-colors"
                                 >
                                     Remove
                                 </button>
